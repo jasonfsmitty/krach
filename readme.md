@@ -31,13 +31,13 @@ Where:
 
 The algorithm is recursive, in that you need a current rating to calculate a new rating.  To deal with this, all teams are assigned the same default rating (1). This is used to calculate the first set of new ratings which are normalized then fed back into the algorithm.  This is repeated until the results converge on the 'final' set of ratings.
 
-Note, http://elynah.com/tbrw/tbrw.cgi?krach has several different equivalant formalations of the algorithm, but includes this version, identical to the one above:
+The KRACH-specific site at http://elynah.com/tbrw/tbrw.cgi?krach has several different equivalant formalations of the algorithm, including one that matches the above equation. That equation is what this tool implements.
 
-```
-Ki = Vi / [ ∑j Nij / (Ki + Kj) ]
-```
+## Divergance from Bradley-Terry Model
 
-The tool provided here implements this variation of the algorithm.  As discussed elsewhere, this avoids needing to specifically deal with undefeated teams.
+The primary divergance between KRACH and Bradley-Terry is how the KRACH algorithm deals with tie games.  Ties used to be a normal part of the hockey season, but these days there is overtime and shootouts to give each game a winner and loser.  In leagues that do not use KRACH (like the NHL), teams can still get some points just by making it to the end of regulation tied.  In the original KRACH algorithm, a tie would count as half a win; this means `Wi = (Num Wins) + 0.5 (Num Ties)` (as opposed to the raw number of wins).  I did not find any updates to the algorithm to deal with overtime and shootout wins/losses.
+
+The other difference with KRACH is that it calculates a Strength-of-Schedule for each team; as you might expect, this is the weighted average of the KRACH ratings for all games played by the team.  This weighted factor is already accounted for in the Bradley-Terry algorith, KRACH just extracts it out as another metric.
 
 # AHF Specifics
 
