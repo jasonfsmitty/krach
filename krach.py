@@ -256,7 +256,7 @@ class KRACH:
         return all( abs(original[team] - updated[team]) <= g_options.maxRatingsDiff for team in original )
 
 #----------------------------------------------------------------------------
-def parse_cmdline():
+def parseCommandLine():
     parser = argparse.ArgumentParser()
 
     parser.add_argument("-i", "--iterations",
@@ -290,9 +290,7 @@ def parse_cmdline():
     return args.inputFile
 
 #----------------------------------------------------------------------------
-if __name__ == "__main__":
-    inputFile = parse_cmdline()
-
+def main(inputFile):
     reader = AhfScoreReader()
     ledger = reader.read(inputFile)
 
@@ -312,3 +310,6 @@ if __name__ == "__main__":
 
     showRankings(ledger, ratings, sosAll)
 
+#----------------------------------------------------------------------------
+if __name__ == "__main__":
+    main(parseCommandLine())
