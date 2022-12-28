@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # KRACH ratings calculator. See readme.md for more details
 
+import logging
 import argparse
 import json
 import datetime
@@ -256,11 +257,11 @@ class KRACH:
             updated = self.calculateAll(ledger, ratings)
             loop += 1
             if self.areRatingsEqual(ratings, updated):
-                print("Convergence to final results took {} interations".format(loop))
+                logging.debug("Convergence to final results took {} interations".format(loop))
                 return updated
             ratings = updated
 
-        print("Failed to reach convergence after {} interations".format(loop))
+        logging.debug("Failed to reach convergence after {} interations".format(loop))
         return ratings
 
     #----------------------------------------------------------------------------
@@ -316,6 +317,11 @@ class KRACH:
 def parseCommandLine():
     parser = argparse.ArgumentParser()
 
+    parser.add_argument("--debug",
+        action  = 'store_true',
+        default = False,
+        help    = "Enable extra debug logging")
+
     parser.add_argument("-i", "--iterations",
         type    = int,
         default = g_options.maxIterations,
@@ -368,12 +374,15 @@ def parseCommandLine():
     g_options.minGamesPlayed    = args.min_games
     g_options.dateCutoff        = args.cutoff
 
+    if args.debug:
+        logging.getLogger().setLevel(logging.DEBUG)
+
     return args.inputFile
 
 #----------------------------------------------------------------------------
 def main(inputFile):
-    print("Processing '{}' with options:".format(inputFile))
-    print(g_options)
+    logging.debug("Processing '{}' with options:".format(inputFile))
+    logging.debug(g_options)
 
     reader = AhfScoreReader()
     ledger = reader.read(inputFile)
@@ -392,10 +401,10 @@ def main(inputFile):
     # Re-normalize now that the showcase teams are gone
     #ratings = krach.normalize(ratings)
 
-    print("")
     showRankings(ledger, ratings, sosAll)
 
 #----------------------------------------------------------------------------
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
     main(parseCommandLine())
 
