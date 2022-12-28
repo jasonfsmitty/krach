@@ -3,18 +3,28 @@
 
 import argparse
 import json
+import datetime
 from dataclasses import dataclass, field
 
 #----------------------------------------------------------------------------
 @dataclass
 class Options:
-    maxIterations:     int   = 10000
-    maxRatingsDiff:    float = 0.0001
+    # Options to determine when to stop recursing through the KRACH algorithm.
+    maxIterations:     int   = 10000   # max number of loops
+    maxRatingsDiff:    float = 0.0001  # max diff between two runs that is considered "equal"
+
+    # Options that control how shootout wins/losses and ties are weighted in the rankings
     shootoutWinValue:  float = 0.50
     shootoutLossValue: float = 0.50
     tieValue:          float = 0.50
-    filteredTeams:     list  = field(default_factory=lambda: [])
-    minGamesPlayed:    int   = 0
+
+    # Filters to remove teams from final rankings
+    filteredTeams:     list  = field(default_factory=lambda: []) # Explicit list of teams
+    minGamesPlayed:    int   = 0 # ignore teams with less than the min number of games
+
+    # Option to ignore games after a specific date cutoff. This allows using
+    # the latest score results to recreate any previous weeks KRACH rankings.
+    dateCutoff:        str   = field(default_factory=lambda: datetime.date.today())
 
     def __str__(self):
         lines = [
@@ -25,8 +35,12 @@ class Options:
             "  Tie Value           : {:3.2f}".format(self.tieValue),
             "  Ignore teams        : {}".format(str(self.filteredTeams)),
             "  Min Games Played    : {}".format(self.minGamesPlayed),
+            "  Date Cutoff         : {}".format(self.dateCutoff),
         ]
         return '\n'.join(lines)
+
+    def isValid(self, date):
+        return date <= self.dateCutoff
 
 g_options = Options()
 
@@ -163,23 +177,26 @@ class Ledger:
     def __init__(self):
         self.teams = dict()
 
-    def addGame(self, winner, loser):
+    def addGame(self, date, winner, loser):
         self.addTeam(winner)
         self.addTeam(loser)
-        self.teams[winner].addWin(loser)
-        self.teams[loser ].addLoss(winner)
+        if g_options.isValid(date):
+            self.teams[winner].addWin(loser)
+            self.teams[loser ].addLoss(winner)
 
-    def addShootout(self, winner, loser):
+    def addShootout(self, date, winner, loser):
         self.addTeam(winner)
         self.addTeam(loser)
-        self.teams[winner].addShootoutWin(loser)
-        self.teams[loser ].addShootoutLoss(winner)
+        if g_options.isValid(date):
+            self.teams[winner].addShootoutWin(loser)
+            self.teams[loser ].addShootoutLoss(winner)
 
-    def addTie(self, team1, team2):
+    def addTie(self, date, team1, team2):
         self.addTeam(team1)
         self.addTeam(team2)
-        self.teams[team1].addTie(team2)
-        self.teams[team2].addTie(team1)
+        if g_options.isValid(date):
+            self.teams[team1].addTie(team2)
+            self.teams[team2].addTie(team1)
 
     def addTeam(self, team):
         if not team in self.teams:
@@ -203,6 +220,7 @@ class AhfScoreReader:
         return ledger
 
     def readGame(self, ledger, game):
+        date       = datetime.datetime.strptime(game['date'], "%b %d, %Y").date()
         team1      = game['homeTeam']['name']
         team1score = game['finalScore']['homeGoals']
         team2      = game['visitorTeam']['name']
@@ -213,11 +231,11 @@ class AhfScoreReader:
         loser  = team2 if team1score > team2score else team1
 
         if team1score == team2score:
-            ledger.addTie(team1, team2)
+            ledger.addTie(date, team1, team2)
         elif shootout:
-            ledger.addShootout(winner, loser)
+            ledger.addShootout(date, winner, loser)
         else:
-            ledger.addGame(winner, loser)
+            ledger.addGame(date, winner, loser)
 
 #----------------------------------------------------------------------------
 # Implements the KRACH algorithm.
@@ -333,6 +351,11 @@ def parseCommandLine():
         default = g_options.minGamesPlayed,
         help    = "Filter teams from final standings that have less than this many games played")
 
+    parser.add_argument("--cutoff",
+        type    = datetime.date.fromisoformat,
+        default = g_options.dateCutoff,
+        help    = "Cutoff date; games played after this date will be ignored")
+
     parser.add_argument("inputFile")
 
     args = parser.parse_args()
@@ -343,6 +366,7 @@ def parseCommandLine():
     g_options.tieValue          = args.tie
     g_options.filteredTeams     = args.filter.split(',')
     g_options.minGamesPlayed    = args.min_games
+    g_options.dateCutoff        = args.cutoff
 
     return args.inputFile
 
