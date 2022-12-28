@@ -5,19 +5,28 @@ import argparse
 import json
 from dataclasses import dataclass, field
 
-FILTERED_TEAMS = [
-    'Littleton Hockey Association',
-    'NYC Raiders Hockey Club',
-    'Orland Park Vikings',
-]
-
 #----------------------------------------------------------------------------
 @dataclass
 class Options:
-    maxIterations:  int   = 10000
-    maxRatingsDiff: float = 0.0001
-    soWinValue:     float = 0.50
-    filteredTeams:  list  = field( default_factory=lambda: FILTERED_TEAMS )
+    maxIterations:     int   = 10000
+    maxRatingsDiff:    float = 0.0001
+    shootoutWinValue:  float = 0.50
+    shootoutLossValue: float = 0.50
+    tieValue:          float = 0.50
+    filteredTeams:     list  = field(default_factory=lambda: [])
+    minGamesPlayed:    int   = 0
+
+    def __str__(self):
+        lines = [
+            "  Max Iterations      : {}".format(self.maxIterations),
+            "  Max Ratings Diff    : {}".format(self.maxRatingsDiff),
+            "  Shootout Win Value  : {:3.2f}".format(self.shootoutWinValue),
+            "  Shootout Loss Value : {:3.2f}".format(self.shootoutLossValue),
+            "  Tie Value           : {:3.2f}".format(self.tieValue),
+            "  Ignore teams        : {}".format(str(self.filteredTeams)),
+            "  Min Games Played    : {}".format(self.minGamesPlayed),
+        ]
+        return '\n'.join(lines)
 
 g_options = Options()
 
@@ -26,26 +35,36 @@ def shouldIgnore(team):
     return team in g_options.filteredTeams
 
 #----------------------------------------------------------------------------
-def filterTeams(ratings):
+def filterTeam(ratings, team):
+    if team in ratings:
+        ratings.pop(team)
+
+#----------------------------------------------------------------------------
+def filterTeams(ledger, ratings):
+    # remove teams explicitly called out
     for team in g_options.filteredTeams:
-        if team in ratings:
-            ratings.pop(team)
+        filterTeam(ratings, team)
+
+    for name,team in ledger.teams.items():
+        if team.record.played < g_options.minGamesPlayed:
+            filterTeam(ratings, name)
+
     return ratings
 
 #----------------------------------------------------------------------------
 def showRankings(ledger, ratings, sosAll):
     # brute force search for a scaling factor that will
     # allow all ratings to be displayed as integers
-    scaleFactor = 1
+    scaleFactor = 1.0
     for rating in ratings.values():
-        while int(rating * scaleFactor) <= 0:
+        while rating and int(rating * scaleFactor) <= 0:
             scaleFactor *= 10
 
     def scale(value):
         return int(scaleFactor * value + 0.5)
 
-    dividor = "-" * 65
-    print(f"Rank KRACH   Team                           WW-LL-SW-SL    SoS")
+    dividor = "-" * 80
+    print(f"Rank KRACH   Team                                     GP  WW-LL-SW-SL-TT    SoS")
     print(dividor)
 
     ratings = sorted(ratings.items(), key=lambda kv: kv[1], reverse = True)
@@ -58,12 +77,14 @@ def showRankings(ledger, ratings, sosAll):
         team   = entry[0]
         rating = scale(entry[1])
         record = ledger.teams[team].record
+        gp     = record.played
         wins   = record.wins
         losses = record.losses
         sow    = record.soWins
         sol    = record.soLosses
+        ties   = record.ties
         sos    = scale(sosAll.get(team, 0))
-        print(f"{rank:>3} {rating:>6} : {team:<30} {wins:>2}-{losses:>2}-{sow:>2}-{sol:>2} {sos:>7}")
+        print(f"{rank:>3} {rating:>6} : {team:<40} {gp:>2}  {wins:>2}-{losses:>2}-{sow:>2}-{sol:>2}-{ties:>2} {sos:>7}")
 
 #----------------------------------------------------------------------------
 @dataclass
@@ -73,6 +94,7 @@ class Record:
     losses:   int = 0
     soWins:   int = 0
     soLosses: int = 0
+    ties:     int = 0
 
     def addWin(self):
         self.played += 1
@@ -90,8 +112,15 @@ class Record:
         self.played += 1
         self.soLosses += 1
 
+    def addTie(self):
+        self.played += 1
+        self.ties += 1
+
     def winPoints(self):
-        return self.wins + (self.soWins * g_options.soWinValue) + (self.soLosses * (1.0 - g_options.soWinValue))
+        return self.wins \
+            + (self.soWins   * g_options.shootoutWinValue) \
+            + (self.soLosses * g_options.shootoutLossValue) \
+            + (self.ties     * g_options.tieValue)
 
 #----------------------------------------------------------------------------
 class Team:
@@ -123,6 +152,11 @@ class Team:
         self.addOpponent(opponent)
         self.matchups[opponent].addShootoutLoss()
 
+    def addTie(self, opponent):
+        self.record.addTie()
+        self.addOpponent(opponent)
+        self.matchups[opponent].addTie()
+
 #----------------------------------------------------------------------------
 # Tracks all teams and their game results
 class Ledger:
@@ -140,6 +174,12 @@ class Ledger:
         self.addTeam(loser)
         self.teams[winner].addShootoutWin(loser)
         self.teams[loser ].addShootoutLoss(winner)
+
+    def addTie(self, team1, team2):
+        self.addTeam(team1)
+        self.addTeam(team2)
+        self.teams[team1].addTie(team2)
+        self.teams[team2].addTie(team1)
 
     def addTeam(self, team):
         if not team in self.teams:
@@ -169,13 +209,12 @@ class AhfScoreReader:
         team2score = game['finalScore']['visitorGoals']
         shootout   = any(map(lambda x: x['title'] == 'SO', game['scoresByPeriod'])) 
 
-        # Thanks to the shootout, AHF does not permit tie games
-        assert team1score != team2score, f"Teams {team1} and {team2} have a tie score!"
-
         winner = team1 if team1score > team2score else team2
         loser  = team2 if team1score > team2score else team1
 
-        if shootout:
+        if team1score == team2score:
+            ledger.addTie(team1, team2)
+        elif shootout:
             ledger.addShootout(winner, loser)
         else:
             ledger.addGame(winner, loser)
@@ -199,11 +238,11 @@ class KRACH:
             updated = self.calculateAll(ledger, ratings)
             loop += 1
             if self.areRatingsEqual(ratings, updated):
-                print("Finished after {} interations".format(loop))
+                print("Convergence to final results took {} interations".format(loop))
                 return updated
             ratings = updated
 
-        print("Bailed out after {} interations".format(loop))
+        print("Failed to reach convergence after {} interations".format(loop))
         return ratings
 
     #----------------------------------------------------------------------------
@@ -271,26 +310,47 @@ def parseCommandLine():
 
     parser.add_argument("-w", "--shootout-win",
         type    = float,
-        default = g_options.soWinValue,
+        default = g_options.shootoutWinValue,
         help    = "Value of winning a game in overtime/shootout [0.0-1.0]")
+
+    parser.add_argument("-l", "--shootout-loss",
+        type    = float,
+        default = None,
+        help    = "Value of losing a game in overtime/shootout [0.0-1.0] (defaults to (1.0 - shootoutWin)")
+
+    parser.add_argument("-t", "--tie",
+        type    = float,
+        default = g_options.tieValue,
+        help    = "Value given to both teams for a tie")
 
     parser.add_argument("-f", "--filter",
         type    = str,
         default = ",".join(g_options.filteredTeams),
         help    = "Comma separated list of teams to remove from final rankings")
 
+    parser.add_argument("-m", "--min-games",
+        type    = int,
+        default = g_options.minGamesPlayed,
+        help    = "Filter teams from final standings that have less than this many games played")
+
     parser.add_argument("inputFile")
 
     args = parser.parse_args()
-    g_options.maxIterations  = args.iterations
-    g_options.maxRatingsDiff = args.diff
-    g_options.soWinValue     = args.shootout_win
-    g_options.filteredTeams  = args.filter.split(',')
+    g_options.maxIterations     = args.iterations
+    g_options.maxRatingsDiff    = args.diff
+    g_options.shootoutWinValue  = args.shootout_win
+    g_options.shootoutLossValue = args.shootout_loss if args.shootout_loss else (1.0 - args.shootout_win)
+    g_options.tieValue          = args.tie
+    g_options.filteredTeams     = args.filter.split(',')
+    g_options.minGamesPlayed    = args.min_games
 
     return args.inputFile
 
 #----------------------------------------------------------------------------
 def main(inputFile):
+    print("Processing '{}' with options:".format(inputFile))
+    print(g_options)
+
     reader = AhfScoreReader()
     ledger = reader.read(inputFile)
 
@@ -303,13 +363,15 @@ def main(inputFile):
     sosAll = krach.strengthOfSchedule(ledger, ratings)
 
     # Remove the one-off showcase teams
-    ratings = filterTeams(ratings)
+    ratings = filterTeams(ledger, ratings)
 
     # Re-normalize now that the showcase teams are gone
     #ratings = krach.normalize(ratings)
 
+    print("")
     showRankings(ledger, ratings, sosAll)
 
 #----------------------------------------------------------------------------
 if __name__ == "__main__":
     main(parseCommandLine())
+
