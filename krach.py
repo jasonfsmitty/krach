@@ -4,6 +4,7 @@
 #   http://elynah.com/tbrw/tbrw.cgi?krach
 # See readme.md for more details.
 
+import sys
 import logging
 import argparse
 import json
@@ -11,8 +12,18 @@ import datetime
 from dataclasses import dataclass, field
 
 #----------------------------------------------------------------------------
+def writeMarkdownTable(f, data, keyTitle="Option", valueTitle="Value"):
+    f.write(f"| {keyTitle} | {valueTitle} |\n")
+    f.write(f"| :----- | ----: |\n")
+    for k,v in data.items():
+        f.write(f"| {k} | {v} |\n")
+    f.write(f"\n")
+
+#----------------------------------------------------------------------------
 @dataclass
 class Options:
+    divisionName:      str   = ""
+
     # Options to determine when to stop recursing through the KRACH algorithm.
     maxIterations:     int   = 10000   # max number of loops
     maxRatingsDiff:    float = 0.0001  # max diff between two runs that is considered "equal"
@@ -50,14 +61,6 @@ class Options:
     def __str__(self):
         return '\n'.join([ "  {:<20} : {}".format(k, v) for k,v in self.dict().items() ])
 
-    def writeMarkdown(self, f):
-        f.write(f"## Generation Options\n")
-        f.write(f"| Option | Value |\n")
-        f.write(f"| :----- | ----: |\n")
-        for k,v in self.dict().items():
-            f.write(f"| {k} | {v} |\n")
-        f.write(f"\n")
-
 g_options = Options()
 
 #----------------------------------------------------------------------------
@@ -74,6 +77,39 @@ def filterTeams(ledger, ratings):
     for name,team in ledger.teams.items():
         if team.record.played < g_options.minGamesPlayed:
             removeTeam(ratings, name)
+
+#----------------------------------------------------------------------------
+# AHF specific: each division gets split into subdivisions, with each
+# competing in their own playoffs.
+SUBDIVISIONS = [
+    'Championship',
+    'Gold',
+    'Silver',
+    'Bronze',
+]
+
+# Only the top 4 teams of each subdivision compete in the playoffs;
+# THe AHF KRACH rankings list other teams as being in the lowest
+# subdivision, but this makes it clearer who is in/out of playoff
+# contention.
+NO_SUBDIVISION = ""
+
+def subdivision(numTeams, rank):
+    if numTeams <= 10:
+        if rank <=  4: return SUBDIVISIONS[0]
+    elif numTeams >= 11 and numTeams <= 14:
+        if rank <=  4: return SUBDIVISIONS[0]
+        if rank <=  8: return SUBDIVISIONS[1]
+    elif numTeams >= 15 and numTeams <= 26:
+        if rank <=  4: return SUBDIVISIONS[0]
+        if rank <=  8: return SUBDIVISIONS[1]
+        if rank <= 12: return SUBDIVISIONS[2]
+    else:
+        if rank <=  4: return SUBDIVISIONS[0]
+        if rank <=  8: return SUBDIVISIONS[1]
+        if rank <= 12: return SUBDIVISIONS[2]
+        if rank <= 16: return SUBDIVISIONS[3]
+    return NO_SUBDIVISION
 
 #----------------------------------------------------------------------------
 def scaleRankings(ratings, sosAll):
@@ -98,32 +134,32 @@ def showRankings(ledger, ratings, sosAll):
     print(f"Rank KRACH   Team                                     GP  WW-LL-SW-SL-TT    SoS")
     print(dividor)
 
+    numTeams = len(ratings)
     for rank,entry in enumerate(ratings):
-        # show subdivision split
-        if rank in [4, 8]:
-            print(dividor)
-
         rank   += 1
+        subdiv = subdivision(numTeams, rank)
         team   = entry[0]
         rating = entry[1]
         gp     = ledger.teams[team].record.played
         record = str(ledger.teams[team].record)
         sos    = sosAll.get(team, 0)
-        print(f"{rank:>3} {rating:>6} : {team:<40} {gp:>2}  {record} {sos:>7}")
+        print(f"{rank:>3} {rating:>6} : {subdiv:<13} : {team:<40} {gp:>2}  {record} {sos:>7}")
 
 #----------------------------------------------------------------------------
 def writeMarkdownRankings(outputFile, ledger, ratings, sosAll):
 
     with open(outputFile, "w") as f:
-        # Handle column headings, and dividor line (with alignment controls)
+        f.write(f"# {g_options.divisionName} KRACH Rankings\n")
+
         lines = [
-            ['Rank', 'KRACH', 'Team', 'GP',   'W',    'L',    'SOW',  'SOL',  'T',    'SoS'],
-            ['---:', '---:',  ':---', '---:', '---:', '---:', '---:', '---:', '---:', '---:'],
+            ['Rank', 'KRACH', 'Subdivision', 'Team', 'GP',   'W',    'L',    'SOW',  'SOL',  'T',    'SoS'],
+            ['---:', '---:',  ':---',        ':---', '---:', '---:', '---:', '---:', '---:', '---:', '---:'],
         ]
         for line in lines:
             f.write('|'.join(line))
             f.write('\n')
 
+        numTeams = len(ratings)
         for rank,entry in enumerate(ratings):
             rank   += 1
             team   = entry[0]
@@ -136,19 +172,26 @@ def writeMarkdownRankings(outputFile, ledger, ratings, sosAll):
             otl    = record.soLosses
             ties   = record.ties
             sos    = sosAll.get(team, 0)
-            columns = [rank, rating, team, gp, wins, losses, otw, otl, ties, sos]
+            columns = [rank, rating, subdivision(numTeams, rank), team, gp, wins, losses, otw, otl, ties, sos]
             f.write('|'.join(map(str, columns)))
             f.write('\n')
 
 
-        f.write(f"# Generation Details\n")
-        f.write(f"## Game Data\n")
-        f.write(f"| Start Date | End Date |\n")
-        f.write(f"| :--- | :--- |\n")
-        f.write(f"| {ledger.newestGame} | {ledger.oldestGame} |\n")
-        f.write('\n')
+        f.write("# Generation Details\n")
+        f.write("\n")
 
-        g_options.writeMarkdown(f)
+        f.write("Generated with command line:\n")
+        f.write("```\n")
+        f.write(" ".join(sys.argv[:]))
+        f.write("\n```\n")
+        f.write("\n")
+        
+        data = {
+            "Game Start Date" : f"{ledger.newestGame}",
+            "Game End Date"   : f"{ledger.oldestGame}",
+        }
+        data.update(g_options.dict())
+        writeMarkdownTable(f, data)
 
 #----------------------------------------------------------------------------
 @dataclass
@@ -386,6 +429,11 @@ def parseCommandLine():
         default = False,
         help    = "Enable extra debug logging")
 
+    parser.add_argument("-n", "--name",
+        type    = str,
+        default = g_options.divisionName,
+        help    = "Division Name")
+
     parser.add_argument("-i", "--iterations",
         type    = int,
         default = g_options.maxIterations,
@@ -435,6 +483,7 @@ def parseCommandLine():
     parser.add_argument("inputFile")
 
     args = parser.parse_args()
+    g_options.divisionName      = args.name
     g_options.maxIterations     = args.iterations
     g_options.maxRatingsDiff    = args.diff
     g_options.shootoutWinValue  = args.shootout_win

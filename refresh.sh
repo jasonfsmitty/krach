@@ -6,7 +6,7 @@ cd results/
 README="readme.md"
 TIMESTAMP="$(date)"
 
-ENABLE_DATE_RANGE=false
+ENABLE_DATE_RANGE=true
 
 echo "# KRACH Ratings" > ${README}
 echo "Click below to see KRACH ratings per each division." >> ${README}
@@ -27,7 +27,7 @@ do
 	[[ $division =~ ^scores_(.*) ]] && division=${BASH_REMATCH[1]}
 
 	echo "*** ${division} ***"
-	../krach.py ${@} -o ${output} ${x}
+	../krach.py ${@} -n "${division}" -o ${output} ${x}
 	[[ ${PIPESTATUS[0]} -ne 0 ]] && exit 1
 	echo "" 
 
