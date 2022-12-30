@@ -62,7 +62,7 @@ def getDivisions(season):
 
 #------------------------------------------------------------------------------
 if __name__ == "__main__":
-    os.mkdir("results")
+    os.makedirs("results", exist_ok=True)
     os.chdir("results")
 
     season = 1654 # Hard-coded for the 2022-2023 season

@@ -26,8 +26,8 @@ Generated with command line:
 
 | Option | Value |
 | :----- | ----: |
-| Game Start Date | 2022-08-28 |
-| Game End Date | 2022-08-28 |
+| Start Date | 2022-08-28 |
+| End Date | 2022-12-18 |
 | Max Iterations | 10 |
 | Max Ratings Diff | 0.0001 |
 | Shootout Win Value | 0.50 |

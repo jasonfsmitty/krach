@@ -14,7 +14,7 @@ echo "Click below to see KRACH ratings per each division." >> ${README}
 
 if $ENABLE_DATE_RANGE
 then
-	echo "| Division | Data Start | Data End |" >> ${README}
+	echo "| Division | Season Start | Latest Game |" >> ${README}
 	echo "| :------- | :--------- | :------- |" >> ${README}
 fi
 

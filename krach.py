@@ -187,8 +187,8 @@ def writeMarkdownRankings(outputFile, ledger, ratings, sosAll):
         f.write("\n")
         
         data = {
-            "Game Start Date" : f"{ledger.newestGame}",
-            "Game End Date"   : f"{ledger.oldestGame}",
+            "Start Date" : f"{ledger.oldestGame}",
+            "End Date"   : f"{ledger.newestGame}",
         }
         data.update(g_options.dict())
         writeMarkdownTable(f, data)
@@ -306,7 +306,7 @@ class Ledger:
     def recordDate(self, date):
         if not self.oldestGame or date < self.oldestGame:
             self.oldestGame = date
-        if not self.newestGame or date < self.newestGame:
+        if not self.newestGame or date > self.newestGame:
             self.newestGame = date
 
 #----------------------------------------------------------------------------
