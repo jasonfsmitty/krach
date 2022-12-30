@@ -131,7 +131,7 @@ def scaleRankings(ratings, sosAll):
 #----------------------------------------------------------------------------
 def showRankings(ledger, ratings, sosAll):
     dividor = "-" * 80
-    print(f"Rank KRACH   Team                                     GP  WW-LL-SW-SL-TT    SoS")
+    print(f"Rank KRACH   Subdivision     Team                                     GP  WW-LL-SW-SL-TT    SoS")
     print(dividor)
 
     numTeams = len(ratings)
