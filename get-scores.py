@@ -38,9 +38,7 @@ def getDate(scores):
 
 #------------------------------------------------------------------------------
 def filename(divisionName, scores):
-    dt = getDate(scores)
-    dateStr = dt.strftime("%Y-%m-%d")
-    return "scores_{}_{}.js".format(divisionName.replace(' ', '-'), dateStr)
+    return "scores_{}.js".format(divisionName.replace(' ', '-'))
 
 #------------------------------------------------------------------------------
 def saveToFile(divisionName, scores):

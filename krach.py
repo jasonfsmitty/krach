@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-# KRACH ratings calculator. See readme.md for more details
+# General-purpose KRACH ratings calculator, based on:
+#   Bradley-Terry Model: https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model
+#   http://elynah.com/tbrw/tbrw.cgi?krach
+# See readme.md for more details.
 
 import logging
 import argparse
@@ -19,38 +22,46 @@ class Options:
     shootoutLossValue: float = 0.50
     tieValue:          float = 0.50
 
-    # Filters to remove teams from final rankings
+    # Showcases may include guest teams, that play valid games that count toward
+    # KRACH ratings, but are not included in the final standings. These options
+    # are for filtering out these teams.
     filteredTeams:     list  = field(default_factory=lambda: []) # Explicit list of teams
     minGamesPlayed:    int   = 0 # ignore teams with less than the min number of games
 
     # Option to ignore games after a specific date cutoff. This allows using
-    # the latest score results to recreate any previous weeks KRACH rankings.
+    # the latest score results to recreate the KRACH ratings from previous weeks.
     dateCutoff:        str   = field(default_factory=lambda: datetime.date.today())
-
-    def __str__(self):
-        lines = [
-            "  Max Iterations      : {}".format(self.maxIterations),
-            "  Max Ratings Diff    : {}".format(self.maxRatingsDiff),
-            "  Shootout Win Value  : {:3.2f}".format(self.shootoutWinValue),
-            "  Shootout Loss Value : {:3.2f}".format(self.shootoutLossValue),
-            "  Tie Value           : {:3.2f}".format(self.tieValue),
-            "  Ignore teams        : {}".format(str(self.filteredTeams)),
-            "  Min Games Played    : {}".format(self.minGamesPlayed),
-            "  Date Cutoff         : {}".format(self.dateCutoff),
-        ]
-        return '\n'.join(lines)
 
     def isValid(self, date):
         return date <= self.dateCutoff
 
+    def dict(self):
+        return {
+            "Max Iterations"      : "{}".format(self.maxIterations),
+            "Max Ratings Diff"    : "{}".format(self.maxRatingsDiff),
+            "Shootout Win Value"  : "{:3.2f}".format(self.shootoutWinValue),
+            "Shootout Loss Value" : "{:3.2f}".format(self.shootoutLossValue),
+            "Tie Value"           : "{:3.2f}".format(self.tieValue),
+            "Ignore teams"        : "{}".format(",".join(self.filteredTeams)),
+            "Min Games Played"    : "{}".format(self.minGamesPlayed),
+            "Date Cutoff"         : "{}".format(self.dateCutoff),
+        }
+
+    def __str__(self):
+        return '\n'.join([ "  {:<20} : {}".format(k, v) for k,v in self.dict().items() ])
+
+    def writeMarkdown(self, f):
+        f.write(f"## Generation Options\n")
+        f.write(f"| Option | Value |\n")
+        f.write(f"| :----- | ----: |\n")
+        for k,v in self.dict().items():
+            f.write(f"| {k} | {v} |\n")
+        f.write(f"\n")
+
 g_options = Options()
 
 #----------------------------------------------------------------------------
-def shouldIgnore(team):
-    return team in g_options.filteredTeams
-
-#----------------------------------------------------------------------------
-def filterTeam(ratings, team):
+def removeTeam(ratings, team):
     if team in ratings:
         ratings.pop(team)
 
@@ -58,31 +69,35 @@ def filterTeam(ratings, team):
 def filterTeams(ledger, ratings):
     # remove teams explicitly called out
     for team in g_options.filteredTeams:
-        filterTeam(ratings, team)
+        removeTeam(ratings, team)
 
     for name,team in ledger.teams.items():
         if team.record.played < g_options.minGamesPlayed:
-            filterTeam(ratings, name)
-
-    return ratings
+            removeTeam(ratings, name)
 
 #----------------------------------------------------------------------------
-def showRankings(ledger, ratings, sosAll):
+def scaleRankings(ratings, sosAll):
     # brute force search for a scaling factor that will
     # allow all ratings to be displayed as integers
-    scaleFactor = 1.0
+    scaleFactor = 1
     for rating in ratings.values():
         while rating and int(rating * scaleFactor) <= 0:
             scaleFactor *= 10
 
-    def scale(value):
-        return int(scaleFactor * value + 0.5)
+    logging.debug("Scaling all ratings by {}".format(scaleFactor))
 
+    for team in ratings:
+        ratings[team] = int(ratings[team] * scaleFactor + 0.5)
+
+    for team in sosAll:
+        sosAll[team] = int(sosAll[team] * scaleFactor + 0.5)
+
+#----------------------------------------------------------------------------
+def showRankings(ledger, ratings, sosAll):
     dividor = "-" * 80
     print(f"Rank KRACH   Team                                     GP  WW-LL-SW-SL-TT    SoS")
     print(dividor)
 
-    ratings = sorted(ratings.items(), key=lambda kv: kv[1], reverse = True)
     for rank,entry in enumerate(ratings):
         # show subdivision split
         if rank in [4, 8]:
@@ -90,16 +105,50 @@ def showRankings(ledger, ratings, sosAll):
 
         rank   += 1
         team   = entry[0]
-        rating = scale(entry[1])
-        record = ledger.teams[team].record
-        gp     = record.played
-        wins   = record.wins
-        losses = record.losses
-        sow    = record.soWins
-        sol    = record.soLosses
-        ties   = record.ties
-        sos    = scale(sosAll.get(team, 0))
-        print(f"{rank:>3} {rating:>6} : {team:<40} {gp:>2}  {wins:>2}-{losses:>2}-{sow:>2}-{sol:>2}-{ties:>2} {sos:>7}")
+        rating = entry[1]
+        gp     = ledger.teams[team].record.played
+        record = str(ledger.teams[team].record)
+        sos    = sosAll.get(team, 0)
+        print(f"{rank:>3} {rating:>6} : {team:<40} {gp:>2}  {record} {sos:>7}")
+
+#----------------------------------------------------------------------------
+def writeMarkdownRankings(outputFile, ledger, ratings, sosAll):
+
+    with open(outputFile, "w") as f:
+        # Handle column headings, and dividor line (with alignment controls)
+        lines = [
+            ['Rank', 'KRACH', 'Team', 'GP',   'W',    'L',    'SOW',  'SOL',  'T',    'SoS'],
+            ['---:', '---:',  ':---', '---:', '---:', '---:', '---:', '---:', '---:', '---:'],
+        ]
+        for line in lines:
+            f.write('|'.join(line))
+            f.write('\n')
+
+        for rank,entry in enumerate(ratings):
+            rank   += 1
+            team   = entry[0]
+            rating = entry[1]
+            record = ledger.teams[team].record
+            gp     = record.played
+            wins   = record.wins
+            losses = record.losses
+            otw    = record.soWins
+            otl    = record.soLosses
+            ties   = record.ties
+            sos    = sosAll.get(team, 0)
+            columns = [rank, rating, team, gp, wins, losses, otw, otl, ties, sos]
+            f.write('|'.join(map(str, columns)))
+            f.write('\n')
+
+
+        f.write(f"# Generation Details\n")
+        f.write(f"## Game Data\n")
+        f.write(f"| Start Date | End Date |\n")
+        f.write(f"| :--- | :--- |\n")
+        f.write(f"| {ledger.newestGame} | {ledger.oldestGame} |\n")
+        f.write('\n')
+
+        g_options.writeMarkdown(f)
 
 #----------------------------------------------------------------------------
 @dataclass
@@ -110,6 +159,9 @@ class Record:
     soWins:   int = 0
     soLosses: int = 0
     ties:     int = 0
+
+    def __str__(self):
+        return f"{self.wins:>2}-{self.losses:>2}-{self.soWins:>2}-{self.soLosses:>2}-{self.ties:>2}"
 
     def addWin(self):
         self.played += 1
@@ -173,15 +225,18 @@ class Team:
         self.matchups[opponent].addTie()
 
 #----------------------------------------------------------------------------
-# Tracks all teams and their game results
+# Tracks all teams and their game results.
 class Ledger:
     def __init__(self):
         self.teams = dict()
+        self.oldestGame = None
+        self.newestGame = None
 
     def addGame(self, date, winner, loser):
         self.addTeam(winner)
         self.addTeam(loser)
         if g_options.isValid(date):
+            self.recordDate(date)
             self.teams[winner].addWin(loser)
             self.teams[loser ].addLoss(winner)
 
@@ -189,6 +244,7 @@ class Ledger:
         self.addTeam(winner)
         self.addTeam(loser)
         if g_options.isValid(date):
+            self.recordDate(date)
             self.teams[winner].addShootoutWin(loser)
             self.teams[loser ].addShootoutLoss(winner)
 
@@ -196,6 +252,7 @@ class Ledger:
         self.addTeam(team1)
         self.addTeam(team2)
         if g_options.isValid(date):
+            self.recordDate(date)
             self.teams[team1].addTie(team2)
             self.teams[team2].addTie(team1)
 
@@ -203,40 +260,11 @@ class Ledger:
         if not team in self.teams:
             self.teams[team] = Team()
 
-#----------------------------------------------------------------------------
-# Read AHF score data into a ledger. This is specific to the JSON format
-# provided by the gamesheetstats.com API. To use this script with a different
-# data source, you would replace this reader with one specific to your context.
-class AhfScoreReader:
-    def __init__(self):
-        pass
-
-    def read(self, filename):
-        ledger = Ledger()
-        with open(filename) as f:
-            jdata = json.load(f)
-            for entry in jdata['0_0']:
-                for game in entry['games']:
-                    self.readGame(ledger, game)
-        return ledger
-
-    def readGame(self, ledger, game):
-        date       = datetime.datetime.strptime(game['date'], "%b %d, %Y").date()
-        team1      = game['homeTeam']['name']
-        team1score = game['finalScore']['homeGoals']
-        team2      = game['visitorTeam']['name']
-        team2score = game['finalScore']['visitorGoals']
-        shootout   = any(map(lambda x: x['title'] == 'SO', game['scoresByPeriod'])) 
-
-        winner = team1 if team1score > team2score else team2
-        loser  = team2 if team1score > team2score else team1
-
-        if team1score == team2score:
-            ledger.addTie(date, team1, team2)
-        elif shootout:
-            ledger.addShootout(date, winner, loser)
-        else:
-            ledger.addGame(date, winner, loser)
+    def recordDate(self, date):
+        if not self.oldestGame or date < self.oldestGame:
+            self.oldestGame = date
+        if not self.newestGame or date < self.newestGame:
+            self.newestGame = date
 
 #----------------------------------------------------------------------------
 # Implements the KRACH algorithm.
@@ -299,8 +327,7 @@ class KRACH:
             total = 0.0
             for j in ledger.teams:
                 if i != j and j in ledger.teams[i].matchups:
-                    matchup = ledger.teams[i].matchups[j]
-                    total += matchup.played * ratings[j]
+                    total += ledger.teams[i].matchups[j].played * ratings[j]
             sos[i] = total / ledger.teams[i].record.played
         return sos
 
@@ -312,6 +339,43 @@ class KRACH:
     #----------------------------------------------------------------------------
     def areRatingsEqual(self, original, updated):
         return all( abs(original[team] - updated[team]) <= g_options.maxRatingsDiff for team in original )
+
+#----------------------------------------------------------------------------
+# Read AHF score data into a ledger. This is specific to the JSON format
+# provided by the gamesheetstats.com API. To use this script with a different
+# data source, you would replace this reader with one specific to your context.
+class AhfScoreReader:
+    def __init__(self):
+        pass
+
+    #----------------------------------------------------------------------------
+    def read(self, filename):
+        ledger = Ledger()
+        with open(filename) as f:
+            jdata = json.load(f)
+            for entry in jdata['0_0']:
+                for game in entry['games']:
+                    self.readGame(ledger, game)
+        return ledger
+
+    #----------------------------------------------------------------------------
+    def readGame(self, ledger, game):
+        date       = datetime.datetime.strptime(game['date'], "%b %d, %Y").date()
+        team1      = game['homeTeam']['name']
+        team1score = game['finalScore']['homeGoals']
+        team2      = game['visitorTeam']['name']
+        team2score = game['finalScore']['visitorGoals']
+        shootout   = any(map(lambda x: x['title'] == 'SO', game['scoresByPeriod'])) 
+
+        winner = team1 if team1score > team2score else team2
+        loser  = team2 if team1score > team2score else team1
+
+        if team1score == team2score:
+            ledger.addTie(date, team1, team2)
+        elif shootout:
+            ledger.addShootout(date, winner, loser)
+        else:
+            ledger.addGame(date, winner, loser)
 
 #----------------------------------------------------------------------------
 def parseCommandLine():
@@ -362,6 +426,12 @@ def parseCommandLine():
         default = g_options.dateCutoff,
         help    = "Cutoff date; games played after this date will be ignored")
 
+    parser.add_argument("-o", "--output",
+        metavar = "<output.md>",
+        type    = str,
+        default = "",
+        help    = "Write final rankings as a markdown formatted file")
+
     parser.add_argument("inputFile")
 
     args = parser.parse_args()
@@ -377,34 +447,40 @@ def parseCommandLine():
     if args.debug:
         logging.getLogger().setLevel(logging.DEBUG)
 
-    return args.inputFile
+    return (args.inputFile, args.output)
 
 #----------------------------------------------------------------------------
-def main(inputFile):
+def main(inputFile, outputFile):
     logging.debug("Processing '{}' with options:".format(inputFile))
     logging.debug(g_options)
 
     reader = AhfScoreReader()
     ledger = reader.read(inputFile)
 
-    krach = KRACH()
-
     # generate krach ratings
+    krach = KRACH()
     ratings = krach.run(ledger)
 
     # Calculate strength of schedules
     sosAll = krach.strengthOfSchedule(ledger, ratings)
 
     # Remove the one-off showcase teams
-    ratings = filterTeams(ledger, ratings)
+    filterTeams(ledger, ratings)
 
-    # Re-normalize now that the showcase teams are gone
-    #ratings = krach.normalize(ratings)
+    # scale up so all values are integers
+    scaleRankings(ratings, sosAll)
 
+    # sort by krach ratings, highest first.
+    ratings = sorted(ratings.items(), key=lambda kv: kv[1], reverse = True)
+
+    # display to console
     showRankings(ledger, ratings, sosAll)
+
+    if outputFile:
+        writeMarkdownRankings(outputFile, ledger, ratings, sosAll)
 
 #----------------------------------------------------------------------------
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    main(parseCommandLine())
+    main(*parseCommandLine())
 
