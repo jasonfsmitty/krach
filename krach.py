@@ -33,6 +33,10 @@ class Options:
     shootoutLossValue: float = 0.50
     tieValue:          float = 0.50
 
+    # Option to control whether teams are given fake ties, a method some implementations
+    # use to deal with undefeated teams.
+    fakeTies:          int   = 0
+
     # Showcases may include guest teams, that play valid games that count toward
     # KRACH ratings, but are not included in the final standings. These options
     # are for filtering out these teams.
@@ -421,6 +425,18 @@ class AhfScoreReader:
             ledger.addGame(date, winner, loser)
 
 #----------------------------------------------------------------------------
+def addFakeTies(ledger):
+    fakeTeam = "__AHF_FAKE_TEAM__"
+    for _ in range(g_options.fakeTies):
+        if not fakeTeam in g_options.filteredTeams:
+            g_options.filteredTeams.append(fakeTeam)
+            ledger.addTeam(fakeTeam)
+
+        for realTeam in ledger.teams:
+            if realTeam != fakeTeam:
+                ledger.addTie(ledger.oldestGame, fakeTeam, realTeam)
+
+#----------------------------------------------------------------------------
 def parseCommandLine():
     parser = argparse.ArgumentParser()
 
@@ -459,6 +475,11 @@ def parseCommandLine():
         default = g_options.tieValue,
         help    = "Value given to both teams for a tie")
 
+    parser.add_argument("--fakes",
+        type    = int,
+        default = g_options.fakeTies,
+        help    = "Number of fake tie games given to each team")
+
     parser.add_argument("-f", "--filter",
         type    = str,
         default = ",".join(g_options.filteredTeams),
@@ -489,6 +510,7 @@ def parseCommandLine():
     g_options.shootoutWinValue  = args.shootout_win
     g_options.shootoutLossValue = args.shootout_loss if args.shootout_loss else (1.0 - args.shootout_win)
     g_options.tieValue          = args.tie
+    g_options.fakeTies          = args.fakes
     g_options.filteredTeams     = args.filter.split(',')
     g_options.minGamesPlayed    = args.min_games
     g_options.dateCutoff        = args.cutoff
@@ -505,6 +527,8 @@ def main(inputFile, outputFile):
 
     reader = AhfScoreReader()
     ledger = reader.read(inputFile)
+
+    addFakeTies(ledger)
 
     # generate krach ratings
     krach = KRACH()
