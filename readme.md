@@ -8,6 +8,7 @@
   - **[Quick Start](#quick-start)**
 - **[KRACH](#krach)**
 - **[AHF](#ahf)**
+- **[References](#references)**
 
 ## Overview
 
@@ -114,4 +115,17 @@ In `krach.py`, there are two ways to filter out the showcase teams:
 * Explicitly list teams via the `--filter team1[,team2,team3...]` command line option.
 * Drop teams that do not mean a minimum number of games played threshold via the `--min-games <N>` command line option.
 Different divisions in the AHF have different showcase teams, and some showcase teams have been to 1-3 showcases, meaning their number of games played range from 4 to 12. When using `ahf.sh` (or `refresh.sh`) the `--min-games` option applies to all AHF divisions.
+
+## References
+
+Collection of references found while working on this tool; some used, some not:
+* [Atlantic Hockey Federation](https://atlantichockeyfederation.com/)
+* [GameSheet Stats for AHF](https://gamesheetstats.com/seasons/1654/scores) - Basic UI to the underlying AHF score data; use browser developer mode to find REST API calls for reading divisions/scores.
+* [Wikipedia page on Bradley-Terry Model](https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model)
+* https://www.mscs.dal.ca/~butler/krachexp.htm - Original KRACH website by the Ken Butler; no longer online, but many other sources still refer back to it. [Wayback link](https://web.archive.org/web/20100217160456/http://www.mscs.dal.ca/~butler/krachexp.htm).
+* http://elynah.com/tbrw/tbrw.cgi?krach - a comprehensive walkthrough of KRACH, and different algorithms that may be used.
+* http://dbaker.50webs.com/method.html - another comprehensive walkthrough of KRACH
+* [2022-2023 NCAA Women’s Hockey KRACH Calculator](https://www.bcinterruption.com/boston-college-bc-eagles-mens-womens-hockey-ranking-calculators/23433182/2022-2023-ncaa-womens-hockey-krach-calculator) - KRACH ratings implemented within Excel (via hidden worksheets).
+* https://github.com/sezenack/Bradley-Terry-Sports-Model - Python implementation of KRACH that reads/writes to Excel spreadsheets. Initially tried modifying for AHF, but the algorithm used does not support undefeated teams. Between that, and other customizations for AHF, decided to drop the fork and start from scratch with this tool.
+
 
