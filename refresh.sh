@@ -33,8 +33,9 @@ do
 
 	if $ENABLE_DATE_RANGE
 	then
-		startdate="$(jq '."0_0"[-1]."games"[-1]."date"' ${x} | tr -d '"')"
-		enddate="$(jq '."0_0"[0]."games"[0]."date"' ${x} | tr -d '"')"
+		startdate="$(jq '.[-1]."game"."date"' ${x} | tr -d '"')"
+		enddate="$(jq '.[0]."game"."date"' ${x} | tr -d '"')"
+
 		echo "| [${division}](${output}) | ${startdate} | ${enddate} |" >> ${README}
 	else
 		echo "* [${division}](${output})" >> ${README}

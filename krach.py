@@ -400,9 +400,9 @@ class AhfScoreReader:
         ledger = Ledger()
         with open(filename) as f:
             jdata = json.load(f)
-            for entry in jdata['0_0']:
-                for game in entry['games']:
-                    self.readGame(ledger, game)
+            for game in jdata:
+                self.readGame(ledger, game['game'])
+
         return ledger
 
     #----------------------------------------------------------------------------
