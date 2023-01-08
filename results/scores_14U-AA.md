@@ -1,36 +1,36 @@
 # 14U-AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:
-1|2450|Championship|Ashburn Xtreme 2008|14|12|0|2|0|0|520
-2|1666|Championship|North Jersey Avalanche|15|12|0|1|2|0|436
-3|908|Championship|Long Island Rebels|16|10|3|0|3|0|554
-4|633|Championship|Valley Forge Colonials|28|17|5|3|3|0|443
-5|557|Gold|York Devils|31|21|7|2|1|0|382
-6|394|Gold|Rye Rangers|14|6|5|2|1|0|632
-7|309|Gold|Team Philadelphia|31|17|7|2|5|0|359
-8|304|Gold|Igloo Jaguars|30|17|11|2|0|0|360
-9|249|Silver|NJ Bandits|34|17|12|3|2|0|383
-10|221|Silver|MYHA 14U AA|15|7|6|1|1|0|275
-11|201|Silver|Haverford Hawks|33|13|11|5|4|0|368
-12|143|Silver|Rockets Hockey Club Black|27|8|15|3|1|0|511
-13|143||PAL Blue Knights|14|6|5|1|2|0|162
-14|73||Delaware Ducks|33|13|18|1|1|0|251
-15|39||Tomorrow's Ice Selects|35|9|25|0|1|0|367
-16|29||Palmyra Black Knights|30|9|19|0|2|0|217
-17|28||Lehigh Valley Phantoms|29|8|20|1|0|0|191
-18|11||The St. James Gold|14|2|11|1|0|0|130
-19|7||Rockets Hockey Club White|25|3|21|0|1|0|307
+1|2611|Championship|Ashburn Xtreme 2008|16|14|0|2|0|0|514
+2|1660|Championship|North Jersey Avalanche|15|12|0|1|2|0|437
+3|919|Championship|Long Island Rebels|16|10|3|0|3|0|557
+4|575|Championship|Valley Forge Colonials|30|17|7|3|3|0|588
+5|522|Gold|York Devils|32|21|7|3|1|0|373
+6|321|Gold|Rye Rangers|16|7|6|2|1|0|571
+7|320|Gold|Igloo Jaguars|31|18|11|2|0|0|345
+8|285|Gold|Team Philadelphia|32|17|8|2|5|0|366
+9|253|Silver|NJ Bandits|35|18|12|3|2|0|372
+10|221|Silver|MYHA 14U AA|15|7|6|1|1|0|262
+11|199|Silver|Haverford Hawks|33|13|11|5|4|0|370
+12|170|Silver|Rockets Hockey Club Black|30|11|15|3|1|0|469
+13|146||PAL Blue Knights|14|6|5|1|2|0|164
+14|79||Delaware Ducks|34|13|18|1|2|0|256
+15|38||Tomorrow's Ice Selects|35|9|25|0|1|0|367
+16|27||Palmyra Black Knights|31|9|20|0|2|0|210
+17|26||Lehigh Valley Phantoms|31|8|22|1|0|0|188
+18|11||The St. James Gold|14|2|11|1|0|0|129
+19|6||Rockets Hockey Club White|26|3|22|0|1|0|299
 # Generation Details
 
 Generated with command line:
 ```
-../krach.py --iterations 10 --min-games 12 -n 14U-AA -o scores_14U-AA.md scores_14U-AA.js
+../krach.py --iterations 10 --shootout-win 0.5 --shootout-loss 0.5 --tie 0.5 --min-games 12 -n 14U-AA -o scores_14U-AA.md scores_14U-AA.js
 ```
 
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2022-08-27 |
-| End Date | 2022-12-18 |
+| End Date | 2023-01-08 |
 | Max Iterations | 10 |
 | Max Ratings Diff | 0.0001 |
 | Shootout Win Value | 0.50 |
@@ -38,5 +38,5 @@ Generated with command line:
 | Tie Value | 0.50 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2022-12-30 |
+| Date Cutoff | 2023-01-08 |
 
