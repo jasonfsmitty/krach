@@ -1,18 +1,18 @@
 # 14U-B KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:
-1|340|Championship|MYHA 14U B Blue|16|14|0|1|1|0|53
-2|202|Championship|Ashburn Xtreme|16|13|1|2|0|0|43
-3|121|Championship|Frederick Freeze|16|12|3|1|0|0|55
-4|93|Championship|Team Philadelphia|28|18|7|2|1|0|83
-5|63|Gold|Grundy Senators|30|17|8|0|5|0|75
-6|55|Gold|Palmyra Black Knights|24|14|9|1|0|0|95
-7|52|Gold|Wissahickon Warriors|28|17|7|1|3|0|43
-8|12|Gold|Hollydell Hurricanes|25|9|13|1|2|0|43
-9|11|Silver|Maryland Jr Black Bears|14|3|9|1|1|0|45
-10|10|Silver|Lehigh Valley Phantoms|27|8|17|2|0|0|65
-11|10|Silver|North Jersey Skylands Kings|15|5|7|2|0|1|42
-12|8|Silver|North Jersey Sportscare Kings|15|2|7|4|2|0|33
+1|339|Championship|MYHA 14U B Blue|16|14|0|1|1|0|53
+2|203|Championship|Ashburn Xtreme|16|13|1|2|0|0|43
+3|122|Championship|Frederick Freeze|16|12|3|1|0|0|55
+4|95|Championship|Team Philadelphia|29|19|7|2|1|0|81
+5|68|Gold|Grundy Senators|31|18|8|0|5|0|74
+6|52|Gold|Wissahickon Warriors|28|17|7|1|3|0|43
+7|49|Gold|Palmyra Black Knights|25|14|10|1|0|0|94
+8|12|Gold|Hollydell Hurricanes|26|9|14|1|2|0|46
+9|11|Silver|Maryland Jr Black Bears|14|3|9|1|1|0|44
+10|10|Silver|Lehigh Valley Phantoms|27|8|17|2|0|0|64
+11|10|Silver|North Jersey Skylands Kings|15|5|7|2|0|1|41
+12|8|Silver|North Jersey Sportscare Kings|15|2|7|4|2|0|34
 13|7||Royals White|28|5|20|1|2|0|80
 14|6||Igloo Jaguars|27|6|19|0|1|1|46
 15|5||Jersey Shore Wildcats|13|3|10|0|0|0|28
@@ -27,7 +27,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2022-08-28 |
-| End Date | 2023-01-07 |
+| End Date | 2023-01-08 |
 | Max Iterations | 10 |
 | Max Ratings Diff | 0.0001 |
 | Shootout Win Value | 0.50 |

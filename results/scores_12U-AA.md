@@ -1,27 +1,27 @@
 # 12U-AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:
-1|1791|Championship|Ashburn Xtreme 2010|16|12|1|2|1|0|539
-2|992|Championship|Philadelphia Blazers|30|21|4|3|2|0|434
-3|548|Championship|Hollydell Hurricanes|31|24|7|0|0|0|256
-4|508|Championship|Haverford Hawks|32|20|9|0|3|0|407
-5|495|Gold|Team Philadelphia|34|23|9|1|1|0|333
-6|390|Gold|MYHA 12U AA Blue|16|7|6|3|0|0|471
-7|356|Gold|York Devils|35|20|13|0|2|0|426
-8|349|Gold|Lehigh Valley Phantoms|30|16|8|2|4|0|320
-9|333|Silver|Long Island Rebels|16|5|6|3|2|0|562
-10|325|Silver|The St. James Gold|14|8|5|0|1|0|319
-11|163|Silver|NJ Bandits|33|13|16|1|3|0|349
-12|136|Silver|Palmyra Black Knights|31|14|14|1|2|0|332
-13|123||North Jersey Avalanche|15|5|9|1|0|0|364
-14|118||PAL Blue Knights|12|5|7|0|0|0|419
-15|73||MYHA 12U AA Gold|16|8|7|1|0|0|139
-16|55||North Jersey Skylands Kings|32|10|16|3|3|0|186
-17|53||Rye Rangers|14|3|8|2|1|0|255
-18|33||Rockets Hockey Club|29|8|19|2|0|0|214
-19|23||Delaware Ducks|31|8|22|0|1|0|206
-20|11||NJ Stars|26|3|20|2|1|0|257
-21|8||Igloo Jaguars|33|4|27|1|1|0|202
+1|1805|Championship|Ashburn Xtreme 2010|16|12|1|2|1|0|546
+2|1033|Championship|Philadelphia Blazers|31|22|4|3|2|0|433
+3|522|Championship|Hollydell Hurricanes|32|24|7|0|1|0|255
+4|512|Championship|Haverford Hawks|32|20|9|0|3|0|409
+5|496|Gold|Team Philadelphia|34|23|9|1|1|0|335
+6|394|Gold|MYHA 12U AA Blue|16|7|6|3|0|0|482
+7|359|Gold|York Devils|35|20|13|0|2|0|430
+8|334|Gold|Lehigh Valley Phantoms|31|16|9|2|4|0|345
+9|333|Silver|Long Island Rebels|16|5|6|3|2|0|568
+10|326|Silver|The St. James Gold|14|8|5|0|1|0|320
+11|170|Silver|NJ Bandits|34|13|16|2|3|0|357
+12|137|Silver|North Jersey Avalanche|16|6|9|1|0|0|349
+13|136||Palmyra Black Knights|31|14|14|1|2|0|333
+14|120||PAL Blue Knights|12|5|7|0|0|0|424
+15|73||MYHA 12U AA Gold|16|8|7|1|0|0|137
+16|53||North Jersey Skylands Kings|33|10|17|3|3|0|182
+17|53||Rye Rangers|14|3|8|2|1|0|257
+18|33||Rockets Hockey Club|29|8|19|2|0|0|213
+19|25||Delaware Ducks|32|9|22|0|1|0|200
+20|10||NJ Stars|27|3|21|2|1|0|247
+21|8||Igloo Jaguars|33|4|27|1|1|0|199
 # Generation Details
 
 Generated with command line:

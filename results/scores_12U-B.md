@@ -1,31 +1,31 @@
 # 12U-B KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:
-1|2195|Championship|Ashburn Xtreme X2|16|14|0|1|1|0|429
-2|1676|Championship|Metro Militia|13|12|0|0|1|0|279
-3|1112|Championship|Jersey Shore Wildcats Black|12|10|1|1|0|0|408
-4|951|Championship|Palmyra Black Knights|26|20|5|0|1|0|480
-5|683|Gold|Royals White|33|24|6|0|2|1|377
-6|593|Gold|NJ Bandits White|15|10|3|1|1|0|437
-7|534|Gold|Frederick Freeze|16|14|2|0|0|0|107
-8|527|Gold|MYHA 12U B Blue|16|10|6|0|0|0|468
-9|441|Silver|Valley Forge Colonials 12U B Herhal|30|19|9|1|1|0|451
-10|337|Silver|Delaware Ducks Black|29|17|9|2|0|1|391
-11|228|Silver|Royals Gray|24|12|9|1|2|0|405
-12|165|Silver|Hollydell Hurricanes|27|16|10|1|0|0|340
-13|121||Philadelphia Jr Flyers Herold|30|12|16|1|1|0|323
-14|93||Igloo Jaguars|30|15|13|1|1|0|202
-15|69||Lehigh Valley Phantoms|29|11|15|2|1|0|246
-16|65||North Jersey Sportscare Kings Yellow|13|4|8|1|0|0|560
-17|55||Team Philadelphia|28|10|18|0|0|0|337
-18|51||Wissahickon Warriors|30|9|18|1|2|0|301
-19|34||Tomorrow's Ice North Stars Red|13|2|11|0|0|0|527
-20|32||Grundy Senators|27|9|17|0|1|0|317
-21|14||Valley Forge Colonials 12U B Fields|29|7|21|1|0|0|211
-22|8||Jersey Shore Wildcats Red|15|4|10|0|1|0|286
-23|8||Rockets Hockey Club Grey|30|5|25|0|0|0|322
-24|4||NJ Stars|28|2|24|2|0|0|203
-25|2||Philadelphia Jr Flyers Audit|15|1|13|0|1|0|81
+1|2193|Championship|Ashburn Xtreme X2|16|14|0|1|1|0|421
+2|1718|Championship|Metro Militia|13|12|0|0|1|0|280
+3|1105|Championship|Jersey Shore Wildcats Black|13|11|1|1|0|0|383
+4|932|Championship|Palmyra Black Knights|28|22|5|0|1|0|444
+5|681|Gold|Royals White|33|24|6|0|2|1|373
+6|605|Gold|NJ Bandits White|15|10|3|1|1|0|436
+7|544|Gold|Frederick Freeze|16|14|2|0|0|0|105
+8|515|Gold|MYHA 12U B Blue|16|10|6|0|0|0|460
+9|442|Silver|Valley Forge Colonials 12U B Herhal|30|19|9|1|1|0|449
+10|291|Silver|Delaware Ducks Black|30|17|10|2|0|1|378
+11|203|Silver|Royals Gray|25|12|10|1|2|0|393
+12|177|Silver|Hollydell Hurricanes|28|17|10|1|0|0|333
+13|122||Philadelphia Jr Flyers Herold|30|12|16|1|1|0|318
+14|110||Igloo Jaguars|31|16|13|1|1|0|202
+15|72||Lehigh Valley Phantoms|29|11|15|2|1|0|245
+16|65||North Jersey Sportscare Kings Yellow|13|4|8|1|0|0|555
+17|58||Team Philadelphia|28|10|18|0|0|0|339
+18|54||Wissahickon Warriors|30|9|18|1|2|0|298
+19|42||Grundy Senators|28|10|17|0|1|0|319
+20|32||Tomorrow's Ice North Stars Red|15|2|13|0|0|0|577
+21|15||Valley Forge Colonials 12U B Fields|29|7|21|1|0|0|212
+22|9||Rockets Hockey Club Grey|31|5|26|0|0|0|316
+23|9||Jersey Shore Wildcats Red|15|4|10|0|1|0|296
+24|4||NJ Stars|29|2|25|2|0|0|238
+25|3||Philadelphia Jr Flyers Audit|15|1|13|0|1|0|87
 # Generation Details
 
 Generated with command line:

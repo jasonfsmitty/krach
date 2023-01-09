@@ -1,25 +1,25 @@
 # 18U-AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:
-1|1781|Championship|Philadelphia Blazers|27|22|1|2|2|0|425
-2|874|Championship|MYHA 18U AA Blue|16|9|4|3|0|0|711
-3|708|Championship|Ashburn Xtreme|16|9|4|3|0|0|584
-4|644|Championship|Igloo Jaguars Black|35|23|8|0|4|0|400
+1|1775|Championship|Philadelphia Blazers|27|22|1|2|2|0|425
+2|873|Championship|MYHA 18U AA Blue|16|9|4|3|0|0|710
+3|704|Championship|Ashburn Xtreme|16|9|4|3|0|0|583
+4|643|Championship|Igloo Jaguars Black|35|23|8|0|4|0|400
 5|639|Gold|Team Philadelphia|31|21|8|2|0|0|424
-6|534|Gold|Long Island Rebels|15|9|5|1|0|0|457
-7|318|Gold|North Jersey Skylands Kings|19|10|8|0|1|0|484
-8|236|Gold|Lehigh Valley Phantoms|31|15|12|1|3|0|330
-9|229|Silver|Metro Militia|12|6|4|2|0|0|230
-10|215|Silver|Valley Forge Colonials 18U AA|33|19|12|1|1|0|259
-11|170|Silver|Hollydell Hurricanes|32|16|12|2|2|0|199
+6|537|Gold|Long Island Rebels|15|9|5|1|0|0|459
+7|320|Gold|North Jersey Skylands Kings|19|10|8|0|1|0|485
+8|243|Gold|Lehigh Valley Phantoms|32|16|12|1|3|0|322
+9|237|Silver|Metro Militia|13|7|4|2|0|0|214
+10|215|Silver|Valley Forge Colonials 18U AA|33|19|12|1|1|0|260
+11|182|Silver|Hollydell Hurricanes|33|17|12|2|2|0|197
 12|137|Silver|MYHA 18U AA Gold|16|6|8|1|1|0|429
-13|105||Haverford Hawks|31|15|14|1|1|0|222
-14|99||North Jersey Sportscare Kings Blue|28|11|13|2|2|0|226
-15|51||York Devils|31|9|20|1|1|0|325
-16|29||The St. James Gold|14|4|8|0|2|0|107
-17|14||New Jersey Renegades|12|3|8|1|0|0|124
+13|99||North Jersey Sportscare Kings Blue|28|11|13|2|2|0|228
+14|98||Haverford Hawks|32|15|15|1|1|0|222
+15|49||York Devils|32|9|21|1|1|0|323
+16|29||The St. James Gold|14|4|8|0|2|0|109
+17|14||New Jersey Renegades|12|3|8|1|0|0|122
 18|9||Igloo Jaguars Green|32|3|26|1|2|0|168
-19|8||Rockets Hockey Club|29|2|24|1|2|0|270
+19|8||Rockets Hockey Club|30|2|25|1|2|0|269
 # Generation Details
 
 Generated with command line:
@@ -30,7 +30,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2022-08-26 |
-| End Date | 2023-01-07 |
+| End Date | 2023-01-08 |
 | Max Iterations | 10 |
 | Max Ratings Diff | 0.0001 |
 | Shootout Win Value | 0.50 |

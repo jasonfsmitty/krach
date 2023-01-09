@@ -2,20 +2,20 @@
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:
 1|155|Championship|MYHA 14U UA Gold|16|11|2|1|2|0|61
-2|127|Championship|Igloo Jaguars|36|28|2|2|4|0|38
-3|113|Championship|North Jersey Avalanche|13|9|2|2|0|0|54
-4|64|Championship|NJ Stars|30|19|5|1|5|0|50
-5|59|Gold|Rockets Hockey Club Black|26|15|10|1|0|0|76
-6|42|Gold|Lehigh Valley Phantoms|31|20|10|1|0|0|52
+2|134|Championship|Igloo Jaguars|37|29|2|2|4|0|38
+3|115|Championship|North Jersey Avalanche|13|9|2|2|0|0|55
+4|60|Championship|NJ Stars|31|19|6|1|5|0|53
+5|60|Gold|Rockets Hockey Club Black|28|16|10|1|1|0|73
+6|39|Gold|Lehigh Valley Phantoms|32|20|11|1|0|0|52
 7|26|Gold|Long Island Rebels|16|12|4|0|0|0|10
-8|12|Gold|Team Philadelphia|32|13|16|2|1|0|43
-9|11|Silver|Valley Forge Colonials 13U AA|34|14|17|1|2|0|40
+8|12|Gold|Valley Forge Colonials 13U AA|35|14|17|2|2|0|41
+9|12|Silver|Team Philadelphia|32|13|16|2|1|0|43
 10|8|Silver|Rockets Hockey Club White|30|9|17|2|2|0|37
-11|6|Silver|Ashburn Xtreme 2009|16|3|12|0|1|0|73
-12|3|Silver|Delaware Ducks 13U AA|33|5|22|4|2|0|30
+11|7|Silver|Ashburn Xtreme 2009|16|3|12|0|1|0|73
+12|3|Silver|Delaware Ducks 13U AA|34|6|22|4|2|0|30
 13|2||Royals 2009|33|4|25|2|2|0|34
 14|2||Metro Militia|12|4|7|1|0|0|5
-15|1||Philadelphia Blazers|26|2|21|2|1|0|32
+15|1||Philadelphia Blazers|27|2|22|2|1|0|32
 # Generation Details
 
 Generated with command line:

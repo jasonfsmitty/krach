@@ -1,41 +1,41 @@
 # 16U-A KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:
-1|1075|Championship|Southern Maryland Sabres 16U Gold|14|12|2|0|0|0|317
-2|959|Championship|Delaware Ducks|27|24|2|1|0|0|177
-3|906|Championship|Lancaster Firebirds Black|29|23|3|3|0|0|287
-4|862|Championship|Frederick Freeze|14|12|1|1|0|0|187
-5|775|Gold|Wissahickon Warriors Red|29|22|4|1|2|0|300
-6|713|Gold|Ashburn Xtreme|16|13|3|0|0|0|258
-7|590|Gold|Frederick Freeze LA|16|13|2|0|1|0|178
-8|529|Gold|Team Philadelphia Orange|28|21|6|1|0|0|242
-9|474|Silver|The St. James White|16|13|3|0|0|0|134
-10|465|Silver|Wissahickon Warriors White|28|19|6|1|2|0|270
-11|440|Silver|MYHA 16U UA|16|10|3|1|2|0|314
-12|312|Silver|MYHA 16U LA|16|9|4|2|1|0|288
-13|245|Bronze|Igloo Jaguars Black|29|19|9|0|1|0|237
-14|169|Bronze|Lancaster Firebirds Orange|30|16|14|0|0|0|288
-15|137|Bronze|North Jersey Sportscare Kings|24|13|7|2|2|0|162
-16|132|Bronze|Valley Forge Colonials 16U A Gold|28|13|13|0|2|0|324
-17|132||Valley Forge Colonials 16U A Silver|28|12|13|1|2|0|293
-18|108||Royals Gold|30|12|12|4|2|0|232
-19|102||Rockets Hockey Club|28|14|13|1|0|0|204
-20|101||Maryland Jr Black Bears White|16|5|7|3|1|0|274
-21|88||Haverford Hawks|31|12|16|2|1|0|281
-22|84||Team Philadelphia Black|26|10|14|0|2|0|255
-23|82||Maryland Jr Black Bears Red|16|5|9|1|1|0|394
-24|63||Philadelphia Blazers|26|8|17|0|1|0|306
-25|58||North Jersey Skylands Kings White|24|9|11|2|2|0|142
-26|53||Igloo Jaguars Green|30|10|18|1|1|0|216
-27|51||Lehigh Valley Phantoms 1|28|8|15|3|2|0|230
-28|43||Hollydell Hurricanes|29|6|20|2|1|0|326
-29|43||The St. James Navy|16|4|10|1|1|0|247
-30|36||Royals Blue|27|8|17|1|1|0|236
-31|20||Grundy Senators|29|2|23|1|3|0|346
-32|15||Jersey Shore Wildcats Black|16|2|13|0|1|0|161
-33|14||Lehigh Valley Phantoms 2|30|3|25|1|1|0|279
-34|7||Jersey Shore Wildcats Red|16|1|14|1|0|0|180
-35|3||Capital City Vipers|30|1|29|0|0|0|278
+1|1044|Championship|Southern Maryland Sabres 16U Gold|14|12|2|0|0|0|310
+2|994|Championship|Frederick Freeze|16|14|1|1|0|0|189
+3|941|Championship|Delaware Ducks|29|25|2|1|1|0|188
+4|905|Championship|Lancaster Firebirds Black|30|24|3|3|0|0|279
+5|762|Gold|Wissahickon Warriors Red|30|23|4|1|2|0|289
+6|714|Gold|Ashburn Xtreme|16|13|3|0|0|0|258
+7|585|Gold|Frederick Freeze LA|16|13|2|0|1|0|175
+8|538|Gold|Team Philadelphia Orange|29|21|6|2|0|0|265
+9|463|Silver|Wissahickon Warriors White|28|19|6|1|2|0|268
+10|463|Silver|The St. James White|16|13|3|0|0|0|129
+11|434|Silver|MYHA 16U UA|16|10|3|1|2|0|311
+12|318|Silver|MYHA 16U LA|16|9|4|2|1|0|288
+13|218|Bronze|Igloo Jaguars Black|31|19|11|0|1|0|280
+14|149|Bronze|Lancaster Firebirds Orange|31|16|15|0|0|0|278
+15|139|Bronze|North Jersey Sportscare Kings|24|13|7|2|2|0|162
+16|129|Bronze|Valley Forge Colonials 16U A Silver|29|12|14|1|2|0|313
+17|129||Valley Forge Colonials 16U A Gold|28|13|13|0|2|0|328
+18|112||Royals Gold|31|13|12|4|2|0|231
+19|99||Maryland Jr Black Bears White|16|5|7|3|1|0|271
+20|98||Rockets Hockey Club|28|14|13|1|0|0|197
+21|86||Haverford Hawks|32|13|16|2|1|0|275
+22|84||Maryland Jr Black Bears Red|16|5|9|1|1|0|390
+23|81||Team Philadelphia Black|27|10|15|0|2|0|286
+24|58||North Jersey Skylands Kings White|24|9|11|2|2|0|141
+25|57||Philadelphia Blazers|27|8|18|0|1|0|298
+26|56||Igloo Jaguars Green|31|11|18|1|1|0|207
+27|48||Lehigh Valley Phantoms 1|29|8|16|3|2|0|248
+28|44||Hollydell Hurricanes|29|6|20|2|1|0|325
+29|41||The St. James Navy|16|4|10|1|1|0|241
+30|39||Royals Blue|29|9|18|1|1|0|224
+31|25||Grundy Senators|30|3|23|1|3|0|334
+32|15||Jersey Shore Wildcats Black|16|2|13|0|1|0|153
+33|13||Lehigh Valley Phantoms 2|31|3|26|1|1|0|270
+34|7||Jersey Shore Wildcats Red|16|1|14|1|0|0|178
+35|3||Capital City Vipers|31|1|30|0|0|0|275
 # Generation Details
 
 Generated with command line:
@@ -46,7 +46,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2022-08-20 |
-| End Date | 2023-01-07 |
+| End Date | 2023-01-08 |
 | Max Iterations | 10 |
 | Max Ratings Diff | 0.0001 |
 | Shootout Win Value | 0.50 |
