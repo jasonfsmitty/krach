@@ -19,7 +19,7 @@ Click below to see KRACH ratings per each division.
 | [18U-AA](scores_18U-AA.md) | Aug 26, 2022 | Jan 8, 2023 |
 
 ***
-Generated on Mon Jan  9 13:38:34 UTC 2023 using command line:
+Generated on Fri Jan 13 03:49:55 UTC 2023 using command line:
 ```
 ./refresh.sh --iterations 10 --shootout-win 0.5 --shootout-loss 0.5 --tie 0.5 --min-games 12
 ```

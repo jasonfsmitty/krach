@@ -2,33 +2,33 @@
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:
 1|1055|Championship|Jersey Shore Wildcats Black|14|14|0|0|0|0|151
-2|702|Championship|Metro Militia|15|14|0|1|0|0|97
-3|577|Championship|Philadelphia Jr. Flyers|29|27|1|1|0|0|102
-4|344|Championship|Wissahickon Warriors Red|30|23|6|0|1|0|293
+2|701|Championship|Metro Militia|15|14|0|1|0|0|97
+3|578|Championship|Philadelphia Jr. Flyers|29|27|1|1|0|0|102
+4|345|Championship|Wissahickon Warriors Red|30|23|6|0|1|0|293
 5|212|Gold|Haverford Hawks Schneider|28|20|8|0|0|0|203
 6|181|Gold|NJ Bandits Red|15|10|5|0|0|0|247
 7|168|Gold|Igloo Jaguars|30|21|8|1|0|0|152
 8|147|Gold|Frederick Freeze|16|12|3|1|0|0|78
 9|140|Silver|Hollydell Hurricanes|29|20|7|0|2|0|103
 10|92|Silver|York Devils|30|20|9|1|0|0|92
-11|83|Silver|Delaware Ducks Black|29|15|12|1|1|0|121
+11|84|Silver|Delaware Ducks Black|29|15|12|1|1|0|122
 12|72|Silver|Southern Maryland Sabres 10U Black|14|9|5|0|0|0|61
 13|68|Bronze|Royals Gray|30|18|12|0|0|0|118
 14|47|Bronze|Lehigh Valley Phantoms|29|15|12|1|1|0|108
-15|44|Bronze|North Jersey Sportscare Kings Yellow|15|5|9|1|0|0|266
+15|45|Bronze|North Jersey Sportscare Kings Yellow|15|5|9|1|0|0|266
 16|44|Bronze|Valley Forge Colonials 10U B Skelton|31|12|18|1|0|0|198
-17|38||Haverford Hawks Wharton|30|15|15|0|0|0|111
-18|36||Royals Gold|30|11|16|0|3|0|183
+17|38||Royals Gold|31|12|16|0|3|0|178
+18|38||Haverford Hawks Wharton|30|15|15|0|0|0|111
 19|27||Team Philadelphia|30|13|16|0|1|0|70
 20|18||Lancaster Firebirds|32|9|22|1|0|0|115
 21|13||Jersey Shore Wildcats Red|14|6|8|0|0|0|44
 22|11||MYHA 10U B Blue|16|3|13|0|0|0|113
-23|10||Maryland Jr Black Bears Red|15|3|12|0|0|0|117
-24|10||Tomorrow's Ice North Stars White|14|5|9|0|0|0|46
+23|10||Tomorrow's Ice North Stars White|14|5|9|0|0|0|46
+24|9||Maryland Jr Black Bears Red|16|3|13|0|0|0|112
 25|6||NJ Bandits White|15|5|10|0|0|0|63
 26|5||Rockets Hockey Club White|28|5|22|1|0|0|222
 27|4||Wissahickon Warriors White|27|7|20|0|0|0|90
-28|2||Grundy Senators|30|4|25|1|0|0|103
+28|2||Grundy Senators|30|4|25|1|0|0|102
 29|2||Philadelphia Blazers|28|3|23|0|2|0|136
 30|0||Valley Forge Colonials 10U B Malik|29|0|29|0|0|0|86
 # Generation Details
@@ -49,5 +49,5 @@ Generated with command line:
 | Tie Value | 0.50 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-01-09 |
+| Date Cutoff | 2023-01-13 |
 
