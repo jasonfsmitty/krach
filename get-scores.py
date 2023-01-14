@@ -47,7 +47,7 @@ def saveToFile(divisionName, scores):
 
 #------------------------------------------------------------------------------
 def ignoreDivision(name):
-    return name.startswith('Mite') or (name.find('Guest') != -1)
+    return name.startswith('Mite') or (name.find('Guest') != -1) or (name.find('Gold') != -1)
 
 #------------------------------------------------------------------------------
 def getDivisions(season):
