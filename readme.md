@@ -91,13 +91,15 @@ The following sections discuss some unknowns about how AHF implements KRACH.
 
 ### Shootouts
 
-The AHF website and KRACH documents do not detail how shootouts are weighted.  One method might be to ignore the fact that it was a shootout at all, and treat it as a normal win/loss with full or zero credit as appropriate.  Or there could be any varying levels of full/partial credit to either team.
+The AHF website and KRACH documents do not detail how shootouts are weighted. I tried reaching out to the AHF, and according to the response I got back shootouts are treated as a normal win/loss, no partial credit for being tied through regulation.
 
-Through trial and error, it seems that the AHF treats shootouts as a tie with both teams receiving half a point.  These are the default values in `krach.py` but can also be set via the command line with `--shootout-win 0.5 --shootout-loss l 0.5`.
+However, if I run this tool with that setup (i.e. `--shootout-win 1.0 --shootout-loss 0.0`) the KRACH rankings that get generated are pretty far off from what the AHF publishes.  Through trial and error, this tool gets closest to the AHF results when it treats shootouts as a tie for both teams. Hence this is the default values in `krach.py` but can also be set via the command line with `--shootout-win 0.5 --shootout-loss l 0.5`.
 
 ### Handling Undefeated Teams
 
 The algorithm implemented by `krach.py` does not have any divide-by-zero concerns; therefore it does not require using fake ties or other schemes to avoid risk of divide-by-zero.  For better comparison against algorithms that do, `krach.py` supports the `--fakes <N>` command line option; it will inject `<N>` fake ties per team.
+
+I reached out to the AHF asking how they deal with undefeated teams in their KRACH calculations, and all they said was that they have their own method to deal with it.
 
 ### Part-Time Teams
 
