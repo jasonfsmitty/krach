@@ -1,36 +1,36 @@
 # 10U-B KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:
-1|1049|Championship|Jersey Shore Wildcats Black|14|14|0|0|0|0|150
-2|699|Championship|Metro Militia|15|14|0|1|0|0|97
-3|575|Championship|Philadelphia Jr. Flyers|29|27|1|1|0|0|101
-4|346|Championship|Wissahickon Warriors Red|31|24|6|0|1|0|284
-5|211|Gold|Haverford Hawks Schneider|28|20|8|0|0|0|202
-6|180|Gold|NJ Bandits Red|15|10|5|0|0|0|246
-7|168|Gold|Igloo Jaguars|30|21|8|1|0|0|152
-8|146|Gold|Frederick Freeze|16|12|3|1|0|0|78
-9|139|Silver|Hollydell Hurricanes|29|20|7|0|2|0|103
-10|91|Silver|York Devils|30|20|9|1|0|0|92
-11|84|Silver|Delaware Ducks Black|30|16|12|1|1|0|117
-12|71|Silver|Southern Maryland Sabres 10U Black|14|9|5|0|0|0|61
-13|68|Bronze|Royals Gray|31|19|12|0|0|0|113
-14|47|Bronze|Lehigh Valley Phantoms|29|15|12|1|1|0|107
-15|44|Bronze|North Jersey Sportscare Kings Yellow|15|5|9|1|0|0|265
-16|44|Bronze|Valley Forge Colonials 10U B Skelton|31|12|18|1|0|0|197
-17|38||Royals Gold|31|12|16|0|3|0|177
-18|38||Haverford Hawks Wharton|30|15|15|0|0|0|111
-19|27||Team Philadelphia|31|13|17|0|1|0|79
-20|18||Lancaster Firebirds|32|9|22|1|0|0|115
-21|13||Jersey Shore Wildcats Red|14|6|8|0|0|0|44
-22|11||MYHA 10U B Blue|16|3|13|0|0|0|113
-23|10||Tomorrow's Ice North Stars White|14|5|9|0|0|0|45
-24|9||Maryland Jr Black Bears Red|16|3|13|0|0|0|111
-25|6||NJ Bandits White|15|5|10|0|0|0|63
-26|5||Rockets Hockey Club White|29|5|23|1|0|0|216
-27|4||Wissahickon Warriors White|27|7|20|0|0|0|89
-28|2||Grundy Senators|30|4|25|1|0|0|102
-29|2||Philadelphia Blazers|28|3|23|0|2|0|135
-30|0||Valley Forge Colonials 10U B Malik|30|0|30|0|0|0|85
+1|1084|Championship|Jersey Shore Wildcats Black|15|15|0|0|0|0|156
+2|732|Championship|Metro Militia|16|15|0|1|0|0|99
+3|589|Championship|Philadelphia Jr. Flyers|31|29|1|1|0|0|103
+4|343|Championship|Wissahickon Warriors Red|31|24|6|0|1|0|283
+5|210|Gold|Haverford Hawks Schneider|30|21|9|0|0|0|215
+6|177|Gold|NJ Bandits Red|16|10|6|0|0|0|306
+7|151|Gold|Igloo Jaguars|32|22|9|1|0|0|146
+8|148|Gold|Frederick Freeze|16|12|3|1|0|0|80
+9|133|Silver|Hollydell Hurricanes|31|21|8|0|2|0|120
+10|84|Silver|York Devils|31|20|9|2|0|0|89
+11|80|Silver|Royals Gray|33|21|12|0|0|0|110
+12|77|Silver|Delaware Ducks Black|31|16|13|1|1|0|119
+13|62|Bronze|North Jersey Sportscare Kings Yellow|16|6|9|1|0|0|263
+14|50|Bronze|Southern Maryland Sabres 10U Black|16|9|7|0|0|0|61
+15|48|Bronze|Valley Forge Colonials 10U B Skelton|32|13|18|1|0|0|194
+16|43|Bronze|Lehigh Valley Phantoms|31|16|12|1|2|0|101
+17|40||Royals Gold|32|13|16|0|3|0|174
+18|31||Haverford Hawks Wharton|32|15|17|0|0|0|108
+19|25||Team Philadelphia|32|13|18|0|1|0|76
+20|19||Lancaster Firebirds|34|9|23|1|1|0|129
+21|17||Jersey Shore Wildcats Red|15|7|8|0|0|0|43
+22|11||Tomorrow's Ice North Stars White|14|5|9|0|0|0|46
+23|11||MYHA 10U B Blue|16|3|13|0|0|0|112
+24|10||Maryland Jr Black Bears Red|16|3|13|0|0|0|113
+25|6||Rockets Hockey Club White|31|6|24|1|0|0|208
+26|6||NJ Bandits White|16|5|11|0|0|0|59
+27|5||Wissahickon Warriors White|30|9|21|0|0|0|79
+28|2||Grundy Senators|32|5|26|1|0|0|95
+29|2||Philadelphia Blazers|30|3|24|1|2|0|132
+30|0||Valley Forge Colonials 10U B Malik|32|0|32|0|0|0|79
 # Generation Details
 
 Generated with command line:
@@ -41,7 +41,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2022-08-20 |
-| End Date | 2023-01-14 |
+| End Date | 2023-01-22 |
 | Max Iterations | 10 |
 | Max Ratings Diff | 0.0001 |
 | Shootout Win Value | 0.50 |
@@ -49,5 +49,5 @@ Generated with command line:
 | Tie Value | 0.50 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-01-15 |
+| Date Cutoff | 2023-01-23 |
 
