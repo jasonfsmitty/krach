@@ -73,5 +73,5 @@ Generated with command line:
 | Tie Value | 0.50 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-01-23 |
+| Date Cutoff | 2023-01-25 |
 
