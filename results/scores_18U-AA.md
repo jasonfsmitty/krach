@@ -1,25 +1,25 @@
 # 18U-AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:
-1|1851|Championship|Philadelphia Blazers|30|25|1|2|2|0|412
-2|869|Championship|MYHA 18U AA Blue|16|9|4|3|0|0|720
-3|718|Championship|Ashburn Xtreme|16|9|4|3|0|0|593
-4|639|Championship|Igloo Jaguars Black|35|23|8|0|4|0|403
-5|617|Gold|Team Philadelphia|34|23|9|2|0|0|448
-6|535|Gold|Long Island Rebels|15|9|5|1|0|0|460
-7|314|Gold|North Jersey Skylands Kings|19|10|8|0|1|0|490
-8|239|Gold|Valley Forge Colonials 18U AA|35|21|12|1|1|0|251
-9|238|Silver|Lehigh Valley Phantoms|35|18|13|1|3|0|348
-10|224|Silver|Metro Militia|13|7|4|2|0|0|209
-11|168|Silver|Hollydell Hurricanes|35|18|13|2|2|0|190
-12|138|Silver|MYHA 18U AA Gold|16|6|8|1|1|0|437
-13|96||North Jersey Sportscare Kings Blue|28|11|13|2|2|0|224
-14|86||Haverford Hawks|35|15|18|1|1|0|279
-15|56||York Devils|35|12|21|1|1|0|299
-16|21||The St. James Gold|16|4|10|0|2|0|99
-17|13||New Jersey Renegades|12|3|8|1|0|0|123
-18|8||Igloo Jaguars Green|34|3|28|1|2|0|174
-19|7||Rockets Hockey Club|33|2|28|1|2|0|264
+1|1698|Championship|Philadelphia Blazers|33|27|1|3|2|0|390
+2|876|Championship|MYHA 18U AA Blue|16|9|4|3|0|0|702
+3|727|Championship|Ashburn Xtreme|16|9|4|3|0|0|584
+4|673|Championship|Igloo Jaguars Black|36|24|8|0|4|0|395
+5|654|Gold|Team Philadelphia|35|24|9|2|0|0|435
+6|549|Gold|Long Island Rebels|15|9|5|1|0|0|462
+7|321|Gold|North Jersey Skylands Kings|19|10|8|0|1|0|483
+8|248|Gold|Lehigh Valley Phantoms|37|19|14|1|3|0|346
+9|234|Silver|Valley Forge Colonials 18U AA|37|22|13|1|1|0|248
+10|212|Silver|Metro Militia|15|8|5|2|0|0|232
+11|179|Silver|Hollydell Hurricanes|36|18|13|2|3|0|237
+12|140|Silver|MYHA 18U AA Gold|16|6|8|1|1|0|426
+13|97||North Jersey Sportscare Kings Blue|28|11|13|2|2|0|230
+14|87||Haverford Hawks|35|15|18|1|1|0|275
+15|55||York Devils|36|12|22|1|1|0|295
+16|20||The St. James Gold|16|4|10|0|2|0|101
+17|13||New Jersey Renegades|12|3|8|1|0|0|125
+18|8||Igloo Jaguars Green|36|3|30|1|2|0|222
+19|7||Rockets Hockey Club|34|2|29|1|2|0|307
 # Generation Details
 
 Generated with command line:
@@ -30,7 +30,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2022-08-26 |
-| End Date | 2023-01-22 |
+| End Date | 2023-01-28 |
 | Max Iterations | 10 |
 | Max Ratings Diff | 0.0001 |
 | Shootout Win Value | 0.50 |
@@ -38,5 +38,5 @@ Generated with command line:
 | Tie Value | 0.50 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-01-25 |
+| Date Cutoff | 2023-01-29 |
 
