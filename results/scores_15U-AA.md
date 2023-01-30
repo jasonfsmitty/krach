@@ -1,15 +1,15 @@
 # 15U-AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:
-1|451|Championship|Delaware Ducks|37|29|5|3|0|0|161
-2|388|Championship|MYHA 16U AA Gold|16|10|3|1|1|1|311
-3|228|Championship|Team Philadelphia|36|22|9|3|2|0|182
-4|188|Championship|Long Island Rebels|16|7|6|3|0|0|355
-5|156||Royals|36|18|11|2|4|1|286
-6|36||NJ Bandits|34|11|19|1|3|0|188
-7|24||Palmyra Black Knights|37|8|24|1|4|0|193
-8|18||North Jersey Sportscare Kings Yellow|24|5|16|1|2|0|113
-9|9||Tomorrow's Ice Selects|34|1|28|3|2|0|219
+1|474|Championship|Delaware Ducks|38|30|5|3|0|0|162
+2|390|Championship|MYHA 16U AA Gold|16|10|3|1|1|1|314
+3|218|Championship|Team Philadelphia|37|22|10|3|2|0|192
+4|188|Championship|Long Island Rebels|16|7|6|3|0|0|356
+5|157||Royals|36|18|11|2|4|1|287
+6|36||NJ Bandits|34|11|19|1|3|0|189
+7|27||Palmyra Black Knights|39|10|24|1|4|0|186
+8|18||North Jersey Sportscare Kings Yellow|24|5|16|1|2|0|115
+9|8||Tomorrow's Ice Selects|36|1|30|3|2|0|210
 # Generation Details
 
 Generated with command line:
@@ -20,7 +20,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2022-08-19 |
-| End Date | 2023-01-28 |
+| End Date | 2023-01-29 |
 | Max Iterations | 10 |
 | Max Ratings Diff | 0.0001 |
 | Shootout Win Value | 0.50 |
@@ -28,5 +28,5 @@ Generated with command line:
 | Tie Value | 0.50 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-01-29 |
+| Date Cutoff | 2023-01-30 |
 
