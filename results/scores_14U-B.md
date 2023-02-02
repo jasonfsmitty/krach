@@ -6,11 +6,11 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
 3|120|Championship|Frederick Freeze|16|12|3|1|0|0|56
 4|97|Championship|Team Philadelphia|33|22|8|2|1|0|76
 5|72|Gold|Grundy Senators|35|21|9|0|5|0|70
-6|53|Gold|Wissahickon Warriors|34|20|9|2|3|0|45
+6|55|Gold|Wissahickon Warriors|35|21|9|2|3|0|44
 7|49|Gold|Palmyra Black Knights|33|19|13|1|0|0|81
-8|11|Gold|Maryland Jr Black Bears|14|3|9|1|1|0|45
+8|11|Gold|Maryland Jr Black Bears|14|3|9|1|1|0|46
 9|10|Silver|Lehigh Valley Phantoms|32|9|20|2|1|0|60
-10|10|Silver|Hollydell Hurricanes|30|9|18|1|2|0|47
+10|9|Silver|Hollydell Hurricanes|31|9|19|1|2|0|47
 11|8|Silver|Igloo Jaguars|31|10|19|0|1|1|41
 12|8|Silver|North Jersey Skylands Kings|16|5|8|2|0|1|39
 13|8||North Jersey Sportscare Kings|15|2|7|4|2|0|35
@@ -35,5 +35,5 @@ Generated with command line:
 | Tie Value | 0.50 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-01-30 |
+| Date Cutoff | 2023-02-02 |
 
