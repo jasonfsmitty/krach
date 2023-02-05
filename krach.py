@@ -10,6 +10,7 @@ import argparse
 import json
 import datetime
 from dataclasses import dataclass, field
+from enum import Enum
 
 #----------------------------------------------------------------------------
 def writeMarkdownTable(f, data, keyTitle="Option", valueTitle="Value"):
@@ -18,6 +19,12 @@ def writeMarkdownTable(f, data, keyTitle="Option", valueTitle="Value"):
     for k,v in data.items():
         f.write(f"| {k} | {v} |\n")
     f.write(f"\n")
+
+#----------------------------------------------------------------------------
+# See KRACH::strengthOfSchedule() for details
+class SoSMethod(Enum):
+    AVERAGE = 1
+    DBAKER = 2
 
 #----------------------------------------------------------------------------
 @dataclass
@@ -47,6 +54,9 @@ class Options:
     # the latest score results to recreate the KRACH ratings from previous weeks.
     dateCutoff:        str   = field(default_factory=lambda: datetime.date.today())
 
+    # Method used to calculate strength-of-schedule
+    sosMethod:         SoSMethod = SoSMethod.AVERAGE
+
     def isValid(self, date):
         return date <= self.dateCutoff
 
@@ -60,6 +70,7 @@ class Options:
             "Ignore teams"        : "{}".format(",".join(self.filteredTeams)),
             "Min Games Played"    : "{}".format(self.minGamesPlayed),
             "Date Cutoff"         : "{}".format(self.dateCutoff),
+            "SoS Method"          : "{}".format(self.sosMethod.name),
         }
 
     def __str__(self):
@@ -369,13 +380,48 @@ class KRACH:
 
     #----------------------------------------------------------------------------
     def strengthOfSchedule(self, ledger, ratings):
+        methods = {
+            SoSMethod.AVERAGE : self.sosAverage,
+            SoSMethod.DBAKER  : self.sosDanBaker,
+        }
+        method = methods.get(g_options.sosMethod, None)
+        if not method:
+            raise RuntimeError("Failed to map SOS method to function")
+        return method(ledger, ratings)
+
+    #----------------------------------------------------------------------------
+    # SoS based on the average rating of all opponents played.
+    def sosAverage(self, ledger, ratings):
         sos = {}
-        for i in ledger.teams:
+        for myTeam in ledger.teams:
             total = 0.0
-            for j in ledger.teams:
-                if i != j and j in ledger.teams[i].matchups:
-                    total += ledger.teams[i].matchups[j].played * ratings[j]
-            sos[i] = total / ledger.teams[i].record.played
+            for oppTeam in ledger.teams[myTeam].matchups:
+                total += ledger.teams[myTeam].matchups[oppTeam].played * ratings[oppTeam]
+            sos[myTeam] = total / ledger.teams[myTeam].record.played
+        return sos
+
+    #----------------------------------------------------------------------------
+    # SoS based on the formula provided by Dan Baker's KRACH page at
+    # http://dbaker.50webs.com/method.html
+    #          ∑ ( Ro / (Ro + Rs))
+    #  SoS =  ---------------------
+    #          ∑ ( 1  / (Ro + Rs))
+    # NOTE: this does NOT produce viable results; the SoS values end up
+    # being proportional to the team's own KRACH rating, not the opponents.
+    # FYI: I tried tweaking this, thinking that maybe the sum was meant to be
+    # over the entire fraction, but that ended up being just the average.
+    def sosDanBaker(self, ledger, ratings):
+        sos = {}
+        for myTeam in ledger.teams:
+            rs = ratings[myTeam]
+            top = 0.0
+            bot = 0.0
+            for oppTeam in ledger.teams[myTeam].matchups:
+                gp = ledger.teams[myTeam].matchups[oppTeam].played 
+                ro = ratings[oppTeam]
+                top += gp * ro  / (ro + rs)
+                bot += gp * 1.0 / (ro + rs)
+            sos[myTeam] = top / bot
         return sos
 
     #----------------------------------------------------------------------------
@@ -501,6 +547,12 @@ def parseCommandLine():
         default = "",
         help    = "Write final rankings as a markdown formatted file")
 
+    parser.add_argument("--sos",
+        metavar = "<method>",
+        choices = ["average", "dbaker"],
+        default = "average",
+        help    = "Method used to calculate Sos")
+
     parser.add_argument("inputFile")
 
     args = parser.parse_args()
@@ -514,6 +566,7 @@ def parseCommandLine():
     g_options.filteredTeams     = args.filter.split(',')
     g_options.minGamesPlayed    = args.min_games
     g_options.dateCutoff        = args.cutoff
+    g_options.sosMethod         = SoSMethod[args.sos.upper()]
 
     if args.debug:
         logging.getLogger().setLevel(logging.DEBUG)
