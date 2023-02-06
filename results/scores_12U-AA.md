@@ -1,27 +1,27 @@
 # 12U-AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:
-1|1870|Championship|Ashburn Xtreme 2010|16|12|1|2|1|0|564
-2|1118|Championship|Philadelphia Blazers|38|29|4|3|2|0|383
-3|505|Championship|Haverford Hawks|37|23|11|0|3|0|404
-4|447|Championship|Team Philadelphia|38|24|12|1|1|0|374
-5|417|Gold|York Devils|37|22|13|0|2|0|432
-6|415|Gold|Hollydell Hurricanes|38|27|10|0|1|0|248
-7|411|Gold|MYHA 12U AA Blue|16|7|6|3|0|0|507
-8|354|Gold|The St. James Gold|16|10|5|0|1|0|284
-9|325|Silver|Long Island Rebels|16|5|6|3|2|0|573
-10|275|Silver|Lehigh Valley Phantoms|38|19|12|2|5|0|319
-11|191|Silver|NJ Bandits|39|17|17|2|3|0|331
-12|176|Silver|Palmyra Black Knights|38|18|16|2|2|0|362
-13|149||PAL Blue Knights|13|6|7|0|0|0|412
-14|144||North Jersey Avalanche|16|6|9|1|0|0|357
-15|74||MYHA 12U AA Gold|16|8|7|1|0|0|135
-16|56||North Jersey Skylands Kings|37|11|20|3|3|0|221
-17|54||Rye Rangers|14|3|8|2|1|0|259
-18|37||Rockets Hockey Club|36|11|23|2|0|0|223
-19|23||Delaware Ducks|39|10|28|0|1|0|239
-20|8||Igloo Jaguars|37|5|30|1|1|0|177
-21|7||NJ Stars|33|3|27|2|1|0|225
+1|1883|Championship|Ashburn Xtreme 2010|16|12|1|2|1|0|568
+2|1120|Championship|Philadelphia Blazers|38|29|4|3|2|0|385
+3|530|Championship|Haverford Hawks|38|24|11|0|3|0|402
+4|448|Championship|Team Philadelphia|39|25|12|1|1|0|366
+5|419|Gold|Hollydell Hurricanes|38|27|10|0|1|0|250
+6|414|Gold|MYHA 12U AA Blue|16|7|6|3|0|0|510
+7|400|Gold|York Devils|39|23|14|0|2|0|422
+8|355|Gold|The St. James Gold|16|10|5|0|1|0|284
+9|326|Silver|Long Island Rebels|16|5|6|3|2|0|577
+10|266|Silver|Lehigh Valley Phantoms|40|20|13|2|5|0|319
+11|196|Silver|NJ Bandits|40|18|17|2|3|0|325
+12|186|Silver|Palmyra Black Knights|40|19|17|2|2|0|366
+13|150||PAL Blue Knights|13|6|7|0|0|0|414
+14|146||North Jersey Avalanche|16|6|9|1|0|0|360
+15|74||MYHA 12U AA Gold|16|8|7|1|0|0|134
+16|58||North Jersey Skylands Kings|38|12|20|3|3|0|216
+17|55||Rye Rangers|14|3|8|2|1|0|263
+18|36||Rockets Hockey Club|37|11|24|2|0|0|223
+19|24||Delaware Ducks|40|11|28|0|1|0|235
+20|8||Igloo Jaguars|39|5|32|1|1|0|176
+21|7||NJ Stars|35|3|29|2|1|0|227
 # Generation Details
 
 Generated with command line:
@@ -32,7 +32,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2022-08-20 |
-| End Date | 2023-02-04 |
+| End Date | 2023-02-05 |
 | Max Iterations | 10 |
 | Max Ratings Diff | 0.0001 |
 | Shootout Win Value | 0.50 |
@@ -40,5 +40,6 @@ Generated with command line:
 | Tie Value | 0.50 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-02-04 |
+| Date Cutoff | 2023-02-06 |
+| SoS Method | AVERAGE |
 

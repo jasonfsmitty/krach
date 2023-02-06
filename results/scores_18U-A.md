@@ -1,27 +1,27 @@
 # 18U-A KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:
-1|1603|Championship|Wissahickon Warriors Red|33|27|3|2|1|0|435
-2|1429|Championship|North Jersey Sportscare Kings Yellow|24|17|4|1|2|0|623
-3|1210|Championship|Jersey Shore Wildcats Black|16|12|4|0|0|0|647
-4|1031|Championship|Palmyra Black Knights|33|25|5|1|2|0|401
-5|1016|Gold|Philadelphia Blazers|32|22|7|1|2|0|549
-6|809|Gold|Ashburn Xtreme|17|11|2|4|0|0|328
-7|798|Gold|NJ Bandits|16|10|4|1|1|0|628
-8|582|Gold|Lehigh Valley Phantoms 1|34|21|11|2|0|0|587
-9|381|Silver|Wissahickon Warriors White|35|22|9|1|3|0|323
-10|355|Silver|Delaware Ducks|34|17|10|4|3|0|485
-11|252|Silver|Maryland Jr Black Bears White|13|4|8|0|1|0|838
-12|146|Silver|Jersey Shore Wildcats Red|16|7|9|0|0|0|654
-13|137||Grundy Senators Gold|34|13|17|2|2|0|486
-14|129||Valley Forge Colonials 18U A|34|12|18|1|3|0|522
-15|30||York Devils|34|8|24|2|0|0|371
-16|27||Southern Maryland Sabres 18U Gold|16|4|11|0|1|0|306
-17|18||Royals|34|6|26|0|2|0|395
-18|16||Lehigh Valley Phantoms 2|34|5|28|1|0|0|492
-19|14||North Jersey Sportscare Kings Grey|24|3|20|0|1|0|400
-20|12||The St. James Navy|17|3|14|0|0|0|283
-21|6||Tomorrow's Ice North Stars White|16|0|15|1|0|0|692
+1|1598|Championship|Wissahickon Warriors Red|35|29|3|2|1|0|415
+2|1420|Championship|North Jersey Sportscare Kings Yellow|24|17|4|1|2|0|621
+3|1207|Championship|Jersey Shore Wildcats Black|16|12|4|0|0|0|642
+4|1150|Championship|Palmyra Black Knights|35|27|5|1|2|0|410
+5|942|Gold|Philadelphia Blazers|33|22|8|1|2|0|572
+6|802|Gold|Ashburn Xtreme|17|11|2|4|0|0|333
+7|792|Gold|NJ Bandits|16|10|4|1|1|0|627
+8|601|Gold|Lehigh Valley Phantoms 1|35|22|11|2|0|0|575
+9|366|Silver|Wissahickon Warriors White|36|22|9|1|4|0|319
+10|337|Silver|Delaware Ducks|35|17|11|4|3|0|501
+11|247|Silver|Maryland Jr Black Bears White|13|4|8|0|1|0|825
+12|148|Silver|Jersey Shore Wildcats Red|16|7|9|0|0|0|654
+13|139||Valley Forge Colonials 18U A|36|13|18|2|3|0|506
+14|129||Grundy Senators Gold|36|13|19|2|2|0|520
+15|27||Southern Maryland Sabres 18U Gold|16|4|11|0|1|0|312
+16|26||York Devils|35|8|25|2|0|0|367
+17|20||Royals|36|7|27|0|2|0|381
+18|16||Lehigh Valley Phantoms 2|35|5|29|1|0|0|523
+19|14||North Jersey Sportscare Kings Grey|24|3|20|0|1|0|399
+20|12||The St. James Navy|17|3|14|0|0|0|294
+21|7||Tomorrow's Ice North Stars White|16|0|15|1|0|0|699
 # Generation Details
 
 Generated with command line:
@@ -32,7 +32,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2022-08-19 |
-| End Date | 2023-02-04 |
+| End Date | 2023-02-05 |
 | Max Iterations | 10 |
 | Max Ratings Diff | 0.0001 |
 | Shootout Win Value | 0.50 |
@@ -40,5 +40,6 @@ Generated with command line:
 | Tie Value | 0.50 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-02-04 |
+| Date Cutoff | 2023-02-06 |
+| SoS Method | AVERAGE |
 

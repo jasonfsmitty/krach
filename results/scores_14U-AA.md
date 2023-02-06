@@ -1,25 +1,25 @@
 # 14U-AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:
-1|2613|Championship|Ashburn Xtreme 2008|16|14|0|2|0|0|507
-2|1724|Championship|North Jersey Avalanche|16|13|0|1|2|0|428
-3|970|Championship|Long Island Rebels|18|12|3|0|3|0|509
-4|556|Championship|York Devils|37|26|7|3|1|0|327
-5|476|Gold|Valley Forge Colonials|37|21|9|4|3|0|506
-6|317|Gold|Rye Rangers|16|7|6|2|1|0|574
-7|307|Gold|Team Philadelphia|36|20|8|2|6|0|332
-8|291|Gold|Igloo Jaguars|38|23|13|2|0|0|300
-9|283|Silver|NJ Bandits|39|21|13|3|2|0|393
-10|204|Silver|MYHA 14U AA|16|7|6|1|2|0|244
-11|195|Silver|Haverford Hawks|37|14|13|5|5|0|365
-12|171|Silver|Rockets Hockey Club Black|38|14|20|3|1|0|440
-13|134||PAL Blue Knights|16|6|7|1|2|0|269
-14|81||Delaware Ducks|38|14|20|2|2|0|260
-15|48||Tomorrow's Ice Selects|38|10|25|2|1|0|352
-16|27||Lehigh Valley Phantoms|37|10|26|1|0|0|194
-17|27||Palmyra Black Knights|36|9|24|0|3|0|233
-18|11||The St. James Gold|14|2|11|1|0|0|132
-19|5||Rockets Hockey Club White|33|3|29|0|1|0|299
+1|2592|Championship|Ashburn Xtreme 2008|16|14|0|2|0|0|505
+2|1739|Championship|North Jersey Avalanche|16|13|0|1|2|0|432
+3|979|Championship|Long Island Rebels|18|12|3|0|3|0|514
+4|582|Championship|York Devils|38|27|7|3|1|0|325
+5|460|Gold|Valley Forge Colonials|38|21|9|5|3|0|498
+6|323|Gold|Rye Rangers|16|7|6|2|1|0|578
+7|298|Gold|NJ Bandits|40|22|13|3|2|0|388
+8|296|Gold|Team Philadelphia|38|21|9|2|6|0|330
+9|292|Silver|Igloo Jaguars|38|23|13|2|0|0|301
+10|202|Silver|MYHA 14U AA|16|7|6|1|2|0|246
+11|200|Silver|Haverford Hawks|39|16|13|5|5|0|347
+12|169|Silver|Rockets Hockey Club Black|40|14|21|3|2|0|440
+13|138||PAL Blue Knights|16|6|7|1|2|0|272
+14|87||Delaware Ducks|39|15|20|2|2|0|256
+15|45||Tomorrow's Ice Selects|39|10|26|2|1|0|346
+16|26||Lehigh Valley Phantoms|38|10|27|1|0|0|196
+17|21||Palmyra Black Knights|39|9|27|0|3|0|225
+18|11||The St. James Gold|14|2|11|1|0|0|131
+19|9||Rockets Hockey Club White|36|5|30|0|1|0|286
 # Generation Details
 
 Generated with command line:
@@ -30,7 +30,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2022-08-27 |
-| End Date | 2023-02-04 |
+| End Date | 2023-02-05 |
 | Max Iterations | 10 |
 | Max Ratings Diff | 0.0001 |
 | Shootout Win Value | 0.50 |
@@ -38,5 +38,6 @@ Generated with command line:
 | Tie Value | 0.50 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-02-04 |
+| Date Cutoff | 2023-02-06 |
+| SoS Method | AVERAGE |
 
