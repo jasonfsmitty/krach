@@ -1,19 +1,19 @@
 # 12U-B KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2172|Championship|Ashburn Xtreme X2|16|14|0|1|1|0|408|13.7|1.3
-2|1825|Championship|Metro Militia|13|12|0|0|1|0|293|11.5|1.0
-3|1117|Championship|Jersey Shore Wildcats Black|16|14|1|1|0|0|334|13.7|0.8
-4|823|Championship|Palmyra Black Knights|35|27|6|1|1|0|381|26.9|1.1
-5|720|Gold|Royals White|35|27|6|0|2|0|336|27.0|1.0
-6|565|Gold|Frederick Freeze|16|14|2|0|0|0|107|14.0|0.0
-7|490|Gold|Valley Forge Colonials 12U B Herhal|34|22|9|1|2|0|422|23.0|0.5
-8|478|Gold|NJ Bandits White|16|10|4|1|1|0|421|10.7|0.3
-9|476|Silver|MYHA 12U B Blue|16|10|6|0|0|0|445|9.8|0.2
+1|2172|Championship|Ashburn Xtreme X2|16|14|0|1|1|0|408|13.7|-1.3
+2|1825|Championship|Metro Militia|13|12|0|0|1|0|293|11.5|-1.0
+3|1117|Championship|Jersey Shore Wildcats Black|16|14|1|1|0|0|334|13.7|-0.8
+4|823|Championship|Palmyra Black Knights|35|27|6|1|1|0|381|26.9|-1.1
+5|720|Gold|Royals White|35|27|6|0|2|0|336|27.0|-1.0
+6|565|Gold|Frederick Freeze|16|14|2|0|0|0|107|14.0|-0.0
+7|490|Gold|Valley Forge Colonials 12U B Herhal|34|22|9|1|2|0|422|23.0|-0.5
+8|478|Gold|NJ Bandits White|16|10|4|1|1|0|421|10.7|-0.3
+9|476|Silver|MYHA 12U B Blue|16|10|6|0|0|0|445|9.8|-0.2
 10|263|Silver|Hollydell Hurricanes|34|23|10|1|0|0|303|24.0|0.5
 11|200|Silver|Delaware Ducks Black|34|18|13|2|1|0|323|19.8|0.3
 12|176|Silver|Royals Gray|34|16|15|1|2|0|364|17.7|0.2
-13|122||North Jersey Sportscare Kings Yellow|16|7|8|1|0|0|517|7.5|0.0
+13|122||North Jersey Sportscare Kings Yellow|16|7|8|1|0|0|517|7.5|-0.0
 14|120||Lehigh Valley Phantoms|35|16|16|2|1|0|254|18.0|0.5
 15|109||Igloo Jaguars|36|18|15|2|1|0|190|20.3|0.8
 16|105||Philadelphia Jr Flyers Herold|34|13|19|1|1|0|309|14.2|0.2
@@ -27,8 +27,15 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 24|3||NJ Stars|33|2|29|2|0|0|252|3.3|0.3
 25|2||Philadelphia Jr Flyers Audit|15|1|13|0|1|0|104|1.7|0.2
 
-Average difference per team in expected vs actual wins: 0.5
-# Generation Details
+## Actual vs Expected
+Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
+
+||Absolute|Raw
+|---:|---:|---:
+|Total|12.77|-0.00
+|Avg|0.51|-0.00
+
+## Generation Details
 
 Generated with command line:
 ```

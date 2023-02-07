@@ -1,11 +1,11 @@
 # 14U-B KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|336|Championship|MYHA 14U B Blue|16|14|0|1|1|0|53|13.9|1.1
-2|199|Championship|Ashburn Xtreme|16|13|1|2|0|0|44|13.4|0.6
-3|120|Championship|Frederick Freeze|16|12|3|1|0|0|56|12.2|0.3
-4|99|Championship|Team Philadelphia|34|23|8|2|1|0|74|24.0|0.5
-5|69|Gold|Grundy Senators|36|21|9|0|6|0|69|23.8|0.2
+1|336|Championship|MYHA 14U B Blue|16|14|0|1|1|0|53|13.9|-1.1
+2|199|Championship|Ashburn Xtreme|16|13|1|2|0|0|44|13.4|-0.6
+3|120|Championship|Frederick Freeze|16|12|3|1|0|0|56|12.2|-0.3
+4|99|Championship|Team Philadelphia|34|23|8|2|1|0|74|24.0|-0.5
+5|69|Gold|Grundy Senators|36|21|9|0|6|0|69|23.8|-0.2
 6|56|Gold|Wissahickon Warriors|35|21|9|2|3|0|44|23.7|0.2
 7|47|Gold|Palmyra Black Knights|36|21|14|1|0|0|75|21.6|0.1
 8|15|Gold|Maryland Jr Black Bears|16|5|9|1|1|0|40|6.1|0.1
@@ -18,8 +18,15 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 15|4||NJ Bandits|16|1|10|2|3|0|33|3.6|0.1
 16|3||Jersey Shore Wildcats|15|3|12|0|0|0|25|3.1|0.1
 
-Average difference per team in expected vs actual wins: 0.3
-# Generation Details
+## Actual vs Expected
+Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
+
+||Absolute|Raw
+|---:|---:|---:
+|Total|5.24|-0.00
+|Avg|0.33|-0.00
+
+## Generation Details
 
 Generated with command line:
 ```

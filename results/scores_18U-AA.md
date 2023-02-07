@@ -1,13 +1,13 @@
 # 18U-AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1734|Championship|Philadelphia Blazers|37|31|1|3|2|0|376|31.1|2.4
-2|887|Championship|MYHA 18U AA Blue|16|9|4|3|0|0|715|9.9|0.6
-3|728|Championship|Ashburn Xtreme|16|9|4|3|0|0|593|10.0|0.5
-4|697|Championship|Team Philadelphia|38|27|9|2|0|0|413|27.2|0.8
-5|679|Gold|Igloo Jaguars Black|40|27|9|0|4|0|411|28.2|0.8
-6|545|Gold|Long Island Rebels|15|9|5|1|0|0|467|9.3|0.2
-7|316|Gold|North Jersey Skylands Kings|19|10|8|0|1|0|487|10.4|0.1
+1|1734|Championship|Philadelphia Blazers|37|31|1|3|2|0|376|31.1|-2.4
+2|887|Championship|MYHA 18U AA Blue|16|9|4|3|0|0|715|9.9|-0.6
+3|728|Championship|Ashburn Xtreme|16|9|4|3|0|0|593|10.0|-0.5
+4|697|Championship|Team Philadelphia|38|27|9|2|0|0|413|27.2|-0.8
+5|679|Gold|Igloo Jaguars Black|40|27|9|0|4|0|411|28.2|-0.8
+6|545|Gold|Long Island Rebels|15|9|5|1|0|0|467|9.3|-0.2
+7|316|Gold|North Jersey Skylands Kings|19|10|8|0|1|0|487|10.4|-0.1
 8|240|Gold|Lehigh Valley Phantoms|40|21|15|1|3|0|338|23.4|0.4
 9|210|Silver|Valley Forge Colonials 18U AA|39|22|15|1|1|0|296|23.6|0.6
 10|205|Silver|Metro Militia|16|9|5|2|0|0|212|10.4|0.4
@@ -21,8 +21,15 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 18|7||Igloo Jaguars Green|39|3|33|1|2|0|258|4.9|0.4
 19|6||Rockets Hockey Club|35|2|30|1|2|0|297|3.8|0.3
 
-Average difference per team in expected vs actual wins: 0.6
-# Generation Details
+## Actual vs Expected
+Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
+
+||Absolute|Raw
+|---:|---:|---:
+|Total|11.26|0.43
+|Avg|0.59|0.02
+
+## Generation Details
 
 Generated with command line:
 ```

@@ -1,17 +1,17 @@
 # 18U-A KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1597|Championship|Wissahickon Warriors Red|35|29|3|2|1|0|416|29.0|1.5
-2|1418|Championship|North Jersey Sportscare Kings Yellow|24|17|4|1|2|0|621|17.7|0.8
-3|1192|Championship|Jersey Shore Wildcats Black|16|12|4|0|0|0|640|11.4|0.6
-4|1160|Championship|Palmyra Black Knights|35|27|5|1|2|0|413|27.8|0.7
-5|981|Gold|Philadelphia Blazers|35|24|8|1|2|0|550|24.9|0.6
+1|1597|Championship|Wissahickon Warriors Red|35|29|3|2|1|0|416|29.0|-1.5
+2|1418|Championship|North Jersey Sportscare Kings Yellow|24|17|4|1|2|0|621|17.7|-0.8
+3|1192|Championship|Jersey Shore Wildcats Black|16|12|4|0|0|0|640|11.4|-0.6
+4|1160|Championship|Palmyra Black Knights|35|27|5|1|2|0|413|27.8|-0.7
+5|981|Gold|Philadelphia Blazers|35|24|8|1|2|0|550|24.9|-0.6
 6|808|Gold|Ashburn Xtreme|17|11|2|4|0|0|337|13.0|0.0
-7|795|Gold|NJ Bandits|16|10|4|1|1|0|628|10.7|0.3
-8|598|Gold|Lehigh Valley Phantoms 1|35|22|11|2|0|0|576|22.6|0.4
+7|795|Gold|NJ Bandits|16|10|4|1|1|0|628|10.7|-0.3
+8|598|Gold|Lehigh Valley Phantoms 1|35|22|11|2|0|0|576|22.6|-0.4
 9|369|Silver|Wissahickon Warriors White|36|22|9|1|4|0|324|25.2|0.7
 10|336|Silver|Delaware Ducks|35|17|11|4|3|0|503|20.7|0.2
-11|209|Silver|Maryland Jr Black Bears White|15|4|10|0|1|0|848|4.4|0.1
+11|209|Silver|Maryland Jr Black Bears White|15|4|10|0|1|0|848|4.4|-0.1
 12|148|Silver|Jersey Shore Wildcats Red|16|7|9|0|0|0|654|7.1|0.1
 13|140||Valley Forge Colonials 18U A|36|13|18|2|3|0|509|16.0|0.5
 14|128||Grundy Senators Gold|36|13|19|2|2|0|521|15.5|0.5
@@ -23,8 +23,15 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 20|12||The St. James Navy|17|3|14|0|0|0|296|3.3|0.3
 21|7||Tomorrow's Ice North Stars White|16|0|15|1|0|0|699|0.5|0.0
 
-Average difference per team in expected vs actual wins: 0.5
-# Generation Details
+## Actual vs Expected
+Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
+
+||Absolute|Raw
+|---:|---:|---:
+|Total|10.04|0.00
+|Avg|0.48|0.00
+
+## Generation Details
 
 Generated with command line:
 ```

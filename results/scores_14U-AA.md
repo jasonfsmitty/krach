@@ -1,12 +1,12 @@
 # 14U-AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2592|Championship|Ashburn Xtreme 2008|16|14|0|2|0|0|505|13.7|1.3
-2|1739|Championship|North Jersey Avalanche|16|13|0|1|2|0|432|13.4|1.1
-3|979|Championship|Long Island Rebels|18|12|3|0|3|0|514|13.0|0.5
-4|582|Championship|York Devils|38|27|7|3|1|0|325|28.5|0.5
-5|460|Gold|Valley Forge Colonials|38|21|9|5|3|0|498|24.7|0.3
-6|323|Gold|Rye Rangers|16|7|6|2|1|0|578|8.4|0.1
+1|2592|Championship|Ashburn Xtreme 2008|16|14|0|2|0|0|505|13.7|-1.3
+2|1739|Championship|North Jersey Avalanche|16|13|0|1|2|0|432|13.4|-1.1
+3|979|Championship|Long Island Rebels|18|12|3|0|3|0|514|13.0|-0.5
+4|582|Championship|York Devils|38|27|7|3|1|0|325|28.5|-0.5
+5|460|Gold|Valley Forge Colonials|38|21|9|5|3|0|498|24.7|-0.3
+6|323|Gold|Rye Rangers|16|7|6|2|1|0|578|8.4|-0.1
 7|298|Gold|NJ Bandits|40|22|13|3|2|0|388|24.5|0.0
 8|296|Gold|Team Philadelphia|38|21|9|2|6|0|330|25.3|0.3
 9|292|Silver|Igloo Jaguars|38|23|13|2|0|0|301|24.1|0.1
@@ -21,8 +21,15 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 18|11||The St. James Gold|14|2|11|1|0|0|131|2.7|0.2
 19|9||Rockets Hockey Club White|36|5|30|0|1|0|286|5.9|0.4
 
-Average difference per team in expected vs actual wins: 0.4
-# Generation Details
+## Actual vs Expected
+Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
+
+||Absolute|Raw
+|---:|---:|---:
+|Total|7.61|-0.02
+|Avg|0.40|-0.00
+
+## Generation Details
 
 Generated with command line:
 ```

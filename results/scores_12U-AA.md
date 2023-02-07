@@ -1,16 +1,16 @@
 # 12U-AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1884|Championship|Ashburn Xtreme 2010|16|12|1|2|1|0|568|12.6|0.9
-2|1121|Championship|Philadelphia Blazers|38|29|4|3|2|0|385|30.0|1.5
-3|530|Championship|Haverford Hawks|38|24|11|0|3|0|402|25.0|0.5
-4|448|Championship|Team Philadelphia|39|25|12|1|1|0|366|25.6|0.4
-5|415|Gold|MYHA 12U AA Blue|16|7|6|3|0|0|511|8.3|0.2
-6|409|Gold|Hollydell Hurricanes|39|27|10|0|1|1|250|28.0|0.0
-7|400|Gold|York Devils|40|24|14|0|2|0|412|24.6|0.4
-8|355|Gold|The St. James Gold|16|10|5|0|1|0|284|10.4|0.1
-9|326|Silver|Long Island Rebels|16|5|6|3|2|0|577|7.3|0.2
-10|266|Silver|Lehigh Valley Phantoms|40|20|13|2|5|0|319|23.4|0.1
+1|1884|Championship|Ashburn Xtreme 2010|16|12|1|2|1|0|568|12.6|-0.9
+2|1121|Championship|Philadelphia Blazers|38|29|4|3|2|0|385|30.0|-1.5
+3|530|Championship|Haverford Hawks|38|24|11|0|3|0|402|25.0|-0.5
+4|448|Championship|Team Philadelphia|39|25|12|1|1|0|366|25.6|-0.4
+5|415|Gold|MYHA 12U AA Blue|16|7|6|3|0|0|511|8.3|-0.2
+6|409|Gold|Hollydell Hurricanes|39|27|10|0|1|1|250|28.0|-0.0
+7|400|Gold|York Devils|40|24|14|0|2|0|412|24.6|-0.4
+8|355|Gold|The St. James Gold|16|10|5|0|1|0|284|10.4|-0.1
+9|326|Silver|Long Island Rebels|16|5|6|3|2|0|577|7.3|-0.2
+10|266|Silver|Lehigh Valley Phantoms|40|20|13|2|5|0|319|23.4|-0.1
 11|200|Silver|NJ Bandits|41|18|17|2|3|1|327|21.1|0.1
 12|185|Silver|Palmyra Black Knights|40|19|17|2|2|0|366|21.2|0.2
 13|150||PAL Blue Knights|13|6|7|0|0|0|414|6.0|0.0
@@ -23,8 +23,15 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 20|7||Igloo Jaguars|40|5|33|1|1|0|181|6.4|0.4
 21|7||NJ Stars|35|3|29|2|1|0|226|4.8|0.3
 
-Average difference per team in expected vs actual wins: 0.4
-# Generation Details
+## Actual vs Expected
+Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
+
+||Absolute|Raw
+|---:|---:|---:
+|Total|8.34|-0.28
+|Avg|0.40|-0.01
+
+## Generation Details
 
 Generated with command line:
 ```

@@ -1,22 +1,22 @@
 # 10U-A KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|922|Championship|North Jersey Sportscare Kings Blue|16|14|1|1|0|0|241|13.2|1.3
-2|789|Championship|Ashburn Xtreme 10U X|16|13|1|1|1|0|247|12.9|1.1
-3|708|Championship|NJ Bandits Grey|16|15|1|0|0|0|119|14.0|1.0
-4|673|Championship|Royals White|36|29|3|3|1|0|217|28.9|2.1
-5|439|Gold|Frederick Freeze LA|16|15|1|0|0|0|70|14.5|0.5
-6|401|Gold|York Devils|35|28|6|0|1|0|144|27.6|0.9
-7|363|Gold|NJ Bandits Black|16|11|5|0|0|0|317|10.4|0.6
-8|288|Gold|Tomorrow's Ice North Stars Red|18|13|3|0|1|1|176|13.6|0.4
-9|282|Silver|Capital City Vipers 1|34|24|8|1|1|0|148|24.5|0.5
-10|263|Silver|Southern Maryland Sabres 10U Gold|16|11|4|0|1|0|149|11.3|0.2
-11|262|Silver|Ashburn Xtreme 2013|16|11|4|0|1|0|170|11.3|0.2
+1|922|Championship|North Jersey Sportscare Kings Blue|16|14|1|1|0|0|241|13.2|-1.3
+2|789|Championship|Ashburn Xtreme 10U X|16|13|1|1|1|0|247|12.9|-1.1
+3|708|Championship|NJ Bandits Grey|16|15|1|0|0|0|119|14.0|-1.0
+4|673|Championship|Royals White|36|29|3|3|1|0|217|28.9|-2.1
+5|439|Gold|Frederick Freeze LA|16|15|1|0|0|0|70|14.5|-0.5
+6|401|Gold|York Devils|35|28|6|0|1|0|144|27.6|-0.9
+7|363|Gold|NJ Bandits Black|16|11|5|0|0|0|317|10.4|-0.6
+8|288|Gold|Tomorrow's Ice North Stars Red|18|13|3|0|1|1|176|13.6|-0.4
+9|282|Silver|Capital City Vipers 1|34|24|8|1|1|0|148|24.5|-0.5
+10|263|Silver|Southern Maryland Sabres 10U Gold|16|11|4|0|1|0|149|11.3|-0.2
+11|262|Silver|Ashburn Xtreme 2013|16|11|4|0|1|0|170|11.3|-0.2
 12|258|Silver|Maryland Jr Black Bears White|16|12|4|0|0|0|123|12.0|0.0
-13|237|Bronze|Rockets Hockey Club Black|36|25|8|1|2|0|165|26.1|0.4
-14|235|Bronze|Jersey Shore Wildcats|16|10|5|1|0|0|265|10.1|0.4
-15|188|Bronze|The St. James Navy|16|10|6|0|0|0|189|9.8|0.2
-16|155|Bronze|MYHA 10U LA Blue|18|10|6|0|1|1|183|10.9|0.1
+13|237|Bronze|Rockets Hockey Club Black|36|25|8|1|2|0|165|26.1|-0.4
+14|235|Bronze|Jersey Shore Wildcats|16|10|5|1|0|0|265|10.1|-0.4
+15|188|Bronze|The St. James Navy|16|10|6|0|0|0|189|9.8|-0.2
+16|155|Bronze|MYHA 10U LA Blue|18|10|6|0|1|1|183|10.9|-0.1
 17|140||Philadelphia Blazers|36|22|12|0|2|0|175|23.1|0.1
 18|126||Metro Militia|17|9|6|2|0|0|213|10.0|0.0
 19|112||Valley Forge Colonials 10U A Silver|35|18|14|1|2|0|210|19.6|0.1
@@ -44,8 +44,15 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 41|2||NJ Stars Gold|35|3|31|0|1|0|120|3.8|0.3
 42|2||MYHA 10U UA Gold|16|1|15|0|0|0|92|1.0|0.0
 
-Average difference per team in expected vs actual wins: 0.5
-# Generation Details
+## Actual vs Expected
+Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
+
+||Absolute|Raw
+|---:|---:|---:
+|Total|19.51|-0.30
+|Avg|0.46|-0.01
+
+## Generation Details
 
 Generated with command line:
 ```

@@ -1,18 +1,18 @@
 # 16U-A KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1107|Championship|Southern Maryland Sabres 16U Gold|14|12|2|0|0|0|335|11.3|0.7
-2|1024|Championship|Frederick Freeze|16|14|1|1|0|0|204|13.8|0.7
-3|929|Championship|Lancaster Firebirds Black|35|29|3|3|0|0|259|29.1|1.4
-4|826|Championship|Wissahickon Warriors Red|34|27|4|1|2|0|278|27.4|1.1
-5|732|Gold|Delaware Ducks|36|29|4|1|2|0|195|29.6|0.9
-6|711|Gold|Ashburn Xtreme|16|13|3|0|0|0|249|12.6|0.4
-7|571|Gold|Frederick Freeze LA|16|13|2|0|1|0|161|13.3|0.2
-8|565|Gold|Team Philadelphia Orange|34|24|6|4|0|0|256|25.5|0.5
-9|461|Silver|Wissahickon Warriors White|35|23|6|2|4|0|245|25.6|0.4
+1|1107|Championship|Southern Maryland Sabres 16U Gold|14|12|2|0|0|0|335|11.3|-0.7
+2|1024|Championship|Frederick Freeze|16|14|1|1|0|0|204|13.8|-0.7
+3|929|Championship|Lancaster Firebirds Black|35|29|3|3|0|0|259|29.1|-1.4
+4|826|Championship|Wissahickon Warriors Red|34|27|4|1|2|0|278|27.4|-1.1
+5|732|Gold|Delaware Ducks|36|29|4|1|2|0|195|29.6|-0.9
+6|711|Gold|Ashburn Xtreme|16|13|3|0|0|0|249|12.6|-0.4
+7|571|Gold|Frederick Freeze LA|16|13|2|0|1|0|161|13.3|-0.2
+8|565|Gold|Team Philadelphia Orange|34|24|6|4|0|0|256|25.5|-0.5
+9|461|Silver|Wissahickon Warriors White|35|23|6|2|4|0|245|25.6|-0.4
 10|440|Silver|The St. James White|16|13|3|0|0|0|122|13.1|0.1
-11|438|Silver|MYHA 16U UA|16|10|3|1|2|0|324|11.3|0.2
-12|320|Silver|MYHA 16U LA|16|9|4|2|1|0|269|10.5|0.0
+11|438|Silver|MYHA 16U UA|16|10|3|1|2|0|324|11.3|-0.2
+12|320|Silver|MYHA 16U LA|16|9|4|2|1|0|269|10.5|-0.0
 13|291|Bronze|Igloo Jaguars Black|36|24|11|0|1|0|280|24.6|0.1
 14|155|Bronze|Valley Forge Colonials 16U A Gold|35|18|15|0|2|0|313|19.3|0.3
 15|139|Bronze|Valley Forge Colonials 16U A Silver|36|15|15|2|4|0|271|18.2|0.2
@@ -37,8 +37,15 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 34|7||Jersey Shore Wildcats Red|16|1|14|1|0|0|163|1.6|0.1
 35|2||Capital City Vipers|34|1|33|0|0|0|293|1.0|0.0
 
-Average difference per team in expected vs actual wins: 0.4
-# Generation Details
+## Actual vs Expected
+Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
+
+||Absolute|Raw
+|---:|---:|---:
+|Total|13.01|-0.15
+|Avg|0.37|-0.00
+
+## Generation Details
 
 Generated with command line:
 ```
