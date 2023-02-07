@@ -21,15 +21,28 @@ def writeMarkdownTable(f, data, keyTitle="Option", valueTitle="Value"):
     f.write(f"\n")
 
 #----------------------------------------------------------------------------
+# Method to calculate the KRACH rating
+class KrachMethod(Enum):
+    BRADLEY_TERRY = 1
+    WIN_LOSS      = 2
+
+#----------------------------------------------------------------------------
 # See KRACH::strengthOfSchedule() for details
 class SoSMethod(Enum):
     AVERAGE = 1
-    DBAKER = 2
+    DBAKER  = 2
+    TBRW    = 3
 
 #----------------------------------------------------------------------------
 @dataclass
 class Options:
     divisionName:      str   = ""
+
+    # Algorithm used for calculating the KRACH rating
+    krachMethod:       KrachMethod = KrachMethod.BRADLEY_TERRY
+
+    # Method used to calculate strength-of-schedule
+    sosMethod:         SoSMethod = SoSMethod.AVERAGE
 
     # Options to determine when to stop recursing through the KRACH algorithm.
     maxIterations:     int   = 10000   # max number of loops
@@ -54,27 +67,26 @@ class Options:
     # the latest score results to recreate the KRACH ratings from previous weeks.
     dateCutoff:        str   = field(default_factory=lambda: datetime.date.today())
 
-    # Method used to calculate strength-of-schedule
-    sosMethod:         SoSMethod = SoSMethod.AVERAGE
-
     def isValid(self, date):
         return date <= self.dateCutoff
 
     def dict(self):
         return {
+            "KRACH Method"        : "{}".format(self.krachMethod.name),
+            "SoS Method"          : "{}".format(self.sosMethod.name),
             "Max Iterations"      : "{}".format(self.maxIterations),
             "Max Ratings Diff"    : "{}".format(self.maxRatingsDiff),
             "Shootout Win Value"  : "{:3.2f}".format(self.shootoutWinValue),
             "Shootout Loss Value" : "{:3.2f}".format(self.shootoutLossValue),
             "Tie Value"           : "{:3.2f}".format(self.tieValue),
+            "Fake Ties"           : "{}".format(self.fakeTies),
             "Ignore teams"        : "{}".format(",".join(self.filteredTeams)),
             "Min Games Played"    : "{}".format(self.minGamesPlayed),
             "Date Cutoff"         : "{}".format(self.dateCutoff),
-            "SoS Method"          : "{}".format(self.sosMethod.name),
         }
 
     def __str__(self):
-        return '\n'.join([ "  {:<20} : {}".format(k, v) for k,v in self.dict().items() ])
+        return '\n'.join([""] + [ "  {:<20} : {}".format(k, v) for k,v in self.dict().items() ])
 
 g_options = Options()
 
@@ -200,7 +212,7 @@ def writeMarkdownRankings(outputFile, ledger, ratings, sosAll):
         f.write(" ".join(sys.argv[:]))
         f.write("\n```\n")
         f.write("\n")
-        
+
         data = {
             "Start Date" : f"{ledger.oldestGame}",
             "End Date"   : f"{ledger.newestGame}",
@@ -242,10 +254,13 @@ class Record:
         self.ties += 1
 
     def winPoints(self):
-        return self.wins \
+        return float(self.wins) \
             + (self.soWins   * g_options.shootoutWinValue) \
             + (self.soLosses * g_options.shootoutLossValue) \
             + (self.ties     * g_options.tieValue)
+
+    def lossPoints(self):
+        return float(self.played) - self.winPoints()
 
 #----------------------------------------------------------------------------
 class Team:
@@ -362,7 +377,25 @@ class KRACH:
     # Calculates an updated rating for a single team, using:
     #   Ki = Vi / ( ∑j Nij / (Ki + Kj) )
     def calculate(self, ledger, ratings, i):
+        methods = {
+            KrachMethod.BRADLEY_TERRY : self.calculateBradleyTerry,
+            KrachMethod.WIN_LOSS      : self.calculateWinLoss,
+        }
+        method = methods.get(g_options.krachMethod, None)
+        if not method:
+            raise RuntimeError("Failed to map KRACH method to function")
+        return method(ledger, ratings, i)
+
+    #----------------------------------------------------------------------------
+    def calculateBradleyTerry(self, ledger, ratings, i):
         return ledger.teams[i].record.winPoints() / self.calculateMatchupFactor(ledger, ratings, i)
+
+    #----------------------------------------------------------------------------
+    def calculateWinLoss(self, ledger, ratings, i):
+        wins = ledger.teams[i].record.winPoints()
+        losses = ledger.teams[i].record.lossPoints()
+
+        return (wins / losses) * self.strengthOfSchedule(ledger, ratings, i)
 
     #----------------------------------------------------------------------------
     # Calculate: ∑j Nij / (Ki + Kj)
@@ -379,26 +412,28 @@ class KRACH:
         return sumOfMatchups
 
     #----------------------------------------------------------------------------
-    def strengthOfSchedule(self, ledger, ratings):
+    def strengthOfScheduleAll(self, ledger, ratings):
+        return { team : self.strengthOfSchedule(ledger, ratings, team) for team in ledger.teams }
+
+    #----------------------------------------------------------------------------
+    def strengthOfSchedule(self, ledger, ratings, myTeam):
         methods = {
             SoSMethod.AVERAGE : self.sosAverage,
             SoSMethod.DBAKER  : self.sosDanBaker,
+            SoSMethod.TBRW    : self.sosTbrw,
         }
         method = methods.get(g_options.sosMethod, None)
         if not method:
             raise RuntimeError("Failed to map SOS method to function")
-        return method(ledger, ratings)
+        return method(ledger, ratings, myTeam)
 
     #----------------------------------------------------------------------------
     # SoS based on the average rating of all opponents played.
-    def sosAverage(self, ledger, ratings):
-        sos = {}
-        for myTeam in ledger.teams:
-            total = 0.0
-            for oppTeam in ledger.teams[myTeam].matchups:
-                total += ledger.teams[myTeam].matchups[oppTeam].played * ratings[oppTeam]
-            sos[myTeam] = total / ledger.teams[myTeam].record.played
-        return sos
+    def sosAverage(self, ledger, ratings, myTeam):
+        total = 0.0
+        for oppTeam in ledger.teams[myTeam].matchups:
+            total += ledger.teams[myTeam].matchups[oppTeam].played * ratings[oppTeam]
+        return total / ledger.teams[myTeam].record.played
 
     #----------------------------------------------------------------------------
     # SoS based on the formula provided by Dan Baker's KRACH page at
@@ -410,19 +445,43 @@ class KRACH:
     # being proportional to the team's own KRACH rating, not the opponents.
     # FYI: I tried tweaking this, thinking that maybe the sum was meant to be
     # over the entire fraction, but that ended up being just the average.
-    def sosDanBaker(self, ledger, ratings):
-        sos = {}
-        for myTeam in ledger.teams:
-            rs = ratings[myTeam]
-            top = 0.0
-            bot = 0.0
-            for oppTeam in ledger.teams[myTeam].matchups:
-                gp = ledger.teams[myTeam].matchups[oppTeam].played 
-                ro = ratings[oppTeam]
-                top += gp * ro  / (ro + rs)
-                bot += gp * 1.0 / (ro + rs)
-            sos[myTeam] = top / bot
-        return sos
+    def sosDanBaker(self, ledger, ratings, myTeam):
+        rs = ratings[myTeam]
+        top = 0.0
+        bot = 0.0
+        for oppTeam in ledger.teams[myTeam].matchups:
+            gp = ledger.teams[myTeam].matchups[oppTeam].played
+            ro = ratings[oppTeam]
+            top += gp * ro  / (ro + rs)
+            bot += gp * 1.0 / (ro + rs)
+        return top / bot
+
+    #----------------------------------------------------------------------------
+    # SoS (aka 'weighting factor') as described at TBRW site:
+    # http://elynah.com/tbrw/tbrw.cgi?krach
+    # Sos is defined as:
+    #    ∑j fij * Kj
+    # And fij:
+    #  fij = [ Nij / (Ki+Kj) ] / [ ∑k Nik / (Ki+Kk) ]
+    #
+    def sosTbrw(self, ledger, ratings, myTeam):
+        rs = ratings[myTeam]
+        total = 0.0
+
+        # precalc: ∑k Nik / (Ki+Kk)
+        bottomSum = 0.0
+        for oppTeam in ledger.teams[myTeam].matchups:
+            gp = ledger.teams[myTeam].matchups[oppTeam].played
+            ro = ratings[oppTeam]
+            bottomSum += (gp / (ro + rs))
+
+        # calc fij and add into the total sum
+        for oppTeam in ledger.teams[myTeam].matchups:
+            gp = ledger.teams[myTeam].matchups[oppTeam].played
+            ro = ratings[oppTeam]
+            fij = (gp / (ro + rs)) / bottomSum
+            total += ro * fij
+        return total
 
     #----------------------------------------------------------------------------
     def normalize(self, ratings):
@@ -458,7 +517,7 @@ class AhfScoreReader:
         team1score = game['finalScore']['homeGoals']
         team2      = game['visitorTeam']['name']
         team2score = game['finalScore']['visitorGoals']
-        shootout   = any(map(lambda x: x['title'] == 'SO', game['scoresByPeriod'])) 
+        shootout   = any(map(lambda x: x['title'] == 'SO', game['scoresByPeriod']))
 
         winner = team1 if team1score > team2score else team2
         loser  = team2 if team1score > team2score else team1
@@ -495,6 +554,18 @@ def parseCommandLine():
         type    = str,
         default = g_options.divisionName,
         help    = "Division Name")
+
+    parser.add_argument("--krach",
+        metavar = "<method>",
+        choices = ["bradley_terry", "win_loss"],
+        default = "bradley_terry",
+        help    = "Method used to calculate KRACH")
+
+    parser.add_argument("--sos",
+        metavar = "<method>",
+        choices = ["average", "dbaker", "tbrw"],
+        default = "average",
+        help    = "Method used to calculate Sos")
 
     parser.add_argument("-i", "--iterations",
         type    = int,
@@ -547,16 +618,12 @@ def parseCommandLine():
         default = "",
         help    = "Write final rankings as a markdown formatted file")
 
-    parser.add_argument("--sos",
-        metavar = "<method>",
-        choices = ["average", "dbaker"],
-        default = "average",
-        help    = "Method used to calculate Sos")
-
     parser.add_argument("inputFile")
 
     args = parser.parse_args()
     g_options.divisionName      = args.name
+    g_options.krachMethod       = KrachMethod[args.krach.upper()]
+    g_options.sosMethod         = SoSMethod[args.sos.upper()]
     g_options.maxIterations     = args.iterations
     g_options.maxRatingsDiff    = args.diff
     g_options.shootoutWinValue  = args.shootout_win
@@ -566,7 +633,6 @@ def parseCommandLine():
     g_options.filteredTeams     = args.filter.split(',')
     g_options.minGamesPlayed    = args.min_games
     g_options.dateCutoff        = args.cutoff
-    g_options.sosMethod         = SoSMethod[args.sos.upper()]
 
     if args.debug:
         logging.getLogger().setLevel(logging.DEBUG)
@@ -588,7 +654,7 @@ def main(inputFile, outputFile):
     ratings = krach.run(ledger)
 
     # Calculate strength of schedules
-    sosAll = krach.strengthOfSchedule(ledger, ratings)
+    sosAll = krach.strengthOfScheduleAll(ledger, ratings)
 
     # Remove the one-off showcase teams
     filterTeams(ledger, ratings)
