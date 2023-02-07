@@ -9,7 +9,8 @@ import logging
 import argparse
 import json
 import datetime
-from dataclasses import dataclass, field
+import dataclasses
+import itertools
 from enum import Enum
 
 #----------------------------------------------------------------------------
@@ -34,7 +35,7 @@ class SoSMethod(Enum):
     TBRW    = 3
 
 #----------------------------------------------------------------------------
-@dataclass
+@dataclasses.dataclass
 class Options:
     inputFile:         str   = ""
     outputFile:        str   = ""
@@ -52,8 +53,7 @@ class Options:
     maxRatingsDiff:    float = 0.0001  # max diff between two runs that is considered "equal"
 
     # Options that control how shootout wins/losses and ties are weighted in the rankings
-    shootoutWinValue:  float = 0.50
-    shootoutLossValue: float = 0.50
+    shootoutWinValue:  float = 0.50  # loss value is (1.0 - winValue)
     tieValue:          float = 0.50
 
     # Option to control whether teams are given fake ties, a method some implementations
@@ -63,12 +63,16 @@ class Options:
     # Showcases may include guest teams, that play valid games that count toward
     # KRACH ratings, but are not included in the final standings. These options
     # are for filtering out these teams.
-    filteredTeams:     list  = field(default_factory=lambda: []) # Explicit list of teams
+    filteredTeams:     list  = dataclasses.field(default_factory=lambda: []) # Explicit list of teams
     minGamesPlayed:    int   = 0 # ignore teams with less than the min number of games
 
     # Option to ignore games after a specific date cutoff. This allows using
     # the latest score results to recreate the KRACH ratings from previous weeks.
-    dateCutoff:        str   = field(default_factory=lambda: datetime.date.today())
+    dateCutoff:        str   = dataclasses.field(default_factory=lambda: datetime.date.today())
+
+    # Enable test mode, which iterates through a set of pre-configured settings
+    # to try and find the 'best' set of options.
+    test:              bool  = False
 
     def dict(self):
         return {
@@ -77,7 +81,7 @@ class Options:
             "Max Iterations"      : "{}".format(self.maxIterations),
             "Max Ratings Diff"    : "{}".format(self.maxRatingsDiff),
             "Shootout Win Value"  : "{:3.2f}".format(self.shootoutWinValue),
-            "Shootout Loss Value" : "{:3.2f}".format(self.shootoutLossValue),
+            "Shootout Loss Value" : "{:3.2f}".format(1.0 - self.shootoutWinValue),
             "Tie Value"           : "{:3.2f}".format(self.tieValue),
             "Fake Ties"           : "{}".format(self.fakeTies),
             "Ignore teams"        : "{}".format(",".join(self.filteredTeams)),
@@ -252,7 +256,7 @@ def writeMarkdownRankings(options, ledger, ratings):
         writeMarkdownTable(f, data)
 
 #----------------------------------------------------------------------------
-@dataclass
+@dataclasses.dataclass
 class Record:
     played:   int = 0
     wins:     int = 0
@@ -287,7 +291,7 @@ class Record:
     def winPoints(self, options):
         return self.wins \
             + (self.soWins   * options.shootoutWinValue) \
-            + (self.soLosses * options.shootoutLossValue) \
+            + (self.soLosses * (1.0 - options.shootoutWinValue)) \
             + (self.ties     * options.tieValue)
 
     def lossPoints(self, options):
@@ -375,7 +379,7 @@ class Ledger:
             self.newestGame = date
 
 #----------------------------------------------------------------------------
-@dataclass
+@dataclasses.dataclass
 class Rating:
     name:      str = ""     # Name of the team, used for display and lookup in ledger
     value:     int   = 100  # KRACH rating value
@@ -450,6 +454,8 @@ class KRACH:
     def calculateWinLoss(self, ledger, ratings, i):
         wins = ledger.teams[i].record.winPoints(self.options)
         losses = ledger.teams[i].record.lossPoints(self.options)
+        if losses == 0.0:
+            losses = 0.1
         return (wins / losses) * self.strengthOfSchedule(ledger, ratings, i)
 
     #----------------------------------------------------------------------------
@@ -631,11 +637,6 @@ def parseCommandLine():
         default = options.shootoutWinValue,
         help    = "Value of winning a game in overtime/shootout [0.0-1.0]")
 
-    parser.add_argument("-l", "--shootout-loss",
-        type    = float,
-        default = None,
-        help    = "Value of losing a game in overtime/shootout [0.0-1.0] (defaults to (1.0 - shootoutWin)")
-
     parser.add_argument("-t", "--tie",
         type    = float,
         default = options.tieValue,
@@ -661,6 +662,11 @@ def parseCommandLine():
         default = options.dateCutoff,
         help    = "Cutoff date; games played after this date will be ignored")
 
+    parser.add_argument("--test",
+        action  = "store_true",
+        default = False,
+        help    = "Enable test mode")
+
     parser.add_argument("-o", "--output",
         metavar = "<output.md>",
         type    = str,
@@ -678,12 +684,12 @@ def parseCommandLine():
     options.maxIterations     = args.iterations
     options.maxRatingsDiff    = args.diff
     options.shootoutWinValue  = args.shootout_win
-    options.shootoutLossValue = args.shootout_loss if args.shootout_loss else (1.0 - args.shootout_win)
     options.tieValue          = args.tie
     options.fakeTies          = args.fakes
     options.filteredTeams     = args.filter.split(',')
     options.minGamesPlayed    = args.min_games
     options.dateCutoff        = args.cutoff
+    options.test              = args.test
 
     if args.debug:
         logging.getLogger().setLevel(logging.DEBUG)
@@ -721,6 +727,60 @@ def generate(options, ledger):
     return [ _rating(name,value) for name,value in ratings ]
 
 #----------------------------------------------------------------------------
+def runTests(options, ledger):
+    packedConfigs = {
+        "krachMethod" : [
+            KrachMethod.BRADLEY_TERRY,
+            KrachMethod.WIN_LOSS,
+        ],
+        "sosMethod" : [
+            SoSMethod.AVERAGE,
+            SoSMethod.DBAKER,
+            SoSMethod.TBRW,
+        ],
+        "maxIterations"    : [0, 1000, 100, 10],
+        "shootoutWinValue" : [0.5, 1.0],
+        "fakeTies"         : [0, 1, 3],
+    }
+    configKeys, configValues = zip(*packedConfigs.items())
+    configs = [dict(zip(configKeys, v)) for v in itertools.product(*configValues)]
+
+    keys = set(sum(([k for k in config.keys()] for config in configs), []))
+
+    table = [
+        list(configs[0].keys()) + ['Total Diff', 'Avg Diff', 'Raw Total', 'Raw Avg'],
+    ]
+
+    for config in configs:
+        customOptions = dataclasses.replace(options, **config)
+        ratings = generate(customOptions, ledger)
+
+        diffTotal = sum(abs(x.diff) for x in ratings)
+        diffAvg   = diffTotal / len(ratings)
+        rawTotal  = sum(x.diff for x in ratings)
+        rawAvg    = rawTotal / len(ratings)
+
+        diffs = [
+            f"{diffTotal:.2f}",
+            f"{diffAvg:.2f}",
+            f"{rawTotal:.2f}",
+            f"{rawAvg:.2f}",
+        ]
+        optionsDict = dataclasses.asdict(customOptions)
+        results = [optionsDict[option] for option in packedConfigs.keys()] + diffs
+        table.append([str(x) for x in results])
+
+    def _maxLen(col):
+        return max(len(row[col]) for row in table)
+    widths = [ _maxLen(col) for col in range(len(table[0])) ]
+
+    for row in table:
+        columns = [ " {0:>{width}} ".format(row[col], width=widths[col]) for col in range(len(row)) ]
+        print("|".join( [""] + columns + [""] ))
+
+    print("")
+
+#----------------------------------------------------------------------------
 def loadInputs(options):
     ledger = Ledger(options.dateCutoff)
 
@@ -748,8 +808,12 @@ def main(options):
     logging.debug(options)
 
     ledger = loadInputs(options)
-    ratings = generate(options, ledger)
-    writeOutputs(options, ledger, ratings)
+
+    if options.test:
+        runTests(options, ledger)
+    else:
+        ratings = generate(options, ledger)
+        writeOutputs(options, ledger, ratings)
 
 #----------------------------------------------------------------------------
 if __name__ == "__main__":
