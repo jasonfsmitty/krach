@@ -154,41 +154,49 @@ def scaleRankings(ratings, sosAll):
         sosAll[team] = int(sosAll[team] * scaleFactor + 0.5)
 
 #----------------------------------------------------------------------------
-def showRankings(ledger, ratings, sosAll):
-    dividor = "-" * 80
-    print(f"Rank KRACH   Subdivision     Team                                     GP  WW-LL-SW-SL-TT    SoS")
+def showRankings(options, ledger, ratings):
+    dividor = "-" * 115
+    print(f"Rank KRACH   Subdivision     Team                                     GP  WW-LL-SW-SL-TT    SoS | Predict Diff")
     print(dividor)
 
+    diffTotal = 0.0
     numTeams = len(ratings)
-    for rank,entry in enumerate(ratings):
+    for rank,rating in enumerate(ratings):
         rank   += 1
         subdiv = subdivision(numTeams, rank)
-        team   = entry[0]
-        rating = entry[1]
+        team   = rating.name
+        value  = rating.value
         gp     = ledger.teams[team].record.played
         record = str(ledger.teams[team].record)
-        sos    = sosAll.get(team, 0)
-        print(f"{rank:>3} {rating:>6} : {subdiv:<13} : {team:<40} {gp:>2}  {record} {sos:>7}")
+        sos    = rating.sos
+        exp    = rating.expected
+        diff   = rating.diff
+        print(f"{rank:>3} {value:>6} : {subdiv:<13} : {team:<40} {gp:>2}  {record} {sos:>6} | {exp:>5.1f} {diff:>5.1f}")
+        diffTotal += diff
+    print("")
+    diffAvg = diffTotal / numTeams
+    print(f"Total diff: {diffTotal:.3f}")
+    print(f"Avg diff  : {diffAvg:.3f}")
 
 #----------------------------------------------------------------------------
-def writeMarkdownRankings(options, ledger, ratings, sosAll):
+def writeMarkdownRankings(options, ledger, ratings):
 
     with open(options.outputFile, "w") as f:
         f.write(f"# {options.divisionName} KRACH Rankings\n")
 
         lines = [
-            ['Rank', 'KRACH', 'Subdivision', 'Team', 'GP',   'W',    'L',    'SOW',  'SOL',  'T',    'SoS'],
-            ['---:', '---:',  ':---',        ':---', '---:', '---:', '---:', '---:', '---:', '---:', '---:'],
+            ['Rank', 'KRACH', 'Subdivision', 'Team', 'GP',   'W',    'L',    'SOW',  'SOL',  'T',    'SoS', 'Exp Wins', 'Win Diff'],
+            ['---:', '---:',  ':---',        ':---', '---:', '---:', '---:', '---:', '---:', '---:', '---:', '---:', '---:'],
         ]
         for line in lines:
             f.write('|'.join(line))
             f.write('\n')
 
         numTeams = len(ratings)
-        for rank,entry in enumerate(ratings):
+        for rank,rating in enumerate(ratings):
             rank   += 1
-            team   = entry[0]
-            rating = entry[1]
+            team   = rating.name
+            value  = rating.value
             record = ledger.teams[team].record
             gp     = record.played
             wins   = record.wins
@@ -196,11 +204,15 @@ def writeMarkdownRankings(options, ledger, ratings, sosAll):
             otw    = record.soWins
             otl    = record.soLosses
             ties   = record.ties
-            sos    = sosAll.get(team, 0)
-            columns = [rank, rating, subdivision(numTeams, rank), team, gp, wins, losses, otw, otl, ties, sos]
+            sos    = rating.sos
+            expW   = "{:.1f}".format(rating.expected)
+            diff   = "{:.1f}".format(rating.diff)
+            columns = [rank, value, subdivision(numTeams, rank), team, gp, wins, losses, otw, otl, ties, sos, expW, diff]
             f.write('|'.join(map(str, columns)))
             f.write('\n')
 
+        avgDiff = sum(x.diff for x in ratings) / len(ratings)
+        f.write(f"Average difference per team in expected vs actual wins: {avgDiff:>.1f}\n")
 
         f.write("# Generation Details\n")
         f.write("\n")
@@ -342,13 +354,22 @@ class Ledger:
             self.newestGame = date
 
 #----------------------------------------------------------------------------
+@dataclass
+class Rating:
+    name:      str = ""     # Name of the team, used for display and lookup in ledger
+    value:     int   = 100  # KRACH rating value
+    sos:       float = 100  # strength-of-schedule
+    expected:  float = 0.0  # Predicted number of wins based on KRACH ratings
+    diff:      float = 0.0  # Difference between expected and actual number of wins (absolute)
+
+#----------------------------------------------------------------------------
 # Implements the KRACH algorithm.
 class KRACH:
     def __init__(self, options):
         self.options = options
 
     #----------------------------------------------------------------------------
-    # Execute the KRACH/Bradley-Terry algorithm until the ratings converge, or
+    # Execute the KRACH algorithm until the ratings converge, or
     # we hit our max iteration limit.
     def run(self, ledger) -> dict[str, float]:
         # Initial guesses at the krach ratings; doesn't really matter as we'll iterate
@@ -399,9 +420,8 @@ class KRACH:
         sumOfMatchups = 0.0
         # iterate across all teams we've played
         for j in myTeam.matchups:
-            myPoints = myTeam.matchups[j].winPoints(self.options)
-            theirPoints = ledger.teams[j].matchups[i].winPoints(self.options)
-            sumOfMatchups += (myPoints + theirPoints) / (ratings[i] + ratings[j])
+            gp = myTeam.matchups[j].played
+            sumOfMatchups += (gp) / (ratings[i] + ratings[j])
         return sumOfMatchups
 
     #----------------------------------------------------------------------------
@@ -491,6 +511,16 @@ class KRACH:
     #----------------------------------------------------------------------------
     def areRatingsEqual(self, original, updated):
         return all( abs(original[team] - updated[team]) <= self.options.maxRatingsDiff for team in original )
+
+    #----------------------------------------------------------------------------
+    def expectedWinsAll(self, ledger, ratings):
+        return { team : self.expectedWins(ledger, ratings, team) for team in ledger.teams }
+
+    #----------------------------------------------------------------------------
+    # Validate KRACH ratings by calculating the expected wins using:
+    #    Vi = ∑j Nij*Ki/(Ki+Kj)
+    def expectedWins(self, ledger, ratings, myTeam):
+        return ratings[myTeam] * self.calculateMatchupFactor(ledger, ratings, myTeam)
 
 #----------------------------------------------------------------------------
 # Read AHF score data into a ledger. This is specific to the JSON format
@@ -640,46 +670,62 @@ def parseCommandLine():
     return options
 
 #----------------------------------------------------------------------------
-# Use the given ledger and options, generate KRACH ratings and
-# strength-of-schedule for all teams.
-def generateRatings(options, ledger):
-    addFakeTies(options, ledger)
-
-    # generate krach ratings
+def generate(options, ledger):
     krach = KRACH(options)
     ratings = krach.run(ledger)
 
-    # Calculate strength of schedules
+    # Calculate final strength of schedules
     sosAll = krach.strengthOfScheduleAll(ledger, ratings)
 
-    # Remove the one-off showcase teams
+    # Validate ratings by converting back to expected number of wins
+    expectedWins = krach.expectedWinsAll(ledger, ratings)
+
+    # Now that we're done all calculations, remove any ignored teams
+    # (such as showcase teams)
     filterTeams(options, ledger, ratings)
 
     # scale up so all values are integers
     scaleRankings(ratings, sosAll)
 
-    # sort by krach ratings, highest first.
+    # sort by self ratings, highest first.
     ratings = sorted(ratings.items(), key=lambda kv: kv[1], reverse = True)
 
-    return ratings, sosAll
+    # And finally, build a list of Rating() objects for easy consumption by caller
+    def _rating(name, value):
+        diff = abs(ledger.teams[name].record.winPoints(options) - expectedWins[name])
+        return Rating(name, value, sosAll[name], expectedWins[name], diff)
+    return [ _rating(name,value) for name,value in ratings ]
+
+#----------------------------------------------------------------------------
+def loadInputs(options):
+    ledger = Ledger(options.dateCutoff)
+
+    # Read in raw game data
+    reader = AhfScoreReader()
+    reader.read(options.inputFile, ledger)
+
+    # Add in any fake game data
+    addFakeTies(options, ledger)
+
+    return ledger
+
+#----------------------------------------------------------------------------
+def writeOutputs(options, ledger, ratings):
+    # Always show on the console
+    showRankings(options, ledger, ratings)
+
+    # optionally write to markdown file
+    if options.outputFile:
+        writeMarkdownRankings(options, ledger, ratings)
 
 #----------------------------------------------------------------------------
 def main(options):
     logging.debug("Processing '{}' with options:".format(options.inputFile))
     logging.debug(options)
 
-    ledger = Ledger(options.dateCutoff)
-    reader = AhfScoreReader()
-    reader.read(options.inputFile, ledger)
-    # ledger now contains all games (except those ignored via the date cutoff)
-
-    ratings, sosAll = generateRatings(options, ledger)
-
-    # display to console
-    showRankings(ledger, ratings, sosAll)
-
-    if options.outputFile:
-        writeMarkdownRankings(options, ledger, ratings, sosAll)
+    ledger = loadInputs(options)
+    ratings = generate(options, ledger)
+    writeOutputs(options, ledger, ratings)
 
 #----------------------------------------------------------------------------
 if __name__ == "__main__":
