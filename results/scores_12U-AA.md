@@ -22,6 +22,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 19|24||Delaware Ducks|40|11|28|0|1|0|235|12.3|0.8
 20|7||Igloo Jaguars|40|5|33|1|1|0|181|6.4|0.4
 21|7||NJ Stars|35|3|29|2|1|0|226|4.8|0.3
+
 Average difference per team in expected vs actual wins: 0.4
 # Generation Details
 

@@ -29,6 +29,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 26|8||Jersey Shore Wildcats White|34|9|21|0|4|0|62|11.8|0.8
 27|6||NJ Stars|39|6|30|1|2|0|91|7.9|0.4
 28|3||Rockets Hockey Club|37|4|30|2|1|0|38|5.9|0.4
+
 Average difference per team in expected vs actual wins: 0.4
 # Generation Details
 

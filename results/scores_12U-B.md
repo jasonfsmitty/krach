@@ -26,6 +26,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 23|5||Rockets Hockey Club Grey|35|4|31|0|0|0|341|4.3|0.3
 24|3||NJ Stars|33|2|29|2|0|0|252|3.3|0.3
 25|2||Philadelphia Jr Flyers Audit|15|1|13|0|1|0|104|1.7|0.2
+
 Average difference per team in expected vs actual wins: 0.5
 # Generation Details
 

@@ -16,6 +16,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 13|2||Delaware Ducks 13U AA|39|6|27|4|2|0|29|9.6|0.6
 14|2||Metro Militia|12|4|7|1|0|0|5|4.9|0.4
 15|1||Philadelphia Blazers|36|2|28|4|2|0|28|5.3|0.3
+
 Average difference per team in expected vs actual wins: 0.6
 # Generation Details
 

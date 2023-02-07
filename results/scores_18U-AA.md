@@ -20,6 +20,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 17|11||New Jersey Renegades|12|3|8|1|0|0|117|3.8|0.3
 18|7||Igloo Jaguars Green|39|3|33|1|2|0|258|4.9|0.4
 19|6||Rockets Hockey Club|35|2|30|1|2|0|297|3.8|0.3
+
 Average difference per team in expected vs actual wins: 0.6
 # Generation Details
 

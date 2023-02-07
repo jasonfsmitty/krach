@@ -22,6 +22,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 19|14||North Jersey Sportscare Kings Grey|24|3|20|0|1|0|396|3.8|0.3
 20|12||The St. James Navy|17|3|14|0|0|0|296|3.3|0.3
 21|7||Tomorrow's Ice North Stars White|16|0|15|1|0|0|699|0.5|0.0
+
 Average difference per team in expected vs actual wins: 0.5
 # Generation Details
 

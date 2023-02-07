@@ -31,6 +31,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 28|4||Grundy Senators|35|7|27|1|0|0|91|8.2|0.7
 29|3||Philadelphia Blazers|35|5|27|1|2|0|126|7.1|0.6
 30|0||Valley Forge Colonials 10U B Malik|35|0|35|0|0|0|80|0.0|0.0
+
 Average difference per team in expected vs actual wins: 0.6
 # Generation Details
 

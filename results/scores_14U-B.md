@@ -17,6 +17,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 14|6||Royals White|35|6|25|2|2|0|70|8.3|0.3
 15|4||NJ Bandits|16|1|10|2|3|0|33|3.6|0.1
 16|3||Jersey Shore Wildcats|15|3|12|0|0|0|25|3.1|0.1
+
 Average difference per team in expected vs actual wins: 0.3
 # Generation Details
 

@@ -36,6 +36,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 33|12||Lehigh Valley Phantoms 2|34|3|29|1|1|0|250|4.1|0.1
 34|7||Jersey Shore Wildcats Red|16|1|14|1|0|0|163|1.6|0.1
 35|2||Capital City Vipers|34|1|33|0|0|0|293|1.0|0.0
+
 Average difference per team in expected vs actual wins: 0.4
 # Generation Details
 

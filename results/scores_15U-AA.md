@@ -10,6 +10,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 7|26||Palmyra Black Knights|40|10|25|1|4|0|188|13.0|0.5
 8|18||North Jersey Sportscare Kings Yellow|24|5|16|1|2|0|115|6.9|0.4
 9|7||Tomorrow's Ice Selects|39|1|33|3|2|0|219|3.7|0.2
+
 Average difference per team in expected vs actual wins: 0.4
 # Generation Details
 

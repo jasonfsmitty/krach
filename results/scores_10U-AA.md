@@ -21,6 +21,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 18|29||Haverford Hawks|39|6|28|2|3|0|422|8.9|0.4
 19|19||Igloo Jaguars|40|7|32|1|0|0|279|7.9|0.4
 20|6||Delaware Ducks Maroon|38|2|35|0|1|0|339|2.6|0.1
+
 Average difference per team in expected vs actual wins: 0.4
 # Generation Details
 

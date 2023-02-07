@@ -20,6 +20,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 17|21||Palmyra Black Knights|39|9|27|0|3|0|225|11.2|0.7
 18|11||The St. James Gold|14|2|11|1|0|0|131|2.7|0.2
 19|9||Rockets Hockey Club White|36|5|30|0|1|0|286|5.9|0.4
+
 Average difference per team in expected vs actual wins: 0.4
 # Generation Details
 

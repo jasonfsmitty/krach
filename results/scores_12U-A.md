@@ -55,6 +55,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 52|84||Hollydell Hurricanes White|35|4|30|1|0|0|1165|4.6|0.1
 53|61||Grundy Senators Gold|34|3|27|1|3|0|1728|5.2|0.2
 54|9||Team Philadelphia|34|0|32|0|2|0|760|1.0|0.0
+
 Average difference per team in expected vs actual wins: 0.4
 # Generation Details
 

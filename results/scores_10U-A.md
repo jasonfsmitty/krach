@@ -43,6 +43,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 40|4||North Jersey Skyland Kings White|16|3|13|0|0|0|60|3.3|0.3
 41|2||NJ Stars Gold|35|3|31|0|1|0|120|3.8|0.3
 42|2||MYHA 10U UA Gold|16|1|15|0|0|0|92|1.0|0.0
+
 Average difference per team in expected vs actual wins: 0.5
 # Generation Details
 

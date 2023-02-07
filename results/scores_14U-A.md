@@ -51,6 +51,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 48|3||Valley Forge Colonials 14U A Silver Kelly|34|1|31|1|1|0|195|2.1|0.1
 49|2||Hollydell Hurricanes White|34|2|30|2|0|0|120|3.2|0.2
 50|2||Capital City Vipers 1|36|2|33|0|1|0|198|2.7|0.2
+
 Average difference per team in expected vs actual wins: 0.4
 # Generation Details
 
