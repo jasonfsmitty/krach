@@ -36,6 +36,9 @@ class SoSMethod(Enum):
 #----------------------------------------------------------------------------
 @dataclass
 class Options:
+    inputFile:         str   = ""
+    outputFile:        str   = ""
+
     divisionName:      str   = ""
 
     # Algorithm used for calculating the KRACH rating
@@ -67,9 +70,6 @@ class Options:
     # the latest score results to recreate the KRACH ratings from previous weeks.
     dateCutoff:        str   = field(default_factory=lambda: datetime.date.today())
 
-    def isValid(self, date):
-        return date <= self.dateCutoff
-
     def dict(self):
         return {
             "KRACH Method"        : "{}".format(self.krachMethod.name),
@@ -88,21 +88,19 @@ class Options:
     def __str__(self):
         return '\n'.join([""] + [ "  {:<20} : {}".format(k, v) for k,v in self.dict().items() ])
 
-g_options = Options()
-
 #----------------------------------------------------------------------------
 def removeTeam(ratings, team):
     if team in ratings:
         ratings.pop(team)
 
 #----------------------------------------------------------------------------
-def filterTeams(ledger, ratings):
+def filterTeams(options, ledger, ratings):
     # remove teams explicitly called out
-    for team in g_options.filteredTeams:
+    for team in options.filteredTeams:
         removeTeam(ratings, team)
 
     for name,team in ledger.teams.items():
-        if team.record.played < g_options.minGamesPlayed:
+        if team.record.played < options.minGamesPlayed:
             removeTeam(ratings, name)
 
 #----------------------------------------------------------------------------
@@ -173,10 +171,10 @@ def showRankings(ledger, ratings, sosAll):
         print(f"{rank:>3} {rating:>6} : {subdiv:<13} : {team:<40} {gp:>2}  {record} {sos:>7}")
 
 #----------------------------------------------------------------------------
-def writeMarkdownRankings(outputFile, ledger, ratings, sosAll):
+def writeMarkdownRankings(options, ledger, ratings, sosAll):
 
-    with open(outputFile, "w") as f:
-        f.write(f"# {g_options.divisionName} KRACH Rankings\n")
+    with open(options.outputFile, "w") as f:
+        f.write(f"# {options.divisionName} KRACH Rankings\n")
 
         lines = [
             ['Rank', 'KRACH', 'Subdivision', 'Team', 'GP',   'W',    'L',    'SOW',  'SOL',  'T',    'SoS'],
@@ -217,7 +215,7 @@ def writeMarkdownRankings(outputFile, ledger, ratings, sosAll):
             "Start Date" : f"{ledger.oldestGame}",
             "End Date"   : f"{ledger.newestGame}",
         }
-        data.update(g_options.dict())
+        data.update(options.dict())
         writeMarkdownTable(f, data)
 
 #----------------------------------------------------------------------------
@@ -253,14 +251,14 @@ class Record:
         self.played += 1
         self.ties += 1
 
-    def winPoints(self):
-        return float(self.wins) \
-            + (self.soWins   * g_options.shootoutWinValue) \
-            + (self.soLosses * g_options.shootoutLossValue) \
-            + (self.ties     * g_options.tieValue)
+    def winPoints(self, options):
+        return self.wins \
+            + (self.soWins   * options.shootoutWinValue) \
+            + (self.soLosses * options.shootoutLossValue) \
+            + (self.ties     * options.tieValue)
 
-    def lossPoints(self):
-        return float(self.played) - self.winPoints()
+    def lossPoints(self, options):
+        return self.played - self.winPoints(options)
 
 #----------------------------------------------------------------------------
 class Team:
@@ -300,15 +298,19 @@ class Team:
 #----------------------------------------------------------------------------
 # Tracks all teams and their game results.
 class Ledger:
-    def __init__(self):
+    def __init__(self, dateCutoff):
+        self.dateCutoff = dateCutoff
         self.teams = dict()
         self.oldestGame = None
         self.newestGame = None
 
+    def isValid(self, date):
+        return date <= self.dateCutoff
+
     def addGame(self, date, winner, loser):
         self.addTeam(winner)
         self.addTeam(loser)
-        if g_options.isValid(date):
+        if self.isValid(date):
             self.recordDate(date)
             self.teams[winner].addWin(loser)
             self.teams[loser ].addLoss(winner)
@@ -316,7 +318,7 @@ class Ledger:
     def addShootout(self, date, winner, loser):
         self.addTeam(winner)
         self.addTeam(loser)
-        if g_options.isValid(date):
+        if self.isValid(date):
             self.recordDate(date)
             self.teams[winner].addShootoutWin(loser)
             self.teams[loser ].addShootoutLoss(winner)
@@ -324,7 +326,7 @@ class Ledger:
     def addTie(self, date, team1, team2):
         self.addTeam(team1)
         self.addTeam(team2)
-        if g_options.isValid(date):
+        if self.isValid(date):
             self.recordDate(date)
             self.teams[team1].addTie(team2)
             self.teams[team2].addTie(team1)
@@ -342,8 +344,8 @@ class Ledger:
 #----------------------------------------------------------------------------
 # Implements the KRACH algorithm.
 class KRACH:
-    def __init__(self):
-        pass
+    def __init__(self, options):
+        self.options = options
 
     #----------------------------------------------------------------------------
     # Execute the KRACH/Bradley-Terry algorithm until the ratings converge, or
@@ -354,7 +356,7 @@ class KRACH:
         ratings = { k : 1.0 for k in ledger.teams.keys() }
 
         loop = 0
-        while (g_options.maxIterations <= 0) or (g_options.maxIterations > 0 and loop < g_options.maxIterations):
+        while (self.options.maxIterations <= 0) or (self.options.maxIterations > 0 and loop < self.options.maxIterations):
             updated = self.calculateAll(ledger, ratings)
             loop += 1
             if self.areRatingsEqual(ratings, updated):
@@ -374,42 +376,40 @@ class KRACH:
         return self.normalize(updated)
 
     #----------------------------------------------------------------------------
-    # Calculates an updated rating for a single team, using:
-    #   Ki = Vi / ( ∑j Nij / (Ki + Kj) )
     def calculate(self, ledger, ratings, i):
         methods = {
             KrachMethod.BRADLEY_TERRY : self.calculateBradleyTerry,
             KrachMethod.WIN_LOSS      : self.calculateWinLoss,
         }
-        method = methods.get(g_options.krachMethod, None)
+        method = methods.get(self.options.krachMethod, None)
         if not method:
             raise RuntimeError("Failed to map KRACH method to function")
         return method(ledger, ratings, i)
 
     #----------------------------------------------------------------------------
+    # Calculates an updated rating for a single team, using:
+    #   Ki = Vi / ( ∑j Nij / (Ki + Kj) )
     def calculateBradleyTerry(self, ledger, ratings, i):
-        return ledger.teams[i].record.winPoints() / self.calculateMatchupFactor(ledger, ratings, i)
-
-    #----------------------------------------------------------------------------
-    def calculateWinLoss(self, ledger, ratings, i):
-        wins = ledger.teams[i].record.winPoints()
-        losses = ledger.teams[i].record.lossPoints()
-
-        return (wins / losses) * self.strengthOfSchedule(ledger, ratings, i)
+        return ledger.teams[i].record.winPoints(self.options) / self.calculateMatchupFactor(ledger, ratings, i)
 
     #----------------------------------------------------------------------------
     # Calculate: ∑j Nij / (Ki + Kj)
     def calculateMatchupFactor(self, ledger, ratings, i):
         myTeam = ledger.teams[i]
         sumOfMatchups = 0.0
-        # Iterate through all other teams in the league
-        for j,otherTeam in ledger.teams.items():
-            # Ignore ourselves, and any teams we haven't played
-            if i != j and (j in myTeam.matchups):
-                myPoints = myTeam.matchups[j].winPoints()
-                theirPoints = otherTeam.matchups[i].winPoints()
-                sumOfMatchups += (myPoints + theirPoints) / (ratings[i] + ratings[j])
+        # iterate across all teams we've played
+        for j in myTeam.matchups:
+            myPoints = myTeam.matchups[j].winPoints(self.options)
+            theirPoints = ledger.teams[j].matchups[i].winPoints(self.options)
+            sumOfMatchups += (myPoints + theirPoints) / (ratings[i] + ratings[j])
         return sumOfMatchups
+
+    #----------------------------------------------------------------------------
+    # Calculate rating based on simple (WINS / LOSSES) / SOS
+    def calculateWinLoss(self, ledger, ratings, i):
+        wins = ledger.teams[i].record.winPoints(self.options)
+        losses = ledger.teams[i].record.lossPoints(self.options)
+        return (wins / losses) * self.strengthOfSchedule(ledger, ratings, i)
 
     #----------------------------------------------------------------------------
     def strengthOfScheduleAll(self, ledger, ratings):
@@ -422,7 +422,7 @@ class KRACH:
             SoSMethod.DBAKER  : self.sosDanBaker,
             SoSMethod.TBRW    : self.sosTbrw,
         }
-        method = methods.get(g_options.sosMethod, None)
+        method = methods.get(self.options.sosMethod, None)
         if not method:
             raise RuntimeError("Failed to map SOS method to function")
         return method(ledger, ratings, myTeam)
@@ -490,7 +490,7 @@ class KRACH:
 
     #----------------------------------------------------------------------------
     def areRatingsEqual(self, original, updated):
-        return all( abs(original[team] - updated[team]) <= g_options.maxRatingsDiff for team in original )
+        return all( abs(original[team] - updated[team]) <= self.options.maxRatingsDiff for team in original )
 
 #----------------------------------------------------------------------------
 # Read AHF score data into a ledger. This is specific to the JSON format
@@ -501,14 +501,11 @@ class AhfScoreReader:
         pass
 
     #----------------------------------------------------------------------------
-    def read(self, filename):
-        ledger = Ledger()
+    def read(self, filename, ledger):
         with open(filename) as f:
             jdata = json.load(f)
             for game in jdata:
                 self.readGame(ledger, game['game'])
-
-        return ledger
 
     #----------------------------------------------------------------------------
     def readGame(self, ledger, game):
@@ -530,11 +527,11 @@ class AhfScoreReader:
             ledger.addGame(date, winner, loser)
 
 #----------------------------------------------------------------------------
-def addFakeTies(ledger):
+def addFakeTies(options, ledger):
     fakeTeam = "__AHF_FAKE_TEAM__"
-    for _ in range(g_options.fakeTies):
-        if not fakeTeam in g_options.filteredTeams:
-            g_options.filteredTeams.append(fakeTeam)
+    for _ in range(options.fakeTies):
+        if not fakeTeam in options.filteredTeams:
+            options.filteredTeams.append(fakeTeam)
             ledger.addTeam(fakeTeam)
 
         for realTeam in ledger.teams:
@@ -543,6 +540,7 @@ def addFakeTies(ledger):
 
 #----------------------------------------------------------------------------
 def parseCommandLine():
+    options = Options()
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--debug",
@@ -552,7 +550,7 @@ def parseCommandLine():
 
     parser.add_argument("-n", "--name",
         type    = str,
-        default = g_options.divisionName,
+        default = options.divisionName,
         help    = "Division Name")
 
     parser.add_argument("--krach",
@@ -569,17 +567,17 @@ def parseCommandLine():
 
     parser.add_argument("-i", "--iterations",
         type    = int,
-        default = g_options.maxIterations,
+        default = options.maxIterations,
         help    = "Max iterations of the KRACH algorithm, or 0 for infinite")
 
     parser.add_argument("-d", "--diff",
         type    = float,
-        default = g_options.maxRatingsDiff,
+        default = options.maxRatingsDiff,
         help    = "Treat two iterations 'equal' if difference between them is less than this value")
 
     parser.add_argument("-w", "--shootout-win",
         type    = float,
-        default = g_options.shootoutWinValue,
+        default = options.shootoutWinValue,
         help    = "Value of winning a game in overtime/shootout [0.0-1.0]")
 
     parser.add_argument("-l", "--shootout-loss",
@@ -589,27 +587,27 @@ def parseCommandLine():
 
     parser.add_argument("-t", "--tie",
         type    = float,
-        default = g_options.tieValue,
+        default = options.tieValue,
         help    = "Value given to both teams for a tie")
 
     parser.add_argument("--fakes",
         type    = int,
-        default = g_options.fakeTies,
+        default = options.fakeTies,
         help    = "Number of fake tie games given to each team")
 
     parser.add_argument("-f", "--filter",
         type    = str,
-        default = ",".join(g_options.filteredTeams),
+        default = ",".join(options.filteredTeams),
         help    = "Comma separated list of teams to remove from final rankings")
 
     parser.add_argument("-m", "--min-games",
         type    = int,
-        default = g_options.minGamesPlayed,
+        default = options.minGamesPlayed,
         help    = "Filter teams from final standings that have less than this many games played")
 
     parser.add_argument("--cutoff",
         type    = datetime.date.fromisoformat,
-        default = g_options.dateCutoff,
+        default = options.dateCutoff,
         help    = "Cutoff date; games played after this date will be ignored")
 
     parser.add_argument("-o", "--output",
@@ -621,43 +619,41 @@ def parseCommandLine():
     parser.add_argument("inputFile")
 
     args = parser.parse_args()
-    g_options.divisionName      = args.name
-    g_options.krachMethod       = KrachMethod[args.krach.upper()]
-    g_options.sosMethod         = SoSMethod[args.sos.upper()]
-    g_options.maxIterations     = args.iterations
-    g_options.maxRatingsDiff    = args.diff
-    g_options.shootoutWinValue  = args.shootout_win
-    g_options.shootoutLossValue = args.shootout_loss if args.shootout_loss else (1.0 - args.shootout_win)
-    g_options.tieValue          = args.tie
-    g_options.fakeTies          = args.fakes
-    g_options.filteredTeams     = args.filter.split(',')
-    g_options.minGamesPlayed    = args.min_games
-    g_options.dateCutoff        = args.cutoff
+    options.inputFile         = args.inputFile
+    options.outputFile        = args.output
+    options.divisionName      = args.name
+    options.krachMethod       = KrachMethod[args.krach.upper()]
+    options.sosMethod         = SoSMethod[args.sos.upper()]
+    options.maxIterations     = args.iterations
+    options.maxRatingsDiff    = args.diff
+    options.shootoutWinValue  = args.shootout_win
+    options.shootoutLossValue = args.shootout_loss if args.shootout_loss else (1.0 - args.shootout_win)
+    options.tieValue          = args.tie
+    options.fakeTies          = args.fakes
+    options.filteredTeams     = args.filter.split(',')
+    options.minGamesPlayed    = args.min_games
+    options.dateCutoff        = args.cutoff
 
     if args.debug:
         logging.getLogger().setLevel(logging.DEBUG)
 
-    return (args.inputFile, args.output)
+    return options
 
 #----------------------------------------------------------------------------
-def main(inputFile, outputFile):
-    logging.debug("Processing '{}' with options:".format(inputFile))
-    logging.debug(g_options)
-
-    reader = AhfScoreReader()
-    ledger = reader.read(inputFile)
-
-    addFakeTies(ledger)
+# Use the given ledger and options, generate KRACH ratings and
+# strength-of-schedule for all teams.
+def generateRatings(options, ledger):
+    addFakeTies(options, ledger)
 
     # generate krach ratings
-    krach = KRACH()
+    krach = KRACH(options)
     ratings = krach.run(ledger)
 
     # Calculate strength of schedules
     sosAll = krach.strengthOfScheduleAll(ledger, ratings)
 
     # Remove the one-off showcase teams
-    filterTeams(ledger, ratings)
+    filterTeams(options, ledger, ratings)
 
     # scale up so all values are integers
     scaleRankings(ratings, sosAll)
@@ -665,14 +661,29 @@ def main(inputFile, outputFile):
     # sort by krach ratings, highest first.
     ratings = sorted(ratings.items(), key=lambda kv: kv[1], reverse = True)
 
+    return ratings, sosAll
+
+#----------------------------------------------------------------------------
+def main(options):
+    logging.debug("Processing '{}' with options:".format(options.inputFile))
+    logging.debug(options)
+
+    ledger = Ledger(options.dateCutoff)
+    reader = AhfScoreReader()
+    reader.read(options.inputFile, ledger)
+    # ledger now contains all games (except those ignored via the date cutoff)
+
+    ratings, sosAll = generateRatings(options, ledger)
+
     # display to console
     showRankings(ledger, ratings, sosAll)
 
-    if outputFile:
-        writeMarkdownRankings(outputFile, ledger, ratings, sosAll)
+    if options.outputFile:
+        writeMarkdownRankings(options, ledger, ratings, sosAll)
 
 #----------------------------------------------------------------------------
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    main(*parseCommandLine())
+    options = parseCommandLine()
+    main(options)
 
