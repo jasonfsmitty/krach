@@ -11,6 +11,7 @@ import json
 import datetime
 import dataclasses
 import itertools
+import copy
 from enum import Enum
 
 #----------------------------------------------------------------------------
@@ -586,11 +587,12 @@ class AhfScoreReader:
 #----------------------------------------------------------------------------
 def addFakeTies(options, ledger):
     fakeTeam = "__AHF_FAKE_TEAM__"
+
     for _ in range(options.fakeTies):
         if not fakeTeam in options.filteredTeams:
             options.filteredTeams.append(fakeTeam)
-            ledger.addTeam(fakeTeam)
 
+        ledger.addTeam(fakeTeam)
         for realTeam in ledger.teams:
             if realTeam != fakeTeam:
                 ledger.addTie(ledger.oldestGame, fakeTeam, realTeam)
@@ -698,6 +700,10 @@ def parseCommandLine():
 
 #----------------------------------------------------------------------------
 def generate(options, ledger):
+
+    # Add in any fake game data
+    addFakeTies(options, ledger)
+
     krach = KRACH(options)
     ratings = krach.run(ledger)
 
@@ -727,7 +733,7 @@ def generate(options, ledger):
     return [ _rating(name,value) for name,value in ratings ]
 
 #----------------------------------------------------------------------------
-def runTests(options, ledger):
+def runTests(options, originalLedger):
     packedConfigs = {
         "krachMethod" : [
             KrachMethod.BRADLEY_TERRY,
@@ -740,7 +746,7 @@ def runTests(options, ledger):
         ],
         "shootoutWinValue" : [0.5, 1.0],
         "fakeTies"         : [0, 1, 3],
-        "maxIterations"    : [10, 100, 1000, 0],
+        "maxIterations"    : [10, 100, 0],
     }
     configKeys, configValues = zip(*packedConfigs.items())
     configs = [dict(zip(configKeys, v)) for v in itertools.product(*configValues)]
@@ -752,6 +758,8 @@ def runTests(options, ledger):
     ]
 
     for config in configs:
+        ledger = copy.deepcopy(originalLedger)
+
         customOptions = dataclasses.replace(options, **config)
         ratings = generate(customOptions, ledger)
 
@@ -793,9 +801,6 @@ def loadInputs(options):
     # Read in raw game data
     reader = AhfScoreReader()
     reader.read(options.inputFile, ledger)
-
-    # Add in any fake game data
-    addFakeTies(options, ledger)
 
     return ledger
 
