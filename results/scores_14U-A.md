@@ -64,7 +64,7 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 Generated with command line:
 ```
-../krach.py --iterations 10 --shootout-win 0.5 --shootout-loss 0.5 --tie 0.5 --min-games 12 -n 14U-A -o scores_14U-A.md scores_14U-A.js
+../krach.py --iterations 10 --shootout-win 0.5 --tie 0.5 --min-games 12 -n 14U-A -o scores_14U-A.md scores_14U-A.js
 ```
 
 | Option | Value |
