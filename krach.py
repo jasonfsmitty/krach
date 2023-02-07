@@ -212,7 +212,7 @@ def writeMarkdownRankings(options, ledger, ratings):
             f.write('\n')
 
         avgDiff = sum(x.diff for x in ratings) / len(ratings)
-        f.write(f"Average difference per team in expected vs actual wins: {avgDiff:>.1f}\n")
+        f.write(f"\nAverage difference per team in expected vs actual wins: {avgDiff:>.1f}\n")
 
         f.write("# Generation Details\n")
         f.write("\n")
