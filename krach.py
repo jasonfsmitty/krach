@@ -160,6 +160,7 @@ def showRankings(options, ledger, ratings):
     print(dividor)
 
     diffTotal = 0.0
+    rawTotal = 0.0
     numTeams = len(ratings)
     for rank,rating in enumerate(ratings):
         rank   += 1
@@ -172,11 +173,15 @@ def showRankings(options, ledger, ratings):
         exp    = rating.expected
         diff   = rating.diff
         print(f"{rank:>3} {value:>6} : {subdiv:<13} : {team:<40} {gp:>2}  {record} {sos:>6} | {exp:>5.1f} {diff:>5.1f}")
-        diffTotal += diff
+        rawTotal  += diff
+        diffTotal += abs(diff)
     print("")
     diffAvg = diffTotal / numTeams
-    print(f"Total diff: {diffTotal:.3f}")
-    print(f"Avg diff  : {diffAvg:.3f}")
+    rawAvg = rawTotal / numTeams
+    print(f"Differences between expected and actual wins:")
+    print(f"          ABS    RAW")
+    print(f"  Total: {diffTotal:5.2f} {rawTotal:>5.2f}")
+    print(f"  Avg  : {diffAvg:5.2f} {rawAvg:>5.2f}")
 
 #----------------------------------------------------------------------------
 def writeMarkdownRankings(options, ledger, ratings):
@@ -210,11 +215,27 @@ def writeMarkdownRankings(options, ledger, ratings):
             columns = [rank, value, subdivision(numTeams, rank), team, gp, wins, losses, otw, otl, ties, sos, expW, diff]
             f.write('|'.join(map(str, columns)))
             f.write('\n')
+        f.write('\n')
 
-        avgDiff = sum(x.diff for x in ratings) / len(ratings)
-        f.write(f"\nAverage difference per team in expected vs actual wins: {avgDiff:>.1f}\n")
+        # magnitude
+        totalDiff = sum(abs(x.diff) for x in ratings)
+        avgDiff   = totalDiff / len(ratings)
 
-        f.write("# Generation Details\n")
+        totalRaw  = sum(x.diff for x in ratings)
+        avgRaw    = totalRaw / len(ratings)
+
+        f.write(f"## Actual vs Expected\n")
+
+        f.write("Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.\n")
+        f.write("\n")
+
+        f.write(f"||Absolute|Raw\n")
+        f.write(f"|---:|---:|---:\n")
+        f.write(f"|Total|{totalDiff:.2f}|{totalRaw:.2f}\n")
+        f.write(f"|Avg|{avgDiff:.2f}|{avgRaw:.2f}\n")
+        f.write(f"\n")
+
+        f.write("## Generation Details\n")
         f.write("\n")
 
         f.write("Generated with command line:\n")
@@ -692,7 +713,10 @@ def generate(options, ledger):
 
     # And finally, build a list of Rating() objects for easy consumption by caller
     def _rating(name, value):
-        diff = abs(ledger.teams[name].record.winPoints(options) - expectedWins[name])
+        # difference between number of expected wins and actual wins
+        # negative differerence indicates the KRACH rating is too low, likewise a
+        # positive difference indicates rating is too high.
+        diff = expectedWins[name] - ledger.teams[name].record.winPoints(options)
         return Rating(name, value, sosAll[name], expectedWins[name], diff)
     return [ _rating(name,value) for name,value in ratings ]
 
