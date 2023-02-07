@@ -4,7 +4,6 @@
 ./refresh.sh \
 	--iterations     10 \
 	--shootout-win  0.5 \
-	--shootout-loss 0.5 \
 	--tie           0.5 \
 	--min-games      12 \
 	${@}
