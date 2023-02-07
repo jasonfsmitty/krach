@@ -1,15 +1,16 @@
 # 15U-AA KRACH Rankings
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS
----:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:
-1|495|Championship|Delaware Ducks|41|33|5|3|0|0|154
-2|372|Championship|MYHA 16U AA Gold|16|10|3|1|2|0|300
-3|217|Championship|Team Philadelphia|39|24|10|3|2|0|183
-4|180|Championship|Royals|40|22|11|3|4|0|271
-5|122||Long Island Rebels|20|7|10|3|0|0|345
-6|36||NJ Bandits|34|11|19|1|3|0|192
-7|26||Palmyra Black Knights|40|10|25|1|4|0|188
-8|18||North Jersey Sportscare Kings Yellow|24|5|16|1|2|0|115
-9|7||Tomorrow's Ice Selects|39|1|33|3|2|0|219
+Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
+1|495|Championship|Delaware Ducks|41|33|5|3|0|0|154|33.5|1.0
+2|372|Championship|MYHA 16U AA Gold|16|10|3|1|2|0|300|11.2|0.3
+3|217|Championship|Team Philadelphia|39|24|10|3|2|0|183|26.6|0.1
+4|180|Championship|Royals|40|22|11|3|4|0|271|25.7|0.2
+5|122||Long Island Rebels|20|7|10|3|0|0|345|8.5|0.0
+6|36||NJ Bandits|34|11|19|1|3|0|192|13.7|0.7
+7|26||Palmyra Black Knights|40|10|25|1|4|0|188|13.0|0.5
+8|18||North Jersey Sportscare Kings Yellow|24|5|16|1|2|0|115|6.9|0.4
+9|7||Tomorrow's Ice Selects|39|1|33|3|2|0|219|3.7|0.2
+Average difference per team in expected vs actual wins: 0.4
 # Generation Details
 
 Generated with command line:
@@ -21,13 +22,15 @@ Generated with command line:
 | :----- | ----: |
 | Start Date | 2022-08-19 |
 | End Date | 2023-02-05 |
+| KRACH Method | BRADLEY_TERRY |
+| SoS Method | AVERAGE |
 | Max Iterations | 10 |
 | Max Ratings Diff | 0.0001 |
 | Shootout Win Value | 0.50 |
 | Shootout Loss Value | 0.50 |
 | Tie Value | 0.50 |
+| Fake Ties | 0 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-02-06 |
-| SoS Method | AVERAGE |
+| Date Cutoff | 2023-02-07 |
 
