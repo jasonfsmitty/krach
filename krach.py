@@ -738,9 +738,9 @@ def runTests(options, ledger):
             SoSMethod.DBAKER,
             SoSMethod.TBRW,
         ],
-        "maxIterations"    : [0, 1000, 100, 10],
         "shootoutWinValue" : [0.5, 1.0],
         "fakeTies"         : [0, 1, 3],
+        "maxIterations"    : [10, 100, 1000, 0],
     }
     configKeys, configValues = zip(*packedConfigs.items())
     configs = [dict(zip(configKeys, v)) for v in itertools.product(*configValues)]
@@ -748,7 +748,7 @@ def runTests(options, ledger):
     keys = set(sum(([k for k in config.keys()] for config in configs), []))
 
     table = [
-        list(configs[0].keys()) + ['Total Diff', 'Avg Diff', 'Raw Total', 'Raw Avg'],
+        list(configs[0].keys()) + ['Total Diff', 'Avg Diff', 'Raw Total', 'Raw Avg', 'Spread'],
     ]
 
     for config in configs:
@@ -760,14 +760,20 @@ def runTests(options, ledger):
         rawTotal  = sum(x.diff for x in ratings)
         rawAvg    = rawTotal / len(ratings)
 
+        if False:
+            # filter out results at are clearly bad
+            if diffTotal > 0.10 or rawTotal > 0.05:
+                continue
+
         diffs = [
             f"{diffTotal:.2f}",
             f"{diffAvg:.2f}",
             f"{rawTotal:.2f}",
             f"{rawAvg:.2f}",
         ]
+        spread = ratings[0].value - ratings[-1].value
         optionsDict = dataclasses.asdict(customOptions)
-        results = [optionsDict[option] for option in packedConfigs.keys()] + diffs
+        results = [optionsDict[option] for option in packedConfigs.keys()] + diffs + [spread]
         table.append([str(x) for x in results])
 
     def _maxLen(col):
