@@ -18,9 +18,9 @@ then
 	echo "| :------- | :--------- | :------- |" >> ${README}
 fi
 
-for x in $(ls *.js | sort -n)
+for x in $(ls *.json | sort -n)
 do
-	bname=${x//.js/}
+	bname=${x//.json/}
 	output="${bname}.md"
 
 	division=${bname}

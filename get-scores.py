@@ -38,7 +38,7 @@ def getDate(scores):
 
 #------------------------------------------------------------------------------
 def filename(divisionName, scores):
-    return "scores_{}.js".format(divisionName.replace(' ', '-'))
+    return "scores_{}.json".format(divisionName.replace(' ', '-'))
 
 #------------------------------------------------------------------------------
 def saveToFile(divisionName, scores):

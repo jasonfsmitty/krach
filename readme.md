@@ -26,7 +26,7 @@ This tool was written to reproduce the KRACH rankings as provided by the [AHF (A
 ./ahf.sh
 
 # Generate KRACH ratings for single division:
-./krach.py [<options>...] <scores.js>
+./krach.py [<options>...] <scores.json>
 ```
 
 ## KRACH
