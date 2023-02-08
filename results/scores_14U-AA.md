@@ -33,7 +33,7 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 Generated with command line:
 ```
-../krach.py --iterations 10 --shootout-win 0.5 --tie 0.5 --min-games 12 -n 14U-AA -o scores_14U-AA.md scores_14U-AA.js
+../krach.py --iterations 10 --shootout-win 0.5 --tie 0.5 --min-games 12 -n 14U-AA -o scores_14U-AA.md scores_14U-AA.json
 ```
 
 | Option | Value |
@@ -50,5 +50,5 @@ Generated with command line:
 | Fake Ties | 0 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-02-07 |
+| Date Cutoff | 2023-02-08 |
 
