@@ -1,22 +1,22 @@
 # 14U-B KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|307|Championship|MYHA 14U B Blue|16|14|0|1|1|0|48|14.0|-1.0
-2|258|Championship|Ashburn Xtreme|16|13|1|2|0|0|39|14.1|-0.9
-3|126|Championship|Frederick Freeze|16|12|3|1|0|0|49|12.6|-0.4
-4|100|Championship|Team Philadelphia|34|23|8|2|1|0|73|24.4|-0.6
-5|48|Gold|Wissahickon Warriors|35|21|9|2|3|0|45|23.3|0.3
-6|46|Gold|Palmyra Black Knights|36|21|14|1|0|0|72|22.1|0.1
-7|42|Gold|Grundy Senators|36|21|9|0|6|0|69|21.2|0.2
-8|13|Gold|Maryland Jr Black Bears|16|5|9|1|1|0|35|6.1|0.1
-9|11|Silver|North Jersey Skylands Kings|16|5|8|2|0|1|37|7.9|0.4
-10|11|Silver|North Jersey Sportscare Kings|15|2|7|4|2|0|30|6.2|0.2
-11|9|Silver|Hollydell Hurricanes|33|10|20|1|2|0|45|11.4|0.4
-12|9|Silver|Lehigh Valley Phantoms|34|9|22|2|1|0|61|11.4|0.4
-13|8||Igloo Jaguars|33|11|20|0|1|1|37|11.9|0.4
-14|6||Royals White|35|6|25|2|2|0|71|8.3|0.3
-15|3||Jersey Shore Wildcats|15|3|12|0|0|0|20|3.1|0.1
-16|3||NJ Bandits|16|1|10|2|3|0|33|3.1|0.1
+1|3067|Championship|MYHA 14U B Blue|16|14|0|1|1|0|485|14.0|-1.0
+2|2584|Championship|Ashburn Xtreme|16|13|1|2|0|0|392|14.1|-0.9
+3|1259|Championship|Frederick Freeze|16|12|3|1|0|0|495|12.6|-0.4
+4|1004|Championship|Team Philadelphia|34|23|8|2|1|0|733|24.4|-0.6
+5|480|Gold|Wissahickon Warriors|35|21|9|2|3|0|446|23.3|0.3
+6|461|Gold|Palmyra Black Knights|36|21|14|1|0|0|723|22.1|0.1
+7|416|Gold|Grundy Senators|36|21|9|0|6|0|689|21.2|0.2
+8|133|Gold|Maryland Jr Black Bears|16|5|9|1|1|0|347|6.1|0.1
+9|108|Silver|North Jersey Sportscare Kings|15|2|7|4|2|0|301|6.2|0.2
+10|106|Silver|North Jersey Skylands Kings|16|5|8|2|0|1|366|7.9|0.4
+11|93|Silver|Lehigh Valley Phantoms|34|9|22|2|1|0|612|11.4|0.4
+12|88|Silver|Hollydell Hurricanes|33|10|20|1|2|0|445|11.4|0.4
+13|80||Igloo Jaguars|33|11|20|0|1|1|373|11.9|0.4
+14|59||Royals White|35|6|25|2|2|0|710|8.3|0.3
+15|32||Jersey Shore Wildcats|15|3|12|0|0|0|205|3.1|0.1
+16|32||NJ Bandits|16|1|10|2|3|0|327|3.1|0.1
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

@@ -150,6 +150,10 @@ def scaleRankings(ratings, sosAll):
         while rating and int(rating * scaleFactor) <= 0:
             scaleFactor *= 10
 
+    # Also thumb the scale so that the max value has 4 digits
+    while len(str(int(max(ratings.values()) * scaleFactor + 0.5))) < 4:
+        scaleFactor *= 10
+
     logging.debug("Scaling all ratings by {}".format(scaleFactor))
 
     for team in ratings:

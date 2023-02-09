@@ -1,15 +1,15 @@
 # 15U-AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|554|Championship|Delaware Ducks|41|33|5|3|0|0|161|34.6|-1.4
-2|281|Championship|MYHA 16U AA Gold|16|10|3|1|2|0|342|10.7|-0.3
-3|212|Championship|Team Philadelphia|39|24|10|3|2|0|204|27.0|-0.0
-4|154|Championship|Long Island Rebels|20|7|10|3|0|0|370|9.9|-0.1
-5|146||Royals|40|22|11|3|4|0|243|25.3|0.3
-6|24||NJ Bandits|34|11|19|1|3|0|199|12.9|0.9
-7|16||Palmyra Black Knights|40|10|25|1|4|0|219|11.7|0.7
-8|11||North Jersey Sportscare Kings Yellow|24|5|16|1|2|0|111|6.5|0.5
-9|6||Tomorrow's Ice Selects|39|1|33|3|2|0|197|4.3|0.3
+1|5540|Championship|Delaware Ducks|41|33|5|3|0|0|1606|34.6|-1.4
+2|2806|Championship|MYHA 16U AA Gold|16|10|3|1|2|0|3422|10.7|-0.3
+3|2122|Championship|Team Philadelphia|39|24|10|3|2|0|2043|27.0|-0.0
+4|1539|Championship|Long Island Rebels|20|7|10|3|0|0|3700|9.9|-0.1
+5|1464||Royals|40|22|11|3|4|0|2426|25.3|0.3
+6|236||NJ Bandits|34|11|19|1|3|0|1995|12.9|0.9
+7|164||Palmyra Black Knights|40|10|25|1|4|0|2190|11.7|0.7
+8|115||North Jersey Sportscare Kings Yellow|24|5|16|1|2|0|1111|6.5|0.5
+9|60||Tomorrow's Ice Selects|39|1|33|3|2|0|1971|4.3|0.3
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
