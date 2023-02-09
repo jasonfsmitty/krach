@@ -1,70 +1,70 @@
 # 14U-A KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1602|Championship|Frederick Freeze LA|17|17|0|0|0|0|230|15.1|-1.9
-2|882|Championship|Wissahickon Warriors White|34|31|2|1|0|0|212|29.1|-2.4
-3|554|Championship|MYHA 14U LA Gold|16|14|1|1|0|0|123|13.9|-0.6
-4|509|Championship|Philadelphia Blazers|35|28|5|1|1|0|148|28.0|-1.0
-5|393|Gold|Grundy Senators Gold|34|27|3|2|2|0|105|28.2|-0.8
-6|327|Gold|Wissahickon Warriors Red|33|23|6|0|4|0|153|24.5|-0.5
-7|327|Gold|MYHA 14U LA Blue|16|10|4|1|1|0|234|10.7|-0.3
-8|313|Gold|North Jersey Avalanche Blue|16|10|3|0|3|0|162|11.2|-0.3
-9|271|Silver|MYHA 14U UA Blue|16|10|3|3|0|0|167|11.2|-0.3
-10|266|Silver|Valley Forge Colonials 14U A Gold|34|23|7|3|1|0|136|24.7|-0.3
-11|261|Silver|Haverford Hawks Dinmore|35|22|10|0|3|0|303|22.9|-0.6
-12|234|Silver|Palmyra Black Knights|34|23|11|0|0|0|254|22.7|-0.3
-13|220|Bronze|North Jersey Sportscare Kings Yellow|16|11|4|1|0|0|122|11.6|0.1
-14|195|Bronze|North Jersey Sportscare Kings Blue|15|8|6|1|0|0|204|8.4|-0.1
-15|192|Bronze|NJ Bandits|16|8|4|2|2|0|232|9.9|-0.1
-16|190|Bronze|North Jersey Avalanche Gold|14|9|3|0|2|0|138|10.2|0.2
-17|187||Southern Maryland Sabres 14U Gold|16|10|6|0|0|0|170|10.0|-0.0
-18|173||Team Philadelphia|35|19|13|2|1|0|291|20.4|-0.1
-19|173||Maryland Jr Black Bears Red|16|12|3|1|0|0|77|12.7|0.2
-20|165||Rye Rangers|16|8|6|2|0|0|188|8.9|-0.1
-21|135||North Jersey Skylands Kings Navy|16|8|8|0|0|0|201|7.9|-0.1
-22|127||Maryland Jr Black Bears White|16|8|7|1|0|0|177|8.4|-0.1
-23|116||York Devils|36|20|11|2|3|0|133|23.1|0.6
-24|98||WBS Jr Knights|35|15|17|1|2|0|185|16.5|-0.0
-25|97||Igloo Jaguars|35|20|12|1|2|0|124|22.0|0.5
-26|94||The St. James White|16|9|6|0|1|0|129|9.8|0.3
-27|88||Haverford Hawks McKay|33|15|14|1|3|0|150|17.1|0.1
-28|85||Lancaster Firebirds Black|36|16|15|3|2|0|162|18.8|0.3
-29|71||Lehigh Valley Phantoms|33|15|14|2|2|0|137|17.5|0.5
-30|64||Maryland Jr Black Bears Gold|16|8|5|1|2|0|57|10.0|0.5
-31|59||Maryland Jr Black Bears Black|14|5|8|1|0|0|177|5.6|0.1
-32|42||Grundy Senators Silver|35|12|19|1|3|0|230|14.4|0.4
-33|37||Valley Forge Colonials 14U A Silver Pusateri|35|9|18|4|4|0|165|13.6|0.6
-34|36||Royals Gold|34|14|19|0|1|0|135|15.0|0.5
-35|36||Jersey Shore Wildcats Red|16|6|6|1|3|0|92|8.5|0.5
-36|33||Lancaster Firebirds Orange|35|8|24|2|1|0|282|9.7|0.2
-37|28||Rockets Hockey Club|33|7|21|5|0|0|202|9.9|0.4
-38|28||The St. James Navy|16|7|8|1|0|0|79|7.9|0.4
-39|27||NJ Stars Black|33|9|22|1|1|0|163|10.3|0.3
-40|25||Hollydell Hurricanes Black|34|11|20|2|1|0|147|13.1|0.6
-41|24||NJ Stars Green|32|8|18|4|2|0|76|11.6|0.6
-42|21||Tomorrow's Ice North Stars Red|16|4|11|0|1|0|111|4.7|0.2
-43|16||Capital City Vipers 2|34|8|23|1|2|0|132|9.9|0.4
-44|15||Hollydell Hurricanes Red|33|6|25|1|1|0|157|7.2|0.2
-45|13||Haverford Hawks Dolan|34|8|24|2|0|0|67|9.5|0.5
-46|11||Jersey Shore Wildcats 09|15|4|10|1|0|0|116|4.8|0.3
-47|4||Jersey Shore Wildcats Black|16|3|12|0|1|0|77|3.8|0.3
-48|3||Valley Forge Colonials 14U A Silver Kelly|34|1|31|1|1|0|195|2.1|0.1
-49|2||Hollydell Hurricanes White|34|2|30|2|0|0|120|3.2|0.2
-50|2||Capital City Vipers 1|36|2|33|0|1|0|198|2.7|0.2
+1|1561|Championship|Frederick Freeze LA|17|17|0|0|0|0|226|15.1|-1.9
+2|916|Championship|Wissahickon Warriors White|34|31|2|1|0|0|204|29.4|-2.6
+3|668|Championship|MYHA 14U LA Gold|16|14|1|1|0|0|126|14.1|-0.9
+4|503|Championship|Philadelphia Blazers|35|28|5|1|1|0|149|27.9|-1.1
+5|426|Gold|MYHA 14U UA Blue|16|10|3|3|0|0|158|12.5|-0.5
+6|376|Gold|Grundy Senators Gold|34|27|3|2|2|0|100|28.3|-0.7
+7|305|Gold|MYHA 14U LA Blue|16|10|4|1|1|0|227|10.7|-0.3
+8|302|Gold|Valley Forge Colonials 14U A Gold|34|23|7|3|1|0|133|25.5|-0.5
+9|259|Silver|North Jersey Sportscare Kings Yellow|16|11|4|1|0|0|122|12.0|0.0
+10|236|Silver|Wissahickon Warriors Red|33|23|6|0|4|0|156|22.8|-0.2
+11|230|Silver|Palmyra Black Knights|34|23|11|0|0|0|256|22.7|-0.3
+12|221|Silver|Rye Rangers|16|8|6|2|0|0|194|9.8|-0.2
+13|218|Bronze|North Jersey Sportscare Kings Blue|15|8|6|1|0|0|197|8.8|-0.2
+14|209|Bronze|Haverford Hawks Dinmore|35|22|10|0|3|0|302|21.6|-0.4
+15|205|Bronze|North Jersey Avalanche Blue|16|10|3|0|3|0|171|9.9|-0.1
+16|204|Bronze|Maryland Jr Black Bears Red|16|12|3|1|0|0|68|13.1|0.1
+17|197||NJ Bandits|16|8|4|2|2|0|223|10.0|-0.0
+18|179||Team Philadelphia|35|19|13|2|1|0|282|20.9|-0.1
+19|178||Southern Maryland Sabres 14U Gold|16|10|6|0|0|0|162|10.0|0.0
+20|147||Maryland Jr Black Bears White|16|8|7|1|0|0|178|8.9|-0.1
+21|145||North Jersey Avalanche Gold|14|9|3|0|2|0|149|9.2|0.2
+22|128||North Jersey Skylands Kings Navy|16|8|8|0|0|0|192|7.9|-0.1
+23|104||York Devils|36|20|11|2|3|0|135|22.6|0.6
+24|90||Lancaster Firebirds Black|36|16|15|3|2|0|156|19.3|0.3
+25|87||WBS Jr Knights|35|15|17|1|2|0|175|16.0|0.0
+26|85||Igloo Jaguars|35|20|12|1|2|0|119|21.6|0.6
+27|81||The St. James White|16|9|6|0|1|0|127|9.3|0.3
+28|75||Haverford Hawks McKay|33|15|14|1|3|0|161|16.1|0.1
+29|71||Lehigh Valley Phantoms|33|15|14|2|2|0|136|17.5|0.5
+30|69||Maryland Jr Black Bears Black|14|5|8|1|0|0|169|6.1|0.1
+31|52||Maryland Jr Black Bears Gold|16|8|5|1|2|0|54|9.5|0.5
+32|41||Rockets Hockey Club|33|7|21|5|0|0|196|12.4|0.4
+33|38||Valley Forge Colonials 14U A Silver Pusateri|35|9|18|4|4|0|177|13.6|0.6
+34|37||Grundy Senators Silver|35|12|19|1|3|0|226|13.4|0.4
+35|35||Lancaster Firebirds Orange|35|8|24|2|1|0|281|10.2|0.2
+36|32||The St. James Navy|16|7|8|1|0|0|66|8.4|0.4
+37|31||Royals Gold|34|14|19|0|1|0|128|14.5|0.5
+38|30||Jersey Shore Wildcats Red|16|6|6|1|3|0|110|7.4|0.4
+39|28||NJ Stars Green|32|8|18|4|2|0|74|12.6|0.6
+40|27||Hollydell Hurricanes Black|34|11|20|2|1|0|148|13.6|0.6
+41|26||NJ Stars Black|33|9|22|1|1|0|159|10.3|0.3
+42|17||Tomorrow's Ice North Stars Red|16|4|11|0|1|0|100|4.1|0.1
+43|16||Haverford Hawks Dolan|34|8|24|2|0|0|66|10.5|0.5
+44|15||Capital City Vipers 2|34|8|23|1|2|0|129|9.4|0.4
+45|15||Jersey Shore Wildcats 09|15|4|10|1|0|0|106|5.3|0.3
+46|14||Hollydell Hurricanes Red|33|6|25|1|1|0|164|7.3|0.3
+47|3||Hollydell Hurricanes White|34|2|30|2|0|0|112|4.3|0.3
+48|3||Valley Forge Colonials 14U A Silver Kelly|34|1|31|1|1|0|202|2.1|0.1
+49|3||Jersey Shore Wildcats Black|16|3|12|0|1|0|80|3.3|0.3
+50|2||Capital City Vipers 1|36|2|33|0|1|0|203|2.1|0.1
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
 
 ||Absolute|Raw
 |---:|---:|---:
-|Total|19.87|0.13
-|Avg|0.40|0.00
+|Total|20.25|0.05
+|Avg|0.41|0.00
 
 ## Generation Details
 
 Generated with command line:
 ```
-../krach.py --iterations 10 --shootout-win 0.5 --tie 0.5 --min-games 12 -n 14U-A -o scores_14U-A.md scores_14U-A.json
+../krach.py --iterations 10 --shootout-win 1.0 --tie 0.5 --min-games 12 -n 14U-A -o scores_14U-A.md scores_14U-A.json
 ```
 
 | Option | Value |
@@ -75,11 +75,11 @@ Generated with command line:
 | SoS Method | AVERAGE |
 | Max Iterations | 10 |
 | Max Ratings Diff | 0.0001 |
-| Shootout Win Value | 0.50 |
-| Shootout Loss Value | 0.50 |
+| Shootout Win Value | 1.00 |
+| Shootout Loss Value | 0.00 |
 | Tie Value | 0.50 |
 | Fake Ties | 0 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-02-08 |
+| Date Cutoff | 2023-02-09 |
 

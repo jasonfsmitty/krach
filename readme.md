@@ -93,7 +93,7 @@ The following sections discuss some unknowns about how AHF implements KRACH.
 
 The AHF website and KRACH documents do not detail how shootouts are weighted. I tried reaching out to the AHF, and according to the response I got back shootouts are treated as a normal win/loss, no partial credit for being tied through regulation.
 
-However, if I run this tool with that setup (i.e. `--shootout-win 1.0 --shootout-loss 0.0`) the KRACH rankings that get generated are pretty far off from what the AHF publishes.  Through trial and error, this tool gets closest to the AHF results when it treats shootouts as a tie for both teams. Hence this is the default values in `krach.py` but can also be set via the command line with `--shootout-win 0.5 --shootout-loss l 0.5`.
+However, if I run this tool with that setup (i.e. `--shootout-win 1.0`) the KRACH rankings that get generated are pretty far off from what the AHF publishes.  Through trial and error, this tool gets closest to the AHF results when it treats shootouts as a tie for both teams. Hence this is the default values in `krach.py` but can also be set via the command line with `--shootout-win 0.5`.
 
 ### Handling Undefeated Teams
 
