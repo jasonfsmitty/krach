@@ -23,15 +23,15 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
 ||Delaware Ducks|MYHA 16U AA Gold|Team Philadelphia|Long Island Rebels|Royals|NJ Bandits|Palmyra Black Knights|North Jersey Sportscare Kings Yellow|Tomorrow's Ice Selects
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Delaware Ducks|--|64.3|68.4|76.6|77.4|95.5|96.8|97.8|98.8
-|MYHA 16U AA Gold|35.7|--|54.6|64.5|65.5|92.2|94.4|96.0|97.9
-|Team Philadelphia|31.6|45.4|--|60.2|61.3|90.7|93.4|95.3|97.5
-|Long Island Rebels|23.4|35.5|39.8|--|51.2|86.6|90.3|93.0|96.2
-|Royals|22.6|34.5|38.7|48.8|--|86.1|89.9|92.7|96.0
-|NJ Bandits|4.5|7.8|9.3|13.4|13.9|--|59.0|67.3|79.7
-|Palmyra Black Knights|3.2|5.6|6.6|9.7|10.1|41.0|--|58.8|73.2
-|North Jersey Sportscare Kings Yellow|2.2|4.0|4.7|7.0|7.3|32.7|41.2|--|65.6
-|Tomorrow's Ice Selects|1.2|2.1|2.5|3.8|4.0|20.3|26.8|34.4|--
+|Delaware Ducks|--| 64%| 68%| 77%| 77%| 95%| 97%| 98%| 99%
+|MYHA 16U AA Gold| 36%|--| 55%| 64%| 66%| 92%| 94%| 96%| 98%
+|Team Philadelphia| 32%| 45%|--| 60%| 61%| 91%| 93%| 95%| 97%
+|Long Island Rebels| 23%| 36%| 40%|--| 51%| 87%| 90%| 93%| 96%
+|Royals| 23%| 34%| 39%| 49%|--| 86%| 90%| 93%| 96%
+|NJ Bandits|  5%|  8%|  9%| 13%| 14%|--| 59%| 67%| 80%
+|Palmyra Black Knights|  3%|  6%|  7%| 10%| 10%| 41%|--| 59%| 73%
+|North Jersey Sportscare Kings Yellow|  2%|  4%|  5%|  7%|  7%| 33%| 41%|--| 66%
+|Tomorrow's Ice Selects|  1%|  2%|  3%|  4%|  4%| 20%| 27%| 34%|--
 
 ## Generation Details
 

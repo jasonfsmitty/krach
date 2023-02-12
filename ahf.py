@@ -231,7 +231,7 @@ def writeMarkdownRankings(options, ledger, ratings):
             def _percentage(opp):
                 if myRating.name == opp.name:
                     return "--"
-                return "{:>.1f}".format(myRating.odds[opp.name] * 100.0)
+                return "{:>3}%".format(int(myRating.odds[opp.name] * 100.0 + 0.5))
             f.write(f"|{myRating.name}|")
             f.write(f"|".join( _percentage(opp) for opp in ratings))
             f.write(f"\n")
