@@ -1,48 +1,81 @@
 # 16U-AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|4502|Championship|Team Philadelphia Black|39|30|7|2|0|0|2513|29.9|-2.1
-2|3396|Championship|PAL Jr Islanders|16|11|4|1|0|0|3089|11.4|-0.6
-3|3135|Championship|Atlanta MadHatters|12|9|3|0|0|0|1675|8.5|-0.5
-4|2036|Championship|Ashburn Xtreme 16U AA 1|16|8|7|0|1|0|4514|7.6|-0.4
-5|1942|Gold|Lehigh Valley Phantoms Black|40|26|9|3|2|0|1461|28.4|-0.6
-6|1708|Gold|Jersey Shore Wildcats Black|33|25|5|0|3|0|703|24.9|-0.1
-7|1631|Gold|Long Island Rebels|18|8|8|2|0|0|2874|9.6|-0.4
+1|4508|Championship|Team Philadelphia Black|39|30|7|2|0|0|2514|29.9|-2.1
+2|3396|Championship|PAL Jr Islanders|16|11|4|1|0|0|3090|11.4|-0.6
+3|3137|Championship|Atlanta MadHatters|12|9|3|0|0|0|1677|8.5|-0.5
+4|2036|Championship|Ashburn Xtreme 16U AA 1|16|8|7|0|1|0|4515|7.6|-0.4
+5|1947|Gold|Lehigh Valley Phantoms Black|40|26|9|3|2|0|1463|28.4|-0.6
+6|1713|Gold|Jersey Shore Wildcats Black|33|25|5|0|3|0|705|24.9|-0.1
+7|1631|Gold|Long Island Rebels|18|8|8|2|0|0|2875|9.6|-0.4
 8|1504|Gold|MYHA 16U AA Blue|16|7|7|2|0|0|2996|8.7|-0.3
-9|1210|Silver|Igloo Jaguars|39|23|14|1|1|0|1382|23.9|-0.1
-10|772|Silver|Valley Forge Colonials 16U AA|40|17|17|3|3|0|1069|20.0|-0.0
-11|763|Silver|Palmyra Black Knights|44|19|17|4|4|0|1069|23.1|0.1
-12|714|Silver|Delaware Ducks|45|25|15|2|3|0|621|27.6|0.6
-13|714|Bronze|Philadelphia Blazers|42|19|14|3|6|0|1310|22.2|0.2
-14|658|Bronze|Tomorrow's Ice Selects|48|21|21|3|3|0|1024|24.0|0.0
-15|653|Bronze|North Jersey Skylands Kings Navy|40|19|19|2|0|0|894|21.3|0.3
-16|582|Bronze|Lehigh Valley Phantoms Orange|40|21|15|3|1|0|636|24.9|0.9
-17|566||Ashburn Xtreme 16U AA 2|16|6|8|2|0|0|941|8.0|0.0
-18|410||The St. James Gold|16|4|10|2|0|0|977|6.0|0.0
-19|379||NJ Bandits|34|17|13|2|2|0|501|20.0|1.0
-20|374||Haverford Hawks|40|13|18|3|6|0|972|16.2|0.2
-21|331||York Devils|40|13|23|2|2|0|936|15.2|0.2
-22|295||WBS Jr Knights|38|9|24|5|0|0|909|14.3|0.3
-23|191||Team Philadelphia Orange|39|12|22|3|2|0|517|15.6|0.6
+9|1211|Silver|Igloo Jaguars|39|23|14|1|1|0|1383|23.9|-0.1
+10|774|Silver|Valley Forge Colonials 16U AA|40|17|17|3|3|0|1071|20.0|-0.0
+11|762|Silver|Palmyra Black Knights|44|19|17|4|4|0|1070|23.1|0.1
+12|714|Silver|Philadelphia Blazers|42|19|14|3|6|0|1311|22.2|0.2
+13|713|Bronze|Delaware Ducks|45|25|15|2|3|0|621|27.6|0.6
+14|657|Bronze|Tomorrow's Ice Selects|48|21|21|3|3|0|1025|24.0|0.0
+15|656|Bronze|North Jersey Skylands Kings Navy|40|19|19|2|0|0|896|21.3|0.3
+16|583|Bronze|Lehigh Valley Phantoms Orange|40|21|15|3|1|0|637|24.9|0.9
+17|567||Ashburn Xtreme 16U AA 2|16|6|8|2|0|0|942|8.0|0.0
+18|410||The St. James Gold|16|4|10|2|0|0|978|6.0|0.0
+19|378||NJ Bandits|34|17|13|2|2|0|502|20.0|1.0
+20|373||Haverford Hawks|40|13|18|3|6|0|973|16.2|0.2
+21|331||York Devils|40|13|23|2|2|0|937|15.2|0.2
+22|312||WBS Jr Knights|39|10|24|5|0|0|891|15.3|0.3
+23|181||Team Philadelphia Orange|40|12|23|3|2|0|512|15.6|0.6
 24|160||Jersey Shore Wildcats Red|34|11|18|1|4|0|659|12.5|0.5
-25|151||North Jersey Sportscare Kings Blue|24|7|15|2|0|0|691|9.5|0.5
-26|58||Jersey Shore Wildcats White|34|9|21|0|4|0|553|9.8|0.8
+25|152||North Jersey Sportscare Kings Blue|24|7|15|2|0|0|694|9.5|0.5
+26|57||Jersey Shore Wildcats White|34|9|21|0|4|0|552|9.8|0.8
 27|47||NJ Stars|39|6|30|1|2|0|840|7.5|0.5
-28|31||Rockets Hockey Club|38|4|31|2|1|0|393|6.4|0.4
+28|31||Rockets Hockey Club|38|4|31|2|1|0|394|6.4|0.4
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
 
 ||Absolute|Raw
 |---:|---:|---:
-|Total|12.30|1.60
+|Total|12.34|1.60
 |Avg|0.44|0.06
+
+## Predictions
+Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
+||Team Philadelphia Black|PAL Jr Islanders|Atlanta MadHatters|Ashburn Xtreme 16U AA 1|Lehigh Valley Phantoms Black|Jersey Shore Wildcats Black|Long Island Rebels|MYHA 16U AA Blue|Igloo Jaguars|Valley Forge Colonials 16U AA|Palmyra Black Knights|Philadelphia Blazers|Delaware Ducks|Tomorrow's Ice Selects|North Jersey Skylands Kings Navy|Lehigh Valley Phantoms Orange|Ashburn Xtreme 16U AA 2|The St. James Gold|NJ Bandits|Haverford Hawks|York Devils|WBS Jr Knights|Team Philadelphia Orange|Jersey Shore Wildcats Red|North Jersey Sportscare Kings Blue|Jersey Shore Wildcats White|NJ Stars|Rockets Hockey Club
+| --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
+|Team Philadelphia Black|--|57.0|59.0|68.9|69.8|72.5|73.4|75.0|78.8|85.4|85.5|86.3|86.3|87.3|87.3|88.6|88.8|91.7|92.3|92.3|93.2|93.5|96.1|96.6|96.7|98.7|99.0|99.3
+|PAL Jr Islanders|43.0|--|52.0|62.5|63.6|66.5|67.6|69.3|73.7|81.4|81.7|82.6|82.6|83.8|83.8|85.4|85.7|89.2|90.0|90.1|91.1|91.6|94.9|95.5|95.7|98.3|98.6|99.1
+|Atlanta MadHatters|41.0|48.0|--|60.6|61.7|64.7|65.8|67.6|72.1|80.2|80.4|81.5|81.5|82.7|82.7|84.3|84.7|88.4|89.2|89.4|90.5|91.0|94.5|95.1|95.4|98.2|98.5|99.0
+|Ashburn Xtreme 16U AA 1|31.1|37.5|39.4|--|51.1|54.3|55.5|57.5|62.7|72.5|72.8|74.0|74.1|75.6|75.6|77.7|78.2|83.2|84.3|84.5|86.0|86.7|91.8|92.7|93.0|97.3|97.7|98.5
+|Lehigh Valley Phantoms Black|30.2|36.4|38.3|48.9|--|53.2|54.4|56.4|61.6|71.6|71.9|73.2|73.2|74.8|74.8|77.0|77.5|82.6|83.7|83.9|85.5|86.2|91.5|92.4|92.7|97.1|97.6|98.4
+|Jersey Shore Wildcats Black|27.5|33.5|35.3|45.7|46.8|--|51.2|53.2|58.6|68.9|69.2|70.6|70.6|72.3|72.3|74.6|75.1|80.7|81.9|82.1|83.8|84.6|90.4|91.4|91.8|96.8|97.3|98.2
+|Long Island Rebels|26.6|32.4|34.2|44.5|45.6|48.8|--|52.0|57.4|67.8|68.1|69.6|69.6|71.3|71.3|73.7|74.2|79.9|81.2|81.4|83.1|84.0|90.0|91.1|91.5|96.6|97.2|98.1
+|MYHA 16U AA Blue|25.0|30.7|32.4|42.5|43.6|46.8|48.0|--|55.4|66.0|66.4|67.8|67.8|69.6|69.6|72.1|72.6|78.6|79.9|80.1|82.0|82.8|89.3|90.4|90.8|96.3|97.0|98.0
+|Igloo Jaguars|21.2|26.3|27.9|37.3|38.4|41.4|42.6|44.6|--|61.0|61.4|62.9|62.9|64.8|64.9|67.5|68.1|74.7|76.2|76.4|78.5|79.5|87.0|88.3|88.8|95.5|96.3|97.5
+|Valley Forge Colonials 16U AA|14.6|18.6|19.8|27.5|28.4|31.1|32.2|34.0|39.0|--|50.4|52.0|52.0|54.1|54.1|57.0|57.7|65.4|67.2|67.4|70.0|71.3|81.0|82.8|83.6|93.1|94.3|96.2
+|Palmyra Black Knights|14.5|18.3|19.6|27.2|28.1|30.8|31.9|33.6|38.6|49.6|--|51.7|51.7|53.7|53.7|56.7|57.4|65.0|66.9|67.1|69.7|71.0|80.8|82.6|83.4|93.0|94.2|96.1
+|Philadelphia Blazers|13.7|17.4|18.5|26.0|26.8|29.4|30.4|32.2|37.1|48.0|48.3|--|50.0|52.0|52.1|55.0|55.7|63.5|65.4|65.6|68.3|69.6|79.8|81.7|82.4|92.6|93.8|95.9
+|Delaware Ducks|13.7|17.4|18.5|25.9|26.8|29.4|30.4|32.2|37.1|48.0|48.3|50.0|--|52.0|52.1|55.0|55.7|63.5|65.4|65.6|68.3|69.6|79.8|81.7|82.4|92.6|93.8|95.9
+|Tomorrow's Ice Selects|12.7|16.2|17.3|24.4|25.2|27.7|28.7|30.4|35.2|45.9|46.3|48.0|48.0|--|50.0|53.0|53.7|61.6|63.5|63.8|66.5|67.8|78.4|80.4|81.2|92.0|93.3|95.5
+|North Jersey Skylands Kings Navy|12.7|16.2|17.3|24.4|25.2|27.7|28.7|30.4|35.1|45.9|46.3|47.9|47.9|50.0|--|53.0|53.7|61.6|63.5|63.7|66.5|67.8|78.4|80.4|81.2|92.0|93.3|95.5
+|Lehigh Valley Phantoms Orange|11.4|14.6|15.7|22.3|23.0|25.4|26.3|27.9|32.5|43.0|43.3|45.0|45.0|47.0|47.0|--|50.7|58.7|60.7|60.9|63.8|65.1|76.3|78.4|79.3|91.0|92.5|95.0
+|Ashburn Xtreme 16U AA 2|11.2|14.3|15.3|21.8|22.5|24.9|25.8|27.4|31.9|42.3|42.6|44.3|44.3|46.3|46.3|49.3|--|58.0|60.0|60.3|63.1|64.5|75.8|78.0|78.8|90.8|92.3|94.8
+|The St. James Gold|8.3|10.8|11.6|16.8|17.4|19.3|20.1|21.4|25.3|34.6|35.0|36.5|36.5|38.4|38.4|41.3|42.0|--|52.0|52.3|55.3|56.8|69.4|71.9|72.9|87.7|89.7|93.0
+|NJ Bandits|7.7|10.0|10.8|15.7|16.3|18.1|18.8|20.1|23.8|32.8|33.1|34.6|34.6|36.5|36.5|39.3|40.0|48.0|--|50.3|53.3|54.8|67.6|70.2|71.3|86.8|88.9|92.5
+|Haverford Hawks|7.7|9.9|10.6|15.5|16.1|17.9|18.6|19.9|23.6|32.6|32.9|34.4|34.4|36.2|36.3|39.1|39.7|47.7|49.7|--|53.0|54.5|67.4|70.0|71.0|86.7|88.8|92.4
+|York Devils|6.8|8.9|9.5|14.0|14.5|16.2|16.9|18.0|21.5|30.0|30.3|31.7|31.7|33.5|33.5|36.2|36.9|44.7|46.7|47.0|--|51.5|64.6|67.4|68.5|85.2|87.5|91.5
+|WBS Jr Knights|6.5|8.4|9.0|13.3|13.8|15.4|16.0|17.2|20.5|28.7|29.0|30.4|30.4|32.2|32.2|34.9|35.5|43.2|45.2|45.5|48.5|--|63.3|66.1|67.2|84.5|86.9|91.0
+|Team Philadelphia Orange|3.9|5.1|5.5|8.2|8.5|9.6|10.0|10.7|13.0|19.0|19.2|20.2|20.2|21.6|21.6|23.7|24.2|30.6|32.4|32.6|35.4|36.7|--|53.0|54.3|75.9|79.3|85.4
+|Jersey Shore Wildcats Red|3.4|4.5|4.9|7.3|7.6|8.6|8.9|9.6|11.7|17.2|17.4|18.3|18.3|19.6|19.6|21.6|22.0|28.1|29.8|30.0|32.6|33.9|47.0|--|51.3|73.6|77.3|83.9
+|North Jersey Sportscare Kings Blue|3.3|4.3|4.6|7.0|7.3|8.2|8.5|9.2|11.2|16.4|16.6|17.6|17.6|18.8|18.8|20.7|21.2|27.1|28.7|29.0|31.5|32.8|45.7|48.7|--|72.6|76.3|83.1
+|Jersey Shore Wildcats White|1.3|1.7|1.8|2.7|2.9|3.2|3.4|3.7|4.5|6.9|7.0|7.4|7.4|8.0|8.0|9.0|9.2|12.3|13.2|13.3|14.8|15.5|24.1|26.4|27.4|--|54.9|65.0
+|NJ Stars|1.0|1.4|1.5|2.3|2.4|2.7|2.8|3.0|3.7|5.7|5.8|6.2|6.2|6.7|6.7|7.5|7.7|10.3|11.1|11.2|12.5|13.1|20.7|22.7|23.7|45.1|--|60.4
+|Rockets Hockey Club|0.7|0.9|1.0|1.5|1.6|1.8|1.9|2.0|2.5|3.8|3.9|4.1|4.1|4.5|4.5|5.0|5.2|7.0|7.5|7.6|8.5|9.0|14.6|16.1|16.9|35.0|39.6|--
 
 ## Generation Details
 
 Generated with command line:
 ```
-../ahf.py --iterations 10 --shootout-win 1.0 --tie 0.5 --min-games 12 -n 16U-AA -o 16U-AA-ratings.md 16U-AA-scores.json
+../ahf.py -f 16U-AA-filter.txt -n 16U-AA -o 16U-AA-ratings.md 16U-AA-scores.json
 ```
 
 | Option | Value |
@@ -52,7 +85,7 @@ Generated with command line:
 | KRACH Method | BRADLEY_TERRY |
 | SoS Method | AVERAGE |
 | Max Iterations | 10 |
-| Max Ratings Diff | 1e-05 |
+| Max Ratings Diff | 1e-07 |
 | Shootout Win Value | 1.00 |
 | Shootout Loss Value | 0.00 |
 | Tie Value | 0.50 |
