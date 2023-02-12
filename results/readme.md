@@ -2,24 +2,24 @@
 Click below to see KRACH ratings per each division.
 | Division | Season Start | Latest Game |
 | :------- | :--------- | :------- |
-| [10U-A](scores_10U-A.md) | Aug 28, 2022 | Feb 11, 2023 |
-| [10U-AA](scores_10U-AA.md) | Aug 20, 2022 | Feb 11, 2023 |
-| [10U-B](scores_10U-B.md) | Aug 20, 2022 | Feb 11, 2023 |
-| [12U-A](scores_12U-A.md) | Aug 27, 2022 | Feb 11, 2023 |
-| [12U-AA](scores_12U-AA.md) | Aug 20, 2022 | Feb 11, 2023 |
-| [12U-B](scores_12U-B.md) | Aug 27, 2022 | Feb 11, 2023 |
-| [13U-AA](scores_13U-AA.md) | Aug 27, 2022 | Feb 11, 2023 |
-| [14U-A](scores_14U-A.md) | Aug 27, 2022 | Feb 11, 2023 |
-| [14U-AA](scores_14U-AA.md) | Aug 27, 2022 | Feb 11, 2023 |
-| [14U-B](scores_14U-B.md) | Aug 28, 2022 | Feb 11, 2023 |
-| [15U-AA](scores_15U-AA.md) | Aug 19, 2022 | Feb 11, 2023 |
-| [16U-A](scores_16U-A.md) | Aug 20, 2022 | Feb 11, 2023 |
-| [16U-AA](scores_16U-AA.md) | Aug 19, 2022 | Feb 11, 2023 |
-| [18U-A](scores_18U-A.md) | Aug 19, 2022 | Feb 11, 2023 |
-| [18U-AA](scores_18U-AA.md) | Aug 26, 2022 | Feb 11, 2023 |
+| [10U-AA](10U-AA-ratings.md) | Aug 20, 2022 | Feb 12, 2023 |
+| [10U-A](10U-A-ratings.md) | Aug 28, 2022 | Feb 12, 2023 |
+| [10U-B](10U-B-ratings.md) | Aug 20, 2022 | Feb 12, 2023 |
+| [12U-AA](12U-AA-ratings.md) | Aug 20, 2022 | Feb 12, 2023 |
+| [12U-A](12U-A-ratings.md) | Aug 27, 2022 | Feb 12, 2023 |
+| [12U-B](12U-B-ratings.md) | Aug 27, 2022 | Feb 12, 2023 |
+| [13U-AA](13U-AA-ratings.md) | Aug 27, 2022 | Feb 12, 2023 |
+| [14U-AA](14U-AA-ratings.md) | Aug 27, 2022 | Feb 12, 2023 |
+| [14U-A](14U-A-ratings.md) | Aug 27, 2022 | Feb 12, 2023 |
+| [14U-B](14U-B-ratings.md) | Aug 28, 2022 | Feb 12, 2023 |
+| [15U-AA](15U-AA-ratings.md) | Aug 19, 2022 | Feb 11, 2023 |
+| [16U-AA](16U-AA-ratings.md) | Aug 19, 2022 | Feb 12, 2023 |
+| [16U-A](16U-A-ratings.md) | Aug 20, 2022 | Feb 11, 2023 |
+| [18U-AA](18U-AA-ratings.md) | Aug 26, 2022 | Feb 11, 2023 |
+| [18U-A](18U-A-ratings.md) | Aug 19, 2022 | Feb 11, 2023 |
 
 ***
-Generated on Sun Feb 12 02:04:07 UTC 2023 using command line:
+Generated on Sun Feb 12 12:11:27 PM EST 2023 using command line:
 ```
 ./refresh.sh --iterations 10 --shootout-win 1.0 --tie 0.5 --min-games 12
 ```

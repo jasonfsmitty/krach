@@ -20,10 +20,16 @@ fi
 for x in $(ls *.json | sort -n)
 do
 	bname=${x//.json/}
-	output="${bname}.md"
-
 	division=${bname}
-	[[ $division =~ ^scores_(.*) ]] && division=${BASH_REMATCH[1]}
+	if [[ $division =~ ^(.*)-scores ]]
+	then
+		division=${BASH_REMATCH[1]}
+	else
+		echo "ERROR: failed to extract division: $bname"
+		exit 1
+	fi
+
+	output="${division}-ratings.md"
 
 	echo "*** ${division} ***"
 	../ahf.py ${@} -n "${division}" -o ${output} ${x}

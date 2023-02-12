@@ -33,7 +33,7 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 Generated with command line:
 ```
-../krach.py --iterations 10 --shootout-win 1.0 --tie 0.5 --min-games 12 -n 18U-AA -o scores_18U-AA.md scores_18U-AA.json
+../ahf.py --iterations 10 --shootout-win 1.0 --tie 0.5 --min-games 12 -n 18U-AA -o 18U-AA-ratings.md 18U-AA-scores.json
 ```
 
 | Option | Value |
@@ -43,7 +43,7 @@ Generated with command line:
 | KRACH Method | BRADLEY_TERRY |
 | SoS Method | AVERAGE |
 | Max Iterations | 10 |
-| Max Ratings Diff | 0.0001 |
+| Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
 | Shootout Loss Value | 0.00 |
 | Tie Value | 0.50 |
