@@ -9,7 +9,7 @@ jobs:
       - name: Refresh AHF KRACH Ratings
         run: |
           ./get-scores.py
-          ./ahf.sh
+          ./refresh.sh
           git config --global user.name "Jason Smith"
           git config --global user.email "jasonfsmitty@users.noreply.github.com"
           git commit -am "Automated ranking update: $(date)"

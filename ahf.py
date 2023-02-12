@@ -12,6 +12,13 @@ import copy
 import krach
 
 #----------------------------------------------------------------------------
+DEFAULT_ITERATIONS     = 10
+DEFAULT_MAX_DIFF       = 0.0000001
+DEFAULT_SHOOTOUT_VALUE = 1.0
+DEFAULT_FAKES          = 0
+DEFAULT_MIN_GAMES      = 12
+
+#----------------------------------------------------------------------------
 # Read AHF score data into a ledger. This is specific to the JSON format
 # provided by the gamesheetstats.com API. To use this script with a different
 # data source, you would replace this reader with one specific to your context.
@@ -294,17 +301,17 @@ def parseCommandLine():
 
     parser.add_argument("-i", "--iterations",
         type    = int,
-        default = options.maxIterations,
+        default = DEFAULT_ITERATIONS,
         help    = "Max iterations of the KRACH algorithm, or 0 for infinite")
 
     parser.add_argument("-d", "--diff",
         type    = float,
-        default = options.maxRatingsDiff,
+        default = DEFAULT_MAX_DIFF,
         help    = "Treat two iterations 'equal' if difference between them is less than this value")
 
     parser.add_argument("-w", "--shootout-win",
         type    = float,
-        default = options.shootoutWinValue,
+        default = DEFAULT_SHOOTOUT_VALUE,
         help    = "Value of winning a game in overtime/shootout [0.0-1.0]")
 
     parser.add_argument("-t", "--tie",
@@ -314,7 +321,7 @@ def parseCommandLine():
 
     parser.add_argument("--fakes",
         type    = int,
-        default = options.fakeTies,
+        default = DEFAULT_FAKES,
         help    = "Number of fake tie games given to each team")
 
     parser.add_argument("-f", "--filter",
@@ -324,7 +331,7 @@ def parseCommandLine():
 
     parser.add_argument("-m", "--min-games",
         type    = int,
-        default = options.minGamesPlayed,
+        default = DEFAULT_MIN_GAMES,
         help    = "Filter teams from final standings that have less than this many games played")
 
     parser.add_argument("--cutoff",
