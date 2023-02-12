@@ -348,7 +348,7 @@ def parseCommandLine():
 
     parser.add_argument("-f", "--filter",
         type    = str,
-        default = ",".join(options.filteredTeams),
+        default = "",
         help    = "Comma separated list of teams to remove from final rankings")
 
     parser.add_argument("-m", "--min-games",
@@ -385,13 +385,15 @@ def parseCommandLine():
     options.shootoutWinValue  = args.shootout_win
     options.tieValue          = args.tie
     options.fakeTies          = args.fakes
-    options.filteredTeams     = args.filter.split(',')
     options.minGamesPlayed    = args.min_games
     options.dateCutoff        = args.cutoff
     options.test              = args.test
 
     if args.debug:
         logging.getLogger().setLevel(logging.DEBUG)
+
+    if args.filter:
+        options.filteredTeams = map(lambda x: x.strip(), open(args.filter).readlines())
 
     return options
 

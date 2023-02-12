@@ -31,8 +31,12 @@ do
 
 	output="${division}-ratings.md"
 
+	filterFile="${division}-filter.txt"
+	[[ -f "${filterFile}" ]] || touch ${filterFile}
+	filterOpts="-f ${filterFile}"
+
 	echo "*** ${division} ***"
-	../ahf.py ${@} -n "${division}" -o ${output} ${x}
+	../ahf.py ${@} ${filterOpts} -n "${division}" -o ${output} ${x}
 	[[ ${PIPESTATUS[0]} -ne 0 ]] && exit 1
 	echo "" 
 
