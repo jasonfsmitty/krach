@@ -11,7 +11,6 @@ ENABLE_DATE_RANGE=true
 echo "# KRACH Ratings" > ${README}
 echo "Click below to see KRACH ratings per each division." >> ${README}
 
-
 if $ENABLE_DATE_RANGE
 then
 	echo "| Division | Season Start | Latest Game |" >> ${README}
@@ -27,7 +26,7 @@ do
 	[[ $division =~ ^scores_(.*) ]] && division=${BASH_REMATCH[1]}
 
 	echo "*** ${division} ***"
-	../krach.py ${@} -n "${division}" -o ${output} ${x}
+	../ahf.py ${@} -n "${division}" -o ${output} ${x}
 	[[ ${PIPESTATUS[0]} -ne 0 ]] && exit 1
 	echo "" 
 
