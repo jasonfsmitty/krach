@@ -393,7 +393,7 @@ def parseCommandLine():
         logging.getLogger().setLevel(logging.DEBUG)
 
     if args.filter:
-        options.filteredTeams = map(lambda x: x.strip(), open(args.filter).readlines())
+        options.filteredTeams = [ line.strip() for line in open(args.filter) ]
 
     return options
 
