@@ -205,6 +205,7 @@ def writeMarkdownRankings(options, ledger, ratings):
         totalRaw  = sum(x.diff for x in ratings)
         avgRaw    = totalRaw / len(ratings)
 
+        #-------------------------------------------------------
         f.write(f"## Actual vs Expected\n")
 
         f.write("Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.\n")
@@ -216,6 +217,27 @@ def writeMarkdownRankings(options, ledger, ratings):
         f.write(f"|Avg|{avgDiff:.2f}|{avgRaw:.2f}\n")
         f.write(f"\n")
 
+        #-------------------------------------------------------
+        f.write(f"## Predictions\n")
+        f.write(f"Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).\n")
+
+        # headings
+        f.write(f"|".join( ["", ""] + [rating.name for rating in ratings]))
+        f.write(f"\n")
+        f.write(f"| --: " * (len(ratings) + 1))
+        f.write(f"\n")
+
+        for myRating in ratings:
+            def _percentage(opp):
+                if myRating.name == opp.name:
+                    return "--"
+                return "{:>.1f}".format(myRating.odds[opp.name] * 100.0)
+            f.write(f"|{myRating.name}|")
+            f.write(f"|".join( _percentage(opp) for opp in ratings))
+            f.write(f"\n")
+        f.write(f"\n")
+
+        #-------------------------------------------------------
         f.write("## Generation Details\n")
         f.write("\n")
 

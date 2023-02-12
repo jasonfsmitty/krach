@@ -248,6 +248,7 @@ class Rating:
     sos:       float = 100  # strength-of-schedule
     expected:  float = 0.0  # Predicted number of wins based on KRACH ratings
     diff:      float = 0.0  # Difference between expected and actual number of wins (absolute)
+    odds:      dict  = dataclasses.field(default_factory=lambda: dict())
 
 #----------------------------------------------------------------------------
 # Implements the KRACH algorithm.
@@ -411,6 +412,21 @@ class KRACH:
     def expectedWins(self, ledger, ratings, myTeam):
         return ratings[myTeam] * self.calculateMatchupFactor(ledger, ratings, myTeam)
 
+    #----------------------------------------------------------------------------
+    def calculateOdds(self, ratings):
+        return { team : self.calculateTeamOdds(team, ratings) for team in ratings }
+
+    #----------------------------------------------------------------------------
+    def calculateTeamOdds(self, team, ratings):
+        def _calcOdds(rating1, rating2):
+            try:
+                return (rating1 / (rating1 + rating2))
+            except:
+                return float("NaN")
+
+        myRating = ratings[team]
+        return { oppTeam : _calcOdds(myRating, oppRating) for oppTeam,oppRating in ratings.items() }
+
 #----------------------------------------------------------------------------
 def addFakeTies(options, ledger):
     fakeTeam = "__KRACH_FAKE_TEAM__"
@@ -442,6 +458,8 @@ def generate(options, ledger):
     # (such as showcase teams)
     filterTeams(options, ledger, ratings)
 
+    odds = krach.calculateOdds(ratings)
+
     # scale up so all values are integers
     scaleRankings(ratings, sosAll)
 
@@ -454,6 +472,6 @@ def generate(options, ledger):
         # negative differerence indicates the KRACH rating is too low, likewise a
         # positive difference indicates rating is too high.
         diff = expectedWins[name] - ledger.teams[name].record.winPoints(options)
-        return Rating(name, value, sosAll[name], expectedWins[name], diff)
+        return Rating(name, value, sosAll[name], expectedWins[name], diff, odds[name])
     return [ _rating(name,value) for name,value in ratings ]
 
