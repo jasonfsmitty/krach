@@ -18,15 +18,16 @@ This tool was written to reproduce the KRACH rankings as provided by the [AHF (A
 
 ### Quick Start
 
+For those who want to play wiht the code:
+
 ```
 # Download latest scores for all AHF divisions
 ./get-scores.py
-
 # Generate all KRACH ratings, using AHF-specific settings:
-./ahf.sh
+./refresh.sh
 
-# Generate KRACH ratings for single division:
-./krach.py [<options>...] <scores.json>
+# Alternatively, generate KRACH ratings for single division:
+./ahf.py [<options>...] <scores.json>
 ```
 
 ## KRACH
@@ -85,19 +86,21 @@ The paragraph continues on, but honestly my mind has glazed over every time I re
 
 ## AHF
 
-For the most part, `krach.py` tries to be a general-purpose KRACH calculator. with all the knobs exposed as command line options.  This made it quick to try out different settings to more closely mimic the AHF rankings.  The `ahf.sh` wrapper will default to the settings that best match the AHF rankings.
+For the most part, `krach.py` tries to be a general-purpose KRACH calculator. with all the knobs exposed as command line options.  This made it quick to try out different settings to more closely mimic the AHF rankings.  The `ahf.py` wrapper will default to the settings that I believe best matches the AHF rankings.
 
 The following sections discuss some unknowns about how AHF implements KRACH.
 
 ### Shootouts
 
-The AHF website and KRACH documents do not detail how shootouts are weighted. I tried reaching out to the AHF, and according to the response I got back shootouts are treated as a normal win/loss, no partial credit for being tied through regulation.
+In January 2023, I reached out to the AHF and they indicated that shootouts were treated as a normal win-loss for each team.  This can be set with the `--shootout-win 1.0` command line option.  However, running with that option produced results that were at odds with what the AHF was publishing.  The only way I could get results close to the AHF published results was if this tool treated shootouts as a tie for both teams (i.e. `--shootout-win 0.5`).
 
-However, if I run this tool with that setup (i.e. `--shootout-win 1.0`) the KRACH rankings that get generated are pretty far off from what the AHF publishes.  Through trial and error, this tool gets closest to the AHF results when it treats shootouts as a tie for both teams. Hence this is the default values in `krach.py` but can also be set via the command line with `--shootout-win 0.5`.
+Fast-forward to mid-February, when somehow the AHF discovered they really were treating shootouts as ties.  Rather than continue with this method for the last two weeks of the season, they changed the algorithm to match the original intent.
+
+This tool has been updated to match, treating shootouts as a regular win-loss.
 
 ### Handling Undefeated Teams
 
-The algorithm implemented by `krach.py` does not have any divide-by-zero concerns; therefore it does not require using fake ties or other schemes to avoid risk of divide-by-zero.  For better comparison against algorithms that do, `krach.py` supports the `--fakes <N>` command line option; it will inject `<N>` fake ties per team.
+This Bradley-Terry algorithm does not have any divide-by-zero concerns; therefore it does not require using fake ties or other schemes to avoid risk of divide-by-zero.  For better comparison against algorithms that do, `krach.py` supports the `--fakes <N>` command line option; it will inject `<N>` fake ties per team.
 
 I reached out to the AHF asking how they deal with undefeated teams in their KRACH calculations, and all they said was that they have their own method to deal with it.
 
@@ -111,12 +114,14 @@ In the AHF, part-time teams are treated identically to other teams - including b
 
 The AHF schedule includes multiple showcases throughout the season. A showcase is a weekend where all teams from the league converge on a single rink, and each team plays 4 games.  These games are normal regular season games, and count towards the regular season record, including KRACH ratings.
 
-Showcases may incorporate team(s) that are not in the AHF, but play games in the showcase against AHF teams. For KRACH ratings, these showcase teams are treated like part-time teams, and the games are included in the KRACH calculations.  Unlike the official part-time teams, these showcase teams are not included in the KRACH rankings list, and these teams are not eligible for playoffs.
+Showcases may incorporate teams that are not in the AHF, but play games in the showcase against AHF teams. For KRACH ratings, these showcase teams are treated like part-time teams, and the games are included in the KRACH calculations.  Unlike the official part-time teams, these showcase teams are not included in the KRACH rankings list, and these teams are not eligible for playoffs.
 
-In `krach.py`, there are two ways to filter out the showcase teams:
-* Explicitly list teams via the `--filter team1[,team2,team3...]` command line option.
+This tool has two ways to filter out the showcase teams:
+* Explicitly list teams in the `results/<division>-filter.txt` file, one team per line.
 * Drop teams that do not mean a minimum number of games played threshold via the `--min-games <N>` command line option.
 Different divisions in the AHF have different showcase teams, and some showcase teams have been to 1-3 showcases, meaning their number of games played range from 4 to 12. When using `ahf.sh` (or `refresh.sh`) the `--min-games` option applies to all AHF divisions.
+
+In addition, some teams are not participating in playoffs, and they are also filtered out of the current KRACH standings.
 
 ## References
 
