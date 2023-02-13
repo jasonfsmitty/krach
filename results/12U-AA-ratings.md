@@ -78,5 +78,5 @@ Generated with command line:
 | Fake Ties | 0 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-02-12 |
+| Date Cutoff | 2023-02-13 |
 

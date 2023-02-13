@@ -68,7 +68,7 @@ Generated with command line:
 | Shootout Loss Value | 0.00 |
 | Tie Value | 0.50 |
 | Fake Ties | 0 |
-| Ignore teams |  |
+| Ignore teams | North Jersey Avalanche,Rye Rangers |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-02-12 |
+| Date Cutoff | 2023-02-13 |
 
