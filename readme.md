@@ -2,23 +2,25 @@
 
 [Current Rankings](results/readme.md)
 
+**UPDATE 2023-02-14** - Per [this post from the AHF](https://atlantichockeyfederation.com/federation-krach-update/), their source code will be released this week. I will review and update this tool accordingly once it's available.
+
 ### Table of Contents
 
 - **[Overview](#overview)**
   - **[Quick Start](#quick-start)**
-- **[KRACH](#krach)**
 - **[AHF](#ahf)**
+- **[KRACH](#krach)**
 - **[References](#references)**
 
 ## Overview
 
-KRACH is a ratings system used to rank competetive teams, specifically where all teams do not play equal schedules against each other. It was originally developed for college ice hockey, but can be applied to other sports as well.
+This tool was written to reproduce the KRACH rankings as provided by the [AHF (Atlantic Hockey Federation)](https://atlantichockeyfederation.com/).
 
-This tool was written to reproduce the KRACH rankings as provided by the [AHF (Atlantic Hockey Federation)](http://elynah.com/tbrw/tbrw.cgi?krach), but should be easily adaptable to other leagues.
+KRACH is a ratings system used to rank competetive teams, specifically where all teams do not play equal schedules against each other. It was originally developed for college ice hockey, but can be applied to other sports as well.
 
 ### Quick Start
 
-For those who want to play wiht the code:
+For those who want to play with the code:
 
 ```
 # Download latest scores for all AHF divisions
@@ -29,6 +31,53 @@ For those who want to play wiht the code:
 # Alternatively, generate KRACH ratings for single division:
 ./ahf.py [<options>...] <scores.json>
 ```
+
+## AHF
+
+For the most part, the code tries to be a general-purpose KRACH calculator. with various knobs to tweak things for specific contexts.  The `ahf.py` wrapper will default to the settings that I believe best matches the AHF rankings, but I have not been able to recreate their exact numbers.
+
+The following sections discuss some factors about how AHF implements KRACH.
+
+### Shootouts
+
+In January 2023, I reached out to the AHF and they indicated that shootouts were treated as a normal win-loss for each team. However, running with that option produced results that were at odds with what the AHF was publishing.  The only way to get results close to the AHF ratings was if shootouts were treated as a tie for both teams.
+
+Fast-forward to mid-February, when somehow the AHF discovered they really were treating shootouts as ties.  Rather than continue with this method for the last two weeks of the season, they changed the algorithm to match the original intent.
+
+This tool has been updated to match, treating shootouts as a regular win-loss.
+
+### Handling Undefeated Teams
+
+Undefeated teams can cause issues with some implementations, and so some code uses measures such as "fake" tie games to avoid these conditions (see [KRACH explainer](#krach) for more info).  This tool does not have any divide-by-zero concerns, and so does not have any special handling enabled (the tool supports adding fake ties, but does not do so when calculating the AHF ratings).
+
+In January 2023, I reached out to the AHF and they indicated they have their own method to deal with it.
+
+### Part-Time Teams
+
+Some teams in the AHF are part-time, and end up playing a significantly reduced schedule compared to the full-time teams.  KRACH treats the part-time teams just like any other team, and relies on the strength-of-schedule component to produce accurrate ratings.
+
+In the AHF, part-time teams are treated identically to other teams - including being included in KRACH rankings and being eligible for playoffs.
+
+### Showcase Teams
+
+The AHF schedule includes multiple showcases throughout the season. A showcase is a weekend where all teams from the league converge on a single rink, and each team plays 4 games.  These games are normal regular season games, and count towards the regular season record, including KRACH ratings.
+
+Showcases may incorporate teams that are not in the AHF, but play games in the showcase against AHF teams. For KRACH ratings, these showcase teams are treated like part-time teams, and the games are included in the KRACH calculations.  Unlike the official part-time teams, these showcase teams are not included in the KRACH rankings list, and these teams are not eligible for playoffs.
+
+This tool has two ways to filter out the showcase teams:
+* Explicitly list teams in the `results/<division>-filter.txt` file, one team per line.
+* Drop teams that do not mean a minimum number of games played threshold via the `--min-games <N>` command line option.
+Different divisions in the AHF have different showcase teams, and some showcase teams have been to 1-3 showcases, meaning their number of games played range from 4 to 12. When using `ahf.sh` (or `refresh.sh`) the `--min-games` option applies to all AHF divisions.
+
+In addition, some teams are not participating in playoffs, and they are also filtered out of the current KRACH standings.
+
+### Max Iterations
+
+As explained below, the KRACH algorithm takes an initial set of ratings as input to generate updated ratings. It then feeds those new ratings back into the algorithm over and over until the output ratings are the same as the inputs.
+
+When trying to match the AHF numbers, this tool stops at 10 iterations, regardless of how close the input/outputs are.  This produces numbers "close" to the AHF, but that also have a relatively large margin of error.  See the "Win Diff" column for the error calculation; ideally with an accurate KRACH rating this would be 0.0.  Negative numbers indicate the KRACH rating is too low, and positive numbers indicate the rating is too high.
+
+This doesn't necessarily mean the AHF numbers are wrong ... will revisit once they release their source code.
 
 ## KRACH
 
@@ -84,48 +133,9 @@ As indicated by both sites, KRACH no longer uses the "fake" tie method. While re
 
 The paragraph continues on, but honestly my mind has glazed over every time I read it. And having an alternative algorithm without the divide-by-zero risk means I never had to spend the time trying to fully absorb this section.
 
-## AHF
-
-For the most part, `krach.py` tries to be a general-purpose KRACH calculator. with all the knobs exposed as command line options.  This made it quick to try out different settings to more closely mimic the AHF rankings.  The `ahf.py` wrapper will default to the settings that I believe best matches the AHF rankings.
-
-The following sections discuss some unknowns about how AHF implements KRACH.
-
-### Shootouts
-
-In January 2023, I reached out to the AHF and they indicated that shootouts were treated as a normal win-loss for each team.  This can be set with the `--shootout-win 1.0` command line option.  However, running with that option produced results that were at odds with what the AHF was publishing.  The only way I could get results close to the AHF published results was if this tool treated shootouts as a tie for both teams (i.e. `--shootout-win 0.5`).
-
-Fast-forward to mid-February, when somehow the AHF discovered they really were treating shootouts as ties.  Rather than continue with this method for the last two weeks of the season, they changed the algorithm to match the original intent.
-
-This tool has been updated to match, treating shootouts as a regular win-loss.
-
-### Handling Undefeated Teams
-
-This Bradley-Terry algorithm does not have any divide-by-zero concerns; therefore it does not require using fake ties or other schemes to avoid risk of divide-by-zero.  For better comparison against algorithms that do, `krach.py` supports the `--fakes <N>` command line option; it will inject `<N>` fake ties per team.
-
-I reached out to the AHF asking how they deal with undefeated teams in their KRACH calculations, and all they said was that they have their own method to deal with it.
-
-### Part-Time Teams
-
-Some teams in the AHF are part-time, and end up playing a significantly reduced schedule compared to the full-time teams.  This is another reason why a ranking system based on straight wins-losses would not be feasible.  KRACH treats the part-time teams just like any other team, and relies on the strength-of-schedule component to produce accurrate ratings.
-
-In the AHF, part-time teams are treated identically to other teams - including being included in KRACH rankings and being eligible for playoffs.
-
-### Showcase Teams
-
-The AHF schedule includes multiple showcases throughout the season. A showcase is a weekend where all teams from the league converge on a single rink, and each team plays 4 games.  These games are normal regular season games, and count towards the regular season record, including KRACH ratings.
-
-Showcases may incorporate teams that are not in the AHF, but play games in the showcase against AHF teams. For KRACH ratings, these showcase teams are treated like part-time teams, and the games are included in the KRACH calculations.  Unlike the official part-time teams, these showcase teams are not included in the KRACH rankings list, and these teams are not eligible for playoffs.
-
-This tool has two ways to filter out the showcase teams:
-* Explicitly list teams in the `results/<division>-filter.txt` file, one team per line.
-* Drop teams that do not mean a minimum number of games played threshold via the `--min-games <N>` command line option.
-Different divisions in the AHF have different showcase teams, and some showcase teams have been to 1-3 showcases, meaning their number of games played range from 4 to 12. When using `ahf.sh` (or `refresh.sh`) the `--min-games` option applies to all AHF divisions.
-
-In addition, some teams are not participating in playoffs, and they are also filtered out of the current KRACH standings.
-
 ## References
 
-Collection of references found while working on this tool; some used, some not:
+Collection of references found while working on this tool:
 * [Atlantic Hockey Federation](https://atlantichockeyfederation.com/)
 * [GameSheet Stats for AHF](https://gamesheetstats.com/seasons/1654/scores) - Basic UI to the underlying AHF score data; use browser developer mode to find REST API calls for reading divisions/scores.
 * [Wikipedia page on Bradley-Terry Model](https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model)
@@ -133,6 +143,5 @@ Collection of references found while working on this tool; some used, some not:
 * http://elynah.com/tbrw/tbrw.cgi?krach - a comprehensive walkthrough of KRACH, and different algorithms that may be used.
 * http://dbaker.50webs.com/method.html - another comprehensive walkthrough of KRACH
 * [2022-2023 NCAA Women’s Hockey KRACH Calculator](https://www.bcinterruption.com/boston-college-bc-eagles-mens-womens-hockey-ranking-calculators/23433182/2022-2023-ncaa-womens-hockey-krach-calculator) - KRACH ratings implemented within Excel (via hidden worksheets).
-* https://github.com/sezenack/Bradley-Terry-Sports-Model - Python implementation of KRACH that reads/writes to Excel spreadsheets. Initially tried modifying for AHF, but the algorithm used does not support undefeated teams. Between that, and other customizations for AHF, decided to drop the fork and start from scratch with this tool.
-
+* https://github.com/sezenack/Bradley-Terry-Sports-Model - Python implementation of KRACH that reads/writes to Excel spreadsheets. Initially tried modifying for AHF, but the algorithm used does not support undefeated teams. Between that, and other customizations for AHF, decided to start from scratch with this tool.
 
