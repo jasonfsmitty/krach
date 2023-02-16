@@ -26,10 +26,6 @@ class SoSMethod(Enum):
 #----------------------------------------------------------------------------
 @dataclasses.dataclass
 class Options:
-    inputFile:         str   = ""
-    outputFile:        str   = ""
-
-    divisionName:      str   = ""
 
     # Algorithm used for calculating the KRACH rating
     krachMethod:       KrachMethod = KrachMethod.BRADLEY_TERRY
@@ -55,14 +51,6 @@ class Options:
     filteredTeams:     list  = dataclasses.field(default_factory=lambda: []) # Explicit list of teams
     minGamesPlayed:    int   = 0 # ignore teams with less than the min number of games
 
-    # Option to ignore games after a specific date cutoff. This allows using
-    # the latest score results to recreate the KRACH ratings from previous weeks.
-    dateCutoff:        str   = dataclasses.field(default_factory=lambda: datetime.date.today())
-
-    # Enable test mode, which iterates through a set of pre-configured settings
-    # to try and find the 'best' set of options.
-    test:              bool  = False
-
     def dict(self):
         return {
             "KRACH Method"        : "{}".format(self.krachMethod.name),
@@ -75,7 +63,6 @@ class Options:
             "Fake Ties"           : "{}".format(self.fakeTies),
             "Ignore teams"        : "{}".format(",".join(self.filteredTeams)),
             "Min Games Played"    : "{}".format(self.minGamesPlayed),
-            "Date Cutoff"         : "{}".format(self.dateCutoff),
         }
 
     def __str__(self):
@@ -88,9 +75,12 @@ def removeTeam(ratings, team):
 
 #----------------------------------------------------------------------------
 def filterTeams(options, ledger, ratings):
+    icaseTeams = { name.lower() : name for name in ratings.keys() }
     # remove teams explicitly called out
     for team in options.filteredTeams:
-        removeTeam(ratings, team)
+        camelTeam = icaseTeams.get(team.lower(), None)
+        if camelTeam:
+            removeTeam(ratings, camelTeam)
 
     for name,team in ledger.teams.items():
         if team.record.played < options.minGamesPlayed:

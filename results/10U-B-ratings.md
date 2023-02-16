@@ -1,4 +1,5 @@
-# 10U-B KRACH Rankings
+[<- back to the index](readme.md)
+# 10U B KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|9711|Championship|Jersey Shore Wildcats Black|16|16|0|0|0|0|1320|14.3|-1.7
@@ -79,7 +80,7 @@ Uses KRACH ratings to predict winning percentage of each team (row) against each
 
 Generated with command line:
 ```
-../ahf.py -f 10U-B-filter.txt -n 10U-B -o 10U-B-ratings.md 10U-B-scores.json
+./ahf.py update
 ```
 
 | Option | Value |
@@ -89,12 +90,11 @@ Generated with command line:
 | KRACH Method | BRADLEY_TERRY |
 | SoS Method | AVERAGE |
 | Max Iterations | 10 |
-| Max Ratings Diff | 1e-07 |
+| Max Ratings Diff | 0.0001 |
 | Shootout Win Value | 1.00 |
 | Shootout Loss Value | 0.00 |
 | Tie Value | 0.50 |
 | Fake Ties | 0 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-02-13 |
 

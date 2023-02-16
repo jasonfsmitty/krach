@@ -1,4 +1,5 @@
-# 18U-A KRACH Rankings
+[<- back to the index](readme.md)
+# 18U A KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|1733|Championship|Wissahickon Warriors Red|36|30|3|2|1|0|394|30.3|-1.7
@@ -61,7 +62,7 @@ Uses KRACH ratings to predict winning percentage of each team (row) against each
 
 Generated with command line:
 ```
-../ahf.py -f 18U-A-filter.txt -n 18U-A -o 18U-A-ratings.md 18U-A-scores.json
+./ahf.py update
 ```
 
 | Option | Value |
@@ -71,12 +72,11 @@ Generated with command line:
 | KRACH Method | BRADLEY_TERRY |
 | SoS Method | AVERAGE |
 | Max Iterations | 10 |
-| Max Ratings Diff | 1e-07 |
+| Max Ratings Diff | 0.0001 |
 | Shootout Win Value | 1.00 |
 | Shootout Loss Value | 0.00 |
 | Tie Value | 0.50 |
 | Fake Ties | 0 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-02-13 |
 

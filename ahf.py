@@ -2,21 +2,158 @@
 
 import logging
 import argparse
+import requests
 import json
 import sys
 import datetime
 import dataclasses
 import itertools
 import copy
+import os.path
 
 import krach
 
 #----------------------------------------------------------------------------
+# Default settings to mimic AHF results
+
 DEFAULT_ITERATIONS     = 10
-DEFAULT_MAX_DIFF       = 0.0000001
+DEFAULT_MAX_DIFF       = 0.0001
 DEFAULT_SHOOTOUT_VALUE = 1.0
 DEFAULT_FAKES          = 0
 DEFAULT_MIN_GAMES      = 12
+
+#----------------------------------------------------------------------------
+SEASON = 1654 # Hard-coded for the 2022-2023 season
+
+DIVISIONS = {
+    # 10U ------------------------------------------------
+    '10U B' : {
+        'id'     : 9613,
+        'scores' : 'results/10U-B-scores.json',
+        'filter' : 'results/10U-B-filter.txt',
+        'output' : 'results/10U-B-ratings.md',
+    },
+    '10U A Gretzky' : {
+        'id'     : 9614,
+        'scores' : 'results/10U-A-scores.json',
+        'filter' : 'results/10U-A-Gretzky-filter.txt',
+        'output' : 'results/10U-A-Gretzky-ratings.md',
+    },
+    '10U A Lemieux' : {
+        'id'     : 9614,
+        'scores' : 'results/10U-A-scores.json',
+        'filter' : 'results/10U-A-Lemieux-filter.txt',
+        'output' : 'results/10U-A-Lemieux-ratings.md',
+    },
+    '10U AA' : {
+        'id'     : 9612,
+        'scores' : 'results/10U-AA-scores.json',
+        'filter' : 'results/10U-AA-filter.txt',
+        'output' : 'results/10U-AA-ratings.md',
+    },
+
+    # 12U ------------------------------------------------
+    '12U B' : {
+        'id'     : 9616,
+        'scores' : 'results/12U-B-scores.json',
+        'filter' : 'results/12U-B-filter.txt',
+        'output' : 'results/12U-B-ratings.md',
+    },
+    '12U A Gretzky' : {
+        'id'     : 9617,
+        'scores' : 'results/12U-A-scores.json',
+        'filter' : 'results/12U-A-Gretzky-filter.txt',
+        'output' : 'results/12U-A-Gretzky-ratings.md',
+    },
+    '12U A Lemieux' : {
+        'id'     : 9617,
+        'scores' : 'results/12U-A-scores.json',
+        'filter' : 'results/12U-A-Lemieux-filter.txt',
+        'output' : 'results/12U-A-Lemieux-ratings.md',
+    },
+    '12U AA' : {
+        'id'     : 9615,
+        'scores' : 'results/12U-AA-scores.json',
+        'filter' : 'results/12U-AA-filter.txt',
+        'output' : 'results/12U-AA-ratings.md',
+    },
+
+    # 13U ------------------------------------------------
+    '13U AA' : {
+        'id'     : 9618,
+        'scores' : 'results/13U-AA-scores.json',
+        'filter' : 'results/13U-AA-filter.txt',
+        'output' : 'results/13U-AA-ratings.md',
+    },
+
+    # 14U ------------------------------------------------
+    '14U B' : {
+        'id'     : 9620,
+        'scores' : 'results/14U-B-scores.json',
+        'filter' : 'results/14U-B-filter.txt',
+        'output' : 'results/14U-B-ratings.md',
+    },
+    '14U A Gretzky' : {
+        'id'     : 9621,
+        'scores' : 'results/14U-A-scores.json',
+        'filter' : 'results/14U-A-Gretzky-filter.txt',
+        'output' : 'results/14U-A-Gretzky-ratings.md',
+    },
+    '14U A Lemieux' : {
+        'id'     : 9621,
+        'scores' : 'results/14U-A-scores.json',
+        'filter' : 'results/14U-A-Lemieux-filter.txt',
+        'output' : 'results/14U-A-Lemieux-ratings.md',
+    },
+    '14U AA' : {
+        'id'     : 9619,
+        'scores' : 'results/14U-AA-scores.json',
+        'filter' : 'results/14U-AA-filter.txt',
+        'output' : 'results/14U-AA-ratings.md',
+    },
+
+    # 15U -----------------------------------------------
+    '15U AA' : {
+        'id'     : 9622,
+        'scores' : 'results/15U-AA-scores.json',
+        'filter' : 'results/15U-AA-filter.txt',
+        'output' : 'results/15U-AA-ratings.md',
+    },
+
+    # 16U -----------------------------------------------
+    '16U A Gretzky' : {
+        'id'     : 9624,
+        'scores' : 'results/16U-A-scores.json',
+        'filter' : 'results/16U-A-Gretzky-filter.txt',
+        'output' : 'results/16U-A-Gretzky-ratings.md',
+    },
+    '16U A Lemieux' : {
+        'id'     : 9624,
+        'scores' : 'results/16U-A-scores.json',
+        'filter' : 'results/16U-A-Lemieux-filter.txt',
+        'output' : 'results/16U-A-Lemieux-ratings.md',
+    },
+    '16U AA' : {
+        'id'     : 9623,
+        'scores' : 'results/16U-AA-scores.json',
+        'filter' : 'results/16U-AA-filter.txt',
+        'output' : 'results/16U-AA-ratings.md',
+    },
+
+    # 18U -----------------------------------------------
+    '18U A' : {
+        'id'     : 9625,
+        'scores' : 'results/18U-A-scores.json',
+        'filter' : 'results/18U-A-filter.txt',
+        'output' : 'results/18U-A-ratings.md',
+    },
+    '18U AA' : {
+        'id'     : 9626,
+        'scores' : 'results/18U-AA-scores.json',
+        'filter' : 'results/18U-AA-filter.txt',
+        'output' : 'results/18U-AA-ratings.md',
+    },
+}
 
 #----------------------------------------------------------------------------
 # Read AHF score data into a ledger. This is specific to the JSON format
@@ -84,16 +221,6 @@ def subdivision(numTeams, rank):
         if rank <= 12: return SUBDIVISIONS[2]
         if rank <= 16: return SUBDIVISIONS[3]
     return NO_SUBDIVISION
-
-#----------------------------------------------------------------------------
-def loadInputs(options):
-    ledger = krach.Ledger(options.dateCutoff)
-
-    # Read in raw game data
-    reader = AhfScoreReader()
-    reader.read(options.inputFile, ledger)
-
-    return ledger
 
 #----------------------------------------------------------------------------
 def runTests(options, originalLedger):
@@ -166,9 +293,10 @@ def writeMarkdownTable(f, data, keyTitle="Option", valueTitle="Value"):
     f.write(f"\n")
 
 #----------------------------------------------------------------------------
-def writeMarkdownRankings(options, ledger, ratings):
-    with open(options.outputFile, "w") as f:
-        f.write(f"# {options.divisionName} KRACH Rankings\n")
+def writeMarkdownRankings(outputFile, options, divisionName, ledger, ratings):
+    with open(outputFile, "w") as f:
+        f.write(f"[<- back to the index](readme.md)\n")
+        f.write(f"# {divisionName} KRACH Rankings\n")
 
         lines = [
             ['Rank', 'KRACH', 'Subdivision', 'Team', 'GP',   'W',    'L',    'SOW',  'SOL',  'T',    'SoS', 'Exp Wins', 'Win Diff'],
@@ -255,8 +383,9 @@ def writeMarkdownRankings(options, ledger, ratings):
         writeMarkdownTable(f, data)
 
 #----------------------------------------------------------------------------
-def showRankings(options, ledger, ratings):
+def showRankings(divisionName, ledger, ratings):
     dividor = "-" * 115
+    print(f"Division: {divisionName}")
     print(f"Rank KRACH   Subdivision     Team                                     GP  WW-LL-SW-SL-TT    SoS | Predict Diff")
     print(dividor)
 
@@ -283,101 +412,95 @@ def showRankings(options, ledger, ratings):
     print(f"          ABS    RAW")
     print(f"  Total: {diffTotal:5.2f} {rawTotal:>5.2f}")
     print(f"  Avg  : {diffAvg:5.2f} {rawAvg:>5.2f}")
+    print(f"")
 
 #----------------------------------------------------------------------------
-def writeOutputs(options, ledger, ratings):
+def buildUrl(season, divisionId):
+    baseURL="https://gamesheetstats.com/api/useScoredGames/getSeasonScores"
+    return "{}/{}?filter[divisions]={}&filter=[gametype]=overall&filter[limit]=0".format(baseURL, season, divisionId)
+
+#------------------------------------------------------------------------------
+def getDivisionScores(season, divisionName, divisionId):
+    url = buildUrl(season, divisionId)
+    logging.debug("GET: {}".format(url))
+    response = requests.get(url)
+    if response.status_code != 200:
+        logging.error("Failed to query '{}' for season={} division={}: status={}".format(url, season, divisionId, response.status_code))
+        logging.error("Response = {}".format(str(response)))
+        raise RuntimeError("Failed to get scores")
+    return response.json()
+
+#----------------------------------------------------------------------------
+def downloadScores(divisionName):
+    logging.info("Getting scores for division '{}'".format(divisionName))
+
+    info = DIVISIONS.get(divisionName, None)
+    if not info:
+        logging.error("Unknown division '%s'", divisionName)
+        sys.exit(1)
+
+    scores = getDivisionScores(SEASON, divisionName, info['id'])
+    with open(info['scores'], "w") as f:
+        json.dump(scores, f)
+    
+#----------------------------------------------------------------------------
+def downloadCommand(args):
+    logging.info("Downloading scores ...")
+    divisions = [args.div] if args.div else DIVISIONS
+    for d in divisions:
+        downloadScores(d)
+
+#----------------------------------------------------------------------------
+def loadInputs(dateCutoff, inputFile):
+    ledger = krach.Ledger(dateCutoff)
+    reader = AhfScoreReader()
+    reader.read(inputFile, ledger)
+    return ledger
+
+#----------------------------------------------------------------------------
+def updateRatings(options, dateCutoff, divisionName, testMode):
+    info = DIVISIONS.get(divisionName, None)
+    if not info:
+        logging.error("Unknown division '%s'", divisionName)
+        sys.exit(1)
+
+    filterFile = info['filter']
+    if os.path.exists(filterFile):
+        options.filteredTeams = [ line.strip() for line in open(info['filter']) ]
+    else:
+        options.filteredTeams = []
+
+    ledger = loadInputs(dateCutoff, info['scores'])
+    ratings = krach.generate(options, ledger)
+
     # Always show on the console
-    showRankings(options, ledger, ratings)
+    showRankings(divisionName, ledger, ratings)
 
     # optionally write to markdown file
-    if options.outputFile:
-        writeMarkdownRankings(options, ledger, ratings)
+    if not testMode:
+        writeMarkdownRankings(info['output'], options, divisionName, ledger, ratings)
+
+    # (divisionName, startDate, endDate, .md path)
+    return (divisionName, ledger.oldestGame, ledger.newestGame, info['output'])
 
 #----------------------------------------------------------------------------
-def parseCommandLine():
-    # FIXME: use groups to split options between general and krach-specific
+def writeDivisionIndex(toc):
+    with open("results/readme.md", "w") as f:
+        f.write("# KRACH Ratings\n")
+        f.write("Click below to see KRACH ratings for each division\n")
+        f.write("\n")
+        f.write("| Division | Season Start | Latest Game |\n")
+        f.write("| :-- | :-- | :-- |\n")
+
+        for entry in toc:
+            f.write("| [{}]({}) | {} | {} |\n".format(entry[0], os.path.basename(entry[3]), entry[1], entry[2]))
+        f.write("\n")
+        f.write("Generated on {}.\n".format(datetime.datetime.now()))
+
+#----------------------------------------------------------------------------
+def updateCommand(args):
     options = krach.Options()
-    parser = argparse.ArgumentParser()
 
-    parser.add_argument("--debug",
-        action  = 'store_true',
-        default = False,
-        help    = "Enable extra debug logging")
-
-    parser.add_argument("-n", "--name",
-        type    = str,
-        default = options.divisionName,
-        help    = "Division Name")
-
-    parser.add_argument("--krach",
-        metavar = "<method>",
-        choices = ["bradley_terry", "win_loss"],
-        default = "bradley_terry",
-        help    = "Method used to calculate KRACH")
-
-    parser.add_argument("--sos",
-        metavar = "<method>",
-        choices = ["average", "dbaker", "tbrw"],
-        default = "average",
-        help    = "Method used to calculate Sos")
-
-    parser.add_argument("-i", "--iterations",
-        type    = int,
-        default = DEFAULT_ITERATIONS,
-        help    = "Max iterations of the KRACH algorithm, or 0 for infinite")
-
-    parser.add_argument("-d", "--diff",
-        type    = float,
-        default = DEFAULT_MAX_DIFF,
-        help    = "Treat two iterations 'equal' if difference between them is less than this value")
-
-    parser.add_argument("-w", "--shootout-win",
-        type    = float,
-        default = DEFAULT_SHOOTOUT_VALUE,
-        help    = "Value of winning a game in overtime/shootout [0.0-1.0]")
-
-    parser.add_argument("-t", "--tie",
-        type    = float,
-        default = options.tieValue,
-        help    = "Value given to both teams for a tie")
-
-    parser.add_argument("--fakes",
-        type    = int,
-        default = DEFAULT_FAKES,
-        help    = "Number of fake tie games given to each team")
-
-    parser.add_argument("-f", "--filter",
-        type    = str,
-        default = "",
-        help    = "Comma separated list of teams to remove from final rankings")
-
-    parser.add_argument("-m", "--min-games",
-        type    = int,
-        default = DEFAULT_MIN_GAMES,
-        help    = "Filter teams from final standings that have less than this many games played")
-
-    parser.add_argument("--cutoff",
-        type    = datetime.date.fromisoformat,
-        default = options.dateCutoff,
-        help    = "Cutoff date; games played after this date will be ignored")
-
-    parser.add_argument("--test",
-        action  = "store_true",
-        default = False,
-        help    = "Enable test mode")
-
-    parser.add_argument("-o", "--output",
-        metavar = "<output.md>",
-        type    = str,
-        default = "",
-        help    = "Write final rankings as a markdown formatted file")
-
-    parser.add_argument("inputFile")
-
-    args = parser.parse_args()
-    options.inputFile         = args.inputFile
-    options.outputFile        = args.output
-    options.divisionName      = args.name
     options.krachMethod       = krach.KrachMethod[args.krach.upper()]
     options.sosMethod         = krach.SoSMethod[args.sos.upper()]
     options.maxIterations     = args.iterations
@@ -386,22 +509,148 @@ def parseCommandLine():
     options.tieValue          = args.tie
     options.fakeTies          = args.fakes
     options.minGamesPlayed    = args.min_games
-    options.dateCutoff        = args.cutoff
-    options.test              = args.test
+
+    divisions = [args.div] if args.div else DIVISIONS
+    toc = []
+    for divisionName in divisions:
+        toc.append(updateRatings(options, args.cutoff, divisionName, args.test))
+
+    if not args.test:
+        writeDivisionIndex(toc)
+
+#----------------------------------------------------------------------------
+def testCommand(args):
+    # Requires a single division
+    pass
+
+#----------------------------------------------------------------------------
+def listTeams(divisionName):
+    info = DIVISIONS.get(divisionName, None)
+    if not info:
+        logging.error("Unknown division '%s'", divisionName)
+        sys.exit(1)
+
+    filterFile = info['filter']
+    if os.path.exists(filterFile):
+        filteredTeams = set(line.strip().lower() for line in open(info['filter']))
+    else:
+        filteredTeams = set()
+
+    ledger = loadInputs(datetime.date.today(), info['scores'])
+    teamNames = sorted(list(team for team in ledger.teams if team.lower() not in filteredTeams))
+
+    for name in teamNames:
+        print("{}".format(name))
+    
+#----------------------------------------------------------------------------
+def teamsCommand(args):
+    divisions = [args.div] if args.div else DIVISIONS
+    for divisionName in divisions:
+        listTeams(divisionName)
+
+#----------------------------------------------------------------------------
+def parseCommandLine():
+    options = krach.Options()
+    parser = argparse.ArgumentParser()
+    subparsers = parser.add_subparsers(title="Commands")
+
+    parser.add_argument("--debug",
+        action  = 'store_true',
+        default = False,
+        help    = "Enable extra debug logging")
+
+    #----------------------------------------------------------
+    # Download scores for all/single divisions
+
+    download = subparsers.add_parser('scores', help="Download latest scores")
+    download.set_defaults(func=downloadCommand)
+
+    download.add_argument('-d', '--div', help="Single division to update")
+
+    #----------------------------------------------------------
+    # Refresh ratings for all/single divisions
+
+    update = subparsers.add_parser('update', help="Update krach ratings")
+    update.set_defaults(func=updateCommand)
+
+    update.add_argument('-d', '--div', help="Single division to update")
+
+    update.add_argument("--krach",
+        metavar = "<method>",
+        choices = ["bradley_terry", "win_loss"],
+        default = "bradley_terry",
+        help    = "Method used to calculate KRACH")
+
+    update.add_argument("--sos",
+        metavar = "<method>",
+        choices = ["average", "dbaker", "tbrw"],
+        default = "average",
+        help    = "Method used to calculate Sos")
+
+    update.add_argument("-i", "--iterations",
+        type    = int,
+        default = DEFAULT_ITERATIONS,
+        help    = "Max iterations of the KRACH algorithm, or 0 for infinite")
+
+    update.add_argument("--diff",
+        type    = float,
+        default = DEFAULT_MAX_DIFF,
+        help    = "Treat two iterations 'equal' if difference between them is less than this value")
+
+    update.add_argument("-w", "--shootout-win",
+        type    = float,
+        default = DEFAULT_SHOOTOUT_VALUE,
+        help    = "Value of winning a game in overtime/shootout [0.0-1.0]")
+
+    update.add_argument("-t", "--tie",
+        type    = float,
+        default = options.tieValue,
+        help    = "Value given to both teams for a tie")
+
+    update.add_argument("--fakes",
+        type    = int,
+        default = DEFAULT_FAKES,
+        help    = "Number of fake tie games given to each team")
+
+    update.add_argument("-m", "--min-games",
+        type    = int,
+        default = DEFAULT_MIN_GAMES,
+        help    = "Filter teams from final standings that have less than this many games played")
+
+    update.add_argument("--cutoff",
+        type    = datetime.date.fromisoformat,
+        default = datetime.date.today(),
+        help    = "Cutoff date; games played after this date will be ignored")
+
+    update.add_argument("--test",
+        action  = "store_true",
+        default = False,
+        help    = "Write to console only.")
+
+    #----------------------------------------------------------
+    teams = subparsers.add_parser('teams', help="List the teams per division")
+    teams.set_defaults(func=teamsCommand)
+
+    teams.add_argument('-d', '--div', help="Single division to update")
+
+    #----------------------------------------------------------
+    test = subparsers.add_parser('test', help="Run test of various configurations of the KRACH algorithm")
+    test.set_defaults(func=testCommand)
+
+    #----------------------------------------------------------
+    args = parser.parse_args()
 
     if args.debug:
         logging.getLogger().setLevel(logging.DEBUG)
 
-    if args.filter:
-        options.filteredTeams = [ line.strip() for line in open(args.filter) ]
+    if not hasattr(args, 'func'):
+        parser.print_help()
+        sys.exit(1)
 
-    return options
+    return args
 
 #----------------------------------------------------------------------------
-def main(options):
-    logging.debug("Processing '{}' with options:".format(options.inputFile))
-    logging.debug(options)
-
+def oldMain(options):
     ledger = loadInputs(options)
 
     if options.test:
@@ -413,6 +662,6 @@ def main(options):
 #----------------------------------------------------------------------------
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    options = parseCommandLine()
-    main(options)
+    args = parseCommandLine()
+    args.func(args)
 

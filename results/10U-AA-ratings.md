@@ -1,4 +1,5 @@
-# 10U-AA KRACH Rankings
+[<- back to the index](readme.md)
+# 10U AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|1787|Championship|Ashburn Xtreme 2012|16|13|2|0|1|0|689|12.2|-0.8
@@ -59,7 +60,7 @@ Uses KRACH ratings to predict winning percentage of each team (row) against each
 
 Generated with command line:
 ```
-../ahf.py -f 10U-AA-filter.txt -n 10U-AA -o 10U-AA-ratings.md 10U-AA-scores.json
+./ahf.py update
 ```
 
 | Option | Value |
@@ -69,12 +70,11 @@ Generated with command line:
 | KRACH Method | BRADLEY_TERRY |
 | SoS Method | AVERAGE |
 | Max Iterations | 10 |
-| Max Ratings Diff | 1e-07 |
+| Max Ratings Diff | 0.0001 |
 | Shootout Win Value | 1.00 |
 | Shootout Loss Value | 0.00 |
 | Tie Value | 0.50 |
 | Fake Ties | 0 |
 | Ignore teams |  |
 | Min Games Played | 12 |
-| Date Cutoff | 2023-02-13 |
 
