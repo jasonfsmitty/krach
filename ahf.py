@@ -552,7 +552,7 @@ def parseCommandLine():
     #----------------------------------------------------------
     # Download scores for all/single divisions
 
-    download = subparsers.add_parser('scores', help="Download latest scores")
+    download = subparsers.add_parser('download', help="Download latest scores")
     download.set_defaults(func=downloadCommand)
 
     download.add_argument('-d', '--div', help="Single division to update")
