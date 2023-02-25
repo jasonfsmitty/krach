@@ -16,10 +16,11 @@ import krach
 #----------------------------------------------------------------------------
 # Default settings to mimic AHF results
 
-DEFAULT_ITERATIONS     = 10
-DEFAULT_MAX_DIFF       = 0.0001
+DEFAULT_ITERATIONS     = 200
+DEFAULT_MAX_DIFF       = 0.00001
 DEFAULT_SHOOTOUT_VALUE = 1.0
-DEFAULT_FAKES          = 0
+DEFAULT_FAKES          = 1
+DEFAULT_TIE_VALUE      = 0.85
 DEFAULT_MIN_GAMES      = 12
 
 #----------------------------------------------------------------------------
@@ -593,7 +594,7 @@ def parseCommandLine():
 
     update.add_argument("-t", "--tie",
         type    = float,
-        default = options.tieValue,
+        default = DEFAULT_TIE_VALUE,
         help    = "Value given to both teams for a tie")
 
     update.add_argument("--fakes",
