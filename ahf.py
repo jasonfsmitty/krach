@@ -225,15 +225,6 @@ def subdivision(numTeams, rank):
 #----------------------------------------------------------------------------
 def runTests(options, originalLedger):
     packedConfigs = {
-        "krachMethod" : [
-            krach.KrachMethod.BRADLEY_TERRY,
-            krach.KrachMethod.WIN_LOSS,
-        ],
-        "sosMethod" : [
-            krach.SoSMethod.AVERAGE,
-            krach.SoSMethod.DBAKER,
-            krach.SoSMethod.TBRW,
-        ],
         "shootoutWinValue" : [0.5, 1.0],
         "fakeTies"         : [0, 1, 3],
         "maxIterations"    : [10, 100, 0],
@@ -501,8 +492,6 @@ def writeDivisionIndex(toc):
 def updateCommand(args):
     options = krach.Options()
 
-    options.krachMethod       = krach.KrachMethod[args.krach.upper()]
-    options.sosMethod         = krach.SoSMethod[args.sos.upper()]
     options.maxIterations     = args.iterations
     options.maxRatingsDiff    = args.diff
     options.shootoutWinValue  = args.shootout_win
