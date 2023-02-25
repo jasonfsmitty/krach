@@ -31,6 +31,10 @@ class Options:
     # Value of 0 includes all teams.
     minGamesPlayed:    int   = 0
 
+    # Determine how final ratings are scaled for display. 0 is auto-scale (i.e. multiply
+    # all ratings by 10 until all ratings are > 1.0).
+    scaleFactor:       int   = 0
+
     def dict(self):
         return {
             "Max Iterations"      : "{}".format(self.maxIterations),
@@ -66,25 +70,31 @@ def filterTeams(options, ledger, ratings):
             removeTeam(ratings, name)
 
 #----------------------------------------------------------------------------
-def scaleRankings(ratings, sosAll):
-    # brute force search for a scaling factor that will
-    # allow all ratings to be displayed as integers
-    scaleFactor = 1
-    for rating in ratings.values():
-        while rating and int(rating * scaleFactor) <= 0:
+def scaleRankings(scaleFactor, ratings, sosAll):
+    def _scale(x):
+        return int(scaleFactor * x + 0.5)
+
+    if scaleFactor == 0:
+        # brute force search for a scaling factor that will
+        # allow all ratings to be displayed as integers
+        scaleFactor = 1
+        for rating in ratings.values():
+            while rating and _scale(rating) <= 0:
+                scaleFactor *= 10
+
+        # Also scale such that the max value has at least 4 digits
+        while len(str(_scale(max(ratings.values())))) < 4:
             scaleFactor *= 10
 
-    # Also thumb the scale so that the max value has 4 digits
-    while len(str(int(max(ratings.values()) * scaleFactor + 0.5))) < 4:
-        scaleFactor *= 10
-
-    logging.debug("Scaling all ratings by {}".format(scaleFactor))
+        logging.debug("Auto-scaling all ratings by {}".format(scaleFactor))
+    else:
+        logging.debug("Hard scaling all ratings by {}".format(scaleFactor))
 
     for team in ratings:
-        ratings[team] = int(ratings[team] * scaleFactor + 0.5)
+        ratings[team] = _scale(ratings[team])
 
     for team in sosAll:
-        sosAll[team] = int(sosAll[team] * scaleFactor + 0.5)
+        sosAll[team] = _scale(sosAll[team])
 
 #----------------------------------------------------------------------------
 @dataclasses.dataclass
@@ -349,7 +359,7 @@ def generate(options, ledger):
     odds = krach.calculateOdds(ratings)
 
     # scale up so all values are integers
-    scaleRankings(ratings, sosAll)
+    scaleRankings(options.scaleFactor, ratings, sosAll)
 
     # sort by self ratings, highest first.
     ratings = sorted(ratings.items(), key=lambda kv: kv[1], reverse = True)

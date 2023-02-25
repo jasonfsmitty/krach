@@ -22,6 +22,7 @@ DEFAULT_SHOOTOUT_VALUE = 1.0
 DEFAULT_FAKES          = 1
 DEFAULT_TIE_VALUE      = 0.85
 DEFAULT_MIN_GAMES      = 12
+DEFAULT_SCALE_FACTOR   = 10000
 
 #----------------------------------------------------------------------------
 SEASON = 1654 # Hard-coded for the 2022-2023 season
@@ -446,6 +447,7 @@ def updateCommand(args):
     options.tieValue          = args.tie
     options.fakeTies          = args.fakes
     options.minGamesPlayed    = args.min_games
+    options.scaleFactor       = DEFAULT_SCALE_FACTOR
 
     divisions = [args.div] if args.div else DIVISIONS
     toc = []
