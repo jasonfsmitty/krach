@@ -162,6 +162,7 @@ class Record:
     def winPoints(self, options):
         return self.wins \
             + (self.soWins   * options.shootoutWinValue) \
+            + (self.soLosses * (1.0 - options.shootoutWinValue)) \
             + (self.ties     * options.tieValue)
 
 #----------------------------------------------------------------------------
