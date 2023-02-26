@@ -16,23 +16,25 @@ class Options:
     maxIterations:     int   = 1000       # max number of loops
     maxRatingsDiff:    float = 0.00001    # max diff between two runs that is considered "equal"
 
-    # Options that control how shootout wins/losses and ties are weighted in the rankings
+    # Options that control how shootout wins/losses and ties are weighted in the ratings
     shootoutWinValue:  float = 1.00       # loss value is (1.0 - winValue)
     tieValue:          float = 0.50
 
     # Number of fake ties to add to every teams record; Used to 'regularize' teams with
     # undefeated records.
-    fakeTies:          int   = 1
+    fakeTies:          int   = 0
 
     # Explicit list of teams to remove from the final rankings
     filteredTeams:     list  = dataclasses.field(default_factory=lambda: [])
 
     # Remove any teams from the final rankings that have not played this many games.
-    # Value of 0 includes all teams.
+    # A value of 0 will include all teams regardless of games played.
     minGamesPlayed:    int   = 0
 
-    # Determine how final ratings are scaled for display. 0 is auto-scale (i.e. multiply
-    # all ratings by 10 until all ratings are > 1.0).
+    # The core algorithm generates ratings that are small floats < 1.0.  This factor
+    # determines how the values are scaled up to integers for the final output.
+    #   0  - Auto-scale all ratings such that every rating is > 0.
+    #   !0 - Multiply the ratings by this value; no other adjustments are made.
     scaleFactor:       int   = 0
 
     def dict(self):
@@ -70,7 +72,7 @@ def filterTeams(options, ledger, ratings):
             removeTeam(ratings, name)
 
 #----------------------------------------------------------------------------
-def scaleRankings(scaleFactor, ratings, sosAll):
+def scaleRatings(scaleFactor, ratings, sosAll):
     def _scale(x):
         return int(scaleFactor * x + 0.5)
 
@@ -132,11 +134,7 @@ class Record:
     def winPoints(self, options):
         return self.wins \
             + (self.soWins   * options.shootoutWinValue) \
-            + (self.soLosses * (1.0 - options.shootoutWinValue)) \
             + (self.ties     * options.tieValue)
-
-    def lossPoints(self, options):
-        return self.played - self.winPoints(options)
 
 #----------------------------------------------------------------------------
 class Team:
@@ -224,7 +222,7 @@ class Ledger:
 class Rating:
     name:      str = ""     # Name of the team, used for display and lookup in ledger
     value:     int   = 100  # KRACH rating value
-    sos:       float = 100  # strength-of-schedule
+    sos:       int   = 100  # strength-of-schedule
     expected:  float = 0.0  # Predicted number of wins based on KRACH ratings
     diff:      float = 0.0  # Difference between expected and actual number of wins (absolute)
     odds:      dict  = dataclasses.field(default_factory=lambda: dict())
@@ -270,14 +268,19 @@ class KRACH:
         return ledger.teams[i].record.winPoints(self.options) / self.calculateMatchupFactor(ledger, ratings, i)
 
     #----------------------------------------------------------------------------
-    # Calculate: ∑j Nij / (Ki + Kj)
+    # Calculate: ∑j (Wij + Wji) / (Ki + Kj)
+    # Different sources have the numerator as Nij versus (Wij + Wji). For most
+    # scenarios every game is worth 1.0 points total, making the two forms identical.
+    # But the AHF assigns 0.85 win points for their 'regularization' tie games,
+    # breaking the equivalance.
     def calculateMatchupFactor(self, ledger, ratings, i):
         myTeam = ledger.teams[i]
         sumOfMatchups = 0.0
         # iterate across all teams we've played
         for j in myTeam.matchups:
-            gp = myTeam.matchups[j].played
-            sumOfMatchups += (gp) / (ratings[i] + ratings[j])
+            wij = myTeam.matchups[j].winPoints(self.options)
+            wji = ledger.teams[j].matchups[i].winPoints(self.options)
+            sumOfMatchups += (wij + wji) / (ratings[i] + ratings[j])
         return sumOfMatchups
 
     #----------------------------------------------------------------------------
@@ -340,9 +343,8 @@ def addFakeTies(options, ledger):
 
 #----------------------------------------------------------------------------
 def generate(options, ledger):
-    # Add in any fake game data
-    addFakeTies(options, ledger)
 
+    addFakeTies(options, ledger)
     krach = KRACH(options)
     ratings = krach.run(ledger)
 
@@ -352,17 +354,16 @@ def generate(options, ledger):
     # Validate ratings by converting back to expected number of wins
     expectedWins = krach.expectedWinsAll(ledger, ratings)
 
-    # Now that we're done all calculations, remove any ignored teams
-    # (such as showcase teams)
+    # Done calculations; remove any filtered teams
     filterTeams(options, ledger, ratings)
 
     odds = krach.calculateOdds(ratings)
 
-    # scale up so all values are integers
-    scaleRankings(options.scaleFactor, ratings, sosAll)
+    # Scaling will lose precision, so do the sorting now with most precise values.
+    rankings = [ x[0] for x in sorted(ratings.items(), key=lambda kv: kv[1], reverse = True)]
 
-    # sort by self ratings, highest first.
-    ratings = sorted(ratings.items(), key=lambda kv: kv[1], reverse = True)
+    # scale up so all values are integers
+    scaleRatings(options.scaleFactor, ratings, sosAll)
 
     # And finally, build a list of Rating() objects for easy consumption by caller
     def _rating(name, value):
@@ -372,5 +373,5 @@ def generate(options, ledger):
         diff = expectedWins[name] - ledger.teams[name].record.winPoints(options)
         return Rating(name, value, sosAll[name], expectedWins[name], diff, odds[name])
 
-    return [ _rating(name,value) for name,value in ratings ]
+    return [ _rating(name, ratings[name]) for name in rankings ]
 
