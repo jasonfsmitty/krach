@@ -447,7 +447,8 @@ def updateCommand(args):
     options.tieValue          = args.tie
     options.fakeTies          = args.fakes
     options.minGamesPlayed    = args.min_games
-    options.scaleFactor       = DEFAULT_SCALE_FACTOR
+    options.scaleMethod       = krach.ScaleMethod[args.scale.upper()]
+    options.scaleFactor       = args.factor
 
     divisions = [args.div] if args.div else DIVISIONS
     toc = []
@@ -509,18 +510,6 @@ def parseCommandLine():
 
     update.add_argument('-d', '--div', help="Single division to update")
 
-    update.add_argument("--krach",
-        metavar = "<method>",
-        choices = ["bradley_terry", "win_loss"],
-        default = "bradley_terry",
-        help    = "Method used to calculate KRACH")
-
-    update.add_argument("--sos",
-        metavar = "<method>",
-        choices = ["average", "dbaker", "tbrw"],
-        default = "average",
-        help    = "Method used to calculate Sos")
-
     update.add_argument("-i", "--iterations",
         type    = int,
         default = DEFAULT_ITERATIONS,
@@ -545,6 +534,17 @@ def parseCommandLine():
         type    = int,
         default = DEFAULT_FAKES,
         help    = "Number of fake tie games given to each team")
+
+    update.add_argument("--scale",
+        metavar = "<method>",
+        choices = ["none", "auto", "factor", "range"],
+        default = "factor",
+        help    = "Method used to scale ratings for final rankings")
+
+    update.add_argument("--factor",
+        type    = int,
+        default = DEFAULT_SCALE_FACTOR,
+        help    = "Scaling factor used by the scaling method.")
 
     update.add_argument("-m", "--min-games",
         type    = int,

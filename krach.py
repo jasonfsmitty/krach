@@ -8,6 +8,15 @@ import sys
 import logging
 import datetime
 import dataclasses
+import math
+import enum
+
+#----------------------------------------------------------------------------
+class ScaleMethod(enum.Enum):
+    NONE   = 1  # No scaling, report raw floating point values.
+    AUTO   = 2  # Repeatedly mutiple all ratings by 10 until all are > 0.
+    FACTOR = 3  # Multiply all ratings by 'scaleFactor'.
+    RANGE  = 4  # Scale ratings logarithically to range [0, scaleFactor].
 
 #----------------------------------------------------------------------------
 @dataclasses.dataclass
@@ -31,10 +40,9 @@ class Options:
     # A value of 0 will include all teams regardless of games played.
     minGamesPlayed:    int   = 0
 
-    # The core algorithm generates ratings that are small floats < 1.0.  This factor
-    # determines how the values are scaled up to integers for the final output.
-    #   0  - Auto-scale all ratings such that every rating is > 0.
-    #   !0 - Multiply the ratings by this value; no other adjustments are made.
+    # The core algorithm generates ratings that are small floats < 1.0.  These
+    # determines how the values are scaled for the final output.
+    scaleMethod:       ScaleMethod = ScaleMethod.AUTO
     scaleFactor:       int   = 0
 
     def dict(self):
@@ -72,31 +80,51 @@ def filterTeams(options, ledger, ratings):
             removeTeam(ratings, name)
 
 #----------------------------------------------------------------------------
-def scaleRatings(scaleFactor, ratings, sosAll):
-    def _scale(x):
-        return int(scaleFactor * x + 0.5)
+def scaleRatings(options, ratings, sosAll):
+    def _scale(factor, rating):
+        return int(factor * rating + 0.5)
 
-    if scaleFactor == 0:
+    def _scaleAll(factor):
+        for team in ratings:
+            ratings[team] = _scale(factor, ratings[team])
+            sosAll[team]  = _scale(factor, sosAll[team])
+
+    def _scaleNone():
+        pass
+
+    def _scaleAuto():
         # brute force search for a scaling factor that will
         # allow all ratings to be displayed as integers
         scaleFactor = 1
         for rating in ratings.values():
-            while rating and _scale(rating) <= 0:
+            while rating and _scale(scaleFactor, rating) <= 0:
                 scaleFactor *= 10
-
         # Also scale such that the max value has at least 4 digits
-        while len(str(_scale(max(ratings.values())))) < 4:
+        while len(str(_scale(scaleFactor, max(ratings.values())))) < 4:
             scaleFactor *= 10
-
         logging.debug("Auto-scaling all ratings by {}".format(scaleFactor))
-    else:
-        logging.debug("Hard scaling all ratings by {}".format(scaleFactor))
+        _scaleAll(scaleFactor)
 
-    for team in ratings:
-        ratings[team] = _scale(ratings[team])
+    def _scaleFactor():
+        logging.debug("Hard scaling all ratings by {}".format(options.scaleFactor))
+        _scaleAll(options.scaleFactor)
 
-    for team in sosAll:
-        sosAll[team] = _scale(sosAll[team])
+    def _scaleRange():
+        logging.debug("Scaling all ratings to range 0-{}".format(options.scaleFactor))
+        for team in ratings:
+            ratings[team] = int(options.scaleFactor * math.log1p(1000 * ratings[team]) / math.log1p(1000) + 0.5)
+            sosAll[team]  = int(options.scaleFactor * math.log1p(1000 * sosAll[team])  / math.log1p(1000) + 0.5)
+
+    methods = {
+        ScaleMethod.NONE   : _scaleNone,
+        ScaleMethod.AUTO   : _scaleAuto,
+        ScaleMethod.FACTOR : _scaleFactor,
+        ScaleMethod.RANGE  : _scaleRange,
+    }
+    method = methods.get(options.scaleMethod, None)
+    if not method:
+        raise RuntimeError("Failed to map scaling method to function")
+    method()
 
 #----------------------------------------------------------------------------
 @dataclasses.dataclass
@@ -363,7 +391,7 @@ def generate(options, ledger):
     rankings = [ x[0] for x in sorted(ratings.items(), key=lambda kv: kv[1], reverse = True)]
 
     # scale up so all values are integers
-    scaleRatings(options.scaleFactor, ratings, sosAll)
+    scaleRatings(options, ratings, sosAll)
 
     # And finally, build a list of Rating() objects for easy consumption by caller
     def _rating(name, value):
