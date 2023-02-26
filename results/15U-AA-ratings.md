@@ -2,37 +2,37 @@
 # 15U AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|5053|Championship|Delaware Ducks|42|33|5|3|1|0|1634|34.8|-1.2
-2|2802|Championship|MYHA 16U AA Gold|16|10|3|1|2|0|3359|10.7|-0.3
-3|2332|Championship|Team Philadelphia|40|24|10|4|2|0|2083|27.8|-0.2
-4|1545|Championship|Long Island Rebels|20|7|10|3|0|0|3622|9.9|-0.1
-5|1475||Royals|40|22|11|3|4|0|2408|25.3|0.3
-6|238||NJ Bandits|34|11|19|1|3|0|1978|12.9|0.9
-7|165||Palmyra Black Knights|40|10|25|1|4|0|2169|11.7|0.7
-8|116||North Jersey Sportscare Kings Yellow|24|5|16|1|2|0|1091|6.5|0.5
-9|61||Tomorrow's Ice Selects|39|1|33|3|2|0|1922|4.3|0.3
+1|988|Championship|Delaware Ducks|43|33|5|3|1|1|234|36.8|-0.0
+2|457|Championship|MYHA 16U AA Gold|17|10|3|1|2|1|410|11.8|-0.0
+3|407|Championship|Team Philadelphia|41|24|10|4|2|1|310|28.9|0.0
+4|264|Championship|Long Island Rebels|21|7|10|3|0|1|492|10.8|-0.0
+5|238||Royals|41|22|11|3|4|1|283|25.9|0.0
+6|47||NJ Bandits|35|11|19|1|3|1|277|12.9|0.0
+7|35||Palmyra Black Knights|41|10|25|1|4|1|333|11.9|0.0
+8|26||North Jersey Sportscare Kings Yellow|25|5|16|1|2|1|200|6.9|0.0
+9|14||Tomorrow's Ice Selects|40|1|33|3|2|1|323|4.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
 
 ||Absolute|Raw
 |---:|---:|---:
-|Total|4.37|0.80
-|Avg|0.49|0.09
+|Total|0.00|-0.00
+|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
 ||Delaware Ducks|MYHA 16U AA Gold|Team Philadelphia|Long Island Rebels|Royals|NJ Bandits|Palmyra Black Knights|North Jersey Sportscare Kings Yellow|Tomorrow's Ice Selects
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Delaware Ducks|--| 64%| 68%| 77%| 77%| 95%| 97%| 98%| 99%
-|MYHA 16U AA Gold| 36%|--| 55%| 64%| 66%| 92%| 94%| 96%| 98%
-|Team Philadelphia| 32%| 45%|--| 60%| 61%| 91%| 93%| 95%| 97%
-|Long Island Rebels| 23%| 36%| 40%|--| 51%| 87%| 90%| 93%| 96%
-|Royals| 23%| 34%| 39%| 49%|--| 86%| 90%| 93%| 96%
-|NJ Bandits|  5%|  8%|  9%| 13%| 14%|--| 59%| 67%| 80%
-|Palmyra Black Knights|  3%|  6%|  7%| 10%| 10%| 41%|--| 59%| 73%
-|North Jersey Sportscare Kings Yellow|  2%|  4%|  5%|  7%|  7%| 33%| 41%|--| 66%
-|Tomorrow's Ice Selects|  1%|  2%|  3%|  4%|  4%| 20%| 27%| 34%|--
+|Delaware Ducks|--| 68%| 71%| 79%| 81%| 95%| 97%| 97%| 99%
+|MYHA 16U AA Gold| 32%|--| 53%| 63%| 66%| 91%| 93%| 95%| 97%
+|Team Philadelphia| 29%| 47%|--| 61%| 63%| 90%| 92%| 94%| 97%
+|Long Island Rebels| 21%| 37%| 39%|--| 53%| 85%| 88%| 91%| 95%
+|Royals| 19%| 34%| 37%| 47%|--| 84%| 87%| 90%| 94%
+|NJ Bandits|  5%|  9%| 10%| 15%| 16%|--| 57%| 64%| 77%
+|Palmyra Black Knights|  3%|  7%|  8%| 12%| 13%| 43%|--| 58%| 71%
+|North Jersey Sportscare Kings Yellow|  3%|  5%|  6%|  9%| 10%| 36%| 42%|--| 65%
+|Tomorrow's Ice Selects|  1%|  3%|  3%|  5%|  6%| 23%| 29%| 35%|--
 
 ## Generation Details
 
@@ -45,14 +45,12 @@ Generated with command line:
 | :----- | ----: |
 | Start Date | 2022-08-19 |
 | End Date | 2023-02-11 |
-| KRACH Method | BRADLEY_TERRY |
-| SoS Method | AVERAGE |
-| Max Iterations | 10 |
-| Max Ratings Diff | 0.0001 |
+| Max Iterations | 200 |
+| Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
 | Shootout Loss Value | 0.00 |
-| Tie Value | 0.50 |
-| Fake Ties | 0 |
-| Ignore teams |  |
+| Tie Value | 0.85 |
+| Fake Ties | 1 |
+| Ignore teams | __KRACH_FAKE_TEAM__ |
 | Min Games Played | 12 |
 

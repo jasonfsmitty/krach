@@ -2,75 +2,75 @@
 # 16U AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|4508|Championship|Team Philadelphia Black|39|30|7|2|0|0|2515|29.8|-2.2
-2|3398|Championship|PAL Jr Islanders|16|11|4|1|0|0|3091|11.4|-0.6
-3|3136|Championship|Atlanta MadHatters|12|9|3|0|0|0|1677|8.5|-0.5
-4|2037|Championship|Ashburn Xtreme 16U AA 1|16|8|7|0|1|0|4515|7.6|-0.4
-5|1948|Gold|Lehigh Valley Phantoms Black|40|26|9|3|2|0|1464|28.4|-0.6
-6|1713|Gold|Jersey Shore Wildcats Black|33|25|5|0|3|0|705|24.9|-0.1
-7|1631|Gold|Long Island Rebels|18|8|8|2|0|0|2875|9.6|-0.4
-8|1505|Gold|MYHA 16U AA Blue|16|7|7|2|0|0|2996|8.7|-0.3
-9|1213|Silver|Igloo Jaguars|39|23|14|1|1|0|1384|23.9|-0.1
-10|774|Silver|Valley Forge Colonials 16U AA|40|17|17|3|3|0|1071|20.0|-0.0
-11|763|Silver|Palmyra Black Knights|44|19|17|4|4|0|1071|23.1|0.1
-12|719|Silver|Delaware Ducks|46|26|15|2|3|0|609|28.6|0.6
-13|714|Bronze|Philadelphia Blazers|42|19|14|3|6|0|1312|22.1|0.1
-14|658|Bronze|Tomorrow's Ice Selects|48|21|21|3|3|0|1026|24.0|0.0
-15|656|Bronze|North Jersey Skylands Kings Navy|40|19|19|2|0|0|897|21.3|0.3
-16|583|Bronze|Lehigh Valley Phantoms Orange|40|21|15|3|1|0|638|24.9|0.9
-17|567||Ashburn Xtreme 16U AA 2|16|6|8|2|0|0|943|8.0|0.0
-18|410||The St. James Gold|16|4|10|2|0|0|978|6.0|0.0
-19|378||NJ Bandits|34|17|13|2|2|0|502|20.0|1.0
-20|374||Haverford Hawks|40|13|18|3|6|0|974|16.2|0.2
-21|331||York Devils|40|13|23|2|2|0|938|15.2|0.2
-22|312||WBS Jr Knights|39|10|24|5|0|0|892|15.3|0.3
-23|181||Team Philadelphia Orange|40|12|23|3|2|0|513|15.6|0.6
-24|160||Jersey Shore Wildcats Red|34|11|18|1|4|0|660|12.5|0.5
-25|152||North Jersey Sportscare Kings Blue|24|7|15|2|0|0|694|9.5|0.5
-26|57||Jersey Shore Wildcats White|34|9|21|0|4|0|551|9.8|0.8
-27|47||NJ Stars|39|6|30|1|2|0|840|7.5|0.5
-28|31||Rockets Hockey Club|39|4|32|2|1|0|402|6.4|0.4
+1|703|Championship|Team Philadelphia Black|40|30|7|2|0|1|252|32.8|-0.0
+2|398|Championship|Atlanta MadHatters|13|9|3|0|0|1|219|9.8|-0.0
+3|392|Championship|PAL Jr Islanders|17|11|4|1|0|1|277|12.8|-0.0
+4|252|Championship|Lehigh Valley Phantoms Black|41|26|9|3|2|1|171|29.8|-0.0
+5|249|Gold|Ashburn Xtreme 16U AA 1|17|8|7|0|1|1|471|8.8|-0.0
+6|197|Gold|Jersey Shore Wildcats Black|34|25|5|0|3|1|84|25.9|0.0
+7|197|Gold|Long Island Rebels|19|8|8|2|0|1|305|10.8|-0.0
+8|180|Gold|MYHA 16U AA Blue|17|7|7|2|0|1|308|9.8|-0.0
+9|146|Silver|Igloo Jaguars|40|23|14|1|1|1|156|24.9|0.0
+10|94|Silver|Valley Forge Colonials 16U AA|41|17|17|3|3|1|136|20.9|0.0
+11|92|Silver|Palmyra Black Knights|45|19|17|4|4|1|139|23.9|0.0
+12|85|Silver|Philadelphia Blazers|43|19|14|3|6|1|156|22.9|0.0
+13|83|Bronze|Delaware Ducks|47|26|15|2|3|1|74|28.9|0.0
+14|81|Bronze|Tomorrow's Ice Selects|49|21|21|3|3|1|133|24.9|0.0
+15|77|Bronze|North Jersey Skylands Kings Navy|41|19|19|2|0|1|107|21.9|0.0
+16|72|Bronze|Ashburn Xtreme 16U AA 2|17|6|8|2|0|1|124|8.9|0.0
+17|66||Lehigh Valley Phantoms Orange|41|21|15|3|1|1|85|24.9|0.0
+18|53||The St. James Gold|17|4|10|2|0|1|126|6.9|0.0
+19|46||Haverford Hawks|41|13|18|3|6|1|129|16.9|0.0
+20|42||York Devils|41|13|23|2|2|1|122|15.9|0.0
+21|42||NJ Bandits|35|17|13|2|2|1|60|19.9|0.0
+22|38||WBS Jr Knights|40|10|24|5|0|1|115|15.9|0.0
+23|23||Team Philadelphia Orange|41|12|23|3|2|1|62|15.9|0.0
+24|21||North Jersey Sportscare Kings Blue|25|7|15|2|0|1|89|9.9|0.0
+25|20||Jersey Shore Wildcats Red|35|11|18|1|4|1|80|12.9|0.0
+26|8||Jersey Shore Wildcats White|35|9|21|0|4|1|43|9.9|0.0
+27|6||NJ Stars|40|6|30|1|2|1|91|7.9|0.0
+28|4||Rockets Hockey Club|40|4|32|2|1|1|50|6.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
 
 ||Absolute|Raw
 |---:|---:|---:
-|Total|12.37|1.61
-|Avg|0.44|0.06
+|Total|0.00|0.00
+|Avg|0.00|0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Team Philadelphia Black|PAL Jr Islanders|Atlanta MadHatters|Ashburn Xtreme 16U AA 1|Lehigh Valley Phantoms Black|Jersey Shore Wildcats Black|Long Island Rebels|MYHA 16U AA Blue|Igloo Jaguars|Valley Forge Colonials 16U AA|Palmyra Black Knights|Delaware Ducks|Philadelphia Blazers|Tomorrow's Ice Selects|North Jersey Skylands Kings Navy|Lehigh Valley Phantoms Orange|Ashburn Xtreme 16U AA 2|The St. James Gold|NJ Bandits|Haverford Hawks|York Devils|WBS Jr Knights|Team Philadelphia Orange|Jersey Shore Wildcats Red|North Jersey Sportscare Kings Blue|Jersey Shore Wildcats White|NJ Stars|Rockets Hockey Club
+||Team Philadelphia Black|Atlanta MadHatters|PAL Jr Islanders|Lehigh Valley Phantoms Black|Ashburn Xtreme 16U AA 1|Jersey Shore Wildcats Black|Long Island Rebels|MYHA 16U AA Blue|Igloo Jaguars|Valley Forge Colonials 16U AA|Palmyra Black Knights|Philadelphia Blazers|Delaware Ducks|Tomorrow's Ice Selects|North Jersey Skylands Kings Navy|Ashburn Xtreme 16U AA 2|Lehigh Valley Phantoms Orange|The St. James Gold|Haverford Hawks|York Devils|NJ Bandits|WBS Jr Knights|Team Philadelphia Orange|North Jersey Sportscare Kings Blue|Jersey Shore Wildcats Red|Jersey Shore Wildcats White|NJ Stars|Rockets Hockey Club
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Team Philadelphia Black|--| 57%| 59%| 69%| 70%| 72%| 73%| 75%| 79%| 85%| 86%| 86%| 86%| 87%| 87%| 89%| 89%| 92%| 92%| 92%| 93%| 94%| 96%| 97%| 97%| 99%| 99%| 99%
-|PAL Jr Islanders| 43%|--| 52%| 63%| 64%| 66%| 68%| 69%| 74%| 81%| 82%| 83%| 83%| 84%| 84%| 85%| 86%| 89%| 90%| 90%| 91%| 92%| 95%| 96%| 96%| 98%| 99%| 99%
-|Atlanta MadHatters| 41%| 48%|--| 61%| 62%| 65%| 66%| 68%| 72%| 80%| 80%| 81%| 81%| 83%| 83%| 84%| 85%| 88%| 89%| 89%| 90%| 91%| 95%| 95%| 95%| 98%| 99%| 99%
-|Ashburn Xtreme 16U AA 1| 31%| 37%| 39%|--| 51%| 54%| 56%| 58%| 63%| 72%| 73%| 74%| 74%| 76%| 76%| 78%| 78%| 83%| 84%| 84%| 86%| 87%| 92%| 93%| 93%| 97%| 98%| 99%
-|Lehigh Valley Phantoms Black| 30%| 36%| 38%| 49%|--| 53%| 54%| 56%| 62%| 72%| 72%| 73%| 73%| 75%| 75%| 77%| 77%| 83%| 84%| 84%| 85%| 86%| 91%| 92%| 93%| 97%| 98%| 98%
-|Jersey Shore Wildcats Black| 28%| 34%| 35%| 46%| 47%|--| 51%| 53%| 59%| 69%| 69%| 70%| 71%| 72%| 72%| 75%| 75%| 81%| 82%| 82%| 84%| 85%| 90%| 91%| 92%| 97%| 97%| 98%
-|Long Island Rebels| 27%| 32%| 34%| 44%| 46%| 49%|--| 52%| 57%| 68%| 68%| 69%| 70%| 71%| 71%| 74%| 74%| 80%| 81%| 81%| 83%| 84%| 90%| 91%| 91%| 97%| 97%| 98%
-|MYHA 16U AA Blue| 25%| 31%| 32%| 42%| 44%| 47%| 48%|--| 55%| 66%| 66%| 68%| 68%| 70%| 70%| 72%| 73%| 79%| 80%| 80%| 82%| 83%| 89%| 90%| 91%| 96%| 97%| 98%
-|Igloo Jaguars| 21%| 26%| 28%| 37%| 38%| 41%| 43%| 45%|--| 61%| 61%| 63%| 63%| 65%| 65%| 68%| 68%| 75%| 76%| 76%| 79%| 80%| 87%| 88%| 89%| 96%| 96%| 98%
-|Valley Forge Colonials 16U AA| 15%| 19%| 20%| 28%| 28%| 31%| 32%| 34%| 39%|--| 50%| 52%| 52%| 54%| 54%| 57%| 58%| 65%| 67%| 67%| 70%| 71%| 81%| 83%| 84%| 93%| 94%| 96%
-|Palmyra Black Knights| 14%| 18%| 20%| 27%| 28%| 31%| 32%| 34%| 39%| 50%|--| 51%| 52%| 54%| 54%| 57%| 57%| 65%| 67%| 67%| 70%| 71%| 81%| 83%| 83%| 93%| 94%| 96%
-|Delaware Ducks| 14%| 17%| 19%| 26%| 27%| 30%| 31%| 32%| 37%| 48%| 49%|--| 50%| 52%| 52%| 55%| 56%| 64%| 66%| 66%| 68%| 70%| 80%| 82%| 83%| 93%| 94%| 96%
-|Philadelphia Blazers| 14%| 17%| 19%| 26%| 27%| 29%| 30%| 32%| 37%| 48%| 48%| 50%|--| 52%| 52%| 55%| 56%| 64%| 65%| 66%| 68%| 70%| 80%| 82%| 82%| 93%| 94%| 96%
-|Tomorrow's Ice Selects| 13%| 16%| 17%| 24%| 25%| 28%| 29%| 30%| 35%| 46%| 46%| 48%| 48%|--| 50%| 53%| 54%| 62%| 64%| 64%| 67%| 68%| 78%| 80%| 81%| 92%| 93%| 96%
-|North Jersey Skylands Kings Navy| 13%| 16%| 17%| 24%| 25%| 28%| 29%| 30%| 35%| 46%| 46%| 48%| 48%| 50%|--| 53%| 54%| 62%| 63%| 64%| 66%| 68%| 78%| 80%| 81%| 92%| 93%| 96%
-|Lehigh Valley Phantoms Orange| 11%| 15%| 16%| 22%| 23%| 25%| 26%| 28%| 32%| 43%| 43%| 45%| 45%| 47%| 47%|--| 51%| 59%| 61%| 61%| 64%| 65%| 76%| 78%| 79%| 91%| 93%| 95%
-|Ashburn Xtreme 16U AA 2| 11%| 14%| 15%| 22%| 23%| 25%| 26%| 27%| 32%| 42%| 43%| 44%| 44%| 46%| 46%| 49%|--| 58%| 60%| 60%| 63%| 65%| 76%| 78%| 79%| 91%| 92%| 95%
-|The St. James Gold|  8%| 11%| 12%| 17%| 17%| 19%| 20%| 21%| 25%| 35%| 35%| 36%| 36%| 38%| 38%| 41%| 42%|--| 52%| 52%| 55%| 57%| 69%| 72%| 73%| 88%| 90%| 93%
-|NJ Bandits|  8%| 10%| 11%| 16%| 16%| 18%| 19%| 20%| 24%| 33%| 33%| 34%| 35%| 36%| 37%| 39%| 40%| 48%|--| 50%| 53%| 55%| 68%| 70%| 71%| 87%| 89%| 93%
-|Haverford Hawks|  8%| 10%| 11%| 16%| 16%| 18%| 19%| 20%| 24%| 33%| 33%| 34%| 34%| 36%| 36%| 39%| 40%| 48%| 50%|--| 53%| 55%| 67%| 70%| 71%| 87%| 89%| 92%
-|York Devils|  7%|  9%| 10%| 14%| 15%| 16%| 17%| 18%| 21%| 30%| 30%| 32%| 32%| 33%| 34%| 36%| 37%| 45%| 47%| 47%|--| 52%| 65%| 67%| 69%| 85%| 88%| 92%
-|WBS Jr Knights|  6%|  8%|  9%| 13%| 14%| 15%| 16%| 17%| 20%| 29%| 29%| 30%| 30%| 32%| 32%| 35%| 35%| 43%| 45%| 45%| 48%|--| 63%| 66%| 67%| 85%| 87%| 91%
-|Team Philadelphia Orange|  4%|  5%|  5%|  8%|  9%| 10%| 10%| 11%| 13%| 19%| 19%| 20%| 20%| 22%| 22%| 24%| 24%| 31%| 32%| 33%| 35%| 37%|--| 53%| 54%| 76%| 79%| 86%
-|Jersey Shore Wildcats Red|  3%|  4%|  5%|  7%|  8%|  9%|  9%| 10%| 12%| 17%| 17%| 18%| 18%| 20%| 20%| 22%| 22%| 28%| 30%| 30%| 33%| 34%| 47%|--| 51%| 74%| 77%| 84%
-|North Jersey Sportscare Kings Blue|  3%|  4%|  5%|  7%|  7%|  8%|  9%|  9%| 11%| 16%| 17%| 17%| 18%| 19%| 19%| 21%| 21%| 27%| 29%| 29%| 31%| 33%| 46%| 49%|--| 73%| 76%| 83%
-|Jersey Shore Wildcats White|  1%|  2%|  2%|  3%|  3%|  3%|  3%|  4%|  4%|  7%|  7%|  7%|  7%|  8%|  8%|  9%|  9%| 12%| 13%| 13%| 15%| 15%| 24%| 26%| 27%|--| 55%| 65%
-|NJ Stars|  1%|  1%|  1%|  2%|  2%|  3%|  3%|  3%|  4%|  6%|  6%|  6%|  6%|  7%|  7%|  7%|  8%| 10%| 11%| 11%| 12%| 13%| 21%| 23%| 24%| 45%|--| 61%
-|Rockets Hockey Club|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  2%|  2%|  4%|  4%|  4%|  4%|  4%|  4%|  5%|  5%|  7%|  7%|  8%|  8%|  9%| 14%| 16%| 17%| 35%| 39%|--
+|Team Philadelphia Black|--| 64%| 64%| 74%| 74%| 78%| 78%| 80%| 83%| 88%| 88%| 89%| 89%| 90%| 90%| 91%| 91%| 93%| 94%| 94%| 94%| 95%| 97%| 97%| 97%| 99%| 99%| 99%
+|Atlanta MadHatters| 36%|--| 50%| 61%| 61%| 67%| 67%| 69%| 73%| 81%| 81%| 82%| 83%| 83%| 84%| 85%| 86%| 88%| 90%| 90%| 90%| 91%| 94%| 95%| 95%| 98%| 98%| 99%
+|PAL Jr Islanders| 36%| 50%|--| 61%| 61%| 67%| 67%| 69%| 73%| 81%| 81%| 82%| 83%| 83%| 84%| 85%| 86%| 88%| 89%| 90%| 90%| 91%| 94%| 95%| 95%| 98%| 98%| 99%
+|Lehigh Valley Phantoms Black| 26%| 39%| 39%|--| 50%| 56%| 56%| 58%| 63%| 73%| 73%| 75%| 75%| 76%| 77%| 78%| 79%| 83%| 84%| 86%| 86%| 87%| 92%| 92%| 92%| 97%| 97%| 98%
+|Ashburn Xtreme 16U AA 1| 26%| 39%| 39%| 50%|--| 56%| 56%| 58%| 63%| 73%| 73%| 74%| 75%| 75%| 76%| 78%| 79%| 83%| 84%| 86%| 86%| 87%| 91%| 92%| 92%| 97%| 97%| 98%
+|Jersey Shore Wildcats Black| 22%| 33%| 33%| 44%| 44%|--| 50%| 52%| 57%| 68%| 68%| 70%| 70%| 71%| 72%| 73%| 75%| 79%| 81%| 82%| 82%| 84%| 89%| 90%| 91%| 96%| 97%| 98%
+|Long Island Rebels| 22%| 33%| 33%| 44%| 44%| 50%|--| 52%| 57%| 68%| 68%| 70%| 70%| 71%| 72%| 73%| 75%| 79%| 81%| 82%| 82%| 84%| 89%| 90%| 91%| 96%| 97%| 98%
+|MYHA 16U AA Blue| 20%| 31%| 31%| 42%| 42%| 48%| 48%|--| 55%| 66%| 66%| 68%| 69%| 69%| 70%| 72%| 73%| 77%| 80%| 81%| 81%| 83%| 89%| 90%| 90%| 96%| 97%| 98%
+|Igloo Jaguars| 17%| 27%| 27%| 37%| 37%| 43%| 43%| 45%|--| 61%| 61%| 63%| 64%| 64%| 66%| 67%| 69%| 73%| 76%| 78%| 78%| 79%| 86%| 87%| 88%| 95%| 96%| 97%
+|Valley Forge Colonials 16U AA| 12%| 19%| 19%| 27%| 27%| 32%| 32%| 34%| 39%|--| 50%| 52%| 53%| 54%| 55%| 57%| 59%| 64%| 67%| 69%| 69%| 71%| 80%| 82%| 82%| 92%| 94%| 95%
+|Palmyra Black Knights| 12%| 19%| 19%| 27%| 27%| 32%| 32%| 34%| 39%| 50%|--| 52%| 53%| 53%| 55%| 56%| 58%| 64%| 67%| 69%| 69%| 71%| 80%| 81%| 82%| 92%| 93%| 95%
+|Philadelphia Blazers| 11%| 18%| 18%| 25%| 26%| 30%| 30%| 32%| 37%| 48%| 48%|--| 51%| 51%| 53%| 54%| 56%| 62%| 65%| 67%| 67%| 69%| 79%| 80%| 81%| 92%| 93%| 95%
+|Delaware Ducks| 11%| 17%| 17%| 25%| 25%| 30%| 30%| 31%| 36%| 47%| 47%| 49%|--| 50%| 52%| 54%| 56%| 61%| 64%| 66%| 66%| 69%| 78%| 80%| 80%| 91%| 93%| 95%
+|Tomorrow's Ice Selects| 10%| 17%| 17%| 24%| 25%| 29%| 29%| 31%| 36%| 46%| 47%| 49%| 50%|--| 51%| 53%| 55%| 61%| 64%| 66%| 66%| 68%| 78%| 79%| 80%| 91%| 93%| 95%
+|North Jersey Skylands Kings Navy| 10%| 16%| 16%| 23%| 24%| 28%| 28%| 30%| 34%| 45%| 45%| 47%| 48%| 49%|--| 52%| 54%| 59%| 62%| 65%| 65%| 67%| 77%| 78%| 79%| 91%| 92%| 95%
+|Ashburn Xtreme 16U AA 2|  9%| 15%| 15%| 22%| 22%| 27%| 27%| 28%| 33%| 43%| 44%| 46%| 46%| 47%| 48%|--| 52%| 58%| 61%| 63%| 63%| 65%| 76%| 77%| 78%| 90%| 92%| 94%
+|Lehigh Valley Phantoms Orange|  9%| 14%| 14%| 21%| 21%| 25%| 25%| 27%| 31%| 41%| 42%| 44%| 44%| 45%| 46%| 48%|--| 56%| 59%| 61%| 61%| 64%| 74%| 76%| 76%| 89%| 91%| 94%
+|The St. James Gold|  7%| 12%| 12%| 17%| 17%| 21%| 21%| 23%| 27%| 36%| 36%| 38%| 39%| 39%| 41%| 42%| 44%|--| 53%| 56%| 56%| 58%| 69%| 72%| 72%| 87%| 89%| 92%
+|Haverford Hawks|  6%| 10%| 11%| 16%| 16%| 19%| 19%| 20%| 24%| 33%| 33%| 35%| 36%| 36%| 38%| 39%| 41%| 47%|--| 53%| 53%| 55%| 67%| 69%| 69%| 86%| 88%| 91%
+|York Devils|  6%| 10%| 10%| 14%| 14%| 18%| 18%| 19%| 22%| 31%| 31%| 33%| 34%| 34%| 35%| 37%| 39%| 44%| 47%|--| 50%| 52%| 64%| 67%| 67%| 84%| 87%| 90%
+|NJ Bandits|  6%| 10%| 10%| 14%| 14%| 18%| 18%| 19%| 22%| 31%| 31%| 33%| 34%| 34%| 35%| 37%| 39%| 44%| 47%| 50%|--| 52%| 64%| 67%| 67%| 84%| 87%| 90%
+|WBS Jr Knights|  5%|  9%|  9%| 13%| 13%| 16%| 16%| 17%| 21%| 29%| 29%| 31%| 31%| 32%| 33%| 35%| 36%| 42%| 45%| 48%| 48%|--| 62%| 64%| 65%| 83%| 85%| 90%
+|Team Philadelphia Orange|  3%|  6%|  6%|  8%|  9%| 11%| 11%| 11%| 14%| 20%| 20%| 21%| 22%| 22%| 23%| 24%| 26%| 31%| 33%| 36%| 36%| 38%|--| 53%| 53%| 75%| 78%| 84%
+|North Jersey Sportscare Kings Blue|  3%|  5%|  5%|  8%|  8%| 10%| 10%| 10%| 13%| 18%| 19%| 20%| 20%| 21%| 22%| 23%| 24%| 28%| 31%| 33%| 33%| 36%| 47%|--| 51%| 73%| 76%| 83%
+|Jersey Shore Wildcats Red|  3%|  5%|  5%|  8%|  8%|  9%|  9%| 10%| 12%| 18%| 18%| 19%| 20%| 20%| 21%| 22%| 24%| 28%| 31%| 33%| 33%| 35%| 47%| 49%|--| 72%| 76%| 82%
+|Jersey Shore Wildcats White|  1%|  2%|  2%|  3%|  3%|  4%|  4%|  4%|  5%|  8%|  8%|  8%|  9%|  9%|  9%| 10%| 11%| 13%| 14%| 16%| 16%| 17%| 25%| 27%| 28%|--| 55%| 64%
+|NJ Stars|  1%|  2%|  2%|  3%|  3%|  3%|  3%|  3%|  4%|  6%|  7%|  7%|  7%|  7%|  8%|  8%|  9%| 11%| 12%| 13%| 13%| 15%| 22%| 24%| 24%| 45%|--| 59%
+|Rockets Hockey Club|  1%|  1%|  1%|  2%|  2%|  2%|  2%|  2%|  3%|  5%|  5%|  5%|  5%|  5%|  5%|  6%|  6%|  8%|  9%| 10%| 10%| 10%| 16%| 17%| 18%| 36%| 41%|--
 
 ## Generation Details
 
@@ -83,14 +83,12 @@ Generated with command line:
 | :----- | ----: |
 | Start Date | 2022-08-19 |
 | End Date | 2023-02-12 |
-| KRACH Method | BRADLEY_TERRY |
-| SoS Method | AVERAGE |
-| Max Iterations | 10 |
-| Max Ratings Diff | 0.0001 |
+| Max Iterations | 200 |
+| Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
 | Shootout Loss Value | 0.00 |
-| Tie Value | 0.50 |
-| Fake Ties | 0 |
-| Ignore teams |  |
+| Tie Value | 0.85 |
+| Fake Ties | 1 |
+| Ignore teams | __KRACH_FAKE_TEAM__ |
 | Min Games Played | 12 |
 
