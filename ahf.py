@@ -426,6 +426,7 @@ def updateRatings(options, dateCutoff, divisionName, testMode):
 #----------------------------------------------------------------------------
 def writeDivisionIndex(toc):
     with open("results/readme.md", "w") as f:
+        f.write("[<- Back](../readme.md)\n")
         f.write("# KRACH Ratings\n")
         f.write("Click below to see KRACH ratings for each division\n")
         f.write("\n")
