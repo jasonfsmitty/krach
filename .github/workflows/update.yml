@@ -10,7 +10,7 @@ jobs:
         run: |
           ./ahf.py download
           ./ahf.py update
-          git config --global user.name "Jason Smith"
-          git config --global user.email "jasonfsmitty@users.noreply.github.com"
+          git config --global user.name "John Greco"
+          git config --global user.email "jfgreco@users.noreply.github.com"
           git commit -am "Automated ranking update: $(date)"
           git push
