@@ -1,406 +1,588 @@
 #!/usr/bin/env python3
-# General-purpose KRACH ratings calculator, based on:
-#   Bradley-Terry Model: https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model
-#   http://elynah.com/tbrw/tbrw.cgi?krach
-# See readme.md for more details.
 
-import sys
 import logging
+import argparse
+import requests
+import json
+import sys
 import datetime
 import dataclasses
-import math
-import enum
+import itertools
+import copy
+import os.path
+
+import krach
 
 #----------------------------------------------------------------------------
-class ScaleMethod(enum.Enum):
-    NONE   = 1  # No scaling, report raw floating point values.
-    AUTO   = 2  # Repeatedly mutiple all ratings by 10 until all are > 0.
-    FACTOR = 3  # Multiply all ratings by 'scaleFactor'.
-    RANGE  = 4  # Scale ratings logarithically to range [0, scaleFactor].
+# Default settings to mimic THF results
+
+DEFAULT_ITERATIONS     = 200
+DEFAULT_MAX_DIFF       = 0.00001
+DEFAULT_SHOOTOUT_VALUE = 1.0
+DEFAULT_FAKES          = 1
+DEFAULT_TIE_VALUE      = 0.85
+DEFAULT_MIN_GAMES      = 12
+DEFAULT_SCALE_FACTOR   = 10000
 
 #----------------------------------------------------------------------------
-@dataclasses.dataclass
-class Options:
-    # Options to determine when to stop recursing through the KRACH algorithm.
-    maxIterations:     int   = 1000       # max number of loops
-    maxRatingsDiff:    float = 0.00001    # max diff between two runs that is considered "equal"
+SEASON = 1654 # Hard-coded for the 2022-2023 season
 
-    # Options that control how shootout wins/losses and ties are weighted in the ratings
-    shootoutWinValue:  float = 1.00       # loss value is (1.0 - winValue)
-    tieValue:          float = 0.50
+DIVISIONS = {
+    # 10U ------------------------------------------------
+    '10U B' : {
+        'id'     : 9613,
+        'scores' : 'results/10U-B-scores.json',
+        'filter' : 'results/10U-B-filter.txt',
+        'output' : 'results/10U-B-ratings.md',
+    },
+    '10U A Gretzky' : {
+        'id'     : 9614,
+        'scores' : 'results/10U-A-scores.json',
+        'filter' : 'results/10U-A-Gretzky-filter.txt',
+        'output' : 'results/10U-A-Gretzky-ratings.md',
+    },
+    '10U A Lemieux' : {
+        'id'     : 9614,
+        'scores' : 'results/10U-A-scores.json',
+        'filter' : 'results/10U-A-Lemieux-filter.txt',
+        'output' : 'results/10U-A-Lemieux-ratings.md',
+    },
+    '10U AA' : {
+        'id'     : 9612,
+        'scores' : 'results/10U-AA-scores.json',
+        'filter' : 'results/10U-AA-filter.txt',
+        'output' : 'results/10U-AA-ratings.md',
+    },
 
-    # Number of fake ties to add to every teams record; Used to 'regularize' teams with
-    # undefeated records.
-    fakeTies:          int   = 0
+    # 12U ------------------------------------------------
+    '12U B' : {
+        'id'     : 9616,
+        'scores' : 'results/12U-B-scores.json',
+        'filter' : 'results/12U-B-filter.txt',
+        'output' : 'results/12U-B-ratings.md',
+    },
+    '12U A Gretzky' : {
+        'id'     : 9617,
+        'scores' : 'results/12U-A-scores.json',
+        'filter' : 'results/12U-A-Gretzky-filter.txt',
+        'output' : 'results/12U-A-Gretzky-ratings.md',
+    },
+    '12U A Lemieux' : {
+        'id'     : 9617,
+        'scores' : 'results/12U-A-scores.json',
+        'filter' : 'results/12U-A-Lemieux-filter.txt',
+        'output' : 'results/12U-A-Lemieux-ratings.md',
+    },
+    '12U AA' : {
+        'id'     : 9615,
+        'scores' : 'results/12U-AA-scores.json',
+        'filter' : 'results/12U-AA-filter.txt',
+        'output' : 'results/12U-AA-ratings.md',
+    },
 
-    # Explicit list of teams to remove from the final rankings
-    filteredTeams:     list  = dataclasses.field(default_factory=lambda: [])
+    # 13U ------------------------------------------------
+    '13U AA' : {
+        'id'     : 9618,
+        'scores' : 'results/13U-AA-scores.json',
+        'filter' : 'results/13U-AA-filter.txt',
+        'output' : 'results/13U-AA-ratings.md',
+    },
 
-    # Remove any teams from the final rankings that have not played this many games.
-    # A value of 0 will include all teams regardless of games played.
-    minGamesPlayed:    int   = 0
+    # 14U ------------------------------------------------
+    '14U B' : {
+        'id'     : 9620,
+        'scores' : 'results/14U-B-scores.json',
+        'filter' : 'results/14U-B-filter.txt',
+        'output' : 'results/14U-B-ratings.md',
+    },
+    '14U A Gretzky' : {
+        'id'     : 9621,
+        'scores' : 'results/14U-A-scores.json',
+        'filter' : 'results/14U-A-Gretzky-filter.txt',
+        'output' : 'results/14U-A-Gretzky-ratings.md',
+    },
+    '14U A Lemieux' : {
+        'id'     : 9621,
+        'scores' : 'results/14U-A-scores.json',
+        'filter' : 'results/14U-A-Lemieux-filter.txt',
+        'output' : 'results/14U-A-Lemieux-ratings.md',
+    },
+    '14U AA' : {
+        'id'     : 9619,
+        'scores' : 'results/14U-AA-scores.json',
+        'filter' : 'results/14U-AA-filter.txt',
+        'output' : 'results/14U-AA-ratings.md',
+    },
 
-    # The core algorithm generates ratings that are small floats < 1.0.  These
-    # determines how the values are scaled for the final output.
-    scaleMethod:       ScaleMethod = ScaleMethod.AUTO
-    scaleFactor:       int   = 0
+    # 15U -----------------------------------------------
+    '15U AA' : {
+        'id'     : 9622,
+        'scores' : 'results/15U-AA-scores.json',
+        'filter' : 'results/15U-AA-filter.txt',
+        'output' : 'results/15U-AA-ratings.md',
+    },
 
-    def dict(self):
-        return {
-            "Max Iterations"      : "{}".format(self.maxIterations),
-            "Max Ratings Diff"    : "{}".format(self.maxRatingsDiff),
-            "Shootout Win Value"  : "{:3.2f}".format(self.shootoutWinValue),
-            "Shootout Loss Value" : "{:3.2f}".format(1.0 - self.shootoutWinValue),
-            "Tie Value"           : "{:3.2f}".format(self.tieValue),
-            "Fake Ties"           : "{}".format(self.fakeTies),
-            "Ignore teams"        : "{}".format(",".join(self.filteredTeams)),
-            "Min Games Played"    : "{}".format(self.minGamesPlayed),
-        }
+    # 16U -----------------------------------------------
+    '16U A Gretzky' : {
+        'id'     : 9624,
+        'scores' : 'results/16U-A-scores.json',
+        'filter' : 'results/16U-A-Gretzky-filter.txt',
+        'output' : 'results/16U-A-Gretzky-ratings.md',
+    },
+    '16U A Lemieux' : {
+        'id'     : 9624,
+        'scores' : 'results/16U-A-scores.json',
+        'filter' : 'results/16U-A-Lemieux-filter.txt',
+        'output' : 'results/16U-A-Lemieux-ratings.md',
+    },
+    '16U AA' : {
+        'id'     : 9623,
+        'scores' : 'results/16U-AA-scores.json',
+        'filter' : 'results/16U-AA-filter.txt',
+        'output' : 'results/16U-AA-ratings.md',
+    },
 
-    def __str__(self):
-        return '\n'.join([""] + [ "  {:<20} : {}".format(k, v) for k,v in self.dict().items() ])
+    # 18U -----------------------------------------------
+    '18U A' : {
+        'id'     : 9625,
+        'scores' : 'results/18U-A-scores.json',
+        'filter' : 'results/18U-A-filter.txt',
+        'output' : 'results/18U-A-ratings.md',
+    },
+    '18U AA' : {
+        'id'     : 9626,
+        'scores' : 'results/18U-AA-scores.json',
+        'filter' : 'results/18U-AA-filter.txt',
+        'output' : 'results/18U-AA-ratings.md',
+    },
+}
 
 #----------------------------------------------------------------------------
-def removeTeam(ratings, team):
-    if team in ratings:
-        ratings.pop(team)
-
-#----------------------------------------------------------------------------
-def filterTeams(options, ledger, ratings):
-    # use intermediate mapping to allow ignoring case in filtered teams
-    icaseTeams = { name.lower() : name for name in ratings.keys() }
-    # remove teams explicitly called out
-    for team in options.filteredTeams:
-        camelTeam = icaseTeams.get(team.lower(), None)
-        if camelTeam:
-            removeTeam(ratings, camelTeam)
-
-    for name,team in ledger.teams.items():
-        if team.record.played < options.minGamesPlayed:
-            removeTeam(ratings, name)
-
-#----------------------------------------------------------------------------
-def scaleRatings(options, ratings, sosAll):
-    def _scale(factor, rating):
-        return int(factor * rating + 0.5)
-
-    def _scaleAll(factor):
-        for team in ratings:
-            ratings[team] = _scale(factor, ratings[team])
-            sosAll[team]  = _scale(factor, sosAll[team])
-
-    def _scaleNone():
+# Read THF score data into a ledger. This is specific to the JSON format
+# provided by the gamesheetstats.com API. To use this script with a different
+# data source, you would replace this reader with one specific to your context.
+class THFScoreReader:
+    def __init__(self):
         pass
 
-    def _scaleAuto():
-        # brute force search for a scaling factor that will
-        # allow all ratings to be displayed as integers
-        scaleFactor = 1
-        for rating in ratings.values():
-            while rating and _scale(scaleFactor, rating) <= 0:
-                scaleFactor *= 10
-        # Also scale such that the max value has at least 4 digits
-        while len(str(_scale(scaleFactor, max(ratings.values())))) < 4:
-            scaleFactor *= 10
-        logging.debug("Auto-scaling all ratings by {}".format(scaleFactor))
-        _scaleAll(scaleFactor)
+    #----------------------------------------------------------------------------
+    def read(self, filename, ledger):
+        with open(filename) as f:
+            jdata = json.load(f)
+            for game in jdata:
+                self.readGame(ledger, game['game'])
 
-    def _scaleFactor():
-        logging.debug("Hard scaling all ratings by {}".format(options.scaleFactor))
-        _scaleAll(options.scaleFactor)
+    #----------------------------------------------------------------------------
+    def readGame(self, ledger, game):
+        date       = datetime.datetime.strptime(game['date'], "%b %d, %Y").date()
+        team1      = game['homeTeam']['name']
+        team1score = game['finalScore']['homeGoals']
+        team2      = game['visitorTeam']['name']
+        team2score = game['finalScore']['visitorGoals']
+        shootout   = any(map(lambda x: x['title'] == 'SO', game['scoresByPeriod']))
 
-    def _scaleRange():
-        logging.debug("Scaling all ratings to range 0-{}".format(options.scaleFactor))
-        for team in ratings:
-            ratings[team] = int(options.scaleFactor * math.log1p(1000 * ratings[team]) / math.log1p(1000) + 0.5)
-            sosAll[team]  = int(options.scaleFactor * math.log1p(1000 * sosAll[team])  / math.log1p(1000) + 0.5)
+        winner = team1 if team1score > team2score else team2
+        loser  = team2 if team1score > team2score else team1
 
-    methods = {
-        ScaleMethod.NONE   : _scaleNone,
-        ScaleMethod.AUTO   : _scaleAuto,
-        ScaleMethod.FACTOR : _scaleFactor,
-        ScaleMethod.RANGE  : _scaleRange,
-    }
-    method = methods.get(options.scaleMethod, None)
-    if not method:
-        raise RuntimeError("Failed to map scaling method to function")
-    method()
+        if team1score == team2score:
+            ledger.addTie(date, team1, team2)
+        elif shootout:
+            ledger.addShootout(date, winner, loser)
+        else:
+            ledger.addGame(date, winner, loser)
 
 #----------------------------------------------------------------------------
-@dataclasses.dataclass
-class Record:
-    played:   int = 0
-    wins:     int = 0
-    losses:   int = 0
-    soWins:   int = 0
-    soLosses: int = 0
-    ties:     int = 0
+# THF specific: each division gets split into subdivisions, with each
+# competing in their own playoffs.
+SUBDIVISIONS = [
+    'Championship',
+    'Gold',
+    'Silver',
+    'Bronze',
+]
 
-    def __str__(self):
-        return f"{self.wins:>2}-{self.losses:>2}-{self.soWins:>2}-{self.soLosses:>2}-{self.ties:>2}"
+# Only the top 4 teams of each subdivision compete in the playoffs;
+# THe THF KRACH rankings list other teams as being in the lowest
+# subdivision, but this makes it clearer who is in/out of playoff
+# contention.
+NO_SUBDIVISION = ""
 
-    def addWin(self):
-        self.played += 1
-        self.wins += 1
-
-    def addLoss(self):
-        self.played += 1
-        self.losses += 1
-
-    def addShootoutWin(self):
-        self.played += 1
-        self.soWins += 1
-
-    def addShootoutLoss(self):
-        self.played += 1
-        self.soLosses += 1
-
-    def addTie(self):
-        self.played += 1
-        self.ties += 1
-
-    def winPoints(self, options):
-        return self.wins \
-            + (self.soWins   * options.shootoutWinValue) \
-            + (self.soLosses * (1.0 - options.shootoutWinValue)) \
-            + (self.ties     * options.tieValue)
+def subdivision(numTeams, rank):
+    if numTeams <= 10:
+        if rank <=  4: return SUBDIVISIONS[0]
+    elif numTeams >= 11 and numTeams <= 14:
+        if rank <=  4: return SUBDIVISIONS[0]
+        if rank <=  8: return SUBDIVISIONS[1]
+    elif numTeams >= 15 and numTeams <= 26:
+        if rank <=  4: return SUBDIVISIONS[0]
+        if rank <=  8: return SUBDIVISIONS[1]
+        if rank <= 12: return SUBDIVISIONS[2]
+    else:
+        if rank <=  4: return SUBDIVISIONS[0]
+        if rank <=  8: return SUBDIVISIONS[1]
+        if rank <= 12: return SUBDIVISIONS[2]
+        if rank <= 16: return SUBDIVISIONS[3]
+    return NO_SUBDIVISION
 
 #----------------------------------------------------------------------------
-class Team:
-    def __init__(self):
-        self.matchups = dict()
-        self.record = Record()
-
-    def addOpponent(self, opponent):
-        if opponent not in self.matchups:
-            self.matchups[opponent] = Record()
-
-    def addWin(self, opponent):
-        self.record.addWin()
-        self.addOpponent(opponent)
-        self.matchups[opponent].addWin()
-
-    def addLoss(self, opponent):
-        self.record.addLoss()
-        self.addOpponent(opponent)
-        self.matchups[opponent].addLoss()
-
-    def addShootoutWin(self, opponent):
-        self.record.addShootoutWin()
-        self.addOpponent(opponent)
-        self.matchups[opponent].addShootoutWin()
-
-    def addShootoutLoss(self, opponent):
-        self.record.addShootoutLoss()
-        self.addOpponent(opponent)
-        self.matchups[opponent].addShootoutLoss()
-
-    def addTie(self, opponent):
-        self.record.addTie()
-        self.addOpponent(opponent)
-        self.matchups[opponent].addTie()
+def writeMarkdownTable(f, data, keyTitle="Option", valueTitle="Value"):
+    f.write(f"| {keyTitle} | {valueTitle} |\n")
+    f.write(f"| :----- | ----: |\n")
+    for k,v in data.items():
+        f.write(f"| {k} | {v} |\n")
+    f.write(f"\n")
 
 #----------------------------------------------------------------------------
-# Tracks all teams and their game results.
-class Ledger:
-    def __init__(self, dateCutoff):
-        self.dateCutoff = dateCutoff
-        self.teams = dict()
-        self.oldestGame = None
-        self.newestGame = None
+def writeMarkdownRankings(outputFile, options, divisionName, ledger, ratings):
+    with open(outputFile, "w") as f:
+        f.write(f"[<- back to the index](readme.md)\n")
+        f.write(f"# {divisionName} KRACH Rankings\n")
 
-    def isValid(self, date):
-        return date <= self.dateCutoff
+        lines = [
+            ['Rank', 'KRACH', 'Subdivision', 'Team', 'GP',   'W',    'L',    'SOW',  'SOL',  'T',    'SoS', 'Exp Wins', 'Win Diff'],
+            ['---:', '---:',  ':---',        ':---', '---:', '---:', '---:', '---:', '---:', '---:', '---:', '---:', '---:'],
+        ]
+        for line in lines:
+            f.write('|'.join(line))
+            f.write('\n')
 
-    def addGame(self, date, winner, loser):
-        self.addTeam(winner)
-        self.addTeam(loser)
-        if self.isValid(date):
-            self.recordDate(date)
-            self.teams[winner].addWin(loser)
-            self.teams[loser ].addLoss(winner)
+        numTeams = len(ratings)
+        for rank,rating in enumerate(ratings):
+            rank   += 1
+            team   = rating.name
+            value  = rating.value
+            record = ledger.teams[team].record
+            gp     = record.played
+            wins   = record.wins
+            losses = record.losses
+            otw    = record.soWins
+            otl    = record.soLosses
+            ties   = record.ties
+            sos    = rating.sos
+            expW   = "{:.1f}".format(rating.expected)
+            diff   = "{:.1f}".format(rating.diff)
+            columns = [rank, value, subdivision(numTeams, rank), team, gp, wins, losses, otw, otl, ties, sos, expW, diff]
+            f.write('|'.join(map(str, columns)))
+            f.write('\n')
+        f.write('\n')
 
-    def addShootout(self, date, winner, loser):
-        self.addTeam(winner)
-        self.addTeam(loser)
-        if self.isValid(date):
-            self.recordDate(date)
-            self.teams[winner].addShootoutWin(loser)
-            self.teams[loser ].addShootoutLoss(winner)
+        # magnitude
+        totalDiff = sum(abs(x.diff) for x in ratings)
+        avgDiff   = totalDiff / len(ratings)
 
-    def addTie(self, date, team1, team2):
-        self.addTeam(team1)
-        self.addTeam(team2)
-        if self.isValid(date):
-            self.recordDate(date)
-            self.teams[team1].addTie(team2)
-            self.teams[team2].addTie(team1)
+        totalRaw  = sum(x.diff for x in ratings)
+        avgRaw    = totalRaw / len(ratings)
 
-    def addTeam(self, team):
-        if not team in self.teams:
-            self.teams[team] = Team()
+        #-------------------------------------------------------
+        f.write(f"## Actual vs Expected\n")
 
-    def recordDate(self, date):
-        if not self.oldestGame or date < self.oldestGame:
-            self.oldestGame = date
-        if not self.newestGame or date > self.newestGame:
-            self.newestGame = date
+        f.write("Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.\n")
+        f.write("\n")
 
-#----------------------------------------------------------------------------
-@dataclasses.dataclass
-class Rating:
-    name:      str = ""     # Name of the team, used for display and lookup in ledger
-    value:     int   = 100  # KRACH rating value
-    sos:       int   = 100  # strength-of-schedule
-    expected:  float = 0.0  # Predicted number of wins based on KRACH ratings
-    diff:      float = 0.0  # Difference between expected and actual number of wins (absolute)
-    odds:      dict  = dataclasses.field(default_factory=lambda: dict())
+        f.write(f"||Absolute|Raw\n")
+        f.write(f"|---:|---:|---:\n")
+        f.write(f"|Total|{totalDiff:.2f}|{totalRaw:.2f}\n")
+        f.write(f"|Avg|{avgDiff:.2f}|{avgRaw:.2f}\n")
+        f.write(f"\n")
 
-#----------------------------------------------------------------------------
-# Implements the KRACH algorithm.
-class KRACH:
-    def __init__(self, options):
-        self.options = options
+        #-------------------------------------------------------
+        f.write(f"## Predictions\n")
+        f.write(f"Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).\n")
 
-    #----------------------------------------------------------------------------
-    # Execute the KRACH algorithm until the ratings converge, or
-    # we hit our max iteration limit.
-    def run(self, ledger) -> dict[str, float]:
-        # Initial guesses at the krach ratings; doesn't really matter as we'll iterate
-        # until we get to the correct values.
-        ratings = { k : 1.0 for k in ledger.teams.keys() }
+        # headings
+        f.write(f"|".join( ["", ""] + [rating.name for rating in ratings]))
+        f.write(f"\n")
+        f.write(f"| --: " * (len(ratings) + 1))
+        f.write(f"\n")
 
-        loop = 0
-        while (self.options.maxIterations <= 0) or (self.options.maxIterations > 0 and loop < self.options.maxIterations):
-            loop += 1
-            updated = self.calculateAll(ledger, ratings)
-            if self.areRatingsEqual(ratings, updated):
-                logging.debug("Convergence to final results took {} interations".format(loop))
-                return updated
-            ratings = updated
+        for myRating in ratings:
+            def _percentage(opp):
+                if myRating.name == opp.name:
+                    return "--"
+                return "{:>3}%".format(int(myRating.odds[opp.name] * 100.0 + 0.5))
+            f.write(f"|{myRating.name}|")
+            f.write(f"|".join( _percentage(opp) for opp in ratings))
+            f.write(f"\n")
+        f.write(f"\n")
 
-        logging.debug("Failed to reach convergence after {} interations".format(loop))
-        return ratings
+        #-------------------------------------------------------
+        f.write("## Generation Details\n")
+        f.write("\n")
 
-    #----------------------------------------------------------------------------
-    # Calculate new KRACH ratings for all teams
-    def calculateAll(self, ledger, ratings):
-        updated = dict()
-        for name in ledger.teams:
-            updated[name] = self.calculate(ledger, ratings, name)
-        return self.normalize(updated)
+        f.write("Generated with command line:\n")
+        f.write("```\n")
+        f.write(" ".join(sys.argv[:]))
+        f.write("\n```\n")
+        f.write("\n")
 
-    #----------------------------------------------------------------------------
-    # Calculates an updated rating for a single team, using:
-    #   Ki = Vi / ( ∑j Nij / (Ki + Kj) )
-    def calculate(self, ledger, ratings, i):
-        return ledger.teams[i].record.winPoints(self.options) / self.calculateMatchupFactor(ledger, ratings, i)
-
-    #----------------------------------------------------------------------------
-    # Calculate: ∑j (Wij + Wji) / (Ki + Kj)
-    # Different sources have the numerator as Nij versus (Wij + Wji). For most
-    # scenarios every game is worth 1.0 points total, making the two forms identical.
-    # But the AHF assigns 0.85 win points for their 'regularization' tie games,
-    # breaking the equivalance.
-    def calculateMatchupFactor(self, ledger, ratings, i):
-        myTeam = ledger.teams[i]
-        sumOfMatchups = 0.0
-        # iterate across all teams we've played
-        for j in myTeam.matchups:
-            wij = myTeam.matchups[j].winPoints(self.options)
-            wji = ledger.teams[j].matchups[i].winPoints(self.options)
-            sumOfMatchups += (wij + wji) / (ratings[i] + ratings[j])
-        return sumOfMatchups
-
-    #----------------------------------------------------------------------------
-    def strengthOfScheduleAll(self, ledger, ratings):
-        return { team : self.strengthOfSchedule(ledger, ratings, team) for team in ledger.teams }
-
-    #----------------------------------------------------------------------------
-    def strengthOfSchedule(self, ledger, ratings, myTeam):
-        total = 0.0
-        for oppTeam in ledger.teams[myTeam].matchups:
-            total += ledger.teams[myTeam].matchups[oppTeam].played * ratings[oppTeam]
-        return total / ledger.teams[myTeam].record.played
-
-    #----------------------------------------------------------------------------
-    def normalize(self, ratings):
-        total = sum(ratings.values())
-        return { name : value / total for name,value in ratings.items() }
-
-    #----------------------------------------------------------------------------
-    def areRatingsEqual(self, original, updated):
-        return sum(abs(original[team] - updated[team]) for team in original) < self.options.maxRatingsDiff
-
-    #----------------------------------------------------------------------------
-    def expectedWinsAll(self, ledger, ratings):
-        return { team : self.expectedWins(ledger, ratings, team) for team in ledger.teams }
-
-    #----------------------------------------------------------------------------
-    # Validate KRACH ratings by calculating the expected wins using:
-    #    Vi = ∑j Nij*Ki/(Ki+Kj)
-    def expectedWins(self, ledger, ratings, myTeam):
-        return ratings[myTeam] * self.calculateMatchupFactor(ledger, ratings, myTeam)
-
-    #----------------------------------------------------------------------------
-    def calculateOdds(self, ratings):
-        return { team : self.calculateTeamOdds(team, ratings) for team in ratings }
-
-    #----------------------------------------------------------------------------
-    def calculateTeamOdds(self, team, ratings):
-        def _calcOdds(rating1, rating2):
-            try:
-                return (rating1 / (rating1 + rating2))
-            except:
-                return float("NaN")
-
-        myRating = ratings[team]
-        return { oppTeam : _calcOdds(myRating, oppRating) for oppTeam,oppRating in ratings.items() }
+        data = {
+            "Start Date" : f"{ledger.oldestGame}",
+            "End Date"   : f"{ledger.newestGame}",
+        }
+        data.update(options.dict())
+        writeMarkdownTable(f, data)
 
 #----------------------------------------------------------------------------
-def addFakeTies(options, ledger):
-    fakeTeam = "__KRACH_FAKE_TEAM__"
+def showRankings(divisionName, ledger, ratings):
+    dividor = "-" * 115
+    print(f"Division: {divisionName}")
+    print(f"Rank KRACH   Subdivision     Team                                     GP  WW-LL-SW-SL-TT    SoS | Predict Diff")
+    print(dividor)
 
-    for _ in range(options.fakeTies):
-        if not fakeTeam in options.filteredTeams:
-            options.filteredTeams.append(fakeTeam)
-
-        ledger.addTeam(fakeTeam)
-        for realTeam in ledger.teams:
-            if realTeam != fakeTeam:
-                ledger.addTie(ledger.oldestGame, fakeTeam, realTeam)
+    diffTotal = 0.0
+    rawTotal = 0.0
+    numTeams = len(ratings)
+    for rank,rating in enumerate(ratings):
+        rank   += 1
+        subdiv = subdivision(numTeams, rank)
+        team   = rating.name
+        value  = rating.value
+        gp     = ledger.teams[team].record.played
+        record = str(ledger.teams[team].record)
+        sos    = rating.sos
+        exp    = rating.expected
+        diff   = rating.diff
+        print(f"{rank:>3} {value:>6} : {subdiv:<13} : {team:<40} {gp:>2}  {record} {sos:>6} | {exp:>5.1f} {diff:>5.1f}")
+        rawTotal  += diff
+        diffTotal += abs(diff)
+    print("")
+    diffAvg = diffTotal / numTeams
+    rawAvg = rawTotal / numTeams
+    print(f"Differences between expected and actual wins:")
+    print(f"          ABS    RAW")
+    print(f"  Total: {diffTotal:5.2f} {rawTotal:>5.2f}")
+    print(f"  Avg  : {diffAvg:5.2f} {rawAvg:>5.2f}")
+    print(f"")
 
 #----------------------------------------------------------------------------
-def generate(options, ledger):
+def buildUrl(season, divisionId):
+    baseURL="https://gamesheetstats.com/api/useScoredGames/getSeasonScores"
+    return "{}/{}?filter[divisions]={}&filter=[gametype]=overall&filter[limit]=0".format(baseURL, season, divisionId)
 
-    addFakeTies(options, ledger)
-    krach = KRACH(options)
-    ratings = krach.run(ledger)
+#------------------------------------------------------------------------------
+def getDivisionScores(season, divisionName, divisionId):
+    url = buildUrl(season, divisionId)
+    logging.debug("GET: {}".format(url))
+    response = requests.get(url)
+    if response.status_code != 200:
+        logging.error("Failed to query '{}' for season={} division={}: status={}".format(url, season, divisionId, response.status_code))
+        logging.error("Response = {}".format(str(response)))
+        raise RuntimeError("Failed to get scores")
+    return response.json()
 
-    # Calculate final strength of schedules
-    sosAll = krach.strengthOfScheduleAll(ledger, ratings)
+#----------------------------------------------------------------------------
+def downloadScores(divisionName):
+    logging.info("Getting scores for division '{}'".format(divisionName))
 
-    # Validate ratings by converting back to expected number of wins
-    expectedWins = krach.expectedWinsAll(ledger, ratings)
+    info = DIVISIONS.get(divisionName, None)
+    if not info:
+        logging.error("Unknown division '%s'", divisionName)
+        sys.exit(1)
 
-    # Done calculations; remove any filtered teams
-    filterTeams(options, ledger, ratings)
+    scores = getDivisionScores(SEASON, divisionName, info['id'])
+    with open(info['scores'], "w") as f:
+        json.dump(scores, f)
+    
+#----------------------------------------------------------------------------
+def downloadCommand(args):
+    logging.info("Downloading scores ...")
+    divisions = [args.div] if args.div else DIVISIONS
+    for d in divisions:
+        downloadScores(d)
 
-    odds = krach.calculateOdds(ratings)
+#----------------------------------------------------------------------------
+def loadInputs(dateCutoff, inputFile):
+    ledger = krach.Ledger(dateCutoff)
+    reader = THFScoreReader()
+    reader.read(inputFile, ledger)
+    return ledger
 
-    # Scaling will lose precision, so do the sorting now with most precise values.
-    rankings = [ x[0] for x in sorted(ratings.items(), key=lambda kv: kv[1], reverse = True)]
+#----------------------------------------------------------------------------
+def updateRatings(options, dateCutoff, divisionName, testMode):
+    info = DIVISIONS.get(divisionName, None)
+    if not info:
+        logging.error("Unknown division '%s'", divisionName)
+        sys.exit(1)
 
-    # scale up so all values are integers
-    scaleRatings(options, ratings, sosAll)
+    filterFile = info['filter']
+    if os.path.exists(filterFile):
+        options.filteredTeams = [ line.strip() for line in open(info['filter']) ]
+    else:
+        options.filteredTeams = []
 
-    # And finally, build a list of Rating() objects for easy consumption by caller
-    def _rating(name, value):
-        # difference between number of expected wins and actual wins
-        # negative differerence indicates the KRACH rating is too low, likewise a
-        # positive difference indicates rating is too high.
-        diff = expectedWins[name] - ledger.teams[name].record.winPoints(options)
-        return Rating(name, value, sosAll[name], expectedWins[name], diff, odds[name])
+    ledger = loadInputs(dateCutoff, info['scores'])
+    ratings = krach.generate(options, ledger)
 
-    return [ _rating(name, ratings[name]) for name in rankings ]
+    # Always show on the console
+    showRankings(divisionName, ledger, ratings)
+
+    # optionally write to markdown file
+    if not testMode:
+        writeMarkdownRankings(info['output'], options, divisionName, ledger, ratings)
+
+    # (divisionName, startDate, endDate, .md path)
+    return (divisionName, ledger.oldestGame, ledger.newestGame, info['output'])
+
+#----------------------------------------------------------------------------
+def writeDivisionIndex(toc):
+    with open("results/readme.md", "w") as f:
+        f.write("[<- Back](../readme.md)\n")
+        f.write("# KRACH Ratings\n")
+        f.write("Click below to see KRACH ratings for each division\n")
+        f.write("\n")
+        f.write("| Division | Season Start | Latest Game |\n")
+        f.write("| :-- | :-- | :-- |\n")
+
+        for entry in toc:
+            f.write("| [{}]({}) | {} | {} |\n".format(entry[0], os.path.basename(entry[3]), entry[1], entry[2]))
+        f.write("\n")
+        f.write("Generated on {}.\n".format(datetime.datetime.now()))
+
+#----------------------------------------------------------------------------
+def updateCommand(args):
+    options = krach.Options()
+
+    options.maxIterations     = args.iterations
+    options.maxRatingsDiff    = args.diff
+    options.shootoutWinValue  = args.shootout_win
+    options.tieValue          = args.tie
+    options.fakeTies          = args.fakes
+    options.minGamesPlayed    = args.min_games
+    options.scaleMethod       = krach.ScaleMethod[args.scale.upper()]
+    options.scaleFactor       = args.factor
+
+    divisions = [args.div] if args.div else DIVISIONS
+    toc = []
+    for divisionName in divisions:
+        toc.append(updateRatings(options, args.cutoff, divisionName, args.test))
+
+    if not args.test:
+        writeDivisionIndex(toc)
+
+#----------------------------------------------------------------------------
+def listTeams(divisionName):
+    info = DIVISIONS.get(divisionName, None)
+    if not info:
+        logging.error("Unknown division '%s'", divisionName)
+        sys.exit(1)
+
+    filterFile = info['filter']
+    if os.path.exists(filterFile):
+        filteredTeams = set(line.strip().lower() for line in open(info['filter']))
+    else:
+        filteredTeams = set()
+
+    ledger = loadInputs(datetime.date.today(), info['scores'])
+    teamNames = sorted(list(team for team in ledger.teams if team.lower() not in filteredTeams))
+
+    for name in teamNames:
+        print("{}".format(name))
+    
+#----------------------------------------------------------------------------
+def teamsCommand(args):
+    divisions = [args.div] if args.div else DIVISIONS
+    for divisionName in divisions:
+        listTeams(divisionName)
+
+#----------------------------------------------------------------------------
+def parseCommandLine():
+    options = krach.Options()
+    parser = argparse.ArgumentParser()
+    subparsers = parser.add_subparsers(title="Commands")
+
+    parser.add_argument("--debug",
+        action  = 'store_true',
+        default = False,
+        help    = "Enable extra debug logging")
+
+    #----------------------------------------------------------
+    # Download scores for all/single divisions
+
+    download = subparsers.add_parser('download', help="Download latest scores")
+    download.set_defaults(func=downloadCommand)
+
+    download.add_argument('-d', '--div', help="Single division to update")
+
+    #----------------------------------------------------------
+    # Refresh ratings for all/single divisions
+
+    update = subparsers.add_parser('update', help="Update krach ratings")
+    update.set_defaults(func=updateCommand)
+
+    update.add_argument('-d', '--div', help="Single division to update")
+
+    update.add_argument("-i", "--iterations",
+        type    = int,
+        default = DEFAULT_ITERATIONS,
+        help    = "Max iterations of the KRACH algorithm, or 0 for infinite")
+
+    update.add_argument("--diff",
+        type    = float,
+        default = DEFAULT_MAX_DIFF,
+        help    = "Treat two iterations 'equal' if difference between them is less than this value")
+
+    update.add_argument("-w", "--shootout-win",
+        type    = float,
+        default = DEFAULT_SHOOTOUT_VALUE,
+        help    = "Value of winning a game in overtime/shootout [0.0-1.0]")
+
+    update.add_argument("-t", "--tie",
+        type    = float,
+        default = DEFAULT_TIE_VALUE,
+        help    = "Value given to both teams for a tie")
+
+    update.add_argument("--fakes",
+        type    = int,
+        default = DEFAULT_FAKES,
+        help    = "Number of fake tie games given to each team")
+
+    update.add_argument("--scale",
+        metavar = "<method>",
+        choices = ["none", "auto", "factor", "range"],
+        default = "factor",
+        help    = "Method used to scale ratings for final rankings")
+
+    update.add_argument("--factor",
+        type    = int,
+        default = DEFAULT_SCALE_FACTOR,
+        help    = "Scaling factor used by the scaling method.")
+
+    update.add_argument("-m", "--min-games",
+        type    = int,
+        default = DEFAULT_MIN_GAMES,
+        help    = "Filter teams from final standings that have less than this many games played")
+
+    update.add_argument("--cutoff",
+        type    = datetime.date.fromisoformat,
+        default = datetime.date.today(),
+        help    = "Cutoff date; games played after this date will be ignored")
+
+    update.add_argument("--test",
+        action  = "store_true",
+        default = False,
+        help    = "Write to console only.")
+
+    #----------------------------------------------------------
+    teams = subparsers.add_parser('teams', help="List the teams per division")
+    teams.set_defaults(func=teamsCommand)
+
+    teams.add_argument('-d', '--div', help="Single division to update")
+
+    #----------------------------------------------------------
+    args = parser.parse_args()
+
+    if args.debug:
+        logging.getLogger().setLevel(logging.DEBUG)
+
+    if not hasattr(args, 'func'):
+        parser.print_help()
+        sys.exit(1)
+
+    return args
+
+#----------------------------------------------------------------------------
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+    args = parseCommandLine()
+    args.func(args)
 
