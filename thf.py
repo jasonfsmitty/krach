@@ -25,135 +25,15 @@ DEFAULT_MIN_GAMES      = 12
 DEFAULT_SCALE_FACTOR   = 10000
 
 #----------------------------------------------------------------------------
-SEASON = 1654 # Hard-coded for the 2022-2023 season
+SEASON = 1684 # Hard-coded for the 2022-2023 season
 
 DIVISIONS = {
     # 10U ------------------------------------------------
-    '10U B' : {
-        'id'     : 9613,
-        'scores' : 'results/10U-B-scores.json',
-        'filter' : 'results/10U-B-filter.txt',
-        'output' : 'results/10U-B-ratings.md',
-    },
-    '10U A Gretzky' : {
-        'id'     : 9614,
-        'scores' : 'results/10U-A-scores.json',
-        'filter' : 'results/10U-A-Gretzky-filter.txt',
-        'output' : 'results/10U-A-Gretzky-ratings.md',
-    },
-    '10U A Lemieux' : {
-        'id'     : 9614,
-        'scores' : 'results/10U-A-scores.json',
-        'filter' : 'results/10U-A-Lemieux-filter.txt',
-        'output' : 'results/10U-A-Lemieux-ratings.md',
-    },
-    '10U AA' : {
-        'id'     : 9612,
-        'scores' : 'results/10U-AA-scores.json',
-        'filter' : 'results/10U-AA-filter.txt',
-        'output' : 'results/10U-AA-ratings.md',
-    },
-
-    # 12U ------------------------------------------------
-    '12U B' : {
-        'id'     : 9616,
-        'scores' : 'results/12U-B-scores.json',
-        'filter' : 'results/12U-B-filter.txt',
-        'output' : 'results/12U-B-ratings.md',
-    },
-    '12U A Gretzky' : {
-        'id'     : 9617,
-        'scores' : 'results/12U-A-scores.json',
-        'filter' : 'results/12U-A-Gretzky-filter.txt',
-        'output' : 'results/12U-A-Gretzky-ratings.md',
-    },
-    '12U A Lemieux' : {
-        'id'     : 9617,
-        'scores' : 'results/12U-A-scores.json',
-        'filter' : 'results/12U-A-Lemieux-filter.txt',
-        'output' : 'results/12U-A-Lemieux-ratings.md',
-    },
-    '12U AA' : {
-        'id'     : 9615,
-        'scores' : 'results/12U-AA-scores.json',
-        'filter' : 'results/12U-AA-filter.txt',
-        'output' : 'results/12U-AA-ratings.md',
-    },
-
-    # 13U ------------------------------------------------
-    '13U AA' : {
-        'id'     : 9618,
-        'scores' : 'results/13U-AA-scores.json',
-        'filter' : 'results/13U-AA-filter.txt',
-        'output' : 'results/13U-AA-ratings.md',
-    },
-
-    # 14U ------------------------------------------------
-    '14U B' : {
-        'id'     : 9620,
-        'scores' : 'results/14U-B-scores.json',
-        'filter' : 'results/14U-B-filter.txt',
-        'output' : 'results/14U-B-ratings.md',
-    },
-    '14U A Gretzky' : {
-        'id'     : 9621,
-        'scores' : 'results/14U-A-scores.json',
-        'filter' : 'results/14U-A-Gretzky-filter.txt',
-        'output' : 'results/14U-A-Gretzky-ratings.md',
-    },
-    '14U A Lemieux' : {
-        'id'     : 9621,
-        'scores' : 'results/14U-A-scores.json',
-        'filter' : 'results/14U-A-Lemieux-filter.txt',
-        'output' : 'results/14U-A-Lemieux-ratings.md',
-    },
-    '14U AA' : {
-        'id'     : 9619,
-        'scores' : 'results/14U-AA-scores.json',
-        'filter' : 'results/14U-AA-filter.txt',
-        'output' : 'results/14U-AA-ratings.md',
-    },
-
-    # 15U -----------------------------------------------
-    '15U AA' : {
-        'id'     : 9622,
-        'scores' : 'results/15U-AA-scores.json',
-        'filter' : 'results/15U-AA-filter.txt',
-        'output' : 'results/15U-AA-ratings.md',
-    },
-
-    # 16U -----------------------------------------------
-    '16U A Gretzky' : {
-        'id'     : 9624,
-        'scores' : 'results/16U-A-scores.json',
-        'filter' : 'results/16U-A-Gretzky-filter.txt',
-        'output' : 'results/16U-A-Gretzky-ratings.md',
-    },
-    '16U A Lemieux' : {
-        'id'     : 9624,
-        'scores' : 'results/16U-A-scores.json',
-        'filter' : 'results/16U-A-Lemieux-filter.txt',
-        'output' : 'results/16U-A-Lemieux-ratings.md',
-    },
-    '16U AA' : {
-        'id'     : 9623,
-        'scores' : 'results/16U-AA-scores.json',
-        'filter' : 'results/16U-AA-filter.txt',
-        'output' : 'results/16U-AA-ratings.md',
-    },
-
-    # 18U -----------------------------------------------
-    '18U A' : {
-        'id'     : 9625,
-        'scores' : 'results/18U-A-scores.json',
-        'filter' : 'results/18U-A-filter.txt',
-        'output' : 'results/18U-A-ratings.md',
-    },
-    '18U AA' : {
-        'id'     : 9626,
-        'scores' : 'results/18U-AA-scores.json',
-        'filter' : 'results/18U-AA-filter.txt',
-        'output' : 'results/18U-AA-ratings.md',
+    'USPHL North 15 Pure' : {
+        'id'     : 12782,
+        'scores' : 'results/USPHL-North-15-Pure-scores.json',
+        'filter' : 'results/USPHL-North-15-Pure-filter.txt',
+        'output' : 'results/USPHL-North-15-Pure-ratings.md',
     },
 }
 
@@ -195,10 +75,8 @@ class THFScoreReader:
 # THF specific: each division gets split into subdivisions, with each
 # competing in their own playoffs.
 SUBDIVISIONS = [
-    'Championship',
-    'Gold',
-    'Silver',
-    'Bronze',
+    'Super 6',
+    'Frozen 4',
 ]
 
 # Only the top 4 teams of each subdivision compete in the playoffs;
@@ -208,20 +86,11 @@ SUBDIVISIONS = [
 NO_SUBDIVISION = ""
 
 def subdivision(numTeams, rank):
-    if numTeams <= 10:
-        if rank <=  4: return SUBDIVISIONS[0]
-    elif numTeams >= 11 and numTeams <= 14:
-        if rank <=  4: return SUBDIVISIONS[0]
-        if rank <=  8: return SUBDIVISIONS[1]
-    elif numTeams >= 15 and numTeams <= 26:
-        if rank <=  4: return SUBDIVISIONS[0]
-        if rank <=  8: return SUBDIVISIONS[1]
-        if rank <= 12: return SUBDIVISIONS[2]
-    else:
-        if rank <=  4: return SUBDIVISIONS[0]
-        if rank <=  8: return SUBDIVISIONS[1]
-        if rank <= 12: return SUBDIVISIONS[2]
-        if rank <= 16: return SUBDIVISIONS[3]
+    if numTeams <= 9:
+        if rank <=  4: return SUBDIVISIONS[1]
+    elif numTeams >= 11:
+        if rank <=  6: return SUBDIVISIONS[0]
+        if rank >=  7: return SUBDIVISIONS[1]
     return NO_SUBDIVISION
 
 #----------------------------------------------------------------------------
