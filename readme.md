@@ -9,7 +9,7 @@ For information on KRACH itself, see the [KRACH Overview](docs/krach.md).
 For information on the AHFs usage of KRACH, see the [AHF Overview](docs/ahf.md).
 
 ## Quick Start
-
+Running for the AHF
 ```
 # Download latest scores for all AHF divisions
 ./ahf.py download
@@ -20,7 +20,7 @@ For information on the AHFs usage of KRACH, see the [AHF Overview](docs/ahf.md).
 # Alternatively, generate KRACH ratings for single division:
 ./ahf.py update -d "<division>"
 ```
-
+Running for the THF
 ```
 # Download latest scores for all AHF divisions
 ./thf.py download
