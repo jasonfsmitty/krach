@@ -1,6 +1,6 @@
 # AHF & THF KRACH Calculator
 
-This tool was written to reproduce the KRACH rankings as provided by the [AHF (Atlantic Hockey Federation)](https://atlantichockeyfederation.com/) and the [THF (Tier 1 Hockey Federation)](https://atlantichockeyfederation.com/).
+This tool was written to reproduce the KRACH rankings as provided by the [AHF (Atlantic Hockey Federation)](https://atlantichockeyfederation.com/) and the [THF (Tier 1 Hockey Federation)](https://tier1hockeyfederation.com/).
 
 **[Current AHF Rankings are available here.](results/readme.md)**
 
@@ -21,10 +21,22 @@ For information on the AHFs usage of KRACH, see the [AHF Overview](docs/ahf.md).
 ./ahf.py update -d "<division>"
 ```
 
+```
+# Download latest scores for all AHF divisions
+./thf.py download
+
+# Generate all KRACH ratings, using AHF-specific settings:
+./thf.py update
+
+# Alternatively, generate KRACH ratings for single division:
+./thf.py update -d "<division>"
+```
+
 ## References
 
 Collection of references found while working on this tool:
 * [Atlantic Hockey Federation](https://atlantichockeyfederation.com/)
+* [Tier 1 Hockey Federation](https://tier1hockeyfederation.com/)
 * [GameSheet Stats for AHF](https://gamesheetstats.com/seasons/1654/scores) - Basic UI to the underlying AHF score data; use browser developer mode to find REST API calls for reading divisions/scores.
 * [Wikipedia page on Bradley-Terry Model](https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model)
 * https://www.mscs.dal.ca/~butler/krachexp.htm - Original KRACH website by the Ken Butler; no longer online, but many other sources still refer back to it. [Wayback link](https://web.archive.org/web/20100217160456/http://www.mscs.dal.ca/~butler/krachexp.htm).
