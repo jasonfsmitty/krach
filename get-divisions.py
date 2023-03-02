@@ -14,7 +14,7 @@ def buildUrl(season, divisionId):
 
 #------------------------------------------------------------------------------
 def ignoreDivision(name):
-    return name.startswith('Mite') or any(map(lambda x: name.find(x) != -1, ['Guest', 'Gold', 'Silver', 'Bronze']))
+    return name.startswith('Mite') or any(map(lambda x: name.find(x) != -1, ['Guest', 'Gold', 'Silver', 'Bronze', 'Super 6', 'Frozen 4']))
 
 #------------------------------------------------------------------------------
 def getDivisions(season):
@@ -33,6 +33,7 @@ if __name__ == "__main__":
     names = sorted(divisions.keys())
     print("DIVISIONS = {")
     for name in names:
+        name = name.replace(' - ', ' ')
         scoreName = name
         if any(map(lambda x: name.find(x) != -1, ['Gretzky', 'Lemieux'])):
             tokens = name.split(' ')

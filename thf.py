@@ -31,9 +31,99 @@ DIVISIONS = {
     # 10U ------------------------------------------------
     'USPHL North 15 Pure' : {
         'id'     : 12782,
-        'scores' : 'results/USPHL-North-15-Pure-scores.json',
-        'filter' : 'results/USPHL-North-15-Pure-filter.txt',
-        'output' : 'results/USPHL-North-15-Pure-ratings.md',
+        'scores' : 'results/thf/USPHL-North-15-Pure-scores.json',
+        'filter' : 'results/thf/USPHL-North-15-Pure-filter.txt',
+        'output' : 'results/thf/USPHL-North-15-Pure-ratings.md',
+    },
+    'USPHL North 16U National' : {
+        'id'     : 12885,
+        'scores' : 'results/thf/USPHL-North-16U-National-scores.json',
+        'filter' : 'results/thf/USPHL-North-16U-National-filter.txt',
+        'output' : 'results/thf/USPHL-North-16U-National-ratings.md',
+    },
+    'USPHL North 18U National' : {
+        'id'     : 12886,
+        'scores' : 'results/thf/USPHL-North-18U-National-scores.json',
+        'filter' : 'results/thf/USPHL-North-18U-National-filter.txt',
+        'output' : 'results/thf/USPHL-North-18U-National-ratings.md',
+    },
+    'THF West 14U Major' : {
+        'id'     : 11733,
+        'scores' : 'results/thf/THF-West-14U-Major-scores.json',
+        'filter' : 'results/thf/THF-West-14U-Major-filter.txt',
+        'output' : 'results/thf/THF-West-14U-Major-ratings.md',
+    },
+     'THF West 15 Pure' : {
+        'id'     : 11734,
+        'scores' : 'results/thf/THF-West-15-Pure-scores.json',
+        'filter' : 'results/thf/THF-West-15-Pure-filter.txt',
+        'output' : 'results/thf/THF-West-15-Pure-ratings.md',
+    },
+    'THF West 16U' : {
+        'id'     : 11735,
+        'scores' : 'results/thf/THF-West-16U-scores.json',
+        'filter' : 'results/thf/THF-West-16U-filter.txt',
+        'output' : 'results/thf/THF-West-16U-ratings.md',
+    },
+    'THF West 18U' : {
+        'id'     : 11736,
+        'scores' : 'results/thf/THF-West-18U-scores.json',
+        'filter' : 'results/thf/THF-West-18U-filter.txt',
+        'output' : 'results/thf/THF-West-18U-ratings.md',
+    },
+    'THF South 10U Major' : {
+        'id'     : 9809,
+        'scores' : 'results/thf/THF-South-10U-Major-scores.json',
+        'filter' : 'results/thf/THF-South-10U-Major-filter.txt',
+        'output' : 'results/thf/THF-South-10U-Major-ratings.md',
+    },
+    'THF South 10U Minor' : {
+        'id'     : 9810,
+        'scores' : 'results/thf/THF-South-10U-Minor-scores.json',
+        'filter' : 'results/thf/THF-South-10U-Minor-filter.txt',
+        'output' : 'results/thf/THF-South-10U-Minor-ratings.md',
+    },
+    'THF South 12U Major' : {
+        'id'     : 9811,
+        'scores' : 'results/thf/THF-South-12U-Major-scores.json',
+        'filter' : 'results/thf/THF-South-12U-Major-filter.txt',
+        'output' : 'results/thf/THF-South-12U-Major-ratings.md',
+    },
+    'THF South 12U Minor' : {
+        'id'     : 9812,
+        'scores' : 'results/thf/THF-South-12U-Minor-scores.json',
+        'filter' : 'results/thf/THF-South-12U-Minor-filter.txt',
+        'output' : 'results/thf/THF-South-12U-Minor-ratings.md',
+    },
+    'THF South 14U Major' : {
+        'id'     : 9813,
+        'scores' : 'results/thf/THF-South-14U-Major-scores.json',
+        'filter' : 'results/thf/THF-South-14U-Major-filter.txt',
+        'output' : 'results/thf/THF-South-14U-Major-ratings.md',
+    },
+    'THF South 14U Minor' : {
+        'id'     : 9814,
+        'scores' : 'results/thf/THF-South-14U-Minor-scores.json',
+        'filter' : 'results/thf/THF-South-14U-Minor-filter.txt',
+        'output' : 'results/thf/THF-South-14U-Minor-ratings.md',
+    },
+    'THF South 15 Pure' : {
+        'id'     : 9815,
+        'scores' : 'results/thf/THF-South-15-Pure-scores.json',
+        'filter' : 'results/thf/THF-South-15-Pure-filter.txt',
+        'output' : 'results/thf/THF-South-15-Pure-ratings.md',
+    },
+     'THF South 16U' : {
+        'id'     : 11735,
+        'scores' : 'results/thf/THF-South-16U-scores.json',
+        'filter' : 'results/thf/THF-South-16U-filter.txt',
+        'output' : 'results/thf/THF-South-16U-ratings.md',
+    },
+    'THF South 18U' : {
+        'id'     : 11736,
+        'scores' : 'results/thf/THF-South-18U-scores.json',
+        'filter' : 'results/thf/THF-South-18U-filter.txt',
+        'output' : 'results/thf/THF-South-18U-ratings.md',
     },
 }
 
@@ -90,7 +180,8 @@ def subdivision(numTeams, rank):
         if rank <=  4: return SUBDIVISIONS[1]
     elif numTeams >= 11:
         if rank <=  6: return SUBDIVISIONS[0]
-        if rank >=  7: return SUBDIVISIONS[1]
+        if rank >=  7 and rank <= 10: return SUBDIVISIONS[1]
+        if rank > 10: return NO_SUBDIVISION
     return NO_SUBDIVISION
 
 #----------------------------------------------------------------------------
@@ -294,7 +385,7 @@ def updateRatings(options, dateCutoff, divisionName, testMode):
 
 #----------------------------------------------------------------------------
 def writeDivisionIndex(toc):
-    with open("results/readme.md", "w") as f:
+    with open("results/thf/readme.md", "w") as f:
         f.write("[<- Back](../readme.md)\n")
         f.write("# KRACH Ratings\n")
         f.write("Click below to see KRACH ratings for each division\n")
