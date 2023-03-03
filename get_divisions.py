@@ -36,7 +36,7 @@ def getDivisions(season):
 def populateDivisionsDictionary(season, league=League.THF):
 	returnDivisions = {}
 	divisions = getDivisions(season)
-
+        
 	if league == League.THF:
 		subfolder = 'thf'
 	elif league == League.AHF:
@@ -52,9 +52,8 @@ def populateDivisionsDictionary(season, league=League.THF):
 		returnDivision['filter'] = 'results/{}/{}-filter.txt'.format(subfolder, divisionName)
 		returnDivision['output'] = 'results/{}/{}-ratings.txt'.format(subfolder, divisionName)
 		returnDivisions[division] = returnDivision
-        
+	
 	return returnDivisions
-
 
 #------------------------------------------------------------------------------
 if __name__ == "__main__":
