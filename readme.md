@@ -1,4 +1,4 @@
-# AHF & THF KRACH Calculator
+# AHF, AGHF & THF KRACH Calculators
 
 This tool was written to reproduce the KRACH rankings as provided by the [AHF (Atlantic Hockey Federation)](https://atlantichockeyfederation.com/) and the [THF (Tier 1 Hockey Federation)](https://tier1hockeyfederation.com/).
 
