@@ -20,6 +20,17 @@ Running for the AHF
 # Alternatively, generate KRACH ratings for single division:
 ./ahf.py update -d "<division>"
 ```
+Running for the AGHF
+```
+# Download latest scores for all AHF divisions
+./aghf.py download
+
+# Generate all KRACH ratings, using AHF-specific settings:
+./aghf.py update
+
+# Alternatively, generate KRACH ratings for single division:
+./aghf.py update -d "<division>"
+```
 Running for the THF
 ```
 # Download latest scores for all AHF divisions
