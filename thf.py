@@ -12,6 +12,7 @@ import copy
 import os.path
 
 import krach
+import get_divisions
 
 #----------------------------------------------------------------------------
 # Default settings to mimic THF results
@@ -27,105 +28,7 @@ DEFAULT_SCALE_FACTOR   = 10000
 #----------------------------------------------------------------------------
 SEASON = 1684 # Hard-coded for the 2022-2023 season
 
-DIVISIONS = {
-    # 10U ------------------------------------------------
-    'USPHL North 15 Pure' : {
-        'id'     : 12782,
-        'scores' : 'results/thf/USPHL-North-15-Pure-scores.json',
-        'filter' : 'results/thf/USPHL-North-15-Pure-filter.txt',
-        'output' : 'results/thf/USPHL-North-15-Pure-ratings.md',
-    },
-    'USPHL North 16U National' : {
-        'id'     : 12885,
-        'scores' : 'results/thf/USPHL-North-16U-National-scores.json',
-        'filter' : 'results/thf/USPHL-North-16U-National-filter.txt',
-        'output' : 'results/thf/USPHL-North-16U-National-ratings.md',
-    },
-    'USPHL North 18U National' : {
-        'id'     : 12886,
-        'scores' : 'results/thf/USPHL-North-18U-National-scores.json',
-        'filter' : 'results/thf/USPHL-North-18U-National-filter.txt',
-        'output' : 'results/thf/USPHL-North-18U-National-ratings.md',
-    },
-    'THF West 14U Major' : {
-        'id'     : 11733,
-        'scores' : 'results/thf/THF-West-14U-Major-scores.json',
-        'filter' : 'results/thf/THF-West-14U-Major-filter.txt',
-        'output' : 'results/thf/THF-West-14U-Major-ratings.md',
-    },
-     'THF West 15 Pure' : {
-        'id'     : 11734,
-        'scores' : 'results/thf/THF-West-15-Pure-scores.json',
-        'filter' : 'results/thf/THF-West-15-Pure-filter.txt',
-        'output' : 'results/thf/THF-West-15-Pure-ratings.md',
-    },
-    'THF West 16U' : {
-        'id'     : 11735,
-        'scores' : 'results/thf/THF-West-16U-scores.json',
-        'filter' : 'results/thf/THF-West-16U-filter.txt',
-        'output' : 'results/thf/THF-West-16U-ratings.md',
-    },
-    'THF West 18U' : {
-        'id'     : 11736,
-        'scores' : 'results/thf/THF-West-18U-scores.json',
-        'filter' : 'results/thf/THF-West-18U-filter.txt',
-        'output' : 'results/thf/THF-West-18U-ratings.md',
-    },
-    'THF South 10U Major' : {
-        'id'     : 9809,
-        'scores' : 'results/thf/THF-South-10U-Major-scores.json',
-        'filter' : 'results/thf/THF-South-10U-Major-filter.txt',
-        'output' : 'results/thf/THF-South-10U-Major-ratings.md',
-    },
-    'THF South 10U Minor' : {
-        'id'     : 9810,
-        'scores' : 'results/thf/THF-South-10U-Minor-scores.json',
-        'filter' : 'results/thf/THF-South-10U-Minor-filter.txt',
-        'output' : 'results/thf/THF-South-10U-Minor-ratings.md',
-    },
-    'THF South 12U Major' : {
-        'id'     : 9811,
-        'scores' : 'results/thf/THF-South-12U-Major-scores.json',
-        'filter' : 'results/thf/THF-South-12U-Major-filter.txt',
-        'output' : 'results/thf/THF-South-12U-Major-ratings.md',
-    },
-    'THF South 12U Minor' : {
-        'id'     : 9812,
-        'scores' : 'results/thf/THF-South-12U-Minor-scores.json',
-        'filter' : 'results/thf/THF-South-12U-Minor-filter.txt',
-        'output' : 'results/thf/THF-South-12U-Minor-ratings.md',
-    },
-    'THF South 14U Major' : {
-        'id'     : 9813,
-        'scores' : 'results/thf/THF-South-14U-Major-scores.json',
-        'filter' : 'results/thf/THF-South-14U-Major-filter.txt',
-        'output' : 'results/thf/THF-South-14U-Major-ratings.md',
-    },
-    'THF South 14U Minor' : {
-        'id'     : 9814,
-        'scores' : 'results/thf/THF-South-14U-Minor-scores.json',
-        'filter' : 'results/thf/THF-South-14U-Minor-filter.txt',
-        'output' : 'results/thf/THF-South-14U-Minor-ratings.md',
-    },
-    'THF South 15 Pure' : {
-        'id'     : 9815,
-        'scores' : 'results/thf/THF-South-15-Pure-scores.json',
-        'filter' : 'results/thf/THF-South-15-Pure-filter.txt',
-        'output' : 'results/thf/THF-South-15-Pure-ratings.md',
-    },
-     'THF South 16U' : {
-        'id'     : 11735,
-        'scores' : 'results/thf/THF-South-16U-scores.json',
-        'filter' : 'results/thf/THF-South-16U-filter.txt',
-        'output' : 'results/thf/THF-South-16U-ratings.md',
-    },
-    'THF South 18U' : {
-        'id'     : 11736,
-        'scores' : 'results/thf/THF-South-18U-scores.json',
-        'filter' : 'results/thf/THF-South-18U-filter.txt',
-        'output' : 'results/thf/THF-South-18U-ratings.md',
-    },
-}
+DIVISIONS = get_divisions.populateDivisionsDictionary(SEASON)
 
 #----------------------------------------------------------------------------
 # Read THF score data into a ledger. This is specific to the JSON format
@@ -284,35 +187,38 @@ def writeMarkdownRankings(outputFile, options, divisionName, ledger, ratings):
 
 #----------------------------------------------------------------------------
 def showRankings(divisionName, ledger, ratings):
-    dividor = "-" * 115
-    print(f"Division: {divisionName}")
-    print(f"Rank KRACH   Subdivision     Team                                     GP  WW-LL-SW-SL-TT    SoS | Predict Diff")
-    print(dividor)
+	if len(ratings) == 0:	
+		exit(1)
 
-    diffTotal = 0.0
-    rawTotal = 0.0
-    numTeams = len(ratings)
-    for rank,rating in enumerate(ratings):
-        rank   += 1
-        subdiv = subdivision(numTeams, rank)
-        team   = rating.name
-        value  = rating.value
-        gp     = ledger.teams[team].record.played
-        record = str(ledger.teams[team].record)
-        sos    = rating.sos
-        exp    = rating.expected
-        diff   = rating.diff
-        print(f"{rank:>3} {value:>6} : {subdiv:<13} : {team:<40} {gp:>2}  {record} {sos:>6} | {exp:>5.1f} {diff:>5.1f}")
-        rawTotal  += diff
-        diffTotal += abs(diff)
-    print("")
-    diffAvg = diffTotal / numTeams
-    rawAvg = rawTotal / numTeams
-    print(f"Differences between expected and actual wins:")
-    print(f"          ABS    RAW")
-    print(f"  Total: {diffTotal:5.2f} {rawTotal:>5.2f}")
-    print(f"  Avg  : {diffAvg:5.2f} {rawAvg:>5.2f}")
-    print(f"")
+	dividor = "-" * 115
+	print(f"Division: {divisionName}")
+	print(f"Rank KRACH   Subdivision     Team                                     GP  WW-LL-SW-SL-TT    SoS | Predict Diff")
+	print(dividor)
+
+	diffTotal = 0.0
+	rawTotal = 0.0
+	numTeams = len(ratings)
+	for rank,rating in enumerate(ratings):
+		rank   += 1
+		subdiv = subdivision(numTeams, rank)
+		team   = rating.name
+		value  = rating.value
+		gp     = ledger.teams[team].record.played
+		record = str(ledger.teams[team].record)
+		sos    = rating.sos
+		exp    = rating.expected
+		diff   = rating.diff
+		print(f"{rank:>3} {value:>6} : {subdiv:<13} : {team:<40} {gp:>2}  {record} {sos:>6} | {exp:>5.1f} {diff:>5.1f}")
+		rawTotal  += diff
+		diffTotal += abs(diff)
+	print("")
+	diffAvg = diffTotal / numTeams
+	rawAvg = rawTotal / numTeams
+	print(f"Differences between expected and actual wins:")
+	print(f"          ABS    RAW")
+	print(f"  Total: {diffTotal:5.2f} {rawTotal:>5.2f}")
+	print(f"  Avg  : {diffAvg:5.2f} {rawAvg:>5.2f}")
+	print(f"")
 
 #----------------------------------------------------------------------------
 def buildUrl(season, divisionId):
@@ -335,10 +241,11 @@ def downloadScores(divisionName):
     logging.info("Getting scores for division '{}'".format(divisionName))
 
     info = DIVISIONS.get(divisionName, None)
+    
     if not info:
         logging.error("Unknown division '%s'", divisionName)
         sys.exit(1)
-
+	
     scores = getDivisionScores(SEASON, divisionName, info['id'])
     with open(info['scores'], "w") as f:
         json.dump(scores, f)

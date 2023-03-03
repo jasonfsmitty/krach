@@ -12,6 +12,7 @@ import copy
 import os.path
 
 import krach
+import get_divisions
 
 #----------------------------------------------------------------------------
 # Default settings to mimic AHF results
@@ -27,135 +28,7 @@ DEFAULT_SCALE_FACTOR   = 10000
 #----------------------------------------------------------------------------
 SEASON = 1654 # Hard-coded for the 2022-2023 season
 
-DIVISIONS = {
-    # 10U ------------------------------------------------
-    '10U B' : {
-        'id'     : 9613,
-        'scores' : 'results/ahf/10U-B-scores.json',
-        'filter' : 'results/ahf/10U-B-filter.txt',
-        'output' : 'results/ahf/10U-B-ratings.md',
-    },
-    '10U A Gretzky' : {
-        'id'     : 9614,
-        'scores' : 'results/ahf/10U-A-scores.json',
-        'filter' : 'results/ahf/10U-A-Gretzky-filter.txt',
-        'output' : 'results/ahf/10U-A-Gretzky-ratings.md',
-    },
-    '10U A Lemieux' : {
-        'id'     : 9614,
-        'scores' : 'results/ahf/10U-A-scores.json',
-        'filter' : 'results/ahf/10U-A-Lemieux-filter.txt',
-        'output' : 'results/ahf/10U-A-Lemieux-ratings.md',
-    },
-    '10U AA' : {
-        'id'     : 9612,
-        'scores' : 'results/ahf/10U-AA-scores.json',
-        'filter' : 'results/ahf/10U-AA-filter.txt',
-        'output' : 'results/ahf/10U-AA-ratings.md',
-    },
-
-    # 12U ------------------------------------------------
-    '12U B' : {
-        'id'     : 9616,
-        'scores' : 'results/ahf/12U-B-scores.json',
-        'filter' : 'results/ahf/12U-B-filter.txt',
-        'output' : 'results/ahf/12U-B-ratings.md',
-    },
-    '12U A Gretzky' : {
-        'id'     : 9617,
-        'scores' : 'results/ahf/12U-A-scores.json',
-        'filter' : 'results/ahf/12U-A-Gretzky-filter.txt',
-        'output' : 'results/ahf/12U-A-Gretzky-ratings.md',
-    },
-    '12U A Lemieux' : {
-        'id'     : 9617,
-        'scores' : 'results/ahf/12U-A-scores.json',
-        'filter' : 'results/ahf/12U-A-Lemieux-filter.txt',
-        'output' : 'results/ahf/12U-A-Lemieux-ratings.md',
-    },
-    '12U AA' : {
-        'id'     : 9615,
-        'scores' : 'results/ahf/12U-AA-scores.json',
-        'filter' : 'results/ahf/12U-AA-filter.txt',
-        'output' : 'results/ahf/12U-AA-ratings.md',
-    },
-
-    # 13U ------------------------------------------------
-    '13U AA' : {
-        'id'     : 9618,
-        'scores' : 'results/ahf/13U-AA-scores.json',
-        'filter' : 'results/ahf/13U-AA-filter.txt',
-        'output' : 'results/ahf/13U-AA-ratings.md',
-    },
-
-    # 14U ------------------------------------------------
-    '14U B' : {
-        'id'     : 9620,
-        'scores' : 'results/ahf/14U-B-scores.json',
-        'filter' : 'results/ahf/14U-B-filter.txt',
-        'output' : 'results/ahf/14U-B-ratings.md',
-    },
-    '14U A Gretzky' : {
-        'id'     : 9621,
-        'scores' : 'results/ahf/14U-A-scores.json',
-        'filter' : 'results/ahf/14U-A-Gretzky-filter.txt',
-        'output' : 'results/ahf/14U-A-Gretzky-ratings.md',
-    },
-    '14U A Lemieux' : {
-        'id'     : 9621,
-        'scores' : 'results/ahf/14U-A-scores.json',
-        'filter' : 'results/ahf/14U-A-Lemieux-filter.txt',
-        'output' : 'results/ahf/14U-A-Lemieux-ratings.md',
-    },
-    '14U AA' : {
-        'id'     : 9619,
-        'scores' : 'results/ahf/14U-AA-scores.json',
-        'filter' : 'results/ahf/14U-AA-filter.txt',
-        'output' : 'results/ahf/14U-AA-ratings.md',
-    },
-
-    # 15U -----------------------------------------------
-    '15U AA' : {
-        'id'     : 9622,
-        'scores' : 'results/ahf/15U-AA-scores.json',
-        'filter' : 'results/ahf/15U-AA-filter.txt',
-        'output' : 'results/ahf/15U-AA-ratings.md',
-    },
-
-    # 16U -----------------------------------------------
-    '16U A Gretzky' : {
-        'id'     : 9624,
-        'scores' : 'results/ahf/16U-A-scores.json',
-        'filter' : 'results/ahf/16U-A-Gretzky-filter.txt',
-        'output' : 'results/ahf/16U-A-Gretzky-ratings.md',
-    },
-    '16U A Lemieux' : {
-        'id'     : 9624,
-        'scores' : 'results/ahf/16U-A-scores.json',
-        'filter' : 'results/ahf/16U-A-Lemieux-filter.txt',
-        'output' : 'results/ahf/16U-A-Lemieux-ratings.md',
-    },
-    '16U AA' : {
-        'id'     : 9623,
-        'scores' : 'results/ahf/16U-AA-scores.json',
-        'filter' : 'results/ahf/16U-AA-filter.txt',
-        'output' : 'results/ahf/16U-AA-ratings.md',
-    },
-
-    # 18U -----------------------------------------------
-    '18U A' : {
-        'id'     : 9625,
-        'scores' : 'results/ahf/18U-A-scores.json',
-        'filter' : 'results/ahf/18U-A-filter.txt',
-        'output' : 'results/ahf/18U-A-ratings.md',
-    },
-    '18U AA' : {
-        'id'     : 9626,
-        'scores' : 'results/ahf/18U-AA-scores.json',
-        'filter' : 'results/ahf/18U-AA-filter.txt',
-        'output' : 'results/ahf/18U-AA-ratings.md',
-    },
-}
+DIVISIONS = get_divisions.populateDivisionsDictionary(SEASON, get_divisions.League.AHF)
 
 #----------------------------------------------------------------------------
 # Read AHF score data into a ledger. This is specific to the JSON format
