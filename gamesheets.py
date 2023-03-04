@@ -1,22 +1,14 @@
 #!/usr/bin/env python3
 
+import logging
 import requests
 import datetime
 import json
 import os
-from enum import Enum
+import sys
 
-#----------------------------------------------------------------------------
-class League(Enum):
-    THF = 1
-    AHF = 2
-    AGHF = 3
-
-#------------------------------------------------------------------------------
-def buildUrl(season, divisionId):
-    baseURL="https://gamesheetstats.com/api/useScoredGames/getSeasonScores"
-    return "{}/{}?filter[divisions]={}&filter=[gametype]=overall&filter[limit]=0".format(baseURL, season, divisionId)
-
+import blackbear_common as bb
+    
 #------------------------------------------------------------------------------
 def ignoreDivision(name):
     return name.startswith('Mite') or any(map(lambda x: name.find(x) != -1, ['Guest', 'Championship', 'Gold', 'Silver', 'Bronze', 'Super 6', 'Frozen 4']))
@@ -33,15 +25,15 @@ def getDivisions(season):
     return { entry['title'] : entry['id'] for entry in response.json() if not ignoreDivision(entry['title']) }
 
 #------------------------------------------------------------------------------
-def populateDivisionsDictionary(season, league=League.THF):
+def populateDivisionsDictionary(season, league):
 	returnDivisions = {}
 	divisions = getDivisions(season)
         
-	if league == League.THF:
+	if league == bb.League.THF:
 		subfolder = 'thf'
-	elif league == League.AHF:
+	elif league == bb.League.AHF:
 		subfolder = 'ahf'
-	elif league == League.AGHF:
+	elif league == bb.League.AGHF:
 		subfolder = 'aghf'
         
 	for division in divisions:
@@ -55,32 +47,31 @@ def populateDivisionsDictionary(season, league=League.THF):
 	
 	return returnDivisions
 
+#----------------------------------------------------------------------------
+def buildScoresUrl(season, divisionId):
+    baseURL="https://gamesheetstats.com/api/useScoredGames/getSeasonScores"
+    return "{}/{}?filter[divisions]={}&filter=[gametype]=overall&filter[limit]=0".format(baseURL, season, divisionId)
+
 #------------------------------------------------------------------------------
-if __name__ == "__main__":
-    SEASON = 1654
-    DIVISIONS = populateDivisionsDictionary(SEASON)
-    print(DIVISIONS)
+def getDivisionScores(season, divisionName, divisionId):
+    url = buildScoresUrl(season, divisionId)
+    logging.debug("GET: {}".format(url))
+    response = requests.get(url)
+    if response.status_code != 200:
+        logging.error("Failed to query '{}' for season={} division={}: status={}".format(url, season, divisionId, response.status_code))
+        logging.error("Response = {}".format(str(response)))
+        raise RuntimeError("Failed to get scores")
+    return response.json()
 
-        
-    '''
-	divisions = getDivisions(SEASON)
-    names = sorted(divisions.keys())
-    print("DIVISIONS = {")
-    for name in names:
-        name = name.replace(' - ', ' ')
-        scoreName = name
-        if any(map(lambda x: name.find(x) != -1, ['Gretzky', 'Lemieux'])):
-            tokens = name.split(' ')
-            scoreName = " ".join(tokens[0:2])
-            name = " ".join(tokens[0:3])
-        elif 'Championship' in name:
-            continue
+#----------------------------------------------------------------------------
+def downloadScores(divisionName, SeasonId, Divisions):
+    logging.info("Getting scores for division '{}'".format(divisionName))
 
-        print("    '{}' : {{".format(name))
-        print("        'id'     : {},".format(divisions[scoreName]))
-        print("        'scores' : 'results/{}-scores.json',".format(scoreName.replace(' ', '-')))
-        print("        'filter' : 'results/{}-filter.txt',".format(name.replace(' ', '-')))
-        print("        'output' : 'results/{}-ratings.txt',".format(name.replace(' ', '-')))
-        print("    },")
-    print("}")
-	'''
+    info = Divisions.get(divisionName, None)
+    if not info:
+        logging.error("Unknown division '%s'", divisionName)
+        sys.exit(1)
+
+    scores = getDivisionScores(SeasonId, divisionName, info['id'])
+    with open(info['scores'], "w") as f:
+        json.dump(scores, f)

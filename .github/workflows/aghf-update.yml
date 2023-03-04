@@ -1,0 +1,16 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Refresh AGHF KRACH Ratings
+        run: |
+          ./aghf.py download
+          ./aghf.py update
+          git config --global user.name "John Greco"
+          git config --global user.email "jfgreco@users.noreply.github.com"
+          git commit -am "AGHF Automated ranking update: $(date)"
+          git push
