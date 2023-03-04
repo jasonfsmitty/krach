@@ -48,7 +48,7 @@ Uses KRACH ratings to predict winning percentage of each team (row) against each
 
 Generated with command line:
 ```
-./ahf.py update
+./thf.py update
 ```
 
 | Option | Value |

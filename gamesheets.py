@@ -42,7 +42,7 @@ def populateDivisionsDictionary(season, league):
 		returnDivision['id'] = divisions[division]
 		returnDivision['scores'] = 'results/{}/{}-scores.json'.format(subfolder, divisionName)
 		returnDivision['filter'] = 'results/{}/{}-filter.txt'.format(subfolder, divisionName)
-		returnDivision['output'] = 'results/{}/{}-ratings.txt'.format(subfolder, divisionName)
+		returnDivision['output'] = 'results/{}/{}-ratings.md'.format(subfolder, divisionName)
 		returnDivisions[division] = returnDivision
 	
 	return returnDivisions
