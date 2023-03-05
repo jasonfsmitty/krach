@@ -9,6 +9,16 @@ AGHF_SeasonId = 1653
 THF_SeasonId = 1684
 
 #----------------------------------------------------------------------------
+THF_DivisionsIgnore = {
+	'THF West',
+	'USPHL',
+}
+
+AHF_DivisionsIgnore = {}
+
+AGHF_DivisionsIgnore = {}
+
+#----------------------------------------------------------------------------
 # Default settings to mimic AHF results
 
 DEFAULT_ITERATIONS     = 200
@@ -80,5 +90,13 @@ def getSubDivision(league, numbertOfTeams, teamRank):
 				if teamRank >=  7 and teamRank <= 10: return SUBDIVISIONS[1]
 				if teamRank > 10: return NO_SUBDIVISION
 			return NO_SUBDIVISION
+		case _:
+			raise RuntimeError("Invalid league")
+
+def getLeagueAbbreviation(league):
+	match league:
+		case League.AHF: return "AHF"
+		case League.AGHF: return "AGHF"
+		case League.THF: return "THF"
 		case _:
 			raise RuntimeError("Invalid league")

@@ -104,8 +104,9 @@ def writeMarkdownRankings(outputFile, options, divisionName, ledger, ratings, le
         writeMarkdownTable(f, data)
         
 #----------------------------------------------------------------------------
-def writeDivisionIndex(toc):
-    with open("results/ahf/readme.md", "w") as f:
+def writeDivisionIndex(toc, league):            
+    directory = "results/{}".format(bb.getLeagueAbbreviation(league).lower())+"/"
+    with open(directory+"readme.md", "w") as f:
         f.write("[<- Back](../readme.md)\n")
         f.write("# KRACH Ratings\n")
         f.write("Click below to see KRACH ratings for each division\n")

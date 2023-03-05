@@ -138,7 +138,7 @@ def updateCommand(args, SeasonId, League):
         toc.append(updateRatings(options, args.cutoff, divisionName, args.test, Divisions, League))
 
     if not args.test:
-        mo.writeDivisionIndex(toc)
+        mo.writeDivisionIndex(toc, League)
 
 #----------------------------------------------------------------------------
 def teamsCommand(args, SeasonId, League):

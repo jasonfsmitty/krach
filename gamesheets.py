@@ -11,7 +11,7 @@ import blackbear_common as bb
     
 #------------------------------------------------------------------------------
 def ignoreDivision(name):
-    return name.startswith('Mite') or any(map(lambda x: name.find(x) != -1, ['Guest', 'Championship', 'Gold', 'Silver', 'Bronze', 'Super 6', 'Frozen 4']))
+	return name.startswith('Mite') or any(map(lambda x: name.find(x) != -1, ['Guest', 'Championship', 'Gold', 'Silver', 'Bronze', 'Super 6', 'Frozen 4'])) or any(map(lambda x: name.find(x) != -1, bb.THF_DivisionsIgnore)) or any(map(lambda x: name.find(x) != -1, bb.AHF_DivisionsIgnore)) or any(map(lambda x: name.find(x) != -1, bb.AGHF_DivisionsIgnore))
 
 #------------------------------------------------------------------------------
 def getDivisions(season):
@@ -28,13 +28,8 @@ def getDivisions(season):
 def populateDivisionsDictionary(season, league):
 	returnDivisions = {}
 	divisions = getDivisions(season)
-        
-	if league == bb.League.THF:
-		subfolder = 'thf'
-	elif league == bb.League.AHF:
-		subfolder = 'ahf'
-	elif league == bb.League.AGHF:
-		subfolder = 'aghf'
+
+	subfolder = bb.getLeagueAbbreviation(league).lower()
         
 	for division in divisions:
 		divisionName = division.replace(' ', '-').replace("/", '')
