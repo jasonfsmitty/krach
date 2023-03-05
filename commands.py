@@ -163,6 +163,10 @@ def updateRatings(options, dateCutoff, divisionName, testMode, Divions, League):
     ledger = loadInputs(dateCutoff, info['scores'])
     ratings = krach.generate(options, ledger)
 
+    if len(ledger.teams) == 0:
+        logging.info("No teams found for %s", divisionName)
+        sys.exit(1)
+
     # Always show on the console
     co.showRankings(divisionName, ledger, ratings, League)
 

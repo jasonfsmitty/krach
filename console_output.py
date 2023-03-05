@@ -18,6 +18,11 @@ def showRankings(divisionName, ledger, ratings, league):
     diffTotal = 0.0
     rawTotal = 0.0
     numTeams = len(ratings)
+    
+    if numTeams == 0:
+        print("No teams found")
+        sys.exit(1)
+
     for rank,rating in enumerate(ratings):
         rank   += 1
         subdiv = bb.getSubDivision(league, numTeams, rank)
