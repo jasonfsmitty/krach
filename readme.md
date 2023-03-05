@@ -2,9 +2,9 @@
 
 This tool was written to reproduce the KRACH rankings as provided by the [AHF (Atlantic Hockey Federation)](https://atlantichockeyfederation.com/), [AGHF (Atlantic Girls Hockey Federation)](https://atlanticgirlshockeyfederation.com/)  and the [THF (Tier 1 Hockey Federation)](https://tier1hockeyfederation.com/).
 
-**[Current AHF Rankings are available here.](results/ahf/readme.md)**
-**[Current AGHF Rankings are available here.](results/aghf/readme.md)**
-**[Current THF Rankings are available here.](results/thf/readme.md)**
+**[Current AHF Rankings are available here.](results/ahf/readme.md)**  
+**[Current AGHF Rankings are available here.](results/aghf/readme.md)**  
+**[Current THF Rankings are available here.](results/thf/readme.md)**  
 
 For information on KRACH itself, see the [KRACH Overview](docs/krach.md).
 
