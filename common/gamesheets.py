@@ -7,7 +7,7 @@ import json
 import os
 import sys
 
-import blackbear_common as bb
+import common.blackbear_common as bb
     
 #------------------------------------------------------------------------------
 def ignoreDivision(name):

@@ -3,7 +3,8 @@
 import datetime
 import os.path
 import sys
-import blackbear_common as bb
+
+import common.blackbear_common as bb
 
 #----------------------------------------------------------------------------
 def writeMarkdownTable(f, data, keyTitle="Option", valueTitle="Value"):

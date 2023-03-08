@@ -6,12 +6,12 @@ import sys
 import datetime
 import os.path
 
-import gamesheets
-import krach
-import markdown_output as mo
-import console_output as co
-import scorereader
-import blackbear_common as bb
+import common.gamesheets as gamesheets
+import common.krach as krach
+import common.markdown_output as mo
+import common.console_output as co
+import common.scorereader as scorereader
+import common.blackbear_common as bb
 
 #----------------------------------------------------------------------------
 def parseCommandLine():

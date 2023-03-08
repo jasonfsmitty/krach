@@ -5,8 +5,8 @@ import datetime
 import sys
 import os.path
 
-import blackbear_common as bb
-import commands
+import common.blackbear_common as bb
+import common.commands
 
 #----------------------------------------------------------------------------
 def showRankings(divisionName, ledger, ratings, league):

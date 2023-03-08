@@ -2,8 +2,8 @@
 
 import logging
 
-import blackbear_common as bb
-import commands
+import common.blackbear_common as bb
+import common.commands as commands
 
 #----------------------------------------------------------------------------
 if __name__ == "__main__":
