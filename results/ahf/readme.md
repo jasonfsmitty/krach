@@ -14,10 +14,10 @@ Click below to see KRACH ratings for each division
 | [14U AA](14U-AA-ratings.md) | 2022-08-27 | 2023-02-12 |
 | [14U B](14U-B-ratings.md) | 2022-08-28 | 2023-02-19 |
 | [14U A](14U-A-ratings.md) | 2022-08-27 | 2023-02-15 |
-| [15U AA](15U-AA-ratings.md) | 2022-08-19 | 2023-02-11 |
-| [16U A](16U-A-ratings.md) | 2022-08-20 | 2023-02-12 |
+| [15U AA](15U-AA-ratings.md) | 2022-08-19 | 2023-03-05 |
+| [16U A](16U-A-ratings.md) | 2022-08-20 | 2023-03-05 |
 | [16U AA](16U-AA-ratings.md) | 2022-08-19 | 2023-02-12 |
 | [18U AA](18U-AA-ratings.md) | 2022-08-26 | 2023-02-12 |
 | [18U A](18U-A-ratings.md) | 2022-08-19 | 2023-02-11 |
 
-Generated on 2023-03-04 20:17:37.624051.
+Generated on 2023-03-08 00:02:05.806918.
