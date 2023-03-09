@@ -4,7 +4,7 @@ import logging
 import argparse
 import sys
 import datetime
-import os.path
+import os
 
 import common.gamesheets as gamesheets
 import common.krach as krach
@@ -23,6 +23,12 @@ def parseCommandLine():
         action  = 'store_true',
         default = False,
         help    = "Enable extra debug logging")
+
+    #----------------------------------------------------------
+    # Delete all files from the results folder
+
+    update = subparsers.add_parser('delete', help="Delete files from league result folder")
+    update.set_defaults(func=deleteCommand)
 
     #----------------------------------------------------------
     # Download scores for all/single divisions
@@ -146,6 +152,12 @@ def teamsCommand(args, SeasonId, League):
     divisions = [args.div] if args.div else Divisions
     for divisionName in divisions:
         co.listTeams(divisionName, Divisions)
+#----------------------------------------------------------------------------
+def deleteCommand(args, SeasonId, League):
+    directory = 'results/' + getLeagueAbbreviation(League).lower() + '/'
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            os.remove(os.path.join(root, file))
         
 #----------------------------------------------------------------------------
 def updateRatings(options, dateCutoff, divisionName, testMode, Divions, League):

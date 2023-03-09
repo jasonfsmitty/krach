@@ -8,6 +8,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Refresh AGHF KRACH Ratings
         run: |
+          ./aghf.py delete
           ./aghf.py download
           ./aghf.py update
           git config --global user.name "John Greco"
