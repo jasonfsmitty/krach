@@ -154,7 +154,7 @@ def teamsCommand(args, SeasonId, League):
         co.listTeams(divisionName, Divisions)
 #----------------------------------------------------------------------------
 def deleteCommand(args, SeasonId, League):
-    directory = 'results/' + getLeagueAbbreviation(League).lower() + '/'
+    directory = 'results/' + bb.getLeagueAbbreviation(League).lower() + '/'
     for root, dirs, files in os.walk(directory):
         for file in files:
             os.remove(os.path.join(root, file))
