@@ -117,6 +117,10 @@ def parseCommandLine():
 
 #----------------------------------------------------------------------------
 def downloadCommand(args, SeasonId, League):
+	#Before we download the updated scores, we need to cleanup the results folder
+	#so that we don't have any old files hanging around
+	deleteCommand(args, SeasonId, League)
+    #Now we can download the scores
 	Divisions = gamesheets.populateDivisionsDictionary(SeasonId, League)
 	logging.info("Downloading scores ...")
 	divisions = [args.div] if args.div else Divisions
@@ -154,10 +158,15 @@ def teamsCommand(args, SeasonId, League):
         co.listTeams(divisionName, Divisions)
 #----------------------------------------------------------------------------
 def deleteCommand(args, SeasonId, League):
-    directory = 'results/' + bb.getLeagueAbbreviation(League).lower() + '/'
-    for root, dirs, files in os.walk(directory):
-        for file in files:
-            os.remove(os.path.join(root, file))
+	directory = 'results/' + bb.getLeagueAbbreviation(League).lower() + '/'
+	print("Deleting files from " + directory)
+	deletedFiles = 0
+	for root, dirs, files in os.walk(directory):
+		if len(files)>0:
+			for file in files:
+				os.remove(os.path.join(root, file))
+				deletedFiles += 1
+	print("Deleted " + str(deletedFiles) + " files")
         
 #----------------------------------------------------------------------------
 def updateRatings(options, dateCutoff, divisionName, testMode, Divions, League):
