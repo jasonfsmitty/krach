@@ -28,16 +28,15 @@ def getDivisions(season):
 def populateDivisionsDictionary(season, league):
 	returnDivisions = {}
 	divisions = getDivisions(season)
-
-	subfolder = bb.getLeagueAbbreviation(league).lower()
+	resultsDir = 'results/{}'.format(bb.getLeagueAbbreviation(league).lower())
         
 	for division in divisions:
 		divisionName = division.replace(' ', '-').replace("/", '')
 		returnDivision = {}
 		returnDivision['id'] = divisions[division]
-		returnDivision['scores'] = 'results/{}/{}-scores.json'.format(subfolder, divisionName)
-		returnDivision['filter'] = 'results/{}/{}-filter.txt'.format(subfolder, divisionName)
-		returnDivision['output'] = 'results/{}/{}-ratings.md'.format(subfolder, divisionName)
+		returnDivision['scores'] = '{}/{}-scores.json'.format(resultsDir, divisionName)
+		returnDivision['filter'] = '{}/{}-filter.txt'.format(resultsDir, divisionName)
+		returnDivision['output'] = '{}/{}-ratings.md'.format(resultsDir, divisionName)
 		returnDivisions[division] = returnDivision
 	
 	return returnDivisions

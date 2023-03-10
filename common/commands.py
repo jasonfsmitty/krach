@@ -25,12 +25,6 @@ def parseCommandLine():
         help    = "Enable extra debug logging")
 
     #----------------------------------------------------------
-    # Delete all files from the results folder
-
-    update = subparsers.add_parser('delete', help="Delete files from league result folder")
-    update.set_defaults(func=deleteCommand)
-
-    #----------------------------------------------------------
     # Download scores for all/single divisions
 
     download = subparsers.add_parser('download', help="Download latest scores")
@@ -119,7 +113,7 @@ def parseCommandLine():
 def downloadCommand(args, SeasonId, League):
 	#Before we download the updated scores, we need to cleanup the results folder
 	#so that we don't have any old files hanging around
-	deleteCommand(args, SeasonId, League)
+	cleanupResultsDirectory(League)
     #Now we can download the scores
 	Divisions = gamesheets.populateDivisionsDictionary(SeasonId, League)
 	logging.info("Downloading scores ...")
@@ -157,16 +151,23 @@ def teamsCommand(args, SeasonId, League):
     for divisionName in divisions:
         co.listTeams(divisionName, Divisions)
 #----------------------------------------------------------------------------
-def deleteCommand(args, SeasonId, League):
+def cleanupResultsDirectory(League):
 	directory = 'results/' + bb.getLeagueAbbreviation(League).lower() + '/'
-	print("Deleting files from " + directory)
-	deletedFiles = 0
-	for root, dirs, files in os.walk(directory):
-		if len(files)>0:
-			for file in files:
-				os.remove(os.path.join(root, file))
-				deletedFiles += 1
-	print("Deleted " + str(deletedFiles) + " files")
+	if os.path.exists(directory):
+		logging.info("Deleting files from " + directory)
+		deletedFiles = 0
+		for root, dirs, files in os.walk(directory):
+			if len(files)>0:
+				for file in files:
+					os.remove(os.path.join(root, file))
+					deletedFiles += 1
+				logging.info("Deleted " + str(deletedFiles) + " files")
+			else:
+				logging.info("No files to delete")
+	else:
+		logging.info("Creating directory " + directory)
+		os.mkdir(directory)
+		logging.info("Created directory " + directory)
         
 #----------------------------------------------------------------------------
 def updateRatings(options, dateCutoff, divisionName, testMode, Divions, League):
