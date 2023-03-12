@@ -9,4 +9,4 @@ import common.commands as commands
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     args = commands.parseCommandLine()
-    args.func(args, bb.AHF_SeasonId, bb.League.AHF)
+    args.func(args, bb.AGHF_SeasonId, bb.League.AGHF)
