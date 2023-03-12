@@ -6,7 +6,7 @@ import sys
 import os.path
 
 import common.blackbear_common as bb
-import common.commands
+import common.commands as commands
 
 #----------------------------------------------------------------------------
 def showRankings(divisionName, ledger, ratings, league):
