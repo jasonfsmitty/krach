@@ -4,9 +4,9 @@ from enum import Enum
 
 #----------------------------------------------------------------------------
 # Hardcoded for 2022-23 season
-AHF_SeasonId = 1654
-AGHF_SeasonId = 1653
-THF_SeasonId = 1684
+AHF_SeasonId = 3659
+AGHF_SeasonId = 3663
+THF_SeasonId = 3664
 
 #----------------------------------------------------------------------------
 THF_DivisionsIgnore = {
