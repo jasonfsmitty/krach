@@ -254,6 +254,8 @@ class Rating:
     sos:       int   = 100  # strength-of-schedule
     expected:  float = 0.0  # Predicted number of wins based on KRACH ratings
     diff:      float = 0.0  # Difference between expected and actual number of wins (absolute)
+    winPoints: float = 0.0  # Win points, including shootout and tie values
+    matchupFactor: float = 0.0 # Sum of all matchup factors for this team
     odds:      dict  = dataclasses.field(default_factory=lambda: dict())
 
 #----------------------------------------------------------------------------
@@ -286,7 +288,7 @@ class KRACH:
     # Calculate new KRACH ratings for all teams
     def calculateAll(self, ledger, ratings):
         updated = dict()
-        for name in ledger.teams:
+        for name in sorted(ledger.teams):
             updated[name] = self.calculate(ledger, ratings, name)
         return self.normalize(updated)
 
@@ -294,7 +296,9 @@ class KRACH:
     # Calculates an updated rating for a single team, using:
     #   Ki = Vi / ( ∑j Nij / (Ki + Kj) )
     def calculate(self, ledger, ratings, i):
-        return ledger.teams[i].record.winPoints(self.options) / self.calculateMatchupFactor(ledger, ratings, i)
+        winPoints = ledger.teams[i].record.winPoints(self.options)
+        matchupFactor = self.calculateMatchupFactor(ledger, ratings, i)
+        return winPoints / matchupFactor
 
     #----------------------------------------------------------------------------
     # Calculate: ∑j (Wij + Wji) / (Ki + Kj)
@@ -400,7 +404,10 @@ def generate(options, ledger):
         # negative differerence indicates the KRACH rating is too low, likewise a
         # positive difference indicates rating is too high.
         diff = expectedWins[name] - ledger.teams[name].record.winPoints(options)
-        return Rating(name, value, sosAll[name], expectedWins[name], diff, odds[name])
+        return Rating(name, value, sosAll[name], expectedWins[name], diff, 
+                      ledger.teams[name].record.winPoints(options), 
+                      0,
+                      odds[name])
 
     return [ _rating(name, ratings[name]) for name in rankings ]
 

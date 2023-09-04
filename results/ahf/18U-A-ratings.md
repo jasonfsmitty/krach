@@ -2,27 +2,24 @@
 # 18U A KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2153|Championship|Wissahickon Warriors Red|37|30|3|2|1|1|375|32.8|-0.0
-2|1218|Championship|North Jersey Sportscare Kings Yellow|25|17|4|1|2|1|592|18.8|-0.0
-3|1188|Championship|Ashburn Xtreme|18|11|2|4|0|1|265|15.9|0.0
-4|1053|Championship|Jersey Shore Wildcats Black|17|12|4|0|0|1|575|12.8|-0.0
-5|946|Gold|Palmyra Black Knights|37|27|6|1|2|1|466|28.8|-0.0
-6|824|Gold|Philadelphia Blazers|37|25|8|1|2|1|523|26.8|-0.0
-7|656|Gold|NJ Bandits|17|10|4|1|1|1|562|11.8|-0.0
-8|581|Gold|Lehigh Valley Phantoms 1|37|22|12|2|0|1|545|24.8|-0.0
-9|344|Silver|Delaware Ducks|37|18|11|4|3|1|511|22.9|0.0
-10|217|Silver|Wissahickon Warriors White|37|22|9|1|4|1|314|23.9|0.0
-11|165|Silver|Maryland Jr Black Bears White|17|5|10|0|1|1|756|5.8|-0.0
-12|135|Silver|Jersey Shore Wildcats Red|17|7|9|0|0|1|635|7.9|0.0
-13|111||Valley Forge Colonials 18U A|37|13|18|2|3|1|518|15.9|0.0
-14|109||Grundy Senators Gold|37|13|19|2|2|1|529|15.9|0.0
-15|28||York Devils|37|8|26|2|0|1|381|10.9|0.0
-16|24||Tomorrow's Ice North Stars White|17|0|15|1|0|1|761|1.9|0.0
-17|22||Southern Maryland Sabres 18U Gold|17|4|11|0|1|1|245|4.9|0.0
-18|18||Lehigh Valley Phantoms 2|37|5|30|1|0|1|490|6.9|0.0
-19|16||Royals|37|7|27|0|2|1|376|7.9|0.0
-20|13||The St. James Navy|18|3|14|0|0|1|258|3.9|0.0
-21|13||North Jersey Sportscare Kings Grey|25|3|20|0|1|1|341|3.9|0.0
+1|2231|Championship|VFC 18U A Vassalluzzo|5|4|0|0|0|1|401|4.8|-0.0
+2|1124|Championship|Dix Hills Hawks 18U|5|3|1|0|0|1|586|3.9|0.0
+3|900|Championship|Grundy Senators|6|4|1|0|0|1|355|4.9|0.0
+4|787|Championship|Wissahickon Warriors|5|3|1|0|0|1|463|3.9|0.0
+5|776|Gold|Team Philadelphia|5|3|1|0|0|1|461|3.9|0.0
+6|549|Gold|North Jersey Skylands Kings|5|3|1|0|0|1|275|3.9|0.0
+7|518|Gold|Lehigh Valley Phantoms Youth U18A1|7|3|3|0|0|1|615|3.9|0.0
+8|513|Gold|RHC 18U A|5|2|2|0|0|1|866|2.8|-0.0
+9|489|Silver|Ashburn Xtreme 18U A|5|2|2|0|0|1|857|2.8|-0.0
+10|447|Silver|Mercer Chiefs|5|2|2|0|0|1|750|2.8|-0.0
+11|331|Silver|STJ 18U Navy|5|2|2|0|0|1|421|2.9|0.0
+12|210|Silver|North Jersey Avalanche Blue|5|1|3|0|0|1|548|1.9|0.0
+13|197||Jersey Colts 18 White|5|1|3|0|0|1|866|1.8|-0.0
+14|186||Royals 18U A|5|2|2|0|0|1|209|2.9|0.0
+15|124||Wildcats 18U A|5|1|3|0|0|1|380|1.9|0.0
+16|112||Palmyra Black Knights-EAST|5|1|3|0|0|1|291|1.9|0.0
+17|93||North Jersey Kings Yellow|6|1|4|0|0|1|334|1.9|0.0
+18|53||Philadelphia Blazers|5|0|4|0|0|1|348|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
@@ -34,29 +31,26 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Wissahickon Warriors Red|North Jersey Sportscare Kings Yellow|Ashburn Xtreme|Jersey Shore Wildcats Black|Palmyra Black Knights|Philadelphia Blazers|NJ Bandits|Lehigh Valley Phantoms 1|Delaware Ducks|Wissahickon Warriors White|Maryland Jr Black Bears White|Jersey Shore Wildcats Red|Valley Forge Colonials 18U A|Grundy Senators Gold|York Devils|Tomorrow's Ice North Stars White|Southern Maryland Sabres 18U Gold|Lehigh Valley Phantoms 2|Royals|The St. James Navy|North Jersey Sportscare Kings Grey
-| --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Wissahickon Warriors Red|--| 64%| 64%| 67%| 69%| 72%| 77%| 79%| 86%| 91%| 93%| 94%| 95%| 95%| 99%| 99%| 99%| 99%| 99%| 99%| 99%
-|North Jersey Sportscare Kings Yellow| 36%|--| 51%| 54%| 56%| 60%| 65%| 68%| 78%| 85%| 88%| 90%| 92%| 92%| 98%| 98%| 98%| 99%| 99%| 99%| 99%
-|Ashburn Xtreme| 36%| 49%|--| 53%| 56%| 59%| 64%| 67%| 78%| 85%| 88%| 90%| 91%| 92%| 98%| 98%| 98%| 99%| 99%| 99%| 99%
-|Jersey Shore Wildcats Black| 33%| 46%| 47%|--| 53%| 56%| 62%| 64%| 75%| 83%| 86%| 89%| 90%| 91%| 97%| 98%| 98%| 98%| 98%| 99%| 99%
-|Palmyra Black Knights| 31%| 44%| 44%| 47%|--| 53%| 59%| 62%| 73%| 81%| 85%| 88%| 90%| 90%| 97%| 98%| 98%| 98%| 98%| 99%| 99%
-|Philadelphia Blazers| 28%| 40%| 41%| 44%| 47%|--| 56%| 59%| 71%| 79%| 83%| 86%| 88%| 88%| 97%| 97%| 97%| 98%| 98%| 98%| 98%
-|NJ Bandits| 23%| 35%| 36%| 38%| 41%| 44%|--| 53%| 66%| 75%| 80%| 83%| 86%| 86%| 96%| 97%| 97%| 97%| 98%| 98%| 98%
-|Lehigh Valley Phantoms 1| 21%| 32%| 33%| 36%| 38%| 41%| 47%|--| 63%| 73%| 78%| 81%| 84%| 84%| 95%| 96%| 96%| 97%| 97%| 98%| 98%
-|Delaware Ducks| 14%| 22%| 22%| 25%| 27%| 29%| 34%| 37%|--| 61%| 68%| 72%| 76%| 76%| 92%| 94%| 94%| 95%| 95%| 96%| 96%
-|Wissahickon Warriors White|  9%| 15%| 15%| 17%| 19%| 21%| 25%| 27%| 39%|--| 57%| 62%| 66%| 66%| 89%| 90%| 91%| 92%| 93%| 94%| 94%
-|Maryland Jr Black Bears White|  7%| 12%| 12%| 14%| 15%| 17%| 20%| 22%| 32%| 43%|--| 55%| 60%| 60%| 86%| 87%| 88%| 90%| 91%| 92%| 93%
-|Jersey Shore Wildcats Red|  6%| 10%| 10%| 11%| 12%| 14%| 17%| 19%| 28%| 38%| 45%|--| 55%| 55%| 83%| 85%| 86%| 88%| 89%| 91%| 91%
-|Valley Forge Colonials 18U A|  5%|  8%|  9%| 10%| 10%| 12%| 14%| 16%| 24%| 34%| 40%| 45%|--| 50%| 80%| 82%| 84%| 86%| 87%| 89%| 89%
-|Grundy Senators Gold|  5%|  8%|  8%|  9%| 10%| 12%| 14%| 16%| 24%| 34%| 40%| 45%| 50%|--| 80%| 82%| 83%| 86%| 87%| 89%| 89%
-|York Devils|  1%|  2%|  2%|  3%|  3%|  3%|  4%|  5%|  8%| 11%| 14%| 17%| 20%| 20%|--| 54%| 56%| 61%| 63%| 68%| 68%
-|Tomorrow's Ice North Stars White|  1%|  2%|  2%|  2%|  2%|  3%|  3%|  4%|  6%| 10%| 13%| 15%| 18%| 18%| 46%|--| 52%| 57%| 59%| 64%| 64%
-|Southern Maryland Sabres 18U Gold|  1%|  2%|  2%|  2%|  2%|  3%|  3%|  4%|  6%|  9%| 12%| 14%| 16%| 17%| 44%| 48%|--| 55%| 57%| 62%| 62%
-|Lehigh Valley Phantoms 2|  1%|  1%|  1%|  2%|  2%|  2%|  3%|  3%|  5%|  8%| 10%| 12%| 14%| 14%| 39%| 43%| 45%|--| 52%| 57%| 57%
-|Royals|  1%|  1%|  1%|  2%|  2%|  2%|  2%|  3%|  5%|  7%|  9%| 11%| 13%| 13%| 37%| 41%| 43%| 48%|--| 55%| 55%
-|The St. James Navy|  1%|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  4%|  6%|  8%|  9%| 11%| 11%| 32%| 36%| 38%| 43%| 45%|--| 51%
-|North Jersey Sportscare Kings Grey|  1%|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  4%|  6%|  7%|  9%| 11%| 11%| 32%| 36%| 38%| 43%| 45%| 49%|--
+||VFC 18U A Vassalluzzo|Dix Hills Hawks 18U|Grundy Senators|Wissahickon Warriors|Team Philadelphia|North Jersey Skylands Kings|Lehigh Valley Phantoms Youth U18A1|RHC 18U A|Ashburn Xtreme 18U A|Mercer Chiefs|STJ 18U Navy|North Jersey Avalanche Blue|Jersey Colts 18 White|Royals 18U A|Wildcats 18U A|Palmyra Black Knights-EAST|North Jersey Kings Yellow|Philadelphia Blazers
+| --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
+|VFC 18U A Vassalluzzo|--| 66%| 71%| 74%| 74%| 80%| 81%| 81%| 82%| 83%| 87%| 91%| 92%| 92%| 95%| 95%| 96%| 98%
+|Dix Hills Hawks 18U| 34%|--| 56%| 59%| 59%| 67%| 68%| 69%| 70%| 72%| 77%| 84%| 85%| 86%| 90%| 91%| 92%| 95%
+|Grundy Senators| 29%| 44%|--| 53%| 54%| 62%| 63%| 64%| 65%| 67%| 73%| 81%| 82%| 83%| 88%| 89%| 91%| 94%
+|Wissahickon Warriors| 26%| 41%| 47%|--| 50%| 59%| 60%| 61%| 62%| 64%| 70%| 79%| 80%| 81%| 86%| 88%| 89%| 94%
+|Team Philadelphia| 26%| 41%| 46%| 50%|--| 59%| 60%| 60%| 61%| 63%| 70%| 79%| 80%| 81%| 86%| 87%| 89%| 94%
+|North Jersey Skylands Kings| 20%| 33%| 38%| 41%| 41%|--| 51%| 52%| 53%| 55%| 62%| 72%| 74%| 75%| 82%| 83%| 85%| 91%
+|Lehigh Valley Phantoms Youth U18A1| 19%| 32%| 37%| 40%| 40%| 49%|--| 50%| 51%| 54%| 61%| 71%| 72%| 74%| 81%| 82%| 85%| 91%
+|RHC 18U A| 19%| 31%| 36%| 39%| 40%| 48%| 50%|--| 51%| 53%| 61%| 71%| 72%| 73%| 81%| 82%| 85%| 91%
+|Ashburn Xtreme 18U A| 18%| 30%| 35%| 38%| 39%| 47%| 49%| 49%|--| 52%| 60%| 70%| 71%| 72%| 80%| 81%| 84%| 90%
+|Mercer Chiefs| 17%| 28%| 33%| 36%| 37%| 45%| 46%| 47%| 48%|--| 57%| 68%| 69%| 71%| 78%| 80%| 83%| 89%
+|STJ 18U Navy| 13%| 23%| 27%| 30%| 30%| 38%| 39%| 39%| 40%| 43%|--| 61%| 63%| 64%| 73%| 75%| 78%| 86%
+|North Jersey Avalanche Blue|  9%| 16%| 19%| 21%| 21%| 28%| 29%| 29%| 30%| 32%| 39%|--| 52%| 53%| 63%| 65%| 69%| 80%
+|Jersey Colts 18 White|  8%| 15%| 18%| 20%| 20%| 26%| 28%| 28%| 29%| 31%| 37%| 48%|--| 51%| 61%| 64%| 68%| 79%
+|Royals 18U A|  8%| 14%| 17%| 19%| 19%| 25%| 26%| 27%| 28%| 29%| 36%| 47%| 49%|--| 60%| 62%| 67%| 78%
+|Wildcats 18U A|  5%| 10%| 12%| 14%| 14%| 18%| 19%| 19%| 20%| 22%| 27%| 37%| 39%| 40%|--| 52%| 57%| 70%
+|Palmyra Black Knights-EAST|  5%|  9%| 11%| 12%| 13%| 17%| 18%| 18%| 19%| 20%| 25%| 35%| 36%| 38%| 48%|--| 55%| 68%
+|North Jersey Kings Yellow|  4%|  8%|  9%| 11%| 11%| 15%| 15%| 15%| 16%| 17%| 22%| 31%| 32%| 33%| 43%| 45%|--| 64%
+|Philadelphia Blazers|  2%|  5%|  6%|  6%|  6%|  9%|  9%|  9%| 10%| 11%| 14%| 20%| 21%| 22%| 30%| 32%| 36%|--
 
 ## Generation Details
 
@@ -67,8 +61,8 @@ Generated with command line:
 
 | Option | Value |
 | :----- | ----: |
-| Start Date | 2022-08-19 |
-| End Date | 2023-02-11 |
+| Start Date | 2023-08-20 |
+| End Date | 2023-09-03 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
@@ -76,5 +70,5 @@ Generated with command line:
 | Tie Value | 0.85 |
 | Fake Ties | 1 |
 | Ignore teams | __KRACH_FAKE_TEAM__ |
-| Min Games Played | 12 |
+| Min Games Played | 4 |
 

@@ -2,25 +2,27 @@
 # 18U AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2785|Championship|Philadelphia Blazers|41|34|1|3|2|1|328|37.8|-0.0
-2|1317|Championship|MYHA 18U AA Blue|17|9|4|3|0|1|788|12.8|-0.0
-3|951|Championship|Ashburn Xtreme|17|9|4|3|0|1|606|12.8|-0.0
-4|733|Championship|Team Philadelphia|41|29|9|2|0|1|440|31.8|-0.0
-5|454|Gold|Long Island Rebels|17|10|5|1|0|1|444|11.9|0.0
-6|425|Gold|Igloo Jaguars Black|41|27|9|0|4|1|468|27.9|0.0
-7|201|Gold|North Jersey Skylands Kings|20|10|8|0|1|1|554|10.9|0.0
-8|160|Gold|Metro Militia|17|9|5|2|0|1|174|11.9|0.0
-9|134|Silver|Lehigh Valley Phantoms|41|21|15|1|3|1|363|22.9|0.0
-10|127|Silver|Valley Forge Colonials 18U AA|41|22|16|1|1|1|321|23.9|0.0
-11|90|Silver|MYHA 18U AA Gold|17|6|8|1|1|1|494|7.9|0.0
-12|87|Silver|Hollydell Hurricanes|41|18|17|2|3|1|354|20.9|0.0
-13|63||North Jersey Sportscare Kings Blue|29|11|13|2|2|1|178|13.9|0.0
-14|45||Haverford Hawks|41|16|22|1|1|1|337|17.9|0.0
-15|36||York Devils|41|13|25|1|1|1|385|14.9|0.0
-16|12||New Jersey Renegades|13|3|8|1|0|1|76|4.9|0.0
-17|9||The St. James Gold|17|4|10|0|2|1|60|4.9|0.0
-18|5||Igloo Jaguars Green|41|3|34|1|2|1|273|4.9|0.0
-19|4||Rockets Hockey Club|36|2|30|1|2|1|291|3.9|0.0
+1|1464|Championship|Tri-City Eagles 18U Blue|5|4|0|0|0|1|255|4.9|0.0
+2|1255|Championship|Chesterfield Falcons|6|4|1|0|0|1|556|4.8|-0.0
+3|1214|Championship|Philadelphia Blazers|5|3|1|0|0|1|677|3.8|-0.0
+4|762|Championship|MYHA 18U AA Blue|5|3|1|0|0|1|392|3.8|-0.0
+5|737|Gold|Arizona Bobcats|6|3|2|0|0|1|682|3.8|-0.0
+6|555|Gold|Allegheny Badgers|5|2|2|0|0|1|680|2.8|-0.0
+7|526|Gold|North Jersey Skylands Kings|5|3|1|0|0|1|378|3.9|0.0
+8|500|Gold|Team Philadelphia|5|2|2|0|0|1|652|2.8|-0.0
+9|424|Silver|Cherry Creek Bruins|5|2|2|0|0|1|602|2.9|0.0
+10|374|Silver|York Devils|5|2|2|0|0|1|507|2.8|-0.0
+11|335|Silver|MYHA 18U AA Gold|5|3|1|0|0|1|164|3.9|0.0
+12|255|Silver|Lehigh Valley Phantoms Youth U18AA|7|3|3|0|0|1|308|3.9|0.0
+13|245||Lancaster Firebrids 18U AA|6|2|3|0|0|1|497|2.9|0.0
+14|215||Wildcats 18U AA|5|2|2|0|0|1|257|2.9|0.0
+15|196||Clearwater Ice Storm Blue|5|1|3|0|0|1|539|1.8|-0.0
+16|168||Igloo Jaguars 18UAA Premier|5|1|3|0|0|1|584|1.9|0.0
+17|127||Haverford Hawks|5|1|3|0|0|1|480|1.9|0.0
+18|124||Tri-City Eagles 18U Gold|5|2|2|0|0|1|138|2.9|0.0
+19|91||Igloo Jaguars 18UAA Elite|5|1|3|0|0|1|218|1.9|0.0
+20|73||Palmyra Black Knights|6|1|4|0|0|1|239|1.9|0.0
+21|45||Delaware Ducks|5|0|4|0|0|1|303|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
@@ -32,27 +34,29 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Philadelphia Blazers|MYHA 18U AA Blue|Ashburn Xtreme|Team Philadelphia|Long Island Rebels|Igloo Jaguars Black|North Jersey Skylands Kings|Metro Militia|Lehigh Valley Phantoms|Valley Forge Colonials 18U AA|MYHA 18U AA Gold|Hollydell Hurricanes|North Jersey Sportscare Kings Blue|Haverford Hawks|York Devils|New Jersey Renegades|The St. James Gold|Igloo Jaguars Green|Rockets Hockey Club
-| --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Philadelphia Blazers|--| 68%| 75%| 79%| 86%| 87%| 93%| 95%| 95%| 96%| 97%| 97%| 98%| 98%| 99%|100%|100%|100%|100%
-|MYHA 18U AA Blue| 32%|--| 58%| 64%| 74%| 76%| 87%| 89%| 91%| 91%| 94%| 94%| 95%| 97%| 97%| 99%| 99%|100%|100%
-|Ashburn Xtreme| 25%| 42%|--| 56%| 68%| 69%| 83%| 86%| 88%| 88%| 91%| 92%| 94%| 96%| 96%| 99%| 99%|100%|100%
-|Team Philadelphia| 21%| 36%| 44%|--| 62%| 63%| 78%| 82%| 85%| 85%| 89%| 89%| 92%| 94%| 95%| 98%| 99%| 99%| 99%
-|Long Island Rebels| 14%| 26%| 32%| 38%|--| 52%| 69%| 74%| 77%| 78%| 84%| 84%| 88%| 91%| 93%| 97%| 98%| 99%| 99%
-|Igloo Jaguars Black| 13%| 24%| 31%| 37%| 48%|--| 68%| 73%| 76%| 77%| 83%| 83%| 87%| 91%| 92%| 97%| 98%| 99%| 99%
-|North Jersey Skylands Kings|  7%| 13%| 17%| 22%| 31%| 32%|--| 56%| 60%| 61%| 69%| 70%| 76%| 82%| 85%| 94%| 96%| 98%| 98%
-|Metro Militia|  5%| 11%| 14%| 18%| 26%| 27%| 44%|--| 54%| 56%| 64%| 65%| 72%| 78%| 82%| 93%| 95%| 97%| 97%
-|Lehigh Valley Phantoms|  5%|  9%| 12%| 15%| 23%| 24%| 40%| 46%|--| 51%| 60%| 61%| 68%| 75%| 79%| 92%| 94%| 97%| 97%
-|Valley Forge Colonials 18U AA|  4%|  9%| 12%| 15%| 22%| 23%| 39%| 44%| 49%|--| 59%| 59%| 67%| 74%| 78%| 92%| 93%| 97%| 97%
-|MYHA 18U AA Gold|  3%|  6%|  9%| 11%| 16%| 17%| 31%| 36%| 40%| 41%|--| 51%| 59%| 67%| 71%| 88%| 91%| 95%| 95%
-|Hollydell Hurricanes|  3%|  6%|  8%| 11%| 16%| 17%| 30%| 35%| 39%| 41%| 49%|--| 58%| 66%| 71%| 88%| 91%| 95%| 95%
-|North Jersey Sportscare Kings Blue|  2%|  5%|  6%|  8%| 12%| 13%| 24%| 28%| 32%| 33%| 41%| 42%|--| 59%| 64%| 84%| 88%| 93%| 94%
-|Haverford Hawks|  2%|  3%|  4%|  6%|  9%|  9%| 18%| 22%| 25%| 26%| 33%| 34%| 41%|--| 55%| 79%| 83%| 91%| 91%
-|York Devils|  1%|  3%|  4%|  5%|  7%|  8%| 15%| 18%| 21%| 22%| 29%| 29%| 36%| 45%|--| 75%| 80%| 89%| 89%
-|New Jersey Renegades|  0%|  1%|  1%|  2%|  3%|  3%|  6%|  7%|  8%|  8%| 12%| 12%| 16%| 21%| 25%|--| 57%| 72%| 73%
-|The St. James Gold|  0%|  1%|  1%|  1%|  2%|  2%|  4%|  5%|  6%|  7%|  9%|  9%| 12%| 17%| 20%| 43%|--| 66%| 68%
-|Igloo Jaguars Green|  0%|  0%|  0%|  1%|  1%|  1%|  2%|  3%|  3%|  3%|  5%|  5%|  7%|  9%| 11%| 28%| 34%|--| 52%
-|Rockets Hockey Club|  0%|  0%|  0%|  1%|  1%|  1%|  2%|  3%|  3%|  3%|  5%|  5%|  6%|  9%| 11%| 27%| 32%| 48%|--
+||Tri-City Eagles 18U Blue|Chesterfield Falcons|Philadelphia Blazers|MYHA 18U AA Blue|Arizona Bobcats|Allegheny Badgers|North Jersey Skylands Kings|Team Philadelphia|Cherry Creek Bruins|York Devils|MYHA 18U AA Gold|Lehigh Valley Phantoms Youth U18AA|Lancaster Firebrids 18U AA|Wildcats 18U AA|Clearwater Ice Storm Blue|Igloo Jaguars 18UAA Premier|Haverford Hawks|Tri-City Eagles 18U Gold|Igloo Jaguars 18UAA Elite|Palmyra Black Knights|Delaware Ducks
+| --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
+|Tri-City Eagles 18U Blue|--| 54%| 55%| 66%| 67%| 73%| 74%| 75%| 78%| 80%| 81%| 85%| 86%| 87%| 88%| 90%| 92%| 92%| 94%| 95%| 97%
+|Chesterfield Falcons| 46%|--| 51%| 62%| 63%| 69%| 70%| 72%| 75%| 77%| 79%| 83%| 84%| 85%| 86%| 88%| 91%| 91%| 93%| 94%| 97%
+|Philadelphia Blazers| 45%| 49%|--| 61%| 62%| 69%| 70%| 71%| 74%| 76%| 78%| 83%| 83%| 85%| 86%| 88%| 91%| 91%| 93%| 94%| 96%
+|MYHA 18U AA Blue| 34%| 38%| 39%|--| 51%| 58%| 59%| 60%| 64%| 67%| 69%| 75%| 76%| 78%| 80%| 82%| 86%| 86%| 89%| 91%| 94%
+|Arizona Bobcats| 33%| 37%| 38%| 49%|--| 57%| 58%| 60%| 63%| 66%| 69%| 74%| 75%| 77%| 79%| 81%| 85%| 86%| 89%| 91%| 94%
+|Allegheny Badgers| 27%| 31%| 31%| 42%| 43%|--| 51%| 53%| 57%| 60%| 62%| 69%| 69%| 72%| 74%| 77%| 81%| 82%| 86%| 88%| 92%
+|North Jersey Skylands Kings| 26%| 30%| 30%| 41%| 42%| 49%|--| 51%| 55%| 58%| 61%| 67%| 68%| 71%| 73%| 76%| 81%| 81%| 85%| 88%| 92%
+|Team Philadelphia| 25%| 28%| 29%| 40%| 40%| 47%| 49%|--| 54%| 57%| 60%| 66%| 67%| 70%| 72%| 75%| 80%| 80%| 85%| 87%| 92%
+|Cherry Creek Bruins| 22%| 25%| 26%| 36%| 37%| 43%| 45%| 46%|--| 53%| 56%| 62%| 63%| 66%| 68%| 72%| 77%| 77%| 82%| 85%| 90%
+|York Devils| 20%| 23%| 24%| 33%| 34%| 40%| 42%| 43%| 47%|--| 53%| 59%| 60%| 64%| 66%| 69%| 75%| 75%| 80%| 84%| 89%
+|MYHA 18U AA Gold| 19%| 21%| 22%| 31%| 31%| 38%| 39%| 40%| 44%| 47%|--| 57%| 58%| 61%| 63%| 67%| 73%| 73%| 79%| 82%| 88%
+|Lehigh Valley Phantoms Youth U18AA| 15%| 17%| 17%| 25%| 26%| 31%| 33%| 34%| 38%| 41%| 43%|--| 51%| 54%| 57%| 60%| 67%| 67%| 74%| 78%| 85%
+|Lancaster Firebrids 18U AA| 14%| 16%| 17%| 24%| 25%| 31%| 32%| 33%| 37%| 40%| 42%| 49%|--| 53%| 56%| 59%| 66%| 66%| 73%| 77%| 84%
+|Wildcats 18U AA| 13%| 15%| 15%| 22%| 23%| 28%| 29%| 30%| 34%| 36%| 39%| 46%| 47%|--| 52%| 56%| 63%| 63%| 70%| 75%| 83%
+|Clearwater Ice Storm Blue| 12%| 14%| 14%| 20%| 21%| 26%| 27%| 28%| 32%| 34%| 37%| 43%| 44%| 48%|--| 54%| 61%| 61%| 68%| 73%| 81%
+|Igloo Jaguars 18UAA Premier| 10%| 12%| 12%| 18%| 19%| 23%| 24%| 25%| 28%| 31%| 33%| 40%| 41%| 44%| 46%|--| 57%| 57%| 65%| 70%| 79%
+|Haverford Hawks|  8%|  9%|  9%| 14%| 15%| 19%| 19%| 20%| 23%| 25%| 27%| 33%| 34%| 37%| 39%| 43%|--| 50%| 58%| 63%| 74%
+|Tri-City Eagles 18U Gold|  8%|  9%|  9%| 14%| 14%| 18%| 19%| 20%| 23%| 25%| 27%| 33%| 34%| 37%| 39%| 43%| 50%|--| 58%| 63%| 73%
+|Igloo Jaguars 18UAA Elite|  6%|  7%|  7%| 11%| 11%| 14%| 15%| 15%| 18%| 20%| 21%| 26%| 27%| 30%| 32%| 35%| 42%| 42%|--| 56%| 67%
+|Palmyra Black Knights|  5%|  6%|  6%|  9%|  9%| 12%| 12%| 13%| 15%| 16%| 18%| 22%| 23%| 25%| 27%| 30%| 37%| 37%| 44%|--| 62%
+|Delaware Ducks|  3%|  3%|  4%|  6%|  6%|  8%|  8%|  8%| 10%| 11%| 12%| 15%| 16%| 17%| 19%| 21%| 26%| 27%| 33%| 38%|--
 
 ## Generation Details
 
@@ -63,8 +67,8 @@ Generated with command line:
 
 | Option | Value |
 | :----- | ----: |
-| Start Date | 2022-08-26 |
-| End Date | 2023-02-12 |
+| Start Date | 2023-08-26 |
+| End Date | 2023-09-03 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
@@ -72,5 +76,5 @@ Generated with command line:
 | Tie Value | 0.85 |
 | Fake Ties | 1 |
 | Ignore teams | __KRACH_FAKE_TEAM__ |
-| Min Games Played | 12 |
+| Min Games Played | 4 |
 

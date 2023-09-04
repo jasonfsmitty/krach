@@ -10,9 +10,9 @@ import common.commands as commands
 
 #----------------------------------------------------------------------------
 def showRankings(divisionName, ledger, ratings, league):
-    dividor = "-" * 115
+    dividor = "-" * 120
     print(f"Division: {divisionName}")
-    print(f"Rank KRACH   Subdivision     Team                                     GP  WW-LL-SW-SL-TT    SoS | Predict Diff")
+    print(f"Rank KRACH   Subdivision     Team                                     GP  WW-LL-SW-SL-TT    SoS | Predict Diff WinPt Match")
     print(dividor)
 
     diffTotal = 0.0
@@ -33,7 +33,9 @@ def showRankings(divisionName, ledger, ratings, league):
         sos    = rating.sos
         exp    = rating.expected
         diff   = rating.diff
-        print(f"{rank:>3} {value:>6} : {subdiv:<13} : {team:<40} {gp:>2}  {record} {sos:>6} | {exp:>5.1f} {diff:>5.1f}")
+        winPts = rating.winPoints
+        matchupFactor = rating.matchupFactor
+        print(f"{rank:>3} {value:>6} : {subdiv:<13} : {team:<40} {gp:>2}  {record} {sos:>6} | {exp:>5.1f} {diff:>5.1f} {winPts:>5.1f} {matchupFactor:>5.1f}")
         rawTotal  += diff
         diffTotal += abs(diff)
     print("")

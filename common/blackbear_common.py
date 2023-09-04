@@ -3,7 +3,7 @@
 from enum import Enum
 
 #----------------------------------------------------------------------------
-# Hardcoded for 2022-23 season
+# Hardcoded for 2023-24 season
 AHF_SeasonId = 3659
 AGHF_SeasonId = 3663
 THF_SeasonId = 3664
@@ -14,7 +14,7 @@ THF_DivisionsIgnore = {
 	'USPHL',
 }
 
-AHF_DivisionsIgnore = {}
+AHF_DivisionsIgnore = {'8U Beginner', '8U Intermediate', '8U Advanced'}
 
 AGHF_DivisionsIgnore = {}
 
@@ -26,7 +26,7 @@ DEFAULT_MAX_DIFF       = 0.00001
 DEFAULT_SHOOTOUT_VALUE = 1.0
 DEFAULT_FAKES          = 1
 DEFAULT_TIE_VALUE      = 0.85
-DEFAULT_MIN_GAMES      = 12
+DEFAULT_MIN_GAMES      = 4
 DEFAULT_SCALE_FACTOR   = 10000
 
 #----------------------------------------------------------------------------

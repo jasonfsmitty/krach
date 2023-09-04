@@ -139,6 +139,7 @@ def updateCommand(args, SeasonId, League):
     divisions = [args.div] if args.div else Divisions
     toc = []
     for divisionName in divisions:
+        logging.info("Updating ratings for " + divisionName)
         toc.append(updateRatings(options, args.cutoff, divisionName, args.test, Divisions, League))
 
     if not args.test:

@@ -2,25 +2,35 @@
 # 14U AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|5475|Championship|Ashburn Xtreme 2008|17|14|0|2|0|1|296|16.8|-0.0
-2|1193|Championship|North Jersey Avalanche|17|13|0|1|2|1|492|14.8|-0.0
-3|450|Championship|York Devils|41|29|7|3|1|1|279|32.9|0.0
-4|434|Championship|Long Island Rebels|19|12|3|0|3|1|538|12.9|0.0
-5|339|Gold|Valley Forge Colonials|41|21|10|6|3|1|576|27.9|0.0
-6|238|Gold|Rye Rangers|17|7|6|2|1|1|594|9.9|0.0
-7|200|Gold|NJ Bandits|41|22|13|3|2|1|337|25.9|0.0
-8|168|Gold|Igloo Jaguars|41|23|14|2|1|1|175|25.9|0.0
-9|147|Silver|Team Philadelphia|41|22|9|2|7|1|401|24.9|0.0
-10|128|Silver|Haverford Hawks|41|17|13|5|5|1|402|22.9|0.0
-11|117|Silver|MYHA 14U AA|17|7|6|1|2|1|171|8.9|0.0
-12|115|Silver|Rockets Hockey Club Black|42|15|21|3|2|1|359|18.9|0.0
-13|74||PAL Blue Knights|17|6|7|1|2|1|144|7.9|0.0
-14|63||Delaware Ducks|41|16|20|2|2|1|167|18.9|0.0
-15|38||Tomorrow's Ice Selects|41|10|26|3|1|1|412|13.9|0.0
-16|23||Lehigh Valley Phantoms|41|12|27|1|0|1|126|13.9|0.0
-17|13||The St. James Gold|17|2|13|1|0|1|124|3.9|0.0
-18|13||Palmyra Black Knights|41|9|28|0|3|1|152|9.9|0.0
-19|7||Rockets Hockey Club White|40|5|33|0|1|1|182|5.9|0.0
+1|2624|Championship|PHA Icemen|6|5|0|0|0|1|428|5.8|-0.0
+2|898|Championship|Grundy Senators|5|4|0|0|0|1|167|4.9|0.0
+3|807|Championship|Long Island Whalers Bantam 2009|5|3|1|0|0|1|731|3.8|-0.0
+4|712|Championship|Clearwater Ice Storm|5|4|0|0|0|1|122|4.9|0.0
+5|666|Gold|Allegheny Badgers|6|4|1|0|0|1|563|4.8|-0.0
+6|507|Gold|Lehigh Valley Phantoms Youth U14AA|7|4|1|0|0|2|530|5.7|-0.0
+7|398|Gold|Lancaster Firbirds 14U Black|6|4|1|0|0|1|188|4.9|0.0
+8|332|Gold|Igloo Jaguars 14UAA|5|2|1|0|0|2|329|3.7|-0.0
+9|296|Silver|MYHA 14U AA|5|2|2|0|0|1|773|2.8|-0.0
+10|293|Silver|Tri-City Eagles 14U Blue|5|3|1|0|0|1|247|3.9|0.0
+11|284|Silver|NYC Skyliners|5|2|2|0|0|1|379|2.9|0.0
+12|228|Silver|Ashburn Xtreme 2009|5|2|2|0|0|1|374|2.8|-0.0
+13|219|Bronze|Palmyra Black Knights|5|3|1|0|0|1|121|3.9|0.0
+14|203|Bronze|VFC Bantam 14 AA Fields|5|3|1|0|0|1|115|3.9|0.0
+15|184|Bronze|South Pittsburgh Rebellion-Shell|5|2|2|0|0|1|195|2.8|-0.0
+16|177|Bronze|Team Philadelphia|5|2|1|0|0|2|222|3.7|0.0
+17|161||Wissahickon Warriors AA|5|2|2|0|0|1|238|2.8|-0.0
+18|126||North Jersey Avalanche|5|2|2|0|0|1|225|2.9|0.0
+19|115||Haverford Hawks 14UAA|5|1|3|0|0|1|745|1.8|-0.0
+20|109||Wildcats 14U AA|5|1|3|0|0|1|335|1.9|0.0
+21|104||PAL Blue Knights|5|2|2|0|0|1|138|2.9|0.0
+22|77||Mercer Chiefs|5|1|3|0|0|1|224|1.9|0.0
+23|74||Darien|5|0|3|0|0|2|286|1.7|-0.0
+24|52||JR Black Bears14U White|5|1|3|0|0|1|152|1.9|0.0
+25|48||Arrows 14U Green|5|0|4|0|0|1|394|0.9|0.0
+26|37||RHC Bantam AA|6|0|5|0|0|1|300|0.9|0.0
+27|36||Rye Rangers TB|5|0|4|0|0|1|250|0.8|-0.0
+28|32||Apple Core 14U|5|0|4|0|0|1|315|0.9|0.0
+29|22||Delaware Ducks|5|0|4|0|0|1|234|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
@@ -32,27 +42,37 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Ashburn Xtreme 2008|North Jersey Avalanche|York Devils|Long Island Rebels|Valley Forge Colonials|Rye Rangers|NJ Bandits|Igloo Jaguars|Team Philadelphia|Haverford Hawks|MYHA 14U AA|Rockets Hockey Club Black|PAL Blue Knights|Delaware Ducks|Tomorrow's Ice Selects|Lehigh Valley Phantoms|The St. James Gold|Palmyra Black Knights|Rockets Hockey Club White
-| --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Ashburn Xtreme 2008|--| 82%| 92%| 93%| 94%| 96%| 96%| 97%| 97%| 98%| 98%| 98%| 99%| 99%| 99%|100%|100%|100%|100%
-|North Jersey Avalanche| 18%|--| 73%| 73%| 78%| 83%| 86%| 88%| 89%| 90%| 91%| 91%| 94%| 95%| 97%| 98%| 99%| 99%| 99%
-|York Devils|  8%| 27%|--| 51%| 57%| 65%| 69%| 73%| 75%| 78%| 79%| 80%| 86%| 88%| 92%| 95%| 97%| 97%| 99%
-|Long Island Rebels|  7%| 27%| 49%|--| 56%| 65%| 68%| 72%| 75%| 77%| 79%| 79%| 85%| 87%| 92%| 95%| 97%| 97%| 98%
-|Valley Forge Colonials|  6%| 22%| 43%| 44%|--| 59%| 63%| 67%| 70%| 73%| 74%| 75%| 82%| 84%| 90%| 94%| 96%| 96%| 98%
-|Rye Rangers|  4%| 17%| 35%| 35%| 41%|--| 54%| 59%| 62%| 65%| 67%| 67%| 76%| 79%| 86%| 91%| 95%| 95%| 97%
-|NJ Bandits|  4%| 14%| 31%| 32%| 37%| 46%|--| 54%| 58%| 61%| 63%| 63%| 73%| 76%| 84%| 89%| 94%| 94%| 97%
-|Igloo Jaguars|  3%| 12%| 27%| 28%| 33%| 41%| 46%|--| 53%| 57%| 59%| 59%| 69%| 73%| 81%| 88%| 93%| 93%| 96%
-|Team Philadelphia|  3%| 11%| 25%| 25%| 30%| 38%| 42%| 47%|--| 53%| 56%| 56%| 66%| 70%| 79%| 86%| 92%| 92%| 96%
-|Haverford Hawks|  2%| 10%| 22%| 23%| 27%| 35%| 39%| 43%| 47%|--| 52%| 53%| 63%| 67%| 77%| 84%| 91%| 91%| 95%
-|MYHA 14U AA|  2%|  9%| 21%| 21%| 26%| 33%| 37%| 41%| 44%| 48%|--| 50%| 61%| 65%| 75%| 83%| 90%| 90%| 95%
-|Rockets Hockey Club Black|  2%|  9%| 20%| 21%| 25%| 33%| 37%| 41%| 44%| 47%| 50%|--| 61%| 64%| 75%| 83%| 90%| 90%| 95%
-|PAL Blue Knights|  1%|  6%| 14%| 15%| 18%| 24%| 27%| 31%| 34%| 37%| 39%| 39%|--| 54%| 66%| 76%| 85%| 86%| 92%
-|Delaware Ducks|  1%|  5%| 12%| 13%| 16%| 21%| 24%| 27%| 30%| 33%| 35%| 36%| 46%|--| 62%| 73%| 83%| 83%| 91%
-|Tomorrow's Ice Selects|  1%|  3%|  8%|  8%| 10%| 14%| 16%| 19%| 21%| 23%| 25%| 25%| 34%| 38%|--| 62%| 75%| 75%| 85%
-|Lehigh Valley Phantoms|  0%|  2%|  5%|  5%|  6%|  9%| 11%| 12%| 14%| 16%| 17%| 17%| 24%| 27%| 38%|--| 64%| 65%| 78%
-|The St. James Gold|  0%|  1%|  3%|  3%|  4%|  5%|  6%|  7%|  8%|  9%| 10%| 10%| 15%| 17%| 25%| 36%|--| 51%| 66%
-|Palmyra Black Knights|  0%|  1%|  3%|  3%|  4%|  5%|  6%|  7%|  8%|  9%| 10%| 10%| 14%| 17%| 25%| 35%| 49%|--| 65%
-|Rockets Hockey Club White|  0%|  1%|  1%|  2%|  2%|  3%|  3%|  4%|  4%|  5%|  5%|  5%|  8%|  9%| 15%| 22%| 34%| 35%|--
+||PHA Icemen|Grundy Senators|Long Island Whalers Bantam 2009|Clearwater Ice Storm|Allegheny Badgers|Lehigh Valley Phantoms Youth U14AA|Lancaster Firbirds 14U Black|Igloo Jaguars 14UAA|MYHA 14U AA|Tri-City Eagles 14U Blue|NYC Skyliners|Ashburn Xtreme 2009|Palmyra Black Knights|VFC Bantam 14 AA Fields|South Pittsburgh Rebellion-Shell|Team Philadelphia|Wissahickon Warriors AA|North Jersey Avalanche|Haverford Hawks 14UAA|Wildcats 14U AA|PAL Blue Knights|Mercer Chiefs|Darien|JR Black Bears14U White|Arrows 14U Green|RHC Bantam AA|Rye Rangers TB|Apple Core 14U|Delaware Ducks
+| --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
+|PHA Icemen|--| 74%| 76%| 79%| 80%| 84%| 87%| 89%| 90%| 90%| 90%| 92%| 92%| 93%| 93%| 94%| 94%| 95%| 96%| 96%| 96%| 97%| 97%| 98%| 98%| 99%| 99%| 99%| 99%
+|Grundy Senators| 26%|--| 53%| 56%| 57%| 64%| 69%| 73%| 75%| 75%| 76%| 80%| 80%| 82%| 83%| 83%| 85%| 88%| 89%| 89%| 90%| 92%| 92%| 95%| 95%| 96%| 96%| 97%| 98%
+|Long Island Whalers Bantam 2009| 24%| 47%|--| 53%| 55%| 61%| 67%| 71%| 73%| 73%| 74%| 78%| 79%| 80%| 81%| 82%| 83%| 87%| 88%| 88%| 89%| 91%| 92%| 94%| 94%| 96%| 96%| 96%| 97%
+|Clearwater Ice Storm| 21%| 44%| 47%|--| 52%| 58%| 64%| 68%| 71%| 71%| 72%| 76%| 76%| 78%| 79%| 80%| 82%| 85%| 86%| 87%| 87%| 90%| 91%| 93%| 94%| 95%| 95%| 96%| 97%
+|Allegheny Badgers| 20%| 43%| 45%| 48%|--| 57%| 63%| 67%| 69%| 69%| 70%| 74%| 75%| 77%| 78%| 79%| 81%| 84%| 85%| 86%| 86%| 90%| 90%| 93%| 93%| 95%| 95%| 95%| 97%
+|Lehigh Valley Phantoms Youth U14AA| 16%| 36%| 39%| 42%| 43%|--| 56%| 60%| 63%| 63%| 64%| 69%| 70%| 71%| 73%| 74%| 76%| 80%| 82%| 82%| 83%| 87%| 87%| 91%| 91%| 93%| 93%| 94%| 96%
+|Lancaster Firbirds 14U Black| 13%| 31%| 33%| 36%| 37%| 44%|--| 55%| 57%| 58%| 58%| 64%| 64%| 66%| 68%| 69%| 71%| 76%| 78%| 79%| 79%| 84%| 84%| 88%| 89%| 92%| 92%| 93%| 95%
+|Igloo Jaguars 14UAA| 11%| 27%| 29%| 32%| 33%| 40%| 45%|--| 53%| 53%| 54%| 59%| 60%| 62%| 64%| 65%| 67%| 73%| 74%| 75%| 76%| 81%| 82%| 86%| 87%| 90%| 90%| 91%| 94%
+|MYHA 14U AA| 10%| 25%| 27%| 29%| 31%| 37%| 43%| 47%|--| 50%| 51%| 56%| 57%| 59%| 62%| 63%| 65%| 70%| 72%| 73%| 74%| 79%| 80%| 85%| 86%| 89%| 89%| 90%| 93%
+|Tri-City Eagles 14U Blue| 10%| 25%| 27%| 29%| 31%| 37%| 42%| 47%| 50%|--| 51%| 56%| 57%| 59%| 61%| 62%| 65%| 70%| 72%| 73%| 74%| 79%| 80%| 85%| 86%| 89%| 89%| 90%| 93%
+|NYC Skyliners| 10%| 24%| 26%| 28%| 30%| 36%| 42%| 46%| 49%| 49%|--| 55%| 56%| 58%| 61%| 62%| 64%| 69%| 71%| 72%| 73%| 79%| 79%| 84%| 86%| 89%| 89%| 90%| 93%
+|Ashburn Xtreme 2009|  8%| 20%| 22%| 24%| 26%| 31%| 36%| 41%| 44%| 44%| 45%|--| 51%| 53%| 55%| 56%| 59%| 65%| 67%| 68%| 69%| 75%| 75%| 81%| 83%| 86%| 86%| 88%| 91%
+|Palmyra Black Knights|  8%| 20%| 21%| 24%| 25%| 30%| 36%| 40%| 43%| 43%| 44%| 49%|--| 52%| 54%| 55%| 58%| 64%| 66%| 67%| 68%| 74%| 75%| 81%| 82%| 86%| 86%| 87%| 91%
+|VFC Bantam 14 AA Fields|  7%| 18%| 20%| 22%| 23%| 29%| 34%| 38%| 41%| 41%| 42%| 47%| 48%|--| 52%| 53%| 56%| 62%| 64%| 65%| 66%| 73%| 73%| 80%| 81%| 85%| 85%| 86%| 90%
+|South Pittsburgh Rebellion-Shell|  7%| 17%| 19%| 21%| 22%| 27%| 32%| 36%| 38%| 39%| 39%| 45%| 46%| 48%|--| 51%| 53%| 60%| 62%| 63%| 64%| 71%| 71%| 78%| 79%| 83%| 84%| 85%| 89%
+|Team Philadelphia|  6%| 17%| 18%| 20%| 21%| 26%| 31%| 35%| 37%| 38%| 38%| 44%| 45%| 47%| 49%|--| 52%| 59%| 61%| 62%| 63%| 70%| 70%| 77%| 79%| 83%| 83%| 85%| 89%
+|Wissahickon Warriors AA|  6%| 15%| 17%| 18%| 19%| 24%| 29%| 33%| 35%| 35%| 36%| 41%| 42%| 44%| 47%| 48%|--| 56%| 58%| 60%| 61%| 68%| 68%| 76%| 77%| 81%| 82%| 83%| 88%
+|North Jersey Avalanche|  5%| 12%| 13%| 15%| 16%| 20%| 24%| 27%| 30%| 30%| 31%| 35%| 36%| 38%| 40%| 41%| 44%|--| 52%| 54%| 55%| 62%| 63%| 71%| 72%| 77%| 78%| 80%| 85%
+|Haverford Hawks 14UAA|  4%| 11%| 12%| 14%| 15%| 18%| 22%| 26%| 28%| 28%| 29%| 33%| 34%| 36%| 38%| 39%| 42%| 48%|--| 51%| 52%| 60%| 61%| 69%| 71%| 76%| 76%| 78%| 84%
+|Wildcats 14U AA|  4%| 11%| 12%| 13%| 14%| 18%| 21%| 25%| 27%| 27%| 28%| 32%| 33%| 35%| 37%| 38%| 40%| 46%| 49%|--| 51%| 59%| 59%| 68%| 70%| 75%| 75%| 77%| 83%
+|PAL Blue Knights|  4%| 10%| 11%| 13%| 14%| 17%| 21%| 24%| 26%| 26%| 27%| 31%| 32%| 34%| 36%| 37%| 39%| 45%| 48%| 49%|--| 58%| 58%| 67%| 69%| 74%| 74%| 77%| 82%
+|Mercer Chiefs|  3%|  8%|  9%| 10%| 10%| 13%| 16%| 19%| 21%| 21%| 21%| 25%| 26%| 27%| 29%| 30%| 32%| 38%| 40%| 41%| 42%|--| 51%| 60%| 62%| 68%| 68%| 71%| 77%
+|Darien|  3%|  8%|  8%|  9%| 10%| 13%| 16%| 18%| 20%| 20%| 21%| 25%| 25%| 27%| 29%| 30%| 32%| 37%| 39%| 41%| 42%| 49%|--| 59%| 61%| 67%| 67%| 70%| 77%
+|JR Black Bears14U White|  2%|  5%|  6%|  7%|  7%|  9%| 12%| 14%| 15%| 15%| 16%| 19%| 19%| 20%| 22%| 23%| 24%| 29%| 31%| 32%| 33%| 40%| 41%|--| 52%| 59%| 59%| 62%| 70%
+|Arrows 14U Green|  2%|  5%|  6%|  6%|  7%|  9%| 11%| 13%| 14%| 14%| 14%| 17%| 18%| 19%| 21%| 21%| 23%| 28%| 29%| 30%| 31%| 38%| 39%| 48%|--| 57%| 57%| 60%| 68%
+|RHC Bantam AA|  1%|  4%|  4%|  5%|  5%|  7%|  8%| 10%| 11%| 11%| 11%| 14%| 14%| 15%| 17%| 17%| 19%| 23%| 24%| 25%| 26%| 32%| 33%| 41%| 43%|--| 50%| 53%| 62%
+|Rye Rangers TB|  1%|  4%|  4%|  5%|  5%|  7%|  8%| 10%| 11%| 11%| 11%| 14%| 14%| 15%| 16%| 17%| 18%| 22%| 24%| 25%| 26%| 32%| 33%| 41%| 43%| 50%|--| 53%| 62%
+|Apple Core 14U|  1%|  3%|  4%|  4%|  5%|  6%|  7%|  9%| 10%| 10%| 10%| 12%| 13%| 14%| 15%| 15%| 17%| 20%| 22%| 23%| 23%| 29%| 30%| 38%| 40%| 47%| 47%|--| 59%
+|Delaware Ducks|  1%|  2%|  3%|  3%|  3%|  4%|  5%|  6%|  7%|  7%|  7%|  9%|  9%| 10%| 11%| 11%| 12%| 15%| 16%| 17%| 18%| 23%| 23%| 30%| 32%| 38%| 38%| 41%|--
 
 ## Generation Details
 
@@ -63,8 +83,8 @@ Generated with command line:
 
 | Option | Value |
 | :----- | ----: |
-| Start Date | 2022-08-27 |
-| End Date | 2023-02-12 |
+| Start Date | 2023-08-26 |
+| End Date | 2023-09-03 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
@@ -72,5 +92,5 @@ Generated with command line:
 | Tie Value | 0.85 |
 | Fake Ties | 1 |
 | Ignore teams | __KRACH_FAKE_TEAM__ |
-| Min Games Played | 12 |
+| Min Games Played | 4 |
 
