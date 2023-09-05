@@ -14,7 +14,7 @@ Click below to see KRACH ratings for each division
 | [18U A](18U-A-ratings.md) | 2023-08-20 | 2023-09-03 |
 | [10U AA](10U-AA-ratings.md) | 2023-08-26 | 2023-09-03 |
 | [10U McDavid](10U-McDavid-ratings.md) | 2023-08-26 | 2023-08-27 |
-| [18U AA](18U-AA-ratings.md) | 2023-08-26 | 2023-09-03 |
+| [18U AA](18U-AA-ratings.md) | 2023-08-25 | 2023-09-03 |
 | [15U AA](15U-AA-ratings.md) | 2023-08-19 | 2023-09-03 |
 | [16U Gretzky](16U-Gretzky-ratings.md) | 2023-08-26 | 2023-08-27 |
 | [16U Lemieux](16U-Lemieux-ratings.md) | 2023-08-19 | 2023-08-27 |
@@ -27,4 +27,4 @@ Click below to see KRACH ratings for each division
 | [14U Lemieux](14U-Lemieux-ratings.md) | 2023-08-26 | 2023-09-03 |
 | [12U Gretzky](12U-Gretzky-ratings.md) | 2023-08-26 | 2023-08-27 |
 
-Generated on 2023-09-04 20:08:52.215643.
+Generated on 2023-09-05 19:14:39.639643.
