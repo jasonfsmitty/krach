@@ -27,4 +27,4 @@ Click below to see KRACH ratings for each division
 | [14U Lemieux](14U-Lemieux-ratings.md) | 2023-08-26 | 2023-09-03 |
 | [12U Gretzky](12U-Gretzky-ratings.md) | 2023-08-26 | 2023-08-27 |
 
-Generated on 2023-09-05 19:14:39.639643.
+Generated on 2023-09-05 23:06:32.344946.
