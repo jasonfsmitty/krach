@@ -2,15 +2,15 @@
 # 9U AA KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2872|Championship|Royals 9U AA White|5|4|0|0|0|1|494|4.8|-0.0
-2|1630|Championship|Long Island Whalers Squirt 2014|5|3|1|0|0|1|901|3.9|0.0
-3|1454|Championship|Delaware Ducks|5|3|1|0|0|1|851|3.9|0.0
-4|1454|Championship|MYHA 9U AA|5|3|1|0|0|1|851|3.9|0.0
-5|759||Wilkes-Barre / Scranton Jr Knights|5|2|2|0|0|1|1170|2.8|-0.0
-6|508||Hollydell Hurricanes|5|2|2|0|0|1|918|2.8|-0.0
-7|363||Team Philadelphia|5|1|3|0|0|1|1317|1.9|0.0
-8|154||Arrows 10u Silver|5|0|4|0|0|1|1291|0.8|-0.0
-9|121||RHC Squirt Minor AA|5|0|4|0|0|1|893|0.9|0.0
+1|2303|Championship|MYHA 9U AA|7|5|1|0|0|1|825|5.8|-0.0
+2|1875|Championship|Long Island Whalers Squirt 2014|6|4|1|0|0|1|876|4.8|-0.0
+3|1323|Championship|Royals 9U AA White|6|4|1|0|0|1|545|4.9|0.0
+4|935|Championship|Delaware Ducks|7|3|3|0|0|1|1411|3.8|-0.0
+5|929||Wilkes-Barre / Scranton Jr Knights|6|3|2|0|0|1|919|3.9|0.0
+6|423||Team Philadelphia|6|2|3|0|0|1|920|2.9|0.0
+7|287||Hollydell Hurricanes|6|2|3|0|0|1|578|2.9|0.0
+8|121||Arrows 10u Silver|5|0|4|0|0|1|999|0.9|0.0
+9|87||RHC Squirt Minor AA|6|0|5|0|0|1|880|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
@@ -22,17 +22,17 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Royals 9U AA White|Long Island Whalers Squirt 2014|Delaware Ducks|MYHA 9U AA|Wilkes-Barre / Scranton Jr Knights|Hollydell Hurricanes|Team Philadelphia|Arrows 10u Silver|RHC Squirt Minor AA
+||MYHA 9U AA|Long Island Whalers Squirt 2014|Royals 9U AA White|Delaware Ducks|Wilkes-Barre / Scranton Jr Knights|Team Philadelphia|Hollydell Hurricanes|Arrows 10u Silver|RHC Squirt Minor AA
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Royals 9U AA White|--| 64%| 66%| 66%| 79%| 85%| 89%| 95%| 96%
-|Long Island Whalers Squirt 2014| 36%|--| 53%| 53%| 68%| 76%| 82%| 91%| 93%
-|Delaware Ducks| 34%| 47%|--| 50%| 66%| 74%| 80%| 90%| 92%
-|MYHA 9U AA| 34%| 47%| 50%|--| 66%| 74%| 80%| 90%| 92%
-|Wilkes-Barre / Scranton Jr Knights| 21%| 32%| 34%| 34%|--| 60%| 68%| 83%| 86%
-|Hollydell Hurricanes| 15%| 24%| 26%| 26%| 40%|--| 58%| 77%| 81%
-|Team Philadelphia| 11%| 18%| 20%| 20%| 32%| 42%|--| 70%| 75%
-|Arrows 10u Silver|  5%|  9%| 10%| 10%| 17%| 23%| 30%|--| 56%
-|RHC Squirt Minor AA|  4%|  7%|  8%|  8%| 14%| 19%| 25%| 44%|--
+|MYHA 9U AA|--| 55%| 64%| 71%| 71%| 84%| 89%| 95%| 96%
+|Long Island Whalers Squirt 2014| 45%|--| 59%| 67%| 67%| 82%| 87%| 94%| 96%
+|Royals 9U AA White| 36%| 41%|--| 59%| 59%| 76%| 82%| 92%| 94%
+|Delaware Ducks| 29%| 33%| 41%|--| 50%| 69%| 77%| 89%| 91%
+|Wilkes-Barre / Scranton Jr Knights| 29%| 33%| 41%| 50%|--| 69%| 76%| 88%| 91%
+|Team Philadelphia| 16%| 18%| 24%| 31%| 31%|--| 60%| 78%| 83%
+|Hollydell Hurricanes| 11%| 13%| 18%| 23%| 24%| 40%|--| 70%| 77%
+|Arrows 10u Silver|  5%|  6%|  8%| 11%| 12%| 22%| 30%|--| 58%
+|RHC Squirt Minor AA|  4%|  4%|  6%|  9%|  9%| 17%| 23%| 42%|--
 
 ## Generation Details
 
@@ -44,7 +44,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-09-02 |
-| End Date | 2023-09-03 |
+| End Date | 2023-09-10 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |

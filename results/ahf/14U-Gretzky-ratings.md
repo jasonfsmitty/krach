@@ -2,28 +2,28 @@
 # 14U Gretzky KRACH Rankings
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1646|Championship|Aviator Hockey Club 14U Major|5|4|0|0|0|1|313|4.8|-0.0
-2|1235|Championship|Jersey Colts Bantam Black|5|3|0|0|0|2|463|4.7|0.0
-3|1053|Championship|Team Philadelphia Black|5|3|0|0|0|2|408|4.7|0.0
-4|935|Championship|Haverford Hawks 14UA Black|5|4|0|0|0|1|158|4.9|0.0
-5|733|Gold|Southern Maryland Sabres 14U Gold|5|3|1|0|0|1|517|3.8|-0.0
-6|565|Gold|STJ 14U Navy|5|3|1|0|0|1|388|3.9|0.0
-7|526|Gold|Clearwater Ice Storm|5|3|1|0|0|1|262|3.9|0.0
-8|467|Gold|MYHA 14U UA Blue|5|3|1|0|0|1|248|3.9|0.0
-9|433|Silver|MD Jr. Black Bears 14U Red|5|3|1|0|0|1|211|3.9|0.0
-10|270|Silver|North Jersey Avalanche Blue|5|2|2|0|0|1|347|2.8|-0.0
-11|259|Silver|Royals 14U Gold|5|2|2|0|0|1|592|2.8|-0.0
-12|230|Silver|York Devils Black|5|1|3|0|0|1|773|1.8|-0.0
-13|217||North Jersey Kings Blue|5|1|3|0|0|1|553|1.9|0.0
-14|194||Rye Rangers|5|1|2|0|0|2|462|2.7|0.0
-15|191||Wilkes-Barre / Scranton Jr Knights|5|2|2|0|0|1|267|2.9|0.0
-16|184||Hollydell Hurricanes Red|5|1|2|0|0|2|456|2.7|0.0
-17|161||Lehigh Valley Phantoms Youth U14A|5|1|3|0|0|1|398|1.9|0.0
-18|149||Wildcats 14U A Black|5|1|3|0|0|1|427|1.9|0.0
-19|113||Igloo Jaguars 14UA Black|5|1|3|0|0|1|427|1.9|0.0
-20|58||Tri-City Eagles 14U White|5|0|4|0|0|1|650|0.8|-0.0
-21|56||Wissahickon Warriors Red|5|0|4|0|0|1|342|0.9|0.0
-22|41||Dix Hills Hawks 14U|5|0|4|0|0|1|355|0.9|0.0
+1|1600|Championship|Aviator Hockey Club 14U Major|5|4|0|0|0|1|309|4.8|-0.0
+2|1263|Championship|Jersey Colts Bantam Black|6|4|0|0|0|2|380|5.7|-0.0
+3|772|Championship|Team Philadelphia Black|7|4|1|0|0|2|406|5.7|-0.0
+4|732|Championship|Southern Maryland Sabres 14U Gold|5|3|1|0|0|1|520|3.8|-0.0
+5|700|Gold|MYHA 14U UA Blue|7|5|1|0|0|1|245|5.9|0.0
+6|697|Gold|Haverford Hawks 14UA Black|7|5|1|0|0|1|261|5.9|0.0
+7|606|Gold|Clearwater Ice Storm|5|3|1|0|0|1|330|3.9|0.0
+8|589|Gold|MD Jr. Black Bears 14U Red|7|4|2|0|0|1|406|4.9|0.0
+9|550|Silver|STJ 14U Navy|5|3|1|0|0|1|392|3.9|0.0
+10|430|Silver|North Jersey Avalanche Blue|8|5|2|0|0|1|279|5.8|-0.0
+11|361|Silver|York Devils Black|7|2|4|0|0|1|814|2.8|-0.0
+12|348|Silver|North Jersey Kings Blue|8|4|3|0|0|1|393|4.9|0.0
+13|197||Lehigh Valley Phantoms Youth U14A|7|2|4|0|0|1|519|2.9|0.0
+14|185||Rye Rangers|5|1|2|0|0|2|404|2.7|-0.0
+15|179||Wildcats 14U A Black|7|3|3|0|0|1|272|3.9|0.0
+16|130||Hollydell Hurricanes Red|7|1|4|0|0|2|535|2.7|0.0
+17|112||Tri-City Eagles 14U White|7|2|4|0|0|1|428|2.9|0.0
+18|111||Wilkes-Barre / Scranton Jr Knights|8|2|5|0|0|1|319|2.9|0.0
+19|64||Royals 14U Gold|8|2|5|0|0|1|380|2.9|0.0
+20|48||Igloo Jaguars 14UA Black|8|1|6|0|0|1|325|1.9|0.0
+21|33||Wissahickon Warriors Red|6|0|5|0|0|1|373|0.9|0.0
+22|20||Dix Hills Hawks 14U|6|0|5|0|0|1|274|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
@@ -35,30 +35,30 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Aviator Hockey Club 14U Major|Jersey Colts Bantam Black|Team Philadelphia Black|Haverford Hawks 14UA Black|Southern Maryland Sabres 14U Gold|STJ 14U Navy|Clearwater Ice Storm|MYHA 14U UA Blue|MD Jr. Black Bears 14U Red|North Jersey Avalanche Blue|Royals 14U Gold|York Devils Black|North Jersey Kings Blue|Rye Rangers|Wilkes-Barre / Scranton Jr Knights|Hollydell Hurricanes Red|Lehigh Valley Phantoms Youth U14A|Wildcats 14U A Black|Igloo Jaguars 14UA Black|Tri-City Eagles 14U White|Wissahickon Warriors Red|Dix Hills Hawks 14U
+||Aviator Hockey Club 14U Major|Jersey Colts Bantam Black|Team Philadelphia Black|Southern Maryland Sabres 14U Gold|MYHA 14U UA Blue|Haverford Hawks 14UA Black|Clearwater Ice Storm|MD Jr. Black Bears 14U Red|STJ 14U Navy|North Jersey Avalanche Blue|York Devils Black|North Jersey Kings Blue|Lehigh Valley Phantoms Youth U14A|Rye Rangers|Wildcats 14U A Black|Hollydell Hurricanes Red|Tri-City Eagles 14U White|Wilkes-Barre / Scranton Jr Knights|Royals 14U Gold|Igloo Jaguars 14UA Black|Wissahickon Warriors Red|Dix Hills Hawks 14U
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Aviator Hockey Club 14U Major|--| 57%| 61%| 64%| 69%| 74%| 76%| 78%| 79%| 86%| 86%| 88%| 88%| 89%| 90%| 90%| 91%| 92%| 94%| 97%| 97%| 98%
-|Jersey Colts Bantam Black| 43%|--| 54%| 57%| 63%| 69%| 70%| 73%| 74%| 82%| 83%| 84%| 85%| 86%| 87%| 87%| 88%| 89%| 92%| 95%| 96%| 97%
-|Team Philadelphia Black| 39%| 46%|--| 53%| 59%| 65%| 67%| 69%| 71%| 80%| 80%| 82%| 83%| 84%| 85%| 85%| 87%| 88%| 90%| 95%| 95%| 96%
-|Haverford Hawks 14UA Black| 36%| 43%| 47%|--| 56%| 62%| 64%| 67%| 68%| 78%| 78%| 80%| 81%| 83%| 83%| 84%| 85%| 86%| 89%| 94%| 94%| 96%
-|Southern Maryland Sabres 14U Gold| 31%| 37%| 41%| 44%|--| 56%| 58%| 61%| 63%| 73%| 74%| 76%| 77%| 79%| 79%| 80%| 82%| 83%| 87%| 93%| 93%| 95%
-|STJ 14U Navy| 26%| 31%| 35%| 38%| 44%|--| 52%| 55%| 57%| 68%| 69%| 71%| 72%| 74%| 75%| 75%| 78%| 79%| 83%| 91%| 91%| 93%
-|Clearwater Ice Storm| 24%| 30%| 33%| 36%| 42%| 48%|--| 53%| 55%| 66%| 67%| 70%| 71%| 73%| 73%| 74%| 77%| 78%| 82%| 90%| 90%| 93%
-|MYHA 14U UA Blue| 22%| 27%| 31%| 33%| 39%| 45%| 47%|--| 52%| 63%| 64%| 67%| 68%| 71%| 71%| 72%| 74%| 76%| 81%| 89%| 89%| 92%
-|MD Jr. Black Bears 14U Red| 21%| 26%| 29%| 32%| 37%| 43%| 45%| 48%|--| 62%| 63%| 65%| 67%| 69%| 69%| 70%| 73%| 74%| 79%| 88%| 89%| 91%
-|North Jersey Avalanche Blue| 14%| 18%| 20%| 22%| 27%| 32%| 34%| 37%| 38%|--| 51%| 54%| 55%| 58%| 58%| 59%| 63%| 64%| 71%| 82%| 83%| 87%
-|Royals 14U Gold| 14%| 17%| 20%| 22%| 26%| 31%| 33%| 36%| 37%| 49%|--| 53%| 54%| 57%| 58%| 58%| 62%| 63%| 70%| 82%| 82%| 86%
-|York Devils Black| 12%| 16%| 18%| 20%| 24%| 29%| 30%| 33%| 35%| 46%| 47%|--| 52%| 54%| 55%| 56%| 59%| 61%| 67%| 80%| 80%| 85%
-|North Jersey Kings Blue| 12%| 15%| 17%| 19%| 23%| 28%| 29%| 32%| 33%| 45%| 46%| 48%|--| 53%| 53%| 54%| 57%| 59%| 66%| 79%| 80%| 84%
-|Rye Rangers| 11%| 14%| 16%| 17%| 21%| 26%| 27%| 29%| 31%| 42%| 43%| 46%| 47%|--| 50%| 51%| 55%| 57%| 63%| 77%| 78%| 82%
-|Wilkes-Barre / Scranton Jr Knights| 10%| 13%| 15%| 17%| 21%| 25%| 27%| 29%| 31%| 42%| 42%| 45%| 47%| 50%|--| 51%| 54%| 56%| 63%| 77%| 77%| 82%
-|Hollydell Hurricanes Red| 10%| 13%| 15%| 16%| 20%| 25%| 26%| 28%| 30%| 41%| 42%| 44%| 46%| 49%| 49%|--| 53%| 55%| 62%| 76%| 77%| 82%
-|Lehigh Valley Phantoms Youth U14A|  9%| 12%| 13%| 15%| 18%| 22%| 23%| 26%| 27%| 37%| 38%| 41%| 43%| 45%| 46%| 47%|--| 52%| 59%| 73%| 74%| 80%
-|Wildcats 14U A Black|  8%| 11%| 12%| 14%| 17%| 21%| 22%| 24%| 26%| 36%| 37%| 39%| 41%| 43%| 44%| 45%| 48%|--| 57%| 72%| 73%| 78%
-|Igloo Jaguars 14UA Black|  6%|  8%| 10%| 11%| 13%| 17%| 18%| 19%| 21%| 29%| 30%| 33%| 34%| 37%| 37%| 38%| 41%| 43%|--| 66%| 67%| 73%
-|Tri-City Eagles 14U White|  3%|  5%|  5%|  6%|  7%|  9%| 10%| 11%| 12%| 18%| 18%| 20%| 21%| 23%| 23%| 24%| 27%| 28%| 34%|--| 51%| 59%
-|Wissahickon Warriors Red|  3%|  4%|  5%|  6%|  7%|  9%| 10%| 11%| 11%| 17%| 18%| 20%| 20%| 22%| 23%| 23%| 26%| 27%| 33%| 49%|--| 57%
-|Dix Hills Hawks 14U|  2%|  3%|  4%|  4%|  5%|  7%|  7%|  8%|  9%| 13%| 14%| 15%| 16%| 18%| 18%| 18%| 20%| 22%| 27%| 41%| 43%|--
+|Aviator Hockey Club 14U Major|--| 56%| 67%| 69%| 70%| 70%| 73%| 73%| 74%| 79%| 82%| 82%| 89%| 90%| 90%| 92%| 93%| 94%| 96%| 97%| 98%| 99%
+|Jersey Colts Bantam Black| 44%|--| 62%| 63%| 64%| 64%| 68%| 68%| 70%| 75%| 78%| 78%| 87%| 87%| 88%| 91%| 92%| 92%| 95%| 96%| 97%| 98%
+|Team Philadelphia Black| 33%| 38%|--| 51%| 52%| 53%| 56%| 57%| 58%| 64%| 68%| 69%| 80%| 81%| 81%| 86%| 87%| 87%| 92%| 94%| 96%| 97%
+|Southern Maryland Sabres 14U Gold| 31%| 37%| 49%|--| 51%| 51%| 55%| 55%| 57%| 63%| 67%| 68%| 79%| 80%| 80%| 85%| 87%| 87%| 92%| 94%| 96%| 97%
+|MYHA 14U UA Blue| 30%| 36%| 48%| 49%|--| 50%| 54%| 54%| 56%| 62%| 66%| 67%| 78%| 79%| 80%| 84%| 86%| 86%| 92%| 94%| 95%| 97%
+|Haverford Hawks 14UA Black| 30%| 36%| 47%| 49%| 50%|--| 53%| 54%| 56%| 62%| 66%| 67%| 78%| 79%| 80%| 84%| 86%| 86%| 92%| 94%| 95%| 97%
+|Clearwater Ice Storm| 27%| 32%| 44%| 45%| 46%| 47%|--| 51%| 52%| 59%| 63%| 64%| 76%| 77%| 77%| 82%| 84%| 85%| 90%| 93%| 95%| 97%
+|MD Jr. Black Bears 14U Red| 27%| 32%| 43%| 45%| 46%| 46%| 49%|--| 52%| 58%| 62%| 63%| 75%| 76%| 77%| 82%| 84%| 84%| 90%| 93%| 95%| 97%
+|STJ 14U Navy| 26%| 30%| 42%| 43%| 44%| 44%| 48%| 48%|--| 56%| 60%| 61%| 74%| 75%| 75%| 81%| 83%| 83%| 90%| 92%| 94%| 97%
+|North Jersey Avalanche Blue| 21%| 25%| 36%| 37%| 38%| 38%| 41%| 42%| 44%|--| 54%| 55%| 69%| 70%| 71%| 77%| 79%| 80%| 87%| 90%| 93%| 96%
+|York Devils Black| 18%| 22%| 32%| 33%| 34%| 34%| 37%| 38%| 40%| 46%|--| 51%| 65%| 66%| 67%| 74%| 76%| 77%| 85%| 88%| 92%| 95%
+|North Jersey Kings Blue| 18%| 22%| 31%| 32%| 33%| 33%| 36%| 37%| 39%| 45%| 49%|--| 64%| 65%| 66%| 73%| 76%| 76%| 84%| 88%| 91%| 95%
+|Lehigh Valley Phantoms Youth U14A| 11%| 13%| 20%| 21%| 22%| 22%| 24%| 25%| 26%| 31%| 35%| 36%|--| 52%| 52%| 60%| 64%| 64%| 75%| 80%| 86%| 91%
+|Rye Rangers| 10%| 13%| 19%| 20%| 21%| 21%| 23%| 24%| 25%| 30%| 34%| 35%| 48%|--| 51%| 59%| 62%| 63%| 74%| 79%| 85%| 90%
+|Wildcats 14U A Black| 10%| 12%| 19%| 20%| 20%| 20%| 23%| 23%| 25%| 29%| 33%| 34%| 48%| 49%|--| 58%| 61%| 62%| 74%| 79%| 84%| 90%
+|Hollydell Hurricanes Red|  8%|  9%| 14%| 15%| 16%| 16%| 18%| 18%| 19%| 23%| 26%| 27%| 40%| 41%| 42%|--| 54%| 54%| 67%| 73%| 80%| 87%
+|Tri-City Eagles 14U White|  7%|  8%| 13%| 13%| 14%| 14%| 16%| 16%| 17%| 21%| 24%| 24%| 36%| 38%| 39%| 46%|--| 50%| 63%| 70%| 77%| 85%
+|Wilkes-Barre / Scranton Jr Knights|  6%|  8%| 13%| 13%| 14%| 14%| 15%| 16%| 17%| 20%| 23%| 24%| 36%| 37%| 38%| 46%| 50%|--| 63%| 70%| 77%| 85%
+|Royals 14U Gold|  4%|  5%|  8%|  8%|  8%|  8%| 10%| 10%| 10%| 13%| 15%| 16%| 25%| 26%| 26%| 33%| 37%| 37%|--| 57%| 66%| 76%
+|Igloo Jaguars 14UA Black|  3%|  4%|  6%|  6%|  6%|  6%|  7%|  7%|  8%| 10%| 12%| 12%| 20%| 21%| 21%| 27%| 30%| 30%| 43%|--| 59%| 71%
+|Wissahickon Warriors Red|  2%|  3%|  4%|  4%|  5%|  5%|  5%|  5%|  6%|  7%|  8%|  9%| 14%| 15%| 16%| 20%| 23%| 23%| 34%| 41%|--| 63%
+|Dix Hills Hawks 14U|  1%|  2%|  3%|  3%|  3%|  3%|  3%|  3%|  3%|  4%|  5%|  5%|  9%| 10%| 10%| 13%| 15%| 15%| 24%| 29%| 37%|--
 
 ## Generation Details
 
@@ -70,7 +70,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-08-25 |
-| End Date | 2023-08-27 |
+| End Date | 2023-09-10 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
