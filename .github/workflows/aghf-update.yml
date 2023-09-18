@@ -10,7 +10,7 @@ jobs:
         run: |
           ./aghf.py download
           ./aghf.py update
-          git config --global user.name "John Greco"
-          git config --global user.email "jfgreco@users.noreply.github.com"
+          git config --global user.name "github-workflow"
+          git config --global user.email "spam@users.noreply.github.com"
           git commit -am "AGHF Automated ranking update: $(date)"
           git push
