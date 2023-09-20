@@ -3,6 +3,7 @@
 import datetime
 import os.path
 import sys
+import re
 
 import common.blackbear_common as bb
 
@@ -19,6 +20,8 @@ def writeMarkdownRankings(outputFile, options, divisionName, ledger, ratings, le
     with open(outputFile, "w") as f:
         f.write(f"[<- back to the index](readme.md)\n")
         f.write(f"# {divisionName} KRACH Rankings\n")
+        f.write("Rankings generated on {}.\n".format(datetime.datetime.now().strftime("%c")))
+        f.write("\n")
 
         lines = [
             ['Rank', 'KRACH', 'Subdivision', 'Team', 'GP',   'W',    'L',    'SOW',  'SOL',  'T',    'SoS', 'Exp Wins', 'Win Diff'],
@@ -115,7 +118,7 @@ def writeDivisionIndex(toc, league):
         f.write("| Division | Season Start | Latest Game |\n")
         f.write("| :-- | :-- | :-- |\n")
 
-        for entry in toc:
+        for entry in sorted(toc, key=lambda x:[int(re.findall('^\d+', x[0])[0]), x]):
             f.write("| [{}]({}) | {} | {} |\n".format(entry[0], os.path.basename(entry[3]), entry[1], entry[2]))
         f.write("\n")
         f.write("Generated on {}.\n".format(datetime.datetime.now()))
