@@ -1,37 +1,39 @@
 [<- back to the index](readme.md)
 # 16U AA KRACH Rankings
+Rankings generated on Wed Sep 20 23:50:55 2023.
+
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2309|Championship|Chesterfield Falcons|6|5|0|0|0|1|399|5.8|-0.0
-2|847|Championship|Ashburn Xtreme #1|9|7|1|0|0|1|376|7.8|-0.0
-3|835|Championship|MYHA 16U AA Blue|7|5|1|0|0|1|487|5.8|-0.0
-4|775|Championship|Apple Core 16U|6|4|0|1|0|1|118|5.9|0.0
-5|513|Gold|Tri-City Eagles 16U Blue|7|5|1|0|0|1|181|5.9|0.0
-6|388|Gold|Igloo Jaguars 16UAA Premier|8|5|2|0|0|1|254|5.8|-0.0
-7|379|Gold|Wildcats 16U AA|11|8|2|0|0|1|311|8.8|-0.0
-8|338|Gold|VFC 16AA McCourt|9|5|3|0|0|1|342|5.8|-0.0
-9|306|Silver|Wilkes-Barre / Scranton Jr Knights|8|4|2|0|0|2|263|5.7|0.0
-10|283|Silver|Lehigh Valley Phantoms Youth U16AA|9|6|2|0|0|1|150|6.9|0.0
-11|244|Silver|North Jersey Avalanche|4|3|0|0|0|1|50|3.9|0.0
-12|217|Silver|Mission Arizona|4|2|0|0|0|2|98|3.7|0.0
-13|170|Bronze|JR Black Bears16U White|6|2|3|0|0|1|266|2.9|0.0
-14|161|Bronze|Team Philadelphia|7|2|4|0|0|1|734|2.8|-0.0
-15|152|Bronze|16U Premier TI Selects|8|5|2|0|0|1|106|5.9|0.0
-16|126|Bronze|Clearwater Ice Storm|5|2|2|0|0|1|155|2.8|-0.0
-17|108||Haverford Hawks 16UAA|9|4|4|0|0|1|193|4.9|0.0
-18|106||PAL Blue Knights|6|2|3|0|0|1|215|2.9|0.0
-19|100||Wissahickon Warriors AA|8|3|4|0|0|1|299|3.9|0.0
-20|91||Florida Everblades|5|1|3|0|0|1|427|1.8|-0.0
-21|89||Delaware Ducks|8|4|3|0|0|1|150|4.9|0.0
-22|85||Anaheim Jr. Ducks|4|0|2|0|0|2|197|1.7|0.0
-23|50||Palmyra Black Knights|10|2|7|0|0|1|321|2.9|0.0
-24|44||Ashubrn Xtreme #2|7|1|4|0|1|1|247|1.9|0.0
-25|41||North Jersey Kings Blue|5|1|3|0|0|1|138|1.9|0.0
-26|36||Arizona Bobcats|6|0|5|0|0|1|736|0.8|-0.0
-27|35||NYC Skyliners|7|1|5|0|0|1|144|1.9|0.0
-28|34||NJ Bandits 16AA|10|2|7|0|0|1|223|2.9|0.0
-29|25||Jersey Colts 16 Black|9|1|7|0|0|1|205|1.9|0.0
-30|7||RHC 16U AA|12|0|11|0|0|1|157|0.9|0.0
+1|2309|Championship|Chesterfield Falcons|5|5|0|0|0|0|399|5.8|-0.0
+2|847|Championship|Ashburn Xtreme #1|8|7|1|0|0|0|376|7.8|-0.0
+3|835|Championship|MYHA 16U AA Blue|6|5|1|0|0|0|487|5.8|-0.0
+4|775|Championship|Apple Core 16U|5|4|0|1|0|0|118|5.9|0.0
+5|513|Gold|Tri-City Eagles 16U Blue|6|5|1|0|0|0|181|5.9|0.0
+6|388|Gold|Igloo Jaguars 16UAA Premier|7|5|2|0|0|0|254|5.8|-0.0
+7|379|Gold|Wildcats 16U AA|10|8|2|0|0|0|311|8.8|-0.0
+8|338|Gold|VFC 16AA McCourt|8|5|3|0|0|0|342|5.8|-0.0
+9|306|Silver|Wilkes-Barre / Scranton Jr Knights|7|4|2|0|0|1|263|5.7|0.0
+10|283|Silver|Lehigh Valley Phantoms Youth U16AA|8|6|2|0|0|0|150|6.9|0.0
+11|244|Silver|North Jersey Avalanche|3|3|0|0|0|0|50|3.9|0.0
+12|217|Silver|Mission Arizona|3|2|0|0|0|1|98|3.7|0.0
+13|170|Bronze|JR Black Bears16U White|5|2|3|0|0|0|266|2.9|0.0
+14|161|Bronze|Team Philadelphia|6|2|4|0|0|0|734|2.8|-0.0
+15|152|Bronze|16U Premier TI Selects|7|5|2|0|0|0|106|5.9|0.0
+16|126|Bronze|Clearwater Ice Storm|4|2|2|0|0|0|155|2.8|-0.0
+17|108||Haverford Hawks 16UAA|8|4|4|0|0|0|193|4.9|0.0
+18|106||PAL Blue Knights|5|2|3|0|0|0|215|2.9|0.0
+19|100||Wissahickon Warriors AA|7|3|4|0|0|0|299|3.9|0.0
+20|91||Florida Everblades|4|1|3|0|0|0|427|1.8|-0.0
+21|89||Delaware Ducks|7|4|3|0|0|0|150|4.9|0.0
+22|85||Anaheim Jr. Ducks|3|0|2|0|0|1|197|1.7|0.0
+23|50||Palmyra Black Knights|9|2|7|0|0|0|321|2.9|0.0
+24|44||Ashubrn Xtreme #2|6|1|4|0|1|0|247|1.9|0.0
+25|41||North Jersey Kings Blue|4|1|3|0|0|0|138|1.9|0.0
+26|36||Arizona Bobcats|5|0|5|0|0|0|736|0.8|-0.0
+27|35||NYC Skyliners|6|1|5|0|0|0|144|1.9|0.0
+28|34||NJ Bandits 16AA|9|2|7|0|0|0|223|2.9|0.0
+29|25||Jersey Colts 16 Black|8|1|7|0|0|0|205|1.9|0.0
+30|7||RHC 16U AA|11|0|11|0|0|0|157|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

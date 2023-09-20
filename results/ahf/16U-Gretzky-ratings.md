@@ -1,22 +1,24 @@
 [<- back to the index](readme.md)
 # 16U Gretzky KRACH Rankings
+Rankings generated on Wed Sep 20 23:50:55 2023.
+
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1867|Championship|Dix Hills Hawks 16U|7|6|0|0|0|1|244|6.8|-0.0
-2|1251|Championship|STJ 16U Gold|7|4|1|0|0|2|649|5.7|0.0
-3|998|Championship|Aviator Hockey Club 16U Minor|6|4|1|0|0|1|459|4.9|0.0
-4|835|Championship|Team Philadelphia Black|6|4|1|0|0|1|415|4.9|0.0
-5|814|Gold|VFC 16A Frederick|9|5|2|0|0|2|577|6.7|-0.0
-6|741|Gold|Frederick Freeze 16U UA|7|5|1|0|0|1|265|5.9|0.0
-7|732|Gold|Palmyra Black Knights|9|4|2|0|0|3|630|6.6|0.0
-8|566|Gold|MYHA 16U UA|7|3|3|0|0|1|672|3.9|0.0
-9|325|Silver|Tri-City Eagles 16U White|9|3|3|0|0|3|412|5.6|0.0
-10|255|Silver|Grundy Senators|10|5|4|0|0|1|307|5.9|0.0
-11|168|Silver|Haverford Hawks 16U A Black|11|2|6|0|0|3|558|4.6|0.0
-12|135|Silver|Mercer Chiefs|7|1|5|0|0|1|624|1.9|0.0
-13|116||Wildcats 16U A Black|5|0|4|0|0|1|910|0.9|0.0
-14|104||JR Black Bears16U Red|7|1|5|0|0|1|423|1.9|0.0
-15|78||Igloo Jaguars 16UA Black|10|0|8|0|0|2|896|1.7|-0.0
+1|1867|Championship|Dix Hills Hawks 16U|6|6|0|0|0|0|244|6.8|-0.0
+2|1251|Championship|STJ 16U Gold|6|4|1|0|0|1|649|5.7|0.0
+3|998|Championship|Aviator Hockey Club 16U Minor|5|4|1|0|0|0|459|4.9|0.0
+4|835|Championship|Team Philadelphia Black|5|4|1|0|0|0|415|4.9|0.0
+5|814|Gold|VFC 16A Frederick|8|5|2|0|0|1|577|6.7|-0.0
+6|741|Gold|Frederick Freeze 16U UA|6|5|1|0|0|0|265|5.9|0.0
+7|732|Gold|Palmyra Black Knights|8|4|2|0|0|2|630|6.6|0.0
+8|566|Gold|MYHA 16U UA|6|3|3|0|0|0|672|3.9|0.0
+9|325|Silver|Tri-City Eagles 16U White|8|3|3|0|0|2|412|5.6|0.0
+10|255|Silver|Grundy Senators|9|5|4|0|0|0|307|5.9|0.0
+11|168|Silver|Haverford Hawks 16U A Black|10|2|6|0|0|2|558|4.6|0.0
+12|135|Silver|Mercer Chiefs|6|1|5|0|0|0|624|1.9|0.0
+13|116||Wildcats 16U A Black|4|0|4|0|0|0|910|0.9|0.0
+14|104||JR Black Bears16U Red|6|1|5|0|0|0|423|1.9|0.0
+15|78||Igloo Jaguars 16UA Black|9|0|8|0|0|1|896|1.7|-0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

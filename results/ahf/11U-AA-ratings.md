@@ -1,23 +1,25 @@
 [<- back to the index](readme.md)
 # 11U AA KRACH Rankings
+Rankings generated on Wed Sep 20 23:50:54 2023.
+
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|3689|Championship|Team Philadelphia|11|10|0|0|0|1|305|10.8|-0.0
-2|1303|Championship|St. Louis Knights|5|4|0|0|0|1|262|4.9|0.0
-3|602|Championship|Philadelphia Blazers|11|8|2|0|0|1|527|8.9|0.0
-4|580|Championship|Ashburn Xtreme 2012|7|4|2|0|0|1|1157|4.8|-0.0
-5|408|Gold|Hollydell Hurricanes|9|5|3|0|0|1|382|5.9|0.0
-6|307|Gold|MYHA 11U AA|7|3|3|0|0|1|1179|3.8|-0.0
-7|276|Gold|North Jersey Skylands Kings|7|3|3|0|0|1|761|3.9|0.0
-8|226|Gold|Jersey Colts PW White|7|3|3|0|0|1|701|3.9|0.0
-9|118|Silver|North Jersey Avalanche|9|3|5|0|0|1|596|3.9|0.0
-10|103|Silver|Royals 11U AA White|8|3|4|0|0|1|220|3.9|0.0
-11|102|Silver|NJ Bandits 11AA|9|3|5|0|0|1|574|3.9|0.0
-12|89|Silver|VFC PW 11 AA Fagan|8|2|5|0|0|1|273|2.9|0.0
-13|73||Lehigh Valley Phantoms Youth U11 AA|9|2|6|0|0|1|699|2.9|0.0
-14|61||Long Island Whalers 11UAA|6|1|4|0|0|1|245|1.9|0.0
-15|60||Arrows 12u Silver|7|1|4|0|0|2|181|2.7|0.0
-16|47||Apple Core 12U Black|5|0|4|0|0|1|554|0.9|0.0
+1|3689|Championship|Team Philadelphia|10|10|0|0|0|0|305|10.8|-0.0
+2|1303|Championship|St. Louis Knights|4|4|0|0|0|0|262|4.9|0.0
+3|602|Championship|Philadelphia Blazers|10|8|2|0|0|0|527|8.9|0.0
+4|580|Championship|Ashburn Xtreme 2012|6|4|2|0|0|0|1157|4.8|-0.0
+5|408|Gold|Hollydell Hurricanes|8|5|3|0|0|0|382|5.9|0.0
+6|307|Gold|MYHA 11U AA|6|3|3|0|0|0|1179|3.8|-0.0
+7|276|Gold|North Jersey Skylands Kings|6|3|3|0|0|0|761|3.9|0.0
+8|226|Gold|Jersey Colts PW White|6|3|3|0|0|0|701|3.9|0.0
+9|118|Silver|North Jersey Avalanche|8|3|5|0|0|0|596|3.9|0.0
+10|103|Silver|Royals 11U AA White|7|3|4|0|0|0|220|3.9|0.0
+11|102|Silver|NJ Bandits 11AA|8|3|5|0|0|0|574|3.9|0.0
+12|89|Silver|VFC PW 11 AA Fagan|7|2|5|0|0|0|273|2.9|0.0
+13|73||Lehigh Valley Phantoms Youth U11 AA|8|2|6|0|0|0|699|2.9|0.0
+14|61||Long Island Whalers 11UAA|5|1|4|0|0|0|245|1.9|0.0
+15|60||Arrows 12u Silver|6|1|4|0|0|1|181|2.7|0.0
+16|47||Apple Core 12U Black|4|0|4|0|0|0|554|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

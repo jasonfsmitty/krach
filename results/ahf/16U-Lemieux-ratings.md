@@ -1,38 +1,40 @@
 [<- back to the index](readme.md)
 # 16U Lemieux KRACH Rankings
+Rankings generated on Wed Sep 20 23:50:55 2023.
+
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1209|Championship|Rinx|5|4|0|0|0|1|234|4.8|-0.0
-2|881|Championship|Hollydell Hurricanes Red|8|6|1|0|0|1|297|6.8|-0.0
-3|785|Championship|Palmyra Black Knights - Mihan|11|9|1|0|0|1|188|9.8|-0.0
-4|711|Championship|Team Philadelphia Orange|8|6|1|0|0|1|220|6.8|-0.0
-5|606|Gold|Lancaster Firbirds 16U Orange|8|6|1|0|0|1|217|6.9|0.0
-6|471|Gold|MYHA 16U LA|7|4|2|0|0|1|410|4.8|-0.0
-7|443|Gold|Southern Maryland Sabres 16U Gold|7|5|1|0|0|1|190|5.9|0.0
-8|373|Gold|VFC 16A Dunleavy|8|6|1|0|0|1|165|6.9|0.0
-9|308|Silver|Wissahickon Warriors White|9|4|4|0|0|1|482|4.8|-0.0
-10|246|Silver|Philadelphia Blazers 16U A Lemieux|10|5|3|0|0|2|190|6.7|0.0
-11|241|Silver|Grundy Senators|9|6|2|0|0|1|145|6.9|0.0
-12|233|Silver|STJ 16U Navy|7|3|3|0|0|1|390|3.8|-0.0
-13|198|Bronze|Ashburn Xtreme 16U A|9|4|4|0|0|1|290|4.9|0.0
-14|198|Bronze|Wildcats 16U A Black|11|6|4|0|0|1|186|6.9|0.0
-15|182|Bronze|Frederick Freeze 16U LA|7|3|3|0|0|1|316|3.9|0.0
-16|170|Bronze|Tri City Eagles 16U Red|7|3|3|0|0|1|263|3.9|0.0
-17|120||NJ Bandits 16A|11|5|5|0|0|1|151|5.9|0.0
-18|116||Wildcats 16U A Red|11|5|5|0|0|1|166|5.9|0.0
-19|96||North Jersey Kings Red|9|4|4|0|0|1|128|4.9|0.0
-20|79||16U TI North Stars Red|10|4|5|0|0|1|301|4.8|-0.0
-21|57||Lehigh Valley Phantoms Youth U16A|9|2|5|0|0|2|171|3.7|0.0
-22|56||Hollydell Hurricanes White|9|2|6|0|0|1|210|2.9|0.0
-23|56||VFC 16A Kelly|8|3|2|0|0|3|58|5.6|0.0
-24|54||Royals 16U A Blue|10|2|7|0|0|1|380|2.9|0.0
-25|48||Jersey Colts 16 White|9|1|7|0|0|1|325|1.9|0.0
-26|46||Haverford Hawks 16U A Red|7|2|3|0|0|2|141|3.7|0.0
-27|42||Wildcats 16U A White|11|3|6|0|0|2|167|4.7|0.0
-28|22||Royals LT|5|0|4|0|0|1|182|0.9|0.0
-29|18||Igloo Jaguars 16UA Green|10|0|8|0|0|2|222|1.7|0.0
-30|12||York Devils|9|0|8|0|0|1|340|0.9|0.0
-31|8||North Jersey Skylands Kings|10|0|9|0|0|1|194|0.9|0.0
+1|1209|Championship|Rinx|4|4|0|0|0|0|234|4.8|-0.0
+2|881|Championship|Hollydell Hurricanes Red|7|6|1|0|0|0|297|6.8|-0.0
+3|785|Championship|Palmyra Black Knights - Mihan|10|9|1|0|0|0|188|9.8|-0.0
+4|711|Championship|Team Philadelphia Orange|7|6|1|0|0|0|220|6.8|-0.0
+5|606|Gold|Lancaster Firbirds 16U Orange|7|6|1|0|0|0|217|6.9|0.0
+6|471|Gold|MYHA 16U LA|6|4|2|0|0|0|410|4.8|-0.0
+7|443|Gold|Southern Maryland Sabres 16U Gold|6|5|1|0|0|0|190|5.9|0.0
+8|373|Gold|VFC 16A Dunleavy|7|6|1|0|0|0|165|6.9|0.0
+9|308|Silver|Wissahickon Warriors White|8|4|4|0|0|0|482|4.8|-0.0
+10|246|Silver|Philadelphia Blazers 16U A Lemieux|9|5|3|0|0|1|190|6.7|0.0
+11|241|Silver|Grundy Senators|8|6|2|0|0|0|145|6.9|0.0
+12|233|Silver|STJ 16U Navy|6|3|3|0|0|0|390|3.8|-0.0
+13|198|Bronze|Ashburn Xtreme 16U A|8|4|4|0|0|0|290|4.9|0.0
+14|198|Bronze|Wildcats 16U A Black|10|6|4|0|0|0|186|6.9|0.0
+15|182|Bronze|Frederick Freeze 16U LA|6|3|3|0|0|0|316|3.9|0.0
+16|170|Bronze|Tri City Eagles 16U Red|6|3|3|0|0|0|263|3.9|0.0
+17|120||NJ Bandits 16A|10|5|5|0|0|0|151|5.9|0.0
+18|116||Wildcats 16U A Red|10|5|5|0|0|0|166|5.9|0.0
+19|96||North Jersey Kings Red|8|4|4|0|0|0|128|4.9|0.0
+20|79||16U TI North Stars Red|9|4|5|0|0|0|301|4.8|-0.0
+21|57||Lehigh Valley Phantoms Youth U16A|8|2|5|0|0|1|171|3.7|0.0
+22|56||Hollydell Hurricanes White|8|2|6|0|0|0|210|2.9|0.0
+23|56||VFC 16A Kelly|7|3|2|0|0|2|58|5.6|0.0
+24|54||Royals 16U A Blue|9|2|7|0|0|0|380|2.9|0.0
+25|48||Jersey Colts 16 White|8|1|7|0|0|0|325|1.9|0.0
+26|46||Haverford Hawks 16U A Red|6|2|3|0|0|1|141|3.7|0.0
+27|42||Wildcats 16U A White|10|3|6|0|0|1|167|4.7|0.0
+28|22||Royals LT|4|0|4|0|0|0|182|0.9|0.0
+29|18||Igloo Jaguars 16UA Green|9|0|8|0|0|1|222|1.7|0.0
+30|12||York Devils|8|0|8|0|0|0|340|0.9|0.0
+31|8||North Jersey Skylands Kings|9|0|9|0|0|0|194|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

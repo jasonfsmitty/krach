@@ -1,26 +1,28 @@
 [<- back to the index](readme.md)
 # 14U McDavid KRACH Rankings
+Rankings generated on Wed Sep 20 23:50:55 2023.
+
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2116|Championship|MYHA 14U McDavid Blue|7|6|0|0|0|1|268|6.8|-0.0
-2|1343|Championship|York Devils Red|10|8|1|0|0|1|379|8.8|-0.0
-3|1323|Championship|STJ Light Blue|7|5|1|0|0|1|549|5.8|-0.0
-4|930|Championship|JR Black Bears 14U Gold|5|4|0|0|0|1|175|4.9|0.0
-5|467|Gold|Aviator Hockey Club 14U Minor|5|3|1|0|0|1|317|3.9|0.0
-6|440|Gold|14U TI North Stars Red|6|4|0|0|0|2|137|5.7|0.0
-7|359|Gold|Lancaster Firebirds 14U Orange|9|4|4|0|0|1|923|4.8|-0.0
-8|287|Gold|Grundy Senators|8|5|2|0|0|1|184|5.9|0.0
-9|250|Silver|Haverford Hawks|8|3|4|0|0|1|700|3.8|-0.0
-10|178|Silver|Wildcats 14U B White|9|3|3|0|0|3|343|5.6|0.0
-11|177|Silver|Frederick Freeze 14U McDavid|5|2|1|0|0|2|148|3.7|0.0
-12|174|Silver|Lehigh Valley Phantoms Youth 14B|9|3|5|0|0|1|638|3.8|-0.0
-13|139||Wildcats 14U B Gray|9|2|5|0|0|2|552|3.7|0.0
-14|110||North Jersey Kings Grey|9|2|6|0|0|1|375|2.9|0.0
-15|95||Tri-City Eagles 14U Red|8|2|5|0|0|1|486|2.8|-0.0
-16|88||Jersey Colts Bantam Green|9|1|5|0|0|3|321|3.6|0.0
-17|42||VFC Bantam B Drost|7|1|5|0|0|1|263|1.9|0.0
-18|28||Hollydell Hurricanes|9|1|7|0|0|1|317|1.9|0.0
-19|19||Royals 14U Gray|8|0|7|0|0|1|357|0.9|0.0
+1|2116|Championship|MYHA 14U McDavid Blue|6|6|0|0|0|0|268|6.8|-0.0
+2|1343|Championship|York Devils Red|9|8|1|0|0|0|379|8.8|-0.0
+3|1323|Championship|STJ Light Blue|6|5|1|0|0|0|549|5.8|-0.0
+4|930|Championship|JR Black Bears 14U Gold|4|4|0|0|0|0|175|4.9|0.0
+5|467|Gold|Aviator Hockey Club 14U Minor|4|3|1|0|0|0|317|3.9|0.0
+6|440|Gold|14U TI North Stars Red|5|4|0|0|0|1|137|5.7|0.0
+7|359|Gold|Lancaster Firebirds 14U Orange|8|4|4|0|0|0|923|4.8|-0.0
+8|287|Gold|Grundy Senators|7|5|2|0|0|0|184|5.9|0.0
+9|250|Silver|Haverford Hawks|7|3|4|0|0|0|700|3.8|-0.0
+10|178|Silver|Wildcats 14U B White|8|3|3|0|0|2|343|5.6|0.0
+11|177|Silver|Frederick Freeze 14U McDavid|4|2|1|0|0|1|148|3.7|0.0
+12|174|Silver|Lehigh Valley Phantoms Youth 14B|8|3|5|0|0|0|638|3.8|-0.0
+13|139||Wildcats 14U B Gray|8|2|5|0|0|1|552|3.7|0.0
+14|110||North Jersey Kings Grey|8|2|6|0|0|0|375|2.9|0.0
+15|95||Tri-City Eagles 14U Red|7|2|5|0|0|0|486|2.8|-0.0
+16|88||Jersey Colts Bantam Green|8|1|5|0|0|2|321|3.6|0.0
+17|42||VFC Bantam B Drost|6|1|5|0|0|0|263|1.9|0.0
+18|28||Hollydell Hurricanes|8|1|7|0|0|0|317|1.9|0.0
+19|19||Royals 14U Gray|7|0|7|0|0|0|357|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

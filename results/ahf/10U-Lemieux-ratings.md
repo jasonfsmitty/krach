@@ -1,34 +1,36 @@
 [<- back to the index](readme.md)
 # 10U Lemieux KRACH Rankings
+Rankings generated on Wed Sep 20 23:50:55 2023.
+
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1319|Championship|VFC Squirt Bergy|10|8|0|0|0|2|238|9.7|-0.0
-2|1142|Championship|Philadelphia Blazers|9|7|1|0|0|1|335|7.8|-0.0
-3|991|Championship|Wissahickon Warriors Red|8|6|1|0|0|1|347|6.8|-0.0
-4|938|Championship|Hollydell Hurricanes|8|6|1|0|0|1|304|6.9|0.0
-5|782|Gold|Palmyra Black Knights - Kullman|11|8|2|0|0|1|321|8.9|0.0
-6|696|Gold|10U TI North Stars Red|8|5|2|0|0|1|437|5.9|0.0
-7|672|Gold|Wildcats 10U A|9|6|2|0|0|1|456|6.8|-0.0
-8|609|Gold|Mercer Chiefs Black|8|5|1|0|0|2|372|6.7|-0.0
-9|290|Silver|Dix Hills Hawks Squirt|7|3|2|0|0|2|362|4.7|0.0
-10|284|Silver|Delaware Ducks|7|3|3|0|0|1|487|3.9|0.0
-11|250|Silver|Haverford Hawks 10UA|9|5|3|0|0|1|275|5.9|0.0
-12|232|Silver|Rinx|5|2|2|0|0|1|555|2.8|-0.0
-13|232|Bronze|Aviator Hockey Club 10U Minor|5|2|2|0|0|1|296|2.9|0.0
-14|231|Bronze|Frederick Freeze 10U LA|5|2|2|0|0|1|346|2.9|0.0
-15|204|Bronze|Ashburn Xtreme 10U X|7|3|3|0|0|1|367|3.9|0.0
-16|160|Bronze|PAL Silver Knights|5|1|3|0|0|1|619|1.8|-0.0
-17|152||North Jersey Kings Blue|8|2|4|0|0|2|326|3.7|0.0
-18|97||MYHA LA Blue|7|2|4|0|0|1|194|2.9|0.0
-19|92||Tri-City Eagles 10U Blue|7|1|5|0|0|1|731|1.9|0.0
-20|91||MYHA LA Gold|5|1|3|0|0|1|463|1.8|-0.0
-21|86||North Jersey Avalanche Blue|8|2|5|0|0|1|295|2.9|0.0
-22|83||York Devils|9|2|6|0|0|1|458|2.8|-0.0
-23|52||Lehigh Valley Phantoms Youth U10 A1|9|2|6|0|0|1|276|2.9|0.0
-24|32||Lancaster Firebirds Squirt Orange|8|1|6|0|0|1|355|1.8|-0.0
-25|30||Lehigh Valley Phantoms Youth U10 A2|7|0|6|0|0|1|642|0.8|-0.0
-26|28||STJ 10U White|7|1|5|0|0|1|227|1.9|0.0
-27|27||Jersey Colts Squirt Silver|7|0|6|0|0|1|455|0.9|0.0
+1|1319|Championship|VFC Squirt Bergy|9|8|0|0|0|1|238|9.7|-0.0
+2|1142|Championship|Philadelphia Blazers|8|7|1|0|0|0|335|7.8|-0.0
+3|991|Championship|Wissahickon Warriors Red|7|6|1|0|0|0|347|6.8|-0.0
+4|938|Championship|Hollydell Hurricanes|7|6|1|0|0|0|304|6.9|0.0
+5|782|Gold|Palmyra Black Knights - Kullman|10|8|2|0|0|0|321|8.9|0.0
+6|696|Gold|10U TI North Stars Red|7|5|2|0|0|0|437|5.9|0.0
+7|672|Gold|Wildcats 10U A|8|6|2|0|0|0|456|6.8|-0.0
+8|609|Gold|Mercer Chiefs Black|7|5|1|0|0|1|372|6.7|-0.0
+9|290|Silver|Dix Hills Hawks Squirt|6|3|2|0|0|1|362|4.7|0.0
+10|284|Silver|Delaware Ducks|6|3|3|0|0|0|487|3.9|0.0
+11|250|Silver|Haverford Hawks 10UA|8|5|3|0|0|0|275|5.9|0.0
+12|232|Silver|Rinx|4|2|2|0|0|0|555|2.8|-0.0
+13|232|Bronze|Aviator Hockey Club 10U Minor|4|2|2|0|0|0|296|2.9|0.0
+14|231|Bronze|Frederick Freeze 10U LA|4|2|2|0|0|0|346|2.9|0.0
+15|204|Bronze|Ashburn Xtreme 10U X|6|3|3|0|0|0|367|3.9|0.0
+16|160|Bronze|PAL Silver Knights|4|1|3|0|0|0|619|1.8|-0.0
+17|152||North Jersey Kings Blue|7|2|4|0|0|1|326|3.7|0.0
+18|97||MYHA LA Blue|6|2|4|0|0|0|194|2.9|0.0
+19|92||Tri-City Eagles 10U Blue|6|1|5|0|0|0|731|1.9|0.0
+20|91||MYHA LA Gold|4|1|3|0|0|0|463|1.8|-0.0
+21|86||North Jersey Avalanche Blue|7|2|5|0|0|0|295|2.9|0.0
+22|83||York Devils|8|2|6|0|0|0|458|2.8|-0.0
+23|52||Lehigh Valley Phantoms Youth U10 A1|8|2|6|0|0|0|276|2.9|0.0
+24|32||Lancaster Firebirds Squirt Orange|7|1|6|0|0|0|355|1.8|-0.0
+25|30||Lehigh Valley Phantoms Youth U10 A2|6|0|6|0|0|0|642|0.8|-0.0
+26|28||STJ 10U White|6|1|5|0|0|0|227|1.9|0.0
+27|27||Jersey Colts Squirt Silver|6|0|6|0|0|0|455|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

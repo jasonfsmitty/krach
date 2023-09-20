@@ -1,26 +1,28 @@
 [<- back to the index](readme.md)
 # 10U AA KRACH Rankings
+Rankings generated on Wed Sep 20 23:50:55 2023.
+
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1840|Championship|Long Island Whalers Squirt Major 2013|5|4|0|0|0|1|357|4.8|-0.0
-2|1209|Championship|Team Philadelphia|12|9|2|0|0|1|403|9.9|0.0
-3|898|Championship|Ashburn Xtreme 2013|7|4|2|0|0|1|752|4.8|-0.0
-4|751|Championship|North Jersey Skylands Kings Navy|8|5|1|0|0|2|368|6.7|0.0
-5|670|Gold|Darien|6|3|1|0|0|2|454|4.7|0.0
-6|623|Gold|Royals 10U AA 2013|9|6|2|0|0|1|327|6.9|0.0
-7|369|Gold|RHC Squirt Major AA|11|5|4|0|0|2|444|6.7|0.0
-8|342|Gold|MYHA 10U AA|5|2|2|0|0|1|584|2.8|-0.0
-9|321|Silver|STJ 10U Gold|5|2|2|0|0|1|380|2.9|0.0
-10|313|Silver|NJ Bandits 10AA|7|3|3|0|0|1|397|3.9|0.0
-11|295|Silver|Hollydell Hurricanes|9|4|3|0|0|2|327|5.7|0.0
-12|212|Silver|Aviator Hockey Club 10U Major|5|2|2|0|0|1|284|2.9|0.0
-13|172||Haverford Hawks 10UAA|8|2|5|0|0|1|457|2.9|0.0
-14|151||Lehigh Valley Phantoms Youth U10AA|11|3|7|0|0|1|552|3.9|0.0
-15|147||NYC Skyliners|5|1|3|0|0|1|349|1.9|0.0
-16|142||North Jersey Avalanche|7|2|4|0|0|1|407|2.9|0.0
-17|87||Central CT Capitals|6|0|5|0|0|1|942|0.8|-0.0
-18|69||Wildcats 10U AA|8|1|6|0|0|1|482|1.9|0.0
-19|26||Arrows 10u Green|7|0|6|0|0|1|334|0.9|0.0
+1|1840|Championship|Long Island Whalers Squirt Major 2013|4|4|0|0|0|0|357|4.8|-0.0
+2|1209|Championship|Team Philadelphia|11|9|2|0|0|0|403|9.9|0.0
+3|898|Championship|Ashburn Xtreme 2013|6|4|2|0|0|0|752|4.8|-0.0
+4|751|Championship|North Jersey Skylands Kings Navy|7|5|1|0|0|1|368|6.7|0.0
+5|670|Gold|Darien|5|3|1|0|0|1|454|4.7|0.0
+6|623|Gold|Royals 10U AA 2013|8|6|2|0|0|0|327|6.9|0.0
+7|369|Gold|RHC Squirt Major AA|10|5|4|0|0|1|444|6.7|0.0
+8|342|Gold|MYHA 10U AA|4|2|2|0|0|0|584|2.8|-0.0
+9|321|Silver|STJ 10U Gold|4|2|2|0|0|0|380|2.9|0.0
+10|313|Silver|NJ Bandits 10AA|6|3|3|0|0|0|397|3.9|0.0
+11|295|Silver|Hollydell Hurricanes|8|4|3|0|0|1|327|5.7|0.0
+12|212|Silver|Aviator Hockey Club 10U Major|4|2|2|0|0|0|284|2.9|0.0
+13|172||Haverford Hawks 10UAA|7|2|5|0|0|0|457|2.9|0.0
+14|151||Lehigh Valley Phantoms Youth U10AA|10|3|7|0|0|0|552|3.9|0.0
+15|147||NYC Skyliners|4|1|3|0|0|0|349|1.9|0.0
+16|142||North Jersey Avalanche|6|2|4|0|0|0|407|2.9|0.0
+17|87||Central CT Capitals|5|0|5|0|0|0|942|0.8|-0.0
+18|69||Wildcats 10U AA|7|1|6|0|0|0|482|1.9|0.0
+19|26||Arrows 10u Green|6|0|6|0|0|0|334|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

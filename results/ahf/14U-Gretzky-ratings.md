@@ -1,29 +1,31 @@
 [<- back to the index](readme.md)
 # 14U Gretzky KRACH Rankings
+Rankings generated on Wed Sep 20 23:50:55 2023.
+
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1685|Championship|Aviator Hockey Club 14U Major|5|4|0|0|0|1|371|4.8|-0.0
-2|1228|Championship|Southern Maryland Sabres 14U Gold|7|5|1|0|0|1|497|5.8|-0.0
-3|1227|Championship|Jersey Colts Bantam Black|7|5|0|0|0|2|316|6.7|0.0
-4|827|Championship|MYHA 14U UA Blue|7|5|1|0|0|1|284|5.9|0.0
-5|668|Gold|Clearwater Ice Storm|5|3|1|0|0|1|369|3.9|0.0
-6|632|Gold|STJ 14U Navy|7|5|1|0|0|1|290|5.9|0.0
-7|471|Gold|Team Philadelphia Black|9|5|2|0|0|2|308|6.7|0.0
-8|463|Gold|MD Jr. Black Bears 14U Red|7|4|2|0|0|1|294|4.8|-0.0
-9|422|Silver|Haverford Hawks 14UA Black|9|5|3|0|0|1|446|5.8|-0.0
-10|367|Silver|North Jersey Avalanche Blue|10|6|3|0|0|1|296|6.8|-0.0
-11|310|Silver|North Jersey Kings Blue|11|6|4|0|0|1|314|6.9|0.0
-12|238|Silver|Hollydell Hurricanes Red|9|3|4|0|0|2|506|4.7|0.0
-13|214||Rye Rangers|5|1|2|0|0|2|461|2.7|0.0
-14|208||York Devils Black|9|3|5|0|0|1|563|3.8|-0.0
-15|202||Lehigh Valley Phantoms Youth U14A|7|2|4|0|0|1|552|2.9|0.0
-16|194||Wildcats 14U A Black|10|4|5|0|0|1|364|4.9|0.0
-17|105||Wilkes-Barre / Scranton Jr Knights|8|2|5|0|0|1|359|2.9|0.0
-18|101||Tri-City Eagles 14U White|7|2|4|0|0|1|399|2.8|-0.0
-19|65||Wissahickon Warriors Red|8|1|6|0|0|1|356|1.9|0.0
-20|52||Royals 14U Gold|11|2|8|0|0|1|394|2.9|0.0
-21|39||Igloo Jaguars 14UA Black|9|1|7|0|0|1|283|1.9|0.0
-22|17||Dix Hills Hawks 14U|7|0|6|0|0|1|242|0.9|0.0
+1|1685|Championship|Aviator Hockey Club 14U Major|4|4|0|0|0|0|371|4.8|-0.0
+2|1228|Championship|Southern Maryland Sabres 14U Gold|6|5|1|0|0|0|497|5.8|-0.0
+3|1227|Championship|Jersey Colts Bantam Black|6|5|0|0|0|1|316|6.7|0.0
+4|827|Championship|MYHA 14U UA Blue|6|5|1|0|0|0|284|5.9|0.0
+5|668|Gold|Clearwater Ice Storm|4|3|1|0|0|0|369|3.9|0.0
+6|632|Gold|STJ 14U Navy|6|5|1|0|0|0|290|5.9|0.0
+7|471|Gold|Team Philadelphia Black|8|5|2|0|0|1|308|6.7|0.0
+8|463|Gold|MD Jr. Black Bears 14U Red|6|4|2|0|0|0|294|4.8|-0.0
+9|422|Silver|Haverford Hawks 14UA Black|8|5|3|0|0|0|446|5.8|-0.0
+10|367|Silver|North Jersey Avalanche Blue|9|6|3|0|0|0|296|6.8|-0.0
+11|310|Silver|North Jersey Kings Blue|10|6|4|0|0|0|314|6.9|0.0
+12|238|Silver|Hollydell Hurricanes Red|8|3|4|0|0|1|506|4.7|0.0
+13|214||Rye Rangers|4|1|2|0|0|1|461|2.7|0.0
+14|208||York Devils Black|8|3|5|0|0|0|563|3.8|-0.0
+15|202||Lehigh Valley Phantoms Youth U14A|6|2|4|0|0|0|552|2.9|0.0
+16|194||Wildcats 14U A Black|9|4|5|0|0|0|364|4.9|0.0
+17|105||Wilkes-Barre / Scranton Jr Knights|7|2|5|0|0|0|359|2.9|0.0
+18|101||Tri-City Eagles 14U White|6|2|4|0|0|0|399|2.8|-0.0
+19|65||Wissahickon Warriors Red|7|1|6|0|0|0|356|1.9|0.0
+20|52||Royals 14U Gold|10|2|8|0|0|0|394|2.9|0.0
+21|39||Igloo Jaguars 14UA Black|8|1|7|0|0|0|283|1.9|0.0
+22|17||Dix Hills Hawks 14U|6|0|6|0|0|0|242|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

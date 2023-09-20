@@ -1,20 +1,22 @@
 [<- back to the index](readme.md)
 # 10U Gretzky KRACH Rankings
+Rankings generated on Wed Sep 20 23:50:55 2023.
+
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|4113|Championship|Palmyra Black Knights- Rochefort|11|10|0|0|0|1|347|10.8|-0.0
-2|1170|Championship|Igloo Jaguars 10UA|10|8|1|0|0|1|285|8.9|0.0
-3|1163|Championship|Jersey Colts Squirt Black|7|5|1|0|0|1|792|5.8|-0.0
-4|657|Championship|JR Black Bears10U White|9|5|3|0|0|1|928|5.9|0.0
-5|584|Gold|Long Island Whalers Squirt Blue|7|4|2|0|0|1|877|4.9|0.0
-6|252|Gold|MYHA 10U UA Blue|7|2|4|0|0|1|1570|2.9|0.0
-7|228|Gold|Royals 10U A Gray|7|3|3|0|0|1|361|3.9|0.0
-8|185|Gold|Southern Maryland Sabres 10U Gold|5|2|2|0|0|1|247|2.9|0.0
-9|158||NJ Bandits 10A|9|4|4|0|0|1|244|4.9|0.0
-10|149||Lancaster Firebirds Squirt Black|8|2|5|0|0|1|910|2.9|0.0
-11|74||STJ 10U Navy|5|0|4|0|0|1|1370|0.9|0.0
-12|41||Team Philadelphia|8|0|7|0|0|1|1004|0.9|0.0
-13|25||RHC Squirt A|9|0|8|0|0|1|387|0.9|0.0
+1|4113|Championship|Palmyra Black Knights- Rochefort|10|10|0|0|0|0|347|10.8|-0.0
+2|1170|Championship|Igloo Jaguars 10UA|9|8|1|0|0|0|285|8.9|0.0
+3|1163|Championship|Jersey Colts Squirt Black|6|5|1|0|0|0|792|5.8|-0.0
+4|657|Championship|JR Black Bears10U White|8|5|3|0|0|0|928|5.9|0.0
+5|584|Gold|Long Island Whalers Squirt Blue|6|4|2|0|0|0|877|4.9|0.0
+6|252|Gold|MYHA 10U UA Blue|6|2|4|0|0|0|1570|2.9|0.0
+7|228|Gold|Royals 10U A Gray|6|3|3|0|0|0|361|3.9|0.0
+8|185|Gold|Southern Maryland Sabres 10U Gold|4|2|2|0|0|0|247|2.9|0.0
+9|158||NJ Bandits 10A|8|4|4|0|0|0|244|4.9|0.0
+10|149||Lancaster Firebirds Squirt Black|7|2|5|0|0|0|910|2.9|0.0
+11|74||STJ 10U Navy|4|0|4|0|0|0|1370|0.9|0.0
+12|41||Team Philadelphia|7|0|7|0|0|0|1004|0.9|0.0
+13|25||RHC Squirt A|8|0|8|0|0|0|387|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

@@ -1,28 +1,30 @@
 [<- back to the index](readme.md)
 # 12U AA KRACH Rankings
+Rankings generated on Wed Sep 20 23:50:55 2023.
+
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2525|Championship|Hollydell Hurricanes|9|8|0|0|0|1|255|8.8|-0.0
-2|1210|Championship|MYHA 12U AA Blue|5|4|0|0|0|1|230|4.9|0.0
-3|805|Championship|Lehigh Valley Phantoms Youth U12 AA|9|7|0|0|0|2|155|8.7|0.0
-4|736|Championship|STJ 12U Gold|7|5|1|0|0|1|280|5.9|0.0
-5|637|Gold|Haverford Hawks 12UAA|9|5|2|0|0|2|591|6.7|-0.0
-6|485|Gold|Darien|7|4|2|0|0|1|405|4.9|0.0
-7|369|Gold|NJ Bandits 12AA Grey|8|5|2|0|0|1|435|5.8|-0.0
-8|351|Gold|Philadelphia Jr Flyers Coen|6|3|1|0|0|2|222|4.7|0.0
-9|335|Silver|NJ Bandits 12AA Black|8|4|3|0|0|1|641|4.9|0.0
-10|289|Silver|North Jersey Avalanche|9|4|3|0|0|2|503|5.7|0.0
-11|210|Silver|Royals 12U AA Gold|10|5|4|0|0|1|442|5.9|0.0
-12|180|Silver|Team Philadelphia|10|4|5|0|0|1|378|4.9|0.0
-13|150||Mercer Chiefs|10|4|5|0|0|1|276|4.9|0.0
-14|148||Palmyra Black Knights|9|4|4|0|0|1|461|4.9|0.0
-15|79||PAL Blue Knights|6|1|3|0|0|2|180|2.7|0.0
-16|79||Jersey Colts PW Black|9|2|5|0|0|2|294|3.7|0.0
-17|77||Central CT Capitals|5|1|3|0|0|1|393|1.9|0.0
-18|53||VFC PW 12 AA Croce|11|1|9|0|0|1|584|1.9|0.0
-19|34||NYC Skyliners|6|0|5|0|0|1|384|0.9|0.0
-20|29||Wildcats 12U AA|9|0|8|0|0|1|662|0.9|0.0
-21|15||RHC PW Major AA|9|0|8|0|0|1|203|0.9|0.0
+1|2525|Championship|Hollydell Hurricanes|8|8|0|0|0|0|255|8.8|-0.0
+2|1210|Championship|MYHA 12U AA Blue|4|4|0|0|0|0|230|4.9|0.0
+3|805|Championship|Lehigh Valley Phantoms Youth U12 AA|8|7|0|0|0|1|155|8.7|0.0
+4|736|Championship|STJ 12U Gold|6|5|1|0|0|0|280|5.9|0.0
+5|637|Gold|Haverford Hawks 12UAA|8|5|2|0|0|1|591|6.7|-0.0
+6|485|Gold|Darien|6|4|2|0|0|0|405|4.9|0.0
+7|369|Gold|NJ Bandits 12AA Grey|7|5|2|0|0|0|435|5.8|-0.0
+8|351|Gold|Philadelphia Jr Flyers Coen|5|3|1|0|0|1|222|4.7|0.0
+9|335|Silver|NJ Bandits 12AA Black|7|4|3|0|0|0|641|4.9|0.0
+10|289|Silver|North Jersey Avalanche|8|4|3|0|0|1|503|5.7|0.0
+11|210|Silver|Royals 12U AA Gold|9|5|4|0|0|0|442|5.9|0.0
+12|180|Silver|Team Philadelphia|9|4|5|0|0|0|378|4.9|0.0
+13|150||Mercer Chiefs|9|4|5|0|0|0|276|4.9|0.0
+14|148||Palmyra Black Knights|8|4|4|0|0|0|461|4.9|0.0
+15|79||PAL Blue Knights|5|1|3|0|0|1|180|2.7|0.0
+16|79||Jersey Colts PW Black|8|2|5|0|0|1|294|3.7|0.0
+17|77||Central CT Capitals|4|1|3|0|0|0|393|1.9|0.0
+18|53||VFC PW 12 AA Croce|10|1|9|0|0|0|584|1.9|0.0
+19|34||NYC Skyliners|5|0|5|0|0|0|384|0.9|0.0
+20|29||Wildcats 12U AA|8|0|8|0|0|0|662|0.9|0.0
+21|15||RHC PW Major AA|8|0|8|0|0|0|203|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

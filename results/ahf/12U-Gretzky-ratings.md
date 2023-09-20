@@ -1,28 +1,30 @@
 [<- back to the index](readme.md)
 # 12U Gretzky KRACH Rankings
+Rankings generated on Wed Sep 20 23:50:55 2023.
+
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1043|Championship|Tri-City Eagles 12U Blue|7|5|1|0|0|1|365|5.8|-0.0
-2|965|Championship|JR Black Bears 12U White|7|5|0|0|0|2|252|6.7|-0.0
-3|932|Championship|Southern Maryland Sabres 12U Gold|5|3|0|0|0|2|390|4.7|-0.0
-4|866|Championship|12U TI Selects|8|6|1|0|0|1|257|6.9|0.0
-5|790|Gold|Wissahickon Warriors Red|9|6|2|0|0|1|414|6.8|-0.0
-6|537|Gold|STJ 12U Navy|7|4|2|0|0|1|440|4.9|0.0
-7|395|Gold|Philadelphia Blazers|10|5|4|0|0|1|489|5.8|-0.0
-8|388|Gold|Delaware Ducks|10|5|4|0|0|1|451|5.8|-0.0
-9|270|Silver|York Devils|8|2|3|0|0|3|403|4.5|-0.0
-10|257|Silver|Aviator Hockey Club 12U Major|6|3|2|0|0|1|279|3.9|0.0
-11|253|Silver|Dix Hills Hawks|7|3|2|0|0|2|287|4.7|0.0
-12|227|Silver|Frederick Freeze 12U UA|8|3|4|0|0|1|382|3.8|-0.0
-13|223||North Jersey Kings Blue|9|4|4|0|0|1|362|4.9|0.0
-14|176||Hollydell Hurricanes|4|1|2|0|0|1|380|1.8|-0.0
-15|125||Palmyra Black Knights- Castiglia|10|2|6|0|0|2|365|3.7|0.0
-16|124||Arrows 12u Green|6|1|3|0|0|2|397|2.7|0.0
-17|115||Team Philadelphia Black|9|3|5|0|0|1|200|3.9|0.0
-18|103||VFC PW A Herhal|9|2|6|0|0|1|392|2.8|-0.0
-19|94||NJ Bandits 12A Red|9|2|5|0|0|2|290|3.7|0.0
-20|87||MYHA 12UA Blue|5|1|3|0|0|1|211|1.9|0.0
-21|76||PTL Elite|11|2|8|0|0|1|344|2.9|0.0
+1|1043|Championship|Tri-City Eagles 12U Blue|6|5|1|0|0|0|365|5.8|-0.0
+2|965|Championship|JR Black Bears 12U White|6|5|0|0|0|1|252|6.7|-0.0
+3|932|Championship|Southern Maryland Sabres 12U Gold|4|3|0|0|0|1|390|4.7|-0.0
+4|866|Championship|12U TI Selects|7|6|1|0|0|0|257|6.9|0.0
+5|790|Gold|Wissahickon Warriors Red|8|6|2|0|0|0|414|6.8|-0.0
+6|537|Gold|STJ 12U Navy|6|4|2|0|0|0|440|4.9|0.0
+7|395|Gold|Philadelphia Blazers|9|5|4|0|0|0|489|5.8|-0.0
+8|388|Gold|Delaware Ducks|9|5|4|0|0|0|451|5.8|-0.0
+9|270|Silver|York Devils|7|2|3|0|0|2|403|4.5|-0.0
+10|257|Silver|Aviator Hockey Club 12U Major|5|3|2|0|0|0|279|3.9|0.0
+11|253|Silver|Dix Hills Hawks|6|3|2|0|0|1|287|4.7|0.0
+12|227|Silver|Frederick Freeze 12U UA|7|3|4|0|0|0|382|3.8|-0.0
+13|223||North Jersey Kings Blue|8|4|4|0|0|0|362|4.9|0.0
+14|176||Hollydell Hurricanes|3|1|2|0|0|0|380|1.8|-0.0
+15|125||Palmyra Black Knights- Castiglia|9|2|6|0|0|1|365|3.7|0.0
+16|124||Arrows 12u Green|5|1|3|0|0|1|397|2.7|0.0
+17|115||Team Philadelphia Black|8|3|5|0|0|0|200|3.9|0.0
+18|103||VFC PW A Herhal|8|2|6|0|0|0|392|2.8|-0.0
+19|94||NJ Bandits 12A Red|8|2|5|0|0|1|290|3.7|0.0
+20|87||MYHA 12UA Blue|4|1|3|0|0|0|211|1.9|0.0
+21|76||PTL Elite|10|2|8|0|0|0|344|2.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

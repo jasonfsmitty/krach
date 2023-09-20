@@ -1,29 +1,31 @@
 [<- back to the index](readme.md)
 # 8U AAA KRACH Rankings
+Rankings generated on Wed Sep 20 23:50:55 2023.
+
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|3102|Championship|North Jersey Blizzard AAA|9|8|0|0|0|1|362|8.8|-0.0
-2|1626|Championship|Venom 1|10|8|1|0|0|1|543|8.8|-0.0
-3|842|Championship|Pennsauken Pilots|8|6|1|0|0|1|343|6.9|0.0
-4|663|Championship|LI MONARCHS 2015|5|3|1|0|0|1|776|3.8|-0.0
-5|489|Gold|Lehigh Valley Steel|10|7|2|0|0|1|293|7.9|0.0
-6|312|Gold|LI Gladiators|8|4|3|0|0|1|641|4.9|0.0
-7|275|Gold|Berserkers 8u Black|7|3|3|0|0|1|480|3.9|0.0
-8|266|Gold|LI MONARCHS 2016|4|3|0|0|0|1|56|3.9|0.0
-9|256|Silver|RSG FIM 2015|8|4|3|0|0|1|284|4.9|0.0
-10|197|Silver|Wolverines|6|2|2|0|0|2|280|3.7|0.0
-11|178|Silver|Bridge Hockey Club 2015|7|1|3|0|0|3|1093|3.6|0.0
-12|160|Silver|Suffolk Crusaders|7|3|3|0|0|1|184|3.9|0.0
-13|154||Mercer Arrows|9|2|5|0|0|2|590|3.7|0.0
-14|119||Valley Forge Militia|7|3|3|0|0|1|362|3.9|0.0
-15|97||Philadelphia Resistance|9|4|4|0|0|1|311|4.9|0.0
-16|81||Jersey Shore Americans|8|3|4|0|0|1|174|3.9|0.0
-17|76||NJ Outlaws|9|2|6|0|0|1|652|2.9|0.0
-18|55||Venom 2|7|3|3|0|0|1|82|3.9|0.0
-19|25||LI Riptide|8|0|7|0|0|1|1164|0.9|0.0
-20|22||Bridge Hockey Club 2016|6|0|5|0|0|1|204|0.9|0.0
-21|22||North Jersey Blizzard 2|9|1|7|0|0|1|184|1.9|0.0
-22|8||Berserkers 8u Gold|8|0|7|0|0|1|109|0.9|0.0
+1|3102|Championship|North Jersey Blizzard AAA|8|8|0|0|0|0|362|8.8|-0.0
+2|1626|Championship|Venom 1|9|8|1|0|0|0|543|8.8|-0.0
+3|842|Championship|Pennsauken Pilots|7|6|1|0|0|0|343|6.9|0.0
+4|663|Championship|LI MONARCHS 2015|4|3|1|0|0|0|776|3.8|-0.0
+5|489|Gold|Lehigh Valley Steel|9|7|2|0|0|0|293|7.9|0.0
+6|312|Gold|LI Gladiators|7|4|3|0|0|0|641|4.9|0.0
+7|275|Gold|Berserkers 8u Black|6|3|3|0|0|0|480|3.9|0.0
+8|266|Gold|LI MONARCHS 2016|3|3|0|0|0|0|56|3.9|0.0
+9|256|Silver|RSG FIM 2015|7|4|3|0|0|0|284|4.9|0.0
+10|197|Silver|Wolverines|5|2|2|0|0|1|280|3.7|0.0
+11|178|Silver|Bridge Hockey Club 2015|6|1|3|0|0|2|1093|3.6|0.0
+12|160|Silver|Suffolk Crusaders|6|3|3|0|0|0|184|3.9|0.0
+13|154||Mercer Arrows|8|2|5|0|0|1|590|3.7|0.0
+14|119||Valley Forge Militia|6|3|3|0|0|0|362|3.9|0.0
+15|97||Philadelphia Resistance|8|4|4|0|0|0|311|4.9|0.0
+16|81||Jersey Shore Americans|7|3|4|0|0|0|174|3.9|0.0
+17|76||NJ Outlaws|8|2|6|0|0|0|652|2.9|0.0
+18|55||Venom 2|6|3|3|0|0|0|82|3.9|0.0
+19|25||LI Riptide|7|0|7|0|0|0|1164|0.9|0.0
+20|22||Bridge Hockey Club 2016|5|0|5|0|0|0|204|0.9|0.0
+21|22||North Jersey Blizzard 2|8|1|7|0|0|0|184|1.9|0.0
+22|8||Berserkers 8u Gold|7|0|7|0|0|0|109|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

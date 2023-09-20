@@ -1,24 +1,26 @@
 [<- back to the index](readme.md)
 # 15U AA KRACH Rankings
+Rankings generated on Wed Sep 20 23:50:55 2023.
+
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2221|Championship|Chesterfield Falcons|5|4|0|0|0|1|467|4.8|-0.0
-2|1384|Championship|Rebels 15U|7|5|1|0|0|1|611|5.8|-0.0
-3|643|Championship|NJ Bandits 15AA|11|6|3|0|0|2|531|7.7|0.0
-4|625|Championship|Philadelphia Blazers|7|4|2|0|0|1|391|4.9|0.0
-5|592|Gold|North Jersey Kings Yellow|6|4|1|0|0|1|252|4.9|0.0
-6|498|Gold|North Jersey Avalanche|10|6|2|0|0|2|279|7.7|0.0
-7|412|Gold|Igloo Jaguars 15U AA Elite|7|4|2|0|0|1|296|4.9|0.0
-8|325|Gold|VFC 15AA Scandone|10|4|2|0|0|4|428|7.4|0.0
-9|277|Silver|Team Philadelphia|7|3|3|0|0|1|454|3.9|0.0
-10|238|Silver|Tri-City Eagles 15U Gold|8|3|2|0|0|3|213|5.6|0.0
-11|236|Silver|Rams Hockey|6|2|3|0|0|1|651|2.9|0.0
-12|234|Silver|RHC 15U AA|10|2|4|0|0|4|389|5.4|0.0
-13|117||North Jersey Skylands Kings|10|2|6|0|0|2|354|3.7|0.0
-14|100||York Devils|10|2|7|0|0|1|420|2.9|0.0
-15|95||Lehigh Valley Phantoms Youth U15AA|11|3|7|0|0|1|284|3.9|0.0
-16|86||Allegheny Badgers|5|0|4|0|0|1|930|0.8|-0.0
-17|21||Royals 15U AA Gold|9|0|8|0|0|1|271|0.9|0.0
+1|2221|Championship|Chesterfield Falcons|4|4|0|0|0|0|467|4.8|-0.0
+2|1384|Championship|Rebels 15U|6|5|1|0|0|0|611|5.8|-0.0
+3|643|Championship|NJ Bandits 15AA|10|6|3|0|0|1|531|7.7|0.0
+4|625|Championship|Philadelphia Blazers|6|4|2|0|0|0|391|4.9|0.0
+5|592|Gold|North Jersey Kings Yellow|5|4|1|0|0|0|252|4.9|0.0
+6|498|Gold|North Jersey Avalanche|9|6|2|0|0|1|279|7.7|0.0
+7|412|Gold|Igloo Jaguars 15U AA Elite|6|4|2|0|0|0|296|4.9|0.0
+8|325|Gold|VFC 15AA Scandone|9|4|2|0|0|3|428|7.4|0.0
+9|277|Silver|Team Philadelphia|6|3|3|0|0|0|454|3.9|0.0
+10|238|Silver|Tri-City Eagles 15U Gold|7|3|2|0|0|2|213|5.6|0.0
+11|236|Silver|Rams Hockey|5|2|3|0|0|0|651|2.9|0.0
+12|234|Silver|RHC 15U AA|9|2|4|0|0|3|389|5.4|0.0
+13|117||North Jersey Skylands Kings|9|2|6|0|0|1|354|3.7|0.0
+14|100||York Devils|9|2|7|0|0|0|420|2.9|0.0
+15|95||Lehigh Valley Phantoms Youth U15AA|10|3|7|0|0|0|284|3.9|0.0
+16|86||Allegheny Badgers|4|0|4|0|0|0|930|0.8|-0.0
+17|21||Royals 15U AA Gold|8|0|8|0|0|0|271|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
