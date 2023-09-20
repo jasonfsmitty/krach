@@ -10,6 +10,7 @@ import datetime
 import dataclasses
 import math
 import enum
+import copy
 
 #----------------------------------------------------------------------------
 class ScaleMethod(enum.Enum):
@@ -376,6 +377,10 @@ def addFakeTies(options, ledger):
 
 #----------------------------------------------------------------------------
 def generate(options, ledger):
+
+    # Make a copy of the ledger to avoid polluting ledger with any adjustments
+    # made by the algorithm (e.g. adding fake ties)
+    ledger = copy.deepcopy(ledger)
 
     addFakeTies(options, ledger)
     krach = KRACH(options)
