@@ -1,0 +1,48 @@
+on:
+  workflow_dispatch:
+    inputs:
+      update_ahf:
+        description: 'Update stats for AHF'
+        default: true
+        type: boolean
+
+      update_aghf:
+        description: 'Update stats for AGHF'
+        default: true
+        type: boolean
+
+      update_thf:
+        description: 'Update stats for THF'
+        default: true
+        type: boolean
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Refresh AHF Ratings
+        if: inputs.update_ahf
+        run: |
+          ./ahf.py download
+          ./ahf.py update
+
+      - name: Refresh AGHF Ratings
+        if: inputs.update_aghf
+        run: |
+          ./aghf.py download
+          ./aghf.py update
+
+      - name: Refresh THF Ratings
+        if: inputs.update_thf
+        run: |
+          ./thf.py download
+          ./thf.py update
+
+      - name: Commit updates
+        run: |
+          git config --global user.name "github-workflow"
+          git config --global user.email "spam@users.noreply.github.com"
+          git commit -am "Automated ranking update: $(date)"
+          git push
