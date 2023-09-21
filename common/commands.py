@@ -5,6 +5,8 @@ import argparse
 import sys
 import datetime
 import os
+import re
+import json
 
 import common.gamesheets as gamesheets
 import common.krach as krach
@@ -12,6 +14,9 @@ import common.markdown_output as mo
 import common.console_output as co
 import common.scorereader as scorereader
 import common.blackbear_common as bb
+
+def sortDivisions(divisions):
+    return sorted(divisions, key=lambda x:[int(re.findall('^\d+', x)[0]), x])
 
 #----------------------------------------------------------------------------
 def parseCommandLine():
@@ -98,6 +103,13 @@ def parseCommandLine():
     teams.add_argument('-d', '--div', help="Single division to update")
 
     #----------------------------------------------------------
+    cross = subparsers.add_parser('cross', help="Scan schedules for cross-division games")
+    cross.set_defaults(func=crossCommand)
+
+    cross.add_argument('-d', '--div', help="Single division to scan")
+    cross.add_argument('-v', '--verbose', action='store_true', default=False, help="Show PURE divisions in addition to MIXED.")
+
+    #----------------------------------------------------------
     args = parser.parse_args()
 
     if args.debug:
@@ -111,16 +123,16 @@ def parseCommandLine():
 
 #----------------------------------------------------------------------------
 def downloadCommand(args, SeasonId, League):
-	#Before we download the updated scores, we need to cleanup the results folder
-	#so that we don't have any old files hanging around
-	cleanupResultsDirectory(League)
+    #Before we download the updated scores, we need to cleanup the results folder
+    #so that we don't have any old files hanging around
+    cleanupResultsDirectory(League)
     #Now we can download the scores
-	Divisions = gamesheets.populateDivisionsDictionary(SeasonId, League)
-	logging.info("Downloading scores ...")
-	divisions = [args.div] if args.div else Divisions
-	for d in divisions:
-		gamesheets.downloadScores(d, SeasonId, Divisions)
-        
+    Divisions = gamesheets.populateDivisionsDictionary(SeasonId, League)
+    logging.info("Downloading scores ...")
+    divisions = [args.div] if args.div else Divisions
+    for d in sortDivisions(divisions):
+        gamesheets.downloadScores(d, SeasonId, Divisions)
+
 #----------------------------------------------------------------------------
 def updateCommand(args, SeasonId, League):
     options = krach.Options()
@@ -138,7 +150,7 @@ def updateCommand(args, SeasonId, League):
 
     divisions = [args.div] if args.div else Divisions
     toc = []
-    for divisionName in divisions:
+    for divisionName in sortDivisions(divisions):
         logging.info("Updating ratings for " + divisionName)
         toc.append(updateRatings(options, args.cutoff, divisionName, args.test, Divisions, League))
 
@@ -149,27 +161,100 @@ def updateCommand(args, SeasonId, League):
 def teamsCommand(args, SeasonId, League):
     Divisions = gamesheets.populateDivisionsDictionary(SeasonId, League)
     divisions = [args.div] if args.div else Divisions
-    for divisionName in divisions:
+    for divisionName in sortDivisions(divisions):
         co.listTeams(divisionName, Divisions)
+
+#----------------------------------------------------------------------------
+def crossCommand(args, SeasonId, League):
+    Divisions = gamesheets.populateDivisionsDictionary(SeasonId, League)
+    divisions = [args.div] if args.div else Divisions
+
+    pureDivisions = set()
+    mixedDivisions = dict()
+
+    for divisionName in sortDivisions(divisions):
+        gamesheets.downloadSchedule(divisionName, SeasonId, Divisions, force=False)
+        seenDivisions = scanForCrossTeamPlay(divisionName, Divisions)
+        if len(seenDivisions) == 1:
+            pureDivisions.add(divisionName)
+        else:
+            mixedDivisions[divisionName] = seenDivisions
+
+    if args.verbose:
+        print("Pure divisions:")
+        for pure in pureDivisions:
+            print("  * {}".format(pure))
+
+        for mixed,others in mixedDivisions.items():
+            print("{} is mixed with:".format(mixed))
+            for other in others:
+                print("  * {}".format(other))
+
+        print("")
+
+    alreadySeen = set()
+    for primaryDivision, seenDivisions in mixedDivisions.items():
+        if primaryDivision in alreadySeen:
+            continue
+
+        changed = True
+        grouping = set(seenDivisions)
+        grouping.difference_update(alreadySeen)
+        while changed:
+            changed = False
+            for d in list(grouping):
+                if d in alreadySeen:
+                    continue
+                alreadySeen.add(d)
+                grouping.update(mixedDivisions.get(d, set()))
+                changed = True
+
+        if len(grouping) == 0:
+            continue
+
+        print("Mixed Group:")
+        for entry in grouping:
+            print("  * {}".format(entry))
+        print("")
+
+#----------------------------------------------------------------------------
+def scanForCrossTeamPlay(divisionName, Divisions):
+    info = Divisions.get(divisionName, None)
+    if not info:
+        logging.error("Unknown division '%s'", divisionName)
+        sys.exit(1)
+
+    seenDivisions = set()
+    with open(info['schedule']) as f:
+        jdata = json.load(f)
+        for chunk in jdata.values():
+            for gameDay in chunk:
+                for game in gameDay.get('games',[]):
+                    seenDivisions.add(game['homeTeam']['division'])
+                    seenDivisions.add(game['visitorTeam']['division'])
+
+    #seenDivisions.discard(divisionName)
+    return seenDivisions
+
 #----------------------------------------------------------------------------
 def cleanupResultsDirectory(League):
-	directory = 'results/' + bb.getLeagueAbbreviation(League).lower() + '/'
-	if os.path.exists(directory):
-		logging.info("Deleting files from " + directory)
-		deletedFiles = 0
-		for root, dirs, files in os.walk(directory):
-			if len(files)>0:
-				for file in files:
-					os.remove(os.path.join(root, file))
-					deletedFiles += 1
-				logging.info("Deleted " + str(deletedFiles) + " files")
-			else:
-				logging.info("No files to delete")
-	else:
-		logging.info("Creating directory " + directory)
-		os.mkdir(directory)
-		logging.info("Created directory " + directory)
-        
+    directory = 'results/' + bb.getLeagueAbbreviation(League).lower() + '/'
+    if os.path.exists(directory):
+        logging.info("Deleting files from " + directory)
+        deletedFiles = 0
+        for root, dirs, files in os.walk(directory):
+            if len(files)>0:
+                for file in files:
+                    os.remove(os.path.join(root, file))
+                    deletedFiles += 1
+                logging.info("Deleted " + str(deletedFiles) + " files")
+            else:
+                logging.info("No files to delete")
+    else:
+        logging.info("Creating directory " + directory)
+        os.mkdir(directory)
+        logging.info("Created directory " + directory)
+
 #----------------------------------------------------------------------------
 def updateRatings(options, dateCutoff, divisionName, testMode, Divions, League):
     info = Divions.get(divisionName, None)
@@ -202,7 +287,8 @@ def updateRatings(options, dateCutoff, divisionName, testMode, Divions, League):
 
 #----------------------------------------------------------------------------
 def loadInputs(dateCutoff, inputFile):
-	ledger = krach.Ledger(dateCutoff)
-	reader = scorereader.ScoreReader()
-	reader.read(inputFile, ledger)
-	return ledger
+    ledger = krach.Ledger(dateCutoff)
+    reader = scorereader.ScoreReader()
+    reader.read(inputFile, ledger)
+    return ledger
+

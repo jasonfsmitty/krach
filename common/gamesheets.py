@@ -8,10 +8,12 @@ import os
 import sys
 
 import common.blackbear_common as bb
-    
+
+API_URL = "https://gamesheetstats.com/api/"
+
 #------------------------------------------------------------------------------
 def ignoreDivision(name):
-	return name.startswith('Mite') or any(map(lambda x: name.find(x) != -1, ['Guest', 'Championship', 'Gold', 'Silver', 'Bronze', 'Super 6', 'Frozen 4'])) or any(map(lambda x: name.find(x) != -1, bb.THF_DivisionsIgnore)) or any(map(lambda x: name.find(x) != -1, bb.AHF_DivisionsIgnore)) or any(map(lambda x: name.find(x) != -1, bb.AGHF_DivisionsIgnore))
+    return name.startswith('Mite') or any(map(lambda x: name.find(x) != -1, ['Guest', 'Championship', 'Gold', 'Silver', 'Bronze', 'Super 6', 'Frozen 4'])) or any(map(lambda x: name.find(x) != -1, bb.THF_DivisionsIgnore)) or any(map(lambda x: name.find(x) != -1, bb.AHF_DivisionsIgnore)) or any(map(lambda x: name.find(x) != -1, bb.AGHF_DivisionsIgnore))
 
 #------------------------------------------------------------------------------
 def getDivisions(season):
@@ -26,24 +28,30 @@ def getDivisions(season):
 
 #------------------------------------------------------------------------------
 def populateDivisionsDictionary(season, league):
-	returnDivisions = {}
-	divisions = getDivisions(season)
-	resultsDir = 'results/{}'.format(bb.getLeagueAbbreviation(league).lower())
-        
-	for division in divisions:
-		divisionName = division.replace(' ', '-').replace("/", '')
-		returnDivision = {}
-		returnDivision['id'] = divisions[division]
-		returnDivision['scores'] = '{}/{}-scores.json'.format(resultsDir, divisionName)
-		returnDivision['filter'] = '{}/{}-filter.txt'.format(resultsDir, divisionName)
-		returnDivision['output'] = '{}/{}-ratings.md'.format(resultsDir, divisionName)
-		returnDivisions[division] = returnDivision
-	
-	return returnDivisions
+    returnDivisions = {}
+    divisions = getDivisions(season)
+    resultsDir = 'results/{}'.format(bb.getLeagueAbbreviation(league).lower())
+
+    for division in divisions:
+        divisionName = division.replace(' ', '-').replace("/", '')
+        returnDivision = {}
+        returnDivision['id'] = divisions[division]
+        returnDivision['schedule'] = '{}/{}-schedule.json'.format(resultsDir, divisionName)
+        returnDivision['scores'] = '{}/{}-scores.json'.format(resultsDir, divisionName)
+        returnDivision['filter'] = '{}/{}-filter.txt'.format(resultsDir, divisionName)
+        returnDivision['output'] = '{}/{}-ratings.md'.format(resultsDir, divisionName)
+        returnDivisions[division] = returnDivision
+
+    return returnDivisions
 
 #----------------------------------------------------------------------------
 def buildScoresUrl(season, divisionId):
-    baseURL="https://gamesheetstats.com/api/useScoredGames/getSeasonScores"
+    baseURL = API_URL + "/useScoredGames/getSeasonScores"
+    return "{}/{}?filter[divisions]={}&filter=[gametype]=overall&filter[limit]=0".format(baseURL, season, divisionId)
+
+#----------------------------------------------------------------------------
+def buildScheduleUrl(season, divisionId):
+    baseURL = API_URL + "/useSchedule/getSeasonSchedule"
     return "{}/{}?filter[divisions]={}&filter=[gametype]=overall&filter[limit]=0".format(baseURL, season, divisionId)
 
 #------------------------------------------------------------------------------
@@ -55,6 +63,17 @@ def getDivisionScores(season, divisionName, divisionId):
         logging.error("Failed to query '{}' for season={} division={}: status={}".format(url, season, divisionId, response.status_code))
         logging.error("Response = {}".format(str(response)))
         raise RuntimeError("Failed to get scores")
+    return response.json()
+
+#------------------------------------------------------------------------------
+def getDivisionSchedule(season, divisionName, divisionId):
+    url = buildScheduleUrl(season, divisionId)
+    logging.debug("GET: {}".format(url))
+    response = requests.get(url)
+    if response.status_code != 200:
+        logging.error("Failed to query '{}' for season={} division={}: status={}".format(url, season, divisionId, response.status_code))
+        logging.error("Response = {}".format(str(response)))
+        raise RuntimeError("Failed to get schedule")
     return response.json()
 
 #----------------------------------------------------------------------------
@@ -69,3 +88,18 @@ def downloadScores(divisionName, SeasonId, Divisions):
     scores = getDivisionScores(SeasonId, divisionName, info['id'])
     with open(info['scores'], "w") as f:
         json.dump(scores, f)
+
+#----------------------------------------------------------------------------
+def downloadSchedule(divisionName, SeasonId, Divisions, force=False):
+    info = Divisions.get(divisionName, None)
+    if not info:
+        logging.error("Unknown division '%s'", divisionName)
+        sys.exit(1)
+
+    if force or not os.path.exists(info['schedule']):
+        logging.info("Getting schedule for division '{}'".format(divisionName))
+        schedule = getDivisionSchedule(SeasonId, divisionName, info['id'])
+        with open(info['schedule'], "w") as f:
+            json.dump(schedule, f)
+
+

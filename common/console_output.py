@@ -18,7 +18,7 @@ def showRankings(divisionName, ledger, ratings, league):
     diffTotal = 0.0
     rawTotal = 0.0
     numTeams = len(ratings)
-    
+
     if numTeams == 0:
         print("No teams found")
         sys.exit(1)
