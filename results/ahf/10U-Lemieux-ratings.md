@@ -1,36 +1,36 @@
 [<- back to the index](readme.md)
 # 10U Lemieux KRACH Rankings
-Rankings generated on Thu Sep 21 00:11:27 2023.
+Rankings generated on Sun Sep 24 18:45:41 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1319|Championship|VFC Squirt Bergy|9|8|0|0|0|1|238|9.7|-0.0
-2|1142|Championship|Philadelphia Blazers|8|7|1|0|0|0|335|7.8|-0.0
-3|991|Championship|Wissahickon Warriors Red|7|6|1|0|0|0|347|6.8|-0.0
-4|938|Championship|Hollydell Hurricanes|7|6|1|0|0|0|304|6.9|0.0
-5|782|Gold|Palmyra Black Knights - Kullman|10|8|2|0|0|0|321|8.9|0.0
-6|696|Gold|10U TI North Stars Red|7|5|2|0|0|0|437|5.9|0.0
-7|672|Gold|Wildcats 10U A|8|6|2|0|0|0|456|6.8|-0.0
-8|609|Gold|Mercer Chiefs Black|7|5|1|0|0|1|372|6.7|-0.0
-9|290|Silver|Dix Hills Hawks Squirt|6|3|2|0|0|1|362|4.7|0.0
-10|284|Silver|Delaware Ducks|6|3|3|0|0|0|487|3.9|0.0
-11|250|Silver|Haverford Hawks 10UA|8|5|3|0|0|0|275|5.9|0.0
-12|232|Silver|Rinx|4|2|2|0|0|0|555|2.8|-0.0
-13|232|Bronze|Aviator Hockey Club 10U Minor|4|2|2|0|0|0|296|2.9|0.0
-14|231|Bronze|Frederick Freeze 10U LA|4|2|2|0|0|0|346|2.9|0.0
-15|204|Bronze|Ashburn Xtreme 10U X|6|3|3|0|0|0|367|3.9|0.0
-16|160|Bronze|PAL Silver Knights|4|1|3|0|0|0|619|1.8|-0.0
-17|152||North Jersey Kings Blue|7|2|4|0|0|1|326|3.7|0.0
-18|97||MYHA LA Blue|6|2|4|0|0|0|194|2.9|0.0
-19|92||Tri-City Eagles 10U Blue|6|1|5|0|0|0|731|1.9|0.0
-20|91||MYHA LA Gold|4|1|3|0|0|0|463|1.8|-0.0
-21|86||North Jersey Avalanche Blue|7|2|5|0|0|0|295|2.9|0.0
-22|83||York Devils|8|2|6|0|0|0|458|2.8|-0.0
-23|52||Lehigh Valley Phantoms Youth U10 A1|8|2|6|0|0|0|276|2.9|0.0
-24|32||Lancaster Firebirds Squirt Orange|7|1|6|0|0|0|355|1.8|-0.0
-25|30||Lehigh Valley Phantoms Youth U10 A2|6|0|6|0|0|0|642|0.8|-0.0
-26|28||STJ 10U White|6|1|5|0|0|0|227|1.9|0.0
-27|27||Jersey Colts Squirt Silver|6|0|6|0|0|0|455|0.9|0.0
+1|1615|Championship|Philadelphia Blazers|11|10|1|0|0|0|342|10.8|-0.0
+2|1092|Championship|Wissahickon Warriors Red|8|7|1|0|0|0|378|7.8|-0.0
+3|1061|Championship|Hollydell Hurricanes|9|8|1|0|0|0|269|8.9|0.0
+4|894|Championship|Palmyra Black Knights - Kullman|13|11|2|0|0|0|273|11.9|0.0
+5|881|Gold|VFC Squirt Bergy|10|8|1|0|0|1|348|9.7|-0.0
+6|856|Gold|Wildcats 10U A|10|8|2|0|0|0|429|8.8|-0.0
+7|666|Gold|10U TI North Stars Red|7|5|2|0|0|0|458|5.9|0.0
+8|487|Gold|Mercer Chiefs Black|9|6|2|0|0|1|397|7.7|-0.0
+9|271|Silver|Dix Hills Hawks Squirt|6|3|2|0|0|1|381|4.7|0.0
+10|236|Silver|Haverford Hawks 10UA|11|7|4|0|0|0|285|7.9|0.0
+11|232|Silver|Delaware Ducks|8|4|4|0|0|0|447|4.9|0.0
+12|209|Silver|Frederick Freeze 10U LA|4|2|2|0|0|0|356|2.9|0.0
+13|202|Bronze|Rinx|4|2|2|0|0|0|553|2.8|-0.0
+14|183|Bronze|Ashburn Xtreme 10U X|6|3|3|0|0|0|385|3.9|0.0
+15|181|Bronze|PAL Silver Knights|6|2|4|0|0|0|633|2.8|-0.0
+16|153|Bronze|North Jersey Kings Blue|9|4|4|0|0|1|279|5.7|0.0
+17|141||Aviator Hockey Club 10U Minor|5|2|3|0|0|0|251|2.9|0.0
+18|76||York Devils|9|3|6|0|0|0|378|3.8|-0.0
+19|73||MYHA LA Blue|8|2|6|0|0|0|328|2.9|0.0
+20|72||North Jersey Avalanche Blue|8|2|6|0|0|0|368|2.9|0.0
+21|67||MYHA LA Gold|6|1|5|0|0|0|709|1.8|-0.0
+22|55||Tri-City Eagles 10U Blue|8|1|7|0|0|0|586|1.9|0.0
+23|38||Lehigh Valley Phantoms Youth U10 A1|10|2|8|0|0|0|348|2.9|0.0
+24|31||Jersey Colts Squirt Silver|8|1|7|0|0|0|474|1.9|0.0
+25|20||STJ 10U White|6|1|5|0|0|0|231|1.9|0.0
+26|20||Lancaster Firebirds Squirt Orange|9|1|8|0|0|0|324|1.9|0.0
+27|13||Lehigh Valley Phantoms Youth U10 A2|8|0|8|0|0|0|549|0.8|-0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
@@ -42,35 +42,35 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||VFC Squirt Bergy|Philadelphia Blazers|Wissahickon Warriors Red|Hollydell Hurricanes|Palmyra Black Knights - Kullman|10U TI North Stars Red|Wildcats 10U A|Mercer Chiefs Black|Dix Hills Hawks Squirt|Delaware Ducks|Haverford Hawks 10UA|Rinx|Aviator Hockey Club 10U Minor|Frederick Freeze 10U LA|Ashburn Xtreme 10U X|PAL Silver Knights|North Jersey Kings Blue|MYHA LA Blue|Tri-City Eagles 10U Blue|MYHA LA Gold|North Jersey Avalanche Blue|York Devils|Lehigh Valley Phantoms Youth U10 A1|Lancaster Firebirds Squirt Orange|Lehigh Valley Phantoms Youth U10 A2|STJ 10U White|Jersey Colts Squirt Silver
+||Philadelphia Blazers|Wissahickon Warriors Red|Hollydell Hurricanes|Palmyra Black Knights - Kullman|VFC Squirt Bergy|Wildcats 10U A|10U TI North Stars Red|Mercer Chiefs Black|Dix Hills Hawks Squirt|Haverford Hawks 10UA|Delaware Ducks|Frederick Freeze 10U LA|Rinx|Ashburn Xtreme 10U X|PAL Silver Knights|North Jersey Kings Blue|Aviator Hockey Club 10U Minor|York Devils|MYHA LA Blue|North Jersey Avalanche Blue|MYHA LA Gold|Tri-City Eagles 10U Blue|Lehigh Valley Phantoms Youth U10 A1|Jersey Colts Squirt Silver|STJ 10U White|Lancaster Firebirds Squirt Orange|Lehigh Valley Phantoms Youth U10 A2
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|VFC Squirt Bergy|--| 54%| 57%| 58%| 63%| 65%| 66%| 68%| 82%| 82%| 84%| 85%| 85%| 85%| 87%| 89%| 90%| 93%| 93%| 94%| 94%| 94%| 96%| 98%| 98%| 98%| 98%
-|Philadelphia Blazers| 46%|--| 54%| 55%| 59%| 62%| 63%| 65%| 80%| 80%| 82%| 83%| 83%| 83%| 85%| 88%| 88%| 92%| 93%| 93%| 93%| 93%| 96%| 97%| 97%| 98%| 98%
-|Wissahickon Warriors Red| 43%| 46%|--| 51%| 56%| 59%| 60%| 62%| 77%| 78%| 80%| 81%| 81%| 81%| 83%| 86%| 87%| 91%| 92%| 92%| 92%| 92%| 95%| 97%| 97%| 97%| 97%
-|Hollydell Hurricanes| 42%| 45%| 49%|--| 55%| 57%| 58%| 61%| 76%| 77%| 79%| 80%| 80%| 80%| 82%| 85%| 86%| 91%| 91%| 91%| 92%| 92%| 95%| 97%| 97%| 97%| 97%
-|Palmyra Black Knights - Kullman| 37%| 41%| 44%| 45%|--| 53%| 54%| 56%| 73%| 73%| 76%| 77%| 77%| 77%| 79%| 83%| 84%| 89%| 89%| 90%| 90%| 90%| 94%| 96%| 96%| 97%| 97%
-|10U TI North Stars Red| 35%| 38%| 41%| 43%| 47%|--| 51%| 53%| 71%| 71%| 74%| 75%| 75%| 75%| 77%| 81%| 82%| 88%| 88%| 88%| 89%| 89%| 93%| 96%| 96%| 96%| 96%
-|Wildcats 10U A| 34%| 37%| 40%| 42%| 46%| 49%|--| 52%| 70%| 70%| 73%| 74%| 74%| 74%| 77%| 81%| 82%| 87%| 88%| 88%| 89%| 89%| 93%| 95%| 96%| 96%| 96%
-|Mercer Chiefs Black| 32%| 35%| 38%| 39%| 44%| 47%| 48%|--| 68%| 68%| 71%| 72%| 72%| 73%| 75%| 79%| 80%| 86%| 87%| 87%| 88%| 88%| 92%| 95%| 95%| 96%| 96%
-|Dix Hills Hawks Squirt| 18%| 20%| 23%| 24%| 27%| 29%| 30%| 32%|--| 51%| 54%| 56%| 56%| 56%| 59%| 64%| 66%| 75%| 76%| 76%| 77%| 78%| 85%| 90%| 91%| 91%| 92%
-|Delaware Ducks| 18%| 20%| 22%| 23%| 27%| 29%| 30%| 32%| 49%|--| 53%| 55%| 55%| 55%| 58%| 64%| 65%| 74%| 76%| 76%| 77%| 77%| 85%| 90%| 91%| 91%| 91%
-|Haverford Hawks 10UA| 16%| 18%| 20%| 21%| 24%| 26%| 27%| 29%| 46%| 47%|--| 52%| 52%| 52%| 55%| 61%| 62%| 72%| 73%| 73%| 74%| 75%| 83%| 88%| 89%| 90%| 90%
-|Rinx| 15%| 17%| 19%| 20%| 23%| 25%| 26%| 28%| 44%| 45%| 48%|--| 50%| 50%| 53%| 59%| 61%| 70%| 72%| 72%| 73%| 74%| 82%| 88%| 89%| 89%| 90%
-|Aviator Hockey Club 10U Minor| 15%| 17%| 19%| 20%| 23%| 25%| 26%| 28%| 44%| 45%| 48%| 50%|--| 50%| 53%| 59%| 60%| 70%| 72%| 72%| 73%| 74%| 82%| 88%| 89%| 89%| 90%
-|Frederick Freeze 10U LA| 15%| 17%| 19%| 20%| 23%| 25%| 26%| 27%| 44%| 45%| 48%| 50%| 50%|--| 53%| 59%| 60%| 70%| 71%| 72%| 73%| 74%| 82%| 88%| 89%| 89%| 90%
-|Ashburn Xtreme 10U X| 13%| 15%| 17%| 18%| 21%| 23%| 23%| 25%| 41%| 42%| 45%| 47%| 47%| 47%|--| 56%| 57%| 68%| 69%| 69%| 70%| 71%| 80%| 86%| 87%| 88%| 88%
-|PAL Silver Knights| 11%| 12%| 14%| 15%| 17%| 19%| 19%| 21%| 36%| 36%| 39%| 41%| 41%| 41%| 44%|--| 51%| 62%| 64%| 64%| 65%| 66%| 76%| 83%| 84%| 85%| 86%
-|North Jersey Kings Blue| 10%| 12%| 13%| 14%| 16%| 18%| 18%| 20%| 34%| 35%| 38%| 39%| 40%| 40%| 43%| 49%|--| 61%| 62%| 62%| 64%| 65%| 75%| 82%| 84%| 85%| 85%
-|MYHA LA Blue|  7%|  8%|  9%|  9%| 11%| 12%| 13%| 14%| 25%| 26%| 28%| 30%| 30%| 30%| 32%| 38%| 39%|--| 51%| 52%| 53%| 54%| 65%| 75%| 77%| 78%| 78%
-|Tri-City Eagles 10U Blue|  7%|  7%|  8%|  9%| 11%| 12%| 12%| 13%| 24%| 24%| 27%| 28%| 28%| 29%| 31%| 36%| 38%| 49%|--| 50%| 52%| 53%| 64%| 74%| 76%| 77%| 77%
-|MYHA LA Gold|  6%|  7%|  8%|  9%| 10%| 12%| 12%| 13%| 24%| 24%| 27%| 28%| 28%| 28%| 31%| 36%| 38%| 48%| 50%|--| 52%| 53%| 64%| 74%| 75%| 77%| 77%
-|North Jersey Avalanche Blue|  6%|  7%|  8%|  8%| 10%| 11%| 11%| 12%| 23%| 23%| 26%| 27%| 27%| 27%| 30%| 35%| 36%| 47%| 48%| 48%|--| 51%| 62%| 73%| 74%| 76%| 76%
-|York Devils|  6%|  7%|  8%|  8%| 10%| 11%| 11%| 12%| 22%| 23%| 25%| 26%| 26%| 26%| 29%| 34%| 35%| 46%| 47%| 47%| 49%|--| 61%| 72%| 74%| 75%| 75%
-|Lehigh Valley Phantoms Youth U10 A1|  4%|  4%|  5%|  5%|  6%|  7%|  7%|  8%| 15%| 15%| 17%| 18%| 18%| 18%| 20%| 24%| 25%| 35%| 36%| 36%| 38%| 39%|--| 62%| 64%| 65%| 66%
-|Lancaster Firebirds Squirt Orange|  2%|  3%|  3%|  3%|  4%|  4%|  5%|  5%| 10%| 10%| 12%| 12%| 12%| 12%| 14%| 17%| 18%| 25%| 26%| 26%| 27%| 28%| 38%|--| 52%| 54%| 55%
-|Lehigh Valley Phantoms Youth U10 A2|  2%|  3%|  3%|  3%|  4%|  4%|  4%|  5%|  9%|  9%| 11%| 11%| 11%| 11%| 13%| 16%| 16%| 23%| 24%| 25%| 26%| 26%| 36%| 48%|--| 52%| 52%
-|STJ 10U White|  2%|  2%|  3%|  3%|  3%|  4%|  4%|  4%|  9%|  9%| 10%| 11%| 11%| 11%| 12%| 15%| 15%| 22%| 23%| 23%| 24%| 25%| 35%| 46%| 48%|--| 51%
-|Jersey Colts Squirt Silver|  2%|  2%|  3%|  3%|  3%|  4%|  4%|  4%|  8%|  9%| 10%| 10%| 10%| 10%| 12%| 14%| 15%| 22%| 23%| 23%| 24%| 25%| 34%| 45%| 48%| 49%|--
+|Philadelphia Blazers|--| 60%| 60%| 64%| 65%| 65%| 71%| 77%| 86%| 87%| 87%| 89%| 89%| 90%| 90%| 91%| 92%| 95%| 96%| 96%| 96%| 97%| 98%| 98%| 99%| 99%| 99%
+|Wissahickon Warriors Red| 40%|--| 51%| 55%| 55%| 56%| 62%| 69%| 80%| 82%| 82%| 84%| 84%| 86%| 86%| 88%| 89%| 93%| 94%| 94%| 94%| 95%| 97%| 97%| 98%| 98%| 99%
+|Hollydell Hurricanes| 40%| 49%|--| 54%| 55%| 55%| 61%| 69%| 80%| 82%| 82%| 84%| 84%| 85%| 85%| 87%| 88%| 93%| 94%| 94%| 94%| 95%| 97%| 97%| 98%| 98%| 99%
+|Palmyra Black Knights - Kullman| 36%| 45%| 46%|--| 50%| 51%| 57%| 65%| 77%| 79%| 79%| 81%| 82%| 83%| 83%| 85%| 86%| 92%| 92%| 93%| 93%| 94%| 96%| 97%| 98%| 98%| 99%
+|VFC Squirt Bergy| 35%| 45%| 45%| 50%|--| 51%| 57%| 64%| 76%| 79%| 79%| 81%| 81%| 83%| 83%| 85%| 86%| 92%| 92%| 92%| 93%| 94%| 96%| 97%| 98%| 98%| 99%
+|Wildcats 10U A| 35%| 44%| 45%| 49%| 49%|--| 56%| 64%| 76%| 78%| 79%| 80%| 81%| 82%| 83%| 85%| 86%| 92%| 92%| 92%| 93%| 94%| 96%| 96%| 98%| 98%| 99%
+|10U TI North Stars Red| 29%| 38%| 39%| 43%| 43%| 44%|--| 58%| 71%| 74%| 74%| 76%| 77%| 78%| 79%| 81%| 83%| 90%| 90%| 90%| 91%| 92%| 95%| 95%| 97%| 97%| 98%
+|Mercer Chiefs Black| 23%| 31%| 31%| 35%| 36%| 36%| 42%|--| 64%| 67%| 68%| 70%| 71%| 73%| 73%| 76%| 78%| 86%| 87%| 87%| 88%| 90%| 93%| 94%| 96%| 96%| 97%
+|Dix Hills Hawks Squirt| 14%| 20%| 20%| 23%| 24%| 24%| 29%| 36%|--| 53%| 54%| 56%| 57%| 60%| 60%| 64%| 66%| 78%| 79%| 79%| 80%| 83%| 88%| 90%| 93%| 93%| 95%
+|Haverford Hawks 10UA| 13%| 18%| 18%| 21%| 21%| 22%| 26%| 33%| 47%|--| 51%| 53%| 54%| 56%| 57%| 61%| 63%| 76%| 76%| 77%| 78%| 81%| 86%| 88%| 92%| 92%| 95%
+|Delaware Ducks| 13%| 18%| 18%| 21%| 21%| 21%| 26%| 32%| 46%| 49%|--| 53%| 53%| 56%| 56%| 60%| 62%| 75%| 76%| 76%| 78%| 81%| 86%| 88%| 92%| 92%| 95%
+|Frederick Freeze 10U LA| 11%| 16%| 16%| 19%| 19%| 20%| 24%| 30%| 44%| 47%| 47%|--| 51%| 53%| 54%| 58%| 60%| 73%| 74%| 74%| 76%| 79%| 85%| 87%| 91%| 91%| 94%
+|Rinx| 11%| 16%| 16%| 18%| 19%| 19%| 23%| 29%| 43%| 46%| 47%| 49%|--| 53%| 53%| 57%| 59%| 73%| 73%| 74%| 75%| 79%| 84%| 87%| 91%| 91%| 94%
+|Ashburn Xtreme 10U X| 10%| 14%| 15%| 17%| 17%| 18%| 22%| 27%| 40%| 44%| 44%| 47%| 47%|--| 50%| 54%| 56%| 71%| 71%| 72%| 73%| 77%| 83%| 85%| 90%| 90%| 93%
+|PAL Silver Knights| 10%| 14%| 15%| 17%| 17%| 17%| 21%| 27%| 40%| 43%| 44%| 46%| 47%| 50%|--| 54%| 56%| 70%| 71%| 72%| 73%| 77%| 83%| 85%| 90%| 90%| 93%
+|North Jersey Kings Blue|  9%| 12%| 13%| 15%| 15%| 15%| 19%| 24%| 36%| 39%| 40%| 42%| 43%| 46%| 46%|--| 52%| 67%| 68%| 68%| 70%| 73%| 80%| 83%| 88%| 88%| 92%
+|Aviator Hockey Club 10U Minor|  8%| 11%| 12%| 14%| 14%| 14%| 17%| 22%| 34%| 37%| 38%| 40%| 41%| 44%| 44%| 48%|--| 65%| 66%| 66%| 68%| 72%| 79%| 82%| 87%| 87%| 92%
+|York Devils|  5%|  7%|  7%|  8%|  8%|  8%| 10%| 14%| 22%| 24%| 25%| 27%| 27%| 29%| 30%| 33%| 35%|--| 51%| 52%| 53%| 58%| 67%| 71%| 79%| 79%| 85%
+|MYHA LA Blue|  4%|  6%|  6%|  8%|  8%|  8%| 10%| 13%| 21%| 24%| 24%| 26%| 27%| 29%| 29%| 32%| 34%| 49%|--| 51%| 52%| 57%| 66%| 70%| 78%| 78%| 85%
+|North Jersey Avalanche Blue|  4%|  6%|  6%|  7%|  8%|  8%| 10%| 13%| 21%| 23%| 24%| 26%| 26%| 28%| 28%| 32%| 34%| 48%| 49%|--| 52%| 57%| 66%| 70%| 78%| 78%| 85%
+|MYHA LA Gold|  4%|  6%|  6%|  7%|  7%|  7%|  9%| 12%| 20%| 22%| 22%| 24%| 25%| 27%| 27%| 30%| 32%| 47%| 48%| 48%|--| 55%| 64%| 68%| 77%| 77%| 84%
+|Tri-City Eagles 10U Blue|  3%|  5%|  5%|  6%|  6%|  6%|  8%| 10%| 17%| 19%| 19%| 21%| 21%| 23%| 23%| 27%| 28%| 42%| 43%| 43%| 45%|--| 59%| 64%| 73%| 73%| 81%
+|Lehigh Valley Phantoms Youth U10 A1|  2%|  3%|  3%|  4%|  4%|  4%|  5%|  7%| 12%| 14%| 14%| 15%| 16%| 17%| 17%| 20%| 21%| 33%| 34%| 34%| 36%| 41%|--| 55%| 65%| 65%| 74%
+|Jersey Colts Squirt Silver|  2%|  3%|  3%|  3%|  3%|  4%|  5%|  6%| 10%| 12%| 12%| 13%| 13%| 15%| 15%| 17%| 18%| 29%| 30%| 30%| 32%| 36%| 45%|--| 61%| 61%| 71%
+|STJ 10U White|  1%|  2%|  2%|  2%|  2%|  2%|  3%|  4%|  7%|  8%|  8%|  9%|  9%| 10%| 10%| 12%| 13%| 21%| 22%| 22%| 23%| 27%| 35%| 39%|--| 50%| 61%
+|Lancaster Firebirds Squirt Orange|  1%|  2%|  2%|  2%|  2%|  2%|  3%|  4%|  7%|  8%|  8%|  9%|  9%| 10%| 10%| 12%| 13%| 21%| 22%| 22%| 23%| 27%| 35%| 39%| 50%|--| 61%
+|Lehigh Valley Phantoms Youth U10 A2|  1%|  1%|  1%|  1%|  1%|  1%|  2%|  3%|  5%|  5%|  5%|  6%|  6%|  7%|  7%|  8%|  8%| 15%| 15%| 15%| 16%| 19%| 26%| 29%| 39%| 39%|--
 
 ## Generation Details
 
@@ -82,7 +82,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-08-26 |
-| End Date | 2023-09-17 |
+| End Date | 2023-09-24 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |

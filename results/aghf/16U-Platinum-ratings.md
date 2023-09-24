@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 16U Platinum KRACH Rankings
-Rankings generated on Thu Sep 21 00:11:30 2023.
+Rankings generated on Sun Sep 24 18:45:46 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:

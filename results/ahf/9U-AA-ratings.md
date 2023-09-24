@@ -1,20 +1,20 @@
 [<- back to the index](readme.md)
 # 9U AA KRACH Rankings
-Rankings generated on Thu Sep 21 00:11:26 2023.
+Rankings generated on Sun Sep 24 18:45:41 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1988|Championship|Ashburn Xtreme 2014|4|4|0|0|0|0|352|4.8|-0.0
-2|1633|Championship|Palmyra Black Knights- Rochefort|3|3|0|0|0|0|360|3.9|0.0
-3|1316|Championship|MYHA 9U AA|6|5|1|0|0|0|471|5.8|-0.0
-4|1146|Championship|Long Island Whalers Squirt 2014|6|5|1|0|0|0|436|5.8|-0.0
-5|649|Gold|Royals 9U AA White|7|5|1|0|0|1|270|6.7|0.0
-6|513|Gold|Delaware Ducks|9|4|5|0|0|0|995|4.8|-0.0
-7|436|Gold|Wilkes-Barre / Scranton Jr Knights|7|3|4|0|0|0|807|3.9|0.0
-8|263|Gold|Hollydell Hurricanes|9|4|4|0|0|1|322|5.7|0.0
-9|165||Team Philadelphia|9|2|7|0|0|0|906|2.9|0.0
-10|81||Arrows 10u Silver|4|0|4|0|0|0|579|0.9|0.0
-11|45||RHC Squirt Minor AA|7|0|7|0|0|0|599|0.9|0.0
+1|1979|Championship|Palmyra Black Knights- Rochefort|4|4|0|0|0|0|349|4.8|-0.0
+2|1710|Championship|Ashburn Xtreme 2014|4|4|0|0|0|0|301|4.8|-0.0
+3|1145|Championship|MYHA 9U AA|6|5|1|0|0|0|412|5.8|-0.0
+4|1023|Championship|Long Island Whalers Squirt 2014|6|5|1|0|0|0|386|5.8|-0.0
+5|561|Gold|Royals 9U AA White|7|5|1|0|0|1|237|6.7|0.0
+6|445|Gold|Delaware Ducks|11|5|6|0|0|0|893|5.8|-0.0
+7|404|Gold|Wilkes-Barre / Scranton Jr Knights|7|3|4|0|0|0|845|3.9|0.0
+8|211|Gold|Hollydell Hurricanes|11|5|5|0|0|1|290|6.7|0.0
+9|122||Team Philadelphia|10|2|8|0|0|0|802|2.8|-0.0
+10|71||Arrows 10u Silver|4|0|4|0|0|0|514|0.9|0.0
+11|29||RHC Squirt Minor AA|9|0|9|0|0|0|494|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
@@ -26,19 +26,19 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Ashburn Xtreme 2014|Palmyra Black Knights- Rochefort|MYHA 9U AA|Long Island Whalers Squirt 2014|Royals 9U AA White|Delaware Ducks|Wilkes-Barre / Scranton Jr Knights|Hollydell Hurricanes|Team Philadelphia|Arrows 10u Silver|RHC Squirt Minor AA
+||Palmyra Black Knights- Rochefort|Ashburn Xtreme 2014|MYHA 9U AA|Long Island Whalers Squirt 2014|Royals 9U AA White|Delaware Ducks|Wilkes-Barre / Scranton Jr Knights|Hollydell Hurricanes|Team Philadelphia|Arrows 10u Silver|RHC Squirt Minor AA
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Ashburn Xtreme 2014|--| 55%| 60%| 63%| 75%| 79%| 82%| 88%| 92%| 96%| 98%
-|Palmyra Black Knights- Rochefort| 45%|--| 55%| 59%| 72%| 76%| 79%| 86%| 91%| 95%| 97%
-|MYHA 9U AA| 40%| 45%|--| 53%| 67%| 72%| 75%| 83%| 89%| 94%| 97%
-|Long Island Whalers Squirt 2014| 37%| 41%| 47%|--| 64%| 69%| 72%| 81%| 87%| 93%| 96%
-|Royals 9U AA White| 25%| 28%| 33%| 36%|--| 56%| 60%| 71%| 80%| 89%| 94%
-|Delaware Ducks| 21%| 24%| 28%| 31%| 44%|--| 54%| 66%| 76%| 86%| 92%
-|Wilkes-Barre / Scranton Jr Knights| 18%| 21%| 25%| 28%| 40%| 46%|--| 62%| 73%| 84%| 91%
-|Hollydell Hurricanes| 12%| 14%| 17%| 19%| 29%| 34%| 38%|--| 61%| 77%| 85%
-|Team Philadelphia|  8%|  9%| 11%| 13%| 20%| 24%| 27%| 39%|--| 67%| 79%
-|Arrows 10u Silver|  4%|  5%|  6%|  7%| 11%| 14%| 16%| 23%| 33%|--| 64%
-|RHC Squirt Minor AA|  2%|  3%|  3%|  4%|  6%|  8%|  9%| 15%| 21%| 36%|--
+|Palmyra Black Knights- Rochefort|--| 54%| 63%| 66%| 78%| 82%| 83%| 90%| 94%| 97%| 99%
+|Ashburn Xtreme 2014| 46%|--| 60%| 63%| 75%| 79%| 81%| 89%| 93%| 96%| 98%
+|MYHA 9U AA| 37%| 40%|--| 53%| 67%| 72%| 74%| 84%| 90%| 94%| 98%
+|Long Island Whalers Squirt 2014| 34%| 37%| 47%|--| 65%| 70%| 72%| 83%| 89%| 94%| 97%
+|Royals 9U AA White| 22%| 25%| 33%| 35%|--| 56%| 58%| 73%| 82%| 89%| 95%
+|Delaware Ducks| 18%| 21%| 28%| 30%| 44%|--| 52%| 68%| 79%| 86%| 94%
+|Wilkes-Barre / Scranton Jr Knights| 17%| 19%| 26%| 28%| 42%| 48%|--| 66%| 77%| 85%| 93%
+|Hollydell Hurricanes| 10%| 11%| 16%| 17%| 27%| 32%| 34%|--| 63%| 75%| 88%
+|Team Philadelphia|  6%|  7%| 10%| 11%| 18%| 21%| 23%| 37%|--| 63%| 81%
+|Arrows 10u Silver|  3%|  4%|  6%|  6%| 11%| 14%| 15%| 25%| 37%|--| 71%
+|RHC Squirt Minor AA|  1%|  2%|  2%|  3%|  5%|  6%|  7%| 12%| 19%| 29%|--
 
 ## Generation Details
 
@@ -50,7 +50,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-09-02 |
-| End Date | 2023-09-17 |
+| End Date | 2023-09-24 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |

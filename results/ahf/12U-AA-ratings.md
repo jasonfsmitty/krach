@@ -1,30 +1,31 @@
 [<- back to the index](readme.md)
 # 12U AA KRACH Rankings
-Rankings generated on Thu Sep 21 00:11:26 2023.
+Rankings generated on Sun Sep 24 18:45:41 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2525|Championship|Hollydell Hurricanes|8|8|0|0|0|0|255|8.8|-0.0
-2|1210|Championship|MYHA 12U AA Blue|4|4|0|0|0|0|230|4.9|0.0
-3|805|Championship|Lehigh Valley Phantoms Youth U12 AA|8|7|0|0|0|1|155|8.7|0.0
-4|736|Championship|STJ 12U Gold|6|5|1|0|0|0|280|5.9|0.0
-5|637|Gold|Haverford Hawks 12UAA|8|5|2|0|0|1|591|6.7|-0.0
-6|485|Gold|Darien|6|4|2|0|0|0|405|4.9|0.0
-7|369|Gold|NJ Bandits 12AA Grey|7|5|2|0|0|0|435|5.8|-0.0
-8|351|Gold|Philadelphia Jr Flyers Coen|5|3|1|0|0|1|222|4.7|0.0
-9|335|Silver|NJ Bandits 12AA Black|7|4|3|0|0|0|641|4.9|0.0
-10|289|Silver|North Jersey Avalanche|8|4|3|0|0|1|503|5.7|0.0
-11|210|Silver|Royals 12U AA Gold|9|5|4|0|0|0|442|5.9|0.0
-12|180|Silver|Team Philadelphia|9|4|5|0|0|0|378|4.9|0.0
-13|150||Mercer Chiefs|9|4|5|0|0|0|276|4.9|0.0
-14|148||Palmyra Black Knights|8|4|4|0|0|0|461|4.9|0.0
-15|79||PAL Blue Knights|5|1|3|0|0|1|180|2.7|0.0
-16|79||Jersey Colts PW Black|8|2|5|0|0|1|294|3.7|0.0
-17|77||Central CT Capitals|4|1|3|0|0|0|393|1.9|0.0
-18|53||VFC PW 12 AA Croce|10|1|9|0|0|0|584|1.9|0.0
-19|34||NYC Skyliners|5|0|5|0|0|0|384|0.9|0.0
-20|29||Wildcats 12U AA|8|0|8|0|0|0|662|0.9|0.0
-21|15||RHC PW Major AA|8|0|8|0|0|0|203|0.9|0.0
+1|2618|Championship|Hollydell Hurricanes|9|9|0|0|0|0|237|9.8|-0.0
+2|1324|Championship|MYHA 12U AA Blue|6|6|0|0|0|0|170|6.9|0.0
+3|921|Championship|Lehigh Valley Phantoms Youth U12 AA|10|9|0|0|0|1|151|10.7|0.0
+4|732|Championship|STJ 12U Gold|6|5|1|0|0|0|279|5.9|0.0
+5|624|Gold|Haverford Hawks 12UAA|10|7|2|0|0|1|477|8.7|-0.0
+6|409|Gold|NJ Bandits 12AA Black|8|5|3|0|0|0|625|5.9|0.0
+7|392|Gold|Rebels PW Major|3|2|1|0|0|0|267|2.9|0.0
+8|317|Gold|NJ Bandits 12AA Grey|9|6|3|0|0|0|457|6.9|0.0
+9|312|Silver|Philadelphia Jr Flyers Coen|5|3|1|0|0|1|203|4.7|0.0
+10|273|Silver|Darien|8|4|4|0|0|0|414|4.9|0.0
+11|259|Silver|North Jersey Avalanche|8|4|3|0|0|1|498|5.7|0.0
+12|204|Silver|Team Philadelphia|11|5|6|0|0|0|541|5.9|0.0
+13|177||Royals 12U AA Gold|11|6|5|0|0|0|400|6.9|0.0
+14|111||Mercer Chiefs|10|4|6|0|0|0|251|4.9|0.0
+15|111||Palmyra Black Knights|11|4|7|0|0|0|628|4.9|0.0
+16|81||PAL Blue Knights|6|2|3|0|0|1|137|3.7|0.0
+17|79||Jersey Colts PW Black|9|3|5|0|0|1|263|4.7|0.0
+18|66||Central CT Capitals|4|1|3|0|0|0|394|1.9|0.0
+19|48||VFC PW 12 AA Croce|11|1|10|0|0|0|601|1.9|0.0
+20|23||NYC Skyliners|6|0|6|0|0|0|343|0.9|0.0
+21|19||Wildcats 12U AA|9|0|9|0|0|0|621|0.9|0.0
+22|12||RHC PW Major AA|10|0|10|0|0|0|255|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
@@ -36,29 +37,30 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Hollydell Hurricanes|MYHA 12U AA Blue|Lehigh Valley Phantoms Youth U12 AA|STJ 12U Gold|Haverford Hawks 12UAA|Darien|NJ Bandits 12AA Grey|Philadelphia Jr Flyers Coen|NJ Bandits 12AA Black|North Jersey Avalanche|Royals 12U AA Gold|Team Philadelphia|Mercer Chiefs|Palmyra Black Knights|PAL Blue Knights|Jersey Colts PW Black|Central CT Capitals|VFC PW 12 AA Croce|NYC Skyliners|Wildcats 12U AA|RHC PW Major AA
-| --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Hollydell Hurricanes|--| 68%| 76%| 77%| 80%| 84%| 87%| 88%| 88%| 90%| 92%| 93%| 94%| 94%| 97%| 97%| 97%| 98%| 99%| 99%| 99%
-|MYHA 12U AA Blue| 32%|--| 60%| 62%| 66%| 71%| 77%| 77%| 78%| 81%| 85%| 87%| 89%| 89%| 94%| 94%| 94%| 96%| 97%| 98%| 99%
-|Lehigh Valley Phantoms Youth U12 AA| 24%| 40%|--| 52%| 56%| 62%| 69%| 70%| 71%| 74%| 79%| 82%| 84%| 84%| 91%| 91%| 91%| 94%| 96%| 97%| 98%
-|STJ 12U Gold| 23%| 38%| 48%|--| 54%| 60%| 67%| 68%| 69%| 72%| 78%| 80%| 83%| 83%| 90%| 90%| 90%| 93%| 96%| 96%| 98%
-|Haverford Hawks 12UAA| 20%| 34%| 44%| 46%|--| 57%| 63%| 64%| 66%| 69%| 75%| 78%| 81%| 81%| 89%| 89%| 89%| 92%| 95%| 96%| 98%
-|Darien| 16%| 29%| 38%| 40%| 43%|--| 57%| 58%| 59%| 63%| 70%| 73%| 76%| 77%| 86%| 86%| 86%| 90%| 93%| 94%| 97%
-|NJ Bandits 12AA Grey| 13%| 23%| 31%| 33%| 37%| 43%|--| 51%| 52%| 56%| 64%| 67%| 71%| 71%| 82%| 82%| 83%| 87%| 92%| 93%| 96%
-|Philadelphia Jr Flyers Coen| 12%| 23%| 30%| 32%| 36%| 42%| 49%|--| 51%| 55%| 63%| 66%| 70%| 70%| 82%| 82%| 82%| 87%| 91%| 92%| 96%
-|NJ Bandits 12AA Black| 12%| 22%| 29%| 31%| 34%| 41%| 48%| 49%|--| 54%| 61%| 65%| 69%| 69%| 81%| 81%| 81%| 86%| 91%| 92%| 96%
-|North Jersey Avalanche| 10%| 19%| 26%| 28%| 31%| 37%| 44%| 45%| 46%|--| 58%| 62%| 66%| 66%| 78%| 79%| 79%| 85%| 89%| 91%| 95%
-|Royals 12U AA Gold|  8%| 15%| 21%| 22%| 25%| 30%| 36%| 37%| 39%| 42%|--| 54%| 58%| 59%| 73%| 73%| 73%| 80%| 86%| 88%| 93%
-|Team Philadelphia|  7%| 13%| 18%| 20%| 22%| 27%| 33%| 34%| 35%| 38%| 46%|--| 55%| 55%| 69%| 70%| 70%| 77%| 84%| 86%| 92%
-|Mercer Chiefs|  6%| 11%| 16%| 17%| 19%| 24%| 29%| 30%| 31%| 34%| 42%| 45%|--| 50%| 65%| 66%| 66%| 74%| 81%| 84%| 91%
-|Palmyra Black Knights|  6%| 11%| 16%| 17%| 19%| 23%| 29%| 30%| 31%| 34%| 41%| 45%| 50%|--| 65%| 65%| 66%| 74%| 81%| 84%| 91%
-|PAL Blue Knights|  3%|  6%|  9%| 10%| 11%| 14%| 18%| 18%| 19%| 22%| 27%| 31%| 35%| 35%|--| 50%| 51%| 60%| 70%| 73%| 84%
-|Jersey Colts PW Black|  3%|  6%|  9%| 10%| 11%| 14%| 18%| 18%| 19%| 21%| 27%| 30%| 34%| 35%| 50%|--| 50%| 60%| 70%| 73%| 84%
-|Central CT Capitals|  3%|  6%|  9%| 10%| 11%| 14%| 17%| 18%| 19%| 21%| 27%| 30%| 34%| 34%| 49%| 50%|--| 59%| 69%| 73%| 84%
-|VFC PW 12 AA Croce|  2%|  4%|  6%|  7%|  8%| 10%| 13%| 13%| 14%| 15%| 20%| 23%| 26%| 26%| 40%| 40%| 41%|--| 61%| 65%| 78%
-|NYC Skyliners|  1%|  3%|  4%|  4%|  5%|  7%|  8%|  9%|  9%| 11%| 14%| 16%| 19%| 19%| 30%| 30%| 31%| 39%|--| 54%| 70%
-|Wildcats 12U AA|  1%|  2%|  3%|  4%|  4%|  6%|  7%|  8%|  8%|  9%| 12%| 14%| 16%| 16%| 27%| 27%| 27%| 35%| 46%|--| 66%
-|RHC PW Major AA|  1%|  1%|  2%|  2%|  2%|  3%|  4%|  4%|  4%|  5%|  7%|  8%|  9%|  9%| 16%| 16%| 16%| 22%| 30%| 34%|--
+||Hollydell Hurricanes|MYHA 12U AA Blue|Lehigh Valley Phantoms Youth U12 AA|STJ 12U Gold|Haverford Hawks 12UAA|NJ Bandits 12AA Black|Rebels PW Major|NJ Bandits 12AA Grey|Philadelphia Jr Flyers Coen|Darien|North Jersey Avalanche|Team Philadelphia|Royals 12U AA Gold|Mercer Chiefs|Palmyra Black Knights|PAL Blue Knights|Jersey Colts PW Black|Central CT Capitals|VFC PW 12 AA Croce|NYC Skyliners|Wildcats 12U AA|RHC PW Major AA
+| --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
+|Hollydell Hurricanes|--| 66%| 74%| 78%| 81%| 86%| 87%| 89%| 89%| 91%| 91%| 93%| 94%| 96%| 96%| 97%| 97%| 98%| 98%| 99%| 99%|100%
+|MYHA 12U AA Blue| 34%|--| 59%| 64%| 68%| 76%| 77%| 81%| 81%| 83%| 84%| 87%| 88%| 92%| 92%| 94%| 94%| 95%| 96%| 98%| 99%| 99%
+|Lehigh Valley Phantoms Youth U12 AA| 26%| 41%|--| 56%| 60%| 69%| 70%| 74%| 75%| 77%| 78%| 82%| 84%| 89%| 89%| 92%| 92%| 93%| 95%| 98%| 98%| 99%
+|STJ 12U Gold| 22%| 36%| 44%|--| 54%| 64%| 65%| 70%| 70%| 73%| 74%| 78%| 81%| 87%| 87%| 90%| 90%| 92%| 94%| 97%| 97%| 98%
+|Haverford Hawks 12UAA| 19%| 32%| 40%| 46%|--| 60%| 61%| 66%| 67%| 70%| 71%| 75%| 78%| 85%| 85%| 88%| 89%| 90%| 93%| 96%| 97%| 98%
+|NJ Bandits 12AA Black| 14%| 24%| 31%| 36%| 40%|--| 51%| 56%| 57%| 60%| 61%| 67%| 70%| 79%| 79%| 83%| 84%| 86%| 89%| 95%| 95%| 97%
+|Rebels PW Major| 13%| 23%| 30%| 35%| 39%| 49%|--| 55%| 56%| 59%| 60%| 66%| 69%| 78%| 78%| 83%| 83%| 86%| 89%| 95%| 95%| 97%
+|NJ Bandits 12AA Grey| 11%| 19%| 26%| 30%| 34%| 44%| 45%|--| 50%| 54%| 55%| 61%| 64%| 74%| 74%| 80%| 80%| 83%| 87%| 93%| 94%| 96%
+|Philadelphia Jr Flyers Coen| 11%| 19%| 25%| 30%| 33%| 43%| 44%| 50%|--| 53%| 55%| 60%| 64%| 74%| 74%| 79%| 80%| 83%| 87%| 93%| 94%| 96%
+|Darien|  9%| 17%| 23%| 27%| 30%| 40%| 41%| 46%| 47%|--| 51%| 57%| 61%| 71%| 71%| 77%| 77%| 81%| 85%| 92%| 93%| 96%
+|North Jersey Avalanche|  9%| 16%| 22%| 26%| 29%| 39%| 40%| 45%| 45%| 49%|--| 56%| 59%| 70%| 70%| 76%| 77%| 80%| 84%| 92%| 93%| 96%
+|Team Philadelphia|  7%| 13%| 18%| 22%| 25%| 33%| 34%| 39%| 40%| 43%| 44%|--| 54%| 65%| 65%| 71%| 72%| 76%| 81%| 90%| 91%| 94%
+|Royals 12U AA Gold|  6%| 12%| 16%| 19%| 22%| 30%| 31%| 36%| 36%| 39%| 41%| 46%|--| 61%| 61%| 69%| 69%| 73%| 79%| 89%| 90%| 94%
+|Mercer Chiefs|  4%|  8%| 11%| 13%| 15%| 21%| 22%| 26%| 26%| 29%| 30%| 35%| 39%|--| 50%| 58%| 58%| 63%| 70%| 83%| 85%| 90%
+|Palmyra Black Knights|  4%|  8%| 11%| 13%| 15%| 21%| 22%| 26%| 26%| 29%| 30%| 35%| 39%| 50%|--| 58%| 58%| 63%| 70%| 83%| 85%| 90%
+|PAL Blue Knights|  3%|  6%|  8%| 10%| 12%| 17%| 17%| 20%| 21%| 23%| 24%| 29%| 31%| 42%| 42%|--| 51%| 55%| 63%| 78%| 81%| 87%
+|Jersey Colts PW Black|  3%|  6%|  8%| 10%| 11%| 16%| 17%| 20%| 20%| 23%| 23%| 28%| 31%| 42%| 42%| 49%|--| 55%| 62%| 78%| 80%| 87%
+|Central CT Capitals|  2%|  5%|  7%|  8%| 10%| 14%| 14%| 17%| 17%| 19%| 20%| 24%| 27%| 37%| 37%| 45%| 45%|--| 58%| 74%| 77%| 85%
+|VFC PW 12 AA Croce|  2%|  4%|  5%|  6%|  7%| 11%| 11%| 13%| 13%| 15%| 16%| 19%| 21%| 30%| 30%| 37%| 38%| 42%|--| 68%| 71%| 80%
+|NYC Skyliners|  1%|  2%|  2%|  3%|  4%|  5%|  5%|  7%|  7%|  8%|  8%| 10%| 11%| 17%| 17%| 22%| 22%| 26%| 32%|--| 54%| 65%
+|Wildcats 12U AA|  1%|  1%|  2%|  3%|  3%|  5%|  5%|  6%|  6%|  7%|  7%|  9%| 10%| 15%| 15%| 19%| 20%| 23%| 29%| 46%|--| 62%
+|RHC PW Major AA|  0%|  1%|  1%|  2%|  2%|  3%|  3%|  4%|  4%|  4%|  4%|  6%|  6%| 10%| 10%| 13%| 13%| 15%| 20%| 35%| 38%|--
 
 ## Generation Details
 
@@ -70,7 +72,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-08-26 |
-| End Date | 2023-09-17 |
+| End Date | 2023-09-24 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |

@@ -1,12 +1,14 @@
 [<- back to the index](readme.md)
 # 12U KRACH Rankings
-Rankings generated on Thu Sep 21 00:11:30 2023.
+Rankings generated on Sun Sep 24 18:45:46 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|3111|Playoffs|STJ|4|4|0|0|0|0|508|4.8|-0.0
-2|504|Playoffs|WBS Lady Knights|5|1|4|0|0|0|2048|1.8|-0.0
-3|263|Playoffs|LVPY|3|0|3|0|0|0|1933|0.8|-0.0
+1|3302|Playoffs|STJ|5|5|0|0|0|0|461|5.8|-0.0
+2|2853|Playoffs|Saugerties Fillies|4|4|0|0|0|0|476|4.9|0.0
+3|550|Playoffs|WBS Lady Knights|6|2|4|0|0|0|1917|2.8|-0.0
+4|249|Playoffs|NJ Bandits|4|0|4|0|0|0|1915|0.9|0.0
+5|164||LVPY|4|0|4|0|0|0|1697|0.8|-0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
@@ -18,11 +20,13 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||STJ|WBS Lady Knights|LVPY
-| --: | --: | --: | --: 
-|STJ|--| 86%| 92%
-|WBS Lady Knights| 14%|--| 66%
-|LVPY|  8%| 34%|--
+||STJ|Saugerties Fillies|WBS Lady Knights|NJ Bandits|LVPY
+| --: | --: | --: | --: | --: | --: 
+|STJ|--| 54%| 86%| 93%| 95%
+|Saugerties Fillies| 46%|--| 84%| 92%| 95%
+|WBS Lady Knights| 14%| 16%|--| 69%| 77%
+|NJ Bandits|  7%|  8%| 31%|--| 60%
+|LVPY|  5%|  5%| 23%| 40%|--
 
 ## Generation Details
 
@@ -34,7 +38,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-09-09 |
-| End Date | 2023-09-17 |
+| End Date | 2023-09-24 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |

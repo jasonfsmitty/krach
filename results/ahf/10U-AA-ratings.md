@@ -1,28 +1,28 @@
 [<- back to the index](readme.md)
 # 10U AA KRACH Rankings
-Rankings generated on Thu Sep 21 00:11:26 2023.
+Rankings generated on Sun Sep 24 18:45:41 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1840|Championship|Long Island Whalers Squirt Major 2013|4|4|0|0|0|0|357|4.8|-0.0
-2|1209|Championship|Team Philadelphia|11|9|2|0|0|0|403|9.9|0.0
-3|898|Championship|Ashburn Xtreme 2013|6|4|2|0|0|0|752|4.8|-0.0
-4|751|Championship|North Jersey Skylands Kings Navy|7|5|1|0|0|1|368|6.7|0.0
-5|670|Gold|Darien|5|3|1|0|0|1|454|4.7|0.0
-6|623|Gold|Royals 10U AA 2013|8|6|2|0|0|0|327|6.9|0.0
-7|369|Gold|RHC Squirt Major AA|10|5|4|0|0|1|444|6.7|0.0
-8|342|Gold|MYHA 10U AA|4|2|2|0|0|0|584|2.8|-0.0
-9|321|Silver|STJ 10U Gold|4|2|2|0|0|0|380|2.9|0.0
-10|313|Silver|NJ Bandits 10AA|6|3|3|0|0|0|397|3.9|0.0
-11|295|Silver|Hollydell Hurricanes|8|4|3|0|0|1|327|5.7|0.0
-12|212|Silver|Aviator Hockey Club 10U Major|4|2|2|0|0|0|284|2.9|0.0
-13|172||Haverford Hawks 10UAA|7|2|5|0|0|0|457|2.9|0.0
-14|151||Lehigh Valley Phantoms Youth U10AA|10|3|7|0|0|0|552|3.9|0.0
-15|147||NYC Skyliners|4|1|3|0|0|0|349|1.9|0.0
-16|142||North Jersey Avalanche|6|2|4|0|0|0|407|2.9|0.0
-17|87||Central CT Capitals|5|0|5|0|0|0|942|0.8|-0.0
-18|69||Wildcats 10U AA|7|1|6|0|0|0|482|1.9|0.0
-19|26||Arrows 10u Green|6|0|6|0|0|0|334|0.9|0.0
+1|2468|Championship|Long Island Whalers Squirt Major 2013|5|5|0|0|0|0|398|5.8|-0.0
+2|1053|Championship|Ashburn Xtreme 2013|7|5|2|0|0|0|732|5.8|-0.0
+3|946|Championship|Team Philadelphia|13|10|3|0|0|0|393|10.9|0.0
+4|605|Championship|Royals 10U AA 2013|10|7|3|0|0|0|376|7.9|0.0
+5|505|Gold|MYHA 10U AA|6|4|2|0|0|0|540|4.8|-0.0
+6|450|Gold|Darien|6|3|1|0|0|2|340|5.6|0.0
+7|423|Gold|STJ 10U Gold|6|3|3|0|0|0|536|3.9|0.0
+8|420|Gold|North Jersey Skylands Kings Navy|8|5|2|0|0|1|284|6.7|0.0
+9|311|Silver|NJ Bandits 10AA|7|3|4|0|0|0|684|3.8|-0.0
+10|303|Silver|Aviator Hockey Club 10U Major|5|3|2|0|0|0|237|3.9|0.0
+11|254|Silver|RHC Squirt Major AA|12|5|5|0|0|2|355|7.6|0.0
+12|210|Silver|North Jersey Avalanche|8|3|4|0|0|1|346|4.7|0.0
+13|184||Hollydell Hurricanes|10|4|5|0|0|1|311|5.7|0.0
+14|174||Haverford Hawks 10UAA|10|3|7|0|0|0|411|3.9|0.0
+15|134||NYC Skyliners|5|2|3|0|0|0|248|2.9|0.0
+16|122||Lehigh Valley Phantoms Youth U10AA|12|3|8|0|0|1|484|4.7|0.0
+17|111||Wildcats 10U AA|8|2|6|0|0|0|381|2.9|0.0
+18|92||Central CT Capitals|5|0|5|0|0|0|1031|0.8|-0.0
+19|22||Arrows 10u Green|7|0|7|0|0|0|261|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
@@ -34,27 +34,27 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Long Island Whalers Squirt Major 2013|Team Philadelphia|Ashburn Xtreme 2013|North Jersey Skylands Kings Navy|Darien|Royals 10U AA 2013|RHC Squirt Major AA|MYHA 10U AA|STJ 10U Gold|NJ Bandits 10AA|Hollydell Hurricanes|Aviator Hockey Club 10U Major|Haverford Hawks 10UAA|Lehigh Valley Phantoms Youth U10AA|NYC Skyliners|North Jersey Avalanche|Central CT Capitals|Wildcats 10U AA|Arrows 10u Green
+||Long Island Whalers Squirt Major 2013|Ashburn Xtreme 2013|Team Philadelphia|Royals 10U AA 2013|MYHA 10U AA|Darien|STJ 10U Gold|North Jersey Skylands Kings Navy|NJ Bandits 10AA|Aviator Hockey Club 10U Major|RHC Squirt Major AA|North Jersey Avalanche|Hollydell Hurricanes|Haverford Hawks 10UAA|NYC Skyliners|Lehigh Valley Phantoms Youth U10AA|Wildcats 10U AA|Central CT Capitals|Arrows 10u Green
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Long Island Whalers Squirt Major 2013|--| 60%| 67%| 71%| 73%| 75%| 83%| 84%| 85%| 85%| 86%| 90%| 91%| 92%| 93%| 93%| 96%| 96%| 99%
-|Team Philadelphia| 40%|--| 57%| 62%| 64%| 66%| 77%| 78%| 79%| 79%| 80%| 85%| 88%| 89%| 89%| 90%| 93%| 95%| 98%
-|Ashburn Xtreme 2013| 33%| 43%|--| 54%| 57%| 59%| 71%| 72%| 74%| 74%| 75%| 81%| 84%| 86%| 86%| 86%| 91%| 93%| 97%
-|North Jersey Skylands Kings Navy| 29%| 38%| 46%|--| 53%| 55%| 67%| 69%| 70%| 71%| 72%| 78%| 81%| 83%| 84%| 84%| 90%| 92%| 97%
-|Darien| 27%| 36%| 43%| 47%|--| 52%| 64%| 66%| 68%| 68%| 69%| 76%| 80%| 82%| 82%| 83%| 89%| 91%| 96%
-|Royals 10U AA 2013| 25%| 34%| 41%| 45%| 48%|--| 63%| 65%| 66%| 67%| 68%| 75%| 78%| 81%| 81%| 81%| 88%| 90%| 96%
-|RHC Squirt Major AA| 17%| 23%| 29%| 33%| 36%| 37%|--| 52%| 53%| 54%| 56%| 63%| 68%| 71%| 71%| 72%| 81%| 84%| 94%
-|MYHA 10U AA| 16%| 22%| 28%| 31%| 34%| 35%| 48%|--| 52%| 52%| 54%| 62%| 67%| 69%| 70%| 71%| 80%| 83%| 93%
-|STJ 10U Gold| 15%| 21%| 26%| 30%| 32%| 34%| 47%| 48%|--| 51%| 52%| 60%| 65%| 68%| 69%| 69%| 79%| 82%| 93%
-|NJ Bandits 10AA| 15%| 21%| 26%| 29%| 32%| 33%| 46%| 48%| 49%|--| 51%| 60%| 65%| 67%| 68%| 69%| 78%| 82%| 92%
-|Hollydell Hurricanes| 14%| 20%| 25%| 28%| 31%| 32%| 44%| 46%| 48%| 49%|--| 58%| 63%| 66%| 67%| 68%| 77%| 81%| 92%
-|Aviator Hockey Club 10U Major| 10%| 15%| 19%| 22%| 24%| 25%| 37%| 38%| 40%| 40%| 42%|--| 55%| 58%| 59%| 60%| 71%| 76%| 89%
-|Haverford Hawks 10UAA|  9%| 12%| 16%| 19%| 20%| 22%| 32%| 33%| 35%| 35%| 37%| 45%|--| 53%| 54%| 55%| 66%| 71%| 87%
-|Lehigh Valley Phantoms Youth U10AA|  8%| 11%| 14%| 17%| 18%| 19%| 29%| 31%| 32%| 33%| 34%| 42%| 47%|--| 51%| 52%| 64%| 69%| 86%
-|NYC Skyliners|  7%| 11%| 14%| 16%| 18%| 19%| 29%| 30%| 31%| 32%| 33%| 41%| 46%| 49%|--| 51%| 63%| 68%| 85%
-|North Jersey Avalanche|  7%| 10%| 14%| 16%| 17%| 19%| 28%| 29%| 31%| 31%| 32%| 40%| 45%| 48%| 49%|--| 62%| 67%| 85%
-|Central CT Capitals|  4%|  7%|  9%| 10%| 11%| 12%| 19%| 20%| 21%| 22%| 23%| 29%| 34%| 36%| 37%| 38%|--| 56%| 77%
-|Wildcats 10U AA|  4%|  5%|  7%|  8%|  9%| 10%| 16%| 17%| 18%| 18%| 19%| 24%| 29%| 31%| 32%| 33%| 44%|--| 73%
-|Arrows 10u Green|  1%|  2%|  3%|  3%|  4%|  4%|  6%|  7%|  7%|  8%|  8%| 11%| 13%| 14%| 15%| 15%| 23%| 27%|--
+|Long Island Whalers Squirt Major 2013|--| 70%| 72%| 80%| 83%| 85%| 85%| 85%| 89%| 89%| 91%| 92%| 93%| 93%| 95%| 95%| 96%| 96%| 99%
+|Ashburn Xtreme 2013| 30%|--| 53%| 64%| 68%| 70%| 71%| 71%| 77%| 78%| 81%| 83%| 85%| 86%| 89%| 90%| 90%| 92%| 98%
+|Team Philadelphia| 28%| 47%|--| 61%| 65%| 68%| 69%| 69%| 75%| 76%| 79%| 82%| 84%| 84%| 88%| 89%| 89%| 91%| 98%
+|Royals 10U AA 2013| 20%| 36%| 39%|--| 54%| 57%| 59%| 59%| 66%| 67%| 70%| 74%| 77%| 78%| 82%| 83%| 84%| 87%| 97%
+|MYHA 10U AA| 17%| 32%| 35%| 46%|--| 53%| 54%| 55%| 62%| 62%| 67%| 71%| 73%| 74%| 79%| 81%| 82%| 85%| 96%
+|Darien| 15%| 30%| 32%| 43%| 47%|--| 52%| 52%| 59%| 60%| 64%| 68%| 71%| 72%| 77%| 79%| 80%| 83%| 95%
+|STJ 10U Gold| 15%| 29%| 31%| 41%| 46%| 48%|--| 50%| 58%| 58%| 63%| 67%| 70%| 71%| 76%| 78%| 79%| 82%| 95%
+|North Jersey Skylands Kings Navy| 15%| 29%| 31%| 41%| 45%| 48%| 50%|--| 57%| 58%| 62%| 67%| 70%| 71%| 76%| 77%| 79%| 82%| 95%
+|NJ Bandits 10AA| 11%| 23%| 25%| 34%| 38%| 41%| 42%| 43%|--| 51%| 55%| 60%| 63%| 64%| 70%| 72%| 74%| 77%| 93%
+|Aviator Hockey Club 10U Major| 11%| 22%| 24%| 33%| 38%| 40%| 42%| 42%| 49%|--| 54%| 59%| 62%| 64%| 69%| 71%| 73%| 77%| 93%
+|RHC Squirt Major AA|  9%| 19%| 21%| 30%| 33%| 36%| 37%| 38%| 45%| 46%|--| 55%| 58%| 59%| 65%| 68%| 70%| 73%| 92%
+|North Jersey Avalanche|  8%| 17%| 18%| 26%| 29%| 32%| 33%| 33%| 40%| 41%| 45%|--| 53%| 55%| 61%| 63%| 65%| 69%| 91%
+|Hollydell Hurricanes|  7%| 15%| 16%| 23%| 27%| 29%| 30%| 30%| 37%| 38%| 42%| 47%|--| 51%| 58%| 60%| 62%| 67%| 89%
+|Haverford Hawks 10UAA|  7%| 14%| 16%| 22%| 26%| 28%| 29%| 29%| 36%| 36%| 41%| 45%| 49%|--| 57%| 59%| 61%| 65%| 89%
+|NYC Skyliners|  5%| 11%| 12%| 18%| 21%| 23%| 24%| 24%| 30%| 31%| 35%| 39%| 42%| 43%|--| 52%| 55%| 59%| 86%
+|Lehigh Valley Phantoms Youth U10AA|  5%| 10%| 11%| 17%| 19%| 21%| 22%| 23%| 28%| 29%| 32%| 37%| 40%| 41%| 48%|--| 52%| 57%| 85%
+|Wildcats 10U AA|  4%| 10%| 11%| 16%| 18%| 20%| 21%| 21%| 26%| 27%| 30%| 35%| 38%| 39%| 45%| 48%|--| 55%| 84%
+|Central CT Capitals|  4%|  8%|  9%| 13%| 15%| 17%| 18%| 18%| 23%| 23%| 27%| 31%| 33%| 35%| 41%| 43%| 45%|--| 81%
+|Arrows 10u Green|  1%|  2%|  2%|  3%|  4%|  5%|  5%|  5%|  7%|  7%|  8%|  9%| 11%| 11%| 14%| 15%| 16%| 19%|--
 
 ## Generation Details
 
@@ -66,7 +66,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-08-26 |
-| End Date | 2023-09-17 |
+| End Date | 2023-09-24 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
