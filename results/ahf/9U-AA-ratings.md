@@ -1,20 +1,20 @@
 [<- back to the index](readme.md)
 # 9U AA KRACH Rankings
-Rankings generated on Sun Sep 24 18:45:41 2023.
+Rankings generated on Sun Sep 24 21:44:24 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1979|Championship|Palmyra Black Knights- Rochefort|4|4|0|0|0|0|349|4.8|-0.0
-2|1710|Championship|Ashburn Xtreme 2014|4|4|0|0|0|0|301|4.8|-0.0
-3|1145|Championship|MYHA 9U AA|6|5|1|0|0|0|412|5.8|-0.0
-4|1023|Championship|Long Island Whalers Squirt 2014|6|5|1|0|0|0|386|5.8|-0.0
-5|561|Gold|Royals 9U AA White|7|5|1|0|0|1|237|6.7|0.0
-6|445|Gold|Delaware Ducks|11|5|6|0|0|0|893|5.8|-0.0
-7|404|Gold|Wilkes-Barre / Scranton Jr Knights|7|3|4|0|0|0|845|3.9|0.0
-8|211|Gold|Hollydell Hurricanes|11|5|5|0|0|1|290|6.7|0.0
-9|122||Team Philadelphia|10|2|8|0|0|0|802|2.8|-0.0
-10|71||Arrows 10u Silver|4|0|4|0|0|0|514|0.9|0.0
-11|29||RHC Squirt Minor AA|9|0|9|0|0|0|494|0.9|0.0
+1|1979|Championship|[Palmyra Black Knights- Rochefort](https://gamesheetstats.com/seasons/3659/teams/140260/schedule)|4|4|0|0|0|0|349|4.8|-0.0
+2|1710|Championship|[Ashburn Xtreme 2014](https://gamesheetstats.com/seasons/3659/teams/140217/schedule)|4|4|0|0|0|0|301|4.8|-0.0
+3|1145|Championship|[MYHA 9U AA](https://gamesheetstats.com/seasons/3659/teams/140222/schedule)|6|5|1|0|0|0|412|5.8|-0.0
+4|1023|Championship|[Long Island Whalers Squirt 2014](https://gamesheetstats.com/seasons/3659/teams/140221/schedule)|6|5|1|0|0|0|386|5.8|-0.0
+5|561|Gold|[Royals 9U AA White](https://gamesheetstats.com/seasons/3659/teams/140225/schedule)|7|5|1|0|0|1|237|6.7|0.0
+6|445|Gold|[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140218/schedule)|11|5|6|0|0|0|893|5.8|-0.0
+7|404|Gold|[Wilkes-Barre / Scranton Jr Knights](https://gamesheetstats.com/seasons/3659/teams/140228/schedule)|7|3|4|0|0|0|845|3.9|0.0
+8|211|Gold|[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140220/schedule)|11|5|5|0|0|1|290|6.7|0.0
+9|122||[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140226/schedule)|10|2|8|0|0|0|802|2.8|-0.0
+10|71||[Arrows 10u Silver](https://gamesheetstats.com/seasons/3659/teams/140216/schedule)|4|0|4|0|0|0|514|0.9|0.0
+11|29||[RHC Squirt Minor AA](https://gamesheetstats.com/seasons/3659/teams/140224/schedule)|9|0|9|0|0|0|494|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

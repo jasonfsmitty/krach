@@ -1,10 +1,10 @@
 [<- back to the index](readme.md)
 # 10U KRACH Rankings
-Rankings generated on Sun Sep 24 18:45:46 2023.
+Rankings generated on Sun Sep 24 21:44:28 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|4153|Playoffs|PTL|3|3|0|0|0|0|869|3.8|-0.0
+1|4153|Playoffs|[PTL](https://gamesheetstats.com/seasons/3663/teams/140791/schedule)|3|3|0|0|0|0|869|3.8|-0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

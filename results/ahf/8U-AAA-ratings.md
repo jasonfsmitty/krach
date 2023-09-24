@@ -1,32 +1,32 @@
 [<- back to the index](readme.md)
 # 8U AAA KRACH Rankings
-Rankings generated on Sun Sep 24 18:45:41 2023.
+Rankings generated on Sun Sep 24 21:44:24 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1855|Championship|North Jersey Blizzard AAA|10|9|1|0|0|0|483|9.8|-0.0
-2|1829|Championship|Oil Kings Black|4|4|0|0|0|0|491|4.8|-0.0
-3|1562|Championship|Venom 1|10|9|1|0|0|0|397|9.8|-0.0
-4|1002|Championship|Pennsauken Pilots|8|7|1|0|0|0|329|7.9|0.0
-5|838|Gold|LI MONARCHS 2015|5|4|1|0|0|0|503|4.8|-0.0
-6|344|Gold|LI Gladiators|9|5|4|0|0|0|625|5.8|-0.0
-7|337|Gold|Lehigh Valley Steel|10|7|3|0|0|0|282|7.9|0.0
-8|321|Gold|Berserkers 8u Black|7|4|3|0|0|0|434|4.9|0.0
-9|263|Silver|RSG FIM 2015|8|5|3|0|0|0|247|5.9|0.0
-10|239|Silver|Wolverines|7|3|3|0|0|1|394|4.7|0.0
-11|173|Silver|Mercer Arrows|10|3|6|0|0|1|669|4.7|0.0
-12|161|Silver|LI MONARCHS 2016|5|4|1|0|0|0|91|4.9|0.0
-13|149||Suffolk Crusaders|6|3|3|0|0|0|187|3.9|0.0
-14|145||Bridge Hockey Club 2015|8|1|5|0|0|2|807|3.6|0.0
-15|93||Valley Forge Militia|8|4|4|0|0|0|276|4.9|0.0
-16|86||Philadelphia Resistance|8|4|4|0|0|0|288|4.9|0.0
-17|70||Jersey Shore Americans|7|3|4|0|0|0|153|3.9|0.0
-18|69||NJ Outlaws|9|2|7|0|0|0|650|2.9|0.0
-19|36||Venom 2|7|3|4|0|0|0|74|3.9|0.0
-20|23||LI Riptide|8|0|8|0|0|0|972|0.8|-0.0
-21|18||North Jersey Blizzard 2|10|2|8|0|0|0|137|2.9|0.0
-22|18||Bridge Hockey Club 2016|5|0|5|0|0|0|152|0.9|0.0
-23|4||Berserkers 8u Gold|8|0|8|0|0|0|76|0.9|0.0
+1|1855|Championship|[North Jersey Blizzard AAA](https://gamesheetstats.com/seasons/3659/teams/140205/schedule)|10|9|1|0|0|0|483|9.8|-0.0
+2|1829|Championship|[Oil Kings Black](https://gamesheetstats.com/seasons/3659/teams/140206/schedule)|4|4|0|0|0|0|491|4.8|-0.0
+3|1562|Championship|[Venom 1](https://gamesheetstats.com/seasons/3659/teams/140213/schedule)|10|9|1|0|0|0|397|9.8|-0.0
+4|1002|Championship|[Pennsauken Pilots](https://gamesheetstats.com/seasons/3659/teams/140208/schedule)|8|7|1|0|0|0|329|7.9|0.0
+5|838|Gold|[LI MONARCHS 2015](https://gamesheetstats.com/seasons/3659/teams/140198/schedule)|5|4|1|0|0|0|503|4.8|-0.0
+6|344|Gold|[LI Gladiators](https://gamesheetstats.com/seasons/3659/teams/140201/schedule)|9|5|4|0|0|0|625|5.8|-0.0
+7|337|Gold|[Lehigh Valley Steel](https://gamesheetstats.com/seasons/3659/teams/140197/schedule)|10|7|3|0|0|0|282|7.9|0.0
+8|321|Gold|[Berserkers 8u Black](https://gamesheetstats.com/seasons/3659/teams/140192/schedule)|7|4|3|0|0|0|434|4.9|0.0
+9|263|Silver|[RSG FIM 2015](https://gamesheetstats.com/seasons/3659/teams/140210/schedule)|8|5|3|0|0|0|247|5.9|0.0
+10|239|Silver|[Wolverines](https://gamesheetstats.com/seasons/3659/teams/140215/schedule)|7|3|3|0|0|1|394|4.7|0.0
+11|173|Silver|[Mercer Arrows](https://gamesheetstats.com/seasons/3659/teams/140202/schedule)|10|3|6|0|0|1|669|4.7|0.0
+12|161|Silver|[LI MONARCHS 2016](https://gamesheetstats.com/seasons/3659/teams/140199/schedule)|5|4|1|0|0|0|91|4.9|0.0
+13|149||[Suffolk Crusaders](https://gamesheetstats.com/seasons/3659/teams/140211/schedule)|6|3|3|0|0|0|187|3.9|0.0
+14|145||[Bridge Hockey Club 2015](https://gamesheetstats.com/seasons/3659/teams/140194/schedule)|8|1|5|0|0|2|807|3.6|0.0
+15|93||[Valley Forge Militia](https://gamesheetstats.com/seasons/3659/teams/140212/schedule)|8|4|4|0|0|0|276|4.9|0.0
+16|86||[Philadelphia Resistance](https://gamesheetstats.com/seasons/3659/teams/140209/schedule)|8|4|4|0|0|0|288|4.9|0.0
+17|70||[Jersey Shore Americans](https://gamesheetstats.com/seasons/3659/teams/140196/schedule)|7|3|4|0|0|0|153|3.9|0.0
+18|69||[NJ Outlaws](https://gamesheetstats.com/seasons/3659/teams/140203/schedule)|9|2|7|0|0|0|650|2.9|0.0
+19|36||[Venom 2](https://gamesheetstats.com/seasons/3659/teams/140214/schedule)|7|3|4|0|0|0|74|3.9|0.0
+20|23||[LI Riptide](https://gamesheetstats.com/seasons/3659/teams/140200/schedule)|8|0|8|0|0|0|972|0.8|-0.0
+21|18||[North Jersey Blizzard 2](https://gamesheetstats.com/seasons/3659/teams/140204/schedule)|10|2|8|0|0|0|137|2.9|0.0
+22|18||[Bridge Hockey Club 2016](https://gamesheetstats.com/seasons/3659/teams/140195/schedule)|5|0|5|0|0|0|152|0.9|0.0
+23|4||[Berserkers 8u Gold](https://gamesheetstats.com/seasons/3659/teams/140193/schedule)|8|0|8|0|0|0|76|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

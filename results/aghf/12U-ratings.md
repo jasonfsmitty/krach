@@ -1,14 +1,14 @@
 [<- back to the index](readme.md)
 # 12U KRACH Rankings
-Rankings generated on Sun Sep 24 18:45:46 2023.
+Rankings generated on Sun Sep 24 21:44:28 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|3302|Playoffs|STJ|5|5|0|0|0|0|461|5.8|-0.0
-2|2853|Playoffs|Saugerties Fillies|4|4|0|0|0|0|476|4.9|0.0
-3|550|Playoffs|WBS Lady Knights|6|2|4|0|0|0|1917|2.8|-0.0
-4|249|Playoffs|NJ Bandits|4|0|4|0|0|0|1915|0.9|0.0
-5|164||LVPY|4|0|4|0|0|0|1697|0.8|-0.0
+1|3302|Playoffs|[STJ](https://gamesheetstats.com/seasons/3663/teams/140800/schedule)|5|5|0|0|0|0|461|5.8|-0.0
+2|2853|Playoffs|[Saugerties Fillies](https://gamesheetstats.com/seasons/3663/teams/140805/schedule)|4|4|0|0|0|0|476|4.9|0.0
+3|550|Playoffs|[WBS Lady Knights](https://gamesheetstats.com/seasons/3663/teams/140808/schedule)|6|2|4|0|0|0|1917|2.8|-0.0
+4|249|Playoffs|[NJ Bandits](https://gamesheetstats.com/seasons/3663/teams/140807/schedule)|4|0|4|0|0|0|1915|0.9|0.0
+5|164||[LVPY](https://gamesheetstats.com/seasons/3663/teams/140804/schedule)|4|0|4|0|0|0|1697|0.8|-0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

@@ -1,11 +1,12 @@
 [<- back to the index](readme.md)
 # 14U Platinum KRACH Rankings
-Rankings generated on Sun Sep 24 18:45:46 2023.
+Rankings generated on Sun Sep 24 21:44:28 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|3438|Playoffs|Tri CIty Eagles Blue|3|3|0|0|0|0|705|3.8|-0.0
-2|579|Playoffs|NJ Bandits|5|1|4|0|0|0|2143|1.9|0.0
+1|3415|Playoffs|[Tri CIty Eagles Blue](https://gamesheetstats.com/seasons/3663/teams/140831/schedule)|4|4|0|0|0|0|551|4.8|-0.0
+2|478|Playoffs|[NJ Bandits](https://gamesheetstats.com/seasons/3663/teams/140828/schedule)|6|1|5|0|0|0|2223|1.9|0.0
+3|286|Playoffs|[PTL](https://gamesheetstats.com/seasons/3663/teams/140827/schedule)|3|0|3|0|0|0|2135|0.8|-0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
@@ -17,10 +18,11 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Tri CIty Eagles Blue|NJ Bandits
-| --: | --: | --: 
-|Tri CIty Eagles Blue|--| 86%
-|NJ Bandits| 14%|--
+||Tri CIty Eagles Blue|NJ Bandits|PTL
+| --: | --: | --: | --: 
+|Tri CIty Eagles Blue|--| 88%| 92%
+|NJ Bandits| 12%|--| 63%
+|PTL|  8%| 37%|--
 
 ## Generation Details
 

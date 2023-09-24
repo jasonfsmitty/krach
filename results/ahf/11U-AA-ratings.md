@@ -1,27 +1,27 @@
 [<- back to the index](readme.md)
 # 11U AA KRACH Rankings
-Rankings generated on Sun Sep 24 18:45:41 2023.
+Rankings generated on Sun Sep 24 21:44:24 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|4016|Championship|Team Philadelphia|11|11|0|0|0|0|304|11.8|-0.0
-2|1210|Championship|St. Louis Knights|4|4|0|0|0|0|250|4.9|0.0
-3|669|Championship|Philadelphia Blazers|11|9|2|0|0|0|517|9.9|0.0
-4|585|Championship|Ashburn Xtreme 2012|6|4|2|0|0|0|1254|4.8|-0.0
-5|333|Gold|North Jersey Skylands Kings|8|5|3|0|0|0|632|5.9|0.0
-6|307|Gold|Hollydell Hurricanes|10|5|5|0|0|0|712|5.9|0.0
-7|295|Gold|MYHA 11U AA|6|3|3|0|0|0|1269|3.9|0.0
-8|209|Gold|VFC PW A Herhal|3|2|1|0|0|0|154|2.9|0.0
-9|152|Silver|Jersey Colts PW White|7|3|4|0|0|0|654|3.9|0.0
-10|118|Silver|NJ Bandits 11AA|9|4|5|0|0|0|554|4.9|0.0
-11|85|Silver|PTL Elite|4|1|3|0|0|0|214|1.9|0.0
-12|79|Silver|North Jersey Avalanche|9|3|6|0|0|0|560|3.9|0.0
-13|77||Royals 11U AA White|8|3|5|0|0|0|224|3.9|0.0
-14|75||VFC PW 11 AA Fagan|8|2|5|0|0|1|251|3.7|0.0
-15|59||Lehigh Valley Phantoms Youth U11 AA|10|2|7|0|0|1|615|3.7|0.0
-16|55||Long Island Whalers 11UAA|5|1|4|0|0|0|234|1.9|0.0
-17|46||Arrows 12u Silver|7|1|5|0|0|1|194|2.7|0.0
-18|42||Apple Core 12U Black|4|0|4|0|0|0|543|0.9|0.0
+1|3833|Championship|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140788/schedule)|11|11|0|0|0|0|291|11.8|-0.0
+2|1166|Championship|[St. Louis Knights](https://gamesheetstats.com/seasons/3659/teams/143319/schedule)|4|4|0|0|0|0|239|4.9|0.0
+3|633|Championship|[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140785/schedule)|11|9|2|0|0|0|494|9.9|0.0
+4|617|Championship|[Ashburn Xtreme 2012](https://gamesheetstats.com/seasons/3659/teams/140775/schedule)|7|5|2|0|0|0|1056|5.8|-0.0
+5|314|Gold|[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140784/schedule)|8|5|3|0|0|0|605|5.9|0.0
+6|298|Gold|[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140777/schedule)|10|5|5|0|0|0|684|5.9|0.0
+7|222|Gold|[MYHA 11U AA](https://gamesheetstats.com/seasons/3659/teams/140781/schedule)|7|3|4|0|0|0|1112|3.9|0.0
+8|200|Gold|[VFC PW A Herhal](https://gamesheetstats.com/seasons/3659/teams/140467/schedule)|3|2|1|0|0|0|148|2.9|0.0
+9|160|Silver|[Jersey Colts PW White](https://gamesheetstats.com/seasons/3659/teams/140778/schedule)|8|4|4|0|0|0|555|4.9|0.0
+10|111|Silver|[NJ Bandits 11AA](https://gamesheetstats.com/seasons/3659/teams/140782/schedule)|9|4|5|0|0|0|530|4.9|0.0
+11|84|Silver|[PTL Elite](https://gamesheetstats.com/seasons/3659/teams/140462/schedule)|4|1|3|0|0|0|207|1.9|0.0
+12|75|Silver|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/140783/schedule)|9|3|6|0|0|0|541|3.9|0.0
+13|69||[VFC PW 11 AA Fagan](https://gamesheetstats.com/seasons/3659/teams/140789/schedule)|8|2|5|0|0|1|232|3.7|0.0
+14|68||[Royals 11U AA White](https://gamesheetstats.com/seasons/3659/teams/140787/schedule)|9|3|6|0|0|0|253|3.9|0.0
+15|55||[Lehigh Valley Phantoms Youth U11 AA](https://gamesheetstats.com/seasons/3659/teams/140779/schedule)|10|2|7|0|0|1|587|3.7|0.0
+16|52||[Long Island Whalers 11UAA](https://gamesheetstats.com/seasons/3659/teams/140780/schedule)|5|1|4|0|0|0|223|1.9|0.0
+17|40||[Apple Core 12U Black](https://gamesheetstats.com/seasons/3659/teams/140773/schedule)|4|0|4|0|0|0|531|0.9|0.0
+18|39||[Arrows 12u Silver](https://gamesheetstats.com/seasons/3659/teams/140774/schedule)|8|1|6|0|0|1|181|2.7|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
@@ -33,26 +33,26 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Team Philadelphia|St. Louis Knights|Philadelphia Blazers|Ashburn Xtreme 2012|North Jersey Skylands Kings|Hollydell Hurricanes|MYHA 11U AA|VFC PW A Herhal|Jersey Colts PW White|NJ Bandits 11AA|PTL Elite|North Jersey Avalanche|Royals 11U AA White|VFC PW 11 AA Fagan|Lehigh Valley Phantoms Youth U11 AA|Long Island Whalers 11UAA|Arrows 12u Silver|Apple Core 12U Black
+||Team Philadelphia|St. Louis Knights|Philadelphia Blazers|Ashburn Xtreme 2012|North Jersey Skylands Kings|Hollydell Hurricanes|MYHA 11U AA|VFC PW A Herhal|Jersey Colts PW White|NJ Bandits 11AA|PTL Elite|North Jersey Avalanche|VFC PW 11 AA Fagan|Royals 11U AA White|Lehigh Valley Phantoms Youth U11 AA|Long Island Whalers 11UAA|Apple Core 12U Black|Arrows 12u Silver
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Team Philadelphia|--| 77%| 86%| 87%| 92%| 93%| 93%| 95%| 96%| 97%| 98%| 98%| 98%| 98%| 99%| 99%| 99%| 99%
-|St. Louis Knights| 23%|--| 64%| 67%| 78%| 80%| 80%| 85%| 89%| 91%| 93%| 94%| 94%| 94%| 95%| 96%| 96%| 97%
-|Philadelphia Blazers| 14%| 36%|--| 53%| 67%| 69%| 69%| 76%| 81%| 85%| 89%| 89%| 90%| 90%| 92%| 92%| 94%| 94%
-|Ashburn Xtreme 2012| 13%| 33%| 47%|--| 64%| 66%| 66%| 74%| 79%| 83%| 87%| 88%| 88%| 89%| 91%| 91%| 93%| 93%
-|North Jersey Skylands Kings|  8%| 22%| 33%| 36%|--| 52%| 53%| 61%| 69%| 74%| 80%| 81%| 81%| 82%| 85%| 86%| 88%| 89%
-|Hollydell Hurricanes|  7%| 20%| 31%| 34%| 48%|--| 51%| 59%| 67%| 72%| 78%| 79%| 80%| 80%| 84%| 85%| 87%| 88%
-|MYHA 11U AA|  7%| 20%| 31%| 34%| 47%| 49%|--| 59%| 66%| 71%| 78%| 79%| 79%| 80%| 83%| 84%| 86%| 87%
-|VFC PW A Herhal|  5%| 15%| 24%| 26%| 39%| 41%| 41%|--| 58%| 64%| 71%| 72%| 73%| 74%| 78%| 79%| 82%| 83%
-|Jersey Colts PW White|  4%| 11%| 19%| 21%| 31%| 33%| 34%| 42%|--| 56%| 64%| 66%| 66%| 67%| 72%| 74%| 77%| 78%
-|NJ Bandits 11AA|  3%|  9%| 15%| 17%| 26%| 28%| 29%| 36%| 44%|--| 58%| 60%| 61%| 61%| 67%| 68%| 72%| 74%
-|PTL Elite|  2%|  7%| 11%| 13%| 20%| 22%| 22%| 29%| 36%| 42%|--| 52%| 53%| 53%| 59%| 61%| 65%| 67%
-|North Jersey Avalanche|  2%|  6%| 11%| 12%| 19%| 21%| 21%| 28%| 34%| 40%| 48%|--| 51%| 51%| 58%| 59%| 63%| 65%
-|Royals 11U AA White|  2%|  6%| 10%| 12%| 19%| 20%| 21%| 27%| 34%| 39%| 47%| 49%|--| 51%| 57%| 58%| 62%| 65%
-|VFC PW 11 AA Fagan|  2%|  6%| 10%| 11%| 18%| 20%| 20%| 26%| 33%| 39%| 47%| 49%| 49%|--| 56%| 58%| 62%| 64%
-|Lehigh Valley Phantoms Youth U11 AA|  1%|  5%|  8%|  9%| 15%| 16%| 17%| 22%| 28%| 33%| 41%| 42%| 43%| 44%|--| 52%| 56%| 58%
-|Long Island Whalers 11UAA|  1%|  4%|  8%|  9%| 14%| 15%| 16%| 21%| 26%| 32%| 39%| 41%| 42%| 42%| 48%|--| 54%| 56%
-|Arrows 12u Silver|  1%|  4%|  6%|  7%| 12%| 13%| 14%| 18%| 23%| 28%| 35%| 37%| 38%| 38%| 44%| 46%|--| 52%
-|Apple Core 12U Black|  1%|  3%|  6%|  7%| 11%| 12%| 13%| 17%| 22%| 26%| 33%| 35%| 35%| 36%| 42%| 44%| 48%|--
+|Team Philadelphia|--| 77%| 86%| 86%| 92%| 93%| 95%| 95%| 96%| 97%| 98%| 98%| 98%| 98%| 99%| 99%| 99%| 99%
+|St. Louis Knights| 23%|--| 65%| 65%| 79%| 80%| 84%| 85%| 88%| 91%| 93%| 94%| 94%| 94%| 96%| 96%| 97%| 97%
+|Philadelphia Blazers| 14%| 35%|--| 51%| 67%| 68%| 74%| 76%| 80%| 85%| 88%| 89%| 90%| 90%| 92%| 92%| 94%| 94%
+|Ashburn Xtreme 2012| 14%| 35%| 49%|--| 66%| 67%| 74%| 76%| 79%| 85%| 88%| 89%| 90%| 90%| 92%| 92%| 94%| 94%
+|North Jersey Skylands Kings|  8%| 21%| 33%| 34%|--| 51%| 59%| 61%| 66%| 74%| 79%| 81%| 82%| 82%| 85%| 86%| 89%| 89%
+|Hollydell Hurricanes|  7%| 20%| 32%| 33%| 49%|--| 57%| 60%| 65%| 73%| 78%| 80%| 81%| 81%| 84%| 85%| 88%| 89%
+|MYHA 11U AA|  5%| 16%| 26%| 26%| 41%| 43%|--| 53%| 58%| 67%| 73%| 75%| 76%| 76%| 80%| 81%| 85%| 85%
+|VFC PW A Herhal|  5%| 15%| 24%| 24%| 39%| 40%| 47%|--| 56%| 64%| 71%| 73%| 74%| 75%| 79%| 79%| 83%| 84%
+|Jersey Colts PW White|  4%| 12%| 20%| 21%| 34%| 35%| 42%| 44%|--| 59%| 66%| 68%| 70%| 70%| 74%| 76%| 80%| 81%
+|NJ Bandits 11AA|  3%|  9%| 15%| 15%| 26%| 27%| 33%| 36%| 41%|--| 57%| 60%| 62%| 62%| 67%| 68%| 73%| 74%
+|PTL Elite|  2%|  7%| 12%| 12%| 21%| 22%| 27%| 29%| 34%| 43%|--| 53%| 55%| 55%| 60%| 62%| 67%| 68%
+|North Jersey Avalanche|  2%|  6%| 11%| 11%| 19%| 20%| 25%| 27%| 32%| 40%| 47%|--| 52%| 52%| 58%| 59%| 65%| 66%
+|VFC PW 11 AA Fagan|  2%|  6%| 10%| 10%| 18%| 19%| 24%| 26%| 30%| 38%| 45%| 48%|--| 50%| 56%| 57%| 63%| 64%
+|Royals 11U AA White|  2%|  6%| 10%| 10%| 18%| 19%| 24%| 25%| 30%| 38%| 45%| 48%| 50%|--| 56%| 57%| 63%| 64%
+|Lehigh Valley Phantoms Youth U11 AA|  1%|  4%|  8%|  8%| 15%| 16%| 20%| 21%| 26%| 33%| 40%| 42%| 44%| 44%|--| 51%| 58%| 59%
+|Long Island Whalers 11UAA|  1%|  4%|  8%|  8%| 14%| 15%| 19%| 21%| 24%| 32%| 38%| 41%| 43%| 43%| 49%|--| 56%| 57%
+|Apple Core 12U Black|  1%|  3%|  6%|  6%| 11%| 12%| 15%| 17%| 20%| 27%| 33%| 35%| 37%| 37%| 42%| 44%|--| 51%
+|Arrows 12u Silver|  1%|  3%|  6%|  6%| 11%| 11%| 15%| 16%| 19%| 26%| 32%| 34%| 36%| 36%| 41%| 43%| 49%|--
 
 ## Generation Details
 

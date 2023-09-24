@@ -1,36 +1,36 @@
 [<- back to the index](readme.md)
 # 10U Lemieux KRACH Rankings
-Rankings generated on Sun Sep 24 18:45:41 2023.
+Rankings generated on Sun Sep 24 21:44:24 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1615|Championship|Philadelphia Blazers|11|10|1|0|0|0|342|10.8|-0.0
-2|1092|Championship|Wissahickon Warriors Red|8|7|1|0|0|0|378|7.8|-0.0
-3|1061|Championship|Hollydell Hurricanes|9|8|1|0|0|0|269|8.9|0.0
-4|894|Championship|Palmyra Black Knights - Kullman|13|11|2|0|0|0|273|11.9|0.0
-5|881|Gold|VFC Squirt Bergy|10|8|1|0|0|1|348|9.7|-0.0
-6|856|Gold|Wildcats 10U A|10|8|2|0|0|0|429|8.8|-0.0
-7|666|Gold|10U TI North Stars Red|7|5|2|0|0|0|458|5.9|0.0
-8|487|Gold|Mercer Chiefs Black|9|6|2|0|0|1|397|7.7|-0.0
-9|271|Silver|Dix Hills Hawks Squirt|6|3|2|0|0|1|381|4.7|0.0
-10|236|Silver|Haverford Hawks 10UA|11|7|4|0|0|0|285|7.9|0.0
-11|232|Silver|Delaware Ducks|8|4|4|0|0|0|447|4.9|0.0
-12|209|Silver|Frederick Freeze 10U LA|4|2|2|0|0|0|356|2.9|0.0
-13|202|Bronze|Rinx|4|2|2|0|0|0|553|2.8|-0.0
-14|183|Bronze|Ashburn Xtreme 10U X|6|3|3|0|0|0|385|3.9|0.0
-15|181|Bronze|PAL Silver Knights|6|2|4|0|0|0|633|2.8|-0.0
-16|153|Bronze|North Jersey Kings Blue|9|4|4|0|0|1|279|5.7|0.0
-17|141||Aviator Hockey Club 10U Minor|5|2|3|0|0|0|251|2.9|0.0
-18|76||York Devils|9|3|6|0|0|0|378|3.8|-0.0
-19|73||MYHA LA Blue|8|2|6|0|0|0|328|2.9|0.0
-20|72||North Jersey Avalanche Blue|8|2|6|0|0|0|368|2.9|0.0
-21|67||MYHA LA Gold|6|1|5|0|0|0|709|1.8|-0.0
-22|55||Tri-City Eagles 10U Blue|8|1|7|0|0|0|586|1.9|0.0
-23|38||Lehigh Valley Phantoms Youth U10 A1|10|2|8|0|0|0|348|2.9|0.0
-24|31||Jersey Colts Squirt Silver|8|1|7|0|0|0|474|1.9|0.0
-25|20||STJ 10U White|6|1|5|0|0|0|231|1.9|0.0
-26|20||Lancaster Firebirds Squirt Orange|9|1|8|0|0|0|324|1.9|0.0
-27|13||Lehigh Valley Phantoms Youth U10 A2|8|0|8|0|0|0|549|0.8|-0.0
+1|1615|Championship|[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140393/schedule)|11|10|1|0|0|0|342|10.8|-0.0
+2|1092|Championship|[Wissahickon Warriors Red](https://gamesheetstats.com/seasons/3659/teams/140398/schedule)|8|7|1|0|0|0|378|7.8|-0.0
+3|1061|Championship|[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140380/schedule)|9|8|1|0|0|0|269|8.9|0.0
+4|894|Championship|[Palmyra Black Knights - Kullman](https://gamesheetstats.com/seasons/3659/teams/140392/schedule)|13|11|2|0|0|0|273|11.9|0.0
+5|881|Gold|[VFC Squirt Bergy](https://gamesheetstats.com/seasons/3659/teams/140396/schedule)|10|8|1|0|0|1|348|9.7|-0.0
+6|856|Gold|[Wildcats 10U A](https://gamesheetstats.com/seasons/3659/teams/140397/schedule)|10|8|2|0|0|0|429|8.8|-0.0
+7|666|Gold|[10U TI North Stars Red](https://gamesheetstats.com/seasons/3659/teams/140266/schedule)|7|5|2|0|0|0|458|5.9|0.0
+8|487|Gold|[Mercer Chiefs Black](https://gamesheetstats.com/seasons/3659/teams/140386/schedule)|9|6|2|0|0|1|397|7.7|-0.0
+9|271|Silver|[Dix Hills Hawks Squirt](https://gamesheetstats.com/seasons/3659/teams/140377/schedule)|6|3|2|0|0|1|381|4.7|0.0
+10|236|Silver|[Haverford Hawks 10UA](https://gamesheetstats.com/seasons/3659/teams/140379/schedule)|11|7|4|0|0|0|285|7.9|0.0
+11|232|Silver|[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140376/schedule)|8|4|4|0|0|0|447|4.9|0.0
+12|209|Silver|[Frederick Freeze 10U LA](https://gamesheetstats.com/seasons/3659/teams/140378/schedule)|4|2|2|0|0|0|356|2.9|0.0
+13|202|Bronze|[Rinx](https://gamesheetstats.com/seasons/3659/teams/142499/schedule)|4|2|2|0|0|0|553|2.8|-0.0
+14|183|Bronze|[Ashburn Xtreme 10U X](https://gamesheetstats.com/seasons/3659/teams/140374/schedule)|6|3|3|0|0|0|385|3.9|0.0
+15|181|Bronze|[PAL Silver Knights](https://gamesheetstats.com/seasons/3659/teams/140391/schedule)|6|2|4|0|0|0|633|2.8|-0.0
+16|153|Bronze|[North Jersey Kings Blue](https://gamesheetstats.com/seasons/3659/teams/140390/schedule)|9|4|4|0|0|1|279|5.7|0.0
+17|141||[Aviator Hockey Club 10U Minor](https://gamesheetstats.com/seasons/3659/teams/140375/schedule)|5|2|3|0|0|0|251|2.9|0.0
+18|76||[York Devils](https://gamesheetstats.com/seasons/3659/teams/140399/schedule)|9|3|6|0|0|0|378|3.8|-0.0
+19|73||[MYHA LA Blue](https://gamesheetstats.com/seasons/3659/teams/140387/schedule)|8|2|6|0|0|0|328|2.9|0.0
+20|72||[North Jersey Avalanche Blue](https://gamesheetstats.com/seasons/3659/teams/140389/schedule)|8|2|6|0|0|0|368|2.9|0.0
+21|67||[MYHA LA Gold](https://gamesheetstats.com/seasons/3659/teams/140388/schedule)|6|1|5|0|0|0|709|1.8|-0.0
+22|55||[Tri-City Eagles 10U Blue](https://gamesheetstats.com/seasons/3659/teams/140395/schedule)|8|1|7|0|0|0|586|1.9|0.0
+23|38||[Lehigh Valley Phantoms Youth U10 A1](https://gamesheetstats.com/seasons/3659/teams/140383/schedule)|10|2|8|0|0|0|348|2.9|0.0
+24|31||[Jersey Colts Squirt Silver](https://gamesheetstats.com/seasons/3659/teams/140381/schedule)|8|1|7|0|0|0|474|1.9|0.0
+25|20||[STJ 10U White](https://gamesheetstats.com/seasons/3659/teams/140394/schedule)|6|1|5|0|0|0|231|1.9|0.0
+26|20||[Lancaster Firebirds Squirt Orange](https://gamesheetstats.com/seasons/3659/teams/140382/schedule)|9|1|8|0|0|0|324|1.9|0.0
+27|13||[Lehigh Valley Phantoms Youth U10 A2](https://gamesheetstats.com/seasons/3659/teams/140384/schedule)|8|0|8|0|0|0|549|0.8|-0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

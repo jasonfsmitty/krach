@@ -1,24 +1,24 @@
 [<- back to the index](readme.md)
 # 16U Gretzky KRACH Rankings
-Rankings generated on Sun Sep 24 18:45:42 2023.
+Rankings generated on Sun Sep 24 21:44:25 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2010|Championship|Dix Hills Hawks 16U|6|6|0|0|0|0|268|6.8|-0.0
-2|1223|Championship|STJ 16U Gold|6|4|1|0|0|1|638|5.7|0.0
-3|993|Championship|Aviator Hockey Club 16U Minor|5|4|1|0|0|0|459|4.9|0.0
-4|939|Championship|VFC 16A Frederick|9|6|2|0|0|1|581|7.7|-0.0
-5|780|Gold|Team Philadelphia Black|7|5|2|0|0|0|469|5.9|0.0
-6|746|Gold|Palmyra Black Knights|10|5|3|0|0|2|654|7.6|0.0
-7|605|Gold|MYHA 16U UA|8|4|4|0|0|0|712|4.9|0.0
-8|540|Gold|Frederick Freeze 16U UA|7|5|2|0|0|0|336|5.9|0.0
-9|313|Silver|Grundy Senators|11|6|4|0|0|1|301|7.7|0.0
-10|276|Silver|Tri-City Eagles 16U White|10|3|4|0|0|3|427|6.4|0.0
-11|160|Silver|Haverford Hawks 16U A Black|10|2|6|0|0|2|527|4.6|0.0
-12|140|Silver|Wildcats 16U A Black|6|1|4|0|0|1|660|2.7|0.0
-13|114||JR Black Bears16U Red|6|1|5|0|0|0|455|1.9|0.0
-14|91||Igloo Jaguars 16UA Black|10|0|8|0|0|2|854|2.5|-0.0
-15|87||Mercer Chiefs|7|1|6|0|0|0|530|1.9|0.0
+1|1958|Championship|[Dix Hills Hawks 16U](https://gamesheetstats.com/seasons/3659/teams/140688/schedule)|6|6|0|0|0|0|268|6.8|-0.0
+2|1290|Championship|[STJ 16U Gold](https://gamesheetstats.com/seasons/3659/teams/140697/schedule)|6|4|1|0|0|1|676|5.7|0.0
+3|1003|Championship|[VFC 16A Frederick](https://gamesheetstats.com/seasons/3659/teams/140700/schedule)|10|7|2|0|0|1|544|8.7|-0.0
+4|969|Championship|[Aviator Hockey Club 16U Minor](https://gamesheetstats.com/seasons/3659/teams/140687/schedule)|5|4|1|0|0|0|462|4.9|0.0
+5|835|Gold|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140696/schedule)|11|6|3|0|0|2|645|8.6|0.0
+6|822|Gold|[Team Philadelphia Black](https://gamesheetstats.com/seasons/3659/teams/140698/schedule)|8|6|2|0|0|0|435|6.9|0.0
+7|625|Gold|[MYHA 16U UA](https://gamesheetstats.com/seasons/3659/teams/140695/schedule)|8|4|4|0|0|0|746|4.9|0.0
+8|430|Gold|[Frederick Freeze 16U UA](https://gamesheetstats.com/seasons/3659/teams/140689/schedule)|8|5|3|0|0|0|402|5.9|0.0
+9|275|Silver|[Grundy Senators](https://gamesheetstats.com/seasons/3659/teams/140690/schedule)|12|6|5|0|0|1|351|7.7|0.0
+10|259|Silver|[Tri-City Eagles 16U White](https://gamesheetstats.com/seasons/3659/teams/140699/schedule)|10|3|4|0|0|3|428|6.4|0.0
+11|145|Silver|[Haverford Hawks 16U A Black](https://gamesheetstats.com/seasons/3659/teams/140691/schedule)|10|2|6|0|0|2|489|4.6|0.0
+12|131|Silver|[Wildcats 16U A Black](https://gamesheetstats.com/seasons/3659/teams/140725/schedule)|6|1|4|0|0|1|652|2.7|0.0
+13|106||[JR Black Bears16U Red](https://gamesheetstats.com/seasons/3659/teams/140693/schedule)|6|1|5|0|0|0|450|1.9|0.0
+14|83||[Mercer Chiefs](https://gamesheetstats.com/seasons/3659/teams/140694/schedule)|7|1|6|0|0|0|519|1.9|0.0
+15|80||[Igloo Jaguars 16UA Black](https://gamesheetstats.com/seasons/3659/teams/140692/schedule)|11|0|9|0|0|2|830|2.5|-0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
@@ -30,23 +30,23 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Dix Hills Hawks 16U|STJ 16U Gold|Aviator Hockey Club 16U Minor|VFC 16A Frederick|Team Philadelphia Black|Palmyra Black Knights|MYHA 16U UA|Frederick Freeze 16U UA|Grundy Senators|Tri-City Eagles 16U White|Haverford Hawks 16U A Black|Wildcats 16U A Black|JR Black Bears16U Red|Igloo Jaguars 16UA Black|Mercer Chiefs
+||Dix Hills Hawks 16U|STJ 16U Gold|VFC 16A Frederick|Aviator Hockey Club 16U Minor|Palmyra Black Knights|Team Philadelphia Black|MYHA 16U UA|Frederick Freeze 16U UA|Grundy Senators|Tri-City Eagles 16U White|Haverford Hawks 16U A Black|Wildcats 16U A Black|JR Black Bears16U Red|Mercer Chiefs|Igloo Jaguars 16UA Black
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Dix Hills Hawks 16U|--| 62%| 67%| 68%| 72%| 73%| 77%| 79%| 87%| 88%| 93%| 93%| 95%| 96%| 96%
-|STJ 16U Gold| 38%|--| 55%| 57%| 61%| 62%| 67%| 69%| 80%| 82%| 88%| 90%| 91%| 93%| 93%
-|Aviator Hockey Club 16U Minor| 33%| 45%|--| 51%| 56%| 57%| 62%| 65%| 76%| 78%| 86%| 88%| 90%| 92%| 92%
-|VFC 16A Frederick| 32%| 43%| 49%|--| 55%| 56%| 61%| 63%| 75%| 77%| 85%| 87%| 89%| 91%| 91%
-|Team Philadelphia Black| 28%| 39%| 44%| 45%|--| 51%| 56%| 59%| 71%| 74%| 83%| 85%| 87%| 90%| 90%
-|Palmyra Black Knights| 27%| 38%| 43%| 44%| 49%|--| 55%| 58%| 70%| 73%| 82%| 84%| 87%| 89%| 90%
-|MYHA 16U UA| 23%| 33%| 38%| 39%| 44%| 45%|--| 53%| 66%| 69%| 79%| 81%| 84%| 87%| 87%
-|Frederick Freeze 16U UA| 21%| 31%| 35%| 37%| 41%| 42%| 47%|--| 63%| 66%| 77%| 79%| 83%| 86%| 86%
-|Grundy Senators| 13%| 20%| 24%| 25%| 29%| 30%| 34%| 37%|--| 53%| 66%| 69%| 73%| 78%| 78%
-|Tri-City Eagles 16U White| 12%| 18%| 22%| 23%| 26%| 27%| 31%| 34%| 47%|--| 63%| 66%| 71%| 75%| 76%
-|Haverford Hawks 16U A Black|  7%| 12%| 14%| 15%| 17%| 18%| 21%| 23%| 34%| 37%|--| 53%| 58%| 64%| 65%
-|Wildcats 16U A Black|  7%| 10%| 12%| 13%| 15%| 16%| 19%| 21%| 31%| 34%| 47%|--| 55%| 61%| 62%
-|JR Black Bears16U Red|  5%|  9%| 10%| 11%| 13%| 13%| 16%| 17%| 27%| 29%| 42%| 45%|--| 56%| 57%
-|Igloo Jaguars 16UA Black|  4%|  7%|  8%|  9%| 10%| 11%| 13%| 14%| 22%| 25%| 36%| 39%| 44%|--| 51%
-|Mercer Chiefs|  4%|  7%|  8%|  9%| 10%| 10%| 13%| 14%| 22%| 24%| 35%| 38%| 43%| 49%|--
+|Dix Hills Hawks 16U|--| 60%| 66%| 67%| 70%| 70%| 76%| 82%| 88%| 88%| 93%| 94%| 95%| 96%| 96%
+|STJ 16U Gold| 40%|--| 56%| 57%| 61%| 61%| 67%| 75%| 82%| 83%| 90%| 91%| 92%| 94%| 94%
+|VFC 16A Frederick| 34%| 44%|--| 51%| 55%| 55%| 62%| 70%| 78%| 79%| 87%| 88%| 90%| 92%| 93%
+|Aviator Hockey Club 16U Minor| 33%| 43%| 49%|--| 54%| 54%| 61%| 69%| 78%| 79%| 87%| 88%| 90%| 92%| 92%
+|Palmyra Black Knights| 30%| 39%| 45%| 46%|--| 50%| 57%| 66%| 75%| 76%| 85%| 86%| 89%| 91%| 91%
+|Team Philadelphia Black| 30%| 39%| 45%| 46%| 50%|--| 57%| 66%| 75%| 76%| 85%| 86%| 89%| 91%| 91%
+|MYHA 16U UA| 24%| 33%| 38%| 39%| 43%| 43%|--| 59%| 69%| 71%| 81%| 83%| 86%| 88%| 89%
+|Frederick Freeze 16U UA| 18%| 25%| 30%| 31%| 34%| 34%| 41%|--| 61%| 62%| 75%| 77%| 80%| 84%| 84%
+|Grundy Senators| 12%| 18%| 22%| 22%| 25%| 25%| 31%| 39%|--| 51%| 65%| 68%| 72%| 77%| 77%
+|Tri-City Eagles 16U White| 12%| 17%| 21%| 21%| 24%| 24%| 29%| 38%| 49%|--| 64%| 66%| 71%| 76%| 76%
+|Haverford Hawks 16U A Black|  7%| 10%| 13%| 13%| 15%| 15%| 19%| 25%| 35%| 36%|--| 53%| 58%| 64%| 64%
+|Wildcats 16U A Black|  6%|  9%| 12%| 12%| 14%| 14%| 17%| 23%| 32%| 34%| 47%|--| 55%| 61%| 62%
+|JR Black Bears16U Red|  5%|  8%| 10%| 10%| 11%| 11%| 14%| 20%| 28%| 29%| 42%| 45%|--| 56%| 57%
+|Mercer Chiefs|  4%|  6%|  8%|  8%|  9%|  9%| 12%| 16%| 23%| 24%| 36%| 39%| 44%|--| 51%
+|Igloo Jaguars 16UA Black|  4%|  6%|  7%|  8%|  9%|  9%| 11%| 16%| 23%| 24%| 36%| 38%| 43%| 49%|--
 
 ## Generation Details
 
