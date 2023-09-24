@@ -168,7 +168,8 @@ class Record:
 
 #----------------------------------------------------------------------------
 class Team:
-    def __init__(self):
+    def __init__(self, id):
+        self.id = id
         self.matchups = dict()
         self.record = Record()
 
@@ -204,7 +205,8 @@ class Team:
 #----------------------------------------------------------------------------
 # Tracks all teams and their game results.
 class Ledger:
-    def __init__(self, dateCutoff):
+    def __init__(self, season, dateCutoff):
+        self.season = season
         self.dateCutoff = dateCutoff
         self.teams = dict()
         self.oldestGame = None
@@ -214,32 +216,26 @@ class Ledger:
         return date <= self.dateCutoff
 
     def addGame(self, date, winner, loser):
-        self.addTeam(winner)
-        self.addTeam(loser)
         if self.isValid(date):
             self.recordDate(date)
             self.teams[winner].addWin(loser)
             self.teams[loser ].addLoss(winner)
 
     def addShootout(self, date, winner, loser):
-        self.addTeam(winner)
-        self.addTeam(loser)
         if self.isValid(date):
             self.recordDate(date)
             self.teams[winner].addShootoutWin(loser)
             self.teams[loser ].addShootoutLoss(winner)
 
     def addTie(self, date, team1, team2):
-        self.addTeam(team1)
-        self.addTeam(team2)
         if self.isValid(date):
             self.recordDate(date)
             self.teams[team1].addTie(team2)
             self.teams[team2].addTie(team1)
 
-    def addTeam(self, team):
-        if not team in self.teams:
-            self.teams[team] = Team()
+    def addTeam(self, name, id):
+        if not name in self.teams:
+            self.teams[name] = Team(id)
 
     def recordDate(self, date):
         if not self.oldestGame or date < self.oldestGame:
@@ -370,7 +366,7 @@ def addFakeTies(options, ledger):
         if not fakeTeam in options.filteredTeams:
             options.filteredTeams.append(fakeTeam)
 
-        ledger.addTeam(fakeTeam)
+        ledger.addTeam(fakeTeam, None)
         for realTeam in ledger.teams:
             if realTeam != fakeTeam:
                 ledger.addTie(ledger.oldestGame, fakeTeam, realTeam)

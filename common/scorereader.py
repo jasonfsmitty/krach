@@ -33,6 +33,9 @@ class ScoreReader:
         winner = team1 if team1score > team2score else team2
         loser  = team2 if team1score > team2score else team1
 
+        ledger.addTeam(team1, game['homeTeam']['id'])
+        ledger.addTeam(team2, game['visitorTeam']['id'])
+
         if team1score == team2score:
             ledger.addTie(date, team1, team2)
         elif shootout:

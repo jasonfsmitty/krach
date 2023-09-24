@@ -34,6 +34,7 @@ def writeMarkdownRankings(outputFile, options, divisionName, ledger, ratings, le
         for rank,rating in enumerate(ratings):
             rank   += 1
             team   = rating.name
+            url    = "[{}](https://gamesheetstats.com/seasons/{}/teams/{}/schedule)".format(team, ledger.season, ledger.teams[team].id)
             value  = rating.value
             record = ledger.teams[team].record
             gp     = record.played
@@ -45,7 +46,7 @@ def writeMarkdownRankings(outputFile, options, divisionName, ledger, ratings, le
             sos    = rating.sos
             expW   = "{:.1f}".format(rating.expected)
             diff   = "{:.1f}".format(rating.diff)
-            columns = [rank, value, bb.getSubDivision(league, numTeams, rank), team, gp, wins, losses, otw, otl, ties, sos, expW, diff]
+            columns = [rank, value, bb.getSubDivision(league, numTeams, rank), url, gp, wins, losses, otw, otl, ties, sos, expW, diff]
             f.write('|'.join(map(str, columns)))
             f.write('\n')
         f.write('\n')

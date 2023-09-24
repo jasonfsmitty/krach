@@ -152,7 +152,7 @@ def updateCommand(args, SeasonId, League):
     toc = []
     for divisionName in sortDivisions(divisions):
         logging.info("Updating ratings for " + divisionName)
-        toc.append(updateRatings(options, args.cutoff, divisionName, args.test, Divisions, League))
+        toc.append(updateRatings(options, SeasonId, args.cutoff, divisionName, args.test, Divisions, League))
 
     if not args.test:
         mo.writeDivisionIndex(toc, League)
@@ -256,7 +256,7 @@ def cleanupResultsDirectory(League):
         logging.info("Created directory " + directory)
 
 #----------------------------------------------------------------------------
-def updateRatings(options, dateCutoff, divisionName, testMode, Divions, League):
+def updateRatings(options, seasonId, dateCutoff, divisionName, testMode, Divions, League):
     info = Divions.get(divisionName, None)
     if not info:
         logging.error("Unknown division '%s'", divisionName)
@@ -268,7 +268,7 @@ def updateRatings(options, dateCutoff, divisionName, testMode, Divions, League):
     else:
         options.filteredTeams = []
 
-    ledger = loadInputs(dateCutoff, info['scores'])
+    ledger = loadInputs(seasonId, dateCutoff, info['scores'])
     ratings = krach.generate(options, ledger)
 
     if len(ledger.teams) == 0:
@@ -286,8 +286,8 @@ def updateRatings(options, dateCutoff, divisionName, testMode, Divions, League):
     return (divisionName, ledger.oldestGame, ledger.newestGame, info['output'])
 
 #----------------------------------------------------------------------------
-def loadInputs(dateCutoff, inputFile):
-    ledger = krach.Ledger(dateCutoff)
+def loadInputs(seasonId, dateCutoff, inputFile):
+    ledger = krach.Ledger(seasonId, dateCutoff)
     reader = scorereader.ScoreReader()
     reader.read(inputFile, ledger)
     return ledger
