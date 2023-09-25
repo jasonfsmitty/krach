@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 14U AA KRACH Rankings
-Rankings generated on Mon Sep 25 17:57:27 2023.
+Rankings generated on Mon Sep 25 23:39:43 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -13,7 +13,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 7|480|Gold|[Long Island Whalers Bantam 2009](https://gamesheetstats.com/seasons/3659/teams/140559/schedule)|5|3|2|0|0|0|738|3.8|-0.0
 8|355|Gold|[Wissahickon Warriors AA](https://gamesheetstats.com/seasons/3659/teams/140574/schedule)|10|7|3|0|0|0|257|7.8|-0.0
 9|264|Silver|[MYHA 14U AA](https://gamesheetstats.com/seasons/3659/teams/140561/schedule)|4|2|2|0|0|0|717|2.8|-0.0
-10|234|Silver|[Lancaster Firbirds 14U Black](https://gamesheetstats.com/seasons/3659/teams/140557/schedule)|11|8|3|0|0|0|152|8.9|0.0
+10|234|Silver|[Lancaster Firebirds 14U Black](https://gamesheetstats.com/seasons/3659/teams/140557/schedule)|11|8|3|0|0|0|152|8.9|0.0
 11|225|Silver|[Haverford Hawks 14UAA](https://gamesheetstats.com/seasons/3659/teams/140553/schedule)|11|5|5|0|0|1|506|6.7|-0.0
 12|207|Silver|[JR Black Bears14U White](https://gamesheetstats.com/seasons/3659/teams/140555/schedule)|6|3|3|0|0|0|299|3.9|0.0
 13|186|Bronze|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140570/schedule)|8|4|3|0|0|1|289|5.7|-0.0
@@ -45,7 +45,7 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||PHA Icemen|Clearwater Ice Storm|Lehigh Valley Phantoms Youth U14AA|Igloo Jaguars 14UAA|Allegheny Badgers|North Jersey Avalanche|Long Island Whalers Bantam 2009|Wissahickon Warriors AA|MYHA 14U AA|Lancaster Firbirds 14U Black|Haverford Hawks 14UAA|JR Black Bears14U White|Team Philadelphia|South Pittsburgh Rebellion-Shell|STJ 14U Gold|PAL Blue Knights|Wildcats 14U AA|Darien|Grundy Senators|NYC Skyliners|Tri-City Eagles 14U Blue|Ashburn Xtreme 2009|Palmyra Black Knights|VFC Bantam 14 AA Fields|Delaware Ducks|RHC Bantam AA|Rye Rangers TB|Apple Core 14U|Mercer Chiefs|Arrows 14U Green
+||PHA Icemen|Clearwater Ice Storm|Lehigh Valley Phantoms Youth U14AA|Igloo Jaguars 14UAA|Allegheny Badgers|North Jersey Avalanche|Long Island Whalers Bantam 2009|Wissahickon Warriors AA|MYHA 14U AA|Lancaster Firebirds 14U Black|Haverford Hawks 14UAA|JR Black Bears14U White|Team Philadelphia|South Pittsburgh Rebellion-Shell|STJ 14U Gold|PAL Blue Knights|Wildcats 14U AA|Darien|Grundy Senators|NYC Skyliners|Tri-City Eagles 14U Blue|Ashburn Xtreme 2009|Palmyra Black Knights|VFC Bantam 14 AA Fields|Delaware Ducks|RHC Bantam AA|Rye Rangers TB|Apple Core 14U|Mercer Chiefs|Arrows 14U Green
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
 |PHA Icemen|--| 73%| 77%| 77%| 79%| 85%| 85%| 88%| 91%| 92%| 92%| 93%| 93%| 94%| 94%| 94%| 95%| 96%| 96%| 97%| 97%| 97%| 98%| 98%| 98%| 99%| 99%| 99%| 99%|100%
 |Clearwater Ice Storm| 27%|--| 56%| 56%| 58%| 68%| 68%| 74%| 79%| 81%| 82%| 83%| 84%| 85%| 86%| 86%| 88%| 90%| 91%| 92%| 93%| 93%| 94%| 95%| 96%| 96%| 98%| 98%| 98%| 99%
@@ -56,7 +56,7 @@ Uses KRACH ratings to predict winning percentage of each team (row) against each
 |Long Island Whalers Bantam 2009| 15%| 32%| 37%| 38%| 40%| 50%|--| 57%| 65%| 67%| 68%| 70%| 72%| 73%| 74%| 75%| 77%| 81%| 82%| 85%| 86%| 86%| 88%| 89%| 92%| 93%| 96%| 96%| 96%| 99%
 |Wissahickon Warriors AA| 12%| 26%| 31%| 31%| 33%| 42%| 43%|--| 57%| 60%| 61%| 63%| 66%| 66%| 68%| 69%| 71%| 76%| 78%| 81%| 82%| 82%| 84%| 86%| 90%| 90%| 94%| 95%| 95%| 98%
 |MYHA 14U AA|  9%| 21%| 25%| 25%| 27%| 35%| 35%| 43%|--| 53%| 54%| 56%| 59%| 59%| 61%| 62%| 65%| 70%| 72%| 76%| 77%| 77%| 79%| 82%| 86%| 87%| 92%| 93%| 94%| 98%
-|Lancaster Firbirds 14U Black|  8%| 19%| 23%| 23%| 24%| 33%| 33%| 40%| 47%|--| 51%| 53%| 56%| 56%| 58%| 59%| 62%| 68%| 70%| 74%| 75%| 75%| 77%| 80%| 85%| 86%| 91%| 92%| 93%| 97%
+|Lancaster Firebirds 14U Black|  8%| 19%| 23%| 23%| 24%| 33%| 33%| 40%| 47%|--| 51%| 53%| 56%| 56%| 58%| 59%| 62%| 68%| 70%| 74%| 75%| 75%| 77%| 80%| 85%| 86%| 91%| 92%| 93%| 97%
 |Haverford Hawks 14UAA|  8%| 18%| 22%| 22%| 24%| 32%| 32%| 39%| 46%| 49%|--| 52%| 55%| 55%| 57%| 58%| 61%| 67%| 69%| 73%| 74%| 75%| 77%| 80%| 84%| 86%| 91%| 92%| 93%| 97%
 |JR Black Bears14U White|  7%| 17%| 20%| 21%| 22%| 30%| 30%| 37%| 44%| 47%| 48%|--| 53%| 53%| 55%| 56%| 59%| 65%| 67%| 71%| 72%| 73%| 75%| 78%| 83%| 85%| 90%| 91%| 92%| 97%
 |Team Philadelphia|  7%| 16%| 19%| 19%| 20%| 28%| 28%| 34%| 41%| 44%| 45%| 47%|--| 51%| 52%| 53%| 56%| 62%| 65%| 69%| 70%| 71%| 73%| 76%| 82%| 83%| 89%| 91%| 91%| 97%
