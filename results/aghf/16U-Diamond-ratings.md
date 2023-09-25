@@ -1,19 +1,20 @@
 [<- back to the index](readme.md)
 # 16U Diamond KRACH Rankings
-Rankings generated on Sun Sep 24 21:44:28 2023.
+Rankings generated on Mon Sep 25 15:50:44 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2958|Playoffs|[PTL Black](https://gamesheetstats.com/seasons/3663/teams/140833/schedule)|5|5|0|0|0|0|441|5.8|-0.0
-2|864|Playoffs|[NJ Bandits](https://gamesheetstats.com/seasons/3663/teams/140836/schedule)|4|3|0|0|0|1|306|4.7|0.0
-3|645|Playoffs|[New York Islanders 1](https://gamesheetstats.com/seasons/3663/teams/140847/schedule)|4|3|1|0|0|0|354|3.9|0.0
-4|599|Playoffs|[STJ](https://gamesheetstats.com/seasons/3663/teams/140841/schedule)|6|2|3|0|0|1|1249|3.7|-0.0
-5|566|Playoffs|[PTL Orange](https://gamesheetstats.com/seasons/3663/teams/140842/schedule)|5|3|1|0|0|1|340|4.7|-0.0
-6|474|Playoffs|[MassConn United Hockey Club](https://gamesheetstats.com/seasons/3663/teams/140835/schedule)|4|2|2|0|0|0|1303|2.8|-0.0
-7|377||[York Lady Devils](https://gamesheetstats.com/seasons/3663/teams/140845/schedule)|3|1|2|0|0|0|822|1.9|0.0
-8|128||[Stateline Hawks](https://gamesheetstats.com/seasons/3663/teams/140840/schedule)|3|0|3|0|0|0|675|0.9|0.0
-9|98||[CT Ice Cats](https://gamesheetstats.com/seasons/3663/teams/140846/schedule)|4|0|4|0|0|0|975|0.8|-0.0
-10|84||[LVPY](https://gamesheetstats.com/seasons/3663/teams/140844/schedule)|4|0|4|0|0|0|565|0.9|0.0
+1|3018|Playoffs|[PTL Black](https://gamesheetstats.com/seasons/3663/teams/140833/schedule)|5|5|0|0|0|0|450|5.8|-0.0
+2|740|Playoffs|[NJ Bandits](https://gamesheetstats.com/seasons/3663/teams/140836/schedule)|4|3|0|0|0|1|253|4.7|0.0
+3|655|Playoffs|[New York Islanders 1](https://gamesheetstats.com/seasons/3663/teams/140847/schedule)|4|3|1|0|0|0|360|3.9|0.0
+4|609|Playoffs|[STJ](https://gamesheetstats.com/seasons/3663/teams/140841/schedule)|6|2|3|0|0|1|1273|3.7|-0.0
+5|574|Playoffs|[PTL Orange](https://gamesheetstats.com/seasons/3663/teams/140842/schedule)|5|3|1|0|0|1|345|4.7|-0.0
+6|521|Playoffs|[CT Polar Bears](https://gamesheetstats.com/seasons/3663/teams/140834/schedule)|3|1|1|0|0|1|524|2.7|0.0
+7|484||[MassConn United Hockey Club](https://gamesheetstats.com/seasons/3663/teams/140835/schedule)|4|2|2|0|0|0|1330|2.8|-0.0
+8|385||[York Lady Devils](https://gamesheetstats.com/seasons/3663/teams/140845/schedule)|3|1|2|0|0|0|840|1.9|0.0
+9|123||[Stateline Hawks](https://gamesheetstats.com/seasons/3663/teams/140840/schedule)|3|0|3|0|0|0|618|0.9|0.0
+10|100||[CT Ice Cats](https://gamesheetstats.com/seasons/3663/teams/140846/schedule)|4|0|4|0|0|0|995|0.8|-0.0
+11|84||[LVPY](https://gamesheetstats.com/seasons/3663/teams/140844/schedule)|4|0|4|0|0|0|548|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
@@ -25,18 +26,19 @@ Use the generated KRACH ratings to predict the expected win points per team, the
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||PTL Black|NJ Bandits|New York Islanders 1|STJ|PTL Orange|MassConn United Hockey Club|York Lady Devils|Stateline Hawks|CT Ice Cats|LVPY
-| --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|PTL Black|--| 77%| 82%| 83%| 84%| 86%| 89%| 96%| 97%| 97%
-|NJ Bandits| 23%|--| 57%| 59%| 60%| 65%| 70%| 87%| 90%| 91%
-|New York Islanders 1| 18%| 43%|--| 52%| 53%| 58%| 63%| 83%| 87%| 88%
-|STJ| 17%| 41%| 48%|--| 51%| 56%| 61%| 82%| 86%| 88%
-|PTL Orange| 16%| 40%| 47%| 49%|--| 54%| 60%| 82%| 85%| 87%
-|MassConn United Hockey Club| 14%| 35%| 42%| 44%| 46%|--| 56%| 79%| 83%| 85%
-|York Lady Devils| 11%| 30%| 37%| 39%| 40%| 44%|--| 75%| 79%| 82%
-|Stateline Hawks|  4%| 13%| 17%| 18%| 18%| 21%| 25%|--| 57%| 60%
-|CT Ice Cats|  3%| 10%| 13%| 14%| 15%| 17%| 21%| 43%|--| 54%
-|LVPY|  3%|  9%| 12%| 12%| 13%| 15%| 18%| 40%| 46%|--
+||PTL Black|NJ Bandits|New York Islanders 1|STJ|PTL Orange|CT Polar Bears|MassConn United Hockey Club|York Lady Devils|Stateline Hawks|CT Ice Cats|LVPY
+| --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
+|PTL Black|--| 80%| 82%| 83%| 84%| 85%| 86%| 89%| 96%| 97%| 97%
+|NJ Bandits| 20%|--| 53%| 55%| 56%| 59%| 60%| 66%| 86%| 88%| 90%
+|New York Islanders 1| 18%| 47%|--| 52%| 53%| 56%| 58%| 63%| 84%| 87%| 89%
+|STJ| 17%| 45%| 48%|--| 51%| 54%| 56%| 61%| 83%| 86%| 88%
+|PTL Orange| 16%| 44%| 47%| 49%|--| 52%| 54%| 60%| 82%| 85%| 87%
+|CT Polar Bears| 15%| 41%| 44%| 46%| 48%|--| 52%| 58%| 81%| 84%| 86%
+|MassConn United Hockey Club| 14%| 40%| 42%| 44%| 46%| 48%|--| 56%| 80%| 83%| 85%
+|York Lady Devils| 11%| 34%| 37%| 39%| 40%| 42%| 44%|--| 76%| 79%| 82%
+|Stateline Hawks|  4%| 14%| 16%| 17%| 18%| 19%| 20%| 24%|--| 55%| 59%
+|CT Ice Cats|  3%| 12%| 13%| 14%| 15%| 16%| 17%| 21%| 45%|--| 54%
+|LVPY|  3%| 10%| 11%| 12%| 13%| 14%| 15%| 18%| 41%| 46%|--
 
 ## Generation Details
 
