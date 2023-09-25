@@ -29,19 +29,26 @@ def getDivisions(season):
 #------------------------------------------------------------------------------
 def populateDivisionsDictionary(season, league):
     returnDivisions = {}
-    divisions = getDivisions(season)
-    resultsDir = 'results/{}'.format(bb.getLeagueAbbreviation(league).lower())
+    divisions  = getDivisions(season)
+    configDir  = 'config/{}'.format(bb.getLeagueAbbreviation(league).lower())
+    outputsDir = 'results/{}'.format(bb.getLeagueAbbreviation(league).lower())
 
     for division,divisionId in divisions.items():
         divisionName = division.replace(' ', '-').replace("/", '')
-        prefix = '{}/{}-'.format(resultsDir, divisionName)
+        configPrefix = '{}/{}-'.format(configDir, divisionName)
+        outputPrefix = '{}/{}-'.format(outputsDir, divisionName)
         returnDivisions[division] = {
+            'name'    : division,
             'id'      : divisionId,
-            'schedule': prefix + "schedule.json",
-            'teams'   : prefix + "teams.json",
-            'filter'  : prefix + "filter.txt",
-            'scores'  : prefix + "scores.json",
-            'output'  : prefix + "ratings.md",
+            'input'   : {
+                'teams'   : configPrefix + "teams.json",
+                'filter'  : configPrefix + "filter.txt",
+            },
+            'output' : {
+                'schedule': outputPrefix + "schedule.json",
+                'scores'  : outputPrefix + "scores.json",
+                'ratings' : outputPrefix + "ratings.md",
+            },
         }
 
     return returnDivisions
@@ -88,7 +95,7 @@ def downloadScores(divisionName, SeasonId, Divisions):
         sys.exit(1)
 
     scores = getDivisionScores(SeasonId, divisionName, info['id'])
-    with open(info['scores'], "w") as f:
+    with open(info['output']['scores'], "w") as f:
         json.dump(scores, f)
 
 #----------------------------------------------------------------------------
@@ -101,7 +108,7 @@ def downloadSchedule(divisionName, SeasonId, Divisions, force=False):
     if force or not os.path.exists(info['schedule']):
         logging.info("Getting schedule for division '{}'".format(divisionName))
         schedule = getDivisionSchedule(SeasonId, divisionName, info['id'])
-        with open(info['schedule'], "w") as f:
+        with open(info['output']['schedule'], "w") as f:
             json.dump(schedule, f)
 
 

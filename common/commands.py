@@ -123,14 +123,11 @@ def parseCommandLine():
 
 #----------------------------------------------------------------------------
 def downloadCommand(args, SeasonId, League):
-    #Before we download the updated scores, we need to cleanup the results folder
-    #so that we don't have any old files hanging around
-    cleanupResultsDirectory(League)
-    #Now we can download the scores
     Divisions = gamesheets.populateDivisionsDictionary(SeasonId, League)
     logging.info("Downloading scores ...")
     divisions = [args.div] if args.div else Divisions
     for d in sortDivisions(divisions):
+        cleanOutputsForDivision(Divisions[d])
         gamesheets.downloadScores(d, SeasonId, Divisions)
 
 #----------------------------------------------------------------------------
@@ -243,23 +240,13 @@ def scanForCrossTeamPlay(divisionName, Divisions):
     return seenDivisions
 
 #----------------------------------------------------------------------------
-def cleanupResultsDirectory(League):
-    directory = 'results/' + bb.getLeagueAbbreviation(League).lower() + '/'
-    if os.path.exists(directory):
-        logging.info("Deleting files from " + directory)
-        deletedFiles = 0
-        for root, dirs, files in os.walk(directory):
-            if len(files)>0:
-                for file in files:
-                    os.remove(os.path.join(root, file))
-                    deletedFiles += 1
-                logging.info("Deleted " + str(deletedFiles) + " files")
-            else:
-                logging.info("No files to delete")
-    else:
-        logging.info("Creating directory " + directory)
-        os.mkdir(directory)
-        logging.info("Created directory " + directory)
+def cleanOutputsForDivision(info):
+    for filename in info['output'].values():
+        directory = os.path.dirname(filename)
+        if not os.path.exists(directory):
+            os.mkdir(directory)
+        elif os.path.exists(filename):
+            os.remove(filename)
 
 #----------------------------------------------------------------------------
 def updateRatings(options, seasonId, dateCutoff, divisionName, testMode, Divisions, League):
@@ -275,10 +262,10 @@ def updateRatings(options, seasonId, dateCutoff, divisionName, testMode, Divisio
 
     # optionally write to markdown file
     if not testMode:
-        mo.writeMarkdownRankings(info['output'], options, divisionName, ledger, ratings, League)
+        mo.writeMarkdownRankings(info['output']['ratings'], options, divisionName, ledger, ratings, League)
 
     # (divisionName, startDate, endDate, .md path)
-    return (divisionName, ledger.oldestGame, ledger.newestGame, info['output'])
+    return (divisionName, ledger.oldestGame, ledger.newestGame, info['output']['ratings'])
 
 #----------------------------------------------------------------------------
 def loadInputs(options, seasonId, dateCutoff, divisionName, Divisions):
@@ -287,8 +274,8 @@ def loadInputs(options, seasonId, dateCutoff, divisionName, Divisions):
         logging.error("Unknown division '%s'", divisionName)
         sys.exit(1)
 
-    inputFile = info['scores']
-    filterFile = info['filter']
+    inputFile = info['output']['scores']
+    filterFile = info['input']['filter']
     if os.path.exists(filterFile):
         options.filteredTeams = [ line.strip() for line in open(filterFile) ]
     else:
