@@ -161,8 +161,14 @@ def updateCommand(args, SeasonId, League):
 def teamsCommand(args, SeasonId, League):
     Divisions = gamesheets.populateDivisionsDictionary(SeasonId, League)
     divisions = [args.div] if args.div else Divisions
+
     for divisionName in sortDivisions(divisions):
-        co.listTeams(divisionName, Divisions)
+        options = krach.Options()
+        ledger,info = loadInputs(options, SeasonId, datetime.date.today(), divisionName, Divisions)
+        teamNames = sorted(list(team for team in ledger.teams if team.lower() not in options.filteredTeams))
+        for name in teamNames:
+            print("{}".format(name))
+
 
 #----------------------------------------------------------------------------
 def crossCommand(args, SeasonId, League):
@@ -256,19 +262,8 @@ def cleanupResultsDirectory(League):
         logging.info("Created directory " + directory)
 
 #----------------------------------------------------------------------------
-def updateRatings(options, seasonId, dateCutoff, divisionName, testMode, Divions, League):
-    info = Divions.get(divisionName, None)
-    if not info:
-        logging.error("Unknown division '%s'", divisionName)
-        sys.exit(1)
-
-    filterFile = info['filter']
-    if os.path.exists(filterFile):
-        options.filteredTeams = [ line.strip() for line in open(info['filter']) ]
-    else:
-        options.filteredTeams = []
-
-    ledger = loadInputs(seasonId, dateCutoff, info['scores'])
+def updateRatings(options, seasonId, dateCutoff, divisionName, testMode, Divisions, League):
+    ledger,info = loadInputs(options, seasonId, dateCutoff, divisionName, Divisions)
     ratings = krach.generate(options, ledger)
 
     if len(ledger.teams) == 0:
@@ -286,9 +281,21 @@ def updateRatings(options, seasonId, dateCutoff, divisionName, testMode, Divions
     return (divisionName, ledger.oldestGame, ledger.newestGame, info['output'])
 
 #----------------------------------------------------------------------------
-def loadInputs(seasonId, dateCutoff, inputFile):
+def loadInputs(options, seasonId, dateCutoff, divisionName, Divisions):
+    info = Divisions.get(divisionName, None)
+    if not info:
+        logging.error("Unknown division '%s'", divisionName)
+        sys.exit(1)
+
+    inputFile = info['scores']
+    filterFile = info['filter']
+    if os.path.exists(filterFile):
+        options.filteredTeams = [ line.strip() for line in open(filterFile) ]
+    else:
+        options.filteredTeams = []
+
     ledger = krach.Ledger(seasonId, dateCutoff)
     reader = scorereader.ScoreReader()
     reader.read(inputFile, ledger)
-    return ledger
+    return (ledger, info)
 

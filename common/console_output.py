@@ -47,21 +47,3 @@ def showRankings(divisionName, ledger, ratings, league):
     print(f"  Avg  : {diffAvg:5.2f} {rawAvg:>5.2f}")
     print(f"")
 
-#----------------------------------------------------------------------------
-def listTeams(divisionName, Divisions):
-    info = Divisions.get(divisionName, None)
-    if not info:
-        logging.error("Unknown division '%s'", divisionName)
-        sys.exit(1)
-
-    filterFile = info['filter']
-    if os.path.exists(filterFile):
-        filteredTeams = set(line.strip().lower() for line in open(info['filter']))
-    else:
-        filteredTeams = set()
-
-    ledger = commands.loadInputs(datetime.date.today(), info['scores'])
-    teamNames = sorted(list(team for team in ledger.teams if team.lower() not in filteredTeams))
-
-    for name in teamNames:
-        print("{}".format(name))

@@ -32,15 +32,17 @@ def populateDivisionsDictionary(season, league):
     divisions = getDivisions(season)
     resultsDir = 'results/{}'.format(bb.getLeagueAbbreviation(league).lower())
 
-    for division in divisions:
+    for division,divisionId in divisions.items():
         divisionName = division.replace(' ', '-').replace("/", '')
-        returnDivision = {}
-        returnDivision['id'] = divisions[division]
-        returnDivision['schedule'] = '{}/{}-schedule.json'.format(resultsDir, divisionName)
-        returnDivision['scores'] = '{}/{}-scores.json'.format(resultsDir, divisionName)
-        returnDivision['filter'] = '{}/{}-filter.txt'.format(resultsDir, divisionName)
-        returnDivision['output'] = '{}/{}-ratings.md'.format(resultsDir, divisionName)
-        returnDivisions[division] = returnDivision
+        prefix = '{}/{}-'.format(resultsDir, divisionName)
+        returnDivisions[division] = {
+            'id'      : divisionId,
+            'schedule': prefix + "schedule.json",
+            'teams'   : prefix + "teams.json",
+            'filter'  : prefix + "filter.txt",
+            'scores'  : prefix + "scores.json",
+            'output'  : prefix + "ratings.md",
+        }
 
     return returnDivisions
 
