@@ -30,19 +30,19 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Refresh AHF Ratings
-        if: ${{ inputs.update_ahf || true }}
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.update_ahf }}
         run: |
           ./ahf.py download
           ./ahf.py update
 
       - name: Refresh AGHF Ratings
-        if: ${{ inputs.update_aghf || true }}
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.update_aghf }}
         run: |
           ./aghf.py download
           ./aghf.py update
 
       - name: Refresh THF Ratings
-        if: ${{ inputs.update_thf || true }}
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.update_thf }}
         run: |
           ./thf.py download
           ./thf.py update
