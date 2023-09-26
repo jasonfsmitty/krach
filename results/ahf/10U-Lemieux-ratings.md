@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 10U Lemieux KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:57 2023.
+Rankings generated on Mon Sep 25 21:14:49 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -31,14 +31,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 25|20||[STJ 10U White](https://gamesheetstats.com/seasons/3659/teams/140394/schedule)|6|1|5|0|0|1|231|1.9|0.0
 26|20||[Lancaster Firebirds Squirt Orange](https://gamesheetstats.com/seasons/3659/teams/140382/schedule)|9|1|8|0|1|0|324|1.9|0.0
 27|13||[Lehigh Valley Phantoms Youth U10 A2](https://gamesheetstats.com/seasons/3659/teams/140384/schedule)|8|0|8|0|0|0|549|0.8|-0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 14U Diamond KRACH Rankings
-Rankings generated on Mon Sep 25 21:03:13 2023.
+Rankings generated on Mon Sep 25 21:14:57 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -13,14 +13,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 7|328||[Stateline Hawks](https://gamesheetstats.com/seasons/3663/teams/140813/schedule)|5|2|3|0|0|0|556|2.9|0.0
 8|319||[CT Ice Cats](https://gamesheetstats.com/seasons/3663/teams/140826/schedule)|3|1|2|0|0|0|551|1.9|0.0
 9|132||[NJ Bandits](https://gamesheetstats.com/seasons/3663/teams/140828/schedule)|6|1|5|0|0|0|420|1.8|-0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|0.00
-|Avg|0.00|0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

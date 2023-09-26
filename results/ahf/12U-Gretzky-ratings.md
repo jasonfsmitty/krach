@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 12U Gretzky KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:58 2023.
+Rankings generated on Mon Sep 25 21:14:49 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -26,14 +26,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 20|88||[Arrows 12u Green](https://gamesheetstats.com/seasons/3659/teams/140451/schedule)|6|1|4|1|1|0|339|2.7|0.0
 21|73||[PTL Elite](https://gamesheetstats.com/seasons/3659/teams/140462/schedule)|12|3|9|0|1|2|361|3.9|0.0
 22|72||[NJ Bandits 12A Red](https://gamesheetstats.com/seasons/3659/teams/140458/schedule)|8|2|5|1|0|1|268|3.7|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 14U AA KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:58 2023.
+Rankings generated on Mon Sep 25 21:14:49 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -34,14 +34,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 28|19||[Apple Core 14U](https://gamesheetstats.com/seasons/3659/teams/140546/schedule)|6|2|4|0|0|0|57|2.9|0.0
 29|18||[Mercer Chiefs](https://gamesheetstats.com/seasons/3659/teams/140560/schedule)|9|1|8|0|0|0|270|1.9|0.0
 30|7||[Arrows 14U Green](https://gamesheetstats.com/seasons/3659/teams/140547/schedule)|6|0|6|0|0|0|93|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

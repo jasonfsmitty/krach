@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 16U AA KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:58 2023.
+Rankings generated on Mon Sep 25 21:14:50 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -35,14 +35,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 29|30||[NYC Skyliners](https://gamesheetstats.com/seasons/3659/teams/140676/schedule)|7|1|6|0|0|1|146|1.9|0.0
 30|13||[Jersey Colts 16 Black](https://gamesheetstats.com/seasons/3659/teams/140668/schedule)|10|1|9|0|0|0|175|1.9|0.0
 31|5||[RHC 16U AA](https://gamesheetstats.com/seasons/3659/teams/140680/schedule)|14|0|14|0|0|0|183|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

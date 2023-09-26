@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 16U Gretzky KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:58 2023.
+Rankings generated on Mon Sep 25 21:14:50 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -19,14 +19,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 13|103||[JR Black Bears16U Red](https://gamesheetstats.com/seasons/3659/teams/140693/schedule)|6|1|5|0|0|0|442|1.9|0.0
 14|79||[Igloo Jaguars 16UA Black](https://gamesheetstats.com/seasons/3659/teams/140692/schedule)|11|0|9|2|0|1|868|2.6|0.0
 15|76||[Mercer Chiefs](https://gamesheetstats.com/seasons/3659/teams/140694/schedule)|9|1|8|0|0|0|832|1.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

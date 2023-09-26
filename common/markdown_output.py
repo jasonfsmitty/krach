@@ -51,24 +51,29 @@ def writeMarkdownRankings(outputFile, options, divisionName, ledger, ratings, le
             f.write('\n')
         f.write('\n')
 
-        # magnitude
-        totalDiff = sum(abs(x.diff) for x in ratings)
-        avgDiff   = totalDiff / len(ratings)
-
-        totalRaw  = sum(x.diff for x in ratings)
-        avgRaw    = totalRaw / len(ratings)
-
         #-------------------------------------------------------
-        f.write(f"## Actual vs Expected\n")
+        # This 'actual vs expected' comparison was originally used when tweaking
+        # the settings for the KRACH algorithm; Disabling as it's not currently
+        # of any use, but leaving here incase we want to bring it back when tweaking
+        # the algorithm to match any updates the AHF makes to their ratings.
+        if False:
+            # magnitude
+            totalDiff = sum(abs(x.diff) for x in ratings)
+            avgDiff   = totalDiff / len(ratings)
 
-        f.write("Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.\n")
-        f.write("\n")
+            totalRaw  = sum(x.diff for x in ratings)
+            avgRaw    = totalRaw / len(ratings)
 
-        f.write(f"||Absolute|Raw\n")
-        f.write(f"|---:|---:|---:\n")
-        f.write(f"|Total|{totalDiff:.2f}|{totalRaw:.2f}\n")
-        f.write(f"|Avg|{avgDiff:.2f}|{avgRaw:.2f}\n")
-        f.write(f"\n")
+            f.write(f"## Actual vs Expected\n")
+
+            f.write("Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.\n")
+            f.write("\n")
+
+            f.write(f"||Absolute|Raw\n")
+            f.write(f"|---:|---:|---:\n")
+            f.write(f"|Total|{totalDiff:.2f}|{totalRaw:.2f}\n")
+            f.write(f"|Avg|{avgDiff:.2f}|{avgRaw:.2f}\n")
+            f.write(f"\n")
 
         #-------------------------------------------------------
         f.write(f"## Predictions\n")

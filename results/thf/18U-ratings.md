@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 18U KRACH Rankings
-Rankings generated on Mon Sep 25 21:03:49 2023.
+Rankings generated on Mon Sep 25 21:14:54 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -40,14 +40,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 34|32||[Team North Dakota](https://gamesheetstats.com/seasons/3664/teams/141114/schedule)|4|0|4|0|0|0|295|0.8|-0.0
 35|14||[Ontario Jr Reign](https://gamesheetstats.com/seasons/3664/teams/144275/schedule)|8|0|8|0|0|0|249|0.9|0.0
 36|13||[18U Prep Mercer Chiefs](https://gamesheetstats.com/seasons/3664/teams/141096/schedule)|6|0|6|0|0|0|185|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

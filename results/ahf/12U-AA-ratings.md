@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 12U AA KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:58 2023.
+Rankings generated on Mon Sep 25 21:14:49 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -26,14 +26,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 20|27||[Wildcats 12U AA](https://gamesheetstats.com/seasons/3659/teams/141136/schedule)|10|1|9|0|0|0|569|1.9|0.0
 21|23||[NYC Skyliners](https://gamesheetstats.com/seasons/3659/teams/141144/schedule)|6|0|6|0|0|0|348|0.9|0.0
 22|8||[RHC PW Major AA](https://gamesheetstats.com/seasons/3659/teams/141132/schedule)|11|0|11|0|0|0|234|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

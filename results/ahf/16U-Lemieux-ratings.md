@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 16U Lemieux KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:58 2023.
+Rankings generated on Mon Sep 25 21:14:50 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -35,14 +35,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 29|20||[Royals LT](https://gamesheetstats.com/seasons/3659/teams/142498/schedule)|4|0|4|0|0|0|184|0.9|0.0
 30|16||[York Devils](https://gamesheetstats.com/seasons/3659/teams/140729/schedule)|10|0|9|1|0|0|272|1.7|0.0
 31|6||[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140715/schedule)|10|0|10|0|0|0|177|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

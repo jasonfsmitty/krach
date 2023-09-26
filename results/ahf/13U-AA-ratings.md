@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 13U AA KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:58 2023.
+Rankings generated on Mon Sep 25 21:14:49 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -26,14 +26,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 20|22||[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140528/schedule)|9|1|8|0|0|0|204|1.9|0.0
 21|15||[Long Island Whalers Bantam 2010](https://gamesheetstats.com/seasons/3659/teams/140532/schedule)|6|0|6|0|0|0|246|0.9|0.0
 22|14||[Jersey Colts Bantam White](https://gamesheetstats.com/seasons/3659/teams/140530/schedule)|8|0|8|0|0|1|247|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

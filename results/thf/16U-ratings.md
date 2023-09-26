@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 16U KRACH Rankings
-Rankings generated on Mon Sep 25 21:03:49 2023.
+Rankings generated on Mon Sep 25 21:14:54 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -37,14 +37,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 31|23||[Flyers Elite U16 Prep](https://gamesheetstats.com/seasons/3664/teams/141057/schedule)|5|0|5|0|0|0|195|0.9|0.0
 32|19||[16U Prep Mercer Chiefs](https://gamesheetstats.com/seasons/3664/teams/141056/schedule)|7|1|6|0|0|0|119|1.9|0.0
 33|11||[RHC 16 Elite Red](https://gamesheetstats.com/seasons/3664/teams/141058/schedule)|6|0|6|0|0|0|132|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

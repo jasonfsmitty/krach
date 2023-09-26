@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 12U KRACH Rankings
-Rankings generated on Mon Sep 25 21:03:13 2023.
+Rankings generated on Mon Sep 25 21:14:57 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -9,14 +9,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 3|550|Playoffs|[WBS Lady Knights](https://gamesheetstats.com/seasons/3663/teams/140808/schedule)|6|2|4|0|0|0|1917|2.8|-0.0
 4|249|Playoffs|[NJ Bandits](https://gamesheetstats.com/seasons/3663/teams/140807/schedule)|4|0|4|0|0|0|1915|0.9|0.0
 5|164||[LVPY](https://gamesheetstats.com/seasons/3663/teams/140804/schedule)|4|0|4|0|0|0|1697|0.8|-0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

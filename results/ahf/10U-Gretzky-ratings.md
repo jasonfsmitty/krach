@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 10U Gretzky KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:57 2023.
+Rankings generated on Mon Sep 25 21:14:49 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -19,14 +19,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 13|43||[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140265/schedule)|9|0|8|1|0|0|821|1.7|0.0
 14|32||[STJ 10U Navy](https://gamesheetstats.com/seasons/3659/teams/140264/schedule)|6|0|6|0|0|0|1037|0.9|0.0
 15|20||[RHC Squirt A](https://gamesheetstats.com/seasons/3659/teams/140261/schedule)|10|0|10|0|0|0|358|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

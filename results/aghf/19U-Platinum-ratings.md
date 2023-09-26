@@ -1,19 +1,11 @@
 [<- back to the index](readme.md)
 # 19U Platinum KRACH Rankings
-Rankings generated on Mon Sep 25 21:03:13 2023.
+Rankings generated on Mon Sep 25 21:14:57 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|597|Playoffs|[Philadelphia Belles](https://gamesheetstats.com/seasons/3663/teams/140864/schedule)|5|2|3|0|0|0|1309|2.8|-0.0
 2|279|Playoffs|[NJ Bandits Morris](https://gamesheetstats.com/seasons/3663/teams/140866/schedule)|5|0|4|1|0|0|1375|1.7|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

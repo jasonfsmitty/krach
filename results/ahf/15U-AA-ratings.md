@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 15U AA KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:58 2023.
+Rankings generated on Mon Sep 25 21:14:49 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -19,14 +19,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 13|70||[York Devils](https://gamesheetstats.com/seasons/3659/teams/140660/schedule)|11|2|9|0|0|1|402|2.9|0.0
 14|64||[Lehigh Valley Phantoms Youth U15AA](https://gamesheetstats.com/seasons/3659/teams/140646/schedule)|12|3|9|0|0|0|252|3.9|0.0
 15|17||[Royals 15U AA Gold](https://gamesheetstats.com/seasons/3659/teams/140656/schedule)|10|0|10|0|0|0|287|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|0.00
-|Avg|0.00|0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

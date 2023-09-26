@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 12U McDavid KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:58 2023.
+Rankings generated on Mon Sep 25 21:14:49 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -32,14 +32,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 26|19||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140516/schedule)|8|0|8|0|0|0|330|0.9|0.0
 27|18||[JR Black Bears 12U Black](https://gamesheetstats.com/seasons/3659/teams/140506/schedule)|6|0|6|0|0|0|447|0.9|0.0
 28|15||[Philadelphia Jr Flyers Toomey](https://gamesheetstats.com/seasons/3659/teams/140518/schedule)|5|0|5|0|0|0|208|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 11U AA KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:57 2023.
+Rankings generated on Mon Sep 25 21:14:49 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -22,14 +22,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 16|39||[Apple Core 12U Black](https://gamesheetstats.com/seasons/3659/teams/140773/schedule)|4|0|4|0|0|0|528|0.9|0.0
 17|38||[Arrows 12u Silver](https://gamesheetstats.com/seasons/3659/teams/140774/schedule)|8|1|6|1|0|0|178|2.7|0.0
 18|38||[Long Island Whalers 11UAA](https://gamesheetstats.com/seasons/3659/teams/140780/schedule)|6|1|5|0|0|1|197|1.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

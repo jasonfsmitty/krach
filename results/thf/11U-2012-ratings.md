@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 11U 2012 KRACH Rankings
-Rankings generated on Mon Sep 25 21:03:49 2023.
+Rankings generated on Mon Sep 25 21:14:54 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -21,14 +21,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 15|87||[CT Jr Rangers Tier 1- AAA 2012](https://gamesheetstats.com/seasons/3664/teams/140911/schedule)|4|0|4|0|0|0|826|0.8|-0.0
 16|68||[Esmark Stars](https://gamesheetstats.com/seasons/3664/teams/140926/schedule)|6|0|6|0|0|0|798|0.8|-0.0
 17|32||[CP Dynamo 2012](https://gamesheetstats.com/seasons/3664/teams/140922/schedule)|6|0|6|0|0|0|333|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

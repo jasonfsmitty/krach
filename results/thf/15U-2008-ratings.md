@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 15U 2008 KRACH Rankings
-Rankings generated on Mon Sep 25 21:03:49 2023.
+Rankings generated on Mon Sep 25 21:14:54 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -32,14 +32,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 26|37||[Cyclones Academy](https://gamesheetstats.com/seasons/3664/teams/141005/schedule)|4|0|4|0|0|1|537|0.9|0.0
 27|24||[Red Raiders 15UAAA](https://gamesheetstats.com/seasons/3664/teams/141022/schedule)|6|0|6|0|0|0|267|0.9|0.0
 28|18||[Mercer Chiefs 2008](https://gamesheetstats.com/seasons/3664/teams/141012/schedule)|7|0|7|0|0|0|310|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

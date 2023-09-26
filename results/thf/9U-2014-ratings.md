@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 9U 2014 KRACH Rankings
-Rankings generated on Mon Sep 25 21:03:49 2023.
+Rankings generated on Mon Sep 25 21:14:54 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -15,14 +15,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 9|403|Frozen 4|[Mid Fairfield (Independent) 14 AAA](https://gamesheetstats.com/seasons/3664/teams/140878/schedule)|6|3|3|0|1|0|565|3.9|0.0
 10|233|Frozen 4|[Jersey Mustangs Elite](https://gamesheetstats.com/seasons/3664/teams/140888/schedule)|3|1|2|0|0|0|492|1.9|0.0
 11|63||[Mercer Chiefs 2014](https://gamesheetstats.com/seasons/3664/teams/140885/schedule)|5|0|5|0|0|1|484|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|0.00
-|Avg|0.00|0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

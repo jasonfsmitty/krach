@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 10U McDavid KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:57 2023.
+Rankings generated on Mon Sep 25 21:14:49 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -34,14 +34,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 28|18||[Haverford Hawks 10UB Red](https://gamesheetstats.com/seasons/3659/teams/140406/schedule)|7|1|6|0|0|0|288|1.9|0.0
 29|9||[Grundy Senators Schafer](https://gamesheetstats.com/seasons/3659/teams/140404/schedule)|7|0|7|0|0|1|212|0.9|0.0
 30|7||[Hollydell Hurricanes White](https://gamesheetstats.com/seasons/3659/teams/140408/schedule)|11|0|10|1|0|0|99|1.7|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

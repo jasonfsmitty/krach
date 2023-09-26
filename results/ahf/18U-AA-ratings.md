@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 18U AA KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:58 2023.
+Rankings generated on Mon Sep 25 21:14:50 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -29,14 +29,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 23|30||[North Jersey Kings Blue](https://gamesheetstats.com/seasons/3659/teams/140762/schedule)|5|0|5|0|0|0|289|0.9|0.0
 24|25||[Igloo Jaguars 18UAA Elite](https://gamesheetstats.com/seasons/3659/teams/140753/schedule)|8|1|7|0|0|0|173|1.9|0.0
 25|15||[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140751/schedule)|8|0|8|0|0|0|295|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

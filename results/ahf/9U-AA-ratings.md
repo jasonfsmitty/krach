@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 9U AA KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:57 2023.
+Rankings generated on Mon Sep 25 21:14:49 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -15,14 +15,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 9|122||[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140226/schedule)|10|2|8|0|0|0|802|2.8|-0.0
 10|71||[Arrows 10u Silver](https://gamesheetstats.com/seasons/3659/teams/140216/schedule)|4|0|4|0|0|0|514|0.9|0.0
 11|29||[RHC Squirt Minor AA](https://gamesheetstats.com/seasons/3659/teams/140224/schedule)|9|0|9|0|0|0|494|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).

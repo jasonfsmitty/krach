@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 10U AA KRACH Rankings
-Rankings generated on Mon Sep 25 21:02:57 2023.
+Rankings generated on Mon Sep 25 21:14:49 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -23,14 +23,6 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 17|115||[Wildcats 10U AA](https://gamesheetstats.com/seasons/3659/teams/140250/schedule)|8|2|6|0|0|0|392|2.9|0.0
 18|91||[Central CT Capitals](https://gamesheetstats.com/seasons/3659/teams/140231/schedule)|5|0|5|0|0|0|978|0.8|-0.0
 19|23||[Arrows 10u Green](https://gamesheetstats.com/seasons/3659/teams/140251/schedule)|7|0|7|0|0|0|291|0.9|0.0
-
-## Actual vs Expected
-Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.
-
-||Absolute|Raw
-|---:|---:|---:
-|Total|0.00|-0.00
-|Avg|0.00|-0.00
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
