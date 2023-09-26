@@ -133,12 +133,14 @@ class Record:
     played:   int = 0
     wins:     int = 0
     losses:   int = 0
+    otWins:   int = 0
+    otLosses: int = 0
     soWins:   int = 0
     soLosses: int = 0
     ties:     int = 0
 
     def __str__(self):
-        return f"{self.wins:>2}-{self.losses:>2}-{self.soWins:>2}-{self.soLosses:>2}-{self.ties:>2}"
+        return f"{self.wins:>2}-{self.losses:>2}-{self.ties:>2}   {self.otWins:>2}  {self.otLosses:>2}"
 
     def addWin(self):
         self.played += 1
@@ -147,6 +149,14 @@ class Record:
     def addLoss(self):
         self.played += 1
         self.losses += 1
+
+    def addOvertimeWin(self):
+        self.addWin()
+        self.otWins += 1
+
+    def addOvertimeLoss(self):
+        self.addLoss()
+        self.otLosses += 1
 
     def addShootoutWin(self):
         self.played += 1
@@ -187,6 +197,16 @@ class Team:
         self.addOpponent(opponent)
         self.matchups[opponent].addLoss()
 
+    def addOvertimeWin(self, opponent):
+        self.record.addOvertimeWin()
+        self.addOpponent(opponent)
+        self.matchups[opponent].addOvertimeWin()
+
+    def addOvertimeLoss(self, opponent):
+        self.record.addOvertimeLoss()
+        self.addOpponent(opponent)
+        self.matchups[opponent].addOvertimeLoss()
+
     def addShootoutWin(self, opponent):
         self.record.addShootoutWin()
         self.addOpponent(opponent)
@@ -220,6 +240,12 @@ class Ledger:
             self.recordDate(date)
             self.teams[winner].addWin(loser)
             self.teams[loser ].addLoss(winner)
+
+    def addOvertime(self, date, winner, loser):
+        if self.isValid(date):
+            self.recordDate(date)
+            self.teams[winner].addOvertimeWin(loser)
+            self.teams[loser ].addOvertimeLoss(winner)
 
     def addShootout(self, date, winner, loser):
         if self.isValid(date):

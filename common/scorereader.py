@@ -29,6 +29,7 @@ class ScoreReader:
         team2      = game['visitorTeam']['name']
         team2score = game['finalScore']['visitorGoals']
         shootout   = any(map(lambda x: x['title'] == 'SO', game['scoresByPeriod']))
+        overtime   = any(map(lambda x: x['title'] == 'OT', game['scoresByPeriod']))
 
         winner = team1 if team1score > team2score else team2
         loser  = team2 if team1score > team2score else team1
@@ -38,6 +39,8 @@ class ScoreReader:
 
         if team1score == team2score:
             ledger.addTie(date, team1, team2)
+        elif overtime:
+            ledger.addOvertime(date, winner, loser)
         elif shootout:
             ledger.addShootout(date, winner, loser)
         else:

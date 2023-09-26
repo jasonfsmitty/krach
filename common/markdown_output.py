@@ -23,7 +23,7 @@ def writeMarkdownRankings(outputFile, options, divisionName, ledger, ratings, le
         f.write("\n")
 
         lines = [
-            ['Rank', 'KRACH', 'Subdivision', 'Team', 'GP',   'W',    'L',    'SOW',  'SOL',  'T',    'SoS', 'Exp Wins', 'Win Diff'],
+            ['Rank', 'KRACH', 'Subdivision', 'Team', 'GP',   'W',    'L',    'T',    'OTW',  'OTL',  'SoS', 'Exp Wins', 'Win Diff'],
             ['---:', '---:',  ':---',        ':---', '---:', '---:', '---:', '---:', '---:', '---:', '---:', '---:', '---:'],
         ]
         for line in lines:
@@ -40,13 +40,13 @@ def writeMarkdownRankings(outputFile, options, divisionName, ledger, ratings, le
             gp     = record.played
             wins   = record.wins
             losses = record.losses
-            otw    = record.soWins
-            otl    = record.soLosses
             ties   = record.ties
+            otw    = record.otWins
+            otl    = record.otLosses
             sos    = rating.sos
             expW   = "{:.1f}".format(rating.expected)
             diff   = "{:.1f}".format(rating.diff)
-            columns = [rank, value, bb.getSubDivision(league, numTeams, rank), url, gp, wins, losses, otw, otl, ties, sos, expW, diff]
+            columns = [rank, value, bb.getSubDivision(league, numTeams, rank), url, gp, wins, losses, ties, otw, otl, sos, expW, diff]
             f.write('|'.join(map(str, columns)))
             f.write('\n')
         f.write('\n')
