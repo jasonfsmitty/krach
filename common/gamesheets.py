@@ -18,21 +18,35 @@ def ignoreDivision(name):
 #------------------------------------------------------------------------------
 def getDivisions(season):
     url = "https://gamesheetstats.com/api/useSeasonDivisions/getDivisions/{}".format(season)
-    print("Reading list of divisions...")
+    print("Downloading list of divisions...")
     response = requests.get(url)
     if response.status_code != 200:
         print("ERROR: failed to read division info: url='{}' status={}".format(url, response.status_code))
         print("Response = " + str(response))
         raise RuntimeError("Failed to get divisions")
-    return { entry['title'] : entry['id'] for entry in response.json() if not ignoreDivision(entry['title']) }
+    return response.json()
+
+#------------------------------------------------------------------------------
+def loadDivisions(season, league, outputsDir):
+    divisionsFile = outputsDir + "/divisions.json"
+    if not os.path.exists(divisionsFile):
+        logging.info("Creating cache of {} divisions ...".format(league))
+        data = getDivisions(season)
+        with open(divisionsFile, "w") as f:
+            json.dump(data, f)
+
+    with open(divisionsFile) as f:
+        data = json.load(f)
+        return { entry['title'] : entry['id'] for entry in data if not ignoreDivision(entry['title']) }
 
 #------------------------------------------------------------------------------
 def populateDivisionsDictionary(season, league):
-    returnDivisions = {}
-    divisions  = getDivisions(season)
     configDir  = 'config/{}'.format(bb.getLeagueAbbreviation(league).lower())
     outputsDir = 'results/{}'.format(bb.getLeagueAbbreviation(league).lower())
 
+    divisions  = loadDivisions(season, league, outputsDir)
+
+    returnDivisions = {}
     for division,divisionId in divisions.items():
         divisionName = division.replace(' ', '-').replace("/", '')
         configPrefix = '{}/{}-'.format(configDir, divisionName)
