@@ -1,36 +1,36 @@
 [<- back to the index](readme.md)
 # 14U Lemieux KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:43 2023.
+Rankings generated on Mon Sep 25 21:02:58 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1494|Championship|[PAL Silver Knights](https://gamesheetstats.com/seasons/3659/teams/140614/schedule)|7|7|0|0|0|0|174|7.8|-0.0
+1|1494|Championship|[PAL Silver Knights](https://gamesheetstats.com/seasons/3659/teams/140614/schedule)|7|7|0|0|1|0|174|7.8|-0.0
 2|1178|Championship|[MYHA 14U LA Gold](https://gamesheetstats.com/seasons/3659/teams/140608/schedule)|8|8|0|0|0|0|115|8.8|-0.0
 3|1101|Championship|[Frederick Freeze 14U LA](https://gamesheetstats.com/seasons/3659/teams/140597/schedule)|5|5|0|0|0|0|166|5.9|0.0
-4|1013|Championship|[MYHA 14U LA Blue](https://gamesheetstats.com/seasons/3659/teams/140607/schedule)|6|6|0|0|0|0|134|6.9|0.0
+4|1013|Championship|[MYHA 14U LA Blue](https://gamesheetstats.com/seasons/3659/teams/140607/schedule)|6|6|0|0|1|0|134|6.9|0.0
 5|610|Gold|[Ashburn Xtreme 14U X](https://gamesheetstats.com/seasons/3659/teams/140596/schedule)|8|7|1|0|0|0|166|7.9|0.0
 6|458|Gold|[STJ 14U White](https://gamesheetstats.com/seasons/3659/teams/140621/schedule)|6|5|1|0|0|0|296|5.8|-0.0
 7|430|Gold|[Rinx](https://gamesheetstats.com/seasons/3659/teams/142501/schedule)|4|4|0|0|0|0|74|4.9|0.0
 8|396|Gold|[Grundy Senators Miller](https://gamesheetstats.com/seasons/3659/teams/140598/schedule)|11|8|3|0|0|0|261|8.9|0.0
-9|299|Silver|[PAL Sound Tigers](https://gamesheetstats.com/seasons/3659/teams/140615/schedule)|7|5|2|0|0|0|285|5.8|-0.0
-10|279|Silver|[NJ Bandits 14A Lemieux](https://gamesheetstats.com/seasons/3659/teams/140609/schedule)|9|6|3|0|0|0|249|6.9|0.0
-11|244|Silver|[Wildcats 14U A Red](https://gamesheetstats.com/seasons/3659/teams/140624/schedule)|9|6|3|0|0|0|261|6.9|0.0
+9|299|Silver|[PAL Sound Tigers](https://gamesheetstats.com/seasons/3659/teams/140615/schedule)|7|5|2|0|0|1|285|5.8|-0.0
+10|279|Silver|[NJ Bandits 14A Lemieux](https://gamesheetstats.com/seasons/3659/teams/140609/schedule)|9|6|3|0|2|0|249|6.9|0.0
+11|244|Silver|[Wildcats 14U A Red](https://gamesheetstats.com/seasons/3659/teams/140624/schedule)|9|6|3|0|0|1|261|6.9|0.0
 12|190|Silver|[Jersey Colts Bantam Silver](https://gamesheetstats.com/seasons/3659/teams/140603/schedule)|8|5|3|0|0|0|229|5.9|0.0
 13|181|Bronze|[Palmyra Black Knights-East](https://gamesheetstats.com/seasons/3659/teams/140617/schedule)|9|5|4|0|0|0|370|5.9|0.0
 14|165|Bronze|[RHC Bantam A](https://gamesheetstats.com/seasons/3659/teams/140618/schedule)|9|5|4|0|0|0|248|5.9|0.0
 15|161|Bronze|[North Jersey Kings Yellow](https://gamesheetstats.com/seasons/3659/teams/140612/schedule)|10|6|4|0|0|0|150|6.9|0.0
 16|149|Bronze|[Hollydell Hurricanes White](https://gamesheetstats.com/seasons/3659/teams/140601/schedule)|10|7|3|0|0|0|155|7.9|0.0
-17|120||[Haverford Hawks 14UA Red](https://gamesheetstats.com/seasons/3659/teams/140600/schedule)|7|3|3|0|0|1|307|4.7|0.0
+17|120||[Haverford Hawks 14UA Red](https://gamesheetstats.com/seasons/3659/teams/140600/schedule)|7|3|3|1|0|0|307|4.7|0.0
 18|98||[JR Black Bears14U Black](https://gamesheetstats.com/seasons/3659/teams/140604/schedule)|6|2|4|0|0|0|387|2.9|0.0
-19|95||[Grundy Senators St. John](https://gamesheetstats.com/seasons/3659/teams/140599/schedule)|11|5|6|0|0|0|344|5.9|0.0
-20|93||[VFC Bantam A Fitzgerald](https://gamesheetstats.com/seasons/3659/teams/140623/schedule)|9|3|6|0|0|0|334|3.9|0.0
-21|87||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140616/schedule)|10|3|7|0|0|0|492|3.9|0.0
-22|83||[Team Philadelphia Orange](https://gamesheetstats.com/seasons/3659/teams/140622/schedule)|9|2|6|0|0|1|262|3.7|0.0
+19|95||[Grundy Senators St. John](https://gamesheetstats.com/seasons/3659/teams/140599/schedule)|11|5|6|0|0|1|344|5.9|0.0
+20|93||[VFC Bantam A Fitzgerald](https://gamesheetstats.com/seasons/3659/teams/140623/schedule)|9|3|6|0|1|0|334|3.9|0.0
+21|87||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140616/schedule)|10|3|7|0|0|1|492|3.9|0.0
+22|83||[Team Philadelphia Orange](https://gamesheetstats.com/seasons/3659/teams/140622/schedule)|9|2|6|1|0|0|262|3.7|0.0
 23|78||[Mercer Chiefs Black](https://gamesheetstats.com/seasons/3659/teams/140605/schedule)|9|3|6|0|0|0|298|3.9|0.0
-24|56||[North Jersey Avalanche White](https://gamesheetstats.com/seasons/3659/teams/140611/schedule)|10|2|8|0|0|0|358|2.9|0.0
+24|56||[North Jersey Avalanche White](https://gamesheetstats.com/seasons/3659/teams/140611/schedule)|10|2|8|0|0|1|358|2.9|0.0
 25|52||[Mercer Chiefs Red](https://gamesheetstats.com/seasons/3659/teams/140606/schedule)|10|3|7|0|0|0|149|3.9|0.0
-26|50||[North Jersey Skylands Kings White](https://gamesheetstats.com/seasons/3659/teams/140613/schedule)|11|3|8|0|0|0|335|3.9|0.0
-27|44||[RHC U13P Red](https://gamesheetstats.com/seasons/3659/teams/140619/schedule)|10|3|6|0|0|1|111|4.7|0.0
+26|50||[North Jersey Skylands Kings White](https://gamesheetstats.com/seasons/3659/teams/140613/schedule)|11|3|8|0|0|1|335|3.9|0.0
+27|44||[RHC U13P Red](https://gamesheetstats.com/seasons/3659/teams/140619/schedule)|10|3|6|1|1|0|111|4.7|0.0
 28|25||[Igloo Jaguars 14U A Green](https://gamesheetstats.com/seasons/3659/teams/140602/schedule)|9|1|8|0|0|0|342|1.9|0.0
 29|18||[Wissahickon Warriors White](https://gamesheetstats.com/seasons/3659/teams/140625/schedule)|10|1|9|0|0|0|203|1.9|0.0
 30|5||[Royals 14U White](https://gamesheetstats.com/seasons/3659/teams/140620/schedule)|9|0|9|0|0|0|128|0.9|0.0

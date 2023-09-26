@@ -1,8 +1,8 @@
 [<- back to the index](readme.md)
 # 14U McDavid KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:43 2023.
+Rankings generated on Mon Sep 25 21:02:58 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|1528|Championship|[York Devils Red](https://gamesheetstats.com/seasons/3659/teams/140644/schedule)|13|11|2|0|0|0|484|11.8|-0.0
 2|1487|Championship|[STJ Light Blue](https://gamesheetstats.com/seasons/3659/teams/140639/schedule)|8|7|1|0|0|0|479|7.8|-0.0
@@ -10,18 +10,18 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 4|757|Championship|[MYHA 14U McDavid Blue](https://gamesheetstats.com/seasons/3659/teams/140636/schedule)|8|6|2|0|0|0|483|6.8|-0.0
 5|644|Gold|[RHC Bantam A](https://gamesheetstats.com/seasons/3659/teams/140618/schedule)|3|3|0|0|0|0|135|3.9|0.0
 6|519|Gold|[Aviator Hockey Club 14U Minor](https://gamesheetstats.com/seasons/3659/teams/140627/schedule)|5|4|1|0|0|0|326|4.9|0.0
-7|353|Gold|[14U TI North Stars Red](https://gamesheetstats.com/seasons/3659/teams/140626/schedule)|7|6|0|0|0|1|80|7.7|0.0
-8|207|Gold|[Lancaster Firebirds 14U Orange](https://gamesheetstats.com/seasons/3659/teams/140634/schedule)|11|4|5|0|0|2|513|6.5|-0.0
+7|353|Gold|[14U TI North Stars Red](https://gamesheetstats.com/seasons/3659/teams/140626/schedule)|7|6|0|1|0|0|80|7.7|0.0
+8|207|Gold|[Lancaster Firebirds 14U Orange](https://gamesheetstats.com/seasons/3659/teams/140634/schedule)|11|4|5|2|0|0|513|6.5|-0.0
 9|193|Silver|[Grundy Senators](https://gamesheetstats.com/seasons/3659/teams/140629/schedule)|9|5|4|0|0|0|394|5.9|0.0
 10|189|Silver|[Haverford Hawks](https://gamesheetstats.com/seasons/3659/teams/140630/schedule)|10|4|6|0|0|0|678|4.8|-0.0
-11|161|Silver|[Lehigh Valley Phantoms Youth 14B](https://gamesheetstats.com/seasons/3659/teams/140635/schedule)|9|4|5|0|0|0|461|4.8|-0.0
-12|157|Silver|[Frederick Freeze 14U McDavid](https://gamesheetstats.com/seasons/3659/teams/140628/schedule)|6|2|1|0|0|3|142|5.4|-0.0
-13|150||[Wildcats 14U B White](https://gamesheetstats.com/seasons/3659/teams/140643/schedule)|10|4|4|0|0|2|331|6.6|0.0
-14|105||[Wildcats 14U B Gray](https://gamesheetstats.com/seasons/3659/teams/140642/schedule)|10|3|6|0|0|1|373|4.7|0.0
-15|89||[Tri-City Eagles 14U Red](https://gamesheetstats.com/seasons/3659/teams/140640/schedule)|9|4|5|0|0|0|392|4.8|-0.0
+11|161|Silver|[Lehigh Valley Phantoms Youth 14B](https://gamesheetstats.com/seasons/3659/teams/140635/schedule)|9|4|5|0|0|1|461|4.8|-0.0
+12|157|Silver|[Frederick Freeze 14U McDavid](https://gamesheetstats.com/seasons/3659/teams/140628/schedule)|6|2|1|3|0|0|142|5.4|-0.0
+13|150||[Wildcats 14U B White](https://gamesheetstats.com/seasons/3659/teams/140643/schedule)|10|4|4|2|1|0|331|6.6|0.0
+14|105||[Wildcats 14U B Gray](https://gamesheetstats.com/seasons/3659/teams/140642/schedule)|10|3|6|1|0|0|373|4.7|0.0
+15|89||[Tri-City Eagles 14U Red](https://gamesheetstats.com/seasons/3659/teams/140640/schedule)|9|4|5|0|1|0|392|4.8|-0.0
 16|71||[North Jersey Kings Grey](https://gamesheetstats.com/seasons/3659/teams/140637/schedule)|10|2|8|0|0|0|376|2.9|0.0
-17|56||[Jersey Colts Bantam Green](https://gamesheetstats.com/seasons/3659/teams/140632/schedule)|10|1|7|0|0|2|298|3.6|0.0
-18|21||[VFC Bantam B Drost](https://gamesheetstats.com/seasons/3659/teams/140641/schedule)|9|1|8|0|0|0|241|1.9|0.0
+17|56||[Jersey Colts Bantam Green](https://gamesheetstats.com/seasons/3659/teams/140632/schedule)|10|1|7|2|0|0|298|3.6|0.0
+18|21||[VFC Bantam B Drost](https://gamesheetstats.com/seasons/3659/teams/140641/schedule)|9|1|8|0|0|1|241|1.9|0.0
 19|17||[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140631/schedule)|9|1|8|0|0|0|279|1.9|0.0
 20|13||[Royals 14U Gray](https://gamesheetstats.com/seasons/3659/teams/140638/schedule)|9|0|9|0|0|0|366|0.9|0.0
 

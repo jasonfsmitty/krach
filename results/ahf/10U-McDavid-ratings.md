@@ -1,39 +1,39 @@
 [<- back to the index](readme.md)
 # 10U McDavid KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:43 2023.
+Rankings generated on Mon Sep 25 21:02:57 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|2462|Championship|[Grundy Senators Ebert](https://gamesheetstats.com/seasons/3659/teams/140403/schedule)|10|10|0|0|0|0|211|10.8|-0.0
 2|1153|Championship|[NJ Bandits 10B Red](https://gamesheetstats.com/seasons/3659/teams/140415/schedule)|9|9|0|0|0|0|108|9.8|-0.0
 3|1102|Championship|[Philadelphia Jr Flyers Kaminsky](https://gamesheetstats.com/seasons/3659/teams/140423/schedule)|5|5|0|0|0|0|176|5.9|0.0
 4|941|Championship|[Mercer Chiefs Red](https://gamesheetstats.com/seasons/3659/teams/140414/schedule)|10|10|0|0|0|0|84|10.9|0.0
-5|671|Gold|[JR Black Bears10U Red](https://gamesheetstats.com/seasons/3659/teams/140412/schedule)|8|7|1|0|0|0|360|7.8|-0.0
+5|671|Gold|[JR Black Bears10U Red](https://gamesheetstats.com/seasons/3659/teams/140412/schedule)|8|7|1|0|1|0|360|7.8|-0.0
 6|543|Gold|[Palmyra Black Knights - Merrill](https://gamesheetstats.com/seasons/3659/teams/140421/schedule)|9|8|1|0|0|0|140|8.9|0.0
 7|481|Gold|[Hollydell Hurricanes Red](https://gamesheetstats.com/seasons/3659/teams/140407/schedule)|9|7|2|0|0|0|252|7.9|0.0
 8|415|Gold|[PAL Sound Tigers](https://gamesheetstats.com/seasons/3659/teams/140420/schedule)|8|6|2|0|0|0|468|6.8|-0.0
 9|406|Silver|[Igloo Jaguars 10UB](https://gamesheetstats.com/seasons/3659/teams/140409/schedule)|10|7|3|0|0|0|461|7.9|0.0
 10|224|Silver|[Long Island Whalers Squirt Green](https://gamesheetstats.com/seasons/3659/teams/140413/schedule)|7|6|1|0|0|0|87|6.9|0.0
-11|198|Silver|[Haverford Hawks 10UB Black](https://gamesheetstats.com/seasons/3659/teams/140405/schedule)|10|5|5|0|0|0|591|5.8|-0.0
+11|198|Silver|[Haverford Hawks 10UB Black](https://gamesheetstats.com/seasons/3659/teams/140405/schedule)|10|5|5|0|0|1|591|5.8|-0.0
 12|194|Silver|[Wissahickon Warriors White](https://gamesheetstats.com/seasons/3659/teams/141148/schedule)|10|6|4|0|0|0|426|6.9|0.0
 13|91|Bronze|[North Jersey Skylands Kings White](https://gamesheetstats.com/seasons/3659/teams/140419/schedule)|9|4|5|0|0|0|243|4.9|0.0
-14|90|Bronze|[Palmyra Black Knights- Frey](https://gamesheetstats.com/seasons/3659/teams/140422/schedule)|12|5|7|0|0|0|304|5.9|0.0
+14|90|Bronze|[Palmyra Black Knights- Frey](https://gamesheetstats.com/seasons/3659/teams/140422/schedule)|12|5|7|0|1|0|304|5.9|0.0
 15|77|Bronze|[VFC Squirt Jones](https://gamesheetstats.com/seasons/3659/teams/141151/schedule)|9|3|6|0|0|0|597|3.9|0.0
-16|72|Bronze|[JR Black Bears10U Black](https://gamesheetstats.com/seasons/3659/teams/140411/schedule)|9|6|3|0|0|0|277|6.9|0.0
+16|72|Bronze|[JR Black Bears10U Black](https://gamesheetstats.com/seasons/3659/teams/140411/schedule)|9|6|3|0|0|1|277|6.9|0.0
 17|70||[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/141147/schedule)|8|3|5|0|0|0|405|3.9|0.0
 18|69||[10U TI North Stars White](https://gamesheetstats.com/seasons/3659/teams/140400/schedule)|7|3|4|0|0|0|194|3.9|0.0
 19|68||[Southern Maryland Sabres 10U Black](https://gamesheetstats.com/seasons/3659/teams/141152/schedule)|6|1|5|0|0|0|424|1.9|0.0
 20|64||[Royals 10U Gold](https://gamesheetstats.com/seasons/3659/teams/141149/schedule)|6|1|5|0|0|0|682|1.9|0.0
-21|57||[VFC Squirt Johnson](https://gamesheetstats.com/seasons/3659/teams/141150/schedule)|10|4|6|0|0|0|217|4.9|0.0
+21|57||[VFC Squirt Johnson](https://gamesheetstats.com/seasons/3659/teams/141150/schedule)|10|4|6|0|0|1|217|4.9|0.0
 22|45||[Jersey Colts Squirt Green](https://gamesheetstats.com/seasons/3659/teams/140410/schedule)|7|1|6|0|0|0|582|1.9|0.0
-23|33||[RHC Squirt B Grey](https://gamesheetstats.com/seasons/3659/teams/140424/schedule)|10|3|7|0|0|0|357|3.9|0.0
+23|33||[RHC Squirt B Grey](https://gamesheetstats.com/seasons/3659/teams/140424/schedule)|10|3|7|0|1|0|357|3.9|0.0
 24|30||[NJ Bandits 10B White](https://gamesheetstats.com/seasons/3659/teams/140416/schedule)|9|2|7|0|0|0|244|2.9|0.0
 25|29||[North Jersey Kings Yellow](https://gamesheetstats.com/seasons/3659/teams/140418/schedule)|8|1|7|0|0|0|350|1.9|0.0
 26|26||[Wildcats 10U B](https://gamesheetstats.com/seasons/3659/teams/141153/schedule)|10|3|7|0|0|0|230|3.9|0.0
-27|20||[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140401/schedule)|10|1|8|0|0|1|230|2.7|0.0
+27|20||[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140401/schedule)|10|1|8|1|1|0|230|2.7|0.0
 28|18||[Haverford Hawks 10UB Red](https://gamesheetstats.com/seasons/3659/teams/140406/schedule)|7|1|6|0|0|0|288|1.9|0.0
-29|9||[Grundy Senators Schafer](https://gamesheetstats.com/seasons/3659/teams/140404/schedule)|7|0|7|0|0|0|212|0.9|0.0
-30|7||[Hollydell Hurricanes White](https://gamesheetstats.com/seasons/3659/teams/140408/schedule)|11|0|10|0|0|1|99|1.7|0.0
+29|9||[Grundy Senators Schafer](https://gamesheetstats.com/seasons/3659/teams/140404/schedule)|7|0|7|0|0|1|212|0.9|0.0
+30|7||[Hollydell Hurricanes White](https://gamesheetstats.com/seasons/3659/teams/140408/schedule)|11|0|10|1|0|0|99|1.7|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

@@ -1,22 +1,22 @@
 [<- back to the index](readme.md)
 # 15U AA KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:43 2023.
+Rankings generated on Mon Sep 25 21:02:58 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1449|Championship|[Rebels 15U](https://gamesheetstats.com/seasons/3659/teams/140654/schedule)|7|6|1|0|0|0|553|6.8|-0.0
-2|719|Championship|[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140652/schedule)|8|6|2|0|0|0|316|6.9|0.0
-3|539|Championship|[NJ Bandits 15AA](https://gamesheetstats.com/seasons/3659/teams/140648/schedule)|11|6|4|0|0|1|541|7.7|-0.0
+1|1449|Championship|[Rebels 15U](https://gamesheetstats.com/seasons/3659/teams/140654/schedule)|7|6|1|0|0|1|553|6.8|-0.0
+2|719|Championship|[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140652/schedule)|8|6|2|0|3|0|316|6.9|0.0
+3|539|Championship|[NJ Bandits 15AA](https://gamesheetstats.com/seasons/3659/teams/140648/schedule)|11|6|4|1|0|1|541|7.7|-0.0
 4|512|Championship|[North Jersey Kings Yellow](https://gamesheetstats.com/seasons/3659/teams/140650/schedule)|7|5|2|0|0|0|277|5.9|0.0
-5|464|Gold|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/140649/schedule)|10|6|3|0|0|1|336|7.7|0.0
+5|464|Gold|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/140649/schedule)|10|6|3|1|1|0|336|7.7|0.0
 6|431|Gold|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140657/schedule)|8|5|3|0|0|0|404|5.9|0.0
-7|388|Gold|[Rams Hockey](https://gamesheetstats.com/seasons/3659/teams/140653/schedule)|6|3|3|0|0|0|670|3.8|-0.0
-8|303|Gold|[RHC 15U AA](https://gamesheetstats.com/seasons/3659/teams/140655/schedule)|11|4|4|0|0|3|378|7.4|0.0
-9|287|Silver|[VFC 15AA Scandone](https://gamesheetstats.com/seasons/3659/teams/140659/schedule)|11|5|3|0|0|3|416|8.4|0.0
+7|388|Gold|[Rams Hockey](https://gamesheetstats.com/seasons/3659/teams/140653/schedule)|6|3|3|0|1|2|670|3.8|-0.0
+8|303|Gold|[RHC 15U AA](https://gamesheetstats.com/seasons/3659/teams/140655/schedule)|11|4|4|3|0|0|378|7.4|0.0
+9|287|Silver|[VFC 15AA Scandone](https://gamesheetstats.com/seasons/3659/teams/140659/schedule)|11|5|3|3|0|1|416|8.4|0.0
 10|251|Silver|[Igloo Jaguars 15U AA Elite](https://gamesheetstats.com/seasons/3659/teams/140645/schedule)|9|5|4|0|0|0|304|5.9|0.0
-11|222|Silver|[Tri-City Eagles 15U Gold](https://gamesheetstats.com/seasons/3659/teams/140658/schedule)|8|4|2|0|0|2|163|6.6|0.0
-12|123|Silver|[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140651/schedule)|11|3|7|0|0|1|394|4.7|0.0
-13|70||[York Devils](https://gamesheetstats.com/seasons/3659/teams/140660/schedule)|11|2|9|0|0|0|402|2.9|0.0
+11|222|Silver|[Tri-City Eagles 15U Gold](https://gamesheetstats.com/seasons/3659/teams/140658/schedule)|8|4|2|2|0|0|163|6.6|0.0
+12|123|Silver|[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140651/schedule)|11|3|7|1|0|0|394|4.7|0.0
+13|70||[York Devils](https://gamesheetstats.com/seasons/3659/teams/140660/schedule)|11|2|9|0|0|1|402|2.9|0.0
 14|64||[Lehigh Valley Phantoms Youth U15AA](https://gamesheetstats.com/seasons/3659/teams/140646/schedule)|12|3|9|0|0|0|252|3.9|0.0
 15|17||[Royals 15U AA Gold](https://gamesheetstats.com/seasons/3659/teams/140656/schedule)|10|0|10|0|0|0|287|0.9|0.0
 

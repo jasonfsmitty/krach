@@ -1,31 +1,31 @@
 [<- back to the index](readme.md)
 # 18U AA KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:44 2023.
+Rankings generated on Mon Sep 25 21:02:58 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1223|Championship|[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140765/schedule)|8|7|1|0|0|0|334|7.8|-0.0
-2|1159|Championship|[Tri-City Eagles 18U Blue](https://gamesheetstats.com/seasons/3659/teams/140769/schedule)|5|5|0|0|0|0|169|5.9|0.0
-3|979|Championship|[Chesterfield Falcons](https://gamesheetstats.com/seasons/3659/teams/143454/schedule)|5|4|1|0|0|0|467|4.8|-0.0
+1|1223|Championship|[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140765/schedule)|8|7|1|0|0|1|334|7.8|-0.0
+2|1159|Championship|[Tri-City Eagles 18U Blue](https://gamesheetstats.com/seasons/3659/teams/140769/schedule)|5|5|0|0|1|0|169|5.9|0.0
+3|979|Championship|[Chesterfield Falcons](https://gamesheetstats.com/seasons/3659/teams/143454/schedule)|5|4|1|0|1|0|467|4.8|-0.0
 4|806|Championship|[MYHA 18U AA Blue](https://gamesheetstats.com/seasons/3659/teams/140759/schedule)|6|5|1|0|0|0|267|5.8|-0.0
 5|554|Gold|[Arizona Bobcats](https://gamesheetstats.com/seasons/3659/teams/143450/schedule)|5|3|2|0|0|0|558|3.8|-0.0
 6|435|Gold|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140768/schedule)|6|4|2|0|0|0|394|4.8|-0.0
-7|413|Gold|[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140763/schedule)|10|7|2|0|0|1|268|8.7|0.0
+7|413|Gold|[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140763/schedule)|10|7|2|1|1|0|268|8.7|0.0
 8|328|Gold|[Allegheny Badgers](https://gamesheetstats.com/seasons/3659/teams/143448/schedule)|5|2|3|0|0|0|598|2.8|-0.0
 9|301|Silver|[Cherry Creek Bruins](https://gamesheetstats.com/seasons/3659/teams/143451/schedule)|4|2|2|0|0|0|491|2.9|0.0
-10|233|Silver|[York Devils](https://gamesheetstats.com/seasons/3659/teams/140772/schedule)|9|4|5|0|0|0|481|4.8|-0.0
-11|232|Silver|[MYHA 18U AA Gold](https://gamesheetstats.com/seasons/3659/teams/140760/schedule)|4|3|1|0|0|0|124|3.9|0.0
-12|226|Silver|[Haverford Hawks](https://gamesheetstats.com/seasons/3659/teams/140752/schedule)|9|6|3|0|0|0|216|6.9|0.0
-13|218||[Anaheim Jr. Ducks](https://gamesheetstats.com/seasons/3659/teams/143456/schedule)|3|1|1|0|0|1|218|2.7|0.0
-14|218||[Mission Arizona](https://gamesheetstats.com/seasons/3659/teams/143449/schedule)|3|1|1|0|0|1|218|2.7|0.0
-15|205||[Jersey Colts 18 Black](https://gamesheetstats.com/seasons/3659/teams/140756/schedule)|5|3|1|0|0|1|136|4.7|0.0
-16|167||[Lehigh Valley Phantoms Youth U18AA](https://gamesheetstats.com/seasons/3659/teams/140758/schedule)|10|5|5|0|0|0|199|5.9|0.0
-17|138||[Clearwater Ice Storm Blue](https://gamesheetstats.com/seasons/3659/teams/143452/schedule)|4|1|3|0|0|0|406|1.8|-0.0
-18|138||[Lancaster Firebrids 18U AA](https://gamesheetstats.com/seasons/3659/teams/140757/schedule)|9|4|5|0|0|0|372|4.9|0.0
+10|233|Silver|[York Devils](https://gamesheetstats.com/seasons/3659/teams/140772/schedule)|9|4|5|0|1|0|481|4.8|-0.0
+11|232|Silver|[MYHA 18U AA Gold](https://gamesheetstats.com/seasons/3659/teams/140760/schedule)|4|3|1|0|1|1|124|3.9|0.0
+12|226|Silver|[Haverford Hawks](https://gamesheetstats.com/seasons/3659/teams/140752/schedule)|9|6|3|0|1|2|216|6.9|0.0
+13|218||[Anaheim Jr. Ducks](https://gamesheetstats.com/seasons/3659/teams/143456/schedule)|3|1|1|1|0|0|218|2.7|0.0
+14|218||[Mission Arizona](https://gamesheetstats.com/seasons/3659/teams/143449/schedule)|3|1|1|1|0|0|218|2.7|0.0
+15|205||[Jersey Colts 18 Black](https://gamesheetstats.com/seasons/3659/teams/140756/schedule)|5|3|1|1|0|0|136|4.7|0.0
+16|167||[Lehigh Valley Phantoms Youth U18AA](https://gamesheetstats.com/seasons/3659/teams/140758/schedule)|10|5|5|0|0|1|199|5.9|0.0
+17|138||[Clearwater Ice Storm Blue](https://gamesheetstats.com/seasons/3659/teams/143452/schedule)|4|1|3|0|1|1|406|1.8|-0.0
+18|138||[Lancaster Firebrids 18U AA](https://gamesheetstats.com/seasons/3659/teams/140757/schedule)|9|4|5|0|1|1|372|4.9|0.0
 19|118||[Igloo Jaguars 18UAA Premier](https://gamesheetstats.com/seasons/3659/teams/140755/schedule)|8|4|4|0|0|0|293|4.9|0.0
 20|105||[Wildcats 18U AA](https://gamesheetstats.com/seasons/3659/teams/140771/schedule)|10|3|7|0|0|0|330|3.9|0.0
-21|46||[Tri-City Eagles 18U Gold](https://gamesheetstats.com/seasons/3659/teams/140770/schedule)|6|2|4|0|0|0|124|2.9|0.0
-22|40||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140764/schedule)|10|2|8|0|0|0|286|2.9|0.0
+21|46||[Tri-City Eagles 18U Gold](https://gamesheetstats.com/seasons/3659/teams/140770/schedule)|6|2|4|0|0|1|124|2.9|0.0
+22|40||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140764/schedule)|10|2|8|0|1|0|286|2.9|0.0
 23|30||[North Jersey Kings Blue](https://gamesheetstats.com/seasons/3659/teams/140762/schedule)|5|0|5|0|0|0|289|0.9|0.0
 24|25||[Igloo Jaguars 18UAA Elite](https://gamesheetstats.com/seasons/3659/teams/140753/schedule)|8|1|7|0|0|0|173|1.9|0.0
 25|15||[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140751/schedule)|8|0|8|0|0|0|295|0.9|0.0

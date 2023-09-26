@@ -1,31 +1,31 @@
 [<- back to the index](readme.md)
 # 12U Gretzky KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:43 2023.
+Rankings generated on Mon Sep 25 21:02:58 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1195|Championship|[12U TI Selects](https://gamesheetstats.com/seasons/3659/teams/140450/schedule)|11|10|1|0|0|0|214|10.8|-0.0
-2|1137|Championship|[Wissahickon Warriors Red](https://gamesheetstats.com/seasons/3659/teams/140468/schedule)|11|9|2|0|0|0|398|9.8|-0.0
-3|1135|Championship|[Southern Maryland Sabres 12U Gold](https://gamesheetstats.com/seasons/3659/teams/140463/schedule)|5|4|0|0|0|1|422|5.7|-0.0
+1|1195|Championship|[12U TI Selects](https://gamesheetstats.com/seasons/3659/teams/140450/schedule)|11|10|1|0|0|1|214|10.8|-0.0
+2|1137|Championship|[Wissahickon Warriors Red](https://gamesheetstats.com/seasons/3659/teams/140468/schedule)|11|9|2|0|1|0|398|9.8|-0.0
+3|1135|Championship|[Southern Maryland Sabres 12U Gold](https://gamesheetstats.com/seasons/3659/teams/140463/schedule)|5|4|0|1|0|0|422|5.7|-0.0
 4|999|Championship|[Tri-City Eagles 12U Blue](https://gamesheetstats.com/seasons/3659/teams/140466/schedule)|6|5|1|0|0|0|383|5.8|-0.0
-5|534|Gold|[JR Black Bears 12U White](https://gamesheetstats.com/seasons/3659/teams/140456/schedule)|8|5|2|0|0|1|417|6.7|-0.0
-6|398|Gold|[STJ 12U Navy](https://gamesheetstats.com/seasons/3659/teams/140464/schedule)|9|5|4|0|0|0|561|5.8|-0.0
-7|333|Gold|[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140461/schedule)|10|5|5|0|0|0|578|5.8|-0.0
-8|304|Gold|[North Jersey Kings Blue](https://gamesheetstats.com/seasons/3659/teams/140459/schedule)|10|6|4|0|0|0|347|6.9|0.0
+5|534|Gold|[JR Black Bears 12U White](https://gamesheetstats.com/seasons/3659/teams/140456/schedule)|8|5|2|1|0|1|417|6.7|-0.0
+6|398|Gold|[STJ 12U Navy](https://gamesheetstats.com/seasons/3659/teams/140464/schedule)|9|5|4|0|1|0|561|5.8|-0.0
+7|333|Gold|[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140461/schedule)|10|5|5|0|1|0|578|5.8|-0.0
+8|304|Gold|[North Jersey Kings Blue](https://gamesheetstats.com/seasons/3659/teams/140459/schedule)|10|6|4|0|1|0|347|6.9|0.0
 9|291|Silver|[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140453/schedule)|12|7|5|0|0|0|287|7.9|0.0
-10|250|Silver|[Dix Hills Hawks](https://gamesheetstats.com/seasons/3659/teams/140454/schedule)|7|4|2|0|0|1|203|5.7|0.0
-11|239|Silver|[York Devils](https://gamesheetstats.com/seasons/3659/teams/140469/schedule)|10|3|5|0|0|2|437|5.5|-0.0
+10|250|Silver|[Dix Hills Hawks](https://gamesheetstats.com/seasons/3659/teams/140454/schedule)|7|4|2|1|0|0|203|5.7|0.0
+11|239|Silver|[York Devils](https://gamesheetstats.com/seasons/3659/teams/140469/schedule)|10|3|5|2|0|0|437|5.5|-0.0
 12|229|Silver|[Aviator Hockey Club 12U Major](https://gamesheetstats.com/seasons/3659/teams/140452/schedule)|5|3|2|0|0|0|295|3.9|0.0
 13|226||[Jersey Colts PW White](https://gamesheetstats.com/seasons/3659/teams/140778/schedule)|3|2|1|0|0|0|161|2.9|0.0
 14|203||[Frederick Freeze 12U UA](https://gamesheetstats.com/seasons/3659/teams/140455/schedule)|7|3|4|0|0|0|436|3.8|-0.0
 15|164||[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140777/schedule)|3|1|2|0|0|0|434|1.9|0.0
-16|115||[MYHA 12UA Blue](https://gamesheetstats.com/seasons/3659/teams/140457/schedule)|6|2|4|0|0|0|229|2.9|0.0
+16|115||[MYHA 12UA Blue](https://gamesheetstats.com/seasons/3659/teams/140457/schedule)|6|2|4|0|0|1|229|2.9|0.0
 17|114||[VFC PW A Herhal](https://gamesheetstats.com/seasons/3659/teams/140467/schedule)|9|3|6|0|0|0|322|3.9|0.0
-18|99||[Palmyra Black Knights- Castiglia](https://gamesheetstats.com/seasons/3659/teams/140460/schedule)|11|2|8|0|0|1|468|3.7|0.0
+18|99||[Palmyra Black Knights- Castiglia](https://gamesheetstats.com/seasons/3659/teams/140460/schedule)|11|2|8|1|0|0|468|3.7|0.0
 19|92||[Team Philadelphia Black](https://gamesheetstats.com/seasons/3659/teams/140465/schedule)|9|3|6|0|0|0|196|3.9|0.0
-20|88||[Arrows 12u Green](https://gamesheetstats.com/seasons/3659/teams/140451/schedule)|6|1|4|0|0|1|339|2.7|0.0
-21|73||[PTL Elite](https://gamesheetstats.com/seasons/3659/teams/140462/schedule)|12|3|9|0|0|0|361|3.9|0.0
-22|72||[NJ Bandits 12A Red](https://gamesheetstats.com/seasons/3659/teams/140458/schedule)|8|2|5|0|0|1|268|3.7|0.0
+20|88||[Arrows 12u Green](https://gamesheetstats.com/seasons/3659/teams/140451/schedule)|6|1|4|1|1|0|339|2.7|0.0
+21|73||[PTL Elite](https://gamesheetstats.com/seasons/3659/teams/140462/schedule)|12|3|9|0|1|2|361|3.9|0.0
+22|72||[NJ Bandits 12A Red](https://gamesheetstats.com/seasons/3659/teams/140458/schedule)|8|2|5|1|0|1|268|3.7|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

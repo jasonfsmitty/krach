@@ -1,24 +1,24 @@
 [<- back to the index](readme.md)
 # 14U Gretzky KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:43 2023.
+Rankings generated on Mon Sep 25 21:02:58 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|1855|Championship|[Aviator Hockey Club 14U Major](https://gamesheetstats.com/seasons/3659/teams/140575/schedule)|5|5|0|0|0|0|331|5.8|-0.0
-2|1389|Championship|[Jersey Colts Bantam Black](https://gamesheetstats.com/seasons/3659/teams/140580/schedule)|7|6|0|0|0|1|308|7.7|0.0
+2|1389|Championship|[Jersey Colts Bantam Black](https://gamesheetstats.com/seasons/3659/teams/140580/schedule)|7|6|0|1|2|0|308|7.7|0.0
 3|1230|Championship|[Southern Maryland Sabres 14U Gold](https://gamesheetstats.com/seasons/3659/teams/140588/schedule)|6|5|1|0|0|0|518|5.8|-0.0
-4|687|Championship|[MYHA 14U UA Blue](https://gamesheetstats.com/seasons/3659/teams/140583/schedule)|8|6|2|0|0|0|319|6.9|0.0
+4|687|Championship|[MYHA 14U UA Blue](https://gamesheetstats.com/seasons/3659/teams/140583/schedule)|8|6|2|0|0|2|319|6.9|0.0
 5|615|Gold|[Clearwater Ice Storm](https://gamesheetstats.com/seasons/3659/teams/142500/schedule)|4|3|1|0|0|0|331|3.9|0.0
-6|589|Gold|[STJ 14U Navy](https://gamesheetstats.com/seasons/3659/teams/140589/schedule)|6|5|1|0|0|0|301|5.9|0.0
-7|504|Gold|[Team Philadelphia Black](https://gamesheetstats.com/seasons/3659/teams/140590/schedule)|10|6|3|0|0|1|388|7.7|0.0
+6|589|Gold|[STJ 14U Navy](https://gamesheetstats.com/seasons/3659/teams/140589/schedule)|6|5|1|0|0|1|301|5.9|0.0
+7|504|Gold|[Team Philadelphia Black](https://gamesheetstats.com/seasons/3659/teams/140590/schedule)|10|6|3|1|2|1|388|7.7|0.0
 8|445|Gold|[MD Jr. Black Bears 14U Red](https://gamesheetstats.com/seasons/3659/teams/140581/schedule)|6|4|2|0|0|0|289|4.8|-0.0
 9|407|Silver|[Haverford Hawks 14UA Black](https://gamesheetstats.com/seasons/3659/teams/140577/schedule)|9|6|3|0|0|0|394|6.8|-0.0
 10|401|Silver|[North Jersey Avalanche Blue](https://gamesheetstats.com/seasons/3659/teams/140584/schedule)|10|7|3|0|0|0|278|7.9|0.0
-11|314|Silver|[North Jersey Kings Blue](https://gamesheetstats.com/seasons/3659/teams/140585/schedule)|12|7|5|0|0|0|369|7.9|0.0
-12|243|Silver|[Hollydell Hurricanes Red](https://gamesheetstats.com/seasons/3659/teams/140578/schedule)|9|4|4|0|0|1|443|5.7|0.0
+11|314|Silver|[North Jersey Kings Blue](https://gamesheetstats.com/seasons/3659/teams/140585/schedule)|12|7|5|0|2|1|369|7.9|0.0
+12|243|Silver|[Hollydell Hurricanes Red](https://gamesheetstats.com/seasons/3659/teams/140578/schedule)|9|4|4|1|1|1|443|5.7|0.0
 13|210||[York Devils Black](https://gamesheetstats.com/seasons/3659/teams/140595/schedule)|11|5|6|0|0|0|485|5.9|0.0
-14|202||[Rye Rangers](https://gamesheetstats.com/seasons/3659/teams/140587/schedule)|4|1|2|0|0|1|460|2.7|0.0
-15|190||[Wildcats 14U A Black](https://gamesheetstats.com/seasons/3659/teams/140592/schedule)|11|5|6|0|0|0|467|5.9|0.0
+14|202||[Rye Rangers](https://gamesheetstats.com/seasons/3659/teams/140587/schedule)|4|1|2|1|0|0|460|2.7|0.0
+15|190||[Wildcats 14U A Black](https://gamesheetstats.com/seasons/3659/teams/140592/schedule)|11|5|6|0|0|1|467|5.9|0.0
 16|163||[Lehigh Valley Phantoms Youth U14A](https://gamesheetstats.com/seasons/3659/teams/140582/schedule)|9|3|6|0|0|0|457|3.9|0.0
 17|102||[Wilkes-Barre / Scranton Jr Knights](https://gamesheetstats.com/seasons/3659/teams/140593/schedule)|9|3|6|0|0|0|325|3.9|0.0
 18|71||[Tri-City Eagles 14U White](https://gamesheetstats.com/seasons/3659/teams/140591/schedule)|7|2|5|0|0|0|387|2.8|-0.0

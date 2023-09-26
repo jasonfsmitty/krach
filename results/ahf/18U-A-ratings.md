@@ -1,8 +1,8 @@
 [<- back to the index](readme.md)
 # 18U A KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:44 2023.
+Rankings generated on Mon Sep 25 21:02:58 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|1692|Championship|[Dix Hills Hawks 18U](https://gamesheetstats.com/seasons/3659/teams/140731/schedule)|7|6|1|0|0|0|513|6.8|-0.0
 2|1667|Championship|[Grundy Senators](https://gamesheetstats.com/seasons/3659/teams/140732/schedule)|12|11|1|0|0|0|291|11.8|-0.0
@@ -11,13 +11,13 @@ Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
 5|782|Gold|[Lehigh Valley Phantoms Youth U18A1](https://gamesheetstats.com/seasons/3659/teams/140734/schedule)|12|8|4|0|0|0|594|8.8|-0.0
 6|740|Gold|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140745/schedule)|8|6|2|0|0|0|537|6.8|-0.0
 7|692|Gold|[Wissahickon Warriors](https://gamesheetstats.com/seasons/3659/teams/140748/schedule)|10|6|4|0|0|0|690|6.8|-0.0
-8|540|Gold|[VFC 18U A Vassalluzzo](https://gamesheetstats.com/seasons/3659/teams/140746/schedule)|8|5|2|0|0|1|404|6.7|0.0
+8|540|Gold|[VFC 18U A Vassalluzzo](https://gamesheetstats.com/seasons/3659/teams/140746/schedule)|8|5|2|1|1|0|404|6.7|0.0
 9|381|Silver|[RHC 18U A](https://gamesheetstats.com/seasons/3659/teams/140742/schedule)|11|6|5|0|0|0|574|6.8|-0.0
-10|271|Silver|[Jersey Colts 18 White](https://gamesheetstats.com/seasons/3659/teams/140733/schedule)|9|4|5|0|0|0|643|4.9|0.0
+10|271|Silver|[Jersey Colts 18 White](https://gamesheetstats.com/seasons/3659/teams/140733/schedule)|9|4|5|0|0|1|643|4.9|0.0
 11|187|Silver|[Mercer Chiefs](https://gamesheetstats.com/seasons/3659/teams/140735/schedule)|10|5|5|0|0|0|333|5.9|0.0
 12|176|Silver|[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140739/schedule)|9|5|4|0|0|0|241|5.9|0.0
 13|142||[STJ 18U Navy](https://gamesheetstats.com/seasons/3659/teams/140744/schedule)|6|2|4|0|0|0|532|2.9|0.0
-14|109||[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140741/schedule)|9|1|7|0|0|1|668|2.7|0.0
+14|109||[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140741/schedule)|9|1|7|1|0|0|668|2.7|0.0
 15|94||[Royals 18U A](https://gamesheetstats.com/seasons/3659/teams/140743/schedule)|10|4|6|0|0|0|358|4.9|0.0
 16|68||[Wildcats 18U A](https://gamesheetstats.com/seasons/3659/teams/140747/schedule)|12|3|9|0|0|0|517|3.9|0.0
 17|53||[North Jersey Avalanche Blue](https://gamesheetstats.com/seasons/3659/teams/140736/schedule)|9|1|8|0|0|0|606|1.9|0.0

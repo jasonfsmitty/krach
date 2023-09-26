@@ -1,22 +1,22 @@
 [<- back to the index](readme.md)
 # 10U Gretzky KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:43 2023.
+Rankings generated on Mon Sep 25 21:02:57 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|5191|Championship|[Palmyra Black Knights- Rochefort](https://gamesheetstats.com/seasons/3659/teams/140260/schedule)|13|13|0|0|0|0|332|13.8|-0.0
-2|810|Championship|[Igloo Jaguars 10UA](https://gamesheetstats.com/seasons/3659/teams/140253/schedule)|13|10|3|0|0|0|342|10.9|0.0
+2|810|Championship|[Igloo Jaguars 10UA](https://gamesheetstats.com/seasons/3659/teams/140253/schedule)|13|10|3|0|0|1|342|10.9|0.0
 3|602|Championship|[Jersey Colts Squirt Black](https://gamesheetstats.com/seasons/3659/teams/140254/schedule)|8|5|3|0|0|0|937|5.9|0.0
 4|536|Championship|[MYHA 10U UA Blue](https://gamesheetstats.com/seasons/3659/teams/140258/schedule)|8|4|4|0|0|0|1530|4.9|0.0
 5|522|Gold|[Long Island Whalers Squirt Blue](https://gamesheetstats.com/seasons/3659/teams/140257/schedule)|8|6|2|0|0|0|739|6.9|0.0
-6|490|Gold|[JR Black Bears10U White](https://gamesheetstats.com/seasons/3659/teams/140255/schedule)|10|5|5|0|0|0|1698|5.9|0.0
+6|490|Gold|[JR Black Bears10U White](https://gamesheetstats.com/seasons/3659/teams/140255/schedule)|10|5|5|0|1|0|1698|5.9|0.0
 7|289|Gold|[Royals 10U A Gray](https://gamesheetstats.com/seasons/3659/teams/140262/schedule)|8|5|3|0|0|0|235|5.9|0.0
 8|173|Gold|[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140220/schedule)|3|2|1|0|0|0|139|2.9|0.0
 9|158|Silver|[Lancaster Firebirds Squirt Black](https://gamesheetstats.com/seasons/3659/teams/140256/schedule)|9|4|5|0|0|0|770|4.9|0.0
-10|146|Silver|[Southern Maryland Sabres 10U Gold](https://gamesheetstats.com/seasons/3659/teams/140263/schedule)|6|3|2|0|0|1|183|4.7|0.0
+10|146|Silver|[Southern Maryland Sabres 10U Gold](https://gamesheetstats.com/seasons/3659/teams/140263/schedule)|6|3|2|1|0|0|183|4.7|0.0
 11|133|Silver|[NJ Bandits 10A](https://gamesheetstats.com/seasons/3659/teams/140259/schedule)|10|5|5|0|0|0|228|5.9|0.0
 12|44|Silver|[RHC Squirt Minor AA](https://gamesheetstats.com/seasons/3659/teams/140224/schedule)|3|0|3|0|0|0|320|0.9|0.0
-13|43||[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140265/schedule)|9|0|8|0|0|1|821|1.7|0.0
+13|43||[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140265/schedule)|9|0|8|1|0|0|821|1.7|0.0
 14|32||[STJ 10U Navy](https://gamesheetstats.com/seasons/3659/teams/140264/schedule)|6|0|6|0|0|0|1037|0.9|0.0
 15|20||[RHC Squirt A](https://gamesheetstats.com/seasons/3659/teams/140261/schedule)|10|0|10|0|0|0|358|0.9|0.0
 

@@ -1,22 +1,22 @@
 [<- back to the index](readme.md)
 # 8U AAA KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:43 2023.
+Rankings generated on Mon Sep 25 21:02:57 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|1853|Championship|[North Jersey Blizzard AAA](https://gamesheetstats.com/seasons/3659/teams/140205/schedule)|10|9|1|0|0|0|483|9.8|-0.0
 2|1821|Championship|[Oil Kings Black](https://gamesheetstats.com/seasons/3659/teams/140206/schedule)|4|4|0|0|0|0|489|4.8|-0.0
-3|1555|Championship|[Venom 1](https://gamesheetstats.com/seasons/3659/teams/140213/schedule)|10|9|1|0|0|0|396|9.8|-0.0
+3|1555|Championship|[Venom 1](https://gamesheetstats.com/seasons/3659/teams/140213/schedule)|10|9|1|0|1|0|396|9.8|-0.0
 4|1003|Championship|[Pennsauken Pilots](https://gamesheetstats.com/seasons/3659/teams/140208/schedule)|8|7|1|0|0|0|328|7.9|0.0
 5|853|Gold|[LI MONARCHS 2015](https://gamesheetstats.com/seasons/3659/teams/140198/schedule)|5|4|1|0|0|0|507|4.8|-0.0
-6|346|Gold|[Lehigh Valley Steel](https://gamesheetstats.com/seasons/3659/teams/140197/schedule)|10|7|3|0|0|0|287|7.9|0.0
+6|346|Gold|[Lehigh Valley Steel](https://gamesheetstats.com/seasons/3659/teams/140197/schedule)|10|7|3|0|1|0|287|7.9|0.0
 7|337|Gold|[LI Gladiators](https://gamesheetstats.com/seasons/3659/teams/140201/schedule)|9|5|4|0|0|0|622|5.8|-0.0
 8|314|Gold|[Berserkers 8u Black](https://gamesheetstats.com/seasons/3659/teams/140192/schedule)|7|4|3|0|0|0|432|4.9|0.0
-9|305|Silver|[RSG FIM 2015](https://gamesheetstats.com/seasons/3659/teams/140210/schedule)|9|6|3|0|0|0|236|6.9|0.0
-10|244|Silver|[Wolverines](https://gamesheetstats.com/seasons/3659/teams/140215/schedule)|7|3|3|0|0|1|401|4.7|0.0
-11|172|Silver|[Mercer Arrows](https://gamesheetstats.com/seasons/3659/teams/140202/schedule)|10|3|6|0|0|1|666|4.7|0.0
+9|305|Silver|[RSG FIM 2015](https://gamesheetstats.com/seasons/3659/teams/140210/schedule)|9|6|3|0|0|1|236|6.9|0.0
+10|244|Silver|[Wolverines](https://gamesheetstats.com/seasons/3659/teams/140215/schedule)|7|3|3|1|0|0|401|4.7|0.0
+11|172|Silver|[Mercer Arrows](https://gamesheetstats.com/seasons/3659/teams/140202/schedule)|10|3|6|1|0|0|666|4.7|0.0
 12|159|Silver|[LI MONARCHS 2016](https://gamesheetstats.com/seasons/3659/teams/140199/schedule)|5|4|1|0|0|0|89|4.9|0.0
-13|145||[Bridge Hockey Club 2015](https://gamesheetstats.com/seasons/3659/teams/140194/schedule)|8|1|5|0|0|2|805|3.6|0.0
+13|145||[Bridge Hockey Club 2015](https://gamesheetstats.com/seasons/3659/teams/140194/schedule)|8|1|5|2|0|1|805|3.6|0.0
 14|125||[Suffolk Crusaders](https://gamesheetstats.com/seasons/3659/teams/140211/schedule)|7|3|4|0|0|0|204|3.9|0.0
 15|89||[Valley Forge Militia](https://gamesheetstats.com/seasons/3659/teams/140212/schedule)|8|4|4|0|0|0|272|4.9|0.0
 16|83||[Philadelphia Resistance](https://gamesheetstats.com/seasons/3659/teams/140209/schedule)|8|4|4|0|0|0|284|4.9|0.0

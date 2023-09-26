@@ -1,15 +1,15 @@
 [<- back to the index](readme.md)
 # 16U Diamond KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:48 2023.
+Rankings generated on Mon Sep 25 21:03:13 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|3018|Playoffs|[PTL Black](https://gamesheetstats.com/seasons/3663/teams/140833/schedule)|5|5|0|0|0|0|450|5.8|-0.0
-2|740|Playoffs|[NJ Bandits](https://gamesheetstats.com/seasons/3663/teams/140836/schedule)|4|3|0|0|0|1|253|4.7|0.0
-3|655|Playoffs|[New York Islanders 1](https://gamesheetstats.com/seasons/3663/teams/140847/schedule)|4|3|1|0|0|0|360|3.9|0.0
-4|609|Playoffs|[STJ](https://gamesheetstats.com/seasons/3663/teams/140841/schedule)|6|2|3|0|0|1|1273|3.7|-0.0
-5|574|Playoffs|[PTL Orange](https://gamesheetstats.com/seasons/3663/teams/140842/schedule)|5|3|1|0|0|1|345|4.7|-0.0
-6|521|Playoffs|[CT Polar Bears](https://gamesheetstats.com/seasons/3663/teams/140834/schedule)|3|1|1|0|0|1|524|2.7|0.0
+2|740|Playoffs|[NJ Bandits](https://gamesheetstats.com/seasons/3663/teams/140836/schedule)|4|3|0|1|0|0|253|4.7|0.0
+3|655|Playoffs|[New York Islanders 1](https://gamesheetstats.com/seasons/3663/teams/140847/schedule)|4|3|1|0|1|0|360|3.9|0.0
+4|609|Playoffs|[STJ](https://gamesheetstats.com/seasons/3663/teams/140841/schedule)|6|2|3|1|0|1|1273|3.7|-0.0
+5|574|Playoffs|[PTL Orange](https://gamesheetstats.com/seasons/3663/teams/140842/schedule)|5|3|1|1|0|0|345|4.7|-0.0
+6|521|Playoffs|[CT Polar Bears](https://gamesheetstats.com/seasons/3663/teams/140834/schedule)|3|1|1|1|0|0|524|2.7|0.0
 7|484||[MassConn United Hockey Club](https://gamesheetstats.com/seasons/3663/teams/140835/schedule)|4|2|2|0|0|0|1330|2.8|-0.0
 8|385||[York Lady Devils](https://gamesheetstats.com/seasons/3663/teams/140845/schedule)|3|1|2|0|0|0|840|1.9|0.0
 9|123||[Stateline Hawks](https://gamesheetstats.com/seasons/3663/teams/140840/schedule)|3|0|3|0|0|0|618|0.9|0.0

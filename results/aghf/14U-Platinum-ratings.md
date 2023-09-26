@@ -1,8 +1,8 @@
 [<- back to the index](readme.md)
 # 14U Platinum KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:48 2023.
+Rankings generated on Mon Sep 25 21:03:13 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|3415|Playoffs|[Tri CIty Eagles Blue](https://gamesheetstats.com/seasons/3663/teams/140831/schedule)|4|4|0|0|0|0|551|4.8|-0.0
 2|478|Playoffs|[NJ Bandits](https://gamesheetstats.com/seasons/3663/teams/140828/schedule)|6|1|5|0|0|0|2223|1.9|0.0

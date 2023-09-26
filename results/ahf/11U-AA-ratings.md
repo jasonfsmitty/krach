@@ -1,27 +1,27 @@
 [<- back to the index](readme.md)
 # 11U AA KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:43 2023.
+Rankings generated on Mon Sep 25 21:02:57 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|3895|Championship|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140788/schedule)|11|11|0|0|0|0|297|11.8|-0.0
 2|1134|Championship|[St. Louis Knights](https://gamesheetstats.com/seasons/3659/teams/143319/schedule)|4|4|0|0|0|0|232|4.9|0.0
-3|668|Championship|[Ashburn Xtreme 2012](https://gamesheetstats.com/seasons/3659/teams/140775/schedule)|8|6|2|0|0|0|959|6.8|-0.0
+3|668|Championship|[Ashburn Xtreme 2012](https://gamesheetstats.com/seasons/3659/teams/140775/schedule)|8|6|2|0|1|0|959|6.8|-0.0
 4|609|Championship|[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140785/schedule)|11|9|2|0|0|0|493|9.9|0.0
-5|316|Gold|[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140784/schedule)|8|5|3|0|0|0|616|5.9|0.0
+5|316|Gold|[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140784/schedule)|8|5|3|0|0|1|616|5.9|0.0
 6|292|Gold|[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140777/schedule)|10|5|5|0|0|0|682|5.9|0.0
 7|219|Gold|[MYHA 11U AA](https://gamesheetstats.com/seasons/3659/teams/140781/schedule)|7|3|4|0|0|0|1126|3.9|0.0
 8|193|Gold|[VFC PW A Herhal](https://gamesheetstats.com/seasons/3659/teams/140467/schedule)|3|2|1|0|0|0|144|2.9|0.0
 9|159|Silver|[Jersey Colts PW White](https://gamesheetstats.com/seasons/3659/teams/140778/schedule)|8|4|4|0|0|0|561|4.9|0.0
-10|108|Silver|[NJ Bandits 11AA](https://gamesheetstats.com/seasons/3659/teams/140782/schedule)|9|4|5|0|0|0|539|4.9|0.0
-11|86|Silver|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/140783/schedule)|10|4|6|0|0|0|504|4.9|0.0
+10|108|Silver|[NJ Bandits 11AA](https://gamesheetstats.com/seasons/3659/teams/140782/schedule)|9|4|5|0|0|1|539|4.9|0.0
+11|86|Silver|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/140783/schedule)|10|4|6|0|1|0|504|4.9|0.0
 12|85|Silver|[PTL Elite](https://gamesheetstats.com/seasons/3659/teams/140462/schedule)|4|1|3|0|0|0|209|1.9|0.0
-13|67||[VFC PW 11 AA Fagan](https://gamesheetstats.com/seasons/3659/teams/140789/schedule)|8|2|5|0|0|1|225|3.7|0.0
+13|67||[VFC PW 11 AA Fagan](https://gamesheetstats.com/seasons/3659/teams/140789/schedule)|8|2|5|1|1|0|225|3.7|0.0
 14|63||[Royals 11U AA White](https://gamesheetstats.com/seasons/3659/teams/140787/schedule)|10|3|7|0|0|0|289|3.9|0.0
-15|53||[Lehigh Valley Phantoms Youth U11 AA](https://gamesheetstats.com/seasons/3659/teams/140779/schedule)|10|2|7|0|0|1|586|3.7|0.0
+15|53||[Lehigh Valley Phantoms Youth U11 AA](https://gamesheetstats.com/seasons/3659/teams/140779/schedule)|10|2|7|1|0|0|586|3.7|0.0
 16|39||[Apple Core 12U Black](https://gamesheetstats.com/seasons/3659/teams/140773/schedule)|4|0|4|0|0|0|528|0.9|0.0
-17|38||[Arrows 12u Silver](https://gamesheetstats.com/seasons/3659/teams/140774/schedule)|8|1|6|0|0|1|178|2.7|0.0
-18|38||[Long Island Whalers 11UAA](https://gamesheetstats.com/seasons/3659/teams/140780/schedule)|6|1|5|0|0|0|197|1.9|0.0
+17|38||[Arrows 12u Silver](https://gamesheetstats.com/seasons/3659/teams/140774/schedule)|8|1|6|1|0|0|178|2.7|0.0
+18|38||[Long Island Whalers 11UAA](https://gamesheetstats.com/seasons/3659/teams/140780/schedule)|6|1|5|0|0|1|197|1.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

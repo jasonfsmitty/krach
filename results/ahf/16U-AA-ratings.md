@@ -1,38 +1,38 @@
 [<- back to the index](readme.md)
 # 16U AA KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:43 2023.
+Rankings generated on Mon Sep 25 21:02:58 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|2251|Championship|[Chesterfield Falcons](https://gamesheetstats.com/seasons/3659/teams/143339/schedule)|5|5|0|0|0|0|391|5.8|-0.0
 2|870|Championship|[MYHA 16U AA Blue](https://gamesheetstats.com/seasons/3659/teams/140671/schedule)|6|5|1|0|0|0|495|5.8|-0.0
-3|808|Championship|[Apple Core 16U](https://gamesheetstats.com/seasons/3659/teams/140662/schedule)|6|5|0|1|0|0|106|6.9|0.0
-4|790|Championship|[Ashburn Xtreme #1](https://gamesheetstats.com/seasons/3659/teams/140663/schedule)|8|7|1|0|0|0|362|7.8|-0.0
+3|808|Championship|[Apple Core 16U](https://gamesheetstats.com/seasons/3659/teams/140662/schedule)|6|6|0|0|3|0|106|6.9|0.0
+4|790|Championship|[Ashburn Xtreme #1](https://gamesheetstats.com/seasons/3659/teams/140663/schedule)|8|7|1|0|1|0|362|7.8|-0.0
 5|622|Gold|[North Jersey Kings Black](https://gamesheetstats.com/seasons/3659/teams/140674/schedule)|4|4|0|0|0|0|117|4.9|0.0
-6|603|Gold|[Tri-City Eagles 16U Blue](https://gamesheetstats.com/seasons/3659/teams/140682/schedule)|7|6|1|0|0|0|183|6.9|0.0
-7|405|Gold|[VFC 16AA McCourt](https://gamesheetstats.com/seasons/3659/teams/140683/schedule)|9|6|3|0|0|0|343|6.8|-0.0
-8|389|Gold|[Igloo Jaguars 16UAA Premier](https://gamesheetstats.com/seasons/3659/teams/140667/schedule)|7|5|2|0|0|0|255|5.8|-0.0
+6|603|Gold|[Tri-City Eagles 16U Blue](https://gamesheetstats.com/seasons/3659/teams/140682/schedule)|7|6|1|0|0|1|183|6.9|0.0
+7|405|Gold|[VFC 16AA McCourt](https://gamesheetstats.com/seasons/3659/teams/140683/schedule)|9|6|3|0|1|1|343|6.8|-0.0
+8|389|Gold|[Igloo Jaguars 16UAA Premier](https://gamesheetstats.com/seasons/3659/teams/140667/schedule)|7|5|2|0|1|0|255|5.8|-0.0
 9|374|Silver|[Wildcats 16U AA](https://gamesheetstats.com/seasons/3659/teams/140684/schedule)|12|10|2|0|0|0|263|10.8|-0.0
-10|298|Silver|[Wilkes-Barre / Scranton Jr Knights](https://gamesheetstats.com/seasons/3659/teams/140685/schedule)|8|5|2|0|0|1|230|6.7|0.0
-11|236|Silver|[Lehigh Valley Phantoms Youth U16AA](https://gamesheetstats.com/seasons/3659/teams/140670/schedule)|10|7|3|0|0|0|172|7.9|0.0
-12|202|Silver|[Mission Arizona](https://gamesheetstats.com/seasons/3659/teams/143342/schedule)|3|2|0|0|0|1|91|3.7|0.0
+10|298|Silver|[Wilkes-Barre / Scranton Jr Knights](https://gamesheetstats.com/seasons/3659/teams/140685/schedule)|8|5|2|1|0|1|230|6.7|0.0
+11|236|Silver|[Lehigh Valley Phantoms Youth U16AA](https://gamesheetstats.com/seasons/3659/teams/140670/schedule)|10|7|3|0|1|0|172|7.9|0.0
+12|202|Silver|[Mission Arizona](https://gamesheetstats.com/seasons/3659/teams/143342/schedule)|3|2|0|1|0|0|91|3.7|0.0
 13|184|Bronze|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/140673/schedule)|5|4|1|0|0|0|138|4.9|0.0
-14|162|Bronze|[JR Black Bears16U White](https://gamesheetstats.com/seasons/3659/teams/140669/schedule)|5|2|3|0|0|0|262|2.9|0.0
+14|162|Bronze|[JR Black Bears16U White](https://gamesheetstats.com/seasons/3659/teams/140669/schedule)|5|2|3|0|1|0|262|2.9|0.0
 15|154|Bronze|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140681/schedule)|6|2|4|0|0|0|712|2.8|-0.0
-16|153|Bronze|[Wissahickon Warriors AA](https://gamesheetstats.com/seasons/3659/teams/140686/schedule)|9|5|4|0|0|0|273|5.9|0.0
-17|131||[16U Premier TI Selects](https://gamesheetstats.com/seasons/3659/teams/140661/schedule)|7|5|2|0|0|0|99|5.9|0.0
+16|153|Bronze|[Wissahickon Warriors AA](https://gamesheetstats.com/seasons/3659/teams/140686/schedule)|9|5|4|0|0|1|273|5.9|0.0
+17|131||[16U Premier TI Selects](https://gamesheetstats.com/seasons/3659/teams/140661/schedule)|7|5|2|0|1|1|99|5.9|0.0
 18|123||[Clearwater Ice Storm](https://gamesheetstats.com/seasons/3659/teams/143606/schedule)|4|2|2|0|0|0|164|2.8|-0.0
 19|101||[PAL Blue Knights](https://gamesheetstats.com/seasons/3659/teams/140677/schedule)|5|2|3|0|0|0|226|2.9|0.0
 20|90||[Haverford Hawks 16UAA](https://gamesheetstats.com/seasons/3659/teams/140666/schedule)|10|5|5|0|0|0|175|5.9|0.0
-21|85||[Florida Everblades](https://gamesheetstats.com/seasons/3659/teams/143347/schedule)|4|1|3|0|0|0|411|1.8|-0.0
-22|79||[Anaheim Jr. Ducks](https://gamesheetstats.com/seasons/3659/teams/143707/schedule)|3|0|2|0|0|1|183|1.7|0.0
+21|85||[Florida Everblades](https://gamesheetstats.com/seasons/3659/teams/143347/schedule)|4|1|3|0|0|1|411|1.8|-0.0
+22|79||[Anaheim Jr. Ducks](https://gamesheetstats.com/seasons/3659/teams/143707/schedule)|3|0|2|1|0|0|183|1.7|0.0
 23|61||[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140665/schedule)|9|4|5|0|0|0|194|4.9|0.0
 24|50||[North Jersey Kings Blue](https://gamesheetstats.com/seasons/3659/teams/140675/schedule)|6|3|3|0|0|0|98|3.9|0.0
-25|34||[Ashubrn Xtreme #2](https://gamesheetstats.com/seasons/3659/teams/140664/schedule)|6|1|4|0|1|0|232|1.9|0.0
-26|34||[Arizona Bobcats](https://gamesheetstats.com/seasons/3659/teams/143346/schedule)|5|0|5|0|0|0|719|0.8|-0.0
+25|34||[Ashubrn Xtreme #2](https://gamesheetstats.com/seasons/3659/teams/140664/schedule)|6|1|5|0|1|1|232|1.9|0.0
+26|34||[Arizona Bobcats](https://gamesheetstats.com/seasons/3659/teams/143346/schedule)|5|0|5|0|0|1|719|0.8|-0.0
 27|34||[NJ Bandits 16AA](https://gamesheetstats.com/seasons/3659/teams/140672/schedule)|12|3|9|0|0|0|267|3.9|0.0
-28|33||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140678/schedule)|12|2|10|0|0|0|287|2.9|0.0
-29|30||[NYC Skyliners](https://gamesheetstats.com/seasons/3659/teams/140676/schedule)|7|1|6|0|0|0|146|1.9|0.0
+28|33||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140678/schedule)|12|2|10|0|0|1|287|2.9|0.0
+29|30||[NYC Skyliners](https://gamesheetstats.com/seasons/3659/teams/140676/schedule)|7|1|6|0|0|1|146|1.9|0.0
 30|13||[Jersey Colts 16 Black](https://gamesheetstats.com/seasons/3659/teams/140668/schedule)|10|1|9|0|0|0|175|1.9|0.0
 31|5||[RHC 16U AA](https://gamesheetstats.com/seasons/3659/teams/140680/schedule)|14|0|14|0|0|0|183|0.9|0.0
 

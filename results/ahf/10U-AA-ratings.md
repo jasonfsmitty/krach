@@ -1,25 +1,25 @@
 [<- back to the index](readme.md)
 # 10U AA KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:43 2023.
+Rankings generated on Mon Sep 25 21:02:57 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|2335|Championship|[Long Island Whalers Squirt Major 2013](https://gamesheetstats.com/seasons/3659/teams/140229/schedule)|5|5|0|0|0|0|363|5.8|-0.0
 2|954|Championship|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140238/schedule)|13|10|3|0|0|0|381|10.9|0.0
 3|811|Championship|[Ashburn Xtreme 2013](https://gamesheetstats.com/seasons/3659/teams/140230/schedule)|8|5|3|0|0|0|745|5.8|-0.0
-4|775|Championship|[Royals 10U AA 2013](https://gamesheetstats.com/seasons/3659/teams/140237/schedule)|11|8|3|0|0|0|403|8.9|0.0
+4|775|Championship|[Royals 10U AA 2013](https://gamesheetstats.com/seasons/3659/teams/140237/schedule)|11|8|3|0|1|1|403|8.9|0.0
 5|517|Gold|[MYHA 10U AA](https://gamesheetstats.com/seasons/3659/teams/140235/schedule)|6|4|2|0|0|0|526|4.8|-0.0
-6|468|Gold|[Darien](https://gamesheetstats.com/seasons/3659/teams/140245/schedule)|6|3|1|0|0|2|352|5.6|0.0
-7|462|Gold|[STJ 10U Gold](https://gamesheetstats.com/seasons/3659/teams/140234/schedule)|6|3|3|0|0|0|591|3.9|0.0
-8|436|Gold|[North Jersey Skylands Kings Navy](https://gamesheetstats.com/seasons/3659/teams/140247/schedule)|8|5|2|0|0|1|292|6.7|0.0
-9|318|Silver|[NJ Bandits 10AA](https://gamesheetstats.com/seasons/3659/teams/140232/schedule)|7|3|4|0|0|0|664|3.8|-0.0
+6|468|Gold|[Darien](https://gamesheetstats.com/seasons/3659/teams/140245/schedule)|6|3|1|2|0|0|352|5.6|0.0
+7|462|Gold|[STJ 10U Gold](https://gamesheetstats.com/seasons/3659/teams/140234/schedule)|6|3|3|0|1|0|591|3.9|0.0
+8|436|Gold|[North Jersey Skylands Kings Navy](https://gamesheetstats.com/seasons/3659/teams/140247/schedule)|8|5|2|1|0|0|292|6.7|0.0
+9|318|Silver|[NJ Bandits 10AA](https://gamesheetstats.com/seasons/3659/teams/140232/schedule)|7|3|4|0|0|1|664|3.8|-0.0
 10|316|Silver|[Aviator Hockey Club 10U Major](https://gamesheetstats.com/seasons/3659/teams/140244/schedule)|5|3|2|0|0|0|246|3.9|0.0
-11|263|Silver|[RHC Squirt Major AA](https://gamesheetstats.com/seasons/3659/teams/140241/schedule)|12|5|5|0|0|2|364|7.6|0.0
-12|222|Silver|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/140249/schedule)|8|3|4|0|0|1|372|4.7|0.0
-13|192||[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140240/schedule)|10|4|5|0|0|1|311|5.7|0.0
+11|263|Silver|[RHC Squirt Major AA](https://gamesheetstats.com/seasons/3659/teams/140241/schedule)|12|5|5|2|0|0|364|7.6|0.0
+12|222|Silver|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/140249/schedule)|8|3|4|1|0|0|372|4.7|0.0
+13|192||[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140240/schedule)|10|4|5|1|0|0|311|5.7|0.0
 14|181||[Haverford Hawks 10UAA](https://gamesheetstats.com/seasons/3659/teams/140236/schedule)|10|3|7|0|0|0|426|3.9|0.0
 15|142||[NYC Skyliners](https://gamesheetstats.com/seasons/3659/teams/140252/schedule)|5|2|3|0|0|0|283|2.9|0.0
-16|128||[Lehigh Valley Phantoms Youth U10AA](https://gamesheetstats.com/seasons/3659/teams/140239/schedule)|12|3|8|0|0|1|494|4.7|0.0
+16|128||[Lehigh Valley Phantoms Youth U10AA](https://gamesheetstats.com/seasons/3659/teams/140239/schedule)|12|3|8|1|0|0|494|4.7|0.0
 17|115||[Wildcats 10U AA](https://gamesheetstats.com/seasons/3659/teams/140250/schedule)|8|2|6|0|0|0|392|2.9|0.0
 18|91||[Central CT Capitals](https://gamesheetstats.com/seasons/3659/teams/140231/schedule)|5|0|5|0|0|0|978|0.8|-0.0
 19|23||[Arrows 10u Green](https://gamesheetstats.com/seasons/3659/teams/140251/schedule)|7|0|7|0|0|0|291|0.9|0.0

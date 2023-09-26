@@ -1,8 +1,8 @@
 [<- back to the index](readme.md)
 # 14U Diamond KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:48 2023.
+Rankings generated on Mon Sep 25 21:03:13 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|1417|Playoffs|[MYHA Blue](https://gamesheetstats.com/seasons/3663/teams/140816/schedule)|4|3|1|0|0|0|713|3.8|-0.0
 2|1006|Playoffs|[PTL Orange](https://gamesheetstats.com/seasons/3663/teams/140821/schedule)|6|4|2|0|0|0|622|4.9|0.0

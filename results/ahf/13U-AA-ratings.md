@@ -1,31 +1,31 @@
 [<- back to the index](readme.md)
 # 13U AA KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:43 2023.
+Rankings generated on Mon Sep 25 21:02:58 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|3708|Championship|[Ashburn Xtreme 2010](https://gamesheetstats.com/seasons/3659/teams/140527/schedule)|8|8|0|0|0|0|377|8.8|-0.0
 2|721|Championship|[St. Louis Knights](https://gamesheetstats.com/seasons/3659/teams/143323/schedule)|4|3|1|0|0|0|917|3.8|-0.0
-3|709|Championship|[VFC 13AA Barron](https://gamesheetstats.com/seasons/3659/teams/140544/schedule)|10|8|2|0|0|0|252|8.9|0.0
+3|709|Championship|[VFC 13AA Barron](https://gamesheetstats.com/seasons/3659/teams/140544/schedule)|10|8|2|0|1|0|252|8.9|0.0
 4|534|Championship|[PHA Icemen](https://gamesheetstats.com/seasons/3659/teams/143321/schedule)|4|3|1|0|0|0|318|3.9|0.0
 5|494|Gold|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140537/schedule)|10|7|3|0|0|0|796|7.8|-0.0
 6|468|Gold|[MYHA 13U AA](https://gamesheetstats.com/seasons/3659/teams/140533/schedule)|4|3|1|0|0|0|301|3.9|0.0
 7|460|Gold|[Lehigh Valley Phantoms Youth U13AA](https://gamesheetstats.com/seasons/3659/teams/140531/schedule)|11|7|4|0|0|0|565|7.9|0.0
 8|452|Gold|[Rebels Ban Minor](https://gamesheetstats.com/seasons/3659/teams/140539/schedule)|9|6|3|0|0|0|583|6.9|0.0
 9|447|Silver|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140542/schedule)|8|5|3|0|0|0|348|5.9|0.0
-10|393|Silver|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/140535/schedule)|9|6|2|0|0|1|232|7.7|0.0
-11|279|Silver|[NJ Bandits 13AA](https://gamesheetstats.com/seasons/3659/teams/140534/schedule)|10|7|3|0|0|0|186|7.9|0.0
-12|257|Silver|[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140538/schedule)|12|6|5|0|0|1|754|7.7|0.0
+10|393|Silver|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/140535/schedule)|9|6|2|1|0|0|232|7.7|0.0
+11|279|Silver|[NJ Bandits 13AA](https://gamesheetstats.com/seasons/3659/teams/140534/schedule)|10|7|3|0|2|1|186|7.9|0.0
+12|257|Silver|[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140538/schedule)|12|6|5|1|1|0|754|7.7|0.0
 13|159||[Wildcats 13 AA](https://gamesheetstats.com/seasons/3659/teams/140545/schedule)|9|4|5|0|0|0|268|4.9|0.0
 14|155||[Royals 13U AA Blue](https://gamesheetstats.com/seasons/3659/teams/140541/schedule)|10|4|6|0|0|0|316|4.9|0.0
 15|132||[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140536/schedule)|11|4|7|0|0|0|320|4.9|0.0
-16|127||[Tri-City Eagles 13U Gold](https://gamesheetstats.com/seasons/3659/teams/140543/schedule)|7|2|5|0|0|0|396|2.9|0.0
+16|127||[Tri-City Eagles 13U Gold](https://gamesheetstats.com/seasons/3659/teams/140543/schedule)|7|2|5|0|0|1|396|2.9|0.0
 17|109||[RHC U13 AA Black](https://gamesheetstats.com/seasons/3659/teams/140540/schedule)|10|3|7|0|0|0|307|3.9|0.0
-18|88||[14U Elite TI Selects](https://gamesheetstats.com/seasons/3659/teams/140526/schedule)|9|4|5|0|0|0|201|4.9|0.0
+18|88||[14U Elite TI Selects](https://gamesheetstats.com/seasons/3659/teams/140526/schedule)|9|4|5|0|0|1|201|4.9|0.0
 19|41||[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140529/schedule)|10|2|8|0|0|0|580|2.9|0.0
 20|22||[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140528/schedule)|9|1|8|0|0|0|204|1.9|0.0
 21|15||[Long Island Whalers Bantam 2010](https://gamesheetstats.com/seasons/3659/teams/140532/schedule)|6|0|6|0|0|0|246|0.9|0.0
-22|14||[Jersey Colts Bantam White](https://gamesheetstats.com/seasons/3659/teams/140530/schedule)|8|0|8|0|0|0|247|0.9|0.0
+22|14||[Jersey Colts Bantam White](https://gamesheetstats.com/seasons/3659/teams/140530/schedule)|8|0|8|0|0|1|247|0.9|0.0
 
 ## Actual vs Expected
 Use the generated KRACH ratings to predict the expected win points per team, then compare that to the actual win points as a rough accuracy guage. Smaller is better.

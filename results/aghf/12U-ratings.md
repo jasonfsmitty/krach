@@ -1,8 +1,8 @@
 [<- back to the index](readme.md)
 # 12U KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:48 2023.
+Rankings generated on Mon Sep 25 21:03:13 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|3302|Playoffs|[STJ](https://gamesheetstats.com/seasons/3663/teams/140800/schedule)|5|5|0|0|0|0|461|5.8|-0.0
 2|2853|Playoffs|[Saugerties Fillies](https://gamesheetstats.com/seasons/3663/teams/140805/schedule)|4|4|0|0|0|0|476|4.9|0.0

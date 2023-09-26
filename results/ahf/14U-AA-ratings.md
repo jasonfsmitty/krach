@@ -1,36 +1,36 @@
 [<- back to the index](readme.md)
 # 14U AA KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:43 2023.
+Rankings generated on Mon Sep 25 21:02:58 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|2671|Championship|[PHA Icemen](https://gamesheetstats.com/seasons/3659/teams/143328/schedule)|5|5|0|0|0|0|440|5.8|-0.0
 2|1010|Championship|[Clearwater Ice Storm](https://gamesheetstats.com/seasons/3659/teams/143325/schedule)|4|4|0|0|0|0|199|4.9|0.0
-3|803|Championship|[Lehigh Valley Phantoms Youth U14AA](https://gamesheetstats.com/seasons/3659/teams/140558/schedule)|10|8|1|0|0|1|401|9.7|-0.0
-4|793|Championship|[Igloo Jaguars 14UAA](https://gamesheetstats.com/seasons/3659/teams/140554/schedule)|10|8|1|0|0|1|241|9.7|-0.0
-5|730|Gold|[Allegheny Badgers](https://gamesheetstats.com/seasons/3659/teams/143330/schedule)|5|4|1|0|0|0|597|4.8|-0.0
-6|485|Gold|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/140562/schedule)|9|7|2|0|0|0|253|7.8|-0.0
+3|803|Championship|[Lehigh Valley Phantoms Youth U14AA](https://gamesheetstats.com/seasons/3659/teams/140558/schedule)|10|8|1|1|0|0|401|9.7|-0.0
+4|793|Championship|[Igloo Jaguars 14UAA](https://gamesheetstats.com/seasons/3659/teams/140554/schedule)|10|8|1|1|0|0|241|9.7|-0.0
+5|730|Gold|[Allegheny Badgers](https://gamesheetstats.com/seasons/3659/teams/143330/schedule)|5|4|1|0|1|0|597|4.8|-0.0
+6|485|Gold|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/140562/schedule)|9|7|2|0|0|1|253|7.8|-0.0
 7|480|Gold|[Long Island Whalers Bantam 2009](https://gamesheetstats.com/seasons/3659/teams/140559/schedule)|5|3|2|0|0|0|738|3.8|-0.0
-8|355|Gold|[Wissahickon Warriors AA](https://gamesheetstats.com/seasons/3659/teams/140574/schedule)|10|7|3|0|0|0|257|7.8|-0.0
+8|355|Gold|[Wissahickon Warriors AA](https://gamesheetstats.com/seasons/3659/teams/140574/schedule)|10|7|3|0|1|0|257|7.8|-0.0
 9|264|Silver|[MYHA 14U AA](https://gamesheetstats.com/seasons/3659/teams/140561/schedule)|4|2|2|0|0|0|717|2.8|-0.0
 10|234|Silver|[Lancaster Firebirds 14U Black](https://gamesheetstats.com/seasons/3659/teams/140557/schedule)|11|8|3|0|0|0|152|8.9|0.0
-11|225|Silver|[Haverford Hawks 14UAA](https://gamesheetstats.com/seasons/3659/teams/140553/schedule)|11|5|5|0|0|1|506|6.7|-0.0
-12|207|Silver|[JR Black Bears14U White](https://gamesheetstats.com/seasons/3659/teams/140555/schedule)|6|3|3|0|0|0|299|3.9|0.0
-13|186|Bronze|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140570/schedule)|8|4|3|0|0|1|289|5.7|-0.0
+11|225|Silver|[Haverford Hawks 14UAA](https://gamesheetstats.com/seasons/3659/teams/140553/schedule)|11|5|5|1|0|1|506|6.7|-0.0
+12|207|Silver|[JR Black Bears14U White](https://gamesheetstats.com/seasons/3659/teams/140555/schedule)|6|3|3|0|0|1|299|3.9|0.0
+13|186|Bronze|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140570/schedule)|8|4|3|1|1|0|289|5.7|-0.0
 14|181|Bronze|[South Pittsburgh Rebellion-Shell](https://gamesheetstats.com/seasons/3659/teams/143327/schedule)|4|2|2|0|0|0|212|2.8|-0.0
-15|170|Bronze|[STJ 14U Gold](https://gamesheetstats.com/seasons/3659/teams/140569/schedule)|4|2|1|0|0|1|134|3.7|-0.0
-16|162|Bronze|[PAL Blue Knights](https://gamesheetstats.com/seasons/3659/teams/140564/schedule)|4|2|2|0|0|0|265|2.9|0.0
-17|143||[Wildcats 14U AA](https://gamesheetstats.com/seasons/3659/teams/140573/schedule)|10|4|6|0|0|0|338|4.9|0.0
-18|113||[Darien](https://gamesheetstats.com/seasons/3659/teams/140550/schedule)|8|3|4|0|0|1|236|4.7|-0.0
-19|102||[Grundy Senators](https://gamesheetstats.com/seasons/3659/teams/140552/schedule)|9|5|3|0|0|1|90|6.7|0.0
+15|170|Bronze|[STJ 14U Gold](https://gamesheetstats.com/seasons/3659/teams/140569/schedule)|4|2|1|1|0|0|134|3.7|-0.0
+16|162|Bronze|[PAL Blue Knights](https://gamesheetstats.com/seasons/3659/teams/140564/schedule)|4|2|2|0|1|0|265|2.9|0.0
+17|143||[Wildcats 14U AA](https://gamesheetstats.com/seasons/3659/teams/140573/schedule)|10|4|6|0|1|0|338|4.9|0.0
+18|113||[Darien](https://gamesheetstats.com/seasons/3659/teams/140550/schedule)|8|3|4|1|1|0|236|4.7|-0.0
+19|102||[Grundy Senators](https://gamesheetstats.com/seasons/3659/teams/140552/schedule)|9|5|3|1|0|0|90|6.7|0.0
 20|83||[NYC Skyliners](https://gamesheetstats.com/seasons/3659/teams/140563/schedule)|5|2|3|0|0|0|124|2.9|0.0
 21|79||[Tri-City Eagles 14U Blue](https://gamesheetstats.com/seasons/3659/teams/140571/schedule)|8|4|4|0|0|0|109|4.9|0.0
 22|77||[Ashburn Xtreme 2009](https://gamesheetstats.com/seasons/3659/teams/140548/schedule)|8|2|6|0|0|0|293|2.8|-0.0
 23|68||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140565/schedule)|6|3|3|0|0|0|165|3.9|0.0
 24|57||[VFC Bantam 14 AA Fields](https://gamesheetstats.com/seasons/3659/teams/140572/schedule)|10|4|6|0|0|0|171|4.9|0.0
 25|42||[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140551/schedule)|9|1|8|0|0|0|355|1.9|0.0
-26|38||[RHC Bantam AA](https://gamesheetstats.com/seasons/3659/teams/140567/schedule)|10|2|7|0|0|1|223|3.7|0.0
-27|22||[Rye Rangers TB](https://gamesheetstats.com/seasons/3659/teams/140568/schedule)|6|0|6|0|0|0|308|0.8|-0.0
+26|38||[RHC Bantam AA](https://gamesheetstats.com/seasons/3659/teams/140567/schedule)|10|2|7|1|0|1|223|3.7|0.0
+27|22||[Rye Rangers TB](https://gamesheetstats.com/seasons/3659/teams/140568/schedule)|6|0|6|0|0|2|308|0.8|-0.0
 28|19||[Apple Core 14U](https://gamesheetstats.com/seasons/3659/teams/140546/schedule)|6|2|4|0|0|0|57|2.9|0.0
 29|18||[Mercer Chiefs](https://gamesheetstats.com/seasons/3659/teams/140560/schedule)|9|1|8|0|0|0|270|1.9|0.0
 30|7||[Arrows 14U Green](https://gamesheetstats.com/seasons/3659/teams/140547/schedule)|6|0|6|0|0|0|93|0.9|0.0

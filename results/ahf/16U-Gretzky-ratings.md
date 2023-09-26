@@ -1,23 +1,23 @@
 [<- back to the index](readme.md)
 # 16U Gretzky KRACH Rankings
-Rankings generated on Mon Sep 25 23:39:43 2023.
+Rankings generated on Mon Sep 25 21:02:58 2023.
 
-Rank|KRACH|Subdivision|Team|GP|W|L|SOW|SOL|T|SoS|Exp Wins|Win Diff
+Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|2136|Championship|[Dix Hills Hawks 16U](https://gamesheetstats.com/seasons/3659/teams/140688/schedule)|8|8|0|0|0|0|222|8.8|-0.0
-2|1259|Championship|[STJ 16U Gold](https://gamesheetstats.com/seasons/3659/teams/140697/schedule)|6|4|1|0|0|1|661|5.7|0.0
-3|991|Championship|[VFC 16A Frederick](https://gamesheetstats.com/seasons/3659/teams/140700/schedule)|10|7|2|0|0|1|552|8.7|-0.0
-4|945|Championship|[Aviator Hockey Club 16U Minor](https://gamesheetstats.com/seasons/3659/teams/140687/schedule)|5|4|1|0|0|0|451|4.9|0.0
-5|817|Gold|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140696/schedule)|11|6|3|0|0|2|631|8.6|0.0
-6|804|Gold|[Team Philadelphia Black](https://gamesheetstats.com/seasons/3659/teams/140698/schedule)|8|6|2|0|0|0|426|6.9|0.0
-7|611|Gold|[MYHA 16U UA](https://gamesheetstats.com/seasons/3659/teams/140695/schedule)|8|4|4|0|0|0|731|4.9|0.0
+2|1259|Championship|[STJ 16U Gold](https://gamesheetstats.com/seasons/3659/teams/140697/schedule)|6|4|1|1|1|0|661|5.7|0.0
+3|991|Championship|[VFC 16A Frederick](https://gamesheetstats.com/seasons/3659/teams/140700/schedule)|10|7|2|1|0|1|552|8.7|-0.0
+4|945|Championship|[Aviator Hockey Club 16U Minor](https://gamesheetstats.com/seasons/3659/teams/140687/schedule)|5|4|1|0|2|1|451|4.9|0.0
+5|817|Gold|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140696/schedule)|11|6|3|2|0|0|631|8.6|0.0
+6|804|Gold|[Team Philadelphia Black](https://gamesheetstats.com/seasons/3659/teams/140698/schedule)|8|6|2|0|1|0|426|6.9|0.0
+7|611|Gold|[MYHA 16U UA](https://gamesheetstats.com/seasons/3659/teams/140695/schedule)|8|4|4|0|1|1|731|4.9|0.0
 8|419|Gold|[Frederick Freeze 16U UA](https://gamesheetstats.com/seasons/3659/teams/140689/schedule)|8|5|3|0|0|0|394|5.9|0.0
-9|269|Silver|[Grundy Senators](https://gamesheetstats.com/seasons/3659/teams/140690/schedule)|12|6|5|0|0|1|344|7.7|0.0
-10|254|Silver|[Tri-City Eagles 16U White](https://gamesheetstats.com/seasons/3659/teams/140699/schedule)|10|3|4|0|0|3|421|6.4|0.0
-11|143|Silver|[Haverford Hawks 16U A Black](https://gamesheetstats.com/seasons/3659/teams/140691/schedule)|10|2|6|0|0|2|498|4.6|0.0
-12|128|Silver|[Wildcats 16U A Black](https://gamesheetstats.com/seasons/3659/teams/140725/schedule)|6|1|4|0|0|1|669|2.7|0.0
+9|269|Silver|[Grundy Senators](https://gamesheetstats.com/seasons/3659/teams/140690/schedule)|12|6|5|1|0|0|344|7.7|0.0
+10|254|Silver|[Tri-City Eagles 16U White](https://gamesheetstats.com/seasons/3659/teams/140699/schedule)|10|3|4|3|0|0|421|6.4|0.0
+11|143|Silver|[Haverford Hawks 16U A Black](https://gamesheetstats.com/seasons/3659/teams/140691/schedule)|10|2|6|2|0|1|498|4.6|0.0
+12|128|Silver|[Wildcats 16U A Black](https://gamesheetstats.com/seasons/3659/teams/140725/schedule)|6|1|4|1|0|0|669|2.7|0.0
 13|103||[JR Black Bears16U Red](https://gamesheetstats.com/seasons/3659/teams/140693/schedule)|6|1|5|0|0|0|442|1.9|0.0
-14|79||[Igloo Jaguars 16UA Black](https://gamesheetstats.com/seasons/3659/teams/140692/schedule)|11|0|9|0|0|2|868|2.6|0.0
+14|79||[Igloo Jaguars 16UA Black](https://gamesheetstats.com/seasons/3659/teams/140692/schedule)|11|0|9|2|0|1|868|2.6|0.0
 15|76||[Mercer Chiefs](https://gamesheetstats.com/seasons/3659/teams/140694/schedule)|9|1|8|0|0|0|832|1.9|0.0
 
 ## Actual vs Expected
