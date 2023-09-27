@@ -1,28 +1,30 @@
 [<- back to the index](readme.md)
 # 19U Diamond KRACH Rankings
-Rankings generated on Tue Sep 26 15:49:16 2023.
+Rankings generated on Wed Sep 27 01:42:34 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2287|Playoffs|[New York Islanders](https://gamesheetstats.com/seasons/3663/teams/140861/schedule)|3|3|0|0|0|0|580|3.9|0.0
-2|1834|Playoffs|[Jr Flyers Sullivan](https://gamesheetstats.com/seasons/3663/teams/140859/schedule)|4|4|0|0|1|0|310|4.8|-0.0
-3|1354|Playoffs|[NJ Bandits Potash](https://gamesheetstats.com/seasons/3663/teams/140857/schedule)|5|4|1|0|0|0|684|4.9|0.0
-4|446|Playoffs|[NJ Rockets Red](https://gamesheetstats.com/seasons/3663/teams/140855/schedule)|3|1|1|1|0|0|602|2.7|0.0
-5|316||[Stateline Hawks](https://gamesheetstats.com/seasons/3663/teams/141851/schedule)|4|1|3|0|0|1|1125|1.8|-0.0
-6|314||[STJ](https://gamesheetstats.com/seasons/3663/teams/140858/schedule)|6|2|3|1|0|0|606|3.7|0.0
-7|145||[Philadelphia Belles](https://gamesheetstats.com/seasons/3663/teams/140864/schedule)|3|0|3|0|0|0|776|0.9|0.0
+1|2339|Playoffs|[New York Islanders](https://gamesheetstats.com/seasons/3663/teams/140861/schedule)|3|3|0|0|0|0|617|3.8|-0.0
+2|1830|Playoffs|[Jr Flyers Sullivan](https://gamesheetstats.com/seasons/3663/teams/140859/schedule)|4|4|0|0|1|0|309|4.8|-0.0
+3|1548|Playoffs|[NJ Bandits Potash](https://gamesheetstats.com/seasons/3663/teams/140857/schedule)|5|4|1|0|0|0|760|4.9|0.0
+4|701|Playoffs|[NJ Rockets Red](https://gamesheetstats.com/seasons/3663/teams/140855/schedule)|4|2|1|1|0|0|647|3.7|0.0
+5|488||[LVPY](https://gamesheetstats.com/seasons/3663/teams/140860/schedule)|3|2|1|0|0|0|357|2.9|0.0
+6|387||[STJ](https://gamesheetstats.com/seasons/3663/teams/140858/schedule)|6|2|3|1|0|0|737|3.7|0.0
+7|321||[Stateline Hawks](https://gamesheetstats.com/seasons/3663/teams/141851/schedule)|4|1|3|0|0|1|1161|1.8|-0.0
+8|123||[Philadelphia Belles](https://gamesheetstats.com/seasons/3663/teams/140864/schedule)|3|0|3|0|0|0|631|0.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||New York Islanders|Jr Flyers Sullivan|NJ Bandits Potash|NJ Rockets Red|Stateline Hawks|STJ|Philadelphia Belles
-| --: | --: | --: | --: | --: | --: | --: | --: 
-|New York Islanders|--| 55%| 63%| 84%| 88%| 88%| 94%
-|Jr Flyers Sullivan| 45%|--| 58%| 80%| 85%| 85%| 93%
-|NJ Bandits Potash| 37%| 42%|--| 75%| 81%| 81%| 90%
-|NJ Rockets Red| 16%| 20%| 25%|--| 58%| 59%| 75%
-|Stateline Hawks| 12%| 15%| 19%| 42%|--| 50%| 69%
-|STJ| 12%| 15%| 19%| 41%| 50%|--| 68%
-|Philadelphia Belles|  6%|  7%| 10%| 25%| 31%| 32%|--
+||New York Islanders|Jr Flyers Sullivan|NJ Bandits Potash|NJ Rockets Red|LVPY|STJ|Stateline Hawks|Philadelphia Belles
+| --: | --: | --: | --: | --: | --: | --: | --: | --: 
+|New York Islanders|--| 56%| 60%| 77%| 83%| 86%| 88%| 95%
+|Jr Flyers Sullivan| 44%|--| 54%| 72%| 79%| 83%| 85%| 94%
+|NJ Bandits Potash| 40%| 46%|--| 69%| 76%| 80%| 83%| 93%
+|NJ Rockets Red| 23%| 28%| 31%|--| 59%| 64%| 69%| 85%
+|LVPY| 17%| 21%| 24%| 41%|--| 56%| 60%| 80%
+|STJ| 14%| 17%| 20%| 36%| 44%|--| 55%| 76%
+|Stateline Hawks| 12%| 15%| 17%| 31%| 40%| 45%|--| 72%
+|Philadelphia Belles|  5%|  6%|  7%| 15%| 20%| 24%| 28%|--
 
 ## Generation Details
 
