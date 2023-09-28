@@ -30,6 +30,7 @@ class Options:
     shootoutWinValue:  float = 1.00       # loss value is (1.0 - winValue)
     tieValue:          float = 0.50
     alphaValue:        float = 0.50
+    bonusPoints:       float = 0.00
 
     # Used to 'regularize' teams with undefeated records. There are two different methods that
     # can be used, each with their own weight
@@ -55,10 +56,13 @@ class Options:
             "Shootout Win Value"  : "{:3.2f}".format(self.shootoutWinValue),
             "Shootout Loss Value" : "{:3.2f}".format(1.0 - self.shootoutWinValue),
             "Tie Value"           : "{:3.2f}".format(self.tieValue),
+            "Alpha Value"         : "{:3.2f}".format(self.alphaValue),
+            "Bonus Points"        : "{:3.2f}".format(self.bonusPoints),
             "Fake Ties"           : "{}".format(self.fakeTies),
             "Alpha Games"         : "{}".format(self.alphaGames),
             "Ignore teams"        : "{}".format(",".join(self.filteredTeams)),
             "Min Games Played"    : "{}".format(self.minGamesPlayed),
+            # TODO
         }
 
     def __str__(self):
@@ -189,7 +193,8 @@ class Record:
             + (self.soLosses    * (1.0 - options.shootoutWinValue)) \
             + (self.ties        * options.tieValue) \
             + (self.alphaWins   * options.alphaValue) \
-            + (self.alphaLosses * (1.0 - options.alphaValue))
+            + (self.alphaLosses * (1.0 - options.alphaValue)) \
+            + options.bonusPoints
 
 #----------------------------------------------------------------------------
 class Team:
