@@ -276,7 +276,7 @@ def updateRatings(options, seasonId, dateCutoff, divisionName, testMode, Divisio
         sys.exit(1)
 
     # Always show on the console
-    co.showRankings(divisionName, ledger, ratings, League)
+    co.showRankings(divisionName, ledger, ratings, League, options if testMode else None)
 
     # optionally write to markdown file
     if not testMode:

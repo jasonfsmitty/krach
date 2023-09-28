@@ -9,11 +9,10 @@ import common.blackbear_common as bb
 import common.commands as commands
 
 #----------------------------------------------------------------------------
-def showRankings(divisionName, ledger, ratings, league):
-    dividor = "-" * 120
+def showRankings(divisionName, ledger, ratings, league, options):
     print(f"Division: {divisionName}")
     print(f"Rank KRACH   Subdivision     Team                                     GP  WW-LL-TT  OTW OTL    SoS | Predict Diff WinPt Match")
-    print(dividor)
+    print("-" * 120)
 
     diffTotal = 0.0
     rawTotal = 0.0
@@ -46,4 +45,12 @@ def showRankings(divisionName, ledger, ratings, league):
     print(f"  Total: {diffTotal:5.2f} {rawTotal:>5.2f}")
     print(f"  Avg  : {diffAvg:5.2f} {rawAvg:>5.2f}")
     print(f"")
+
+    if options:
+        opts = options.dict()
+        width = max(map(lambda x: len(x), opts.keys()))
+        print(f"Options:")
+        for key,value in opts.items():
+            print(f"  {key:<{width}} : {value}")
+        print(f"")
 
