@@ -70,6 +70,16 @@ def parseCommandLine():
         default = bb.DEFAULT_FAKES,
         help    = "Number of fake tie games given to each team")
 
+    update.add_argument("--alpha-value",
+        type    = float,
+        default = bb.DEFAULT_ALPHA_VALUE,
+        help    = "Value given to the real team for an alpha 'win'")
+
+    update.add_argument("--alphas",
+        type    = int,
+        default = bb.DEFAULT_ALPHAS,
+        help    = "Number of fake 'alpha' games given to each team")
+
     update.add_argument("--scale",
         metavar = "<method>",
         choices = ["none", "auto", "factor", "range"],
@@ -139,6 +149,8 @@ def updateCommand(args, SeasonId, League):
     options.shootoutWinValue  = args.shootout_win
     options.tieValue          = args.tie
     options.fakeTies          = args.fakes
+    options.alphaValue        = args.alpha_value
+    options.alphaGames        = args.alphas
     options.minGamesPlayed    = args.min_games
     options.scaleMethod       = krach.ScaleMethod[args.scale.upper()]
     options.scaleFactor       = args.factor

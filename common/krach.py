@@ -29,10 +29,12 @@ class Options:
     # Options that control how shootout wins/losses and ties are weighted in the ratings
     shootoutWinValue:  float = 1.00       # loss value is (1.0 - winValue)
     tieValue:          float = 0.50
+    alphaValue:        float = 0.50
 
-    # Number of fake ties to add to every teams record; Used to 'regularize' teams with
-    # undefeated records.
+    # Used to 'regularize' teams with undefeated records. There are two different methods that
+    # can be used, each with their own weight
     fakeTies:          int   = 0
+    alphaGames:        int   = 0
 
     # Explicit list of teams to remove from the final rankings
     filteredTeams:     list  = dataclasses.field(default_factory=lambda: [])
@@ -54,6 +56,7 @@ class Options:
             "Shootout Loss Value" : "{:3.2f}".format(1.0 - self.shootoutWinValue),
             "Tie Value"           : "{:3.2f}".format(self.tieValue),
             "Fake Ties"           : "{}".format(self.fakeTies),
+            "Alpha Games"         : "{}".format(self.alphaGames),
             "Ignore teams"        : "{}".format(",".join(self.filteredTeams)),
             "Min Games Played"    : "{}".format(self.minGamesPlayed),
         }
@@ -130,14 +133,16 @@ def scaleRatings(options, ratings, sosAll):
 #----------------------------------------------------------------------------
 @dataclasses.dataclass
 class Record:
-    played:   int = 0
-    wins:     int = 0
-    losses:   int = 0
-    otWins:   int = 0
-    otLosses: int = 0
-    soWins:   int = 0
-    soLosses: int = 0
-    ties:     int = 0
+    played:      int = 0
+    wins:        int = 0
+    losses:      int = 0
+    otWins:      int = 0
+    otLosses:    int = 0
+    soWins:      int = 0
+    soLosses:    int = 0
+    ties:        int = 0
+    alphaWins:   int = 0
+    alphaLosses: int = 0
 
     def __str__(self):
         return f"{self.wins:>2}-{self.losses:>2}-{self.ties:>2}   {self.otWins:>2}  {self.otLosses:>2}"
@@ -170,11 +175,21 @@ class Record:
         self.played += 1
         self.ties += 1
 
+    def addAlphaWin(self):
+        self.played += 1
+        self.alphaWins += 1
+
+    def addAlphaLoss(self):
+        self.played += 1
+        self.alphaLosses += 1
+
     def winPoints(self, options):
         return self.wins \
-            + (self.soWins   * options.shootoutWinValue) \
-            + (self.soLosses * (1.0 - options.shootoutWinValue)) \
-            + (self.ties     * options.tieValue)
+            + (self.soWins      * options.shootoutWinValue) \
+            + (self.soLosses    * (1.0 - options.shootoutWinValue)) \
+            + (self.ties        * options.tieValue) \
+            + (self.alphaWins   * options.alphaValue) \
+            + (self.alphaLosses * (1.0 - options.alphaValue))
 
 #----------------------------------------------------------------------------
 class Team:
@@ -222,6 +237,16 @@ class Team:
         self.addOpponent(opponent)
         self.matchups[opponent].addTie()
 
+    def addAlphaWin(self, opponent):
+        self.record.addAlphaWin()
+        self.addOpponent(opponent)
+        self.matchups[opponent].addAlphaWin()
+
+    def addAlphaLoss(self, opponent):
+        self.record.addAlphaLoss()
+        self.addOpponent(opponent)
+        self.matchups[opponent].addAlphaLoss()
+
 #----------------------------------------------------------------------------
 # Tracks all teams and their game results.
 class Ledger:
@@ -258,6 +283,12 @@ class Ledger:
             self.recordDate(date)
             self.teams[team1].addTie(team2)
             self.teams[team2].addTie(team1)
+
+    def addAlpha(self, date, fakeTeam, realTeam):
+        if self.isValid(date):
+            self.recordDate(date)
+            self.teams[realTeam].addAlphaWin(fakeTeam)
+            self.teams[fakeTeam].addAlphaLoss(realTeam)
 
     def addTeam(self, name, id):
         if not name in self.teams:
@@ -388,14 +419,20 @@ class KRACH:
 def addFakeTies(options, ledger):
     fakeTeam = "__KRACH_FAKE_TEAM__"
 
-    for _ in range(options.fakeTies):
-        if not fakeTeam in options.filteredTeams:
-            options.filteredTeams.append(fakeTeam)
+    if not fakeTeam in options.filteredTeams:
+        options.filteredTeams.append(fakeTeam)
 
+    for _ in range(options.fakeTies):
         ledger.addTeam(fakeTeam, None)
         for realTeam in ledger.teams:
             if realTeam != fakeTeam:
-                ledger.addTie(ledger.oldestGame, fakeTeam, realTeam)
+                ledger.addAlpha(ledger.oldestGame, fakeTeam, realTeam)
+
+    for _ in range(options.alphaGames):
+        ledger.addTeam(fakeTeam, None)
+        for realTeam in ledger.teams:
+            if realTeam != fakeTeam:
+                ledger.addAlpha(ledger.oldestGame, fakeTeam, realTeam)
 
 #----------------------------------------------------------------------------
 def generate(options, ledger):
