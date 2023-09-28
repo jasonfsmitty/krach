@@ -1,64 +1,64 @@
 [<- back to the index](readme.md)
 # 18U AA KRACH Rankings
-Rankings generated on Thu Sep 28 07:15:14 2023.
+Rankings generated on Thu Sep 28 09:53:23 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1223|Championship|[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140765/schedule)|8|7|1|0|0|1|334|7.8|-0.0
-2|1159|Championship|[Tri-City Eagles 18U Blue](https://gamesheetstats.com/seasons/3659/teams/140769/schedule)|5|5|0|0|1|0|169|5.9|0.0
-3|979|Championship|[Chesterfield Falcons](https://gamesheetstats.com/seasons/3659/teams/143454/schedule)|5|4|1|0|1|0|467|4.8|-0.0
-4|806|Championship|[MYHA 18U AA Blue](https://gamesheetstats.com/seasons/3659/teams/140759/schedule)|6|5|1|0|0|0|267|5.8|-0.0
-5|554|Gold|[Arizona Bobcats](https://gamesheetstats.com/seasons/3659/teams/143450/schedule)|5|3|2|0|0|0|558|3.8|-0.0
-6|435|Gold|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140768/schedule)|6|4|2|0|0|0|394|4.8|-0.0
-7|413|Gold|[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140763/schedule)|10|7|2|1|1|0|268|8.7|0.0
-8|328|Gold|[Allegheny Badgers](https://gamesheetstats.com/seasons/3659/teams/143448/schedule)|5|2|3|0|0|0|598|2.8|-0.0
-9|301|Silver|[Cherry Creek Bruins](https://gamesheetstats.com/seasons/3659/teams/143451/schedule)|4|2|2|0|0|0|491|2.9|0.0
-10|233|Silver|[York Devils](https://gamesheetstats.com/seasons/3659/teams/140772/schedule)|9|4|5|0|1|0|481|4.8|-0.0
-11|232|Silver|[MYHA 18U AA Gold](https://gamesheetstats.com/seasons/3659/teams/140760/schedule)|4|3|1|0|1|1|124|3.9|0.0
-12|226|Silver|[Haverford Hawks](https://gamesheetstats.com/seasons/3659/teams/140752/schedule)|9|6|3|0|1|2|216|6.9|0.0
-13|218||[Anaheim Jr. Ducks](https://gamesheetstats.com/seasons/3659/teams/143456/schedule)|3|1|1|1|0|0|218|2.7|0.0
-14|218||[Mission Arizona](https://gamesheetstats.com/seasons/3659/teams/143449/schedule)|3|1|1|1|0|0|218|2.7|0.0
-15|205||[Jersey Colts 18 Black](https://gamesheetstats.com/seasons/3659/teams/140756/schedule)|5|3|1|1|0|0|136|4.7|0.0
-16|167||[Lehigh Valley Phantoms Youth U18AA](https://gamesheetstats.com/seasons/3659/teams/140758/schedule)|10|5|5|0|0|1|199|5.9|0.0
-17|138||[Clearwater Ice Storm Blue](https://gamesheetstats.com/seasons/3659/teams/143452/schedule)|4|1|3|0|1|1|406|1.8|-0.0
-18|138||[Lancaster Firebrids 18U AA](https://gamesheetstats.com/seasons/3659/teams/140757/schedule)|9|4|5|0|1|1|372|4.9|0.0
-19|118||[Igloo Jaguars 18UAA Premier](https://gamesheetstats.com/seasons/3659/teams/140755/schedule)|8|4|4|0|0|0|293|4.9|0.0
-20|105||[Wildcats 18U AA](https://gamesheetstats.com/seasons/3659/teams/140771/schedule)|10|3|7|0|0|0|330|3.9|0.0
-21|46||[Tri-City Eagles 18U Gold](https://gamesheetstats.com/seasons/3659/teams/140770/schedule)|6|2|4|0|0|1|124|2.9|0.0
-22|40||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140764/schedule)|10|2|8|0|1|0|286|2.9|0.0
-23|30||[North Jersey Kings Blue](https://gamesheetstats.com/seasons/3659/teams/140762/schedule)|5|0|5|0|0|0|289|0.9|0.0
-24|25||[Igloo Jaguars 18UAA Elite](https://gamesheetstats.com/seasons/3659/teams/140753/schedule)|8|1|7|0|0|0|173|1.9|0.0
-25|15||[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140751/schedule)|8|0|8|0|0|0|295|0.9|0.0
+1|1566|Championship|[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140765/schedule)|8|7|1|0|0|1|312|7.8|-0.0
+2|1453|Championship|[Chesterfield Falcons](https://gamesheetstats.com/seasons/3659/teams/143454/schedule)|5|4|1|0|1|0|467|4.8|-0.0
+3|1164|Championship|[Tri-City Eagles 18U Blue](https://gamesheetstats.com/seasons/3659/teams/140769/schedule)|5|5|0|0|1|0|31|5.9|0.0
+4|691|Championship|[MYHA 18U AA Blue](https://gamesheetstats.com/seasons/3659/teams/140759/schedule)|6|5|1|0|0|0|161|5.8|-0.0
+5|689|Gold|[Arizona Bobcats](https://gamesheetstats.com/seasons/3659/teams/143450/schedule)|5|3|2|0|0|0|641|3.8|-0.0
+6|405|Gold|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140768/schedule)|6|4|2|0|0|0|411|4.8|-0.0
+7|386|Gold|[Allegheny Badgers](https://gamesheetstats.com/seasons/3659/teams/143448/schedule)|5|2|3|0|0|0|876|2.8|-0.0
+8|131|Gold|[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140763/schedule)|10|7|2|1|1|0|226|8.4|0.0
+9|115|Silver|[Cherry Creek Bruins](https://gamesheetstats.com/seasons/3659/teams/143451/schedule)|4|2|2|0|0|0|382|2.9|0.0
+10|101|Silver|[York Devils](https://gamesheetstats.com/seasons/3659/teams/140772/schedule)|9|4|5|0|1|0|488|4.8|-0.0
+11|38|Silver|[Clearwater Ice Storm Blue](https://gamesheetstats.com/seasons/3659/teams/143452/schedule)|4|1|3|0|1|1|399|1.8|-0.0
+12|32|Silver|[Haverford Hawks](https://gamesheetstats.com/seasons/3659/teams/140752/schedule)|9|6|3|0|1|2|128|6.9|0.0
+13|31||[Lehigh Valley Phantoms Youth U18AA](https://gamesheetstats.com/seasons/3659/teams/140758/schedule)|10|5|5|0|0|1|95|5.9|0.0
+14|29||[MYHA 18U AA Gold](https://gamesheetstats.com/seasons/3659/teams/140760/schedule)|4|3|1|0|1|1|12|3.9|0.0
+15|25||[Jersey Colts 18 Black](https://gamesheetstats.com/seasons/3659/teams/140756/schedule)|5|3|1|1|0|0|27|4.4|0.0
+16|20||[Lancaster Firebrids 18U AA](https://gamesheetstats.com/seasons/3659/teams/140757/schedule)|9|4|5|0|1|1|296|4.9|0.0
+17|19||[Wildcats 18U AA](https://gamesheetstats.com/seasons/3659/teams/140771/schedule)|10|3|7|0|0|0|198|3.9|0.0
+18|18||[Anaheim Jr. Ducks](https://gamesheetstats.com/seasons/3659/teams/143456/schedule)|3|1|1|1|0|0|15|2.4|0.0
+19|18||[Mission Arizona](https://gamesheetstats.com/seasons/3659/teams/143449/schedule)|3|1|1|1|0|0|15|2.4|0.0
+20|14||[Igloo Jaguars 18UAA Premier](https://gamesheetstats.com/seasons/3659/teams/140755/schedule)|8|4|4|0|0|0|215|4.9|0.0
+21|4||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140764/schedule)|10|2|8|0|1|0|209|2.9|0.0
+22|4||[Tri-City Eagles 18U Gold](https://gamesheetstats.com/seasons/3659/teams/140770/schedule)|6|2|4|0|0|1|13|2.9|0.0
+23|2||[North Jersey Kings Blue](https://gamesheetstats.com/seasons/3659/teams/140762/schedule)|5|0|5|0|0|0|163|0.9|0.0
+24|2||[Igloo Jaguars 18UAA Elite](https://gamesheetstats.com/seasons/3659/teams/140753/schedule)|8|1|7|0|0|0|58|1.9|0.0
+25|1||[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140751/schedule)|8|0|8|0|0|0|157|0.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Philadelphia Blazers|Tri-City Eagles 18U Blue|Chesterfield Falcons|MYHA 18U AA Blue|Arizona Bobcats|Team Philadelphia|North Jersey Skylands Kings|Allegheny Badgers|Cherry Creek Bruins|York Devils|MYHA 18U AA Gold|Haverford Hawks|Anaheim Jr. Ducks|Mission Arizona|Jersey Colts 18 Black|Lehigh Valley Phantoms Youth U18AA|Clearwater Ice Storm Blue|Lancaster Firebrids 18U AA|Igloo Jaguars 18UAA Premier|Wildcats 18U AA|Tri-City Eagles 18U Gold|Palmyra Black Knights|North Jersey Kings Blue|Igloo Jaguars 18UAA Elite|Delaware Ducks
+||Philadelphia Blazers|Chesterfield Falcons|Tri-City Eagles 18U Blue|MYHA 18U AA Blue|Arizona Bobcats|Team Philadelphia|Allegheny Badgers|North Jersey Skylands Kings|Cherry Creek Bruins|York Devils|Clearwater Ice Storm Blue|Haverford Hawks|Lehigh Valley Phantoms Youth U18AA|MYHA 18U AA Gold|Jersey Colts 18 Black|Lancaster Firebrids 18U AA|Wildcats 18U AA|Anaheim Jr. Ducks|Mission Arizona|Igloo Jaguars 18UAA Premier|Palmyra Black Knights|Tri-City Eagles 18U Gold|North Jersey Kings Blue|Igloo Jaguars 18UAA Elite|Delaware Ducks
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Philadelphia Blazers|--| 51%| 56%| 60%| 69%| 74%| 75%| 79%| 80%| 84%| 84%| 84%| 85%| 85%| 86%| 88%| 90%| 90%| 91%| 92%| 96%| 97%| 98%| 98%| 99%
-|Tri-City Eagles 18U Blue| 49%|--| 54%| 59%| 68%| 73%| 74%| 78%| 79%| 83%| 83%| 84%| 84%| 84%| 85%| 87%| 89%| 89%| 91%| 92%| 96%| 97%| 97%| 98%| 99%
-|Chesterfield Falcons| 44%| 46%|--| 55%| 64%| 69%| 70%| 75%| 76%| 81%| 81%| 81%| 82%| 82%| 83%| 85%| 88%| 88%| 89%| 90%| 96%| 96%| 97%| 97%| 99%
-|MYHA 18U AA Blue| 40%| 41%| 45%|--| 59%| 65%| 66%| 71%| 73%| 78%| 78%| 78%| 79%| 79%| 80%| 83%| 85%| 85%| 87%| 89%| 95%| 95%| 96%| 97%| 98%
-|Arizona Bobcats| 31%| 32%| 36%| 41%|--| 56%| 57%| 63%| 65%| 70%| 71%| 71%| 72%| 72%| 73%| 77%| 80%| 80%| 82%| 84%| 92%| 93%| 95%| 96%| 97%
-|Team Philadelphia| 26%| 27%| 31%| 35%| 44%|--| 51%| 57%| 59%| 65%| 65%| 66%| 67%| 67%| 68%| 72%| 76%| 76%| 79%| 81%| 90%| 92%| 94%| 94%| 97%
-|North Jersey Skylands Kings| 25%| 26%| 30%| 34%| 43%| 49%|--| 56%| 58%| 64%| 64%| 65%| 65%| 65%| 67%| 71%| 75%| 75%| 78%| 80%| 90%| 91%| 93%| 94%| 97%
-|Allegheny Badgers| 21%| 22%| 25%| 29%| 37%| 43%| 44%|--| 52%| 58%| 59%| 59%| 60%| 60%| 62%| 66%| 70%| 70%| 74%| 76%| 88%| 89%| 92%| 93%| 96%
-|Cherry Creek Bruins| 20%| 21%| 24%| 27%| 35%| 41%| 42%| 48%|--| 56%| 57%| 57%| 58%| 58%| 60%| 64%| 69%| 69%| 72%| 74%| 87%| 88%| 91%| 92%| 95%
-|York Devils| 16%| 17%| 19%| 22%| 30%| 35%| 36%| 42%| 44%|--| 50%| 51%| 52%| 52%| 53%| 58%| 63%| 63%| 66%| 69%| 84%| 85%| 89%| 90%| 94%
-|MYHA 18U AA Gold| 16%| 17%| 19%| 22%| 29%| 35%| 36%| 41%| 43%| 50%|--| 51%| 52%| 52%| 53%| 58%| 63%| 63%| 66%| 69%| 83%| 85%| 89%| 90%| 94%
-|Haverford Hawks| 16%| 16%| 19%| 22%| 29%| 34%| 35%| 41%| 43%| 49%| 49%|--| 51%| 51%| 52%| 58%| 62%| 62%| 66%| 68%| 83%| 85%| 88%| 90%| 94%
-|Anaheim Jr. Ducks| 15%| 16%| 18%| 21%| 28%| 33%| 35%| 40%| 42%| 48%| 48%| 49%|--| 50%| 52%| 57%| 61%| 61%| 65%| 68%| 83%| 85%| 88%| 90%| 94%
-|Mission Arizona| 15%| 16%| 18%| 21%| 28%| 33%| 35%| 40%| 42%| 48%| 48%| 49%| 50%|--| 52%| 57%| 61%| 61%| 65%| 68%| 83%| 85%| 88%| 90%| 94%
-|Jersey Colts 18 Black| 14%| 15%| 17%| 20%| 27%| 32%| 33%| 38%| 40%| 47%| 47%| 48%| 48%| 48%|--| 55%| 60%| 60%| 63%| 66%| 82%| 84%| 87%| 89%| 93%
-|Lehigh Valley Phantoms Youth U18AA| 12%| 13%| 15%| 17%| 23%| 28%| 29%| 34%| 36%| 42%| 42%| 42%| 43%| 43%| 45%|--| 55%| 55%| 59%| 61%| 78%| 81%| 85%| 87%| 92%
-|Clearwater Ice Storm Blue| 10%| 11%| 12%| 15%| 20%| 24%| 25%| 30%| 31%| 37%| 37%| 38%| 39%| 39%| 40%| 45%|--| 50%| 54%| 57%| 75%| 78%| 82%| 84%| 90%
-|Lancaster Firebrids 18U AA| 10%| 11%| 12%| 15%| 20%| 24%| 25%| 30%| 31%| 37%| 37%| 38%| 39%| 39%| 40%| 45%| 50%|--| 54%| 57%| 75%| 78%| 82%| 84%| 90%
-|Igloo Jaguars 18UAA Premier|  9%|  9%| 11%| 13%| 18%| 21%| 22%| 26%| 28%| 34%| 34%| 34%| 35%| 35%| 37%| 41%| 46%| 46%|--| 53%| 72%| 75%| 80%| 82%| 89%
-|Wildcats 18U AA|  8%|  8%| 10%| 11%| 16%| 19%| 20%| 24%| 26%| 31%| 31%| 32%| 32%| 32%| 34%| 39%| 43%| 43%| 47%|--| 70%| 73%| 78%| 80%| 88%
-|Tri-City Eagles 18U Gold|  4%|  4%|  4%|  5%|  8%| 10%| 10%| 12%| 13%| 16%| 17%| 17%| 17%| 17%| 18%| 22%| 25%| 25%| 28%| 30%|--| 54%| 60%| 64%| 76%
-|Palmyra Black Knights|  3%|  3%|  4%|  5%|  7%|  8%|  9%| 11%| 12%| 15%| 15%| 15%| 15%| 15%| 16%| 19%| 22%| 22%| 25%| 27%| 46%|--| 57%| 61%| 73%
-|North Jersey Kings Blue|  2%|  3%|  3%|  4%|  5%|  6%|  7%|  8%|  9%| 11%| 11%| 12%| 12%| 12%| 13%| 15%| 18%| 18%| 20%| 22%| 40%| 43%|--| 54%| 67%
-|Igloo Jaguars 18UAA Elite|  2%|  2%|  3%|  3%|  4%|  6%|  6%|  7%|  8%| 10%| 10%| 10%| 10%| 10%| 11%| 13%| 16%| 16%| 18%| 20%| 36%| 39%| 46%|--| 63%
-|Delaware Ducks|  1%|  1%|  1%|  2%|  3%|  3%|  3%|  4%|  5%|  6%|  6%|  6%|  6%|  6%|  7%|  8%| 10%| 10%| 11%| 12%| 24%| 27%| 33%| 37%|--
+|Philadelphia Blazers|--| 52%| 57%| 69%| 69%| 79%| 80%| 92%| 93%| 94%| 98%| 98%| 98%| 98%| 98%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%
+|Chesterfield Falcons| 48%|--| 56%| 68%| 68%| 78%| 79%| 92%| 93%| 93%| 97%| 98%| 98%| 98%| 98%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%
+|Tri-City Eagles 18U Blue| 43%| 44%|--| 63%| 63%| 74%| 75%| 90%| 91%| 92%| 97%| 97%| 97%| 98%| 98%| 98%| 98%| 98%| 98%| 99%|100%|100%|100%|100%|100%
+|MYHA 18U AA Blue| 31%| 32%| 37%|--| 50%| 63%| 64%| 84%| 86%| 87%| 95%| 96%| 96%| 96%| 97%| 97%| 97%| 97%| 97%| 98%| 99%| 99%|100%|100%|100%
+|Arizona Bobcats| 31%| 32%| 37%| 50%|--| 63%| 64%| 84%| 86%| 87%| 95%| 96%| 96%| 96%| 97%| 97%| 97%| 97%| 97%| 98%| 99%| 99%|100%|100%|100%
+|Team Philadelphia| 21%| 22%| 26%| 37%| 37%|--| 51%| 76%| 78%| 80%| 91%| 93%| 93%| 93%| 94%| 95%| 96%| 96%| 96%| 97%| 99%| 99%| 99%| 99%|100%
+|Allegheny Badgers| 20%| 21%| 25%| 36%| 36%| 49%|--| 75%| 77%| 79%| 91%| 92%| 92%| 93%| 94%| 95%| 95%| 95%| 95%| 97%| 99%| 99%| 99%| 99%|100%
+|North Jersey Skylands Kings|  8%|  8%| 10%| 16%| 16%| 24%| 25%|--| 53%| 56%| 78%| 80%| 81%| 82%| 84%| 87%| 87%| 88%| 88%| 90%| 97%| 97%| 98%| 98%| 99%
+|Cherry Creek Bruins|  7%|  7%|  9%| 14%| 14%| 22%| 23%| 47%|--| 53%| 75%| 78%| 79%| 80%| 82%| 85%| 86%| 86%| 86%| 89%| 97%| 97%| 98%| 98%| 99%
+|York Devils|  6%|  7%|  8%| 13%| 13%| 20%| 21%| 44%| 47%|--| 73%| 76%| 76%| 78%| 80%| 84%| 84%| 85%| 85%| 88%| 96%| 96%| 98%| 98%| 99%
+|Clearwater Ice Storm Blue|  2%|  3%|  3%|  5%|  5%|  9%|  9%| 22%| 25%| 27%|--| 54%| 55%| 57%| 60%| 66%| 67%| 67%| 67%| 73%| 90%| 91%| 94%| 94%| 97%
+|Haverford Hawks|  2%|  2%|  3%|  4%|  4%|  7%|  8%| 20%| 22%| 24%| 46%|--| 51%| 53%| 57%| 62%| 63%| 64%| 64%| 70%| 89%| 89%| 93%| 93%| 96%
+|Lehigh Valley Phantoms Youth U18AA|  2%|  2%|  3%|  4%|  4%|  7%|  8%| 19%| 21%| 24%| 45%| 49%|--| 52%| 56%| 61%| 62%| 63%| 63%| 69%| 88%| 89%| 93%| 93%| 96%
+|MYHA 18U AA Gold|  2%|  2%|  2%|  4%|  4%|  7%|  7%| 18%| 20%| 22%| 43%| 47%| 48%|--| 54%| 59%| 60%| 61%| 61%| 68%| 87%| 88%| 92%| 93%| 96%
+|Jersey Colts 18 Black|  2%|  2%|  2%|  3%|  3%|  6%|  6%| 16%| 18%| 20%| 40%| 43%| 44%| 46%|--| 56%| 57%| 57%| 57%| 64%| 86%| 86%| 91%| 92%| 95%
+|Lancaster Firebrids 18U AA|  1%|  1%|  2%|  3%|  3%|  5%|  5%| 13%| 15%| 16%| 34%| 38%| 39%| 41%| 44%|--| 51%| 52%| 52%| 59%| 83%| 83%| 89%| 90%| 94%
+|Wildcats 18U AA|  1%|  1%|  2%|  3%|  3%|  4%|  5%| 13%| 14%| 16%| 33%| 37%| 38%| 40%| 43%| 49%|--| 51%| 51%| 58%| 82%| 83%| 88%| 89%| 93%
+|Anaheim Jr. Ducks|  1%|  1%|  2%|  3%|  3%|  4%|  5%| 12%| 14%| 15%| 33%| 36%| 37%| 39%| 43%| 48%| 49%|--| 50%| 57%| 82%| 82%| 88%| 89%| 93%
+|Mission Arizona|  1%|  1%|  2%|  3%|  3%|  4%|  5%| 12%| 14%| 15%| 33%| 36%| 37%| 39%| 43%| 48%| 49%| 50%|--| 57%| 82%| 82%| 88%| 89%| 93%
+|Igloo Jaguars 18UAA Premier|  1%|  1%|  1%|  2%|  2%|  3%|  3%| 10%| 11%| 12%| 27%| 30%| 31%| 32%| 36%| 41%| 42%| 43%| 43%|--| 77%| 78%| 85%| 86%| 91%
+|Palmyra Black Knights|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  3%|  3%|  4%| 10%| 11%| 12%| 13%| 14%| 17%| 18%| 18%| 18%| 23%|--| 51%| 63%| 64%| 76%
+|Tri-City Eagles 18U Gold|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  3%|  3%|  4%|  9%| 11%| 11%| 12%| 14%| 17%| 17%| 18%| 18%| 22%| 49%|--| 61%| 63%| 75%
+|North Jersey Kings Blue|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  2%|  2%|  2%|  6%|  7%|  7%|  8%|  9%| 11%| 12%| 12%| 12%| 15%| 37%| 39%|--| 52%| 65%
+|Igloo Jaguars 18UAA Elite|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  2%|  2%|  2%|  6%|  7%|  7%|  7%|  8%| 10%| 11%| 11%| 11%| 14%| 36%| 37%| 48%|--| 63%
+|Delaware Ducks|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  3%|  4%|  4%|  4%|  5%|  6%|  7%|  7%|  7%|  9%| 24%| 25%| 35%| 37%|--
 
 ## Generation Details
 
@@ -75,8 +75,9 @@ Generated with command line:
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
 | Shootout Loss Value | 0.00 |
-| Tie Value | 0.85 |
-| Fake Ties | 1 |
+| Tie Value | 0.50 |
+| Fake Ties | 0 |
+| Alpha Games | 1 |
 | Ignore teams | __KRACH_FAKE_TEAM__ |
 | Min Games Played | 4 |
 

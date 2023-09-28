@@ -1,76 +1,76 @@
 [<- back to the index](readme.md)
 # 16U Lemieux KRACH Rankings
-Rankings generated on Thu Sep 28 07:15:13 2023.
+Rankings generated on Thu Sep 28 09:53:23 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1290|Championship|[Rinx](https://gamesheetstats.com/seasons/3659/teams/142497/schedule)|4|4|0|0|0|0|265|4.8|-0.0
-2|959|Championship|[Hollydell Hurricanes Red](https://gamesheetstats.com/seasons/3659/teams/140706/schedule)|9|8|1|0|1|0|258|8.8|-0.0
-3|802|Championship|[Lancaster Firbirds 16U Orange](https://gamesheetstats.com/seasons/3659/teams/140710/schedule)|9|8|1|0|0|0|213|8.8|-0.0
-4|674|Championship|[Palmyra Black Knights - Mihan](https://gamesheetstats.com/seasons/3659/teams/140716/schedule)|13|11|2|0|0|0|217|11.8|-0.0
-5|635|Gold|[MYHA 16U LA](https://gamesheetstats.com/seasons/3659/teams/140712/schedule)|8|6|2|0|0|0|357|6.8|-0.0
-6|505|Gold|[Team Philadelphia Orange](https://gamesheetstats.com/seasons/3659/teams/140721/schedule)|9|7|2|0|2|0|242|7.8|-0.0
-7|416|Gold|[VFC 16A Dunleavy](https://gamesheetstats.com/seasons/3659/teams/140723/schedule)|10|8|2|0|0|0|217|8.8|-0.0
-8|359|Gold|[Wissahickon Warriors White](https://gamesheetstats.com/seasons/3659/teams/140728/schedule)|10|6|4|0|0|1|434|6.8|-0.0
-9|335|Silver|[Southern Maryland Sabres 16U Gold](https://gamesheetstats.com/seasons/3659/teams/140719/schedule)|6|5|1|0|0|0|140|5.9|0.0
-10|245|Silver|[Grundy Senators](https://gamesheetstats.com/seasons/3659/teams/140704/schedule)|10|8|2|0|0|0|130|8.9|0.0
-11|227|Silver|[Wildcats 16U A Black](https://gamesheetstats.com/seasons/3659/teams/140725/schedule)|13|8|4|1|0|0|168|9.7|0.0
-12|214|Silver|[STJ 16U Navy](https://gamesheetstats.com/seasons/3659/teams/140720/schedule)|6|3|3|0|1|0|330|3.8|-0.0
-13|206|Bronze|[Tri City Eagles 16U Red](https://gamesheetstats.com/seasons/3659/teams/140722/schedule)|8|4|4|0|0|0|332|4.8|-0.0
-14|186|Bronze|[Philadelphia Blazers 16U A Lemieux](https://gamesheetstats.com/seasons/3659/teams/140717/schedule)|11|5|5|1|0|0|246|6.7|0.0
-15|172|Bronze|[Ashburn Xtreme 16U A](https://gamesheetstats.com/seasons/3659/teams/140702/schedule)|8|4|4|0|0|2|235|4.9|0.0
-16|145|Bronze|[Frederick Freeze 16U LA](https://gamesheetstats.com/seasons/3659/teams/140703/schedule)|9|4|5|0|0|0|382|4.9|0.0
-17|134||[Wildcats 16U A Red](https://gamesheetstats.com/seasons/3659/teams/140726/schedule)|12|7|5|0|1|1|147|7.9|0.0
-18|132||[NJ Bandits 16A](https://gamesheetstats.com/seasons/3659/teams/140713/schedule)|12|7|5|0|1|0|133|7.9|0.0
-19|72||[North Jersey Kings Red](https://gamesheetstats.com/seasons/3659/teams/140714/schedule)|11|5|6|0|0|1|125|5.9|0.0
-20|65||[16U TI North Stars Red](https://gamesheetstats.com/seasons/3659/teams/140701/schedule)|11|5|5|1|0|0|240|6.7|0.0
-21|48||[Lehigh Valley Phantoms Youth U16A](https://gamesheetstats.com/seasons/3659/teams/140711/schedule)|9|2|6|1|0|0|194|3.7|0.0
-22|46||[VFC 16A Kelly](https://gamesheetstats.com/seasons/3659/teams/140724/schedule)|8|3|3|2|0|0|149|5.6|0.0
-23|45||[Hollydell Hurricanes White](https://gamesheetstats.com/seasons/3659/teams/140707/schedule)|9|2|7|0|0|0|202|2.9|0.0
-24|39||[Jersey Colts 16 White](https://gamesheetstats.com/seasons/3659/teams/140709/schedule)|10|1|9|0|0|1|311|1.9|0.0
-25|30||[Haverford Hawks 16U A Red](https://gamesheetstats.com/seasons/3659/teams/140705/schedule)|8|2|5|1|0|0|207|3.7|0.0
-26|28||[Royals 16U A Blue](https://gamesheetstats.com/seasons/3659/teams/140718/schedule)|12|2|10|0|0|0|348|2.9|0.0
-27|28||[Wildcats 16U A White](https://gamesheetstats.com/seasons/3659/teams/140727/schedule)|12|3|8|1|0|0|203|4.7|0.0
-28|21||[Igloo Jaguars 16UA Green](https://gamesheetstats.com/seasons/3659/teams/140708/schedule)|11|1|9|1|0|0|210|2.7|0.0
-29|20||[Royals LT](https://gamesheetstats.com/seasons/3659/teams/142498/schedule)|4|0|4|0|0|0|184|0.9|0.0
-30|16||[York Devils](https://gamesheetstats.com/seasons/3659/teams/140729/schedule)|10|0|9|1|0|0|272|1.7|0.0
-31|6||[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140715/schedule)|10|0|10|0|0|0|177|0.9|0.0
+1|4564|Championship|[Rinx](https://gamesheetstats.com/seasons/3659/teams/142497/schedule)|4|4|0|0|0|0|150|4.8|-0.0
+2|753|Championship|[Hollydell Hurricanes Red](https://gamesheetstats.com/seasons/3659/teams/140706/schedule)|9|8|1|0|1|0|124|8.8|-0.0
+3|490|Championship|[MYHA 16U LA](https://gamesheetstats.com/seasons/3659/teams/140712/schedule)|8|6|2|0|0|0|602|6.8|-0.0
+4|432|Championship|[Lancaster Firbirds 16U Orange](https://gamesheetstats.com/seasons/3659/teams/140710/schedule)|9|8|1|0|0|0|100|8.9|0.0
+5|381|Gold|[Palmyra Black Knights - Mihan](https://gamesheetstats.com/seasons/3659/teams/140716/schedule)|13|11|2|0|0|0|114|11.8|-0.0
+6|261|Gold|[Team Philadelphia Orange](https://gamesheetstats.com/seasons/3659/teams/140721/schedule)|9|7|2|0|2|0|118|7.8|-0.0
+7|220|Gold|[Wissahickon Warriors White](https://gamesheetstats.com/seasons/3659/teams/140728/schedule)|10|6|4|0|0|1|617|6.8|-0.0
+8|185|Gold|[VFC 16A Dunleavy](https://gamesheetstats.com/seasons/3659/teams/140723/schedule)|10|8|2|0|0|0|118|8.8|-0.0
+9|125|Silver|[Southern Maryland Sabres 16U Gold](https://gamesheetstats.com/seasons/3659/teams/140719/schedule)|6|5|1|0|0|0|48|5.9|0.0
+10|102|Silver|[Wildcats 16U A Black](https://gamesheetstats.com/seasons/3659/teams/140725/schedule)|13|8|4|1|0|0|153|9.4|0.0
+11|73|Silver|[STJ 16U Navy](https://gamesheetstats.com/seasons/3659/teams/140720/schedule)|6|3|3|0|1|0|156|3.9|0.0
+12|69|Silver|[Tri City Eagles 16U Red](https://gamesheetstats.com/seasons/3659/teams/140722/schedule)|8|4|4|0|0|0|148|4.9|0.0
+13|57|Bronze|[Philadelphia Blazers 16U A Lemieux](https://gamesheetstats.com/seasons/3659/teams/140717/schedule)|11|5|5|1|0|0|126|6.4|0.0
+14|51|Bronze|[Ashburn Xtreme 16U A](https://gamesheetstats.com/seasons/3659/teams/140702/schedule)|8|4|4|0|0|2|100|4.8|-0.0
+15|43|Bronze|[Grundy Senators](https://gamesheetstats.com/seasons/3659/teams/140704/schedule)|10|8|2|0|0|0|46|8.9|0.0
+16|31|Bronze|[NJ Bandits 16A](https://gamesheetstats.com/seasons/3659/teams/140713/schedule)|12|7|5|0|1|0|48|7.9|0.0
+17|30||[Wildcats 16U A Red](https://gamesheetstats.com/seasons/3659/teams/140726/schedule)|12|7|5|0|1|1|61|7.9|0.0
+18|30||[Frederick Freeze 16U LA](https://gamesheetstats.com/seasons/3659/teams/140703/schedule)|9|4|5|0|0|0|559|4.9|0.0
+19|10||[North Jersey Kings Red](https://gamesheetstats.com/seasons/3659/teams/140714/schedule)|11|5|6|0|0|1|36|5.9|0.0
+20|8||[Jersey Colts 16 White](https://gamesheetstats.com/seasons/3659/teams/140709/schedule)|10|1|9|0|0|1|489|1.9|0.0
+21|7||[16U TI North Stars Red](https://gamesheetstats.com/seasons/3659/teams/140701/schedule)|11|5|5|1|0|0|132|6.4|0.0
+22|6||[Hollydell Hurricanes White](https://gamesheetstats.com/seasons/3659/teams/140707/schedule)|9|2|7|0|0|0|75|2.9|0.0
+23|6||[Lehigh Valley Phantoms Youth U16A](https://gamesheetstats.com/seasons/3659/teams/140711/schedule)|9|2|6|1|0|0|93|3.4|0.0
+24|4||[VFC 16A Kelly](https://gamesheetstats.com/seasons/3659/teams/140724/schedule)|8|3|3|2|0|0|87|4.9|0.0
+25|3||[Haverford Hawks 16U A Red](https://gamesheetstats.com/seasons/3659/teams/140705/schedule)|8|2|5|1|0|0|94|3.4|0.0
+26|3||[Wildcats 16U A White](https://gamesheetstats.com/seasons/3659/teams/140727/schedule)|12|3|8|1|0|0|100|4.4|0.0
+27|3||[Royals 16U A Blue](https://gamesheetstats.com/seasons/3659/teams/140718/schedule)|12|2|10|0|0|0|178|2.9|0.0
+28|2||[Igloo Jaguars 16UA Green](https://gamesheetstats.com/seasons/3659/teams/140708/schedule)|11|1|9|1|0|0|80|2.4|0.0
+29|1||[Royals LT](https://gamesheetstats.com/seasons/3659/teams/142498/schedule)|4|0|4|0|0|0|48|0.9|0.0
+30|1||[York Devils](https://gamesheetstats.com/seasons/3659/teams/140729/schedule)|10|0|9|1|0|0|138|1.4|0.0
+31|1||[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140715/schedule)|10|0|10|0|0|0|69|0.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Rinx|Hollydell Hurricanes Red|Lancaster Firbirds 16U Orange|Palmyra Black Knights - Mihan|MYHA 16U LA|Team Philadelphia Orange|VFC 16A Dunleavy|Wissahickon Warriors White|Southern Maryland Sabres 16U Gold|Grundy Senators|Wildcats 16U A Black|STJ 16U Navy|Tri City Eagles 16U Red|Philadelphia Blazers 16U A Lemieux|Ashburn Xtreme 16U A|Frederick Freeze 16U LA|Wildcats 16U A Red|NJ Bandits 16A|North Jersey Kings Red|16U TI North Stars Red|Lehigh Valley Phantoms Youth U16A|VFC 16A Kelly|Hollydell Hurricanes White|Jersey Colts 16 White|Haverford Hawks 16U A Red|Royals 16U A Blue|Wildcats 16U A White|Igloo Jaguars 16UA Green|Royals LT|York Devils|North Jersey Skylands Kings
+||Rinx|Hollydell Hurricanes Red|MYHA 16U LA|Lancaster Firbirds 16U Orange|Palmyra Black Knights - Mihan|Team Philadelphia Orange|Wissahickon Warriors White|VFC 16A Dunleavy|Southern Maryland Sabres 16U Gold|Wildcats 16U A Black|STJ 16U Navy|Tri City Eagles 16U Red|Philadelphia Blazers 16U A Lemieux|Ashburn Xtreme 16U A|Grundy Senators|NJ Bandits 16A|Wildcats 16U A Red|Frederick Freeze 16U LA|North Jersey Kings Red|Jersey Colts 16 White|16U TI North Stars Red|Hollydell Hurricanes White|Lehigh Valley Phantoms Youth U16A|VFC 16A Kelly|Haverford Hawks 16U A Red|Wildcats 16U A White|Royals 16U A Blue|Igloo Jaguars 16UA Green|Royals LT|York Devils|North Jersey Skylands Kings
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Rinx|--| 57%| 62%| 66%| 67%| 72%| 76%| 78%| 79%| 84%| 85%| 86%| 86%| 87%| 88%| 90%| 91%| 91%| 95%| 95%| 96%| 97%| 97%| 97%| 98%| 98%| 98%| 98%| 99%| 99%|100%
-|Hollydell Hurricanes Red| 43%|--| 54%| 59%| 60%| 65%| 70%| 73%| 74%| 80%| 81%| 82%| 82%| 84%| 85%| 87%| 88%| 88%| 93%| 94%| 95%| 95%| 96%| 96%| 97%| 97%| 97%| 98%| 98%| 98%| 99%
-|Lancaster Firbirds 16U Orange| 38%| 46%|--| 54%| 56%| 61%| 66%| 69%| 71%| 77%| 78%| 79%| 80%| 81%| 82%| 85%| 86%| 86%| 92%| 93%| 94%| 95%| 95%| 95%| 96%| 97%| 97%| 97%| 98%| 98%| 99%
-|Palmyra Black Knights - Mihan| 34%| 41%| 46%|--| 51%| 57%| 62%| 65%| 67%| 73%| 75%| 76%| 77%| 78%| 80%| 82%| 83%| 84%| 90%| 91%| 93%| 94%| 94%| 95%| 96%| 96%| 96%| 97%| 97%| 98%| 99%
-|MYHA 16U LA| 33%| 40%| 44%| 49%|--| 56%| 60%| 64%| 65%| 72%| 74%| 75%| 76%| 77%| 79%| 81%| 83%| 83%| 90%| 91%| 93%| 93%| 93%| 94%| 95%| 96%| 96%| 97%| 97%| 98%| 99%
-|Team Philadelphia Orange| 28%| 35%| 39%| 43%| 44%|--| 55%| 58%| 60%| 67%| 69%| 70%| 71%| 73%| 75%| 78%| 79%| 79%| 87%| 89%| 91%| 92%| 92%| 93%| 94%| 95%| 95%| 96%| 96%| 97%| 99%
-|VFC 16A Dunleavy| 24%| 30%| 34%| 38%| 40%| 45%|--| 54%| 55%| 63%| 65%| 66%| 67%| 69%| 71%| 74%| 76%| 76%| 85%| 86%| 90%| 90%| 90%| 92%| 93%| 94%| 94%| 95%| 95%| 96%| 99%
-|Wissahickon Warriors White| 22%| 27%| 31%| 35%| 36%| 42%| 46%|--| 52%| 59%| 61%| 63%| 64%| 66%| 68%| 71%| 73%| 73%| 83%| 85%| 88%| 89%| 89%| 90%| 92%| 93%| 93%| 95%| 95%| 96%| 98%
-|Southern Maryland Sabres 16U Gold| 21%| 26%| 29%| 33%| 35%| 40%| 45%| 48%|--| 58%| 60%| 61%| 62%| 64%| 66%| 70%| 71%| 72%| 82%| 84%| 87%| 88%| 88%| 90%| 92%| 92%| 92%| 94%| 94%| 95%| 98%
-|Grundy Senators| 16%| 20%| 23%| 27%| 28%| 33%| 37%| 41%| 42%|--| 52%| 53%| 54%| 57%| 59%| 63%| 65%| 65%| 77%| 79%| 84%| 84%| 84%| 86%| 89%| 90%| 90%| 92%| 93%| 94%| 98%
-|Wildcats 16U A Black| 15%| 19%| 22%| 25%| 26%| 31%| 35%| 39%| 40%| 48%|--| 51%| 52%| 55%| 57%| 61%| 63%| 63%| 76%| 78%| 83%| 83%| 83%| 85%| 88%| 89%| 89%| 92%| 92%| 93%| 98%
-|STJ 16U Navy| 14%| 18%| 21%| 24%| 25%| 30%| 34%| 37%| 39%| 47%| 49%|--| 51%| 53%| 55%| 60%| 61%| 62%| 75%| 77%| 82%| 82%| 83%| 85%| 88%| 88%| 88%| 91%| 92%| 93%| 97%
-|Tri City Eagles 16U Red| 14%| 18%| 20%| 23%| 24%| 29%| 33%| 36%| 38%| 46%| 48%| 49%|--| 53%| 54%| 59%| 60%| 61%| 74%| 76%| 81%| 82%| 82%| 84%| 87%| 88%| 88%| 91%| 91%| 93%| 97%
-|Philadelphia Blazers 16U A Lemieux| 13%| 16%| 19%| 22%| 23%| 27%| 31%| 34%| 36%| 43%| 45%| 47%| 47%|--| 52%| 56%| 58%| 58%| 72%| 74%| 79%| 80%| 80%| 83%| 86%| 87%| 87%| 90%| 90%| 92%| 97%
-|Ashburn Xtreme 16U A| 12%| 15%| 18%| 20%| 21%| 25%| 29%| 32%| 34%| 41%| 43%| 45%| 46%| 48%|--| 54%| 56%| 57%| 70%| 73%| 78%| 79%| 79%| 82%| 85%| 86%| 86%| 89%| 90%| 92%| 97%
-|Frederick Freeze 16U LA| 10%| 13%| 15%| 18%| 19%| 22%| 26%| 29%| 30%| 37%| 39%| 40%| 41%| 44%| 46%|--| 52%| 52%| 67%| 69%| 75%| 76%| 76%| 79%| 83%| 84%| 84%| 88%| 88%| 90%| 96%
-|Wildcats 16U A Red|  9%| 12%| 14%| 17%| 17%| 21%| 24%| 27%| 29%| 35%| 37%| 39%| 40%| 42%| 44%| 48%|--| 50%| 65%| 67%| 74%| 74%| 75%| 78%| 82%| 83%| 83%| 87%| 87%| 89%| 96%
-|NJ Bandits 16A|  9%| 12%| 14%| 16%| 17%| 21%| 24%| 27%| 28%| 35%| 37%| 38%| 39%| 42%| 43%| 48%| 50%|--| 65%| 67%| 73%| 74%| 75%| 77%| 81%| 82%| 83%| 87%| 87%| 89%| 96%
-|North Jersey Kings Red|  5%|  7%|  8%| 10%| 10%| 13%| 15%| 17%| 18%| 23%| 24%| 25%| 26%| 28%| 30%| 33%| 35%| 35%|--| 53%| 60%| 61%| 62%| 65%| 70%| 72%| 72%| 78%| 79%| 82%| 93%
-|16U TI North Stars Red|  5%|  6%|  7%|  9%|  9%| 11%| 14%| 15%| 16%| 21%| 22%| 23%| 24%| 26%| 27%| 31%| 33%| 33%| 47%|--| 58%| 58%| 59%| 63%| 68%| 70%| 70%| 76%| 77%| 80%| 92%
-|Lehigh Valley Phantoms Youth U16A|  4%|  5%|  6%|  7%|  7%|  9%| 10%| 12%| 13%| 16%| 17%| 18%| 19%| 21%| 22%| 25%| 26%| 27%| 40%| 42%|--| 51%| 52%| 55%| 61%| 63%| 63%| 70%| 71%| 75%| 89%
-|VFC 16A Kelly|  3%|  5%|  5%|  6%|  7%|  8%| 10%| 11%| 12%| 16%| 17%| 18%| 18%| 20%| 21%| 24%| 26%| 26%| 39%| 42%| 49%|--| 51%| 55%| 60%| 62%| 62%| 69%| 70%| 74%| 89%
-|Hollydell Hurricanes White|  3%|  4%|  5%|  6%|  7%|  8%| 10%| 11%| 12%| 16%| 17%| 17%| 18%| 20%| 21%| 24%| 25%| 25%| 38%| 41%| 48%| 49%|--| 54%| 60%| 62%| 62%| 69%| 70%| 74%| 89%
-|Jersey Colts 16 White|  3%|  4%|  5%|  5%|  6%|  7%|  8%| 10%| 10%| 14%| 15%| 15%| 16%| 17%| 18%| 21%| 22%| 23%| 35%| 37%| 45%| 45%| 46%|--| 56%| 58%| 58%| 65%| 66%| 71%| 87%
-|Haverford Hawks 16U A Red|  2%|  3%|  4%|  4%|  5%|  6%|  7%|  8%|  8%| 11%| 12%| 12%| 13%| 14%| 15%| 17%| 18%| 19%| 30%| 32%| 39%| 40%| 40%| 44%|--| 52%| 52%| 60%| 61%| 66%| 84%
-|Royals 16U A Blue|  2%|  3%|  3%|  4%|  4%|  5%|  6%|  7%|  8%| 10%| 11%| 12%| 12%| 13%| 14%| 16%| 17%| 18%| 28%| 30%| 37%| 38%| 38%| 42%| 48%|--| 50%| 58%| 59%| 64%| 83%
-|Wildcats 16U A White|  2%|  3%|  3%|  4%|  4%|  5%|  6%|  7%|  8%| 10%| 11%| 12%| 12%| 13%| 14%| 16%| 17%| 17%| 28%| 30%| 37%| 38%| 38%| 42%| 48%| 50%|--| 58%| 59%| 64%| 83%
-|Igloo Jaguars 16UA Green|  2%|  2%|  3%|  3%|  3%|  4%|  5%|  5%|  6%|  8%|  8%|  9%|  9%| 10%| 11%| 12%| 13%| 13%| 22%| 24%| 30%| 31%| 31%| 35%| 40%| 42%| 42%|--| 51%| 57%| 78%
-|Royals LT|  1%|  2%|  2%|  3%|  3%|  4%|  5%|  5%|  6%|  7%|  8%|  8%|  9%| 10%| 10%| 12%| 13%| 13%| 21%| 23%| 29%| 30%| 30%| 34%| 39%| 41%| 41%| 49%|--| 55%| 77%
-|York Devils|  1%|  2%|  2%|  2%|  2%|  3%|  4%|  4%|  5%|  6%|  7%|  7%|  7%|  8%|  8%| 10%| 11%| 11%| 18%| 20%| 25%| 26%| 26%| 29%| 34%| 36%| 36%| 43%| 45%|--| 73%
-|North Jersey Skylands Kings|  0%|  1%|  1%|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  2%|  3%|  3%|  3%|  3%|  4%|  4%|  4%|  7%|  8%| 11%| 11%| 11%| 13%| 16%| 17%| 17%| 22%| 23%| 27%|--
+|Rinx|--| 86%| 90%| 91%| 92%| 95%| 95%| 96%| 97%| 98%| 98%| 99%| 99%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%
+|Hollydell Hurricanes Red| 14%|--| 61%| 64%| 66%| 74%| 77%| 80%| 86%| 88%| 91%| 92%| 93%| 94%| 95%| 96%| 96%| 96%| 99%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%
+|MYHA 16U LA| 10%| 39%|--| 53%| 56%| 65%| 69%| 73%| 80%| 83%| 87%| 88%| 90%| 91%| 92%| 94%| 94%| 94%| 98%| 98%| 99%| 99%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%
+|Lancaster Firbirds 16U Orange|  9%| 36%| 47%|--| 53%| 62%| 66%| 70%| 78%| 81%| 86%| 86%| 88%| 89%| 91%| 93%| 94%| 94%| 98%| 98%| 98%| 99%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%
+|Palmyra Black Knights - Mihan|  8%| 34%| 44%| 47%|--| 59%| 63%| 67%| 75%| 79%| 84%| 85%| 87%| 88%| 90%| 93%| 93%| 93%| 97%| 98%| 98%| 98%| 98%| 99%| 99%| 99%| 99%|100%|100%|100%|100%
+|Team Philadelphia Orange|  5%| 26%| 35%| 38%| 41%|--| 54%| 58%| 68%| 72%| 78%| 79%| 82%| 84%| 86%| 89%| 90%| 90%| 96%| 97%| 97%| 98%| 98%| 98%| 99%| 99%| 99%| 99%| 99%|100%|100%
+|Wissahickon Warriors White|  5%| 23%| 31%| 34%| 37%| 46%|--| 54%| 64%| 68%| 75%| 76%| 80%| 81%| 84%| 88%| 88%| 88%| 96%| 97%| 97%| 97%| 97%| 98%| 99%| 99%| 99%| 99%| 99%| 99%|100%
+|VFC 16A Dunleavy|  4%| 20%| 27%| 30%| 33%| 42%| 46%|--| 60%| 64%| 72%| 73%| 77%| 78%| 81%| 86%| 86%| 86%| 95%| 96%| 96%| 97%| 97%| 98%| 99%| 99%| 99%| 99%| 99%| 99%|100%
+|Southern Maryland Sabres 16U Gold|  3%| 14%| 20%| 22%| 25%| 32%| 36%| 40%|--| 55%| 63%| 65%| 69%| 71%| 74%| 80%| 81%| 81%| 92%| 94%| 95%| 95%| 95%| 97%| 98%| 98%| 98%| 99%| 99%| 99%|100%
+|Wildcats 16U A Black|  2%| 12%| 17%| 19%| 21%| 28%| 32%| 36%| 45%|--| 58%| 60%| 64%| 67%| 70%| 77%| 77%| 77%| 91%| 93%| 93%| 94%| 95%| 96%| 97%| 97%| 98%| 98%| 99%| 99%|100%
+|STJ 16U Navy|  2%|  9%| 13%| 14%| 16%| 22%| 25%| 28%| 37%| 42%|--| 52%| 56%| 59%| 63%| 70%| 71%| 71%| 88%| 90%| 91%| 92%| 93%| 95%| 96%| 96%| 97%| 98%| 98%| 98%| 99%
+|Tri City Eagles 16U Red|  1%|  8%| 12%| 14%| 15%| 21%| 24%| 27%| 35%| 40%| 48%|--| 55%| 57%| 61%| 69%| 70%| 70%| 87%| 90%| 91%| 91%| 92%| 94%| 96%| 96%| 96%| 97%| 98%| 98%| 99%
+|Philadelphia Blazers 16U A Lemieux|  1%|  7%| 10%| 12%| 13%| 18%| 20%| 23%| 31%| 36%| 44%| 45%|--| 52%| 57%| 65%| 66%| 66%| 85%| 88%| 89%| 90%| 91%| 93%| 95%| 95%| 96%| 97%| 98%| 98%| 99%
+|Ashburn Xtreme 16U A|  1%|  6%|  9%| 11%| 12%| 16%| 19%| 22%| 29%| 33%| 41%| 43%| 48%|--| 54%| 62%| 63%| 63%| 83%| 87%| 88%| 89%| 90%| 93%| 95%| 95%| 95%| 97%| 97%| 98%| 99%
+|Grundy Senators|  1%|  5%|  8%|  9%| 10%| 14%| 16%| 19%| 26%| 30%| 37%| 39%| 43%| 46%|--| 58%| 59%| 59%| 81%| 85%| 86%| 87%| 88%| 91%| 94%| 94%| 94%| 96%| 97%| 97%| 99%
+|NJ Bandits 16A|  1%|  4%|  6%|  7%|  7%| 11%| 12%| 14%| 20%| 23%| 30%| 31%| 35%| 38%| 42%|--| 51%| 51%| 75%| 80%| 81%| 83%| 84%| 88%| 92%| 92%| 92%| 95%| 96%| 96%| 98%
+|Wildcats 16U A Red|  1%|  4%|  6%|  6%|  7%| 10%| 12%| 14%| 19%| 23%| 29%| 30%| 34%| 37%| 41%| 49%|--| 50%| 74%| 79%| 81%| 82%| 83%| 88%| 92%| 92%| 92%| 94%| 96%| 96%| 98%
+|Frederick Freeze 16U LA|  1%|  4%|  6%|  6%|  7%| 10%| 12%| 14%| 19%| 23%| 29%| 30%| 34%| 37%| 41%| 49%| 50%|--| 74%| 79%| 81%| 82%| 83%| 88%| 92%| 92%| 92%| 94%| 96%| 96%| 98%
+|North Jersey Kings Red|  0%|  1%|  2%|  2%|  3%|  4%|  4%|  5%|  8%|  9%| 12%| 13%| 15%| 17%| 19%| 25%| 26%| 26%|--| 57%| 59%| 62%| 64%| 71%| 79%| 79%| 80%| 85%| 89%| 90%| 95%
+|Jersey Colts 16 White|  0%|  1%|  2%|  2%|  2%|  3%|  3%|  4%|  6%|  7%| 10%| 10%| 12%| 13%| 15%| 20%| 21%| 21%| 43%|--| 53%| 55%| 57%| 66%| 75%| 75%| 76%| 82%| 86%| 87%| 94%
+|16U TI North Stars Red|  0%|  1%|  1%|  2%|  2%|  3%|  3%|  4%|  5%|  7%|  9%|  9%| 11%| 12%| 14%| 19%| 19%| 19%| 41%| 47%|--| 53%| 55%| 63%| 72%| 73%| 74%| 80%| 84%| 86%| 93%
+|Hollydell Hurricanes White|  0%|  1%|  1%|  1%|  2%|  2%|  3%|  3%|  5%|  6%|  8%|  9%| 10%| 11%| 13%| 17%| 18%| 18%| 38%| 45%| 47%|--| 52%| 61%| 70%| 71%| 72%| 78%| 83%| 84%| 93%
+|Lehigh Valley Phantoms Youth U16A|  0%|  1%|  1%|  1%|  2%|  2%|  3%|  3%|  5%|  5%|  7%|  8%|  9%| 10%| 12%| 16%| 17%| 17%| 36%| 43%| 45%| 48%|--| 59%| 69%| 69%| 70%| 77%| 82%| 83%| 92%
+|VFC 16A Kelly|  0%|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  3%|  4%|  5%|  6%|  7%|  7%|  9%| 12%| 12%| 12%| 29%| 34%| 37%| 39%| 41%|--| 60%| 60%| 62%| 70%| 76%| 78%| 89%
+|Haverford Hawks 16U A Red|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  1%|  2%|  3%|  4%|  4%|  5%|  5%|  6%|  8%|  8%|  8%| 21%| 25%| 28%| 30%| 31%| 40%|--| 50%| 52%| 60%| 67%| 70%| 84%
+|Wildcats 16U A White|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  1%|  2%|  3%|  4%|  4%|  5%|  5%|  6%|  8%|  8%|  8%| 21%| 25%| 27%| 29%| 31%| 40%| 50%|--| 51%| 60%| 67%| 69%| 84%
+|Royals 16U A Blue|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  1%|  2%|  2%|  3%|  4%|  4%|  5%|  6%|  8%|  8%|  8%| 20%| 24%| 26%| 28%| 30%| 38%| 48%| 49%|--| 59%| 66%| 68%| 83%
+|Igloo Jaguars 16UA Green|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  2%|  2%|  3%|  3%|  3%|  4%|  5%|  6%|  6%| 15%| 18%| 20%| 22%| 23%| 30%| 40%| 40%| 41%|--| 57%| 60%| 78%
+|Royals LT|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  3%|  3%|  4%|  4%|  4%| 11%| 14%| 16%| 17%| 18%| 24%| 33%| 33%| 34%| 43%|--| 53%| 72%
+|York Devils|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  2%|  3%|  4%|  4%|  4%| 10%| 13%| 14%| 16%| 17%| 22%| 30%| 31%| 32%| 40%| 47%|--| 70%
+|North Jersey Skylands Kings|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  5%|  6%|  7%|  7%|  8%| 11%| 16%| 16%| 17%| 22%| 28%| 30%|--
 
 ## Generation Details
 
@@ -87,8 +87,9 @@ Generated with command line:
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
 | Shootout Loss Value | 0.00 |
-| Tie Value | 0.85 |
-| Fake Ties | 1 |
+| Tie Value | 0.50 |
+| Fake Ties | 0 |
+| Alpha Games | 1 |
 | Ignore teams | __KRACH_FAKE_TEAM__ |
 | Min Games Played | 4 |
 

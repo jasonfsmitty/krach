@@ -1,74 +1,74 @@
 [<- back to the index](readme.md)
 # 12U Lemieux KRACH Rankings
-Rankings generated on Thu Sep 28 07:15:13 2023.
+Rankings generated on Thu Sep 28 09:53:22 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2828|Championship|[Ashburn Xtreme 12U X](https://gamesheetstats.com/seasons/3659/teams/140470/schedule)|10|10|0|0|1|0|233|10.8|-0.0
-2|1217|Championship|[Rye Rangers](https://gamesheetstats.com/seasons/3659/teams/140492/schedule)|4|4|0|0|0|0|246|4.9|0.0
-3|1112|Championship|[PAL Sound Tigers](https://gamesheetstats.com/seasons/3659/teams/140486/schedule)|7|7|0|0|0|0|131|7.9|0.0
-4|729|Championship|[Rinx](https://gamesheetstats.com/seasons/3659/teams/142496/schedule)|4|4|0|0|0|0|144|4.9|0.0
-5|497|Gold|[MYHA 12U LA Gold](https://gamesheetstats.com/seasons/3659/teams/140481/schedule)|8|6|2|0|0|0|300|6.9|0.0
-6|432|Gold|[North Jersey Avalanche Blue](https://gamesheetstats.com/seasons/3659/teams/140483/schedule)|10|8|2|0|1|1|210|8.9|0.0
-7|371|Gold|[Igloo Jaguars 12UA Black](https://gamesheetstats.com/seasons/3659/teams/140474/schedule)|9|5|4|0|0|0|839|5.8|-0.0
-8|359|Gold|[Palmyra Black Knights - Hallman](https://gamesheetstats.com/seasons/3659/teams/140487/schedule)|10|6|3|1|0|0|648|7.7|-0.0
-9|299|Silver|[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140473/schedule)|10|8|2|0|0|1|139|8.9|0.0
-10|278|Silver|[Haverford Hawks 12UA](https://gamesheetstats.com/seasons/3659/teams/140472/schedule)|10|6|4|0|0|2|647|6.8|-0.0
-11|202|Silver|[MYHA 12U LA Blue](https://gamesheetstats.com/seasons/3659/teams/140480/schedule)|6|2|3|1|0|0|396|3.7|0.0
-12|195|Silver|[Mercer Chiefs Black](https://gamesheetstats.com/seasons/3659/teams/140479/schedule)|10|7|3|0|3|0|146|7.9|0.0
-13|172|Bronze|[Team Philadelphia Orange](https://gamesheetstats.com/seasons/3659/teams/140495/schedule)|9|6|3|0|0|0|209|6.9|0.0
-14|162|Bronze|[STJ 12U White](https://gamesheetstats.com/seasons/3659/teams/140494/schedule)|4|2|2|0|0|0|284|2.9|0.0
-15|154|Bronze|[Jersey Colts PW Silver](https://gamesheetstats.com/seasons/3659/teams/140476/schedule)|9|6|3|0|2|0|351|6.9|0.0
-16|135|Bronze|[Wildcats 12U A](https://gamesheetstats.com/seasons/3659/teams/140497/schedule)|9|4|5|0|0|0|479|4.9|0.0
-17|133||[Wissahickon Warriors White](https://gamesheetstats.com/seasons/3659/teams/140498/schedule)|9|5|4|0|1|0|259|5.9|0.0
-18|88||[Lehigh Valley Phantoms Youth U12 A](https://gamesheetstats.com/seasons/3659/teams/140478/schedule)|10|5|5|0|1|0|345|5.9|0.0
-19|82||[Southern Maryland Sabres 12U Black](https://gamesheetstats.com/seasons/3659/teams/140493/schedule)|4|1|3|0|0|0|241|1.9|0.0
-20|57||[RHC PW Minor AA](https://gamesheetstats.com/seasons/3659/teams/140490/schedule)|10|4|6|0|1|3|125|4.9|0.0
-21|47||[Igloo Jaguars 12UA Green](https://gamesheetstats.com/seasons/3659/teams/140475/schedule)|10|3|7|0|1|0|449|3.9|0.0
-22|41||[North Jersey Avalanche Gold](https://gamesheetstats.com/seasons/3659/teams/140484/schedule)|3|1|2|0|0|1|86|1.9|0.0
-23|37||[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140488/schedule)|10|1|9|0|0|0|386|1.9|0.0
-24|34||[Frederick Freeze 12U LA](https://gamesheetstats.com/seasons/3659/teams/140471/schedule)|4|0|4|0|0|0|242|0.9|0.0
-25|33||[Royals 12U A Blue](https://gamesheetstats.com/seasons/3659/teams/140491/schedule)|8|2|6|0|0|1|225|2.9|0.0
-26|30||[MYHA 12U LA White](https://gamesheetstats.com/seasons/3659/teams/140482/schedule)|8|1|7|0|0|0|246|1.9|0.0
-27|22||[North Jersey Kings Yellow](https://gamesheetstats.com/seasons/3659/teams/140485/schedule)|8|2|6|0|0|1|126|2.9|0.0
-28|15||[Tri-City Eagles 12U Gold](https://gamesheetstats.com/seasons/3659/teams/140496/schedule)|6|0|6|0|0|1|183|0.9|0.0
-29|11||[RHC PW A](https://gamesheetstats.com/seasons/3659/teams/140489/schedule)|10|1|9|0|0|0|220|1.9|0.0
-30|6||[JR Black Bears12U Red](https://gamesheetstats.com/seasons/3659/teams/140477/schedule)|6|0|6|0|0|0|104|0.9|0.0
+1|4479|Championship|[Ashburn Xtreme 12U X](https://gamesheetstats.com/seasons/3659/teams/140470/schedule)|10|10|0|0|1|0|70|10.8|-0.0
+2|2405|Championship|[Rye Rangers](https://gamesheetstats.com/seasons/3659/teams/140492/schedule)|4|4|0|0|0|0|78|4.8|-0.0
+3|1363|Championship|[Rinx](https://gamesheetstats.com/seasons/3659/teams/142496/schedule)|4|4|0|0|0|0|48|4.8|-0.0
+4|920|Championship|[PAL Sound Tigers](https://gamesheetstats.com/seasons/3659/teams/140486/schedule)|7|7|0|0|0|0|19|7.8|-0.0
+5|211|Gold|[Igloo Jaguars 12UA Black](https://gamesheetstats.com/seasons/3659/teams/140474/schedule)|9|5|4|0|0|0|1284|5.8|-0.0
+6|138|Gold|[MYHA 12U LA Gold](https://gamesheetstats.com/seasons/3659/teams/140481/schedule)|8|6|2|0|0|0|293|6.9|0.0
+7|97|Gold|[North Jersey Avalanche Blue](https://gamesheetstats.com/seasons/3659/teams/140483/schedule)|10|8|2|0|1|1|99|8.9|0.0
+8|90|Gold|[Palmyra Black Knights - Hallman](https://gamesheetstats.com/seasons/3659/teams/140487/schedule)|10|6|3|1|0|0|839|7.4|0.0
+9|63|Silver|[Haverford Hawks 12UA](https://gamesheetstats.com/seasons/3659/teams/140472/schedule)|10|6|4|0|0|2|848|6.9|0.0
+10|49|Silver|[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140473/schedule)|10|8|2|0|0|1|29|8.9|0.0
+11|37|Silver|[MYHA 12U LA Blue](https://gamesheetstats.com/seasons/3659/teams/140480/schedule)|6|2|3|1|0|0|387|3.4|0.0
+12|24|Silver|[Wissahickon Warriors White](https://gamesheetstats.com/seasons/3659/teams/140498/schedule)|9|5|4|0|1|0|134|5.9|0.0
+13|22|Bronze|[STJ 12U White](https://gamesheetstats.com/seasons/3659/teams/140494/schedule)|4|2|2|0|0|0|294|2.9|0.0
+14|21|Bronze|[Mercer Chiefs Black](https://gamesheetstats.com/seasons/3659/teams/140479/schedule)|10|7|3|0|3|0|27|7.9|0.0
+15|20|Bronze|[Team Philadelphia Orange](https://gamesheetstats.com/seasons/3659/teams/140495/schedule)|9|6|3|0|0|0|109|6.9|0.0
+16|17|Bronze|[Wildcats 12U A](https://gamesheetstats.com/seasons/3659/teams/140497/schedule)|9|4|5|0|0|0|501|4.9|0.0
+17|11||[Jersey Colts PW Silver](https://gamesheetstats.com/seasons/3659/teams/140476/schedule)|9|6|3|0|2|0|453|6.9|0.0
+18|7||[Southern Maryland Sabres 12U Black](https://gamesheetstats.com/seasons/3659/teams/140493/schedule)|4|1|3|0|0|0|71|1.9|0.0
+19|6||[Lehigh Valley Phantoms Youth U12 A](https://gamesheetstats.com/seasons/3659/teams/140478/schedule)|10|5|5|0|1|0|416|5.9|0.0
+20|3||[RHC PW Minor AA](https://gamesheetstats.com/seasons/3659/teams/140490/schedule)|10|4|6|0|1|3|16|4.9|0.0
+21|3||[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140488/schedule)|10|1|9|0|0|0|396|1.9|0.0
+22|3||[Igloo Jaguars 12UA Green](https://gamesheetstats.com/seasons/3659/teams/140475/schedule)|10|3|7|0|1|0|501|3.9|0.0
+23|1||[MYHA 12U LA White](https://gamesheetstats.com/seasons/3659/teams/140482/schedule)|8|1|7|0|0|0|182|1.9|0.0
+24|1||[Royals 12U A Blue](https://gamesheetstats.com/seasons/3659/teams/140491/schedule)|8|2|6|0|0|1|112|2.9|0.0
+25|1||[North Jersey Avalanche Gold](https://gamesheetstats.com/seasons/3659/teams/140484/schedule)|3|1|2|0|0|1|4|1.9|0.0
+26|1||[Frederick Freeze 12U LA](https://gamesheetstats.com/seasons/3659/teams/140471/schedule)|4|0|4|0|0|0|43|0.9|0.0
+27|1||[North Jersey Kings Yellow](https://gamesheetstats.com/seasons/3659/teams/140485/schedule)|8|2|6|0|0|1|18|2.9|0.0
+28|1||[Tri-City Eagles 12U Gold](https://gamesheetstats.com/seasons/3659/teams/140496/schedule)|6|0|6|0|0|1|26|0.9|0.0
+29|0||[RHC PW A](https://gamesheetstats.com/seasons/3659/teams/140489/schedule)|10|1|9|0|0|0|100|1.9|0.0
+30|0||[JR Black Bears12U Red](https://gamesheetstats.com/seasons/3659/teams/140477/schedule)|6|0|6|0|0|0|12|0.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Ashburn Xtreme 12U X|Rye Rangers|PAL Sound Tigers|Rinx|MYHA 12U LA Gold|North Jersey Avalanche Blue|Igloo Jaguars 12UA Black|Palmyra Black Knights - Hallman|Hollydell Hurricanes|Haverford Hawks 12UA|MYHA 12U LA Blue|Mercer Chiefs Black|Team Philadelphia Orange|STJ 12U White|Jersey Colts PW Silver|Wildcats 12U A|Wissahickon Warriors White|Lehigh Valley Phantoms Youth U12 A|Southern Maryland Sabres 12U Black|RHC PW Minor AA|Igloo Jaguars 12UA Green|North Jersey Avalanche Gold|Philadelphia Blazers|Frederick Freeze 12U LA|Royals 12U A Blue|MYHA 12U LA White|North Jersey Kings Yellow|Tri-City Eagles 12U Gold|RHC PW A|JR Black Bears12U Red
+||Ashburn Xtreme 12U X|Rye Rangers|Rinx|PAL Sound Tigers|Igloo Jaguars 12UA Black|MYHA 12U LA Gold|North Jersey Avalanche Blue|Palmyra Black Knights - Hallman|Haverford Hawks 12UA|Hollydell Hurricanes|MYHA 12U LA Blue|Wissahickon Warriors White|STJ 12U White|Mercer Chiefs Black|Team Philadelphia Orange|Wildcats 12U A|Jersey Colts PW Silver|Southern Maryland Sabres 12U Black|Lehigh Valley Phantoms Youth U12 A|RHC PW Minor AA|Philadelphia Blazers|Igloo Jaguars 12UA Green|MYHA 12U LA White|Royals 12U A Blue|North Jersey Avalanche Gold|Frederick Freeze 12U LA|North Jersey Kings Yellow|Tri-City Eagles 12U Gold|RHC PW A|JR Black Bears12U Red
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Ashburn Xtreme 12U X|--| 70%| 72%| 80%| 85%| 87%| 88%| 89%| 90%| 91%| 93%| 94%| 94%| 95%| 95%| 95%| 96%| 97%| 97%| 98%| 98%| 99%| 99%| 99%| 99%| 99%| 99%| 99%|100%|100%
-|Rye Rangers| 30%|--| 52%| 63%| 71%| 74%| 77%| 77%| 80%| 81%| 86%| 86%| 88%| 88%| 89%| 90%| 90%| 93%| 94%| 96%| 96%| 97%| 97%| 97%| 97%| 98%| 98%| 99%| 99%| 99%
-|PAL Sound Tigers| 28%| 48%|--| 60%| 69%| 72%| 75%| 76%| 79%| 80%| 85%| 85%| 87%| 87%| 88%| 89%| 89%| 93%| 93%| 95%| 96%| 96%| 97%| 97%| 97%| 97%| 98%| 99%| 99%| 99%
-|Rinx| 20%| 37%| 40%|--| 59%| 63%| 66%| 67%| 71%| 72%| 78%| 79%| 81%| 82%| 83%| 84%| 85%| 89%| 90%| 93%| 94%| 95%| 95%| 96%| 96%| 96%| 97%| 98%| 99%| 99%
-|MYHA 12U LA Gold| 15%| 29%| 31%| 41%|--| 53%| 57%| 58%| 62%| 64%| 71%| 72%| 74%| 75%| 76%| 79%| 79%| 85%| 86%| 90%| 91%| 92%| 93%| 94%| 94%| 94%| 96%| 97%| 98%| 99%
-|North Jersey Avalanche Blue| 13%| 26%| 28%| 37%| 47%|--| 54%| 55%| 59%| 61%| 68%| 69%| 72%| 73%| 74%| 76%| 76%| 83%| 84%| 88%| 90%| 91%| 92%| 93%| 93%| 94%| 95%| 97%| 98%| 99%
-|Igloo Jaguars 12UA Black| 12%| 23%| 25%| 34%| 43%| 46%|--| 51%| 55%| 57%| 65%| 65%| 68%| 70%| 71%| 73%| 74%| 81%| 82%| 87%| 89%| 90%| 91%| 92%| 92%| 93%| 94%| 96%| 97%| 98%
-|Palmyra Black Knights - Hallman| 11%| 23%| 24%| 33%| 42%| 45%| 49%|--| 55%| 56%| 64%| 65%| 68%| 69%| 70%| 73%| 73%| 80%| 81%| 86%| 88%| 90%| 91%| 91%| 92%| 92%| 94%| 96%| 97%| 98%
-|Hollydell Hurricanes| 10%| 20%| 21%| 29%| 38%| 41%| 45%| 45%|--| 52%| 60%| 60%| 63%| 65%| 66%| 69%| 69%| 77%| 79%| 84%| 86%| 88%| 89%| 90%| 90%| 91%| 93%| 95%| 96%| 98%
-|Haverford Hawks 12UA|  9%| 19%| 20%| 28%| 36%| 39%| 43%| 44%| 48%|--| 58%| 59%| 62%| 63%| 64%| 67%| 68%| 76%| 77%| 83%| 86%| 87%| 88%| 89%| 89%| 90%| 93%| 95%| 96%| 98%
-|MYHA 12U LA Blue|  7%| 14%| 15%| 22%| 29%| 32%| 35%| 36%| 40%| 42%|--| 51%| 54%| 55%| 57%| 60%| 60%| 70%| 71%| 78%| 81%| 83%| 84%| 86%| 86%| 87%| 90%| 93%| 95%| 97%
-|Mercer Chiefs Black|  6%| 14%| 15%| 21%| 28%| 31%| 35%| 35%| 40%| 41%| 49%|--| 53%| 55%| 56%| 59%| 59%| 69%| 71%| 77%| 81%| 83%| 84%| 85%| 86%| 87%| 90%| 93%| 95%| 97%
-|Team Philadelphia Orange|  6%| 12%| 13%| 19%| 26%| 28%| 32%| 32%| 37%| 38%| 46%| 47%|--| 51%| 53%| 56%| 56%| 66%| 68%| 75%| 79%| 81%| 82%| 83%| 84%| 85%| 89%| 92%| 94%| 96%
-|STJ 12U White|  5%| 12%| 13%| 18%| 25%| 27%| 30%| 31%| 35%| 37%| 45%| 45%| 49%|--| 51%| 55%| 55%| 65%| 67%| 74%| 78%| 80%| 81%| 83%| 83%| 85%| 88%| 91%| 94%| 96%
-|Jersey Colts PW Silver|  5%| 11%| 12%| 17%| 24%| 26%| 29%| 30%| 34%| 36%| 43%| 44%| 47%| 49%|--| 53%| 54%| 64%| 65%| 73%| 77%| 79%| 80%| 82%| 82%| 84%| 87%| 91%| 93%| 96%
-|Wildcats 12U A|  5%| 10%| 11%| 16%| 21%| 24%| 27%| 27%| 31%| 33%| 40%| 41%| 44%| 45%| 47%|--| 50%| 60%| 62%| 70%| 74%| 77%| 78%| 80%| 80%| 82%| 86%| 90%| 93%| 95%
-|Wissahickon Warriors White|  4%| 10%| 11%| 15%| 21%| 24%| 26%| 27%| 31%| 32%| 40%| 41%| 44%| 45%| 46%| 50%|--| 60%| 62%| 70%| 74%| 76%| 78%| 80%| 80%| 82%| 86%| 90%| 92%| 95%
-|Lehigh Valley Phantoms Youth U12 A|  3%|  7%|  7%| 11%| 15%| 17%| 19%| 20%| 23%| 24%| 30%| 31%| 34%| 35%| 36%| 40%| 40%|--| 52%| 61%| 65%| 68%| 70%| 72%| 73%| 75%| 80%| 85%| 89%| 93%
-|Southern Maryland Sabres 12U Black|  3%|  6%|  7%| 10%| 14%| 16%| 18%| 19%| 21%| 23%| 29%| 29%| 32%| 33%| 35%| 38%| 38%| 48%|--| 59%| 64%| 66%| 69%| 71%| 71%| 73%| 79%| 84%| 88%| 93%
-|RHC PW Minor AA|  2%|  4%|  5%|  7%| 10%| 12%| 13%| 14%| 16%| 17%| 22%| 23%| 25%| 26%| 27%| 30%| 30%| 39%| 41%|--| 55%| 58%| 61%| 63%| 64%| 66%| 72%| 79%| 84%| 90%
-|Igloo Jaguars 12UA Green|  2%|  4%|  4%|  6%|  9%| 10%| 11%| 12%| 14%| 14%| 19%| 19%| 21%| 22%| 23%| 26%| 26%| 35%| 36%| 45%|--| 53%| 56%| 58%| 59%| 61%| 68%| 75%| 81%| 88%
-|North Jersey Avalanche Gold|  1%|  3%|  4%|  5%|  8%|  9%| 10%| 10%| 12%| 13%| 17%| 17%| 19%| 20%| 21%| 23%| 24%| 32%| 34%| 42%| 47%|--| 52%| 55%| 56%| 58%| 65%| 73%| 79%| 87%
-|Philadelphia Blazers|  1%|  3%|  3%|  5%|  7%|  8%|  9%|  9%| 11%| 12%| 16%| 16%| 18%| 19%| 20%| 22%| 22%| 30%| 31%| 39%| 44%| 48%|--| 52%| 53%| 56%| 63%| 71%| 77%| 85%
-|Frederick Freeze 12U LA|  1%|  3%|  3%|  4%|  6%|  7%|  8%|  9%| 10%| 11%| 14%| 15%| 17%| 17%| 18%| 20%| 20%| 28%| 29%| 37%| 42%| 45%| 48%|--| 51%| 53%| 61%| 69%| 76%| 84%
-|Royals 12U A Blue|  1%|  3%|  3%|  4%|  6%|  7%|  8%|  8%| 10%| 11%| 14%| 14%| 16%| 17%| 18%| 20%| 20%| 27%| 29%| 36%| 41%| 44%| 47%| 49%|--| 52%| 60%| 68%| 75%| 84%
-|MYHA 12U LA White|  1%|  2%|  3%|  4%|  6%|  6%|  7%|  8%|  9%| 10%| 13%| 13%| 15%| 15%| 16%| 18%| 18%| 25%| 27%| 34%| 39%| 42%| 44%| 47%| 48%|--| 57%| 66%| 73%| 82%
-|North Jersey Kings Yellow|  1%|  2%|  2%|  3%|  4%|  5%|  6%|  6%|  7%|  7%| 10%| 10%| 11%| 12%| 13%| 14%| 14%| 20%| 21%| 28%| 32%| 35%| 37%| 39%| 40%| 43%|--| 59%| 67%| 78%
-|Tri-City Eagles 12U Gold|  1%|  1%|  1%|  2%|  3%|  3%|  4%|  4%|  5%|  5%|  7%|  7%|  8%|  9%|  9%| 10%| 10%| 15%| 16%| 21%| 25%| 27%| 29%| 31%| 32%| 34%| 41%|--| 58%| 71%
-|RHC PW A|  0%|  1%|  1%|  1%|  2%|  2%|  3%|  3%|  4%|  4%|  5%|  5%|  6%|  6%|  7%|  7%|  8%| 11%| 12%| 16%| 19%| 21%| 23%| 24%| 25%| 27%| 33%| 42%|--| 63%
-|JR Black Bears12U Red|  0%|  1%|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  2%|  3%|  3%|  4%|  4%|  4%|  5%|  5%|  7%|  7%| 10%| 12%| 13%| 15%| 16%| 16%| 18%| 22%| 29%| 37%|--
+|Ashburn Xtreme 12U X|--| 65%| 77%| 83%| 95%| 97%| 98%| 98%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%
+|Rye Rangers| 35%|--| 64%| 72%| 92%| 95%| 96%| 96%| 97%| 98%| 98%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%
+|Rinx| 23%| 36%|--| 60%| 87%| 91%| 93%| 94%| 96%| 97%| 97%| 98%| 98%| 98%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%
+|PAL Sound Tigers| 17%| 28%| 40%|--| 81%| 87%| 90%| 91%| 94%| 95%| 96%| 97%| 98%| 98%| 98%| 98%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%
+|Igloo Jaguars 12UA Black|  5%|  8%| 13%| 19%|--| 61%| 69%| 70%| 77%| 81%| 85%| 90%| 91%| 91%| 91%| 92%| 95%| 97%| 97%| 98%| 99%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%
+|MYHA 12U LA Gold|  3%|  5%|  9%| 13%| 39%|--| 59%| 60%| 69%| 74%| 79%| 85%| 86%| 87%| 87%| 89%| 93%| 95%| 96%| 98%| 98%| 98%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%
+|North Jersey Avalanche Blue|  2%|  4%|  7%| 10%| 31%| 41%|--| 52%| 61%| 67%| 72%| 80%| 82%| 82%| 83%| 85%| 90%| 93%| 94%| 97%| 97%| 97%| 98%| 99%| 99%| 99%| 99%| 99%|100%|100%
+|Palmyra Black Knights - Hallman|  2%|  4%|  6%|  9%| 30%| 40%| 48%|--| 59%| 65%| 71%| 79%| 81%| 81%| 82%| 84%| 90%| 92%| 94%| 96%| 97%| 97%| 98%| 99%| 99%| 99%| 99%| 99%|100%|100%
+|Haverford Hawks 12UA|  1%|  3%|  4%|  6%| 23%| 31%| 39%| 41%|--| 57%| 63%| 73%| 74%| 75%| 76%| 78%| 86%| 90%| 91%| 95%| 96%| 96%| 98%| 98%| 98%| 98%| 99%| 99%| 99%|100%
+|Hollydell Hurricanes|  1%|  2%|  3%|  5%| 19%| 26%| 33%| 35%| 43%|--| 57%| 67%| 69%| 70%| 71%| 74%| 82%| 87%| 89%| 93%| 95%| 95%| 97%| 97%| 97%| 97%| 98%| 99%| 99%|100%
+|MYHA 12U LA Blue|  1%|  2%|  3%|  4%| 15%| 21%| 28%| 29%| 37%| 43%|--| 61%| 63%| 64%| 65%| 68%| 78%| 83%| 86%| 92%| 94%| 94%| 96%| 96%| 97%| 97%| 98%| 98%| 99%| 99%
+|Wissahickon Warriors White|  1%|  1%|  2%|  3%| 10%| 15%| 20%| 21%| 27%| 33%| 39%|--| 52%| 53%| 55%| 58%| 69%| 76%| 80%| 87%| 90%| 91%| 94%| 95%| 95%| 95%| 97%| 98%| 98%| 99%
+|STJ 12U White|  0%|  1%|  2%|  2%|  9%| 14%| 18%| 19%| 26%| 31%| 37%| 48%|--| 51%| 52%| 55%| 67%| 75%| 78%| 86%| 90%| 90%| 94%| 94%| 94%| 94%| 96%| 97%| 98%| 99%
+|Mercer Chiefs Black|  0%|  1%|  2%|  2%|  9%| 13%| 18%| 19%| 25%| 30%| 36%| 47%| 49%|--| 52%| 55%| 67%| 74%| 78%| 86%| 89%| 89%| 93%| 94%| 94%| 94%| 96%| 97%| 98%| 99%
+|Team Philadelphia Orange|  0%|  1%|  1%|  2%|  9%| 13%| 17%| 18%| 24%| 29%| 35%| 45%| 48%| 48%|--| 53%| 65%| 73%| 76%| 85%| 89%| 89%| 93%| 93%| 94%| 94%| 96%| 97%| 98%| 99%
+|Wildcats 12U A|  0%|  1%|  1%|  2%|  8%| 11%| 15%| 16%| 22%| 26%| 32%| 42%| 45%| 45%| 47%|--| 62%| 70%| 74%| 84%| 87%| 87%| 92%| 93%| 93%| 93%| 95%| 97%| 98%| 99%
+|Jersey Colts PW Silver|  0%|  0%|  1%|  1%|  5%|  7%| 10%| 10%| 14%| 18%| 22%| 31%| 33%| 33%| 35%| 38%|--| 59%| 64%| 76%| 81%| 81%| 88%| 89%| 89%| 89%| 93%| 95%| 97%| 98%
+|Southern Maryland Sabres 12U Black|  0%|  0%|  1%|  1%|  3%|  5%|  7%|  8%| 10%| 13%| 17%| 24%| 25%| 26%| 27%| 30%| 41%|--| 55%| 68%| 74%| 75%| 83%| 84%| 85%| 85%| 90%| 93%| 95%| 97%
+|Lehigh Valley Phantoms Youth U12 A|  0%|  0%|  0%|  1%|  3%|  4%|  6%|  6%|  9%| 11%| 14%| 20%| 22%| 22%| 24%| 26%| 36%| 45%|--| 64%| 70%| 71%| 80%| 82%| 82%| 82%| 88%| 91%| 94%| 97%
+|RHC PW Minor AA|  0%|  0%|  0%|  0%|  2%|  2%|  3%|  4%|  5%|  7%|  8%| 13%| 14%| 14%| 15%| 16%| 24%| 32%| 36%|--| 57%| 58%| 70%| 71%| 72%| 73%| 80%| 86%| 90%| 94%
+|Philadelphia Blazers|  0%|  0%|  0%|  0%|  1%|  2%|  3%|  3%|  4%|  5%|  6%| 10%| 10%| 11%| 11%| 13%| 19%| 26%| 30%| 43%|--| 50%| 63%| 65%| 66%| 66%| 75%| 81%| 87%| 92%
+|Igloo Jaguars 12UA Green|  0%|  0%|  0%|  0%|  1%|  2%|  3%|  3%|  4%|  5%|  6%|  9%| 10%| 11%| 11%| 13%| 19%| 25%| 29%| 42%| 50%|--| 63%| 65%| 66%| 66%| 75%| 81%| 87%| 92%
+|MYHA 12U LA White|  0%|  0%|  0%|  0%|  1%|  1%|  2%|  2%|  2%|  3%|  4%|  6%|  6%|  7%|  7%|  8%| 12%| 17%| 20%| 30%| 37%| 37%|--| 52%| 53%| 53%| 64%| 72%| 80%| 88%
+|Royals 12U A Blue|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  2%|  3%|  4%|  5%|  6%|  6%|  7%|  7%| 11%| 16%| 18%| 29%| 35%| 35%| 48%|--| 51%| 51%| 62%| 70%| 79%| 87%
+|North Jersey Avalanche Gold|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  2%|  3%|  3%|  5%|  6%|  6%|  6%|  7%| 11%| 15%| 18%| 28%| 34%| 34%| 47%| 49%|--| 50%| 61%| 69%| 78%| 86%
+|Frederick Freeze 12U LA|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  2%|  3%|  3%|  5%|  6%|  6%|  6%|  7%| 11%| 15%| 18%| 27%| 34%| 34%| 47%| 49%| 50%|--| 61%| 69%| 78%| 86%
+|North Jersey Kings Yellow|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  2%|  2%|  3%|  4%|  4%|  4%|  5%|  7%| 10%| 12%| 20%| 25%| 25%| 36%| 38%| 39%| 39%|--| 59%| 69%| 80%
+|Tri-City Eagles 12U Gold|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  2%|  2%|  3%|  3%|  3%|  3%|  5%|  7%|  9%| 14%| 19%| 19%| 28%| 30%| 31%| 31%| 41%|--| 61%| 74%
+|RHC PW A|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  2%|  2%|  2%|  2%|  2%|  3%|  5%|  6%| 10%| 13%| 13%| 20%| 21%| 22%| 22%| 31%| 39%|--| 64%
+|JR Black Bears12U Red|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  1%|  2%|  3%|  3%|  6%|  8%|  8%| 12%| 13%| 14%| 14%| 20%| 26%| 36%|--
 
 ## Generation Details
 
@@ -85,8 +85,9 @@ Generated with command line:
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
 | Shootout Loss Value | 0.00 |
-| Tie Value | 0.85 |
-| Fake Ties | 1 |
+| Tie Value | 0.50 |
+| Fake Ties | 0 |
+| Alpha Games | 1 |
 | Ignore teams | __KRACH_FAKE_TEAM__ |
 | Min Games Played | 4 |
 
