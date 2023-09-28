@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 16U Platinum KRACH Rankings
-Rankings generated on Thu Sep 28 09:53:26 2023.
+Rankings generated on Thu Sep 28 10:37:42 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -28,6 +28,8 @@ Generated with command line:
 | Shootout Win Value | 1.00 |
 | Shootout Loss Value | 0.00 |
 | Tie Value | 0.50 |
+| Alpha Value | 0.85 |
+| Bonus Points | 0.00 |
 | Fake Ties | 0 |
 | Alpha Games | 1 |
 | Ignore teams | __KRACH_FAKE_TEAM__ |
