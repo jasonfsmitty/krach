@@ -12,7 +12,7 @@ import common.commands as commands
 def showRankings(divisionName, ledger, ratings, league):
     dividor = "-" * 120
     print(f"Division: {divisionName}")
-    print(f"Rank KRACH   Subdivision     Team                                     GP  WW-LL-TT  OTW-OTL    SoS | Predict Diff WinPt Match")
+    print(f"Rank KRACH   Subdivision     Team                                     GP  WW-LL-TT  OTW OTL    SoS | Predict Diff WinPt Match")
     print(dividor)
 
     diffTotal = 0.0
