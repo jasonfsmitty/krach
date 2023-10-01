@@ -1,52 +1,52 @@
 [<- back to the index](readme.md)
 # 18U A KRACH Rankings
-Rankings generated on Sat Sep 30 07:13:17 2023.
+Rankings generated on Sun Oct  1 07:15:11 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2366|Championship|[Dix Hills Hawks 18U](https://gamesheetstats.com/seasons/3659/teams/140731/schedule)|7|6|1|0|0|0|447|6.8|-0.0
-2|1710|Championship|[Grundy Senators](https://gamesheetstats.com/seasons/3659/teams/140732/schedule)|12|11|1|0|0|0|200|11.8|-0.0
-3|1658|Championship|[North Jersey Avalanche Gold](https://gamesheetstats.com/seasons/3659/teams/140737/schedule)|4|4|0|0|0|0|52|4.9|0.0
-4|1115|Championship|[Ashburn Xtreme 18U A](https://gamesheetstats.com/seasons/3659/teams/140730/schedule)|6|4|2|0|0|0|704|4.8|-0.0
-5|707|Gold|[Lehigh Valley Phantoms Youth U18A1](https://gamesheetstats.com/seasons/3659/teams/140734/schedule)|12|8|4|0|0|0|587|8.8|-0.0
-6|682|Gold|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140745/schedule)|8|6|2|0|0|0|543|6.8|-0.0
-7|676|Gold|[Wissahickon Warriors](https://gamesheetstats.com/seasons/3659/teams/140748/schedule)|10|6|4|0|0|0|718|6.8|-0.0
-8|470|Gold|[VFC 18U A Vassalluzzo](https://gamesheetstats.com/seasons/3659/teams/140746/schedule)|8|5|2|1|1|0|330|6.3|-0.0
-9|242|Silver|[RHC 18U A](https://gamesheetstats.com/seasons/3659/teams/140742/schedule)|11|6|5|0|0|0|564|6.8|-0.0
-10|130|Silver|[Jersey Colts 18 White](https://gamesheetstats.com/seasons/3659/teams/140733/schedule)|9|4|5|0|0|1|700|4.9|0.0
-11|60|Silver|[Mercer Chiefs](https://gamesheetstats.com/seasons/3659/teams/140735/schedule)|10|5|5|0|0|0|293|5.9|0.0
-12|47|Silver|[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140739/schedule)|9|5|4|0|0|0|200|5.9|0.0
-13|35||[STJ 18U Navy](https://gamesheetstats.com/seasons/3659/teams/140744/schedule)|6|2|4|0|0|0|451|2.9|0.0
-14|28||[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140741/schedule)|9|1|7|1|0|0|613|2.4|0.0
-15|20||[Royals 18U A](https://gamesheetstats.com/seasons/3659/teams/140743/schedule)|10|4|6|0|0|0|293|4.9|0.0
-16|17||[Wildcats 18U A](https://gamesheetstats.com/seasons/3659/teams/140747/schedule)|12|3|9|0|0|0|488|3.9|0.0
-17|12||[North Jersey Avalanche Blue](https://gamesheetstats.com/seasons/3659/teams/140736/schedule)|9|1|8|0|0|0|586|1.9|0.0
-18|10||[North Jersey Kings Yellow](https://gamesheetstats.com/seasons/3659/teams/140738/schedule)|10|2|8|0|0|0|111|2.9|0.0
-19|6||[Palmyra Black Knights-EAST](https://gamesheetstats.com/seasons/3659/teams/140740/schedule)|8|1|7|0|0|0|145|1.9|0.0
+1|2198|Championship|[Dix Hills Hawks 18U](https://gamesheetstats.com/seasons/3659/teams/140731/schedule)|9|7|2|0|0|0|721|7.8|-0.0
+2|1560|Championship|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140745/schedule)|10|8|2|0|0|0|625|8.8|-0.0
+3|1448|Championship|[North Jersey Avalanche Gold](https://gamesheetstats.com/seasons/3659/teams/140737/schedule)|4|4|0|0|0|0|45|4.9|0.0
+4|1385|Championship|[Grundy Senators](https://gamesheetstats.com/seasons/3659/teams/140732/schedule)|13|11|2|0|0|0|412|11.8|-0.0
+5|791|Gold|[Wissahickon Warriors](https://gamesheetstats.com/seasons/3659/teams/140748/schedule)|12|8|4|0|0|0|585|8.8|-0.0
+6|789|Gold|[Ashburn Xtreme 18U A](https://gamesheetstats.com/seasons/3659/teams/140730/schedule)|8|4|3|1|0|0|740|5.3|-0.0
+7|784|Gold|[Lehigh Valley Phantoms Youth U18A1](https://gamesheetstats.com/seasons/3659/teams/140734/schedule)|14|9|4|1|0|0|580|10.3|-0.0
+8|504|Gold|[VFC 18U A Vassalluzzo](https://gamesheetstats.com/seasons/3659/teams/140746/schedule)|10|7|2|1|2|0|262|8.3|-0.0
+9|231|Silver|[RHC 18U A](https://gamesheetstats.com/seasons/3659/teams/140742/schedule)|12|6|6|0|0|0|627|6.8|-0.0
+10|87|Silver|[Jersey Colts 18 White](https://gamesheetstats.com/seasons/3659/teams/140733/schedule)|11|4|7|0|0|2|642|4.9|0.0
+11|80|Silver|[Mercer Chiefs](https://gamesheetstats.com/seasons/3659/teams/140735/schedule)|12|7|5|0|0|0|242|7.9|0.0
+12|36|Silver|[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140739/schedule)|11|6|5|0|0|1|150|6.9|0.0
+13|21||[Royals 18U A](https://gamesheetstats.com/seasons/3659/teams/140743/schedule)|12|5|7|0|1|0|244|5.9|0.0
+14|16||[STJ 18U Navy](https://gamesheetstats.com/seasons/3659/teams/140744/schedule)|8|2|6|0|0|0|519|2.9|0.0
+15|16||[Wildcats 18U A](https://gamesheetstats.com/seasons/3659/teams/140747/schedule)|14|4|10|0|0|1|369|4.9|0.0
+16|15||[North Jersey Kings Yellow](https://gamesheetstats.com/seasons/3659/teams/140738/schedule)|12|4|8|0|1|0|166|4.9|0.0
+17|13||[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140741/schedule)|11|1|9|1|0|1|439|2.4|0.0
+18|11||[North Jersey Avalanche Blue](https://gamesheetstats.com/seasons/3659/teams/140736/schedule)|11|1|10|0|0|0|634|1.9|0.0
+19|7||[Palmyra Black Knights-EAST](https://gamesheetstats.com/seasons/3659/teams/140740/schedule)|10|2|8|0|1|0|203|2.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Dix Hills Hawks 18U|Grundy Senators|North Jersey Avalanche Gold|Ashburn Xtreme 18U A|Lehigh Valley Phantoms Youth U18A1|Team Philadelphia|Wissahickon Warriors|VFC 18U A Vassalluzzo|RHC 18U A|Jersey Colts 18 White|Mercer Chiefs|North Jersey Skylands Kings|STJ 18U Navy|Philadelphia Blazers|Royals 18U A|Wildcats 18U A|North Jersey Avalanche Blue|North Jersey Kings Yellow|Palmyra Black Knights-EAST
+||Dix Hills Hawks 18U|Team Philadelphia|North Jersey Avalanche Gold|Grundy Senators|Wissahickon Warriors|Ashburn Xtreme 18U A|Lehigh Valley Phantoms Youth U18A1|VFC 18U A Vassalluzzo|RHC 18U A|Jersey Colts 18 White|Mercer Chiefs|North Jersey Skylands Kings|Royals 18U A|STJ 18U Navy|Wildcats 18U A|North Jersey Kings Yellow|Philadelphia Blazers|North Jersey Avalanche Blue|Palmyra Black Knights-EAST
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Dix Hills Hawks 18U|--| 58%| 59%| 68%| 77%| 78%| 78%| 83%| 91%| 95%| 98%| 98%| 99%| 99%| 99%| 99%| 99%|100%|100%
-|Grundy Senators| 42%|--| 51%| 61%| 71%| 71%| 72%| 78%| 88%| 93%| 97%| 97%| 98%| 98%| 99%| 99%| 99%| 99%|100%
-|North Jersey Avalanche Gold| 41%| 49%|--| 60%| 70%| 71%| 71%| 78%| 87%| 93%| 97%| 97%| 98%| 98%| 99%| 99%| 99%| 99%|100%
-|Ashburn Xtreme 18U A| 32%| 39%| 40%|--| 61%| 62%| 62%| 70%| 82%| 90%| 95%| 96%| 97%| 98%| 98%| 99%| 99%| 99%| 99%
-|Lehigh Valley Phantoms Youth U18A1| 23%| 29%| 30%| 39%|--| 51%| 51%| 60%| 74%| 84%| 92%| 94%| 95%| 96%| 97%| 98%| 98%| 99%| 99%
-|Team Philadelphia| 22%| 29%| 29%| 38%| 49%|--| 50%| 59%| 74%| 84%| 92%| 94%| 95%| 96%| 97%| 98%| 98%| 99%| 99%
-|Wissahickon Warriors| 22%| 28%| 29%| 38%| 49%| 50%|--| 59%| 74%| 84%| 92%| 93%| 95%| 96%| 97%| 98%| 98%| 99%| 99%
-|VFC 18U A Vassalluzzo| 17%| 22%| 22%| 30%| 40%| 41%| 41%|--| 66%| 78%| 89%| 91%| 93%| 94%| 96%| 97%| 98%| 98%| 99%
-|RHC 18U A|  9%| 12%| 13%| 18%| 26%| 26%| 26%| 34%|--| 65%| 80%| 84%| 87%| 90%| 92%| 94%| 95%| 96%| 98%
-|Jersey Colts 18 White|  5%|  7%|  7%| 10%| 16%| 16%| 16%| 22%| 35%|--| 68%| 73%| 79%| 83%| 86%| 89%| 92%| 93%| 95%
-|Mercer Chiefs|  2%|  3%|  3%|  5%|  8%|  8%|  8%| 11%| 20%| 32%|--| 56%| 63%| 69%| 75%| 78%| 83%| 86%| 91%
-|North Jersey Skylands Kings|  2%|  3%|  3%|  4%|  6%|  6%|  7%|  9%| 16%| 27%| 44%|--| 57%| 63%| 70%| 74%| 80%| 83%| 88%
-|STJ 18U Navy|  1%|  2%|  2%|  3%|  5%|  5%|  5%|  7%| 13%| 21%| 37%| 43%|--| 56%| 63%| 68%| 75%| 79%| 85%
-|Philadelphia Blazers|  1%|  2%|  2%|  2%|  4%|  4%|  4%|  6%| 10%| 17%| 31%| 37%| 44%|--| 57%| 62%| 70%| 74%| 82%
-|Royals 18U A|  1%|  1%|  1%|  2%|  3%|  3%|  3%|  4%|  8%| 14%| 25%| 30%| 37%| 43%|--| 55%| 63%| 68%| 77%
-|Wildcats 18U A|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  3%|  6%| 11%| 22%| 26%| 32%| 38%| 45%|--| 58%| 63%| 73%
-|North Jersey Avalanche Blue|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  2%|  5%|  8%| 17%| 20%| 25%| 30%| 37%| 42%|--| 55%| 66%
-|North Jersey Kings Yellow|  0%|  1%|  1%|  1%|  1%|  1%|  1%|  2%|  4%|  7%| 14%| 17%| 21%| 26%| 32%| 37%| 45%|--| 61%
-|Palmyra Black Knights-EAST|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  2%|  5%|  9%| 12%| 15%| 18%| 23%| 27%| 34%| 39%|--
+|Dix Hills Hawks 18U|--| 58%| 60%| 61%| 74%| 74%| 74%| 81%| 90%| 96%| 96%| 98%| 99%| 99%| 99%| 99%| 99%| 99%|100%
+|Team Philadelphia| 42%|--| 52%| 53%| 66%| 66%| 67%| 76%| 87%| 95%| 95%| 98%| 99%| 99%| 99%| 99%| 99%| 99%|100%
+|North Jersey Avalanche Gold| 40%| 48%|--| 51%| 65%| 65%| 65%| 74%| 86%| 94%| 95%| 98%| 99%| 99%| 99%| 99%| 99%| 99%| 99%
+|Grundy Senators| 39%| 47%| 49%|--| 64%| 64%| 64%| 73%| 86%| 94%| 95%| 97%| 99%| 99%| 99%| 99%| 99%| 99%| 99%
+|Wissahickon Warriors| 26%| 34%| 35%| 36%|--| 50%| 50%| 61%| 77%| 90%| 91%| 96%| 97%| 98%| 98%| 98%| 98%| 99%| 99%
+|Ashburn Xtreme 18U A| 26%| 34%| 35%| 36%| 50%|--| 50%| 61%| 77%| 90%| 91%| 96%| 97%| 98%| 98%| 98%| 98%| 99%| 99%
+|Lehigh Valley Phantoms Youth U18A1| 26%| 33%| 35%| 36%| 50%| 50%|--| 61%| 77%| 90%| 91%| 96%| 97%| 98%| 98%| 98%| 98%| 99%| 99%
+|VFC 18U A Vassalluzzo| 19%| 24%| 26%| 27%| 39%| 39%| 39%|--| 69%| 85%| 86%| 93%| 96%| 97%| 97%| 97%| 98%| 98%| 99%
+|RHC 18U A| 10%| 13%| 14%| 14%| 23%| 23%| 23%| 31%|--| 73%| 74%| 86%| 92%| 93%| 94%| 94%| 95%| 95%| 97%
+|Jersey Colts 18 White|  4%|  5%|  6%|  6%| 10%| 10%| 10%| 15%| 27%|--| 52%| 71%| 81%| 84%| 85%| 85%| 87%| 89%| 92%
+|Mercer Chiefs|  4%|  5%|  5%|  5%|  9%|  9%|  9%| 14%| 26%| 48%|--| 69%| 80%| 83%| 84%| 84%| 86%| 88%| 91%
+|North Jersey Skylands Kings|  2%|  2%|  2%|  3%|  4%|  4%|  4%|  7%| 14%| 29%| 31%|--| 64%| 69%| 70%| 70%| 74%| 77%| 83%
+|Royals 18U A|  1%|  1%|  1%|  1%|  3%|  3%|  3%|  4%|  8%| 19%| 20%| 36%|--| 56%| 57%| 57%| 62%| 65%| 73%
+|STJ 18U Navy|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  3%|  7%| 16%| 17%| 31%| 44%|--| 51%| 52%| 57%| 59%| 69%
+|Wildcats 18U A|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  3%|  6%| 15%| 16%| 30%| 43%| 49%|--| 51%| 56%| 58%| 68%
+|North Jersey Kings Yellow|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  3%|  6%| 15%| 16%| 30%| 43%| 48%| 49%|--| 55%| 58%| 67%
+|Philadelphia Blazers|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  2%|  5%| 13%| 14%| 26%| 38%| 43%| 44%| 45%|--| 53%| 63%
+|North Jersey Avalanche Blue|  1%|  1%|  1%|  1%|  1%|  1%|  1%|  2%|  5%| 11%| 12%| 23%| 35%| 41%| 42%| 42%| 47%|--| 60%
+|Palmyra Black Knights-EAST|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  1%|  3%|  8%|  9%| 17%| 27%| 31%| 32%| 33%| 37%| 40%|--
 
 ## Generation Details
 
@@ -58,7 +58,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-08-20 |
-| End Date | 2023-09-24 |
+| End Date | 2023-09-30 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
