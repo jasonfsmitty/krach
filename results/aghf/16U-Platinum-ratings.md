@@ -1,20 +1,24 @@
 [<- back to the index](readme.md)
 # 16U Platinum KRACH Rankings
-Rankings generated on Sun Oct  1 07:15:14 2023.
+Rankings generated on Mon Oct  2 07:15:13 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1040|Playoffs|[Maryland Jr. Blackbears](https://gamesheetstats.com/seasons/3663/teams/140848/schedule)|4|3|1|0|0|0|1279|3.8|-0.0
-2|93|Playoffs|[Skyland Lady Kings](https://gamesheetstats.com/seasons/3663/teams/140849/schedule)|4|1|3|0|1|0|847|1.8|-0.0
-3|19|Playoffs|[New York Islanders 2](https://gamesheetstats.com/seasons/3663/teams/140851/schedule)|3|0|3|0|0|1|123|0.9|0.0
+1|306|Playoffs|[Reston Raiders](https://gamesheetstats.com/seasons/3663/teams/140850/schedule)|4|2|2|0|1|0|874|2.8|-0.0
+2|255|Playoffs|[Maryland Jr. Blackbears](https://gamesheetstats.com/seasons/3663/teams/140848/schedule)|6|3|3|0|0|1|712|3.9|0.0
+3|51|Playoffs|[LVPY](https://gamesheetstats.com/seasons/3663/teams/140844/schedule)|3|1|2|0|0|0|148|1.9|0.0
+4|48|Playoffs|[Skyland Lady Kings](https://gamesheetstats.com/seasons/3663/teams/140849/schedule)|4|1|3|0|1|0|558|1.9|0.0
+5|10||[New York Islanders 2](https://gamesheetstats.com/seasons/3663/teams/140851/schedule)|5|0|5|0|0|1|394|0.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Maryland Jr. Blackbears|Skyland Lady Kings|New York Islanders 2
-| --: | --: | --: | --: 
-|Maryland Jr. Blackbears|--| 92%| 98%
-|Skyland Lady Kings|  8%|--| 83%
-|New York Islanders 2|  2%| 17%|--
+||Reston Raiders|Maryland Jr. Blackbears|LVPY|Skyland Lady Kings|New York Islanders 2
+| --: | --: | --: | --: | --: | --: 
+|Reston Raiders|--| 55%| 86%| 86%| 97%
+|Maryland Jr. Blackbears| 45%|--| 83%| 84%| 96%
+|LVPY| 14%| 17%|--| 52%| 83%
+|Skyland Lady Kings| 14%| 16%| 48%|--| 82%
+|New York Islanders 2|  3%|  4%| 17%| 18%|--
 
 ## Generation Details
 
@@ -26,7 +30,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-09-09 |
-| End Date | 2023-09-30 |
+| End Date | 2023-10-01 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
