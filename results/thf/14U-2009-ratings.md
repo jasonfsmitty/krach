@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 14U 2009 KRACH Rankings
-Rankings generated on Thu Oct  5 07:15:11 2023.
+Rankings generated on Fri Oct  6 07:14:52 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -8,7 +8,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 2|1163|Super 6|[South Hills Panthers](https://gamesheetstats.com/seasons/3664/teams/160166/schedule)|4|4|0|0|0|0|36|4.9|0.0
 3|839|Super 6|[Team North Dakota](https://gamesheetstats.com/seasons/3664/teams/141001/schedule)|4|3|1|0|0|0|1115|3.8|-0.0
 4|497|Super 6|[Pittsburgh Predators](https://gamesheetstats.com/seasons/3664/teams/140995/schedule)|4|4|0|0|0|0|15|4.9|0.0
-5|310|Super 6|[Arrows 14u  AAA Major](https://gamesheetstats.com/seasons/3664/teams/140993/schedule)|3|3|0|0|0|0|12|3.9|0.0
+5|310|Super 6|[Arrows 14u AAA Major](https://gamesheetstats.com/seasons/3664/teams/140993/schedule)|3|3|0|0|0|0|12|3.9|0.0
 6|201|Super 6|[Oakmoor Patriots](https://gamesheetstats.com/seasons/3664/teams/141002/schedule)|3|2|1|0|1|0|231|2.8|-0.0
 7|137|Frozen 4|[Westchester Express 09's](https://gamesheetstats.com/seasons/3664/teams/140992/schedule)|4|3|1|0|0|1|50|3.9|0.0
 8|83|Frozen 4|[Revolution Elite 2009](https://gamesheetstats.com/seasons/3664/teams/140996/schedule)|5|4|1|0|0|0|21|4.9|0.0
@@ -25,13 +25,13 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Sioux Falls Power Hockey|South Hills Panthers|Team North Dakota|Pittsburgh Predators|Arrows 14u  AAA Major|Oakmoor Patriots|Westchester Express 09's|Revolution Elite 2009|Indiana Elite|Biggby Coffee AAA|Palmyra Black Knights|Wolfpack Hockey 2009|Mercer Chiefs 2009|Mid Fairfield (Independent) 09 AAA|San Jose Jr Sharks|Rocky Mountain RoughRiders|CT Jr Rangers Tier 1- AAA 2009|Jersey Hitmen
+||Sioux Falls Power Hockey|South Hills Panthers|Team North Dakota|Pittsburgh Predators|Arrows 14u AAA Major|Oakmoor Patriots|Westchester Express 09's|Revolution Elite 2009|Indiana Elite|Biggby Coffee AAA|Palmyra Black Knights|Wolfpack Hockey 2009|Mercer Chiefs 2009|Mid Fairfield (Independent) 09 AAA|San Jose Jr Sharks|Rocky Mountain RoughRiders|CT Jr Rangers Tier 1- AAA 2009|Jersey Hitmen
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
 |Sioux Falls Power Hockey|--| 82%| 86%| 91%| 94%| 96%| 97%| 98%| 99%| 99%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%
 |South Hills Panthers| 18%|--| 58%| 70%| 79%| 85%| 89%| 93%| 95%| 95%| 96%| 96%| 97%| 98%| 98%| 99%| 99%| 99%
 |Team North Dakota| 14%| 42%|--| 63%| 73%| 81%| 86%| 91%| 93%| 93%| 94%| 95%| 96%| 97%| 97%| 98%| 99%| 99%
 |Pittsburgh Predators|  9%| 30%| 37%|--| 62%| 71%| 78%| 86%| 88%| 89%| 90%| 91%| 94%| 94%| 95%| 97%| 98%| 98%
-|Arrows 14u  AAA Major|  6%| 21%| 27%| 38%|--| 61%| 69%| 79%| 82%| 84%| 85%| 87%| 90%| 91%| 92%| 95%| 96%| 97%
+|Arrows 14u AAA Major|  6%| 21%| 27%| 38%|--| 61%| 69%| 79%| 82%| 84%| 85%| 87%| 90%| 91%| 92%| 95%| 96%| 97%
 |Oakmoor Patriots|  4%| 15%| 19%| 29%| 39%|--| 59%| 71%| 75%| 77%| 79%| 81%| 86%| 87%| 88%| 92%| 94%| 96%
 |Westchester Express 09's|  3%| 11%| 14%| 22%| 31%| 41%|--| 62%| 67%| 70%| 72%| 74%| 80%| 82%| 84%| 89%| 92%| 94%
 |Revolution Elite 2009|  2%|  7%|  9%| 14%| 21%| 29%| 38%|--| 56%| 59%| 61%| 64%| 71%| 74%| 76%| 83%| 88%| 91%
