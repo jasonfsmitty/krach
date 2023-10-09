@@ -8,7 +8,7 @@ import os
 import re
 import json
 
-import common.gamesheets as gamesheets
+import common.api as api
 import common.krach as krach
 import common.markdown_output as mo
 import common.console_output as co
@@ -138,12 +138,12 @@ def parseCommandLine():
 
 #----------------------------------------------------------------------------
 def downloadCommand(args, SeasonId, League):
-    Divisions = gamesheets.populateDivisionsDictionary(SeasonId, League)
+    Divisions = api.populateDivisionsDictionary(SeasonId, League)
     logging.info("Downloading scores ...")
     divisions = [args.div] if args.div else Divisions
     for d in sortDivisions(divisions):
         cleanOutputsForDivision(Divisions[d])
-        gamesheets.downloadScores(d, SeasonId, Divisions)
+        api.downloadScores(d, SeasonId, Divisions)
 
 #----------------------------------------------------------------------------
 def updateCommand(args, SeasonId, League):
@@ -161,7 +161,7 @@ def updateCommand(args, SeasonId, League):
     options.scaleMethod       = krach.ScaleMethod[args.scale.upper()]
     options.scaleFactor       = args.factor
 
-    Divisions = gamesheets.populateDivisionsDictionary(SeasonId, League)
+    Divisions = api.populateDivisionsDictionary(SeasonId, League)
 
     divisions = [args.div] if args.div else Divisions
     toc = []
@@ -174,7 +174,7 @@ def updateCommand(args, SeasonId, League):
 
 #----------------------------------------------------------------------------
 def teamsCommand(args, SeasonId, League):
-    Divisions = gamesheets.populateDivisionsDictionary(SeasonId, League)
+    Divisions = api.populateDivisionsDictionary(SeasonId, League)
     divisions = [args.div] if args.div else Divisions
 
     for divisionName in sortDivisions(divisions):
@@ -187,14 +187,14 @@ def teamsCommand(args, SeasonId, League):
 
 #----------------------------------------------------------------------------
 def crossCommand(args, SeasonId, League):
-    Divisions = gamesheets.populateDivisionsDictionary(SeasonId, League)
+    Divisions = api.populateDivisionsDictionary(SeasonId, League)
     divisions = [args.div] if args.div else Divisions
 
     pureDivisions = set()
     mixedDivisions = dict()
 
     for divisionName in sortDivisions(divisions):
-        gamesheets.downloadSchedule(divisionName, SeasonId, Divisions, force=False)
+        api.downloadSchedule(divisionName, SeasonId, Divisions, force=False)
         seenDivisions = scanForCrossTeamPlay(divisionName, Divisions)
         if len(seenDivisions) == 1:
             pureDivisions.add(divisionName)
