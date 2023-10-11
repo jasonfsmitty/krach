@@ -13,4 +13,4 @@ Click below to see KRACH ratings for each division
 | [19U Diamond](19U-Diamond-ratings.md) | 2023-08-23 | 2023-10-08 |
 | [19U Platinum](19U-Platinum-ratings.md) | 2023-09-09 | 2023-10-08 |
 
-Generated on 2023-10-10 07:15:02.269242.
+Generated on 2023-10-11 07:15:13.480281.
