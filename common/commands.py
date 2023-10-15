@@ -55,10 +55,15 @@ def parseCommandLine():
         default = bb.DEFAULT_MAX_DIFF,
         help    = "Treat two iterations 'equal' if difference between them is less than this value")
 
-    update.add_argument("-w", "--shootout-win",
+    update.add_argument("--overtime-win",
+        type    = float,
+        default = bb.DEFAULT_OVERTIME_VALUE,
+        help    = "Value of winning a game in overtime [0.0-1.0]")
+
+    update.add_argument("--shootout-win",
         type    = float,
         default = bb.DEFAULT_SHOOTOUT_VALUE,
-        help    = "Value of winning a game in overtime/shootout [0.0-1.0]")
+        help    = "Value of winning a game in shootout [0.0-1.0]")
 
     update.add_argument("-t", "--tie",
         type    = float,
@@ -151,6 +156,7 @@ def updateCommand(args, SeasonId, League):
 
     options.maxIterations     = args.iterations
     options.maxRatingsDiff    = args.diff
+    options.overtimeWinValue  = args.overtime_win
     options.shootoutWinValue  = args.shootout_win
     options.tieValue          = args.tie
     options.fakeTies          = args.fakes

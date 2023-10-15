@@ -27,6 +27,7 @@ class Options:
     maxRatingsDiff:    float = 0.00001    # max diff between two runs that is considered "equal"
 
     # Options that control how shootout wins/losses and ties are weighted in the ratings
+    overtimeWinValue:  float = 1.00       # loss value is (1.0 - winValue)
     shootoutWinValue:  float = 1.00       # loss value is (1.0 - winValue)
     tieValue:          float = 0.50
     alphaValue:        float = 0.50
@@ -53,8 +54,8 @@ class Options:
         return {
             "Max Iterations"      : "{}".format(self.maxIterations),
             "Max Ratings Diff"    : "{}".format(self.maxRatingsDiff),
-            "Shootout Win Value"  : "{:3.2f}".format(self.shootoutWinValue),
-            "Shootout Loss Value" : "{:3.2f}".format(1.0 - self.shootoutWinValue),
+            "Overtime Win/Loss"   : "{:3.2f} / {:3.2f}".format(self.overtimeWinValue, (1.0 - self.overtimeWinValue)),
+            "Shootout Win/Loss"   : "{:3.2f} / {:3.2f}".format(self.shootoutWinValue, (1.0 - self.shootoutWinValue)),
             "Tie Value"           : "{:3.2f}".format(self.tieValue),
             "Alpha Value"         : "{:3.2f}".format(self.alphaValue),
             "Bonus Points"        : "{:3.2f}".format(self.bonusPoints),
@@ -160,11 +161,11 @@ class Record:
         self.losses += 1
 
     def addOvertimeWin(self):
-        self.addWin()
+        self.played += 1
         self.otWins += 1
 
     def addOvertimeLoss(self):
-        self.addLoss()
+        self.played += 1
         self.otLosses += 1
 
     def addShootoutWin(self):
@@ -189,6 +190,8 @@ class Record:
 
     def winPoints(self, options):
         return self.wins \
+            + (self.otWins      * options.overtimeWinValue) \
+            + (self.otLosses    * (1.0 - options.overtimeWinValue)) \
             + (self.soWins      * options.shootoutWinValue) \
             + (self.soLosses    * (1.0 - options.shootoutWinValue)) \
             + (self.ties        * options.tieValue) \

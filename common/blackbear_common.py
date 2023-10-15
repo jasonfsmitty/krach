@@ -23,6 +23,7 @@ AGHF_DivisionsIgnore = {}
 
 DEFAULT_ITERATIONS     = 200
 DEFAULT_MAX_DIFF       = 0.00001
+DEFAULT_OVERTIME_VALUE = 1.0
 DEFAULT_SHOOTOUT_VALUE = 1.0
 DEFAULT_NUM_FAKE_TIES  = 0
 DEFAULT_NUM_ALPHAS     = 1
@@ -37,7 +38,7 @@ class League(Enum):
     AHF = 1
     AGHF = 2
     THF = 3
-    
+
 def getSubDivision(league, numbertOfTeams, teamRank):
     NO_SUBDIVISION = ""
     match league:
