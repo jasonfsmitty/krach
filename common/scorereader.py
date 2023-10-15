@@ -12,8 +12,23 @@ class ScoreReader:
         pass
 
     #----------------------------------------------------------------------------
-    def read(self, filename, ledger):
-        with open(filename) as f:
+    def _addTeam(self, ledger, team):
+        ledger.addTeam(team['name'], team['id'], team['division'])
+
+    def _addTeams(self, ledger, game):
+        for x in ['homeTeam', 'visitorTeam']:
+            self._addTeam(ledger, game[x])
+
+    #----------------------------------------------------------------------------
+    def read(self, scheduleFile, scoresFile, ledger):
+        with open(scheduleFile) as f:
+            jdata = json.load(f)
+            for chunk in jdata.values():
+                for gameDay in chunk:
+                    for game in gameDay.get('games',[]):
+                        self._addTeams(ledger, game)
+
+        with open(scoresFile) as f:
             jdata = json.load(f)
             for game in jdata:
                 self.readGame(ledger, game['game'])
@@ -34,8 +49,7 @@ class ScoreReader:
         winner = team1 if team1score > team2score else team2
         loser  = team2 if team1score > team2score else team1
 
-        ledger.addTeam(team1, game['homeTeam']['id'])
-        ledger.addTeam(team2, game['visitorTeam']['id'])
+        self._addTeams(ledger, game)
 
         if team1score == team2score:
             ledger.addTie(date, team1, team2)
@@ -45,3 +59,4 @@ class ScoreReader:
             ledger.addShootout(date, winner, loser)
         else:
             ledger.addGame(date, winner, loser)
+

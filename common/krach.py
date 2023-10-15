@@ -201,8 +201,10 @@ class Record:
 
 #----------------------------------------------------------------------------
 class Team:
-    def __init__(self, id):
+    def __init__(self, name, id, division):
+        self.name = name
         self.id = id
+        self.division = division
         self.matchups = dict()
         self.record = Record()
 
@@ -298,9 +300,9 @@ class Ledger:
             self.teams[realTeam].addAlphaWin(fakeTeam)
             self.teams[fakeTeam].addAlphaLoss(realTeam)
 
-    def addTeam(self, name, id):
+    def addTeam(self, name, id, division):
         if not name in self.teams:
-            self.teams[name] = Team(id)
+            self.teams[name] = Team(name, id, division)
 
     def recordDate(self, date):
         if not self.oldestGame or date < self.oldestGame:
@@ -358,6 +360,8 @@ class KRACH:
     # Calculates an updated rating for a single team, using:
     #   Ki = Vi / ( ∑j Nij / (Ki + Kj) )
     def calculate(self, ledger, ratings, i):
+        if ledger.teams[i].record.played == 0:
+            return 0.0
         winPoints = ledger.teams[i].record.winPoints(self.options)
         matchupFactor = self.calculateMatchupFactor(ledger, ratings, i)
         return winPoints / matchupFactor
@@ -384,6 +388,9 @@ class KRACH:
 
     #----------------------------------------------------------------------------
     def strengthOfSchedule(self, ledger, ratings, myTeam):
+        if ledger.teams[myTeam].record.played == 0:
+            return 0
+
         total = 0.0
         for oppTeam in ledger.teams[myTeam].matchups:
             total += ledger.teams[myTeam].matchups[oppTeam].played * ratings[oppTeam]
@@ -431,15 +438,15 @@ def addFakeTies(options, ledger):
         options.filteredTeams.append(fakeTeam)
 
     for _ in range(options.fakeTies):
-        ledger.addTeam(fakeTeam, None)
+        ledger.addTeam(fakeTeam, None, None)
         for realTeam in ledger.teams:
-            if realTeam != fakeTeam:
+            if realTeam != fakeTeam and ledger.teams[realTeam].record.played > 0:
                 ledger.addAlpha(ledger.oldestGame, fakeTeam, realTeam)
 
     for _ in range(options.alphaGames):
-        ledger.addTeam(fakeTeam, None)
+        ledger.addTeam(fakeTeam, None, None)
         for realTeam in ledger.teams:
-            if realTeam != fakeTeam:
+            if realTeam != fakeTeam and ledger.teams[realTeam].record.played > 0:
                 ledger.addAlpha(ledger.oldestGame, fakeTeam, realTeam)
 
 #----------------------------------------------------------------------------

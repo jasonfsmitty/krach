@@ -119,10 +119,11 @@ def downloadSchedule(divisionName, SeasonId, Divisions, force=False):
         logging.error("Unknown division '%s'", divisionName)
         sys.exit(1)
 
-    if force or not os.path.exists(info['schedule']):
+    scheduleFile = info['output']['schedule']
+    if force or not os.path.exists(scheduleFile):
         logging.info("Getting schedule for division '{}'".format(divisionName))
-        schedule = getDivisionSchedule(SeasonId, divisionName, info['id'])
-        with open(info['output']['schedule'], "w") as f:
-            json.dump(schedule, f)
+        scheduleData = getDivisionSchedule(SeasonId, divisionName, info['id'])
+        with open(scheduleFile, "w") as f:
+            json.dump(scheduleData, f)
 
 

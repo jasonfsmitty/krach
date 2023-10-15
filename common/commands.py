@@ -148,6 +148,7 @@ def downloadCommand(args, SeasonId, League):
     divisions = [args.div] if args.div else Divisions
     for d in sortDivisions(divisions):
         cleanOutputsForDivision(Divisions[d])
+        api.downloadSchedule(d, SeasonId, Divisions)
         api.downloadScores(d, SeasonId, Divisions)
 
 #----------------------------------------------------------------------------
@@ -252,7 +253,7 @@ def scanForCrossTeamPlay(divisionName, Divisions):
         sys.exit(1)
 
     seenDivisions = set()
-    with open(info['schedule']) as f:
+    with open(info['output']['schedule']) as f:
         jdata = json.load(f)
         for chunk in jdata.values():
             for gameDay in chunk:
@@ -298,8 +299,10 @@ def loadInputs(options, seasonId, dateCutoff, divisionName, Divisions):
         logging.error("Unknown division '%s'", divisionName)
         sys.exit(1)
 
-    inputFile = info['output']['scores']
+    scores = info['output']['scores']
+    schedule = info['output']['schedule']
     filterFile = info['input']['filter']
+
     if os.path.exists(filterFile):
         options.filteredTeams = [ line.strip() for line in open(filterFile) ]
     else:
@@ -307,6 +310,13 @@ def loadInputs(options, seasonId, dateCutoff, divisionName, Divisions):
 
     ledger = krach.Ledger(seasonId, dateCutoff)
     reader = scorereader.ScoreReader()
-    reader.read(inputFile, ledger)
+    reader.read(schedule, scores, ledger)
+
+    if True:
+        for team in ledger.teams.values():
+            if team.division != divisionName:
+                logging.info("Ignoring team from another division: %s", team.name)
+                options.filteredTeams.append(team.name)
+
     return (ledger, info)
 
