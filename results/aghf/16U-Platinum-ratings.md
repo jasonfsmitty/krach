@@ -1,24 +1,24 @@
 [<- back to the index](readme.md)
 # 16U Platinum KRACH Rankings
-Rankings generated on Sun Oct 15 07:13:35 2023.
+Rankings generated on Mon Oct 16 07:15:53 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|306|Playoffs|[Reston Raiders](https://gamesheetstats.com/seasons/3663/teams/140850/schedule)|4|2|2|0|1|0|866|2.8|-0.0
-2|235|Playoffs|[Maryland Jr. Blackbears](https://gamesheetstats.com/seasons/3663/teams/140848/schedule)|6|3|3|0|0|1|665|3.9|0.0
-3|51|Playoffs|[LVPY](https://gamesheetstats.com/seasons/3663/teams/140844/schedule)|3|1|2|0|0|0|143|1.9|0.0
-4|40|Playoffs|[Skyland Lady Kings](https://gamesheetstats.com/seasons/3663/teams/140849/schedule)|5|1|4|0|1|0|514|1.9|0.0
-5|10||[New York Islanders 2](https://gamesheetstats.com/seasons/3663/teams/140851/schedule)|5|0|5|0|0|1|394|0.9|0.0
+1|290|Playoffs|[Reston Raiders](https://gamesheetstats.com/seasons/3663/teams/140850/schedule)|4|2|2|0|1|0|843|2.8|-0.0
+2|221|Playoffs|[Maryland Jr. Blackbears](https://gamesheetstats.com/seasons/3663/teams/140848/schedule)|6|3|3|0|0|1|633|3.9|0.0
+3|43|Playoffs|[Skyland Lady Kings](https://gamesheetstats.com/seasons/3663/teams/140849/schedule)|6|1|5|0|1|0|572|1.9|0.0
+4|33|Playoffs|[LVPY](https://gamesheetstats.com/seasons/3663/teams/140844/schedule)|5|2|3|0|0|0|97|2.9|0.0
+5|15||[New York Islanders 2](https://gamesheetstats.com/seasons/3663/teams/140851/schedule)|7|1|6|0|0|1|303|1.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Reston Raiders|Maryland Jr. Blackbears|LVPY|Skyland Lady Kings|New York Islanders 2
+||Reston Raiders|Maryland Jr. Blackbears|Skyland Lady Kings|LVPY|New York Islanders 2
 | --: | --: | --: | --: | --: | --: 
-|Reston Raiders|--| 57%| 86%| 88%| 97%
-|Maryland Jr. Blackbears| 43%|--| 82%| 85%| 96%
-|LVPY| 14%| 18%|--| 56%| 83%
-|Skyland Lady Kings| 12%| 15%| 44%|--| 80%
-|New York Islanders 2|  3%|  4%| 17%| 20%|--
+|Reston Raiders|--| 57%| 87%| 90%| 95%
+|Maryland Jr. Blackbears| 43%|--| 84%| 87%| 93%
+|Skyland Lady Kings| 13%| 16%|--| 57%| 74%
+|LVPY| 10%| 13%| 43%|--| 68%
+|New York Islanders 2|  5%|  7%| 26%| 32%|--
 
 ## Generation Details
 
@@ -30,7 +30,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-09-09 |
-| End Date | 2023-10-08 |
+| End Date | 2023-10-15 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
