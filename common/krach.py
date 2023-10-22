@@ -15,9 +15,9 @@ import copy
 #----------------------------------------------------------------------------
 class ScaleMethod(enum.Enum):
     NONE   = 1  # No scaling, report raw floating point values.
-    AUTO   = 2  # Repeatedly mutiple all ratings by 10 until all are > 0.
+    AUTO   = 2  # Repeatedly multiple all ratings by 10 until all are > 0.
     FACTOR = 3  # Multiply all ratings by 'scaleFactor'.
-    RANGE  = 4  # Scale ratings logarithically to range [0, scaleFactor].
+    RANGE  = 4  # Scale ratings logarithmically to range [0, scaleFactor].
 
 #----------------------------------------------------------------------------
 @dataclasses.dataclass
@@ -332,7 +332,7 @@ class KRACH:
     # Execute the KRACH algorithm until the ratings converge, or
     # we hit our max iteration limit.
     def run(self, ledger) -> dict[str, float]:
-        # Initial guesses at the krach ratings; doesn't really matter as we'll iterate
+        # Initial guesses at the KRACH ratings; doesn't really matter as we'll iterate
         # until we get to the correct values.
         ratings = { k : 1.0 for k in ledger.teams.keys() }
 
@@ -341,11 +341,11 @@ class KRACH:
             loop += 1
             updated = self.calculateAll(ledger, ratings)
             if self.areRatingsEqual(ratings, updated):
-                logging.debug("Convergence to final results took {} interations".format(loop))
+                logging.debug("Convergence to final results took {} iterations".format(loop))
                 return updated
             ratings = updated
 
-        logging.debug("Failed to reach convergence after {} interations".format(loop))
+        logging.debug("Failed to reach convergence after {} iterations".format(loop))
         return ratings
 
     #----------------------------------------------------------------------------
@@ -371,11 +371,11 @@ class KRACH:
     # Different sources have the numerator as Nij versus (Wij + Wji). For most
     # scenarios every game is worth 1.0 points total, making the two forms identical.
     # But the AHF assigns 0.85 win points for their 'regularization' tie games,
-    # breaking the equivalance.
+    # breaking the equivalence.
     def calculateMatchupFactor(self, ledger, ratings, i):
         myTeam = ledger.teams[i]
         sumOfMatchups = 0.0
-        # iterate across all teams we've played
+        # iterate across all teams played
         for j in myTeam.matchups:
             wij = myTeam.matchups[j].winPoints(self.options)
             wji = ledger.teams[j].matchups[i].winPoints(self.options)
@@ -425,7 +425,7 @@ class KRACH:
             try:
                 return (rating1 / (rating1 + rating2))
             except:
-                return float("NaN")
+                return 0.0 # float("NaN")
 
         myRating = ratings[team]
         return { oppTeam : _calcOdds(myRating, oppRating) for oppTeam,oppRating in ratings.items() }
@@ -479,12 +479,12 @@ def generate(options, ledger):
 
     # And finally, build a list of Rating() objects for easy consumption by caller
     def _rating(name, value):
-        # difference between number of expected wins and actual wins
-        # negative differerence indicates the KRACH rating is too low, likewise a
+        # Difference between number of expected wins and actual wins.
+        # A negative difference indicates the KRACH rating is too low, likewise a
         # positive difference indicates rating is too high.
         diff = expectedWins[name] - ledger.teams[name].record.winPoints(options)
-        return Rating(name, value, sosAll[name], expectedWins[name], diff, 
-                      ledger.teams[name].record.winPoints(options), 
+        return Rating(name, value, sosAll[name], expectedWins[name], diff,
+                      ledger.teams[name].record.winPoints(options),
                       0,
                       odds[name])
 
