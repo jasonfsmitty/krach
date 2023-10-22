@@ -42,6 +42,7 @@ def loadDivisions(season, league, outputsDir):
 #------------------------------------------------------------------------------
 def populateDivisionsDictionary(season, league):
     configDir  = 'config/{}'.format(bb.getLeagueAbbreviation(league).lower())
+    dataDir    = 'data/{}'.format(bb.getLeagueAbbreviation(league).lower())
     outputsDir = 'results/{}'.format(bb.getLeagueAbbreviation(league).lower())
 
     divisions  = loadDivisions(season, league, outputsDir)
@@ -50,6 +51,7 @@ def populateDivisionsDictionary(season, league):
     for division,divisionId in divisions.items():
         divisionName = division.replace(' ', '-').replace("/", '')
         configPrefix = '{}/{}-'.format(configDir, divisionName)
+        dataPrefix   = '{}/{}-'.format(dataDir, divisionName)
         outputPrefix = '{}/{}-'.format(outputsDir, divisionName)
         returnDivisions[division] = {
             'name'    : division,
@@ -59,8 +61,8 @@ def populateDivisionsDictionary(season, league):
                 'filter'  : configPrefix + "filter.txt",
             },
             'output' : {
-                'schedule': outputPrefix + "schedule.json",
-                'scores'  : outputPrefix + "scores.json",
+                'schedule': dataPrefix   + "schedule.json",
+                'scores'  : dataPrefix   + "scores.json",
                 'ratings' : outputPrefix + "ratings.md",
             },
         }

@@ -441,7 +441,7 @@ def addFakeTies(options, ledger):
         ledger.addTeam(fakeTeam, None, None)
         for realTeam in ledger.teams:
             if realTeam != fakeTeam and ledger.teams[realTeam].record.played > 0:
-                ledger.addAlpha(ledger.oldestGame, fakeTeam, realTeam)
+                ledger.addTie(ledger.oldestGame, fakeTeam, realTeam)
 
     for _ in range(options.alphaGames):
         ledger.addTeam(fakeTeam, None, None)
@@ -451,7 +451,6 @@ def addFakeTies(options, ledger):
 
 #----------------------------------------------------------------------------
 def generate(options, ledger):
-
     # Make a copy of the ledger to avoid polluting ledger with any adjustments
     # made by the algorithm (e.g. adding fake ties)
     ledger = copy.deepcopy(ledger)
