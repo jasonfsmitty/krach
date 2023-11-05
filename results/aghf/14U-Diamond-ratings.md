@@ -1,52 +1,52 @@
 [<- back to the index](readme.md)
 # 14U Diamond KRACH Rankings
-Rankings generated on Sat Nov  4 07:15:11 2023.
+Rankings generated on Sun Nov  5 07:14:11 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2640|Playoffs|[FL Alliance](https://gamesheetstats.com/seasons/3663/teams/156905/schedule)|4|4|0|0|0|0|84|4.8|-0.0
-2|1084|Playoffs|[MassConn United Hockey Club](https://gamesheetstats.com/seasons/3663/teams/140810/schedule)|4|4|0|0|0|0|34|4.8|-0.0
-3|820|Playoffs|[PTL Orange](https://gamesheetstats.com/seasons/3663/teams/140821/schedule)|13|11|2|0|1|0|192|11.9|0.0
-4|721|Playoffs|[Yale Bulldogs](https://gamesheetstats.com/seasons/3663/teams/156906/schedule)|4|3|1|0|0|0|311|3.9|0.0
-5|642|Playoffs|[MYHA Blue](https://gamesheetstats.com/seasons/3663/teams/140816/schedule)|10|8|2|0|1|0|182|8.9|0.0
-6|612|Playoffs|[Hartford Wolfpack](https://gamesheetstats.com/seasons/3663/teams/140814/schedule)|4|3|1|0|0|1|228|3.9|0.0
-7|605||[MYHA Gold](https://gamesheetstats.com/seasons/3663/teams/140824/schedule)|10|8|2|0|0|0|242|8.9|0.0
-8|333||[CP Dynamo](https://gamesheetstats.com/seasons/3663/teams/140823/schedule)|6|4|1|1|0|0|160|5.4|0.0
-9|216||[PTL Black](https://gamesheetstats.com/seasons/3663/teams/140815/schedule)|13|6|6|1|0|0|490|7.3|-0.0
-10|172||[South Pittsburgh Rebellion Blum](https://gamesheetstats.com/seasons/3663/teams/140812/schedule)|8|3|4|1|0|0|308|4.4|0.0
-11|96||[Stateline Hawks](https://gamesheetstats.com/seasons/3663/teams/140813/schedule)|15|5|8|2|0|0|356|6.9|0.0
-12|94||[STJ](https://gamesheetstats.com/seasons/3663/teams/140822/schedule)|14|7|7|0|0|0|251|7.9|0.0
-13|87||[WBS Lady Knights](https://gamesheetstats.com/seasons/3663/teams/140825/schedule)|12|7|5|0|0|0|289|7.9|0.0
-14|65||[CT Polar Bears](https://gamesheetstats.com/seasons/3663/teams/140818/schedule)|10|3|7|0|0|0|437|3.9|0.0
-15|40||[CT Ice Cats](https://gamesheetstats.com/seasons/3663/teams/140826/schedule)|9|2|7|0|0|1|411|2.9|0.0
-16|37||[NJ Bandits](https://gamesheetstats.com/seasons/3663/teams/140828/schedule)|16|2|11|3|0|0|430|4.4|0.0
-17|21||[Jr Flyers Audit](https://gamesheetstats.com/seasons/3663/teams/140819/schedule)|8|1|7|0|0|0|276|1.9|0.0
-18|13||[LVPY](https://gamesheetstats.com/seasons/3663/teams/140820/schedule)|10|1|9|0|0|0|250|1.9|0.0
-19|7||[New York Islanders](https://gamesheetstats.com/seasons/3663/teams/140832/schedule)|4|0|4|0|0|0|161|0.9|0.0
+1|2342|Playoffs|[FL Alliance](https://gamesheetstats.com/seasons/3663/teams/156905/schedule)|4|4|0|0|0|0|74|4.8|-0.0
+2|925|Playoffs|[MassConn United Hockey Club](https://gamesheetstats.com/seasons/3663/teams/140810/schedule)|4|4|0|0|0|0|29|4.8|-0.0
+3|686|Playoffs|[PTL Orange](https://gamesheetstats.com/seasons/3663/teams/140821/schedule)|13|11|2|0|1|0|160|11.9|0.0
+4|601|Playoffs|[Yale Bulldogs](https://gamesheetstats.com/seasons/3663/teams/156906/schedule)|4|3|1|0|0|0|259|3.9|0.0
+5|567|Playoffs|[Hartford Wolfpack](https://gamesheetstats.com/seasons/3663/teams/140814/schedule)|4|3|1|0|0|1|205|3.9|0.0
+6|533|Playoffs|[MYHA Blue](https://gamesheetstats.com/seasons/3663/teams/140816/schedule)|11|8|2|1|1|0|176|9.4|0.0
+7|504||[MYHA Gold](https://gamesheetstats.com/seasons/3663/teams/140824/schedule)|10|8|2|0|0|0|202|8.9|0.0
+8|310||[CP Dynamo](https://gamesheetstats.com/seasons/3663/teams/140823/schedule)|6|4|1|1|0|0|144|5.4|0.0
+9|200||[PTL Black](https://gamesheetstats.com/seasons/3663/teams/140815/schedule)|14|6|7|1|0|0|669|7.3|-0.0
+10|199||[South Pittsburgh Rebellion Blum](https://gamesheetstats.com/seasons/3663/teams/140812/schedule)|10|4|4|2|0|0|275|5.9|0.0
+11|82||[Stateline Hawks](https://gamesheetstats.com/seasons/3663/teams/140813/schedule)|15|5|8|2|0|0|302|6.9|0.0
+12|78||[STJ](https://gamesheetstats.com/seasons/3663/teams/140822/schedule)|14|7|7|0|0|0|210|7.9|0.0
+13|72||[WBS Lady Knights](https://gamesheetstats.com/seasons/3663/teams/140825/schedule)|12|7|5|0|0|0|252|7.9|0.0
+14|57||[CT Polar Bears](https://gamesheetstats.com/seasons/3663/teams/140818/schedule)|10|3|7|0|0|0|386|3.9|0.0
+15|34||[CT Ice Cats](https://gamesheetstats.com/seasons/3663/teams/140826/schedule)|9|2|7|0|0|1|349|2.9|0.0
+16|32||[NJ Bandits](https://gamesheetstats.com/seasons/3663/teams/140828/schedule)|16|2|11|3|0|0|376|4.4|0.0
+17|18||[Jr Flyers Audit](https://gamesheetstats.com/seasons/3663/teams/140819/schedule)|8|1|7|0|0|0|238|1.9|0.0
+18|10||[LVPY](https://gamesheetstats.com/seasons/3663/teams/140820/schedule)|10|1|9|0|0|0|200|1.9|0.0
+19|5||[New York Islanders](https://gamesheetstats.com/seasons/3663/teams/140832/schedule)|4|0|4|0|0|0|134|0.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||FL Alliance|MassConn United Hockey Club|PTL Orange|Yale Bulldogs|MYHA Blue|Hartford Wolfpack|MYHA Gold|CP Dynamo|PTL Black|South Pittsburgh Rebellion Blum|Stateline Hawks|STJ|WBS Lady Knights|CT Polar Bears|CT Ice Cats|NJ Bandits|Jr Flyers Audit|LVPY|New York Islanders
+||FL Alliance|MassConn United Hockey Club|PTL Orange|Yale Bulldogs|Hartford Wolfpack|MYHA Blue|MYHA Gold|CP Dynamo|PTL Black|South Pittsburgh Rebellion Blum|Stateline Hawks|STJ|WBS Lady Knights|CT Polar Bears|CT Ice Cats|NJ Bandits|Jr Flyers Audit|LVPY|New York Islanders
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|FL Alliance|--| 71%| 76%| 79%| 80%| 81%| 81%| 89%| 92%| 94%| 96%| 97%| 97%| 98%| 98%| 99%| 99%|100%|100%
-|MassConn United Hockey Club| 29%|--| 57%| 60%| 63%| 64%| 64%| 76%| 83%| 86%| 92%| 92%| 93%| 94%| 96%| 97%| 98%| 99%| 99%
-|PTL Orange| 24%| 43%|--| 53%| 56%| 57%| 58%| 71%| 79%| 83%| 89%| 90%| 90%| 93%| 95%| 96%| 98%| 98%| 99%
-|Yale Bulldogs| 21%| 40%| 47%|--| 53%| 54%| 54%| 68%| 77%| 81%| 88%| 88%| 89%| 92%| 95%| 95%| 97%| 98%| 99%
-|MYHA Blue| 20%| 37%| 44%| 47%|--| 51%| 51%| 66%| 75%| 79%| 87%| 87%| 88%| 91%| 94%| 95%| 97%| 98%| 99%
-|Hartford Wolfpack| 19%| 36%| 43%| 46%| 49%|--| 50%| 65%| 74%| 78%| 86%| 87%| 88%| 90%| 94%| 94%| 97%| 98%| 99%
-|MYHA Gold| 19%| 36%| 42%| 46%| 49%| 50%|--| 64%| 74%| 78%| 86%| 87%| 87%| 90%| 94%| 94%| 97%| 98%| 99%
-|CP Dynamo| 11%| 24%| 29%| 32%| 34%| 35%| 36%|--| 61%| 66%| 78%| 78%| 79%| 84%| 89%| 90%| 94%| 96%| 98%
-|PTL Black|  8%| 17%| 21%| 23%| 25%| 26%| 26%| 39%|--| 56%| 69%| 70%| 71%| 77%| 84%| 85%| 91%| 94%| 97%
-|South Pittsburgh Rebellion Blum|  6%| 14%| 17%| 19%| 21%| 22%| 22%| 34%| 44%|--| 64%| 65%| 67%| 73%| 81%| 82%| 89%| 93%| 96%
-|Stateline Hawks|  4%|  8%| 11%| 12%| 13%| 14%| 14%| 22%| 31%| 36%|--| 51%| 53%| 60%| 71%| 72%| 82%| 88%| 93%
-|STJ|  3%|  8%| 10%| 12%| 13%| 13%| 13%| 22%| 30%| 35%| 49%|--| 52%| 59%| 70%| 72%| 82%| 88%| 93%
-|WBS Lady Knights|  3%|  7%| 10%| 11%| 12%| 12%| 13%| 21%| 29%| 33%| 47%| 48%|--| 57%| 68%| 70%| 81%| 87%| 93%
-|CT Polar Bears|  2%|  6%|  7%|  8%|  9%| 10%| 10%| 16%| 23%| 27%| 40%| 41%| 43%|--| 62%| 64%| 75%| 83%| 90%
-|CT Ice Cats|  2%|  4%|  5%|  5%|  6%|  6%|  6%| 11%| 16%| 19%| 29%| 30%| 32%| 38%|--| 52%| 66%| 75%| 85%
-|NJ Bandits|  1%|  3%|  4%|  5%|  5%|  6%|  6%| 10%| 15%| 18%| 28%| 28%| 30%| 36%| 48%|--| 64%| 74%| 84%
-|Jr Flyers Audit|  1%|  2%|  2%|  3%|  3%|  3%|  3%|  6%|  9%| 11%| 18%| 18%| 19%| 25%| 34%| 36%|--| 61%| 75%
-|LVPY|  0%|  1%|  2%|  2%|  2%|  2%|  2%|  4%|  6%|  7%| 12%| 12%| 13%| 17%| 25%| 26%| 39%|--| 65%
-|New York Islanders|  0%|  1%|  1%|  1%|  1%|  1%|  1%|  2%|  3%|  4%|  7%|  7%|  7%| 10%| 15%| 16%| 25%| 35%|--
+|FL Alliance|--| 72%| 77%| 80%| 81%| 81%| 82%| 88%| 92%| 92%| 97%| 97%| 97%| 98%| 99%| 99%| 99%|100%|100%
+|MassConn United Hockey Club| 28%|--| 57%| 61%| 62%| 63%| 65%| 75%| 82%| 82%| 92%| 92%| 93%| 94%| 96%| 97%| 98%| 99%| 99%
+|PTL Orange| 23%| 43%|--| 53%| 55%| 56%| 58%| 69%| 77%| 78%| 89%| 90%| 91%| 92%| 95%| 96%| 97%| 99%| 99%
+|Yale Bulldogs| 20%| 39%| 47%|--| 51%| 53%| 54%| 66%| 75%| 75%| 88%| 89%| 89%| 91%| 95%| 95%| 97%| 98%| 99%
+|Hartford Wolfpack| 19%| 38%| 45%| 49%|--| 52%| 53%| 65%| 74%| 74%| 87%| 88%| 89%| 91%| 94%| 95%| 97%| 98%| 99%
+|MYHA Blue| 19%| 37%| 44%| 47%| 48%|--| 51%| 63%| 73%| 73%| 87%| 87%| 88%| 90%| 94%| 94%| 97%| 98%| 99%
+|MYHA Gold| 18%| 35%| 42%| 46%| 47%| 49%|--| 62%| 72%| 72%| 86%| 87%| 88%| 90%| 94%| 94%| 97%| 98%| 99%
+|CP Dynamo| 12%| 25%| 31%| 34%| 35%| 37%| 38%|--| 61%| 61%| 79%| 80%| 81%| 84%| 90%| 91%| 95%| 97%| 98%
+|PTL Black|  8%| 18%| 23%| 25%| 26%| 27%| 28%| 39%|--| 50%| 71%| 72%| 74%| 78%| 85%| 86%| 92%| 95%| 97%
+|South Pittsburgh Rebellion Blum|  8%| 18%| 22%| 25%| 26%| 27%| 28%| 39%| 50%|--| 71%| 72%| 74%| 78%| 85%| 86%| 92%| 95%| 97%
+|Stateline Hawks|  3%|  8%| 11%| 12%| 13%| 13%| 14%| 21%| 29%| 29%|--| 51%| 53%| 59%| 71%| 72%| 82%| 89%| 94%
+|STJ|  3%|  8%| 10%| 11%| 12%| 13%| 13%| 20%| 28%| 28%| 49%|--| 52%| 58%| 69%| 71%| 81%| 89%| 93%
+|WBS Lady Knights|  3%|  7%|  9%| 11%| 11%| 12%| 12%| 19%| 26%| 26%| 47%| 48%|--| 55%| 68%| 69%| 80%| 88%| 93%
+|CT Polar Bears|  2%|  6%|  8%|  9%|  9%| 10%| 10%| 16%| 22%| 22%| 41%| 42%| 45%|--| 63%| 64%| 76%| 86%| 91%
+|CT Ice Cats|  1%|  4%|  5%|  5%|  6%|  6%|  6%| 10%| 15%| 15%| 29%| 31%| 32%| 37%|--| 52%| 66%| 78%| 86%
+|NJ Bandits|  1%|  3%|  4%|  5%|  5%|  6%|  6%|  9%| 14%| 14%| 28%| 29%| 31%| 36%| 48%|--| 64%| 77%| 85%
+|Jr Flyers Audit|  1%|  2%|  3%|  3%|  3%|  3%|  3%|  5%|  8%|  8%| 18%| 19%| 20%| 24%| 34%| 36%|--| 65%| 76%
+|LVPY|  0%|  1%|  1%|  2%|  2%|  2%|  2%|  3%|  5%|  5%| 11%| 11%| 12%| 14%| 22%| 23%| 35%|--| 64%
+|New York Islanders|  0%|  1%|  1%|  1%|  1%|  1%|  1%|  2%|  3%|  3%|  6%|  7%|  7%|  9%| 14%| 15%| 24%| 36%|--
 
 ## Generation Details
 
@@ -58,7 +58,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-09-09 |
-| End Date | 2023-10-29 |
+| End Date | 2023-11-04 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
