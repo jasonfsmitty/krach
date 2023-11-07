@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 14U Lemieux KRACH Rankings
-Rankings generated on Mon Nov  6 07:15:40 2023.
+Rankings generated on Tue Nov  7 07:14:50 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -8,12 +8,12 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 2|2406|Championship|[Rinx](https://gamesheetstats.com/seasons/3659/teams/142501/schedule)|8|7|1|0|1|0|516|7.8|-0.0
 3|1276|Championship|[PAL Silver Knights](https://gamesheetstats.com/seasons/3659/teams/140614/schedule)|16|13|2|1|1|0|367|14.3|-0.0
 4|818|Championship|[Frederick Freeze 14U LA](https://gamesheetstats.com/seasons/3659/teams/140597/schedule)|11|9|2|0|0|0|385|9.8|-0.0
-5|791|Gold|[Ashburn Xtreme 14U X](https://gamesheetstats.com/seasons/3659/teams/140596/schedule)|16|14|2|0|0|0|228|14.8|-0.0
+5|791|Gold|[Ashburn Xtreme 14U X](https://gamesheetstats.com/seasons/3659/teams/140596/schedule)|16|14|2|0|1|0|228|14.8|-0.0
 6|575|Gold|[PAL Sound Tigers](https://gamesheetstats.com/seasons/3659/teams/140615/schedule)|16|11|4|1|1|1|504|12.3|-0.0
 7|273|Gold|[STJ 14U White](https://gamesheetstats.com/seasons/3659/teams/140621/schedule)|12|9|3|0|0|0|240|9.8|-0.0
 8|214|Gold|[Grundy Senators Miller](https://gamesheetstats.com/seasons/3659/teams/140598/schedule)|20|14|6|0|0|0|293|14.8|-0.0
 9|213|Silver|[MYHA 14U LA Blue](https://gamesheetstats.com/seasons/3659/teams/140607/schedule)|12|8|4|0|1|2|373|8.8|-0.0
-10|102|Silver|[Jersey Colts Bantam Silver](https://gamesheetstats.com/seasons/3659/teams/140603/schedule)|18|12|5|1|0|0|223|13.4|0.0
+10|102|Silver|[Jersey Colts Bantam Silver](https://gamesheetstats.com/seasons/3659/teams/140603/schedule)|18|12|5|1|0|1|223|13.4|0.0
 11|70|Silver|[North Jersey Avalanche Gold](https://gamesheetstats.com/seasons/3659/teams/140610/schedule)|5|4|1|0|0|0|26|4.9|0.0
 12|61|Silver|[Wildcats 14U A Red](https://gamesheetstats.com/seasons/3659/teams/140624/schedule)|20|13|7|0|0|2|236|13.9|0.0
 13|61|Bronze|[Palmyra Black Knights-East](https://gamesheetstats.com/seasons/3659/teams/140617/schedule)|18|10|8|0|0|1|195|10.9|0.0
