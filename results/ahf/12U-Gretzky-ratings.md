@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 12U Gretzky KRACH Rankings
-Rankings generated on Tue Nov  7 07:14:49 2023.
+Rankings generated on Wed Nov  8 07:15:10 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
