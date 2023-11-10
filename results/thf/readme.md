@@ -14,4 +14,4 @@ Click below to see KRACH ratings for each division
 | [16U](16U-ratings.md) | 2023-08-25 | 2023-11-05 |
 | [18U](18U-ratings.md) | 2023-08-25 | 2023-11-05 |
 
-Generated on 2023-11-09 07:15:04.606542.
+Generated on 2023-11-10 07:14:41.163933.
