@@ -1,32 +1,32 @@
 [<- back to the index](readme.md)
 # 19U Platinum KRACH Rankings
-Rankings generated on Sat Nov 11 07:14:00 2023.
+Rankings generated on Sun Nov 12 07:15:19 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|3536|Playoffs|[New York Islanders](https://gamesheetstats.com/seasons/3663/teams/140861/schedule)|6|6|0|0|0|0|79|6.8|-0.0
-2|364|Playoffs|[MYHA](https://gamesheetstats.com/seasons/3663/teams/140863/schedule)|5|3|2|0|0|0|226|3.9|0.0
-3|360|Playoffs|[Tri City Eagles Gold](https://gamesheetstats.com/seasons/3663/teams/140869/schedule)|8|5|2|1|0|0|172|6.4|0.0
-4|290|Playoffs|[Philadelphia Belles](https://gamesheetstats.com/seasons/3663/teams/140864/schedule)|15|8|7|0|0|0|659|8.9|0.0
-5|180||[Skyland Lady Kings](https://gamesheetstats.com/seasons/3663/teams/140865/schedule)|14|7|6|1|0|0|462|8.4|0.0
-6|112||[NJ Rockets Blue](https://gamesheetstats.com/seasons/3663/teams/140867/schedule)|12|6|5|1|0|0|880|7.4|0.0
-7|73||[LVPY](https://gamesheetstats.com/seasons/3663/teams/140860/schedule)|5|2|3|0|0|0|132|2.9|0.0
-8|21||[Reston Raiders](https://gamesheetstats.com/seasons/3663/teams/140868/schedule)|6|1|5|0|0|0|119|1.9|0.0
-9|10||[NJ Bandits Morris](https://gamesheetstats.com/seasons/3663/teams/140866/schedule)|13|0|12|1|0|0|634|1.4|0.0
+1|3148|Playoffs|[New York Islanders](https://gamesheetstats.com/seasons/3663/teams/140861/schedule)|6|6|0|0|0|0|70|6.8|-0.0
+2|391|Playoffs|[MYHA](https://gamesheetstats.com/seasons/3663/teams/140863/schedule)|5|3|2|0|0|0|243|3.9|0.0
+3|312|Playoffs|[Philadelphia Belles](https://gamesheetstats.com/seasons/3663/teams/140864/schedule)|17|10|7|0|0|0|616|10.9|0.0
+4|259|Playoffs|[Tri City Eagles Gold](https://gamesheetstats.com/seasons/3663/teams/140869/schedule)|10|6|3|1|0|0|159|7.4|0.0
+5|189||[Skyland Lady Kings](https://gamesheetstats.com/seasons/3663/teams/140865/schedule)|14|7|6|1|0|0|432|8.4|0.0
+6|111||[LVPY](https://gamesheetstats.com/seasons/3663/teams/140860/schedule)|7|3|4|0|0|0|173|3.9|0.0
+7|83||[NJ Rockets Blue](https://gamesheetstats.com/seasons/3663/teams/140867/schedule)|14|7|6|1|0|0|686|8.4|0.0
+8|18||[NJ Bandits Morris](https://gamesheetstats.com/seasons/3663/teams/140866/schedule)|15|1|13|1|0|0|525|2.4|0.0
+9|18||[Reston Raiders](https://gamesheetstats.com/seasons/3663/teams/140868/schedule)|8|1|7|0|0|0|131|1.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||New York Islanders|MYHA|Tri City Eagles Gold|Philadelphia Belles|Skyland Lady Kings|NJ Rockets Blue|LVPY|Reston Raiders|NJ Bandits Morris
+||New York Islanders|MYHA|Philadelphia Belles|Tri City Eagles Gold|Skyland Lady Kings|LVPY|NJ Rockets Blue|NJ Bandits Morris|Reston Raiders
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|New York Islanders|--| 91%| 91%| 92%| 95%| 97%| 98%| 99%|100%
-|MYHA|  9%|--| 50%| 56%| 67%| 77%| 83%| 95%| 97%
-|Tri City Eagles Gold|  9%| 50%|--| 55%| 67%| 76%| 83%| 95%| 97%
-|Philadelphia Belles|  8%| 44%| 45%|--| 62%| 72%| 80%| 93%| 97%
-|Skyland Lady Kings|  5%| 33%| 33%| 38%|--| 62%| 71%| 90%| 95%
-|NJ Rockets Blue|  3%| 23%| 24%| 28%| 38%|--| 61%| 84%| 92%
-|LVPY|  2%| 17%| 17%| 20%| 29%| 39%|--| 78%| 88%
-|Reston Raiders|  1%|  5%|  5%|  7%| 10%| 16%| 22%|--| 67%
-|NJ Bandits Morris|  0%|  3%|  3%|  3%|  5%|  8%| 12%| 33%|--
+|New York Islanders|--| 89%| 91%| 92%| 94%| 97%| 97%| 99%| 99%
+|MYHA| 11%|--| 56%| 60%| 67%| 78%| 83%| 96%| 96%
+|Philadelphia Belles|  9%| 44%|--| 55%| 62%| 74%| 79%| 95%| 95%
+|Tri City Eagles Gold|  8%| 40%| 45%|--| 58%| 70%| 76%| 94%| 94%
+|Skyland Lady Kings|  6%| 33%| 38%| 42%|--| 63%| 69%| 91%| 91%
+|LVPY|  3%| 22%| 26%| 30%| 37%|--| 57%| 86%| 86%
+|NJ Rockets Blue|  3%| 17%| 21%| 24%| 31%| 43%|--| 82%| 83%
+|NJ Bandits Morris|  1%|  4%|  5%|  6%|  9%| 14%| 18%|--| 51%
+|Reston Raiders|  1%|  4%|  5%|  6%|  9%| 14%| 17%| 49%|--
 
 ## Generation Details
 
@@ -38,7 +38,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-09-09 |
-| End Date | 2023-11-05 |
+| End Date | 2023-11-11 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
