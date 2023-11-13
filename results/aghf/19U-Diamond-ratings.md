@@ -1,50 +1,50 @@
 [<- back to the index](readme.md)
 # 19U Diamond KRACH Rankings
-Rankings generated on Sun Nov 12 07:15:19 2023.
+Rankings generated on Mon Nov 13 07:15:33 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|4577|Playoffs|[Jr Flyers Sullivan](https://gamesheetstats.com/seasons/3663/teams/140859/schedule)|11|9|1|1|1|0|811|10.3|-0.0
-2|1931|Playoffs|[NJ Bandits Potash](https://gamesheetstats.com/seasons/3663/teams/140857/schedule)|21|16|4|1|0|0|904|17.3|-0.0
-3|1154|Playoffs|[York Lady Devils](https://gamesheetstats.com/seasons/3663/teams/140856/schedule)|9|6|2|1|0|0|838|7.3|-0.0
-4|462|Playoffs|[NJ Rockets Red](https://gamesheetstats.com/seasons/3663/teams/140855/schedule)|16|11|3|2|1|1|330|12.9|0.0
-5|440|Playoffs|[Stateline Hawks](https://gamesheetstats.com/seasons/3663/teams/141851/schedule)|11|3|7|1|0|1|1946|4.3|-0.0
-6|428|Playoffs|[CT Polar Bears](https://gamesheetstats.com/seasons/3663/teams/140853/schedule)|8|3|5|0|0|0|1658|3.8|-0.0
-7|371||[New York Islanders](https://gamesheetstats.com/seasons/3663/teams/140861/schedule)|15|10|4|1|0|0|409|11.4|0.0
-8|303||[Tri CIty Eagles Blue](https://gamesheetstats.com/seasons/3663/teams/140852/schedule)|11|5|6|0|1|0|1110|5.8|-0.0
-9|142||[STJ](https://gamesheetstats.com/seasons/3663/teams/140858/schedule)|17|7|9|1|0|0|665|8.4|0.0
-10|59||[Jr Flyers Crawford](https://gamesheetstats.com/seasons/3663/teams/140862/schedule)|11|5|6|0|0|1|167|5.9|0.0
-11|56||[Skyland Lady Kings](https://gamesheetstats.com/seasons/3663/teams/140865/schedule)|5|3|2|0|0|0|143|3.9|0.0
-12|21||[NJ Rockets Blue](https://gamesheetstats.com/seasons/3663/teams/140867/schedule)|4|1|3|0|0|0|224|1.9|0.0
-13|15||[FL Alliance](https://gamesheetstats.com/seasons/3663/teams/156907/schedule)|4|1|3|0|0|0|336|1.9|0.0
-14|13||[MYHA](https://gamesheetstats.com/seasons/3663/teams/140863/schedule)|12|5|7|0|0|0|108|5.9|0.0
-15|11||[MassConn United Hockey Club](https://gamesheetstats.com/seasons/3663/teams/140854/schedule)|4|0|4|0|0|0|653|0.9|0.0
-16|5||[Philadelphia Belles](https://gamesheetstats.com/seasons/3663/teams/140864/schedule)|8|2|6|0|0|0|39|2.9|0.0
-17|4||[LVPY](https://gamesheetstats.com/seasons/3663/teams/140860/schedule)|16|3|13|0|0|0|264|3.9|0.0
-18|2||[NJ Bandits Morris](https://gamesheetstats.com/seasons/3663/teams/140866/schedule)|4|0|4|0|0|0|162|0.9|0.0
+1|4798|Playoffs|[Jr Flyers Sullivan](https://gamesheetstats.com/seasons/3663/teams/140859/schedule)|12|10|1|1|1|0|741|11.3|-0.0
+2|1513|Playoffs|[NJ Bandits Potash](https://gamesheetstats.com/seasons/3663/teams/140857/schedule)|22|16|5|1|0|0|928|17.3|-0.0
+3|1276|Playoffs|[York Lady Devils](https://gamesheetstats.com/seasons/3663/teams/140856/schedule)|11|7|2|2|0|0|789|8.8|-0.0
+4|593|Playoffs|[Stateline Hawks](https://gamesheetstats.com/seasons/3663/teams/141851/schedule)|13|4|7|2|0|1|1731|5.8|-0.0
+5|455|Playoffs|[CT Polar Bears](https://gamesheetstats.com/seasons/3663/teams/140853/schedule)|8|3|5|0|0|0|1654|3.8|-0.0
+6|385|Playoffs|[Tri CIty Eagles Blue](https://gamesheetstats.com/seasons/3663/teams/140852/schedule)|13|6|7|0|1|0|1153|6.8|-0.0
+7|374||[New York Islanders](https://gamesheetstats.com/seasons/3663/teams/140861/schedule)|17|12|4|1|0|0|319|13.3|-0.0
+8|353||[NJ Rockets Red](https://gamesheetstats.com/seasons/3663/teams/140855/schedule)|18|11|5|2|1|1|567|12.8|-0.0
+9|109||[STJ](https://gamesheetstats.com/seasons/3663/teams/140858/schedule)|19|8|10|1|0|0|498|9.4|0.0
+10|45||[Skyland Lady Kings](https://gamesheetstats.com/seasons/3663/teams/140865/schedule)|5|3|2|0|0|0|124|3.9|0.0
+11|45||[Jr Flyers Crawford](https://gamesheetstats.com/seasons/3663/teams/140862/schedule)|13|6|7|0|0|1|136|6.9|0.0
+12|11||[MYHA](https://gamesheetstats.com/seasons/3663/teams/140863/schedule)|14|6|8|0|0|0|92|6.9|0.0
+13|11||[FL Alliance](https://gamesheetstats.com/seasons/3663/teams/156907/schedule)|4|1|3|0|0|0|336|1.9|0.0
+14|9||[MassConn United Hockey Club](https://gamesheetstats.com/seasons/3663/teams/140854/schedule)|4|0|4|0|0|0|583|0.9|0.0
+15|7||[NJ Rockets Blue](https://gamesheetstats.com/seasons/3663/teams/140867/schedule)|5|1|4|0|0|0|190|1.9|0.0
+16|4||[Philadelphia Belles](https://gamesheetstats.com/seasons/3663/teams/140864/schedule)|8|2|6|0|0|0|30|2.9|0.0
+17|3||[LVPY](https://gamesheetstats.com/seasons/3663/teams/140860/schedule)|18|3|15|0|0|0|222|3.9|0.0
+18|2||[NJ Bandits Morris](https://gamesheetstats.com/seasons/3663/teams/140866/schedule)|4|0|4|0|0|0|160|0.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Jr Flyers Sullivan|NJ Bandits Potash|York Lady Devils|NJ Rockets Red|Stateline Hawks|CT Polar Bears|New York Islanders|Tri CIty Eagles Blue|STJ|Jr Flyers Crawford|Skyland Lady Kings|NJ Rockets Blue|FL Alliance|MYHA|MassConn United Hockey Club|Philadelphia Belles|LVPY|NJ Bandits Morris
+||Jr Flyers Sullivan|NJ Bandits Potash|York Lady Devils|Stateline Hawks|CT Polar Bears|Tri CIty Eagles Blue|New York Islanders|NJ Rockets Red|STJ|Skyland Lady Kings|Jr Flyers Crawford|MYHA|FL Alliance|MassConn United Hockey Club|NJ Rockets Blue|Philadelphia Belles|LVPY|NJ Bandits Morris
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Jr Flyers Sullivan|--| 70%| 80%| 91%| 91%| 91%| 93%| 94%| 97%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%
-|NJ Bandits Potash| 30%|--| 63%| 81%| 81%| 82%| 84%| 86%| 93%| 97%| 97%| 99%| 99%| 99%| 99%|100%|100%|100%
-|York Lady Devils| 20%| 37%|--| 71%| 72%| 73%| 76%| 79%| 89%| 95%| 95%| 98%| 99%| 99%| 99%|100%|100%|100%
-|NJ Rockets Red|  9%| 19%| 29%|--| 51%| 52%| 55%| 60%| 77%| 89%| 89%| 96%| 97%| 97%| 98%| 99%| 99%| 99%
-|Stateline Hawks|  9%| 19%| 28%| 49%|--| 51%| 54%| 59%| 76%| 88%| 89%| 96%| 97%| 97%| 98%| 99%| 99%| 99%
-|CT Polar Bears|  9%| 18%| 27%| 48%| 49%|--| 54%| 59%| 75%| 88%| 88%| 95%| 97%| 97%| 97%| 99%| 99%| 99%
-|New York Islanders|  7%| 16%| 24%| 45%| 46%| 46%|--| 55%| 72%| 86%| 87%| 95%| 96%| 97%| 97%| 99%| 99%| 99%
-|Tri CIty Eagles Blue|  6%| 14%| 21%| 40%| 41%| 41%| 45%|--| 68%| 84%| 84%| 94%| 95%| 96%| 96%| 98%| 99%| 99%
-|STJ|  3%|  7%| 11%| 23%| 24%| 25%| 28%| 32%|--| 71%| 72%| 87%| 90%| 92%| 93%| 97%| 97%| 98%
-|Jr Flyers Crawford|  1%|  3%|  5%| 11%| 12%| 12%| 14%| 16%| 29%|--| 51%| 74%| 80%| 82%| 84%| 92%| 93%| 96%
-|Skyland Lady Kings|  1%|  3%|  5%| 11%| 11%| 12%| 13%| 16%| 28%| 49%|--| 73%| 79%| 81%| 84%| 92%| 93%| 96%
-|NJ Rockets Blue|  0%|  1%|  2%|  4%|  4%|  5%|  5%|  6%| 13%| 26%| 27%|--| 58%| 61%| 65%| 81%| 83%| 89%
-|FL Alliance|  0%|  1%|  1%|  3%|  3%|  3%|  4%|  5%| 10%| 20%| 21%| 42%|--| 54%| 58%| 75%| 78%| 86%
-|MYHA|  0%|  1%|  1%|  3%|  3%|  3%|  3%|  4%|  8%| 18%| 19%| 39%| 46%|--| 54%| 72%| 75%| 84%
-|MassConn United Hockey Club|  0%|  1%|  1%|  2%|  2%|  3%|  3%|  4%|  7%| 16%| 16%| 35%| 42%| 46%|--| 69%| 72%| 82%
-|Philadelphia Belles|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  2%|  3%|  8%|  8%| 19%| 25%| 28%| 31%|--| 54%| 67%
-|LVPY|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  3%|  7%|  7%| 17%| 22%| 25%| 28%| 46%|--| 64%
-|NJ Bandits Morris|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  2%|  4%|  4%| 11%| 14%| 16%| 18%| 33%| 36%|--
+|Jr Flyers Sullivan|--| 76%| 79%| 89%| 91%| 93%| 93%| 93%| 98%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%
+|NJ Bandits Potash| 24%|--| 54%| 72%| 77%| 80%| 80%| 81%| 93%| 97%| 97%| 99%| 99%| 99%|100%|100%|100%|100%
+|York Lady Devils| 21%| 46%|--| 68%| 74%| 77%| 77%| 78%| 92%| 97%| 97%| 99%| 99%| 99%| 99%|100%|100%|100%
+|Stateline Hawks| 11%| 28%| 32%|--| 57%| 61%| 61%| 63%| 84%| 93%| 93%| 98%| 98%| 98%| 99%| 99%|100%|100%
+|CT Polar Bears|  9%| 23%| 26%| 43%|--| 54%| 55%| 56%| 81%| 91%| 91%| 98%| 98%| 98%| 99%| 99%| 99%|100%
+|Tri CIty Eagles Blue|  7%| 20%| 23%| 39%| 46%|--| 51%| 52%| 78%| 90%| 90%| 97%| 97%| 98%| 98%| 99%| 99%|100%
+|New York Islanders|  7%| 20%| 23%| 39%| 45%| 49%|--| 51%| 77%| 89%| 89%| 97%| 97%| 98%| 98%| 99%| 99%|100%
+|NJ Rockets Red|  7%| 19%| 22%| 37%| 44%| 48%| 49%|--| 76%| 89%| 89%| 97%| 97%| 97%| 98%| 99%| 99%|100%
+|STJ|  2%|  7%|  8%| 16%| 19%| 22%| 23%| 24%|--| 71%| 71%| 91%| 91%| 92%| 94%| 97%| 98%| 98%
+|Skyland Lady Kings|  1%|  3%|  3%|  7%|  9%| 10%| 11%| 11%| 29%|--| 50%| 80%| 80%| 83%| 87%| 92%| 94%| 96%
+|Jr Flyers Crawford|  1%|  3%|  3%|  7%|  9%| 10%| 11%| 11%| 29%| 50%|--| 80%| 80%| 83%| 87%| 92%| 94%| 96%
+|MYHA|  0%|  1%|  1%|  2%|  2%|  3%|  3%|  3%|  9%| 20%| 20%|--| 51%| 56%| 63%| 75%| 81%| 87%
+|FL Alliance|  0%|  1%|  1%|  2%|  2%|  3%|  3%|  3%|  9%| 20%| 20%| 49%|--| 55%| 62%| 74%| 80%| 86%
+|MassConn United Hockey Club|  0%|  1%|  1%|  2%|  2%|  2%|  2%|  3%|  8%| 17%| 17%| 44%| 45%|--| 58%| 70%| 77%| 84%
+|NJ Rockets Blue|  0%|  0%|  1%|  1%|  1%|  2%|  2%|  2%|  6%| 13%| 13%| 37%| 38%| 42%|--| 63%| 71%| 79%
+|Philadelphia Belles|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  3%|  8%|  8%| 25%| 26%| 30%| 37%|--| 58%| 69%
+|LVPY|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  2%|  6%|  6%| 19%| 20%| 23%| 29%| 42%|--| 61%
+|NJ Bandits Morris|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  2%|  4%|  4%| 13%| 14%| 16%| 21%| 31%| 39%|--
 
 ## Generation Details
 
@@ -56,7 +56,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-08-23 |
-| End Date | 2023-11-11 |
+| End Date | 2023-11-12 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
