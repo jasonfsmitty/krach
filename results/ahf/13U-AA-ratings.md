@@ -1,60 +1,60 @@
 [<- back to the index](readme.md)
 # 13U AA KRACH Rankings
-Rankings generated on Sat Nov 18 07:14:09 2023.
+Rankings generated on Sun Nov 19 07:14:55 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|8419|Championship|[Ashburn Xtreme 2010](https://gamesheetstats.com/seasons/3659/teams/140527/schedule)|16|16|0|0|0|0|94|16.8|-0.0
-2|532|Championship|[St. Louis Knights](https://gamesheetstats.com/seasons/3659/teams/143323/schedule)|4|3|1|0|0|0|1711|3.8|-0.0
-3|155|Championship|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/140535/schedule)|23|19|3|1|0|0|374|20.4|0.0
-4|141|Championship|[Rebels Ban Minor](https://gamesheetstats.com/seasons/3659/teams/140539/schedule)|16|12|4|0|0|0|1020|12.9|0.0
-5|140|Gold|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140537/schedule)|21|15|4|2|1|0|795|16.9|0.0
-6|132|Gold|[PHA Icemen](https://gamesheetstats.com/seasons/3659/teams/143321/schedule)|6|5|1|0|0|0|37|5.9|0.0
-7|120|Gold|[MYHA 13U AA](https://gamesheetstats.com/seasons/3659/teams/140533/schedule)|12|7|3|2|1|0|93|8.9|0.0
-8|81|Gold|[VFC 13AA Barron](https://gamesheetstats.com/seasons/3659/teams/140544/schedule)|22|17|4|1|2|1|29|18.4|0.0
-9|70|Silver|[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140538/schedule)|23|14|8|1|2|0|745|15.4|0.0
-10|58|Silver|[Lehigh Valley Phantoms Youth U13AA](https://gamesheetstats.com/seasons/3659/teams/140531/schedule)|24|14|9|1|0|3|387|15.4|0.0
-11|46|Silver|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140542/schedule)|22|10|11|1|0|0|793|11.4|0.0
-12|18|Silver|[14U Elite TI Selects](https://gamesheetstats.com/seasons/3659/teams/140526/schedule)|24|11|12|1|1|1|711|12.4|0.0
-13|17||[NJ Bandits 13AA](https://gamesheetstats.com/seasons/3659/teams/140534/schedule)|23|11|11|1|2|2|395|12.4|0.0
-14|17||[RHC U13 AA Black](https://gamesheetstats.com/seasons/3659/teams/140540/schedule)|21|8|12|1|0|0|55|9.4|0.0
-15|13||[Wildcats 13 AA](https://gamesheetstats.com/seasons/3659/teams/140545/schedule)|22|9|13|0|0|0|49|9.9|0.0
-16|9||[Royals 13U AA Blue](https://gamesheetstats.com/seasons/3659/teams/140541/schedule)|22|8|14|0|0|1|63|8.9|0.0
-17|9||[Tri-City Eagles 13U Gold](https://gamesheetstats.com/seasons/3659/teams/140543/schedule)|8|2|6|0|0|1|50|2.9|0.0
-18|8||[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140536/schedule)|20|6|14|0|1|0|55|6.9|0.0
-19|4||[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140529/schedule)|21|6|15|0|1|0|436|6.9|0.0
-20|4||[Pittsburgh Huskies](https://gamesheetstats.com/seasons/3659/teams/149413/schedule)|6|0|6|0|0|0|1287|0.9|0.0
-21|4||[Jersey Colts Bantam White](https://gamesheetstats.com/seasons/3659/teams/140530/schedule)|22|4|18|0|0|1|52|4.9|0.0
-22|1||[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140528/schedule)|19|3|16|0|0|1|32|3.9|0.0
-23|0||[Long Island Whalers Bantam 2010](https://gamesheetstats.com/seasons/3659/teams/140532/schedule)|15|0|15|0|0|0|51|0.9|0.0
+1|8445|Championship|[Ashburn Xtreme 2010](https://gamesheetstats.com/seasons/3659/teams/140527/schedule)|16|16|0|0|0|0|96|16.8|-0.0
+2|548|Championship|[St. Louis Knights](https://gamesheetstats.com/seasons/3659/teams/143323/schedule)|4|3|1|0|0|0|1717|3.8|-0.0
+3|161|Championship|[Rebels Ban Minor](https://gamesheetstats.com/seasons/3659/teams/140539/schedule)|18|14|4|0|0|0|916|14.9|0.0
+4|160|Championship|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/140537/schedule)|23|17|4|2|1|0|734|18.9|0.0
+5|144|Gold|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/140535/schedule)|25|20|3|2|0|0|350|21.9|0.0
+6|124|Gold|[MYHA 13U AA](https://gamesheetstats.com/seasons/3659/teams/140533/schedule)|14|9|3|2|1|0|83|10.9|0.0
+7|110|Gold|[PHA Icemen](https://gamesheetstats.com/seasons/3659/teams/143321/schedule)|8|6|2|0|1|0|53|6.9|0.0
+8|78|Gold|[VFC 13AA Barron](https://gamesheetstats.com/seasons/3659/teams/140544/schedule)|24|18|4|2|2|1|31|19.9|0.0
+9|53|Silver|[Philadelphia Blazers](https://gamesheetstats.com/seasons/3659/teams/140538/schedule)|25|14|10|1|2|1|698|15.4|0.0
+10|46|Silver|[Lehigh Valley Phantoms Youth U13AA](https://gamesheetstats.com/seasons/3659/teams/140531/schedule)|26|14|11|1|0|3|368|15.4|0.0
+11|42|Silver|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140542/schedule)|24|11|12|1|0|0|738|12.4|0.0
+12|15|Silver|[14U Elite TI Selects](https://gamesheetstats.com/seasons/3659/teams/140526/schedule)|26|12|13|1|1|1|658|13.4|0.0
+13|13||[NJ Bandits 13AA](https://gamesheetstats.com/seasons/3659/teams/140534/schedule)|25|11|13|1|2|2|372|12.4|0.0
+14|11||[RHC U13 AA Black](https://gamesheetstats.com/seasons/3659/teams/140540/schedule)|23|8|14|1|0|0|51|9.4|0.0
+15|11||[Wildcats 13 AA](https://gamesheetstats.com/seasons/3659/teams/140545/schedule)|24|9|15|0|0|0|52|9.9|0.0
+16|10||[Royals 13U AA Blue](https://gamesheetstats.com/seasons/3659/teams/140541/schedule)|24|10|14|0|0|1|57|10.9|0.0
+17|8||[North Jersey Skylands Kings](https://gamesheetstats.com/seasons/3659/teams/140536/schedule)|22|7|15|0|1|0|52|7.9|0.0
+18|6||[Tri-City Eagles 13U Gold](https://gamesheetstats.com/seasons/3659/teams/140543/schedule)|10|3|7|0|0|1|36|3.9|0.0
+19|4||[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140529/schedule)|23|7|16|0|1|0|399|7.9|0.0
+20|4||[Jersey Colts Bantam White](https://gamesheetstats.com/seasons/3659/teams/140530/schedule)|24|6|18|0|0|1|47|6.9|0.0
+21|2||[Pittsburgh Huskies](https://gamesheetstats.com/seasons/3659/teams/149413/schedule)|8|1|7|0|0|0|1004|1.9|0.0
+22|1||[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140528/schedule)|19|3|16|0|0|1|30|3.9|0.0
+23|0||[Long Island Whalers Bantam 2010](https://gamesheetstats.com/seasons/3659/teams/140532/schedule)|17|0|17|0|0|0|44|0.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Ashburn Xtreme 2010|St. Louis Knights|North Jersey Avalanche|Rebels Ban Minor|Palmyra Black Knights|PHA Icemen|MYHA 13U AA|VFC 13AA Barron|Philadelphia Blazers|Lehigh Valley Phantoms Youth U13AA|Team Philadelphia|14U Elite TI Selects|NJ Bandits 13AA|RHC U13 AA Black|Wildcats 13 AA|Royals 13U AA Blue|Tri-City Eagles 13U Gold|North Jersey Skylands Kings|Hollydell Hurricanes|Pittsburgh Huskies|Jersey Colts Bantam White|Delaware Ducks|Long Island Whalers Bantam 2010
+||Ashburn Xtreme 2010|St. Louis Knights|Rebels Ban Minor|Palmyra Black Knights|North Jersey Avalanche|MYHA 13U AA|PHA Icemen|VFC 13AA Barron|Philadelphia Blazers|Lehigh Valley Phantoms Youth U13AA|Team Philadelphia|14U Elite TI Selects|NJ Bandits 13AA|RHC U13 AA Black|Wildcats 13 AA|Royals 13U AA Blue|North Jersey Skylands Kings|Tri-City Eagles 13U Gold|Hollydell Hurricanes|Jersey Colts Bantam White|Pittsburgh Huskies|Delaware Ducks|Long Island Whalers Bantam 2010
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Ashburn Xtreme 2010|--| 94%| 98%| 98%| 98%| 98%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%
-|St. Louis Knights|  6%|--| 77%| 79%| 79%| 80%| 82%| 87%| 88%| 90%| 92%| 97%| 97%| 97%| 98%| 98%| 98%| 99%| 99%| 99%| 99%|100%|100%
-|North Jersey Avalanche|  2%| 23%|--| 52%| 53%| 54%| 56%| 66%| 69%| 73%| 77%| 90%| 90%| 90%| 92%| 95%| 95%| 95%| 97%| 98%| 98%| 99%|100%
-|Rebels Ban Minor|  2%| 21%| 48%|--| 50%| 52%| 54%| 63%| 67%| 71%| 75%| 89%| 89%| 89%| 91%| 94%| 94%| 95%| 97%| 97%| 98%| 99%|100%
-|Palmyra Black Knights|  2%| 21%| 47%| 50%|--| 52%| 54%| 63%| 67%| 71%| 75%| 89%| 89%| 89%| 91%| 94%| 94%| 95%| 97%| 97%| 98%| 99%|100%
-|PHA Icemen|  2%| 20%| 46%| 48%| 48%|--| 52%| 62%| 65%| 69%| 74%| 88%| 89%| 89%| 91%| 94%| 94%| 94%| 97%| 97%| 97%| 99%|100%
-|MYHA 13U AA|  1%| 18%| 44%| 46%| 46%| 48%|--| 60%| 63%| 67%| 72%| 87%| 88%| 88%| 90%| 93%| 93%| 94%| 96%| 97%| 97%| 99%|100%
-|VFC 13AA Barron|  1%| 13%| 34%| 37%| 37%| 38%| 40%|--| 54%| 58%| 64%| 82%| 83%| 83%| 86%| 90%| 91%| 91%| 95%| 96%| 96%| 98%|100%
-|Philadelphia Blazers|  1%| 12%| 31%| 33%| 33%| 35%| 37%| 46%|--| 55%| 60%| 80%| 81%| 81%| 84%| 89%| 89%| 90%| 94%| 95%| 95%| 98%| 99%
-|Lehigh Valley Phantoms Youth U13AA|  1%| 10%| 27%| 29%| 29%| 31%| 33%| 42%| 45%|--| 56%| 76%| 77%| 78%| 81%| 87%| 87%| 88%| 93%| 94%| 94%| 98%| 99%
-|Team Philadelphia|  1%|  8%| 23%| 25%| 25%| 26%| 28%| 36%| 40%| 44%|--| 72%| 73%| 73%| 77%| 84%| 84%| 86%| 91%| 93%| 93%| 97%| 99%
-|14U Elite TI Selects|  0%|  3%| 10%| 11%| 11%| 12%| 13%| 18%| 20%| 24%| 28%|--| 51%| 52%| 57%| 68%| 68%| 70%| 80%| 83%| 84%| 92%| 98%
-|NJ Bandits 13AA|  0%|  3%| 10%| 11%| 11%| 11%| 12%| 17%| 19%| 23%| 27%| 49%|--| 50%| 56%| 66%| 67%| 68%| 79%| 82%| 83%| 92%| 98%
-|RHC U13 AA Black|  0%|  3%| 10%| 11%| 11%| 11%| 12%| 17%| 19%| 22%| 27%| 48%| 50%|--| 55%| 66%| 66%| 68%| 79%| 82%| 82%| 92%| 98%
-|Wildcats 13 AA|  0%|  2%|  8%|  9%|  9%|  9%| 10%| 14%| 16%| 19%| 23%| 43%| 44%| 45%|--| 61%| 61%| 63%| 75%| 79%| 79%| 90%| 97%
-|Royals 13U AA Blue|  0%|  2%|  5%|  6%|  6%|  6%|  7%| 10%| 11%| 13%| 16%| 32%| 34%| 34%| 39%|--| 50%| 52%| 66%| 70%| 71%| 85%| 96%
-|Tri-City Eagles 13U Gold|  0%|  2%|  5%|  6%|  6%|  6%|  7%|  9%| 11%| 13%| 16%| 32%| 33%| 34%| 39%| 50%|--| 52%| 66%| 70%| 71%| 85%| 96%
-|North Jersey Skylands Kings|  0%|  1%|  5%|  5%|  5%|  6%|  6%|  9%| 10%| 12%| 14%| 30%| 32%| 32%| 37%| 48%| 48%|--| 64%| 68%| 69%| 84%| 95%
-|Hollydell Hurricanes|  0%|  1%|  3%|  3%|  3%|  3%|  4%|  5%|  6%|  7%|  9%| 20%| 21%| 21%| 25%| 34%| 34%| 36%|--| 55%| 55%| 75%| 92%
-|Pittsburgh Huskies|  0%|  1%|  2%|  3%|  3%|  3%|  3%|  4%|  5%|  6%|  7%| 17%| 18%| 18%| 21%| 30%| 30%| 32%| 45%|--| 51%| 71%| 91%
-|Jersey Colts Bantam White|  0%|  1%|  2%|  2%|  2%|  3%|  3%|  4%|  5%|  6%|  7%| 16%| 17%| 18%| 21%| 29%| 29%| 31%| 45%| 49%|--| 71%| 90%
-|Delaware Ducks|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  3%|  8%|  8%|  8%| 10%| 15%| 15%| 16%| 25%| 29%| 29%|--| 80%
-|Long Island Whalers Bantam 2010|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  2%|  2%|  2%|  3%|  4%|  4%|  5%|  8%|  9%| 10%| 20%|--
+|Ashburn Xtreme 2010|--| 94%| 98%| 98%| 98%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%
+|St. Louis Knights|  6%|--| 77%| 77%| 79%| 82%| 83%| 88%| 91%| 92%| 93%| 97%| 98%| 98%| 98%| 98%| 99%| 99%| 99%| 99%|100%|100%|100%
+|Rebels Ban Minor|  2%| 23%|--| 50%| 53%| 56%| 59%| 67%| 75%| 78%| 79%| 91%| 92%| 94%| 94%| 94%| 96%| 96%| 98%| 98%| 99%| 99%|100%
+|Palmyra Black Knights|  2%| 23%| 50%|--| 52%| 56%| 59%| 67%| 75%| 78%| 79%| 91%| 92%| 93%| 94%| 94%| 95%| 96%| 98%| 98%| 99%| 99%|100%
+|North Jersey Avalanche|  2%| 21%| 47%| 48%|--| 54%| 57%| 65%| 73%| 76%| 77%| 90%| 91%| 93%| 93%| 93%| 95%| 96%| 97%| 97%| 99%| 99%|100%
+|MYHA 13U AA|  1%| 18%| 44%| 44%| 46%|--| 53%| 61%| 70%| 73%| 75%| 89%| 90%| 92%| 92%| 92%| 94%| 95%| 97%| 97%| 99%| 99%|100%
+|PHA Icemen|  1%| 17%| 41%| 41%| 43%| 47%|--| 58%| 67%| 70%| 72%| 88%| 89%| 91%| 91%| 92%| 94%| 95%| 96%| 97%| 98%| 99%|100%
+|VFC 13AA Barron|  1%| 12%| 33%| 33%| 35%| 39%| 42%|--| 59%| 63%| 65%| 84%| 85%| 87%| 88%| 89%| 91%| 93%| 95%| 95%| 98%| 98%|100%
+|Philadelphia Blazers|  1%|  9%| 25%| 25%| 27%| 30%| 33%| 41%|--| 54%| 56%| 78%| 80%| 83%| 83%| 84%| 88%| 90%| 93%| 93%| 97%| 98%|100%
+|Lehigh Valley Phantoms Youth U13AA|  1%|  8%| 22%| 22%| 24%| 27%| 30%| 37%| 46%|--| 52%| 75%| 78%| 81%| 81%| 82%| 86%| 89%| 92%| 92%| 96%| 97%| 99%
+|Team Philadelphia|  0%|  7%| 21%| 21%| 23%| 25%| 28%| 35%| 44%| 48%|--| 73%| 76%| 79%| 79%| 81%| 85%| 88%| 91%| 92%| 96%| 97%| 99%
+|14U Elite TI Selects|  0%|  3%|  9%|  9%| 10%| 11%| 12%| 16%| 22%| 25%| 27%|--| 53%| 58%| 58%| 60%| 67%| 72%| 79%| 80%| 89%| 93%| 98%
+|NJ Bandits 13AA|  0%|  2%|  8%|  8%|  9%| 10%| 11%| 15%| 20%| 22%| 24%| 47%|--| 55%| 55%| 57%| 64%| 69%| 77%| 78%| 88%| 92%| 98%
+|RHC U13 AA Black|  0%|  2%|  6%|  7%|  7%|  8%|  9%| 13%| 17%| 19%| 21%| 42%| 45%|--| 50%| 52%| 60%| 65%| 74%| 74%| 86%| 90%| 98%
+|Wildcats 13 AA|  0%|  2%|  6%|  6%|  7%|  8%|  9%| 12%| 17%| 19%| 21%| 42%| 45%| 50%|--| 52%| 59%| 65%| 73%| 74%| 86%| 90%| 98%
+|Royals 13U AA Blue|  0%|  2%|  6%|  6%|  7%|  8%|  8%| 11%| 16%| 18%| 19%| 40%| 43%| 48%| 48%|--| 57%| 63%| 72%| 72%| 85%| 89%| 98%
+|North Jersey Skylands Kings|  0%|  1%|  4%|  5%|  5%|  6%|  6%|  9%| 12%| 14%| 15%| 33%| 36%| 40%| 41%| 43%|--| 56%| 65%| 66%| 80%| 86%| 97%
+|Tri-City Eagles 13U Gold|  0%|  1%|  4%|  4%|  4%|  5%|  5%|  7%| 10%| 11%| 12%| 28%| 31%| 35%| 35%| 37%| 44%|--| 60%| 61%| 77%| 83%| 96%
+|Hollydell Hurricanes|  0%|  1%|  2%|  2%|  3%|  3%|  4%|  5%|  7%|  8%|  9%| 21%| 23%| 26%| 27%| 28%| 35%| 40%|--| 51%| 69%| 76%| 94%
+|Jersey Colts Bantam White|  0%|  1%|  2%|  2%|  3%|  3%|  3%|  5%|  7%|  8%|  8%| 20%| 22%| 26%| 26%| 28%| 34%| 39%| 49%|--| 68%| 76%| 94%
+|Pittsburgh Huskies|  0%|  0%|  1%|  1%|  1%|  1%|  2%|  2%|  3%|  4%|  4%| 11%| 12%| 14%| 14%| 15%| 20%| 23%| 31%| 32%|--| 60%| 88%
+|Delaware Ducks|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  2%|  2%|  3%|  3%|  7%|  8%| 10%| 10%| 11%| 14%| 17%| 24%| 24%| 40%|--| 83%
+|Long Island Whalers Bantam 2010|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  2%|  2%|  2%|  2%|  2%|  3%|  4%|  6%|  6%| 12%| 17%|--
 
 ## Generation Details
 
@@ -66,7 +66,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-08-26 |
-| End Date | 2023-11-12 |
+| End Date | 2023-11-18 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |

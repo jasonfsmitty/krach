@@ -4,13 +4,13 @@ Click below to see KRACH ratings for each division
 
 | Division | Season Start | Latest Game |
 | :-- | :-- | :-- |
-| [10U](10U-ratings.md) | 2023-09-09 | 2023-11-12 |
-| [12U](12U-ratings.md) | 2023-09-09 | 2023-11-12 |
-| [14U Diamond](14U-Diamond-ratings.md) | 2023-09-09 | 2023-11-12 |
-| [14U Platinum](14U-Platinum-ratings.md) | 2023-09-09 | 2023-11-12 |
-| [16U Diamond](16U-Diamond-ratings.md) | 2023-09-09 | 2023-11-12 |
-| [16U Platinum](16U-Platinum-ratings.md) | 2023-09-09 | 2023-11-17 |
-| [19U Diamond](19U-Diamond-ratings.md) | 2023-08-23 | 2023-11-12 |
-| [19U Platinum](19U-Platinum-ratings.md) | 2023-09-09 | 2023-11-12 |
+| [10U](10U-ratings.md) | 2023-09-09 | 2023-11-18 |
+| [12U](12U-ratings.md) | 2023-09-09 | 2023-11-18 |
+| [14U Diamond](14U-Diamond-ratings.md) | 2023-09-09 | 2023-11-18 |
+| [14U Platinum](14U-Platinum-ratings.md) | 2023-09-09 | 2023-11-18 |
+| [16U Diamond](16U-Diamond-ratings.md) | 2023-09-09 | 2023-11-18 |
+| [16U Platinum](16U-Platinum-ratings.md) | 2023-09-09 | 2023-11-18 |
+| [19U Diamond](19U-Diamond-ratings.md) | 2023-08-23 | 2023-11-18 |
+| [19U Platinum](19U-Platinum-ratings.md) | 2023-09-09 | 2023-11-18 |
 
-Generated on 2023-11-18 07:14:13.382903.
+Generated on 2023-11-19 07:14:59.612008.
