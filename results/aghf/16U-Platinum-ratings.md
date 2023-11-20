@@ -1,32 +1,32 @@
 [<- back to the index](readme.md)
 # 16U Platinum KRACH Rankings
-Rankings generated on Sun Nov 19 07:14:59 2023.
+Rankings generated on Mon Nov 20 07:16:17 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2308|Playoffs|[CT Ice Cats](https://gamesheetstats.com/seasons/3663/teams/140846/schedule)|3|3|0|0|0|0|94|3.8|-0.0
-2|1055|Playoffs|[PTL Orange](https://gamesheetstats.com/seasons/3663/teams/140842/schedule)|3|3|0|0|0|0|42|3.9|0.0
-3|893|Playoffs|[Stateline Hawks](https://gamesheetstats.com/seasons/3663/teams/140840/schedule)|3|3|0|0|0|0|36|3.9|0.0
-4|259|Playoffs|[Maryland Jr. Blackbears](https://gamesheetstats.com/seasons/3663/teams/140848/schedule)|11|7|4|0|0|1|602|7.8|-0.0
-5|100||[Reston Raiders](https://gamesheetstats.com/seasons/3663/teams/140850/schedule)|9|5|4|0|1|0|446|5.9|0.0
-6|73||[York Lady Devils](https://gamesheetstats.com/seasons/3663/teams/140845/schedule)|4|2|2|0|0|1|95|2.9|0.0
-7|27||[Skyland Lady Kings](https://gamesheetstats.com/seasons/3663/teams/140849/schedule)|13|4|9|0|1|0|341|4.9|0.0
+1|2320|Playoffs|[CT Ice Cats](https://gamesheetstats.com/seasons/3663/teams/140846/schedule)|3|3|0|0|0|0|95|3.8|-0.0
+2|1054|Playoffs|[PTL Orange](https://gamesheetstats.com/seasons/3663/teams/140842/schedule)|3|3|0|0|0|0|42|3.9|0.0
+3|895|Playoffs|[Stateline Hawks](https://gamesheetstats.com/seasons/3663/teams/140840/schedule)|3|3|0|0|0|0|36|3.9|0.0
+4|260|Playoffs|[Maryland Jr. Blackbears](https://gamesheetstats.com/seasons/3663/teams/140848/schedule)|12|8|4|0|0|1|557|8.8|-0.0
+5|102||[Reston Raiders](https://gamesheetstats.com/seasons/3663/teams/140850/schedule)|10|6|4|0|1|0|407|6.9|0.0
+6|73||[York Lady Devils](https://gamesheetstats.com/seasons/3663/teams/140845/schedule)|4|2|2|0|0|1|96|2.9|0.0
+7|27||[Skyland Lady Kings](https://gamesheetstats.com/seasons/3663/teams/140849/schedule)|13|4|9|0|1|0|339|4.9|0.0
 8|14||[LVPY](https://gamesheetstats.com/seasons/3663/teams/140844/schedule)|7|3|4|0|0|0|81|3.9|0.0
-9|4||[New York Islanders 2](https://gamesheetstats.com/seasons/3663/teams/140851/schedule)|15|1|14|0|0|1|251|1.9|0.0
+9|4||[New York Islanders 2](https://gamesheetstats.com/seasons/3663/teams/140851/schedule)|17|1|16|0|0|1|244|1.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
 ||CT Ice Cats|PTL Orange|Stateline Hawks|Maryland Jr. Blackbears|Reston Raiders|York Lady Devils|Skyland Lady Kings|LVPY|New York Islanders 2
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
 |CT Ice Cats|--| 69%| 72%| 90%| 96%| 97%| 99%| 99%|100%
-|PTL Orange| 31%|--| 54%| 80%| 91%| 94%| 97%| 99%|100%
+|PTL Orange| 31%|--| 54%| 80%| 91%| 94%| 98%| 99%|100%
 |Stateline Hawks| 28%| 46%|--| 78%| 90%| 92%| 97%| 98%|100%
-|Maryland Jr. Blackbears| 10%| 20%| 22%|--| 72%| 78%| 90%| 95%| 98%
-|Reston Raiders|  4%|  9%| 10%| 28%|--| 58%| 78%| 87%| 96%
+|Maryland Jr. Blackbears| 10%| 20%| 22%|--| 72%| 78%| 91%| 95%| 99%
+|Reston Raiders|  4%|  9%| 10%| 28%|--| 58%| 79%| 88%| 96%
 |York Lady Devils|  3%|  6%|  8%| 22%| 42%|--| 73%| 84%| 95%
-|Skyland Lady Kings|  1%|  3%|  3%| 10%| 22%| 27%|--| 66%| 87%
-|LVPY|  1%|  1%|  2%|  5%| 13%| 16%| 34%|--| 78%
-|New York Islanders 2|  0%|  0%|  0%|  2%|  4%|  5%| 13%| 22%|--
+|Skyland Lady Kings|  1%|  2%|  3%|  9%| 21%| 27%|--| 66%| 87%
+|LVPY|  1%|  1%|  2%|  5%| 12%| 16%| 34%|--| 78%
+|New York Islanders 2|  0%|  0%|  0%|  1%|  4%|  5%| 13%| 22%|--
 
 ## Generation Details
 
@@ -38,7 +38,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-09-09 |
-| End Date | 2023-11-18 |
+| End Date | 2023-11-19 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
