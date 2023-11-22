@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 9U AA KRACH Rankings
-Rankings generated on Tue Nov 21 07:15:39 2023.
+Rankings generated on Wed Nov 22 07:15:44 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -11,10 +11,10 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 5|413|Gold|[MYHA 9U AA](https://gamesheetstats.com/seasons/3659/teams/140222/schedule)|16|11|5|0|2|0|306|11.8|-0.0
 6|304|Gold|[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140218/schedule)|29|17|12|0|0|3|907|17.8|-0.0
 7|227|Gold|[NJ Bandits 10A](https://gamesheetstats.com/seasons/3659/teams/140259/schedule)|3|3|0|0|0|0|10|3.9|0.0
-8|94|Gold|[Rebels Sq Minor](https://gamesheetstats.com/seasons/3659/teams/140223/schedule)|9|6|3|0|1|0|183|6.9|0.0
+8|94|Gold|[Rebels Sq Minor](https://gamesheetstats.com/seasons/3659/teams/140223/schedule)|9|6|3|0|1|1|183|6.9|0.0
 9|86|Silver|[Igloo Jaguars 10UA](https://gamesheetstats.com/seasons/3659/teams/140253/schedule)|3|3|0|0|0|0|3|3.9|0.0
 10|35|Silver|[Royals 9U AA White](https://gamesheetstats.com/seasons/3659/teams/140225/schedule)|21|11|9|1|0|0|179|12.4|0.0
-11|27|Silver|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140226/schedule)|31|12|18|1|0|1|480|13.4|0.0
+11|27|Silver|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140226/schedule)|31|12|18|1|1|1|480|13.4|0.0
 12|27|Silver|[Royals 10U A Gray](https://gamesheetstats.com/seasons/3659/teams/140262/schedule)|4|3|1|0|0|0|10|3.9|0.0
 13|8||[Hartford Jr. Wolf Pack 2014 AHF](https://gamesheetstats.com/seasons/3659/teams/140219/schedule)|10|5|5|0|0|0|82|5.9|0.0
 14|8||[Wilkes-Barre / Scranton Jr Knights](https://gamesheetstats.com/seasons/3659/teams/140228/schedule)|26|5|20|1|0|0|665|6.4|0.0
