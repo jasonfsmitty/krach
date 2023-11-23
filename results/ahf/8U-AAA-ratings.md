@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 8U AAA KRACH Rankings
-Rankings generated on Wed Nov 22 07:15:44 2023.
+Rankings generated on Thu Nov 23 07:15:24 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -24,10 +24,10 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 18|5||[LI MONARCHS 2016](https://gamesheetstats.com/seasons/3659/teams/140199/schedule)|22|12|9|1|1|0|14|13.4|0.0
 19|4||[Jersey Shore Americans](https://gamesheetstats.com/seasons/3659/teams/140196/schedule)|27|11|16|0|0|2|108|11.9|0.0
 20|2||[North Jersey Blizzard 2](https://gamesheetstats.com/seasons/3659/teams/140204/schedule)|26|11|15|0|2|2|18|11.9|0.0
-21|1||[Valley Forge Militia](https://gamesheetstats.com/seasons/3659/teams/140212/schedule)|25|6|19|0|0|1|162|6.9|0.0
+21|1||[Valley Forge Militia](https://gamesheetstats.com/seasons/3659/teams/140212/schedule)|26|7|19|0|0|1|156|7.9|0.0
 22|1||[Venom 2](https://gamesheetstats.com/seasons/3659/teams/140214/schedule)|22|8|14|0|1|0|5|8.9|0.0
 23|0||[Bridge Hockey Club 2016](https://gamesheetstats.com/seasons/3659/teams/140195/schedule)|21|4|17|0|0|0|9|4.9|0.0
-24|0||[Berserkers 8u Gold](https://gamesheetstats.com/seasons/3659/teams/140193/schedule)|23|0|23|0|0|0|9|0.9|0.0
+24|0||[Berserkers 8u Gold](https://gamesheetstats.com/seasons/3659/teams/140193/schedule)|24|0|24|0|0|0|9|0.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
@@ -45,18 +45,18 @@ Uses KRACH ratings to predict winning percentage of each team (row) against each
 |Berserkers 8u Black|  3%|  4%|  4%|  7%|  9%| 21%| 37%| 44%| 45%|--| 54%| 58%| 63%| 87%| 93%| 94%| 94%| 95%| 96%| 98%| 99%| 99%|100%|100%
 |Bridge Hockey Club 2015|  3%|  3%|  4%|  6%|  8%| 19%| 34%| 41%| 42%| 46%|--| 54%| 60%| 85%| 92%| 93%| 93%| 94%| 95%| 98%| 99%| 99%|100%|100%
 |Lehigh Valley Steel|  2%|  3%|  3%|  5%|  7%| 16%| 30%| 37%| 37%| 42%| 46%|--| 56%| 83%| 90%| 91%| 92%| 93%| 95%| 97%| 99%| 99%|100%|100%
-|NJ Outlaws|  2%|  2%|  3%|  4%|  6%| 14%| 26%| 32%| 32%| 37%| 40%| 44%|--| 79%| 88%| 90%| 90%| 92%| 93%| 97%| 99%| 99%|100%|100%
-|LI Riptide|  0%|  1%|  1%|  1%|  2%|  4%|  8%| 11%| 11%| 13%| 15%| 17%| 21%|--| 67%| 69%| 70%| 75%| 79%| 88%| 95%| 96%| 98%|100%
-|Philadelphia Resistance|  0%|  0%|  0%|  1%|  1%|  2%|  4%|  6%|  6%|  7%|  8%| 10%| 12%| 33%|--| 53%| 54%| 60%| 65%| 79%| 90%| 92%| 97%|100%
-|Oil Kings Red|  0%|  0%|  0%|  0%|  1%|  2%|  4%|  5%|  5%|  6%|  7%|  9%| 10%| 31%| 47%|--| 50%| 57%| 62%| 76%| 89%| 91%| 96%| 99%
+|NJ Outlaws|  2%|  2%|  3%|  4%|  6%| 14%| 26%| 32%| 32%| 37%| 40%| 44%|--| 79%| 88%| 90%| 90%| 92%| 93%| 97%| 98%| 99%|100%|100%
+|LI Riptide|  0%|  1%|  1%|  1%|  2%|  4%|  8%| 11%| 11%| 13%| 15%| 17%| 21%|--| 66%| 69%| 70%| 75%| 79%| 88%| 95%| 96%| 98%|100%
+|Philadelphia Resistance|  0%|  0%|  0%|  1%|  1%|  2%|  4%|  6%|  6%|  7%|  8%| 10%| 12%| 34%|--| 53%| 54%| 60%| 65%| 79%| 90%| 92%| 97%|100%
+|Oil Kings Red|  0%|  0%|  0%|  0%|  1%|  2%|  4%|  5%|  5%|  6%|  7%|  9%| 10%| 31%| 47%|--| 50%| 57%| 62%| 76%| 88%| 91%| 96%| 99%
 |Suffolk Crusaders|  0%|  0%|  0%|  0%|  1%|  2%|  4%|  5%|  5%|  6%|  7%|  8%| 10%| 30%| 46%| 50%|--| 57%| 62%| 76%| 88%| 91%| 96%| 99%
-|LI MONARCHS 2016|  0%|  0%|  0%|  0%|  1%|  1%|  3%|  4%|  4%|  5%|  6%|  7%|  8%| 25%| 40%| 43%| 43%|--| 56%| 71%| 86%| 89%| 95%| 99%
+|LI MONARCHS 2016|  0%|  0%|  0%|  0%|  1%|  1%|  3%|  4%|  4%|  5%|  6%|  7%|  8%| 25%| 40%| 43%| 43%|--| 56%| 71%| 85%| 89%| 95%| 99%
 |Jersey Shore Americans|  0%|  0%|  0%|  0%|  0%|  1%|  2%|  3%|  3%|  4%|  5%|  5%|  7%| 21%| 35%| 38%| 38%| 44%|--| 66%| 82%| 86%| 94%| 99%
-|North Jersey Blizzard 2|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  2%|  2%|  2%|  2%|  3%|  3%| 12%| 21%| 24%| 24%| 29%| 34%|--| 71%| 76%| 88%| 98%
-|Valley Forge Militia|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  1%|  1%|  5%| 10%| 11%| 12%| 14%| 18%| 29%|--| 57%| 76%| 96%
-|Venom 2|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  1%|  4%|  8%|  9%|  9%| 11%| 14%| 24%| 43%|--| 70%| 94%
+|North Jersey Blizzard 2|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  2%|  2%|  2%|  2%|  3%|  3%| 12%| 21%| 24%| 24%| 29%| 34%|--| 70%| 76%| 88%| 98%
+|Valley Forge Militia|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  1%|  2%|  5%| 10%| 12%| 12%| 15%| 18%| 30%|--| 58%| 76%| 96%
+|Venom 2|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  1%|  4%|  8%|  9%|  9%| 11%| 14%| 24%| 42%|--| 70%| 95%
 |Bridge Hockey Club 2016|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  2%|  3%|  4%|  4%|  5%|  6%| 12%| 24%| 30%|--| 88%
-|Berserkers 8u Gold|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  2%|  4%|  6%| 12%|--
+|Berserkers 8u Gold|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  2%|  4%|  5%| 12%|--
 
 ## Generation Details
 
