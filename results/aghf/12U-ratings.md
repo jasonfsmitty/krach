@@ -1,21 +1,21 @@
 [<- back to the index](readme.md)
 # 12U KRACH Rankings
-Rankings generated on Fri Dec  1 07:15:42 2023.
+Rankings generated on Sat Dec  2 07:14:05 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|8763|Playoffs|[Saugerties Fillies](https://gamesheetstats.com/seasons/3663/teams/140805/schedule)|19|19|0|0|0|0|80|19.8|-0.0
-2|268|Playoffs|[STJ](https://gamesheetstats.com/seasons/3663/teams/140800/schedule)|16|11|5|0|1|0|1107|11.9|0.0
-3|245|Playoffs|[MassConn United Hockey Club](https://gamesheetstats.com/seasons/3663/teams/140797/schedule)|4|2|2|0|1|0|1852|2.9|0.0
-4|205|Playoffs|[PTL](https://gamesheetstats.com/seasons/3663/teams/140791/schedule)|9|6|2|1|0|1|97|7.4|0.0
-5|116|Playoffs|[WBS Lady Knights](https://gamesheetstats.com/seasons/3663/teams/140808/schedule)|16|9|7|0|0|0|1617|9.9|0.0
-6|107|Playoffs|[MYHA 12U Blue](https://gamesheetstats.com/seasons/3663/teams/140799/schedule)|10|5|5|0|0|1|900|5.9|0.0
-7|72||[MYHA 10U Blue](https://gamesheetstats.com/seasons/3663/teams/140806/schedule)|14|8|6|0|0|1|651|8.9|0.0
-8|50||[Stateline Hawks](https://gamesheetstats.com/seasons/3663/teams/174606/schedule)|4|3|1|0|0|1|16|3.9|0.0
-9|36||[CP Dynamo](https://gamesheetstats.com/seasons/3663/teams/140802/schedule)|8|3|5|0|0|1|1036|3.9|0.0
-10|35||[CT Ice Cats](https://gamesheetstats.com/seasons/3663/teams/140801/schedule)|12|3|9|0|1|1|1441|3.9|0.0
-11|33||[New York Islanders](https://gamesheetstats.com/seasons/3663/teams/140809/schedule)|14|5|9|0|1|0|1222|5.9|0.0
-12|19||[NJ Bandits](https://gamesheetstats.com/seasons/3663/teams/140807/schedule)|18|4|12|2|1|0|1889|5.9|0.0
+1|8773|Playoffs|[Saugerties Fillies](https://gamesheetstats.com/seasons/3663/teams/140805/schedule)|20|20|0|0|0|0|77|20.8|-0.0
+2|266|Playoffs|[STJ](https://gamesheetstats.com/seasons/3663/teams/140800/schedule)|16|11|5|0|1|0|1108|11.9|0.0
+3|243|Playoffs|[MassConn United Hockey Club](https://gamesheetstats.com/seasons/3663/teams/140797/schedule)|4|2|2|0|1|0|1853|2.9|0.0
+4|203|Playoffs|[PTL](https://gamesheetstats.com/seasons/3663/teams/140791/schedule)|9|6|2|1|0|1|97|7.4|0.0
+5|115|Playoffs|[WBS Lady Knights](https://gamesheetstats.com/seasons/3663/teams/140808/schedule)|16|9|7|0|0|0|1619|9.9|0.0
+6|106|Playoffs|[MYHA 12U Blue](https://gamesheetstats.com/seasons/3663/teams/140799/schedule)|10|5|5|0|0|1|900|5.9|0.0
+7|71||[MYHA 10U Blue](https://gamesheetstats.com/seasons/3663/teams/140806/schedule)|14|8|6|0|0|1|651|8.9|0.0
+8|49||[Stateline Hawks](https://gamesheetstats.com/seasons/3663/teams/174606/schedule)|4|3|1|0|0|1|16|3.9|0.0
+9|35||[CP Dynamo](https://gamesheetstats.com/seasons/3663/teams/140802/schedule)|9|3|6|0|0|1|1810|3.9|0.0
+10|34||[CT Ice Cats](https://gamesheetstats.com/seasons/3663/teams/140801/schedule)|12|3|9|0|1|1|1442|3.9|0.0
+11|33||[New York Islanders](https://gamesheetstats.com/seasons/3663/teams/140809/schedule)|14|5|9|0|1|0|1223|5.9|0.0
+12|19||[NJ Bandits](https://gamesheetstats.com/seasons/3663/teams/140807/schedule)|18|4|12|2|1|0|1890|5.9|0.0
 13|14||[LVPY](https://gamesheetstats.com/seasons/3663/teams/140804/schedule)|15|3|11|1|2|0|630|4.4|0.0
 14|7||[Jr Flyers Toomey](https://gamesheetstats.com/seasons/3663/teams/140803/schedule)|7|1|6|0|0|1|45|1.9|0.0
 
@@ -48,7 +48,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-09-09 |
-| End Date | 2023-11-19 |
+| End Date | 2023-12-01 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
