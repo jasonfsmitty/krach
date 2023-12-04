@@ -1,60 +1,60 @@
 [<- back to the index](readme.md)
 # 10U 2013 KRACH Rankings
-Rankings generated on Sun Dec  3 07:14:27 2023.
+Rankings generated on Mon Dec  4 07:16:20 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|2174|Super 6|[MCU Elite 2013](https://gamesheetstats.com/seasons/3664/teams/140889/schedule)|6|4|2|0|0|0|1052|4.9|0.0
-2|1939|Super 6|[Mid Fairfield (Independent) 13 AAA](https://gamesheetstats.com/seasons/3664/teams/140891/schedule)|16|14|2|0|2|0|343|14.9|0.0
-3|1381|Super 6|[Wolfpack Hockey 2013](https://gamesheetstats.com/seasons/3664/teams/140894/schedule)|15|10|5|0|0|1|923|10.9|0.0
-4|918|Super 6|[Jersey Hitmen](https://gamesheetstats.com/seasons/3664/teams/140893/schedule)|7|3|4|0|0|1|1399|3.9|0.0
-5|808|Super 6|[Indiana Elite](https://gamesheetstats.com/seasons/3664/teams/144358/schedule)|7|6|1|0|0|0|210|6.8|-0.0
-6|766|Super 6|[Madison Capitols](https://gamesheetstats.com/seasons/3664/teams/162460/schedule)|5|4|1|0|1|0|286|4.8|-0.0
-7|659|Frozen 4|[Revolution Elite 2013](https://gamesheetstats.com/seasons/3664/teams/140904/schedule)|19|16|3|0|2|0|301|16.9|0.0
-8|356|Frozen 4|[RHC 10U Major](https://gamesheetstats.com/seasons/3664/teams/140895/schedule)|14|9|4|1|1|1|467|10.4|0.0
-9|291|Frozen 4|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3664/teams/140906/schedule)|14|9|5|0|0|1|432|9.9|0.0
-10|211|Frozen 4|[Utica Jr. Comets](https://gamesheetstats.com/seasons/3664/teams/140900/schedule)|18|13|5|0|3|0|107|13.9|0.0
-11|201||[Westchester Express 13's](https://gamesheetstats.com/seasons/3664/teams/140899/schedule)|17|10|7|0|0|2|338|10.9|0.0
-12|63||[Red Bank Generals](https://gamesheetstats.com/seasons/3664/teams/140896/schedule)|17|6|11|0|0|2|373|6.9|0.0
-13|61||[CP Dynamo 2013](https://gamesheetstats.com/seasons/3664/teams/140901/schedule)|15|6|8|1|1|1|386|7.4|0.0
-14|45||[Tri-State Spartans 10U](https://gamesheetstats.com/seasons/3664/teams/144359/schedule)|8|3|5|0|0|1|442|3.8|-0.0
-15|40||[Arrows 10U AAA Major](https://gamesheetstats.com/seasons/3664/teams/140902/schedule)|20|11|9|0|0|1|96|11.9|0.0
-16|16||[PAL Jr Islanders](https://gamesheetstats.com/seasons/3664/teams/140903/schedule)|13|2|9|2|1|0|298|3.9|0.0
-17|14||[CT Chiefs 10U Black](https://gamesheetstats.com/seasons/3664/teams/140892/schedule)|8|3|5|0|0|0|47|3.9|0.0
-18|13||[Flyers Elite 2013/2014](https://gamesheetstats.com/seasons/3664/teams/140898/schedule)|16|6|10|0|0|0|117|6.9|0.0
-19|11||[MCU Tier 2013](https://gamesheetstats.com/seasons/3664/teams/140890/schedule)|3|0|3|0|0|0|986|0.9|0.0
-20|11||[Pittsburgh Predators](https://gamesheetstats.com/seasons/3664/teams/140907/schedule)|10|2|7|1|0|0|241|3.4|0.0
-21|9||[Esmark Stars](https://gamesheetstats.com/seasons/3664/teams/140905/schedule)|9|0|9|0|0|0|370|0.9|0.0
-22|5||[Biggby Coffee AAA](https://gamesheetstats.com/seasons/3664/teams/144357/schedule)|6|0|6|0|0|0|360|0.8|-0.0
-23|3||[Mercer Chiefs 2013](https://gamesheetstats.com/seasons/3664/teams/140897/schedule)|19|1|17|1|0|0|255|2.4|0.0
+1|2193|Super 6|[MCU Elite 2013](https://gamesheetstats.com/seasons/3664/teams/140889/schedule)|6|4|2|0|0|0|1062|4.9|0.0
+2|1834|Super 6|[Mid Fairfield (Independent) 13 AAA](https://gamesheetstats.com/seasons/3664/teams/140891/schedule)|17|15|2|0|2|0|312|15.9|0.0
+3|1401|Super 6|[Wolfpack Hockey 2013](https://gamesheetstats.com/seasons/3664/teams/140894/schedule)|16|11|5|0|0|1|870|11.9|0.0
+4|912|Super 6|[Jersey Hitmen](https://gamesheetstats.com/seasons/3664/teams/140893/schedule)|7|3|4|0|0|1|1384|3.9|0.0
+5|896|Super 6|[Indiana Elite](https://gamesheetstats.com/seasons/3664/teams/144358/schedule)|7|6|1|0|0|0|234|6.8|-0.0
+6|850|Super 6|[Madison Capitols](https://gamesheetstats.com/seasons/3664/teams/162460/schedule)|5|4|1|0|1|0|318|4.8|-0.0
+7|693|Frozen 4|[Revolution Elite 2013](https://gamesheetstats.com/seasons/3664/teams/140904/schedule)|19|16|3|0|2|0|295|16.9|0.0
+8|247|Frozen 4|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3664/teams/140906/schedule)|14|9|5|0|0|1|418|9.9|0.0
+9|219|Frozen 4|[RHC 10U Major](https://gamesheetstats.com/seasons/3664/teams/140895/schedule)|16|10|5|1|1|2|391|11.4|0.0
+10|206|Frozen 4|[Westchester Express 13's](https://gamesheetstats.com/seasons/3664/teams/140899/schedule)|18|10|8|0|0|2|402|10.9|0.0
+11|205||[Utica Jr. Comets](https://gamesheetstats.com/seasons/3664/teams/140900/schedule)|18|13|5|0|3|0|95|13.9|0.0
+12|95||[CP Dynamo 2013](https://gamesheetstats.com/seasons/3664/teams/140901/schedule)|17|8|8|1|1|1|343|9.4|0.0
+13|50||[Tri-State Spartans 10U](https://gamesheetstats.com/seasons/3664/teams/144359/schedule)|8|3|5|0|0|1|490|3.8|-0.0
+14|50||[Red Bank Generals](https://gamesheetstats.com/seasons/3664/teams/140896/schedule)|19|6|13|0|0|2|333|6.9|0.0
+15|43||[Arrows 10U AAA Major](https://gamesheetstats.com/seasons/3664/teams/140902/schedule)|21|11|10|0|0|1|161|11.9|0.0
+16|28||[PAL Jr Islanders](https://gamesheetstats.com/seasons/3664/teams/140903/schedule)|15|3|10|2|2|0|289|4.9|0.0
+17|16||[CT Chiefs 10U Black](https://gamesheetstats.com/seasons/3664/teams/140892/schedule)|8|3|5|0|0|0|56|3.9|0.0
+18|14||[MCU Tier 2013](https://gamesheetstats.com/seasons/3664/teams/140890/schedule)|3|0|3|0|0|0|942|0.9|0.0
+19|14||[Flyers Elite 2013/2014](https://gamesheetstats.com/seasons/3664/teams/140898/schedule)|16|6|10|0|0|0|122|6.9|0.0
+20|11||[Pittsburgh Predators](https://gamesheetstats.com/seasons/3664/teams/140907/schedule)|10|2|7|1|0|0|214|3.4|0.0
+21|8||[Esmark Stars](https://gamesheetstats.com/seasons/3664/teams/140905/schedule)|9|0|9|0|0|0|343|0.9|0.0
+22|6||[Biggby Coffee AAA](https://gamesheetstats.com/seasons/3664/teams/144357/schedule)|6|0|6|0|0|0|400|0.8|-0.0
+23|3||[Mercer Chiefs 2013](https://gamesheetstats.com/seasons/3664/teams/140897/schedule)|19|1|17|1|0|0|248|2.4|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||MCU Elite 2013|Mid Fairfield (Independent) 13 AAA|Wolfpack Hockey 2013|Jersey Hitmen|Indiana Elite|Madison Capitols|Revolution Elite 2013|RHC 10U Major|Palmyra Black Knights|Utica Jr. Comets|Westchester Express 13's|Red Bank Generals|CP Dynamo 2013|Tri-State Spartans 10U|Arrows 10U AAA Major|PAL Jr Islanders|CT Chiefs 10U Black|Flyers Elite 2013/2014|MCU Tier 2013|Pittsburgh Predators|Esmark Stars|Biggby Coffee AAA|Mercer Chiefs 2013
+||MCU Elite 2013|Mid Fairfield (Independent) 13 AAA|Wolfpack Hockey 2013|Jersey Hitmen|Indiana Elite|Madison Capitols|Revolution Elite 2013|Palmyra Black Knights|RHC 10U Major|Westchester Express 13's|Utica Jr. Comets|CP Dynamo 2013|Tri-State Spartans 10U|Red Bank Generals|Arrows 10U AAA Major|PAL Jr Islanders|CT Chiefs 10U Black|MCU Tier 2013|Flyers Elite 2013/2014|Pittsburgh Predators|Esmark Stars|Biggby Coffee AAA|Mercer Chiefs 2013
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|MCU Elite 2013|--| 53%| 61%| 70%| 73%| 74%| 77%| 86%| 88%| 91%| 92%| 97%| 97%| 98%| 98%| 99%| 99%| 99%| 99%|100%|100%|100%|100%
-|Mid Fairfield (Independent) 13 AAA| 47%|--| 58%| 68%| 71%| 72%| 75%| 84%| 87%| 90%| 91%| 97%| 97%| 98%| 98%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%
-|Wolfpack Hockey 2013| 39%| 42%|--| 60%| 63%| 64%| 68%| 79%| 83%| 87%| 87%| 96%| 96%| 97%| 97%| 99%| 99%| 99%| 99%| 99%| 99%|100%|100%
-|Jersey Hitmen| 30%| 32%| 40%|--| 53%| 55%| 58%| 72%| 76%| 81%| 82%| 94%| 94%| 95%| 96%| 98%| 99%| 99%| 99%| 99%| 99%| 99%|100%
-|Indiana Elite| 27%| 29%| 37%| 47%|--| 51%| 55%| 69%| 74%| 79%| 80%| 93%| 93%| 95%| 95%| 98%| 98%| 98%| 99%| 99%| 99%| 99%|100%
-|Madison Capitols| 26%| 28%| 36%| 45%| 49%|--| 54%| 68%| 72%| 78%| 79%| 92%| 93%| 94%| 95%| 98%| 98%| 98%| 99%| 99%| 99%| 99%|100%
-|Revolution Elite 2013| 23%| 25%| 32%| 42%| 45%| 46%|--| 65%| 69%| 76%| 77%| 91%| 91%| 94%| 94%| 98%| 98%| 98%| 98%| 98%| 99%| 99%|100%
-|RHC 10U Major| 14%| 16%| 21%| 28%| 31%| 32%| 35%|--| 55%| 63%| 64%| 85%| 85%| 89%| 90%| 96%| 96%| 97%| 97%| 97%| 98%| 99%| 99%
-|Palmyra Black Knights| 12%| 13%| 17%| 24%| 26%| 28%| 31%| 45%|--| 58%| 59%| 82%| 83%| 87%| 88%| 95%| 96%| 96%| 96%| 96%| 97%| 98%| 99%
-|Utica Jr. Comets|  9%| 10%| 13%| 19%| 21%| 22%| 24%| 37%| 42%|--| 51%| 77%| 77%| 82%| 84%| 93%| 94%| 94%| 95%| 95%| 96%| 98%| 99%
-|Westchester Express 13's|  8%|  9%| 13%| 18%| 20%| 21%| 23%| 36%| 41%| 49%|--| 76%| 77%| 82%| 83%| 93%| 94%| 94%| 95%| 95%| 96%| 97%| 99%
-|Red Bank Generals|  3%|  3%|  4%|  6%|  7%|  8%|  9%| 15%| 18%| 23%| 24%|--| 51%| 58%| 61%| 80%| 82%| 83%| 85%| 86%| 88%| 92%| 96%
-|CP Dynamo 2013|  3%|  3%|  4%|  6%|  7%|  7%|  9%| 15%| 17%| 23%| 23%| 49%|--| 58%| 60%| 79%| 82%| 83%| 85%| 85%| 88%| 92%| 96%
-|Tri-State Spartans 10U|  2%|  2%|  3%|  5%|  5%|  6%|  6%| 11%| 13%| 18%| 18%| 42%| 42%|--| 53%| 74%| 77%| 78%| 80%| 81%| 84%| 89%| 94%
-|Arrows 10U AAA Major|  2%|  2%|  3%|  4%|  5%|  5%|  6%| 10%| 12%| 16%| 17%| 39%| 40%| 47%|--| 72%| 75%| 76%| 78%| 79%| 82%| 88%| 94%
-|PAL Jr Islanders|  1%|  1%|  1%|  2%|  2%|  2%|  2%|  4%|  5%|  7%|  7%| 20%| 21%| 26%| 28%|--| 54%| 56%| 59%| 60%| 65%| 75%| 86%
-|CT Chiefs 10U Black|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  4%|  4%|  6%|  6%| 18%| 18%| 23%| 25%| 46%|--| 52%| 55%| 56%| 61%| 72%| 84%
-|Flyers Elite 2013/2014|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  3%|  4%|  6%|  6%| 17%| 17%| 22%| 24%| 44%| 48%|--| 53%| 54%| 59%| 70%| 83%
-|MCU Tier 2013|  1%|  1%|  1%|  1%|  1%|  1%|  2%|  3%|  4%|  5%|  5%| 15%| 15%| 20%| 22%| 41%| 45%| 47%|--| 51%| 56%| 68%| 81%
-|Pittsburgh Predators|  0%|  1%|  1%|  1%|  1%|  1%|  2%|  3%|  4%|  5%|  5%| 14%| 15%| 19%| 21%| 40%| 44%| 46%| 49%|--| 55%| 66%| 80%
-|Esmark Stars|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  2%|  3%|  4%|  4%| 12%| 12%| 16%| 18%| 35%| 39%| 41%| 44%| 45%|--| 62%| 77%
-|Biggby Coffee AAA|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  2%|  2%|  3%|  8%|  8%| 11%| 12%| 25%| 28%| 30%| 32%| 34%| 38%|--| 67%
-|Mercer Chiefs 2013|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  4%|  4%|  6%|  6%| 14%| 16%| 17%| 19%| 20%| 23%| 33%|--
+|MCU Elite 2013|--| 54%| 61%| 71%| 71%| 72%| 76%| 90%| 91%| 91%| 91%| 96%| 98%| 98%| 98%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%
+|Mid Fairfield (Independent) 13 AAA| 46%|--| 57%| 67%| 67%| 68%| 73%| 88%| 89%| 90%| 90%| 95%| 97%| 97%| 98%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%
+|Wolfpack Hockey 2013| 39%| 43%|--| 61%| 61%| 62%| 67%| 85%| 87%| 87%| 87%| 94%| 97%| 97%| 97%| 98%| 99%| 99%| 99%| 99%| 99%|100%|100%
+|Jersey Hitmen| 29%| 33%| 39%|--| 50%| 52%| 57%| 79%| 81%| 82%| 82%| 91%| 95%| 95%| 95%| 97%| 98%| 98%| 99%| 99%| 99%| 99%|100%
+|Indiana Elite| 29%| 33%| 39%| 50%|--| 51%| 56%| 78%| 80%| 81%| 81%| 90%| 95%| 95%| 95%| 97%| 98%| 98%| 99%| 99%| 99%| 99%|100%
+|Madison Capitols| 28%| 32%| 38%| 48%| 49%|--| 55%| 77%| 80%| 81%| 81%| 90%| 94%| 94%| 95%| 97%| 98%| 98%| 98%| 99%| 99%| 99%|100%
+|Revolution Elite 2013| 24%| 27%| 33%| 43%| 44%| 45%|--| 74%| 76%| 77%| 77%| 88%| 93%| 93%| 94%| 96%| 98%| 98%| 98%| 98%| 99%| 99%|100%
+|Palmyra Black Knights| 10%| 12%| 15%| 21%| 22%| 23%| 26%|--| 53%| 55%| 55%| 72%| 83%| 83%| 85%| 90%| 94%| 95%| 95%| 96%| 97%| 98%| 99%
+|RHC 10U Major|  9%| 11%| 13%| 19%| 20%| 20%| 24%| 47%|--| 52%| 52%| 70%| 81%| 81%| 83%| 89%| 93%| 94%| 94%| 95%| 96%| 97%| 99%
+|Westchester Express 13's|  9%| 10%| 13%| 18%| 19%| 19%| 23%| 45%| 48%|--| 50%| 69%| 80%| 80%| 83%| 88%| 93%| 94%| 94%| 95%| 96%| 97%| 99%
+|Utica Jr. Comets|  9%| 10%| 13%| 18%| 19%| 19%| 23%| 45%| 48%| 50%|--| 68%| 80%| 80%| 82%| 88%| 93%| 94%| 94%| 95%| 96%| 97%| 99%
+|CP Dynamo 2013|  4%|  5%|  6%|  9%| 10%| 10%| 12%| 28%| 30%| 31%| 32%|--| 65%| 65%| 68%| 77%| 86%| 87%| 87%| 89%| 92%| 94%| 97%
+|Tri-State Spartans 10U|  2%|  3%|  3%|  5%|  5%|  6%|  7%| 17%| 19%| 20%| 20%| 35%|--| 50%| 54%| 65%| 76%| 78%| 79%| 82%| 86%| 89%| 94%
+|Red Bank Generals|  2%|  3%|  3%|  5%|  5%|  6%|  7%| 17%| 19%| 20%| 20%| 35%| 50%|--| 54%| 65%| 76%| 78%| 79%| 82%| 86%| 89%| 94%
+|Arrows 10U AAA Major|  2%|  2%|  3%|  5%|  5%|  5%|  6%| 15%| 17%| 17%| 18%| 32%| 46%| 46%|--| 61%| 73%| 76%| 76%| 80%| 84%| 88%| 94%
+|PAL Jr Islanders|  1%|  1%|  2%|  3%|  3%|  3%|  4%| 10%| 11%| 12%| 12%| 23%| 35%| 35%| 39%|--| 63%| 66%| 67%| 71%| 77%| 82%| 90%
+|CT Chiefs 10U Black|  1%|  1%|  1%|  2%|  2%|  2%|  2%|  6%|  7%|  7%|  7%| 14%| 24%| 24%| 27%| 37%|--| 53%| 54%| 59%| 65%| 73%| 84%
+|MCU Tier 2013|  1%|  1%|  1%|  2%|  2%|  2%|  2%|  5%|  6%|  6%|  6%| 13%| 22%| 22%| 24%| 34%| 47%|--| 51%| 56%| 62%| 70%| 82%
+|Flyers Elite 2013/2014|  1%|  1%|  1%|  1%|  1%|  2%|  2%|  5%|  6%|  6%|  6%| 13%| 21%| 21%| 24%| 33%| 46%| 49%|--| 55%| 62%| 69%| 82%
+|Pittsburgh Predators|  1%|  1%|  1%|  1%|  1%|  1%|  2%|  4%|  5%|  5%|  5%| 11%| 18%| 18%| 20%| 29%| 41%| 44%| 45%|--| 57%| 65%| 79%
+|Esmark Stars|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  3%|  4%|  4%|  4%|  8%| 14%| 14%| 16%| 23%| 35%| 38%| 38%| 43%|--| 58%| 74%
+|Biggby Coffee AAA|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  2%|  3%|  3%|  3%|  6%| 11%| 11%| 12%| 18%| 27%| 30%| 31%| 35%| 42%|--| 67%
+|Mercer Chiefs 2013|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  3%|  6%|  6%|  6%| 10%| 16%| 18%| 18%| 21%| 26%| 33%|--
 
 ## Generation Details
 
@@ -66,7 +66,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-08-26 |
-| End Date | 2023-12-02 |
+| End Date | 2023-12-03 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
