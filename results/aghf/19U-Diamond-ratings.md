@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 19U Diamond KRACH Rankings
-Rankings generated on Mon Dec  4 07:16:15 2023.
+Rankings generated on Tue Dec  5 07:15:51 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -10,7 +10,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 4|609|Playoffs|[Stateline Hawks](https://gamesheetstats.com/seasons/3663/teams/141851/schedule)|14|4|7|3|0|1|1672|6.3|-0.0
 5|499|Playoffs|[CT Polar Bears](https://gamesheetstats.com/seasons/3663/teams/140853/schedule)|10|4|5|1|0|0|1426|5.3|-0.0
 6|452|Playoffs|[Tri CIty Eagles Blue](https://gamesheetstats.com/seasons/3663/teams/140852/schedule)|19|9|9|1|1|0|1012|10.3|-0.0
-7|342||[New York Islanders](https://gamesheetstats.com/seasons/3663/teams/140861/schedule)|21|15|5|1|0|0|291|16.3|-0.0
+7|342||[Twin Rinks Eisenhower Youth](https://gamesheetstats.com/seasons/3663/teams/140861/schedule)|21|15|5|1|0|0|291|16.3|-0.0
 8|169||[NJ Rockets Red](https://gamesheetstats.com/seasons/3663/teams/140855/schedule)|22|11|9|2|1|1|522|12.9|0.0
 9|127||[STJ](https://gamesheetstats.com/seasons/3663/teams/140858/schedule)|23|10|12|1|0|0|512|11.4|0.0
 10|40||[Jr Flyers Crawford](https://gamesheetstats.com/seasons/3663/teams/140862/schedule)|13|6|7|0|0|1|100|6.9|0.0
@@ -25,7 +25,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Jr Flyers Sullivan|NJ Bandits Potash|York Lady Devils|Stateline Hawks|CT Polar Bears|Tri CIty Eagles Blue|New York Islanders|NJ Rockets Red|STJ|Jr Flyers Crawford|Skyland Lady Kings|FL Alliance|MYHA|MassConn United Hockey Club|NJ Rockets Blue|Philadelphia Belles|LVPY|NJ Bandits Morris
+||Jr Flyers Sullivan|NJ Bandits Potash|York Lady Devils|Stateline Hawks|CT Polar Bears|Tri CIty Eagles Blue|Twin Rinks Eisenhower Youth|NJ Rockets Red|STJ|Jr Flyers Crawford|Skyland Lady Kings|FL Alliance|MYHA|MassConn United Hockey Club|NJ Rockets Blue|Philadelphia Belles|LVPY|NJ Bandits Morris
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
 |Jr Flyers Sullivan|--| 77%| 78%| 89%| 91%| 91%| 93%| 97%| 97%| 99%|100%|100%|100%|100%|100%|100%|100%|100%
 |NJ Bandits Potash| 23%|--| 52%| 71%| 75%| 77%| 81%| 90%| 92%| 97%| 99%| 99%| 99%|100%|100%|100%|100%|100%
@@ -33,7 +33,7 @@ Uses KRACH ratings to predict winning percentage of each team (row) against each
 |Stateline Hawks| 11%| 29%| 31%|--| 55%| 57%| 64%| 78%| 83%| 94%| 98%| 98%| 98%| 99%| 99%| 99%| 99%|100%
 |CT Polar Bears|  9%| 25%| 27%| 45%|--| 52%| 59%| 75%| 80%| 93%| 98%| 98%| 98%| 99%| 99%| 99%| 99%|100%
 |Tri CIty Eagles Blue|  9%| 23%| 25%| 43%| 48%|--| 57%| 73%| 78%| 92%| 97%| 98%| 98%| 98%| 99%| 99%| 99%|100%
-|New York Islanders|  7%| 19%| 20%| 36%| 41%| 43%|--| 67%| 73%| 90%| 96%| 97%| 97%| 98%| 98%| 99%| 99%|100%
+|Twin Rinks Eisenhower Youth|  7%| 19%| 20%| 36%| 41%| 43%|--| 67%| 73%| 90%| 96%| 97%| 97%| 98%| 98%| 99%| 99%|100%
 |NJ Rockets Red|  3%| 10%| 11%| 22%| 25%| 27%| 33%|--| 57%| 81%| 93%| 94%| 94%| 96%| 96%| 98%| 98%| 99%
 |STJ|  3%|  8%|  8%| 17%| 20%| 22%| 27%| 43%|--| 76%| 91%| 92%| 93%| 95%| 95%| 97%| 97%| 99%
 |Jr Flyers Crawford|  1%|  3%|  3%|  6%|  7%|  8%| 10%| 19%| 24%|--| 76%| 79%| 80%| 85%| 86%| 91%| 92%| 97%

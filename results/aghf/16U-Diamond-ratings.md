@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 16U Diamond KRACH Rankings
-Rankings generated on Mon Dec  4 07:16:15 2023.
+Rankings generated on Tue Dec  5 07:15:51 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -14,7 +14,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 8|79||[CT Ice Cats](https://gamesheetstats.com/seasons/3663/teams/140846/schedule)|17|8|9|0|0|1|659|8.9|0.0
 9|74||[PTL Orange](https://gamesheetstats.com/seasons/3663/teams/140842/schedule)|21|11|7|3|1|0|85|13.4|0.0
 10|66||[STJ](https://gamesheetstats.com/seasons/3663/teams/140841/schedule)|22|9|11|2|0|1|897|10.9|0.0
-11|62||[New York Islanders 1](https://gamesheetstats.com/seasons/3663/teams/140847/schedule)|22|12|9|1|3|0|102|13.4|0.0
+11|62||[Twin Rinks Eisenhower Youth](https://gamesheetstats.com/seasons/3663/teams/140847/schedule)|22|12|9|1|3|0|102|13.4|0.0
 12|32||[Jr Flyers Sakers](https://gamesheetstats.com/seasons/3663/teams/140843/schedule)|13|6|6|1|2|0|85|7.4|0.0
 13|24||[Maryland Jr. Blackbears](https://gamesheetstats.com/seasons/3663/teams/140848/schedule)|7|3|4|0|0|1|791|3.9|0.0
 14|14||[York Lady Devils](https://gamesheetstats.com/seasons/3663/teams/140845/schedule)|18|6|10|2|0|2|352|7.9|0.0
@@ -26,7 +26,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||PTL Black|MassConn United Hockey Club|NJ Bandits|CT Polar Bears|South Pittsburgh Rebellion Hammel|Jr Flyers Smith|MYHA|CT Ice Cats|PTL Orange|STJ|New York Islanders 1|Jr Flyers Sakers|Maryland Jr. Blackbears|York Lady Devils|Stateline Hawks|Reston Raiders|LVPY|Skyland Lady Kings|New York Islanders 2
+||PTL Black|MassConn United Hockey Club|NJ Bandits|CT Polar Bears|South Pittsburgh Rebellion Hammel|Jr Flyers Smith|MYHA|CT Ice Cats|PTL Orange|STJ|Twin Rinks Eisenhower Youth|Jr Flyers Sakers|Maryland Jr. Blackbears|York Lady Devils|Stateline Hawks|Reston Raiders|LVPY|Skyland Lady Kings|New York Islanders 2
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
 |PTL Black|--| 76%| 89%| 93%| 94%| 95%| 97%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%
 |MassConn United Hockey Club| 24%|--| 73%| 81%| 84%| 87%| 92%| 96%| 96%| 97%| 97%| 98%| 99%| 99%| 99%|100%|100%|100%|100%
@@ -38,7 +38,7 @@ Uses KRACH ratings to predict winning percentage of each team (row) against each
 |CT Ice Cats|  1%|  4%| 10%| 15%| 18%| 22%| 32%|--| 52%| 54%| 56%| 71%| 77%| 85%| 88%| 91%| 93%| 96%| 97%
 |PTL Orange|  1%|  4%| 10%| 15%| 18%| 21%| 31%| 48%|--| 53%| 54%| 70%| 75%| 84%| 87%| 90%| 93%| 96%| 97%
 |STJ|  1%|  3%|  9%| 13%| 16%| 19%| 28%| 46%| 47%|--| 51%| 67%| 73%| 83%| 86%| 89%| 92%| 96%| 97%
-|New York Islanders 1|  1%|  3%|  8%| 13%| 15%| 18%| 27%| 44%| 46%| 49%|--| 66%| 72%| 82%| 85%| 89%| 92%| 95%| 97%
+|Twin Rinks Eisenhower Youth|  1%|  3%|  8%| 13%| 15%| 18%| 27%| 44%| 46%| 49%|--| 66%| 72%| 82%| 85%| 89%| 92%| 95%| 97%
 |Jr Flyers Sakers|  1%|  2%|  4%|  7%|  8%| 10%| 16%| 29%| 30%| 33%| 34%|--| 57%| 70%| 75%| 80%| 85%| 91%| 93%
 |Maryland Jr. Blackbears|  0%|  1%|  3%|  5%|  6%|  8%| 13%| 23%| 25%| 27%| 28%| 43%|--| 64%| 69%| 75%| 81%| 89%| 91%
 |York Lady Devils|  0%|  1%|  2%|  3%|  4%|  5%|  8%| 15%| 16%| 17%| 18%| 30%| 36%|--| 56%| 63%| 70%| 82%| 86%
