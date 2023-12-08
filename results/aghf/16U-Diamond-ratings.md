@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 16U Diamond KRACH Rankings
-Rankings generated on Thu Dec  7 07:16:02 2023.
+Rankings generated on Fri Dec  8 07:15:36 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
