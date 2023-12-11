@@ -1,72 +1,72 @@
 [<- back to the index](readme.md)
 # 12U 2011 KRACH Rankings
-Rankings generated on Sun Dec 10 07:14:46 2023.
+Rankings generated on Mon Dec 11 07:16:30 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|3652|Super 6|[Wolfpack Hockey 2011](https://gamesheetstats.com/seasons/3664/teams/140937/schedule)|19|16|1|2|0|0|569|17.8|-0.0
-2|2800|Super 6|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3664/teams/140949/schedule)|24|21|3|0|1|0|600|21.8|-0.0
-3|1426|Super 6|[Mercer Chiefs 2011](https://gamesheetstats.com/seasons/3664/teams/140936/schedule)|19|13|5|1|0|1|1066|14.3|-0.0
-4|681|Super 6|[MCU Elite 2011](https://gamesheetstats.com/seasons/3664/teams/140929/schedule)|6|3|3|0|2|0|1462|3.8|-0.0
-5|217|Super 6|[CP Dynamo 2011](https://gamesheetstats.com/seasons/3664/teams/140944/schedule)|18|11|7|0|1|1|745|11.8|-0.0
-6|214|Super 6|[PAL Jr Islanders](https://gamesheetstats.com/seasons/3664/teams/140943/schedule)|23|14|7|2|2|0|557|15.8|-0.0
-7|197|Frozen 4|[Utica Jr. Comets](https://gamesheetstats.com/seasons/3664/teams/140945/schedule)|20|11|8|1|1|1|802|12.3|-0.0
-8|135|Frozen 4|[Esmark Stars U12 Red AAA](https://gamesheetstats.com/seasons/3664/teams/140951/schedule)|11|5|6|0|1|0|1107|5.8|-0.0
-9|126|Frozen 4|[Jersey Hitmen](https://gamesheetstats.com/seasons/3664/teams/140938/schedule)|18|11|7|0|2|1|430|11.8|-0.0
-10|80|Frozen 4|[Pittsburgh Predators](https://gamesheetstats.com/seasons/3664/teams/140950/schedule)|18|8|9|1|0|1|997|9.3|-0.0
-11|48||[Red Bank Generals](https://gamesheetstats.com/seasons/3664/teams/140940/schedule)|18|11|7|0|1|1|69|11.8|-0.0
-12|39||[CT Jr Rangers Elite 2011](https://gamesheetstats.com/seasons/3664/teams/140931/schedule)|20|5|14|1|0|1|872|6.3|-0.0
-13|25||[RHC 12U Major](https://gamesheetstats.com/seasons/3664/teams/140941/schedule)|18|11|6|1|0|1|50|12.4|0.0
-14|19||[Arrows 12U AAA Major](https://gamesheetstats.com/seasons/3664/teams/140946/schedule)|24|13|11|0|1|1|59|13.8|-0.0
-15|17||[Indiana Elite](https://gamesheetstats.com/seasons/3664/teams/144353/schedule)|9|5|3|1|0|0|50|6.4|0.0
-16|16||[New Jersey Jets](https://gamesheetstats.com/seasons/3664/teams/140939/schedule)|21|8|12|1|2|0|72|9.3|-0.0
-17|15||[Westchester Express South 11's](https://gamesheetstats.com/seasons/3664/teams/140947/schedule)|23|14|8|1|1|0|33|15.4|0.0
-18|10||[Valley Forge Minutemen](https://gamesheetstats.com/seasons/3664/teams/187349/schedule)|4|1|3|0|0|0|50|1.9|0.0
-19|10||[Team Maryland](https://gamesheetstats.com/seasons/3664/teams/140954/schedule)|27|6|20|1|0|2|706|7.3|-0.0
-20|9||[CT Chiefs 12U](https://gamesheetstats.com/seasons/3664/teams/140934/schedule)|12|8|4|0|1|0|7|8.9|0.0
-21|7||[Westchester Express 11's](https://gamesheetstats.com/seasons/3664/teams/140948/schedule)|17|8|9|0|0|2|60|8.9|0.0
-22|7||[Esmark Stars U12 White AAA](https://gamesheetstats.com/seasons/3664/teams/140952/schedule)|16|7|9|0|0|1|22|7.9|0.0
-23|6||[Biggby Coffee AAA](https://gamesheetstats.com/seasons/3664/teams/144351/schedule)|10|3|4|3|0|0|10|5.4|0.0
-24|4||[Tri-State Spartans 12U](https://gamesheetstats.com/seasons/3664/teams/144352/schedule)|7|1|4|2|0|0|8|2.9|0.0
-25|3||[Hartford Jr Wolfpack 2011](https://gamesheetstats.com/seasons/3664/teams/140935/schedule)|13|5|7|1|1|0|8|6.4|0.0
-26|3||[Mid Fairfield (Independent) 11AAA](https://gamesheetstats.com/seasons/3664/teams/140933/schedule)|23|8|13|2|0|1|14|9.9|0.0
-27|2||[Flyers Elite 2011/12](https://gamesheetstats.com/seasons/3664/teams/140942/schedule)|21|5|15|1|0|2|10|6.4|0.0
-28|1||[Revolution Elite 2011](https://gamesheetstats.com/seasons/3664/teams/140953/schedule)|24|2|22|0|0|0|14|2.9|0.0
-29|0||[MCU Tier 2011](https://gamesheetstats.com/seasons/3664/teams/140932/schedule)|9|0|9|0|0|0|4|0.9|0.0
+1|4084|Super 6|[Wolfpack Hockey 2011](https://gamesheetstats.com/seasons/3664/teams/140937/schedule)|20|17|1|2|0|0|575|18.8|-0.0
+2|2565|Super 6|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3664/teams/140949/schedule)|25|22|3|0|1|0|573|22.8|-0.0
+3|1279|Super 6|[Mercer Chiefs 2011](https://gamesheetstats.com/seasons/3664/teams/140936/schedule)|20|13|6|1|0|1|1218|14.3|-0.0
+4|915|Super 6|[MCU Elite 2011](https://gamesheetstats.com/seasons/3664/teams/140929/schedule)|8|5|3|0|3|0|1233|5.8|-0.0
+5|193|Super 6|[PAL Jr Islanders](https://gamesheetstats.com/seasons/3664/teams/140943/schedule)|24|15|7|2|2|0|514|16.8|-0.0
+6|167|Super 6|[Utica Jr. Comets](https://gamesheetstats.com/seasons/3664/teams/140945/schedule)|22|13|8|1|1|1|728|14.3|-0.0
+7|158|Frozen 4|[CP Dynamo 2011](https://gamesheetstats.com/seasons/3664/teams/140944/schedule)|20|11|9|0|1|2|770|11.8|-0.0
+8|122|Frozen 4|[Esmark Stars U12 Red AAA](https://gamesheetstats.com/seasons/3664/teams/140951/schedule)|13|7|6|0|2|0|968|7.8|-0.0
+9|89|Frozen 4|[Jersey Hitmen](https://gamesheetstats.com/seasons/3664/teams/140938/schedule)|19|11|8|0|2|1|376|11.8|-0.0
+10|62|Frozen 4|[Pittsburgh Predators](https://gamesheetstats.com/seasons/3664/teams/140950/schedule)|19|9|9|1|0|1|936|10.3|-0.0
+11|38||[Red Bank Generals](https://gamesheetstats.com/seasons/3664/teams/140940/schedule)|19|12|7|0|1|1|53|12.8|-0.0
+12|26||[CT Jr Rangers Elite 2011](https://gamesheetstats.com/seasons/3664/teams/140931/schedule)|21|5|15|1|0|1|851|6.3|-0.0
+13|24||[RHC 12U Major](https://gamesheetstats.com/seasons/3664/teams/140941/schedule)|19|12|6|1|0|1|42|13.4|0.0
+14|16||[Arrows 12U AAA Major](https://gamesheetstats.com/seasons/3664/teams/140946/schedule)|25|14|11|0|1|1|45|14.8|-0.0
+15|13||[Indiana Elite](https://gamesheetstats.com/seasons/3664/teams/144353/schedule)|9|5|3|1|0|0|38|6.4|0.0
+16|13||[New Jersey Jets](https://gamesheetstats.com/seasons/3664/teams/140939/schedule)|22|9|12|1|2|0|56|10.3|-0.0
+17|12||[Westchester Express South 11's](https://gamesheetstats.com/seasons/3664/teams/140947/schedule)|24|14|9|1|1|0|31|15.4|0.0
+18|8||[Team Maryland](https://gamesheetstats.com/seasons/3664/teams/140954/schedule)|29|7|21|1|0|3|653|8.4|0.0
+19|8||[Valley Forge Minutemen](https://gamesheetstats.com/seasons/3664/teams/187349/schedule)|5|1|4|0|0|0|463|1.9|0.0
+20|7||[CT Chiefs 12U](https://gamesheetstats.com/seasons/3664/teams/140934/schedule)|12|8|4|0|1|0|6|8.9|0.0
+21|6||[Westchester Express 11's](https://gamesheetstats.com/seasons/3664/teams/140948/schedule)|19|8|11|0|0|2|60|8.9|0.0
+22|5||[Biggby Coffee AAA](https://gamesheetstats.com/seasons/3664/teams/144351/schedule)|10|3|4|3|0|0|7|5.4|0.0
+23|4||[Esmark Stars U12 White AAA](https://gamesheetstats.com/seasons/3664/teams/140952/schedule)|17|7|10|0|0|1|17|7.9|0.0
+24|3||[Tri-State Spartans 12U](https://gamesheetstats.com/seasons/3664/teams/144352/schedule)|7|1|4|2|0|0|6|2.9|0.0
+25|2||[Mid Fairfield (Independent) 11AAA](https://gamesheetstats.com/seasons/3664/teams/140933/schedule)|24|8|14|2|0|1|13|9.9|0.0
+26|2||[Hartford Jr Wolfpack 2011](https://gamesheetstats.com/seasons/3664/teams/140935/schedule)|14|5|8|1|1|0|7|6.4|0.0
+27|1||[Flyers Elite 2011/12](https://gamesheetstats.com/seasons/3664/teams/140942/schedule)|22|5|16|1|0|2|10|6.4|0.0
+28|1||[Revolution Elite 2011](https://gamesheetstats.com/seasons/3664/teams/140953/schedule)|25|2|23|0|0|0|12|2.9|0.0
+29|0||[MCU Tier 2011](https://gamesheetstats.com/seasons/3664/teams/140932/schedule)|9|0|9|0|0|0|3|0.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Wolfpack Hockey 2011|Palmyra Black Knights|Mercer Chiefs 2011|MCU Elite 2011|CP Dynamo 2011|PAL Jr Islanders|Utica Jr. Comets|Esmark Stars U12 Red AAA|Jersey Hitmen|Pittsburgh Predators|Red Bank Generals|CT Jr Rangers Elite 2011|RHC 12U Major|Arrows 12U AAA Major|Indiana Elite|New Jersey Jets|Westchester Express South 11's|Valley Forge Minutemen|Team Maryland|CT Chiefs 12U|Westchester Express 11's|Esmark Stars U12 White AAA|Biggby Coffee AAA|Tri-State Spartans 12U|Hartford Jr Wolfpack 2011|Mid Fairfield (Independent) 11AAA|Flyers Elite 2011/12|Revolution Elite 2011|MCU Tier 2011
+||Wolfpack Hockey 2011|Palmyra Black Knights|Mercer Chiefs 2011|MCU Elite 2011|PAL Jr Islanders|Utica Jr. Comets|CP Dynamo 2011|Esmark Stars U12 Red AAA|Jersey Hitmen|Pittsburgh Predators|Red Bank Generals|CT Jr Rangers Elite 2011|RHC 12U Major|Arrows 12U AAA Major|Indiana Elite|New Jersey Jets|Westchester Express South 11's|Team Maryland|Valley Forge Minutemen|CT Chiefs 12U|Westchester Express 11's|Biggby Coffee AAA|Esmark Stars U12 White AAA|Tri-State Spartans 12U|Mid Fairfield (Independent) 11AAA|Hartford Jr Wolfpack 2011|Flyers Elite 2011/12|Revolution Elite 2011|MCU Tier 2011
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Wolfpack Hockey 2011|--| 57%| 72%| 84%| 94%| 94%| 95%| 96%| 97%| 98%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%
-|Palmyra Black Knights| 43%|--| 66%| 80%| 93%| 93%| 93%| 95%| 96%| 97%| 98%| 99%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%
-|Mercer Chiefs 2011| 28%| 34%|--| 68%| 87%| 87%| 88%| 91%| 92%| 95%| 97%| 97%| 98%| 99%| 99%| 99%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%|100%
-|MCU Elite 2011| 16%| 20%| 32%|--| 76%| 76%| 78%| 83%| 84%| 90%| 93%| 95%| 96%| 97%| 98%| 98%| 98%| 99%| 99%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%
-|CP Dynamo 2011|  6%|  7%| 13%| 24%|--| 50%| 52%| 62%| 63%| 73%| 82%| 85%| 90%| 92%| 93%| 93%| 93%| 95%| 96%| 96%| 97%| 97%| 97%| 98%| 99%| 99%| 99%|100%|100%
-|PAL Jr Islanders|  6%|  7%| 13%| 24%| 50%|--| 52%| 61%| 63%| 73%| 82%| 84%| 89%| 92%| 93%| 93%| 93%| 95%| 96%| 96%| 97%| 97%| 97%| 98%| 99%| 99%| 99%|100%|100%
-|Utica Jr. Comets|  5%|  7%| 12%| 22%| 48%| 48%|--| 59%| 61%| 71%| 81%| 83%| 89%| 91%| 92%| 92%| 93%| 95%| 95%| 96%| 96%| 97%| 97%| 98%| 99%| 99%| 99%|100%|100%
-|Esmark Stars U12 Red AAA|  4%|  5%|  9%| 17%| 38%| 39%| 41%|--| 52%| 63%| 74%| 77%| 84%| 88%| 89%| 89%| 90%| 93%| 93%| 94%| 95%| 95%| 96%| 97%| 98%| 98%| 99%| 99%|100%
-|Jersey Hitmen|  3%|  4%|  8%| 16%| 37%| 37%| 39%| 48%|--| 61%| 73%| 76%| 83%| 87%| 88%| 88%| 89%| 92%| 93%| 94%| 95%| 95%| 95%| 97%| 98%| 98%| 99%| 99%|100%
-|Pittsburgh Predators|  2%|  3%|  5%| 10%| 27%| 27%| 29%| 37%| 39%|--| 63%| 67%| 76%| 80%| 82%| 83%| 84%| 88%| 89%| 90%| 92%| 92%| 93%| 96%| 96%| 97%| 98%| 99%|100%
-|Red Bank Generals|  1%|  2%|  3%|  7%| 18%| 18%| 19%| 26%| 27%| 37%|--| 55%| 65%| 71%| 74%| 74%| 76%| 82%| 83%| 85%| 87%| 88%| 88%| 93%| 94%| 94%| 97%| 98%| 99%
-|CT Jr Rangers Elite 2011|  1%|  1%|  3%|  5%| 15%| 16%| 17%| 23%| 24%| 33%| 45%|--| 61%| 67%| 70%| 71%| 72%| 79%| 80%| 82%| 84%| 86%| 86%| 92%| 93%| 93%| 96%| 98%| 99%
-|RHC 12U Major|  1%|  1%|  2%|  4%| 10%| 11%| 11%| 16%| 17%| 24%| 35%| 39%|--| 57%| 60%| 60%| 62%| 71%| 72%| 75%| 78%| 79%| 80%| 88%| 90%| 90%| 94%| 97%| 99%
-|Arrows 12U AAA Major|  1%|  1%|  1%|  3%|  8%|  8%|  9%| 12%| 13%| 20%| 29%| 33%| 43%|--| 53%| 54%| 56%| 65%| 66%| 69%| 73%| 75%| 75%| 84%| 87%| 87%| 93%| 96%| 99%
-|Indiana Elite|  0%|  1%|  1%|  2%|  7%|  7%|  8%| 11%| 12%| 18%| 26%| 30%| 40%| 47%|--| 51%| 53%| 62%| 64%| 67%| 70%| 72%| 73%| 83%| 85%| 86%| 92%| 96%| 99%
-|New Jersey Jets|  0%|  1%|  1%|  2%|  7%|  7%|  8%| 11%| 12%| 17%| 26%| 29%| 40%| 46%| 49%|--| 52%| 61%| 63%| 66%| 69%| 72%| 72%| 82%| 85%| 85%| 91%| 96%| 98%
-|Westchester Express South 11's|  0%|  1%|  1%|  2%|  7%|  7%|  7%| 10%| 11%| 16%| 24%| 28%| 38%| 44%| 47%| 48%|--| 60%| 61%| 64%| 68%| 70%| 71%| 81%| 84%| 84%| 91%| 95%| 98%
-|Valley Forge Minutemen|  0%|  0%|  1%|  1%|  5%|  5%|  5%|  7%|  8%| 12%| 18%| 21%| 29%| 35%| 38%| 39%| 40%|--| 52%| 55%| 59%| 61%| 62%| 74%| 78%| 79%| 87%| 93%| 98%
-|Team Maryland|  0%|  0%|  1%|  1%|  4%|  4%|  5%|  7%|  7%| 11%| 17%| 20%| 28%| 34%| 36%| 37%| 39%| 48%|--| 53%| 57%| 60%| 61%| 73%| 77%| 78%| 86%| 93%| 97%
-|CT Chiefs 12U|  0%|  0%|  1%|  1%|  4%|  4%|  4%|  6%|  6%| 10%| 15%| 18%| 25%| 31%| 33%| 34%| 36%| 45%| 47%|--| 54%| 57%| 57%| 71%| 75%| 75%| 85%| 92%| 97%
-|Westchester Express 11's|  0%|  0%|  1%|  1%|  3%|  3%|  4%|  5%|  5%|  8%| 13%| 16%| 22%| 27%| 30%| 31%| 32%| 41%| 43%| 46%|--| 53%| 53%| 67%| 71%| 72%| 82%| 91%| 97%
-|Esmark Stars U12 White AAA|  0%|  0%|  0%|  1%|  3%|  3%|  3%|  5%|  5%|  8%| 12%| 14%| 21%| 25%| 28%| 28%| 30%| 39%| 40%| 43%| 47%|--| 51%| 65%| 69%| 70%| 81%| 90%| 96%
-|Biggby Coffee AAA|  0%|  0%|  0%|  1%|  3%|  3%|  3%|  4%|  5%|  7%| 12%| 14%| 20%| 25%| 27%| 28%| 29%| 38%| 39%| 43%| 47%| 49%|--| 64%| 69%| 69%| 80%| 89%| 96%
-|Tri-State Spartans 12U|  0%|  0%|  0%|  1%|  2%|  2%|  2%|  3%|  3%|  4%|  7%|  8%| 12%| 16%| 17%| 18%| 19%| 26%| 27%| 29%| 33%| 35%| 36%|--| 55%| 56%| 70%| 83%| 93%
-|Hartford Jr Wolfpack 2011|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  2%|  2%|  4%|  6%|  7%| 10%| 13%| 15%| 15%| 16%| 22%| 23%| 25%| 29%| 31%| 31%| 45%|--| 51%| 65%| 79%| 92%
-|Mid Fairfield (Independent) 11AAA|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  2%|  2%|  3%|  6%|  7%| 10%| 13%| 14%| 15%| 16%| 21%| 22%| 25%| 28%| 30%| 31%| 44%| 49%|--| 64%| 79%| 92%
-|Flyers Elite 2011/12|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  2%|  3%|  4%|  6%|  7%|  8%|  9%|  9%| 13%| 14%| 15%| 18%| 19%| 20%| 30%| 35%| 36%|--| 67%| 86%
-|Revolution Elite 2011|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  2%|  2%|  3%|  4%|  4%|  4%|  5%|  7%|  7%|  8%|  9%| 10%| 11%| 17%| 21%| 21%| 33%|--| 75%
-|MCU Tier 2011|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  3%|  3%|  3%|  4%|  4%|  7%|  8%|  8%| 14%| 25%|--
+|Wolfpack Hockey 2011|--| 61%| 76%| 82%| 95%| 96%| 96%| 97%| 98%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%
+|Palmyra Black Knights| 39%|--| 67%| 74%| 93%| 94%| 94%| 95%| 97%| 98%| 99%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%|100%
+|Mercer Chiefs 2011| 24%| 33%|--| 58%| 87%| 88%| 89%| 91%| 93%| 95%| 97%| 98%| 98%| 99%| 99%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%|100%|100%
+|MCU Elite 2011| 18%| 26%| 42%|--| 83%| 85%| 85%| 88%| 91%| 94%| 96%| 97%| 97%| 98%| 99%| 99%| 99%| 99%| 99%| 99%| 99%| 99%|100%|100%|100%|100%|100%|100%|100%
+|PAL Jr Islanders|  5%|  7%| 13%| 17%|--| 54%| 55%| 61%| 68%| 76%| 84%| 88%| 89%| 92%| 94%| 94%| 94%| 96%| 96%| 97%| 97%| 98%| 98%| 99%| 99%| 99%| 99%|100%|100%
+|Utica Jr. Comets|  4%|  6%| 12%| 15%| 46%|--| 51%| 58%| 65%| 73%| 82%| 86%| 87%| 91%| 93%| 93%| 93%| 95%| 95%| 96%| 97%| 97%| 97%| 98%| 99%| 99%| 99%|100%|100%
+|CP Dynamo 2011|  4%|  6%| 11%| 15%| 45%| 49%|--| 56%| 64%| 72%| 81%| 86%| 87%| 91%| 92%| 92%| 93%| 95%| 95%| 96%| 97%| 97%| 97%| 98%| 99%| 99%| 99%|100%|100%
+|Esmark Stars U12 Red AAA|  3%|  5%|  9%| 12%| 39%| 42%| 44%|--| 58%| 66%| 76%| 82%| 84%| 88%| 90%| 90%| 91%| 94%| 94%| 95%| 96%| 96%| 97%| 98%| 98%| 98%| 99%|100%|100%
+|Jersey Hitmen|  2%|  3%|  7%|  9%| 32%| 35%| 36%| 42%|--| 59%| 70%| 77%| 79%| 85%| 87%| 87%| 88%| 92%| 92%| 93%| 94%| 95%| 95%| 97%| 98%| 98%| 99%| 99%|100%
+|Pittsburgh Predators|  1%|  2%|  5%|  6%| 24%| 27%| 28%| 34%| 41%|--| 62%| 70%| 72%| 80%| 83%| 83%| 84%| 88%| 88%| 90%| 92%| 93%| 93%| 96%| 97%| 97%| 98%| 99%|100%
+|Red Bank Generals|  1%|  1%|  3%|  4%| 16%| 18%| 19%| 24%| 30%| 38%|--| 59%| 61%| 70%| 74%| 74%| 76%| 82%| 82%| 85%| 87%| 89%| 90%| 93%| 95%| 95%| 97%| 99%| 99%
+|CT Jr Rangers Elite 2011|  1%|  1%|  2%|  3%| 12%| 14%| 14%| 18%| 23%| 30%| 41%|--| 52%| 62%| 67%| 67%| 69%| 76%| 77%| 80%| 83%| 85%| 86%| 91%| 93%| 93%| 96%| 98%| 99%
+|RHC 12U Major|  1%|  1%|  2%|  3%| 11%| 13%| 13%| 16%| 21%| 28%| 39%| 48%|--| 60%| 65%| 65%| 67%| 75%| 75%| 79%| 81%| 83%| 84%| 90%| 92%| 92%| 95%| 98%| 99%
+|Arrows 12U AAA Major|  0%|  1%|  1%|  2%|  8%|  9%|  9%| 12%| 15%| 20%| 30%| 38%| 40%|--| 55%| 55%| 58%| 66%| 66%| 71%| 74%| 77%| 78%| 85%| 88%| 88%| 93%| 97%| 99%
+|Indiana Elite|  0%|  1%|  1%|  1%|  6%|  7%|  8%| 10%| 13%| 17%| 26%| 33%| 35%| 45%|--| 50%| 53%| 61%| 62%| 67%| 70%| 73%| 75%| 83%| 86%| 86%| 92%| 96%| 99%
+|New Jersey Jets|  0%|  1%|  1%|  1%|  6%|  7%|  8%| 10%| 13%| 17%| 26%| 33%| 35%| 45%| 50%|--| 52%| 61%| 61%| 66%| 70%| 73%| 75%| 83%| 86%| 86%| 92%| 96%| 99%
+|Westchester Express South 11's|  0%|  0%|  1%|  1%|  6%|  7%|  7%|  9%| 12%| 16%| 24%| 31%| 33%| 42%| 47%| 48%|--| 59%| 59%| 64%| 68%| 71%| 73%| 81%| 85%| 85%| 91%| 95%| 98%
+|Team Maryland|  0%|  0%|  1%|  1%|  4%|  5%|  5%|  6%|  8%| 12%| 18%| 24%| 25%| 34%| 39%| 39%| 41%|--| 50%| 56%| 59%| 63%| 65%| 75%| 79%| 80%| 88%| 94%| 98%
+|Valley Forge Minutemen|  0%|  0%|  1%|  1%|  4%|  5%|  5%|  6%|  8%| 12%| 18%| 23%| 25%| 34%| 38%| 39%| 41%| 50%|--| 55%| 59%| 63%| 65%| 75%| 79%| 79%| 87%| 94%| 98%
+|CT Chiefs 12U|  0%|  0%|  1%|  1%|  3%|  4%|  4%|  5%|  7%| 10%| 15%| 20%| 21%| 29%| 33%| 34%| 36%| 44%| 45%|--| 54%| 57%| 60%| 71%| 75%| 76%| 85%| 92%| 97%
+|Westchester Express 11's|  0%|  0%|  0%|  1%|  3%|  3%|  3%|  4%|  6%|  8%| 13%| 17%| 19%| 26%| 30%| 30%| 32%| 41%| 41%| 46%|--| 54%| 56%| 67%| 72%| 73%| 83%| 91%| 97%
+|Biggby Coffee AAA|  0%|  0%|  0%|  1%|  2%|  3%|  3%|  4%|  5%|  7%| 11%| 15%| 17%| 23%| 27%| 27%| 29%| 37%| 37%| 43%| 46%|--| 52%| 64%| 69%| 70%| 81%| 90%| 96%
+|Esmark Stars U12 White AAA|  0%|  0%|  0%|  0%|  2%|  3%|  3%|  3%|  5%|  7%| 10%| 14%| 16%| 22%| 25%| 25%| 27%| 35%| 35%| 40%| 44%| 48%|--| 62%| 67%| 68%| 79%| 89%| 96%
+|Tri-State Spartans 12U|  0%|  0%|  0%|  0%|  1%|  2%|  2%|  2%|  3%|  4%|  7%|  9%| 10%| 15%| 17%| 17%| 19%| 25%| 25%| 29%| 33%| 36%| 38%|--| 56%| 57%| 70%| 83%| 93%
+|Mid Fairfield (Independent) 11AAA|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  2%|  2%|  3%|  5%|  7%|  8%| 12%| 14%| 14%| 15%| 21%| 21%| 25%| 28%| 31%| 33%| 44%|--| 51%| 65%| 79%| 92%
+|Hartford Jr Wolfpack 2011|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  2%|  2%|  3%|  5%|  7%|  8%| 12%| 14%| 14%| 15%| 20%| 21%| 24%| 27%| 30%| 32%| 43%| 49%|--| 64%| 79%| 92%
+|Flyers Elite 2011/12|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  2%|  3%|  4%|  5%|  7%|  8%|  8%|  9%| 12%| 13%| 15%| 17%| 19%| 21%| 30%| 35%| 36%|--| 68%| 86%
+|Revolution Elite 2011|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  2%|  2%|  3%|  4%|  4%|  5%|  6%|  6%|  8%|  9%| 10%| 11%| 17%| 21%| 21%| 32%|--| 74%
+|MCU Tier 2011|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  3%|  3%|  4%|  4%|  7%|  8%|  8%| 14%| 26%|--
 
 ## Generation Details
 
@@ -78,7 +78,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-08-26 |
-| End Date | 2023-12-09 |
+| End Date | 2023-12-10 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |

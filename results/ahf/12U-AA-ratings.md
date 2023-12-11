@@ -1,63 +1,63 @@
 [<- back to the index](readme.md)
 # 12U AA KRACH Rankings
-Rankings generated on Sun Dec 10 07:14:35 2023.
+Rankings generated on Mon Dec 11 07:16:19 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1865|Championship|[Ashburn Xtreme 2011](https://gamesheetstats.com/seasons/3659/teams/141121/schedule)|11|9|2|0|0|0|507|9.8|-0.0
-2|1703|Championship|[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/141133/schedule)|32|27|5|0|4|0|411|27.8|-0.0
-3|1114|Championship|[MYHA 12U AA Blue](https://gamesheetstats.com/seasons/3659/teams/141123/schedule)|18|14|4|0|1|1|415|14.8|-0.0
-4|1082|Championship|[STJ 12U Gold](https://gamesheetstats.com/seasons/3659/teams/141122/schedule)|16|12|4|0|1|0|466|12.8|-0.0
-5|992|Gold|[Haverford Hawks 12UAA](https://gamesheetstats.com/seasons/3659/teams/141127/schedule)|30|22|7|1|2|2|467|23.3|-0.0
-6|422|Gold|[Lehigh Valley Phantoms Youth U12 AA](https://gamesheetstats.com/seasons/3659/teams/141129/schedule)|29|19|9|1|0|0|397|20.4|0.0
-7|412|Gold|[NJ Bandits 12AA Black](https://gamesheetstats.com/seasons/3659/teams/141126/schedule)|28|17|11|0|0|1|509|17.8|-0.0
-8|406|Gold|[Darien](https://gamesheetstats.com/seasons/3659/teams/141125/schedule)|16|9|7|0|1|1|466|9.9|0.0
-9|273|Silver|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/141128/schedule)|34|17|17|0|3|4|542|17.9|0.0
-10|266|Silver|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/141137/schedule)|31|18|12|1|1|2|284|19.4|0.0
+1|1863|Championship|[Ashburn Xtreme 2011](https://gamesheetstats.com/seasons/3659/teams/141121/schedule)|11|9|2|0|0|0|506|9.8|-0.0
+2|1700|Championship|[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/141133/schedule)|32|27|5|0|4|0|411|27.8|-0.0
+3|1112|Championship|[MYHA 12U AA Blue](https://gamesheetstats.com/seasons/3659/teams/141123/schedule)|18|14|4|0|1|1|415|14.8|-0.0
+4|1081|Championship|[STJ 12U Gold](https://gamesheetstats.com/seasons/3659/teams/141122/schedule)|16|12|4|0|1|0|466|12.8|-0.0
+5|990|Gold|[Haverford Hawks 12UAA](https://gamesheetstats.com/seasons/3659/teams/141127/schedule)|30|22|7|1|2|2|466|23.3|-0.0
+6|421|Gold|[Lehigh Valley Phantoms Youth U12 AA](https://gamesheetstats.com/seasons/3659/teams/141129/schedule)|29|19|9|1|0|0|397|20.4|0.0
+7|414|Gold|[Darien](https://gamesheetstats.com/seasons/3659/teams/141125/schedule)|16|9|7|0|1|1|469|9.9|0.0
+8|411|Gold|[NJ Bandits 12AA Black](https://gamesheetstats.com/seasons/3659/teams/141126/schedule)|28|17|11|0|0|1|508|17.8|-0.0
+9|272|Silver|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/141128/schedule)|34|17|17|0|3|4|541|17.8|-0.0
+10|267|Silver|[North Jersey Avalanche](https://gamesheetstats.com/seasons/3659/teams/141137/schedule)|31|18|12|1|1|2|285|19.4|0.0
 11|209|Silver|[Royals 12U AA Gold](https://gamesheetstats.com/seasons/3659/teams/141142/schedule)|29|16|13|0|3|1|356|16.9|0.0
-12|205|Silver|[Rye Rangers TB](https://gamesheetstats.com/seasons/3659/teams/141140/schedule)|14|8|6|0|1|1|213|8.9|0.0
-13|188||[PHA Icemen](https://gamesheetstats.com/seasons/3659/teams/141145/schedule)|9|3|6|0|0|0|560|3.8|-0.0
-14|168||[Rebels PW Major](https://gamesheetstats.com/seasons/3659/teams/141138/schedule)|14|7|7|0|1|0|203|7.9|0.0
+12|204|Silver|[Rye Rangers TB](https://gamesheetstats.com/seasons/3659/teams/141140/schedule)|14|8|6|0|1|1|213|8.9|0.0
+13|187||[PHA Icemen](https://gamesheetstats.com/seasons/3659/teams/141145/schedule)|9|3|6|0|0|0|559|3.8|-0.0
+14|181||[Rebels PW Major](https://gamesheetstats.com/seasons/3659/teams/141138/schedule)|15|8|7|0|1|0|196|8.9|0.0
 15|131||[Mercer Chiefs](https://gamesheetstats.com/seasons/3659/teams/141135/schedule)|27|12|14|1|2|3|335|13.4|0.0
-16|131||[NJ Bandits 12AA Grey](https://gamesheetstats.com/seasons/3659/teams/141134/schedule)|29|15|14|0|1|2|263|15.9|0.0
+16|130||[NJ Bandits 12AA Grey](https://gamesheetstats.com/seasons/3659/teams/141134/schedule)|29|15|14|0|1|2|263|15.9|0.0
 17|85||[Philadelphia Jr Flyers Coen](https://gamesheetstats.com/seasons/3659/teams/141143/schedule)|14|5|8|1|0|0|430|6.4|0.0
 18|82||[Wildcats 12U AA](https://gamesheetstats.com/seasons/3659/teams/141136/schedule)|31|13|18|0|0|0|381|13.9|0.0
-19|61||[PAL Blue Knights](https://gamesheetstats.com/seasons/3659/teams/141139/schedule)|19|8|10|1|0|1|132|9.4|0.0
-20|55||[Central CT Capitals](https://gamesheetstats.com/seasons/3659/teams/141124/schedule)|10|3|7|0|0|2|353|3.9|0.0
-21|49||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/141130/schedule)|29|11|18|0|1|1|350|11.9|0.0
-22|45||[Jersey Colts PW Black](https://gamesheetstats.com/seasons/3659/teams/141141/schedule)|27|9|16|2|1|0|179|10.9|0.0
-23|22||[VFC PW 12 AA Croce](https://gamesheetstats.com/seasons/3659/teams/141131/schedule)|33|7|26|0|1|2|496|7.9|0.0
-24|4||[RHC PW Major AA](https://gamesheetstats.com/seasons/3659/teams/141132/schedule)|29|4|25|0|0|0|235|4.9|0.0
-25|1||[NYC Skyliners](https://gamesheetstats.com/seasons/3659/teams/141144/schedule)|18|0|18|0|0|0|127|0.9|0.0
+19|57||[PAL Blue Knights](https://gamesheetstats.com/seasons/3659/teams/141139/schedule)|20|8|11|1|0|1|134|9.4|0.0
+20|54||[Central CT Capitals](https://gamesheetstats.com/seasons/3659/teams/141124/schedule)|10|3|7|0|0|2|352|3.9|0.0
+21|48||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3659/teams/141130/schedule)|29|11|18|0|1|1|350|11.9|0.0
+22|44||[Jersey Colts PW Black](https://gamesheetstats.com/seasons/3659/teams/141141/schedule)|27|9|16|2|1|0|179|10.9|0.0
+23|22||[VFC PW 12 AA Croce](https://gamesheetstats.com/seasons/3659/teams/141131/schedule)|33|7|26|0|1|2|495|7.9|0.0
+24|4||[RHC PW Major AA](https://gamesheetstats.com/seasons/3659/teams/141132/schedule)|29|4|25|0|0|0|234|4.9|0.0
+25|1||[NYC Skyliners](https://gamesheetstats.com/seasons/3659/teams/141144/schedule)|18|0|18|0|0|0|126|0.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Ashburn Xtreme 2011|Hollydell Hurricanes|MYHA 12U AA Blue|STJ 12U Gold|Haverford Hawks 12UAA|Lehigh Valley Phantoms Youth U12 AA|NJ Bandits 12AA Black|Darien|Team Philadelphia|North Jersey Avalanche|Royals 12U AA Gold|Rye Rangers TB|PHA Icemen|Rebels PW Major|Mercer Chiefs|NJ Bandits 12AA Grey|Philadelphia Jr Flyers Coen|Wildcats 12U AA|PAL Blue Knights|Central CT Capitals|Palmyra Black Knights|Jersey Colts PW Black|VFC PW 12 AA Croce|RHC PW Major AA|NYC Skyliners
+||Ashburn Xtreme 2011|Hollydell Hurricanes|MYHA 12U AA Blue|STJ 12U Gold|Haverford Hawks 12UAA|Lehigh Valley Phantoms Youth U12 AA|Darien|NJ Bandits 12AA Black|Team Philadelphia|North Jersey Avalanche|Royals 12U AA Gold|Rye Rangers TB|PHA Icemen|Rebels PW Major|Mercer Chiefs|NJ Bandits 12AA Grey|Philadelphia Jr Flyers Coen|Wildcats 12U AA|PAL Blue Knights|Central CT Capitals|Palmyra Black Knights|Jersey Colts PW Black|VFC PW 12 AA Croce|RHC PW Major AA|NYC Skyliners
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Ashburn Xtreme 2011|--| 52%| 63%| 63%| 65%| 82%| 82%| 82%| 87%| 88%| 90%| 90%| 91%| 92%| 93%| 93%| 96%| 96%| 97%| 97%| 97%| 98%| 99%|100%|100%
-|Hollydell Hurricanes| 48%|--| 60%| 61%| 63%| 80%| 81%| 81%| 86%| 86%| 89%| 89%| 90%| 91%| 93%| 93%| 95%| 95%| 97%| 97%| 97%| 97%| 99%|100%|100%
-|MYHA 12U AA Blue| 37%| 40%|--| 51%| 53%| 73%| 73%| 73%| 80%| 81%| 84%| 84%| 86%| 87%| 89%| 89%| 93%| 93%| 95%| 95%| 96%| 96%| 98%|100%|100%
-|STJ 12U Gold| 37%| 39%| 49%|--| 52%| 72%| 72%| 73%| 80%| 80%| 84%| 84%| 85%| 87%| 89%| 89%| 93%| 93%| 95%| 95%| 96%| 96%| 98%|100%|100%
-|Haverford Hawks 12UAA| 35%| 37%| 47%| 48%|--| 70%| 71%| 71%| 78%| 79%| 83%| 83%| 84%| 86%| 88%| 88%| 92%| 92%| 94%| 95%| 95%| 96%| 98%|100%|100%
-|Lehigh Valley Phantoms Youth U12 AA| 18%| 20%| 27%| 28%| 30%|--| 51%| 51%| 61%| 61%| 67%| 67%| 69%| 72%| 76%| 76%| 83%| 84%| 87%| 88%| 90%| 90%| 95%| 99%|100%
-|NJ Bandits 12AA Black| 18%| 19%| 27%| 28%| 29%| 49%|--| 50%| 60%| 61%| 66%| 67%| 69%| 71%| 76%| 76%| 83%| 83%| 87%| 88%| 89%| 90%| 95%| 99%|100%
-|Darien| 18%| 19%| 27%| 27%| 29%| 49%| 50%|--| 60%| 60%| 66%| 66%| 68%| 71%| 76%| 76%| 83%| 83%| 87%| 88%| 89%| 90%| 95%| 99%|100%
-|Team Philadelphia| 13%| 14%| 20%| 20%| 22%| 39%| 40%| 40%|--| 51%| 57%| 57%| 59%| 62%| 68%| 68%| 76%| 77%| 82%| 83%| 85%| 86%| 92%| 99%|100%
-|North Jersey Avalanche| 12%| 14%| 19%| 20%| 21%| 39%| 39%| 40%| 49%|--| 56%| 56%| 59%| 61%| 67%| 67%| 76%| 76%| 81%| 83%| 85%| 86%| 92%| 98%|100%
-|Royals 12U AA Gold| 10%| 11%| 16%| 16%| 17%| 33%| 34%| 34%| 43%| 44%|--| 50%| 53%| 56%| 62%| 62%| 71%| 72%| 77%| 79%| 81%| 82%| 90%| 98%|100%
-|Rye Rangers TB| 10%| 11%| 16%| 16%| 17%| 33%| 33%| 34%| 43%| 44%| 50%|--| 52%| 55%| 61%| 61%| 71%| 71%| 77%| 79%| 81%| 82%| 90%| 98%|100%
-|PHA Icemen|  9%| 10%| 14%| 15%| 16%| 31%| 31%| 32%| 41%| 41%| 47%| 48%|--| 53%| 59%| 59%| 69%| 70%| 75%| 77%| 79%| 81%| 89%| 98%|100%
-|Rebels PW Major|  8%|  9%| 13%| 13%| 14%| 28%| 29%| 29%| 38%| 39%| 44%| 45%| 47%|--| 56%| 56%| 66%| 67%| 73%| 75%| 77%| 79%| 88%| 98%|100%
-|Mercer Chiefs|  7%|  7%| 11%| 11%| 12%| 24%| 24%| 24%| 32%| 33%| 38%| 39%| 41%| 44%|--| 50%| 61%| 61%| 68%| 70%| 73%| 75%| 85%| 97%| 99%
-|NJ Bandits 12AA Grey|  7%|  7%| 11%| 11%| 12%| 24%| 24%| 24%| 32%| 33%| 38%| 39%| 41%| 44%| 50%|--| 60%| 61%| 68%| 70%| 73%| 75%| 85%| 97%| 99%
-|Philadelphia Jr Flyers Coen|  4%|  5%|  7%|  7%|  8%| 17%| 17%| 17%| 24%| 24%| 29%| 29%| 31%| 34%| 39%| 40%|--| 51%| 58%| 61%| 64%| 66%| 79%| 95%| 99%
-|Wildcats 12U AA|  4%|  5%|  7%|  7%|  8%| 16%| 17%| 17%| 23%| 24%| 28%| 29%| 30%| 33%| 39%| 39%| 49%|--| 57%| 60%| 63%| 65%| 79%| 95%| 99%
-|PAL Blue Knights|  3%|  3%|  5%|  5%|  6%| 13%| 13%| 13%| 18%| 19%| 23%| 23%| 25%| 27%| 32%| 32%| 42%| 43%|--| 53%| 56%| 58%| 73%| 94%| 99%
-|Central CT Capitals|  3%|  3%|  5%|  5%|  5%| 12%| 12%| 12%| 17%| 17%| 21%| 21%| 23%| 25%| 30%| 30%| 39%| 40%| 47%|--| 53%| 55%| 71%| 93%| 99%
-|Palmyra Black Knights|  3%|  3%|  4%|  4%|  5%| 10%| 11%| 11%| 15%| 15%| 19%| 19%| 21%| 23%| 27%| 27%| 36%| 37%| 44%| 47%|--| 52%| 68%| 92%| 98%
-|Jersey Colts PW Black|  2%|  3%|  4%|  4%|  4%| 10%| 10%| 10%| 14%| 14%| 18%| 18%| 19%| 21%| 25%| 25%| 34%| 35%| 42%| 45%| 48%|--| 67%| 92%| 98%
-|VFC PW 12 AA Croce|  1%|  1%|  2%|  2%|  2%|  5%|  5%|  5%|  8%|  8%| 10%| 10%| 11%| 12%| 15%| 15%| 21%| 21%| 27%| 29%| 32%| 33%|--| 85%| 97%
-|RHC PW Major AA|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  2%|  2%|  3%|  3%|  5%|  5%|  6%|  7%|  8%|  8%| 15%|--| 85%
+|Ashburn Xtreme 2011|--| 52%| 63%| 63%| 65%| 82%| 82%| 82%| 87%| 87%| 90%| 90%| 91%| 91%| 93%| 93%| 96%| 96%| 97%| 97%| 97%| 98%| 99%|100%|100%
+|Hollydell Hurricanes| 48%|--| 60%| 61%| 63%| 80%| 80%| 81%| 86%| 86%| 89%| 89%| 90%| 90%| 93%| 93%| 95%| 95%| 97%| 97%| 97%| 97%| 99%|100%|100%
+|MYHA 12U AA Blue| 37%| 40%|--| 51%| 53%| 73%| 73%| 73%| 80%| 81%| 84%| 85%| 86%| 86%| 89%| 90%| 93%| 93%| 95%| 95%| 96%| 96%| 98%|100%|100%
+|STJ 12U Gold| 37%| 39%| 49%|--| 52%| 72%| 72%| 72%| 80%| 80%| 84%| 84%| 85%| 86%| 89%| 89%| 93%| 93%| 95%| 95%| 96%| 96%| 98%|100%|100%
+|Haverford Hawks 12UAA| 35%| 37%| 47%| 48%|--| 70%| 71%| 71%| 78%| 79%| 83%| 83%| 84%| 85%| 88%| 88%| 92%| 92%| 95%| 95%| 95%| 96%| 98%|100%|100%
+|Lehigh Valley Phantoms Youth U12 AA| 18%| 20%| 27%| 28%| 30%|--| 50%| 51%| 61%| 61%| 67%| 67%| 69%| 70%| 76%| 76%| 83%| 84%| 88%| 89%| 90%| 91%| 95%| 99%|100%
+|Darien| 18%| 20%| 27%| 28%| 29%| 50%|--| 50%| 60%| 61%| 66%| 67%| 69%| 70%| 76%| 76%| 83%| 84%| 88%| 88%| 90%| 90%| 95%| 99%|100%
+|NJ Bandits 12AA Black| 18%| 19%| 27%| 28%| 29%| 49%| 50%|--| 60%| 61%| 66%| 67%| 69%| 69%| 76%| 76%| 83%| 83%| 88%| 88%| 89%| 90%| 95%| 99%|100%
+|Team Philadelphia| 13%| 14%| 20%| 20%| 22%| 39%| 40%| 40%|--| 50%| 57%| 57%| 59%| 60%| 67%| 68%| 76%| 77%| 83%| 83%| 85%| 86%| 92%| 99%|100%
+|North Jersey Avalanche| 13%| 14%| 19%| 20%| 21%| 39%| 39%| 39%| 50%|--| 56%| 57%| 59%| 60%| 67%| 67%| 76%| 77%| 82%| 83%| 85%| 86%| 92%| 99%|100%
+|Royals 12U AA Gold| 10%| 11%| 16%| 16%| 17%| 33%| 34%| 34%| 43%| 44%|--| 51%| 53%| 54%| 61%| 62%| 71%| 72%| 79%| 79%| 81%| 83%| 90%| 98%|100%
+|Rye Rangers TB| 10%| 11%| 15%| 16%| 17%| 33%| 33%| 33%| 43%| 43%| 49%|--| 52%| 53%| 61%| 61%| 71%| 71%| 78%| 79%| 81%| 82%| 90%| 98%|100%
+|PHA Icemen|  9%| 10%| 14%| 15%| 16%| 31%| 31%| 31%| 41%| 41%| 47%| 48%|--| 51%| 59%| 59%| 69%| 70%| 77%| 78%| 79%| 81%| 89%| 98%|100%
+|Rebels PW Major|  9%| 10%| 14%| 14%| 15%| 30%| 30%| 31%| 40%| 40%| 46%| 47%| 49%|--| 58%| 58%| 68%| 69%| 76%| 77%| 79%| 80%| 89%| 98%|100%
+|Mercer Chiefs|  7%|  7%| 11%| 11%| 12%| 24%| 24%| 24%| 33%| 33%| 39%| 39%| 41%| 42%|--| 50%| 61%| 62%| 70%| 71%| 73%| 75%| 86%| 97%| 99%
+|NJ Bandits 12AA Grey|  7%|  7%| 10%| 11%| 12%| 24%| 24%| 24%| 32%| 33%| 38%| 39%| 41%| 42%| 50%|--| 61%| 61%| 70%| 71%| 73%| 75%| 85%| 97%| 99%
+|Philadelphia Jr Flyers Coen|  4%|  5%|  7%|  7%|  8%| 17%| 17%| 17%| 24%| 24%| 29%| 29%| 31%| 32%| 39%| 39%|--| 51%| 60%| 61%| 64%| 66%| 79%| 95%| 99%
+|Wildcats 12U AA|  4%|  5%|  7%|  7%|  8%| 16%| 16%| 17%| 23%| 23%| 28%| 29%| 30%| 31%| 38%| 39%| 49%|--| 59%| 60%| 63%| 65%| 79%| 95%| 99%
+|PAL Blue Knights|  3%|  3%|  5%|  5%|  5%| 12%| 12%| 12%| 17%| 18%| 21%| 22%| 23%| 24%| 30%| 30%| 40%| 41%|--| 51%| 54%| 56%| 72%| 93%| 99%
+|Central CT Capitals|  3%|  3%|  5%|  5%|  5%| 11%| 12%| 12%| 17%| 17%| 21%| 21%| 22%| 23%| 29%| 29%| 39%| 40%| 49%|--| 53%| 55%| 71%| 93%| 99%
+|Palmyra Black Knights|  3%|  3%|  4%|  4%|  5%| 10%| 10%| 11%| 15%| 15%| 19%| 19%| 21%| 21%| 27%| 27%| 36%| 37%| 46%| 47%|--| 52%| 69%| 92%| 98%
+|Jersey Colts PW Black|  2%|  3%|  4%|  4%|  4%|  9%| 10%| 10%| 14%| 14%| 17%| 18%| 19%| 20%| 25%| 25%| 34%| 35%| 44%| 45%| 48%|--| 66%| 92%| 98%
+|VFC PW 12 AA Croce|  1%|  1%|  2%|  2%|  2%|  5%|  5%|  5%|  8%|  8%| 10%| 10%| 11%| 11%| 14%| 15%| 21%| 21%| 28%| 29%| 31%| 34%|--| 85%| 97%
+|RHC PW Major AA|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  2%|  2%|  2%|  2%|  3%|  3%|  5%|  5%|  7%|  7%|  8%|  8%| 15%|--| 85%
 |NYC Skyliners|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  0%|  1%|  1%|  1%|  1%|  1%|  1%|  2%|  2%|  3%| 15%|--
 
 ## Generation Details
@@ -70,7 +70,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-08-26 |
-| End Date | 2023-12-09 |
+| End Date | 2023-12-10 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Shootout Win Value | 1.00 |
