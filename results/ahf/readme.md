@@ -4,27 +4,27 @@ Click below to see KRACH ratings for each division
 
 | Division | Season Start | Latest Game |
 | :-- | :-- | :-- |
-| [8U AAA](8U-AAA-ratings.md) | 2023-08-26 | 2023-12-16 |
-| [9U AA](9U-AA-ratings.md) | 2023-09-02 | 2023-12-16 |
-| [10U AA](10U-AA-ratings.md) | 2023-08-26 | 2023-12-16 |
-| [10U Gretzky](10U-Gretzky-ratings.md) | 2023-08-26 | 2023-12-16 |
-| [10U Lemieux](10U-Lemieux-ratings.md) | 2023-08-26 | 2023-12-16 |
-| [10U McDavid](10U-McDavid-ratings.md) | 2023-08-26 | 2023-12-16 |
-| [11U AA](11U-AA-ratings.md) | 2023-08-27 | 2023-12-16 |
-| [12U AA](12U-AA-ratings.md) | 2023-08-26 | 2023-12-16 |
-| [12U Gretzky](12U-Gretzky-ratings.md) | 2023-08-26 | 2023-12-16 |
-| [12U Lemieux](12U-Lemieux-ratings.md) | 2023-08-26 | 2023-12-16 |
-| [12U McDavid](12U-McDavid-ratings.md) | 2023-08-26 | 2023-12-16 |
-| [13U AA](13U-AA-ratings.md) | 2023-08-26 | 2023-12-16 |
-| [14U AA](14U-AA-ratings.md) | 2023-08-26 | 2023-12-16 |
-| [14U Gretzky](14U-Gretzky-ratings.md) | 2023-08-25 | 2023-12-16 |
-| [14U Lemieux](14U-Lemieux-ratings.md) | 2023-08-26 | 2023-12-16 |
-| [14U McDavid](14U-McDavid-ratings.md) | 2023-08-26 | 2023-12-16 |
-| [15U AA](15U-AA-ratings.md) | 2023-08-19 | 2023-12-16 |
-| [16U AA](16U-AA-ratings.md) | 2023-08-27 | 2023-12-16 |
-| [16U Gretzky](16U-Gretzky-ratings.md) | 2023-08-26 | 2023-12-16 |
-| [16U Lemieux](16U-Lemieux-ratings.md) | 2023-08-19 | 2023-12-16 |
-| [18U A](18U-A-ratings.md) | 2023-08-20 | 2023-12-16 |
-| [18U AA](18U-AA-ratings.md) | 2023-08-25 | 2023-12-16 |
+| [8U AAA](8U-AAA-ratings.md) | 2023-08-26 | 2023-12-17 |
+| [9U AA](9U-AA-ratings.md) | 2023-09-02 | 2023-12-17 |
+| [10U AA](10U-AA-ratings.md) | 2023-08-26 | 2023-12-17 |
+| [10U Gretzky](10U-Gretzky-ratings.md) | 2023-08-26 | 2023-12-17 |
+| [10U Lemieux](10U-Lemieux-ratings.md) | 2023-08-26 | 2023-12-17 |
+| [10U McDavid](10U-McDavid-ratings.md) | 2023-08-26 | 2023-12-17 |
+| [11U AA](11U-AA-ratings.md) | 2023-08-27 | 2023-12-17 |
+| [12U AA](12U-AA-ratings.md) | 2023-08-26 | 2023-12-17 |
+| [12U Gretzky](12U-Gretzky-ratings.md) | 2023-08-26 | 2023-12-17 |
+| [12U Lemieux](12U-Lemieux-ratings.md) | 2023-08-26 | 2023-12-17 |
+| [12U McDavid](12U-McDavid-ratings.md) | 2023-08-26 | 2023-12-17 |
+| [13U AA](13U-AA-ratings.md) | 2023-08-26 | 2023-12-17 |
+| [14U AA](14U-AA-ratings.md) | 2023-08-26 | 2023-12-17 |
+| [14U Gretzky](14U-Gretzky-ratings.md) | 2023-08-25 | 2023-12-17 |
+| [14U Lemieux](14U-Lemieux-ratings.md) | 2023-08-26 | 2023-12-17 |
+| [14U McDavid](14U-McDavid-ratings.md) | 2023-08-26 | 2023-12-17 |
+| [15U AA](15U-AA-ratings.md) | 2023-08-19 | 2023-12-17 |
+| [16U AA](16U-AA-ratings.md) | 2023-08-27 | 2023-12-17 |
+| [16U Gretzky](16U-Gretzky-ratings.md) | 2023-08-26 | 2023-12-17 |
+| [16U Lemieux](16U-Lemieux-ratings.md) | 2023-08-19 | 2023-12-17 |
+| [18U A](18U-A-ratings.md) | 2023-08-20 | 2023-12-17 |
+| [18U AA](18U-AA-ratings.md) | 2023-08-25 | 2023-12-17 |
 
-Generated on 2023-12-17 07:14:59.239076.
+Generated on 2023-12-18 07:16:17.024324.
