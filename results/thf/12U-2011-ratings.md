@@ -1,10 +1,10 @@
 [<- back to the index](readme.md)
 # 12U 2011 KRACH Rankings
-Rankings generated on Tue Dec 19 07:16:07 2023.
+Rankings generated on Wed Dec 20 07:13:31 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|4117|Super 6|[Wolfpack Hockey 2011](https://gamesheetstats.com/seasons/3664/teams/140937/schedule)|22|19|1|2|1|0|530|20.8|-0.0
+1|4117|Super 6|[Wolfpack Hockey 2011](https://gamesheetstats.com/seasons/3664/teams/140937/schedule)|22|19|1|2|0|0|530|20.8|-0.0
 2|2619|Super 6|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3664/teams/140949/schedule)|27|24|3|0|1|0|537|24.8|-0.0
 3|1266|Super 6|[Mercer Chiefs 2011](https://gamesheetstats.com/seasons/3664/teams/140936/schedule)|20|13|6|1|0|1|1229|14.3|-0.0
 4|913|Super 6|[MCU Elite 2011](https://gamesheetstats.com/seasons/3664/teams/140929/schedule)|8|5|3|0|3|0|1237|5.8|-0.0
@@ -14,7 +14,7 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 8|102|Frozen 4|[Esmark Stars U12 Red AAA](https://gamesheetstats.com/seasons/3664/teams/140951/schedule)|15|7|8|0|2|0|1178|7.8|-0.0
 9|82|Frozen 4|[Jersey Hitmen](https://gamesheetstats.com/seasons/3664/teams/140938/schedule)|20|11|9|0|2|1|555|11.8|-0.0
 10|57|Frozen 4|[Pittsburgh Predators](https://gamesheetstats.com/seasons/3664/teams/140950/schedule)|19|9|9|1|0|1|944|10.3|-0.0
-11|30||[CT Jr Rangers Elite 2011](https://gamesheetstats.com/seasons/3664/teams/140931/schedule)|23|6|16|1|0|2|957|7.3|-0.0
+11|30||[CT Jr Rangers Elite 2011](https://gamesheetstats.com/seasons/3664/teams/140931/schedule)|23|6|16|1|0|1|957|7.3|-0.0
 12|29||[Red Bank Generals](https://gamesheetstats.com/seasons/3664/teams/140940/schedule)|21|13|8|0|1|1|47|13.8|-0.0
 13|27||[RHC 12U Major](https://gamesheetstats.com/seasons/3664/teams/140941/schedule)|20|13|6|1|0|1|40|14.4|0.0
 14|16||[Arrows 12U AAA Major](https://gamesheetstats.com/seasons/3664/teams/140946/schedule)|26|15|11|0|1|1|42|15.9|0.0
