@@ -1,31 +1,31 @@
 [<- back to the index](readme.md)
 # 11U 2012 KRACH Rankings
-Rankings generated on Thu Dec 28 07:15:47 2023.
+Rankings generated on Thu Dec 28 15:08:53 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|8419|Super 6|[2012 CT Jr Rangers Elite](https://gamesheetstats.com/seasons/3664/teams/140909/schedule)|18|18|0|0|1|0|93|18.8|-0.1
+1|8419|Super 6|[2012 CT Jr Rangers Elite](https://gamesheetstats.com/seasons/3664/teams/140909/schedule)|18|17|0|0|1|0|93|18.8|-0.1
 2|662|Super 6|[Indiana Elite](https://gamesheetstats.com/seasons/3664/teams/144355/schedule)|7|7|0|0|0|0|13|7.9|0.0
-3|332|Super 6|[RHC 11U Minor Academy](https://gamesheetstats.com/seasons/3664/teams/140913/schedule)|9|6|3|0|0|1|1740|6.8|-0.0
-4|165|Super 6|[MCU Elite 2012](https://gamesheetstats.com/seasons/3664/teams/140908/schedule)|12|5|7|0|2|2|2677|5.8|-0.0
-5|83|Super 6|[Wolfpack Hockey 2012](https://gamesheetstats.com/seasons/3664/teams/140914/schedule)|19|11|8|0|1|2|919|11.8|-0.0
+3|332|Super 6|[RHC 11U Minor Academy](https://gamesheetstats.com/seasons/3664/teams/140913/schedule)|9|6|2|0|0|1|1740|6.8|-0.0
+4|165|Super 6|[MCU Elite 2012](https://gamesheetstats.com/seasons/3664/teams/140908/schedule)|12|3|5|0|2|2|2677|5.8|-0.0
+5|83|Super 6|[Wolfpack Hockey 2012](https://gamesheetstats.com/seasons/3664/teams/140914/schedule)|19|10|6|0|1|2|919|11.8|-0.0
 6|62|Super 6|[Jersey Hitmen](https://gamesheetstats.com/seasons/3664/teams/140915/schedule)|19|13|6|0|0|0|885|13.9|0.0
-7|50|Frozen 4|[Red Bank Generals](https://gamesheetstats.com/seasons/3664/teams/140916/schedule)|30|23|4|3|3|0|15|25.4|0.0
-8|44|Frozen 4|[Pittsburgh Predators](https://gamesheetstats.com/seasons/3664/teams/140925/schedule)|21|13|7|1|0|1|788|14.4|0.0
-9|37|Frozen 4|[Revolution Elite 2012](https://gamesheetstats.com/seasons/3664/teams/140924/schedule)|27|21|5|1|1|1|13|22.4|0.0
-10|35|Frozen 4|[Westchester Express 12's](https://gamesheetstats.com/seasons/3664/teams/140919/schedule)|16|12|3|1|2|1|15|13.4|0.0
+7|50|Frozen 4|[Red Bank Generals](https://gamesheetstats.com/seasons/3664/teams/140916/schedule)|30|20|4|3|3|0|15|25.4|0.0
+8|44|Frozen 4|[Pittsburgh Predators](https://gamesheetstats.com/seasons/3664/teams/140925/schedule)|21|13|6|1|0|1|788|14.4|0.0
+9|37|Frozen 4|[Revolution Elite 2012](https://gamesheetstats.com/seasons/3664/teams/140924/schedule)|27|20|4|1|1|1|13|22.4|0.0
+10|35|Frozen 4|[Westchester Express 12's](https://gamesheetstats.com/seasons/3664/teams/140919/schedule)|16|10|2|1|2|1|15|13.4|0.0
 11|32||[2012 Sylvania North Stars AAA](https://gamesheetstats.com/seasons/3664/teams/162461/schedule)|5|2|2|1|0|0|226|3.4|0.0
-12|12||[Utica Jr. Comets](https://gamesheetstats.com/seasons/3664/teams/140923/schedule)|14|10|3|1|2|0|9|11.4|0.0
-13|12||[Team Maryland](https://gamesheetstats.com/seasons/3664/teams/140928/schedule)|30|12|16|2|1|0|1123|13.9|0.0
-14|10||[PAL Jr Islanders](https://gamesheetstats.com/seasons/3664/teams/140921/schedule)|19|6|12|1|0|2|868|7.4|0.0
-15|8||[Arrows 12U AAA Minor](https://gamesheetstats.com/seasons/3664/teams/140920/schedule)|26|12|14|0|2|0|24|12.9|0.0
+12|12||[Utica Jr. Comets](https://gamesheetstats.com/seasons/3664/teams/140923/schedule)|14|8|3|1|2|0|9|11.4|0.0
+13|12||[Team Maryland](https://gamesheetstats.com/seasons/3664/teams/140928/schedule)|30|11|16|2|1|0|1123|13.9|0.0
+14|10||[PAL Jr Islanders](https://gamesheetstats.com/seasons/3664/teams/140921/schedule)|19|6|10|1|0|2|868|7.4|0.0
+15|8||[Arrows 12U AAA Minor](https://gamesheetstats.com/seasons/3664/teams/140920/schedule)|26|10|14|0|2|0|24|12.9|0.0
 16|7||[Biggby Coffee AAA](https://gamesheetstats.com/seasons/3664/teams/144354/schedule)|5|1|4|0|0|0|230|1.9|0.0
-17|7||[Mid Fairfield (Independent) 12 AAA](https://gamesheetstats.com/seasons/3664/teams/140910/schedule)|24|5|15|4|1|2|29|7.9|0.0
-18|6||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3664/teams/140927/schedule)|25|10|14|1|0|1|16|11.4|0.0
-19|5||[Mercer Chiefs 2012](https://gamesheetstats.com/seasons/3664/teams/140918/schedule)|24|10|14|0|0|1|12|10.9|0.0
-20|2||[CP Dynamo 2012](https://gamesheetstats.com/seasons/3664/teams/140922/schedule)|21|7|13|1|1|0|16|8.4|0.0
-21|1||[CT Chiefs 11U](https://gamesheetstats.com/seasons/3664/teams/140912/schedule)|9|4|5|0|0|1|3|4.9|0.0
-22|1||[RHC 11U Minor Ball](https://gamesheetstats.com/seasons/3664/teams/140917/schedule)|18|4|14|0|0|2|13|4.9|0.0
+17|7||[Mid Fairfield (Independent) 12 AAA](https://gamesheetstats.com/seasons/3664/teams/140910/schedule)|24|4|13|4|1|2|29|7.9|0.0
+18|6||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3664/teams/140927/schedule)|25|10|13|1|0|1|16|11.4|0.0
+19|5||[Mercer Chiefs 2012](https://gamesheetstats.com/seasons/3664/teams/140918/schedule)|24|10|13|0|0|1|12|10.9|0.0
+20|2||[CP Dynamo 2012](https://gamesheetstats.com/seasons/3664/teams/140922/schedule)|21|6|13|1|1|0|16|8.4|0.0
+21|1||[CT Chiefs 11U](https://gamesheetstats.com/seasons/3664/teams/140912/schedule)|9|4|4|0|0|1|3|4.9|0.0
+22|1||[RHC 11U Minor Ball](https://gamesheetstats.com/seasons/3664/teams/140917/schedule)|18|4|12|0|0|2|13|4.9|0.0
 23|1||[Esmark Stars](https://gamesheetstats.com/seasons/3664/teams/140926/schedule)|21|1|20|0|0|0|61|1.9|0.0
 24|1||[CT Jr Rangers Tier 1- AAA 2012](https://gamesheetstats.com/seasons/3664/teams/140911/schedule)|27|2|24|1|0|0|20|3.4|0.0
 
@@ -71,8 +71,8 @@ Generated with command line:
 | End Date | 2023-12-23 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
-| Shootout Win Value | 1.00 |
-| Shootout Loss Value | 0.00 |
+| Overtime Win/Loss | 1.00 / 0.00 |
+| Shootout Win/Loss | 1.00 / 0.00 |
 | Tie Value | 0.50 |
 | Alpha Value | 0.85 |
 | Bonus Points | 0.00 |

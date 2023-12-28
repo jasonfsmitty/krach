@@ -1,34 +1,34 @@
 [<- back to the index](readme.md)
 # 13U 2010 KRACH Rankings
-Rankings generated on Thu Dec 28 07:15:47 2023.
+Rankings generated on Thu Dec 28 15:08:53 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|8138|Super 6|[RHC 13U Minor Premier](https://gamesheetstats.com/seasons/3664/teams/140959/schedule)|15|15|0|0|3|0|93|15.8|-0.0
-2|511|Super 6|[Wolfpack Hockey 2010](https://gamesheetstats.com/seasons/3664/teams/140960/schedule)|18|16|1|1|0|1|52|17.4|0.0
+1|8138|Super 6|[RHC 13U Minor Premier](https://gamesheetstats.com/seasons/3664/teams/140959/schedule)|15|12|0|0|3|0|93|15.8|-0.0
+2|511|Super 6|[Wolfpack Hockey 2010](https://gamesheetstats.com/seasons/3664/teams/140960/schedule)|18|16|0|1|0|1|52|17.4|0.0
 3|355|Super 6|[Indiana Elite](https://gamesheetstats.com/seasons/3664/teams/144350/schedule)|11|9|1|1|0|0|68|10.4|0.0
-4|221|Super 6|[Esmark Stars](https://gamesheetstats.com/seasons/3664/teams/140972/schedule)|17|10|4|3|0|2|987|12.4|0.0
-5|132|Super 6|[CT Jr Rangers Elite 2010](https://gamesheetstats.com/seasons/3664/teams/140955/schedule)|17|12|3|2|1|0|491|13.9|0.0
-6|125|Super 6|[Jersey Hitmen](https://gamesheetstats.com/seasons/3664/teams/140961/schedule)|17|8|9|0|3|2|1496|8.9|0.0
+4|221|Super 6|[Esmark Stars](https://gamesheetstats.com/seasons/3664/teams/140972/schedule)|17|10|2|3|0|2|987|12.4|0.0
+5|132|Super 6|[CT Jr Rangers Elite 2010](https://gamesheetstats.com/seasons/3664/teams/140955/schedule)|17|11|3|2|1|0|491|13.9|0.0
+6|125|Super 6|[Jersey Hitmen](https://gamesheetstats.com/seasons/3664/teams/140961/schedule)|17|5|7|0|3|2|1496|8.9|0.0
 7|95|Frozen 4|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3664/teams/140973/schedule)|25|15|9|1|0|0|711|16.4|0.0
-8|93|Frozen 4|[Team Maryland](https://gamesheetstats.com/seasons/3664/teams/140976/schedule)|20|10|9|1|1|0|884|11.4|0.0
-9|86|Frozen 4|[Pittsburgh Predators](https://gamesheetstats.com/seasons/3664/teams/140974/schedule)|20|13|7|0|1|0|95|13.9|0.0
-10|69|Frozen 4|[Hartford Jr Wolfpack 2010](https://gamesheetstats.com/seasons/3664/teams/140957/schedule)|22|13|8|1|0|2|784|14.4|0.0
+8|93|Frozen 4|[Team Maryland](https://gamesheetstats.com/seasons/3664/teams/140976/schedule)|20|9|9|1|1|0|884|11.4|0.0
+9|86|Frozen 4|[Pittsburgh Predators](https://gamesheetstats.com/seasons/3664/teams/140974/schedule)|20|12|7|0|1|0|95|13.9|0.0
+10|69|Frozen 4|[Hartford Jr Wolfpack 2010](https://gamesheetstats.com/seasons/3664/teams/140957/schedule)|22|13|6|1|0|2|784|14.4|0.0
 11|51||[Oakmoor Patriots](https://gamesheetstats.com/seasons/3664/teams/162748/schedule)|6|3|3|0|0|0|127|3.9|0.0
-12|30||[Mid Fairfield (Independent) 10 AAA](https://gamesheetstats.com/seasons/3664/teams/140956/schedule)|25|15|10|0|3|2|77|15.9|0.0
+12|30||[Mid Fairfield (Independent) 10 AAA](https://gamesheetstats.com/seasons/3664/teams/140956/schedule)|25|12|8|0|3|2|77|15.9|0.0
 13|17||[Revolution Elite 2010](https://gamesheetstats.com/seasons/3664/teams/140975/schedule)|15|5|10|0|0|0|586|5.9|0.0
-14|13||[CP Dynamo 2010](https://gamesheetstats.com/seasons/3664/teams/140968/schedule)|18|8|7|3|1|2|61|10.4|0.0
-15|12||[Utica Jr. Comets](https://gamesheetstats.com/seasons/3664/teams/140970/schedule)|14|7|6|1|2|0|31|8.4|0.0
+14|13||[CP Dynamo 2010](https://gamesheetstats.com/seasons/3664/teams/140968/schedule)|18|7|5|3|1|2|61|10.4|0.0
+15|12||[Utica Jr. Comets](https://gamesheetstats.com/seasons/3664/teams/140970/schedule)|14|5|6|1|2|0|31|8.4|0.0
 16|10||[Flyers Elite 2010](https://gamesheetstats.com/seasons/3664/teams/140963/schedule)|24|14|7|3|0|0|17|16.4|0.0
-17|6||[Westchester Express 10's](https://gamesheetstats.com/seasons/3664/teams/140967/schedule)|19|5|14|0|0|1|876|5.9|0.0
-18|6||[Red Bank Generals](https://gamesheetstats.com/seasons/3664/teams/140962/schedule)|23|10|7|6|0|1|6|13.9|0.0
-19|5||[Westchester Express South 10's](https://gamesheetstats.com/seasons/3664/teams/140971/schedule)|23|8|9|6|0|1|23|11.9|0.0
-20|4||[Arrows 13u AAA Pure](https://gamesheetstats.com/seasons/3664/teams/140965/schedule)|27|7|16|4|0|1|63|9.9|0.0
-21|4||[Biggby Coffee AAA](https://gamesheetstats.com/seasons/3664/teams/144347/schedule)|7|2|5|0|0|1|107|2.9|0.0
-22|4||[Connecticut Jr Rangers (Premier) 10 AAA](https://gamesheetstats.com/seasons/3664/teams/140958/schedule)|20|9|11|0|1|0|12|9.9|0.0
+17|6||[Westchester Express 10's](https://gamesheetstats.com/seasons/3664/teams/140967/schedule)|19|5|13|0|0|1|876|5.9|0.0
+18|6||[Red Bank Generals](https://gamesheetstats.com/seasons/3664/teams/140962/schedule)|23|10|6|6|0|1|6|13.9|0.0
+19|5||[Westchester Express South 10's](https://gamesheetstats.com/seasons/3664/teams/140971/schedule)|23|8|8|6|0|1|23|11.9|0.0
+20|4||[Arrows 13u AAA Pure](https://gamesheetstats.com/seasons/3664/teams/140965/schedule)|27|7|15|4|0|1|63|9.9|0.0
+21|4||[Biggby Coffee AAA](https://gamesheetstats.com/seasons/3664/teams/144347/schedule)|7|2|4|0|0|1|107|2.9|0.0
+22|4||[Connecticut Jr Rangers (Premier) 10 AAA](https://gamesheetstats.com/seasons/3664/teams/140958/schedule)|20|8|11|0|1|0|12|9.9|0.0
 23|2||[PAL Jr Islanders](https://gamesheetstats.com/seasons/3664/teams/140969/schedule)|25|6|18|1|0|0|38|7.4|0.0
-24|2||[Tri-State Spartans 13U](https://gamesheetstats.com/seasons/3664/teams/144349/schedule)|6|1|5|0|1|0|72|1.9|0.0
-25|1||[NYC Hockey Club](https://gamesheetstats.com/seasons/3664/teams/140966/schedule)|26|4|22|0|0|1|63|4.9|0.0
+24|2||[Tri-State Spartans 13U](https://gamesheetstats.com/seasons/3664/teams/144349/schedule)|6|0|5|0|1|0|72|1.9|0.0
+25|1||[NYC Hockey Club](https://gamesheetstats.com/seasons/3664/teams/140966/schedule)|26|4|21|0|0|1|63|4.9|0.0
 26|1||[Rocky Mountain RoughRiders](https://gamesheetstats.com/seasons/3664/teams/144348/schedule)|4|0|3|1|0|0|47|1.4|0.0
 27|0||[Mercer Chiefs 2010](https://gamesheetstats.com/seasons/3664/teams/140964/schedule)|23|1|21|1|0|0|14|2.4|0.0
 
@@ -77,8 +77,8 @@ Generated with command line:
 | End Date | 2023-12-23 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
-| Shootout Win Value | 1.00 |
-| Shootout Loss Value | 0.00 |
+| Overtime Win/Loss | 1.00 / 0.00 |
+| Shootout Win/Loss | 1.00 / 0.00 |
 | Tie Value | 0.50 |
 | Alpha Value | 0.85 |
 | Bonus Points | 0.00 |

@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 18U KRACH Rankings
-Rankings generated on Thu Dec 28 07:15:48 2023.
+Rankings generated on Thu Dec 28 15:08:54 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -8,49 +8,49 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 2|1006|Super 6|[Sioux Falls Power Hockey](https://gamesheetstats.com/seasons/3664/teams/141112/schedule)|4|4|0|0|0|0|32|4.8|-0.0
 3|929|Super 6|[Jersey Hitmen](https://gamesheetstats.com/seasons/3664/teams/141091/schedule)|17|13|4|0|0|0|562|13.8|-0.0
 4|795|Super 6|[Cleveland Barons U18](https://gamesheetstats.com/seasons/3664/teams/141118/schedule)|4|4|0|0|0|0|25|4.8|-0.0
-5|632|Super 6|[Team Maryland](https://gamesheetstats.com/seasons/3664/teams/141109/schedule)|13|8|5|0|1|0|767|8.8|-0.0
+5|632|Super 6|[Team Maryland](https://gamesheetstats.com/seasons/3664/teams/141109/schedule)|13|7|5|0|1|0|767|8.8|-0.0
 6|573|Super 6|[Esmark Stars](https://gamesheetstats.com/seasons/3664/teams/141105/schedule)|17|10|7|0|0|0|731|10.8|-0.0
-7|231|Frozen 4|[Northern Cyclones Academy](https://gamesheetstats.com/seasons/3664/teams/141086/schedule)|20|17|2|1|1|0|56|18.4|0.0
+7|231|Frozen 4|[Northern Cyclones Academy](https://gamesheetstats.com/seasons/3664/teams/141086/schedule)|20|16|2|1|1|0|56|18.4|0.0
 8|221|Frozen 4|[American Hockey Academy](https://gamesheetstats.com/seasons/3664/teams/141087/schedule)|8|7|1|0|0|0|36|7.9|0.0
-9|158|Frozen 4|[CP Dynamo 18U](https://gamesheetstats.com/seasons/3664/teams/141100/schedule)|12|10|2|0|1|0|49|10.9|0.0
-10|127|Frozen 4|[Colorado Springs Tigers](https://gamesheetstats.com/seasons/3664/teams/141513/schedule)|14|12|2|0|2|0|25|12.9|0.0
+9|158|Frozen 4|[CP Dynamo 18U](https://gamesheetstats.com/seasons/3664/teams/141100/schedule)|12|9|2|0|1|0|49|10.9|0.0
+10|127|Frozen 4|[Colorado Springs Tigers](https://gamesheetstats.com/seasons/3664/teams/141513/schedule)|14|10|2|0|2|0|25|12.9|0.0
 11|97||[Revolution U18 Premier](https://gamesheetstats.com/seasons/3664/teams/141106/schedule)|14|7|6|1|0|0|398|8.3|-0.0
 12|96||[Minnesota Lakers](https://gamesheetstats.com/seasons/3664/teams/141113/schedule)|3|2|1|0|0|0|258|2.8|-0.0
 13|65||[Rocky Mountain RoughRiders](https://gamesheetstats.com/seasons/3664/teams/141512/schedule)|16|8|8|0|0|0|161|8.9|0.0
-14|45||[NJ 87s HC](https://gamesheetstats.com/seasons/3664/teams/141094/schedule)|21|12|8|1|1|1|139|13.4|0.0
-15|45||[Tri-State Spartans 18U Gold](https://gamesheetstats.com/seasons/3664/teams/144334/schedule)|12|7|4|1|1|1|78|8.4|0.0
+14|45||[NJ 87s HC](https://gamesheetstats.com/seasons/3664/teams/141094/schedule)|21|11|7|1|1|1|139|13.4|0.0
+15|45||[Tri-State Spartans 18U Gold](https://gamesheetstats.com/seasons/3664/teams/144334/schedule)|12|6|3|1|1|1|78|8.4|0.0
 16|41||[Oakmoor Patriots](https://gamesheetstats.com/seasons/3664/teams/141115/schedule)|8|4|4|0|0|0|149|4.9|0.0
 17|38||[Premier Mercer Chiefs U18](https://gamesheetstats.com/seasons/3664/teams/141092/schedule)|25|13|11|1|0|0|396|14.4|0.0
 18|36||[San Jose Jr Sharks](https://gamesheetstats.com/seasons/3664/teams/141119/schedule)|8|4|4|0|0|0|108|4.9|0.0
-19|35||[Mohawk Valley Utica Jr. Comets](https://gamesheetstats.com/seasons/3664/teams/141102/schedule)|19|13|4|2|2|1|28|14.9|0.0
-20|35||[PAL Jr Islanders](https://gamesheetstats.com/seasons/3664/teams/141098/schedule)|20|7|10|3|2|0|175|9.4|0.0
+19|35||[Mohawk Valley Utica Jr. Comets](https://gamesheetstats.com/seasons/3664/teams/141102/schedule)|19|11|3|2|2|1|28|14.9|0.0
+20|35||[PAL Jr Islanders](https://gamesheetstats.com/seasons/3664/teams/141098/schedule)|20|5|10|3|2|0|175|9.4|0.0
 21|32||[CDA Hockey Academy 18U AAA](https://gamesheetstats.com/seasons/3664/teams/141117/schedule)|4|3|1|0|0|0|13|3.9|0.0
-22|29||[Atlantic Coast Academy](https://gamesheetstats.com/seasons/3664/teams/141088/schedule)|8|5|2|1|1|2|14|6.4|0.0
-23|27||[Islanders Hockey Club](https://gamesheetstats.com/seasons/3664/teams/141083/schedule)|10|6|4|0|1|0|52|6.9|0.0
-24|26||[Skipjacks Hockey Academy 18U](https://gamesheetstats.com/seasons/3664/teams/141104/schedule)|16|8|8|0|0|3|66|8.9|0.0
+22|29||[Atlantic Coast Academy](https://gamesheetstats.com/seasons/3664/teams/141088/schedule)|8|4|0|1|1|2|14|6.4|0.0
+23|27||[Islanders Hockey Club](https://gamesheetstats.com/seasons/3664/teams/141083/schedule)|10|5|4|0|1|0|52|6.9|0.0
+24|26||[Skipjacks Hockey Academy 18U](https://gamesheetstats.com/seasons/3664/teams/141104/schedule)|16|8|5|0|0|3|66|8.9|0.0
 25|22||[Team Illinois](https://gamesheetstats.com/seasons/3664/teams/144333/schedule)|9|5|4|0|0|0|120|5.9|0.0
-26|20||[Boston Junior Bruins](https://gamesheetstats.com/seasons/3664/teams/141084/schedule)|12|7|5|0|1|0|32|7.9|0.0
+26|20||[Boston Junior Bruins](https://gamesheetstats.com/seasons/3664/teams/141084/schedule)|12|6|5|0|1|0|32|7.9|0.0
 27|17||[Arrows 18u AAA Major](https://gamesheetstats.com/seasons/3664/teams/141101/schedule)|14|8|6|0|0|0|34|8.9|0.0
-28|15||[United Hockey Federation](https://gamesheetstats.com/seasons/3664/teams/156303/schedule)|4|2|2|0|0|1|135|2.9|0.0
-29|14||[Flyers Elite U18 Premier](https://gamesheetstats.com/seasons/3664/teams/141093/schedule)|15|3|9|3|1|0|115|5.4|0.0
+28|15||[United Hockey Federation](https://gamesheetstats.com/seasons/3664/teams/156303/schedule)|4|2|1|0|0|1|135|2.9|0.0
+29|14||[Flyers Elite U18 Premier](https://gamesheetstats.com/seasons/3664/teams/141093/schedule)|15|2|9|3|1|0|115|5.4|0.0
 30|14||[Soo Indians](https://gamesheetstats.com/seasons/3664/teams/144332/schedule)|5|3|2|0|0|0|20|3.9|0.0
-31|12||[Flyers Elite U18 Prep](https://gamesheetstats.com/seasons/3664/teams/141095/schedule)|19|11|8|0|1|1|15|11.9|0.0
-32|11||[Rose City Pats](https://gamesheetstats.com/seasons/3664/teams/144276/schedule)|13|7|6|0|0|3|29|7.9|0.0
+31|12||[Flyers Elite U18 Prep](https://gamesheetstats.com/seasons/3664/teams/141095/schedule)|19|10|7|0|1|1|15|11.9|0.0
+32|11||[Rose City Pats](https://gamesheetstats.com/seasons/3664/teams/144276/schedule)|13|7|3|0|0|3|29|7.9|0.0
 33|9||[Red Raiders 18UAAA](https://gamesheetstats.com/seasons/3664/teams/141103/schedule)|8|4|3|1|0|0|8|5.4|0.0
-34|9||[Westchester Express 18U](https://gamesheetstats.com/seasons/3664/teams/141099/schedule)|15|3|11|1|3|0|161|4.4|0.0
+34|9||[Westchester Express 18U](https://gamesheetstats.com/seasons/3664/teams/141099/schedule)|15|0|11|1|3|0|161|4.4|0.0
 35|8||[Wasatch Renegades](https://gamesheetstats.com/seasons/3664/teams/144274/schedule)|21|9|12|0|0|0|42|9.9|0.0
-36|7||[Premier TI Selects U18](https://gamesheetstats.com/seasons/3664/teams/141110/schedule)|20|11|9|0|0|1|10|11.9|0.0
-37|7||[RHC 18 Elite](https://gamesheetstats.com/seasons/3664/teams/141097/schedule)|16|7|9|0|1|1|12|7.9|0.0
-38|6||[NC Golden Bears](https://gamesheetstats.com/seasons/3664/teams/160035/schedule)|8|3|4|1|0|1|49|4.4|0.0
-39|6||[Potomac Patriots](https://gamesheetstats.com/seasons/3664/teams/141111/schedule)|22|8|14|0|1|0|44|8.9|0.0
+36|7||[Premier TI Selects U18](https://gamesheetstats.com/seasons/3664/teams/141110/schedule)|20|11|8|0|0|1|10|11.9|0.0
+37|7||[RHC 18 Elite](https://gamesheetstats.com/seasons/3664/teams/141097/schedule)|16|6|8|0|1|1|12|7.9|0.0
+38|6||[NC Golden Bears](https://gamesheetstats.com/seasons/3664/teams/160035/schedule)|8|3|3|1|0|1|49|4.4|0.0
+39|6||[Potomac Patriots](https://gamesheetstats.com/seasons/3664/teams/141111/schedule)|22|7|14|0|1|0|44|8.9|0.0
 40|6||[Pittsburgh Predators](https://gamesheetstats.com/seasons/3664/teams/141107/schedule)|20|6|13|1|0|0|18|7.4|0.0
-41|5||[Indiana Elite](https://gamesheetstats.com/seasons/3664/teams/144330/schedule)|13|3|10|0|1|1|84|3.9|0.0
+41|5||[Indiana Elite](https://gamesheetstats.com/seasons/3664/teams/144330/schedule)|13|2|9|0|1|1|84|3.9|0.0
 42|5||[South Shore Kings](https://gamesheetstats.com/seasons/3664/teams/141085/schedule)|10|2|7|1|0|0|54|3.4|0.0
 43|3||[Tahoe Prep Hockey Academy Wolverines](https://gamesheetstats.com/seasons/3664/teams/144278/schedule)|8|2|5|1|0|0|36|3.4|0.0
-44|3||[CT Chiefs 18U](https://gamesheetstats.com/seasons/3664/teams/141089/schedule)|9|1|8|0|0|4|94|1.9|0.0
+44|3||[CT Chiefs 18U](https://gamesheetstats.com/seasons/3664/teams/141089/schedule)|9|1|4|0|0|4|94|1.9|0.0
 45|3||[Team North Dakota](https://gamesheetstats.com/seasons/3664/teams/141114/schedule)|4|0|4|0|0|0|163|0.9|0.0
 46|3||[New Jersey Titans 18U Elite](https://gamesheetstats.com/seasons/3664/teams/163992/schedule)|4|1|3|0|0|0|6|1.9|0.0
-47|2||[PHA Icemen](https://gamesheetstats.com/seasons/3664/teams/141108/schedule)|12|3|9|0|0|1|12|3.9|0.0
+47|2||[PHA Icemen](https://gamesheetstats.com/seasons/3664/teams/141108/schedule)|12|3|8|0|0|1|12|3.9|0.0
 48|1||[Monument Hockey Club](https://gamesheetstats.com/seasons/3664/teams/183315/schedule)|3|0|3|0|0|0|7|0.9|0.0
 49|1||[Seahawks Hockey Club](https://gamesheetstats.com/seasons/3664/teams/187350/schedule)|4|0|4|0|0|0|13|0.9|0.0
 50|1||[Ontario Jr Reign](https://gamesheetstats.com/seasons/3664/teams/144275/schedule)|10|0|10|0|0|0|102|0.9|0.0
@@ -125,8 +125,8 @@ Generated with command line:
 | End Date | 2023-12-17 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
-| Shootout Win Value | 1.00 |
-| Shootout Loss Value | 0.00 |
+| Overtime Win/Loss | 1.00 / 0.00 |
+| Shootout Win/Loss | 1.00 / 0.00 |
 | Tie Value | 0.50 |
 | Alpha Value | 0.85 |
 | Bonus Points | 0.00 |

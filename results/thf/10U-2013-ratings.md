@@ -1,25 +1,25 @@
 [<- back to the index](readme.md)
 # 10U 2013 KRACH Rankings
-Rankings generated on Thu Dec 28 07:15:47 2023.
+Rankings generated on Thu Dec 28 15:08:53 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|2991|Super 6|[MCU Elite 2013](https://gamesheetstats.com/seasons/3664/teams/140889/schedule)|6|4|2|0|0|0|1484|4.8|-0.0
-2|2097|Super 6|[Wolfpack Hockey 2013](https://gamesheetstats.com/seasons/3664/teams/140894/schedule)|19|14|5|0|0|1|1014|14.8|-0.0
-3|1291|Super 6|[Mid Fairfield (Independent) 13 AAA](https://gamesheetstats.com/seasons/3664/teams/140891/schedule)|25|21|4|0|2|0|409|21.8|-0.0
-4|998|Super 6|[Jersey Hitmen](https://gamesheetstats.com/seasons/3664/teams/140893/schedule)|7|3|4|0|0|1|1620|3.8|-0.0
-5|622|Super 6|[Revolution Elite 2013](https://gamesheetstats.com/seasons/3664/teams/140904/schedule)|19|16|3|0|2|0|272|16.8|-0.0
+2|2097|Super 6|[Wolfpack Hockey 2013](https://gamesheetstats.com/seasons/3664/teams/140894/schedule)|19|14|4|0|0|1|1014|14.8|-0.0
+3|1291|Super 6|[Mid Fairfield (Independent) 13 AAA](https://gamesheetstats.com/seasons/3664/teams/140891/schedule)|25|19|4|0|2|0|409|21.8|-0.0
+4|998|Super 6|[Jersey Hitmen](https://gamesheetstats.com/seasons/3664/teams/140893/schedule)|7|3|3|0|0|1|1620|3.8|-0.0
+5|622|Super 6|[Revolution Elite 2013](https://gamesheetstats.com/seasons/3664/teams/140904/schedule)|19|14|3|0|2|0|272|16.8|-0.0
 6|473|Super 6|[Indiana Elite](https://gamesheetstats.com/seasons/3664/teams/144358/schedule)|7|6|1|0|0|0|123|6.9|0.0
-7|448|Frozen 4|[Madison Capitols](https://gamesheetstats.com/seasons/3664/teams/162460/schedule)|5|4|1|0|1|0|167|4.9|0.0
-8|284|Frozen 4|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3664/teams/140906/schedule)|23|17|6|0|0|1|395|17.8|-0.0
-9|197|Frozen 4|[Westchester Express 13's](https://gamesheetstats.com/seasons/3664/teams/140899/schedule)|19|11|8|0|0|2|476|11.8|-0.0
-10|170|Frozen 4|[RHC 10U Major](https://gamesheetstats.com/seasons/3664/teams/140895/schedule)|23|14|8|1|1|2|297|15.3|-0.0
-11|166||[Utica Jr. Comets](https://gamesheetstats.com/seasons/3664/teams/140900/schedule)|20|14|6|0|3|0|86|14.8|-0.0
-12|88||[CP Dynamo 2013](https://gamesheetstats.com/seasons/3664/teams/140901/schedule)|19|9|9|1|1|1|257|10.3|-0.0
-13|50||[Red Bank Generals](https://gamesheetstats.com/seasons/3664/teams/140896/schedule)|26|10|16|0|0|2|379|10.8|-0.0
-14|32||[PAL Jr Islanders](https://gamesheetstats.com/seasons/3664/teams/140903/schedule)|19|7|10|2|2|0|187|8.8|-0.0
-15|30||[Arrows 10U AAA Major](https://gamesheetstats.com/seasons/3664/teams/140902/schedule)|28|15|13|0|0|1|152|15.8|-0.0
-16|26||[Tri-State Spartans 10U](https://gamesheetstats.com/seasons/3664/teams/144359/schedule)|8|3|5|0|0|1|259|3.9|0.0
+7|448|Frozen 4|[Madison Capitols](https://gamesheetstats.com/seasons/3664/teams/162460/schedule)|5|3|1|0|1|0|167|4.9|0.0
+8|284|Frozen 4|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3664/teams/140906/schedule)|23|17|5|0|0|1|395|17.8|-0.0
+9|197|Frozen 4|[Westchester Express 13's](https://gamesheetstats.com/seasons/3664/teams/140899/schedule)|19|11|6|0|0|2|476|11.8|-0.0
+10|170|Frozen 4|[RHC 10U Major](https://gamesheetstats.com/seasons/3664/teams/140895/schedule)|23|13|6|1|1|2|297|15.3|-0.0
+11|166||[Utica Jr. Comets](https://gamesheetstats.com/seasons/3664/teams/140900/schedule)|20|11|6|0|3|0|86|14.8|-0.0
+12|88||[CP Dynamo 2013](https://gamesheetstats.com/seasons/3664/teams/140901/schedule)|19|8|8|1|1|1|257|10.3|-0.0
+13|50||[Red Bank Generals](https://gamesheetstats.com/seasons/3664/teams/140896/schedule)|26|10|14|0|0|2|379|10.8|-0.0
+14|32||[PAL Jr Islanders](https://gamesheetstats.com/seasons/3664/teams/140903/schedule)|19|5|10|2|2|0|187|8.8|-0.0
+15|30||[Arrows 10U AAA Major](https://gamesheetstats.com/seasons/3664/teams/140902/schedule)|28|15|12|0|0|1|152|15.8|-0.0
+16|26||[Tri-State Spartans 10U](https://gamesheetstats.com/seasons/3664/teams/144359/schedule)|8|3|4|0|0|1|259|3.9|0.0
 17|8||[MCU Tier 2013](https://gamesheetstats.com/seasons/3664/teams/140890/schedule)|5|0|5|0|0|0|876|0.9|0.0
 18|7||[CT Chiefs 10U Black](https://gamesheetstats.com/seasons/3664/teams/140892/schedule)|10|3|7|0|0|0|46|3.8|-0.0
 19|6||[Flyers Elite 2013/2014](https://gamesheetstats.com/seasons/3664/teams/140898/schedule)|23|7|16|0|0|0|101|7.8|-0.0
@@ -69,8 +69,8 @@ Generated with command line:
 | End Date | 2023-12-27 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
-| Shootout Win Value | 1.00 |
-| Shootout Loss Value | 0.00 |
+| Overtime Win/Loss | 1.00 / 0.00 |
+| Shootout Win/Loss | 1.00 / 0.00 |
 | Tie Value | 0.50 |
 | Alpha Value | 0.85 |
 | Bonus Points | 0.00 |

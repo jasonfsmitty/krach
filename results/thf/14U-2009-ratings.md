@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 14U 2009 KRACH Rankings
-Rankings generated on Thu Dec 28 07:15:47 2023.
+Rankings generated on Thu Dec 28 15:08:53 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -10,25 +10,25 @@ Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 4|392|Super 6|[South Hills Panthers](https://gamesheetstats.com/seasons/3664/teams/160166/schedule)|4|4|0|0|0|0|12|4.9|0.0
 5|389|Super 6|[PAL Jr Islanders](https://gamesheetstats.com/seasons/3664/teams/140990/schedule)|16|11|4|1|0|0|290|12.4|0.0
 6|310|Super 6|[Pittsburgh Predators](https://gamesheetstats.com/seasons/3664/teams/140995/schedule)|6|6|0|0|0|0|7|6.9|0.0
-7|228|Frozen 4|[CT Jr Rangers Elite 2009](https://gamesheetstats.com/seasons/3664/teams/140980/schedule)|15|10|3|2|1|0|152|11.9|0.0
-8|145|Frozen 4|[Oakmoor Patriots](https://gamesheetstats.com/seasons/3664/teams/141002/schedule)|3|2|1|0|1|0|166|2.8|-0.0
-9|122|Frozen 4|[Westchester Express 09's](https://gamesheetstats.com/seasons/3664/teams/140992/schedule)|19|12|6|1|2|1|139|13.4|0.0
-10|84|Frozen 4|[Hartford Jr Wolfpack 2009](https://gamesheetstats.com/seasons/3664/teams/140979/schedule)|19|10|8|1|1|0|129|11.4|0.0
-11|72||[CP Dynamo 2009](https://gamesheetstats.com/seasons/3664/teams/140991/schedule)|8|3|5|0|0|1|151|3.9|0.0
+7|228|Frozen 4|[CT Jr Rangers Elite 2009](https://gamesheetstats.com/seasons/3664/teams/140980/schedule)|15|9|3|2|1|0|152|11.9|0.0
+8|145|Frozen 4|[Oakmoor Patriots](https://gamesheetstats.com/seasons/3664/teams/141002/schedule)|3|1|1|0|1|0|166|2.8|-0.0
+9|122|Frozen 4|[Westchester Express 09's](https://gamesheetstats.com/seasons/3664/teams/140992/schedule)|19|10|5|1|2|1|139|13.4|0.0
+10|84|Frozen 4|[Hartford Jr Wolfpack 2009](https://gamesheetstats.com/seasons/3664/teams/140979/schedule)|19|9|8|1|1|0|129|11.4|0.0
+11|72||[CP Dynamo 2009](https://gamesheetstats.com/seasons/3664/teams/140991/schedule)|8|3|4|0|0|1|151|3.9|0.0
 12|60||[Team Maryland](https://gamesheetstats.com/seasons/3664/teams/140998/schedule)|12|5|6|1|0|0|200|6.4|0.0
 13|52||[RHC Bantam Major Elite Sorg](https://gamesheetstats.com/seasons/3664/teams/140985/schedule)|10|4|6|0|0|0|144|4.9|0.0
-14|37||[Rocky Mountain RoughRiders](https://gamesheetstats.com/seasons/3664/teams/144346/schedule)|12|5|7|0|0|1|406|5.8|-0.0
+14|37||[Rocky Mountain RoughRiders](https://gamesheetstats.com/seasons/3664/teams/144346/schedule)|12|5|6|0|0|1|406|5.8|-0.0
 15|23||[Indiana Elite](https://gamesheetstats.com/seasons/3664/teams/144344/schedule)|4|2|1|1|0|0|12|3.4|0.0
 16|21||[Arrows 14u AAA Major](https://gamesheetstats.com/seasons/3664/teams/140993/schedule)|20|15|5|0|0|0|13|15.9|0.0
-17|20||[Biggby Coffee AAA](https://gamesheetstats.com/seasons/3664/teams/144343/schedule)|8|2|6|0|0|1|570|2.8|-0.0
+17|20||[Biggby Coffee AAA](https://gamesheetstats.com/seasons/3664/teams/144343/schedule)|8|2|5|0|0|1|570|2.8|-0.0
 18|16||[Tri-State Spartans 14U](https://gamesheetstats.com/seasons/3664/teams/144345/schedule)|4|2|1|1|0|0|9|3.4|0.0
-19|15||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3664/teams/140997/schedule)|21|9|11|1|0|1|62|10.4|0.0
-20|14||[Mercer Chiefs 2009](https://gamesheetstats.com/seasons/3664/teams/140987/schedule)|25|10|13|2|1|2|57|11.9|0.0
+19|15||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3664/teams/140997/schedule)|21|9|10|1|0|1|62|10.4|0.0
+20|14||[Mercer Chiefs 2009](https://gamesheetstats.com/seasons/3664/teams/140987/schedule)|25|9|11|2|1|2|57|11.9|0.0
 21|13||[Revolution Elite 2009](https://gamesheetstats.com/seasons/3664/teams/140996/schedule)|16|7|9|0|0|0|39|7.9|0.0
 22|10||[CT Chiefs 14U](https://gamesheetstats.com/seasons/3664/teams/140982/schedule)|11|6|5|0|0|0|15|6.9|0.0
-23|9||[Mid Fairfield (Independent) 09 AAA](https://gamesheetstats.com/seasons/3664/teams/140981/schedule)|15|5|9|1|2|0|28|6.4|0.0
+23|9||[Mid Fairfield (Independent) 09 AAA](https://gamesheetstats.com/seasons/3664/teams/140981/schedule)|15|3|9|1|2|0|28|6.4|0.0
 24|9||[San Jose Jr Sharks](https://gamesheetstats.com/seasons/3664/teams/141003/schedule)|4|1|3|0|0|0|89|1.9|0.0
-25|9||[Wolfpack Hockey 2009](https://gamesheetstats.com/seasons/3664/teams/140986/schedule)|13|5|8|0|0|1|51|5.9|0.0
+25|9||[Wolfpack Hockey 2009](https://gamesheetstats.com/seasons/3664/teams/140986/schedule)|13|5|7|0|0|1|51|5.9|0.0
 26|6||[Utica Jr. Comets](https://gamesheetstats.com/seasons/3664/teams/140994/schedule)|12|5|7|0|0|0|55|5.9|0.0
 27|2||[RHC Bantam Major Elite Raykin](https://gamesheetstats.com/seasons/3664/teams/140989/schedule)|8|1|7|0|0|0|12|1.9|0.0
 28|2||[Cyclones Academy](https://gamesheetstats.com/seasons/3664/teams/140978/schedule)|8|1|7|0|0|0|16|1.9|0.0
@@ -83,8 +83,8 @@ Generated with command line:
 | End Date | 2023-12-17 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
-| Shootout Win Value | 1.00 |
-| Shootout Loss Value | 0.00 |
+| Overtime Win/Loss | 1.00 / 0.00 |
+| Shootout Win/Loss | 1.00 / 0.00 |
 | Tie Value | 0.50 |
 | Alpha Value | 0.85 |
 | Bonus Points | 0.00 |

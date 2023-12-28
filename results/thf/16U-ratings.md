@@ -1,58 +1,58 @@
 [<- back to the index](readme.md)
 # 16U KRACH Rankings
-Rankings generated on Thu Dec 28 07:15:48 2023.
+Rankings generated on Thu Dec 28 15:08:54 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
 1|2944|Super 6|[RHC 16 Premier](https://gamesheetstats.com/seasons/3664/teams/141050/schedule)|9|8|1|0|0|0|476|8.8|-0.0
 2|1684|Super 6|[Flyers Elite 2007](https://gamesheetstats.com/seasons/3664/teams/141051/schedule)|15|12|2|1|0|0|551|13.3|-0.0
-3|891|Super 6|[American Hockey Academy](https://gamesheetstats.com/seasons/3664/teams/141044/schedule)|9|8|1|0|1|0|217|8.8|-0.0
-4|442|Super 6|[Jersey Hitmen](https://gamesheetstats.com/seasons/3664/teams/141052/schedule)|16|10|4|2|0|1|610|11.8|-0.0
-5|293|Super 6|[Esmark Stars](https://gamesheetstats.com/seasons/3664/teams/141065/schedule)|14|8|4|2|3|0|518|9.8|-0.0
-6|195|Super 6|[Team Illinois](https://gamesheetstats.com/seasons/3664/teams/144338/schedule)|6|4|2|0|0|1|114|4.8|-0.0
-7|185|Frozen 4|[Indiana Elite](https://gamesheetstats.com/seasons/3664/teams/144337/schedule)|12|10|2|0|1|1|57|10.8|-0.0
+3|891|Super 6|[American Hockey Academy](https://gamesheetstats.com/seasons/3664/teams/141044/schedule)|9|7|1|0|1|0|217|8.8|-0.0
+4|442|Super 6|[Jersey Hitmen](https://gamesheetstats.com/seasons/3664/teams/141052/schedule)|16|10|3|2|0|1|610|11.8|-0.0
+5|293|Super 6|[Esmark Stars](https://gamesheetstats.com/seasons/3664/teams/141065/schedule)|14|5|4|2|3|0|518|9.8|-0.0
+6|195|Super 6|[Team Illinois](https://gamesheetstats.com/seasons/3664/teams/144338/schedule)|6|4|1|0|0|1|114|4.8|-0.0
+7|185|Frozen 4|[Indiana Elite](https://gamesheetstats.com/seasons/3664/teams/144337/schedule)|12|9|1|0|1|1|57|10.8|-0.0
 8|183|Frozen 4|[Fox Motors 16U](https://gamesheetstats.com/seasons/3664/teams/141074/schedule)|4|3|1|0|0|0|70|3.8|-0.0
 9|158|Frozen 4|[Sioux Falls Power Hockey](https://gamesheetstats.com/seasons/3664/teams/141072/schedule)|4|3|1|0|0|0|69|3.8|-0.0
-10|155|Frozen 4|[Lincoln Stars](https://gamesheetstats.com/seasons/3664/teams/141081/schedule)|9|7|2|0|2|0|57|7.8|-0.0
+10|155|Frozen 4|[Lincoln Stars](https://gamesheetstats.com/seasons/3664/teams/141081/schedule)|9|5|2|0|2|0|57|7.8|-0.0
 11|149||[Islanders Hockey Club](https://gamesheetstats.com/seasons/3664/teams/141043/schedule)|8|6|1|1|0|0|44|7.4|0.0
 12|138||[Springfield Pics](https://gamesheetstats.com/seasons/3664/teams/141041/schedule)|13|10|1|2|0|0|35|11.9|0.0
-13|135||[Rocky Mountain RoughRiders](https://gamesheetstats.com/seasons/3664/teams/141514/schedule)|14|7|5|2|1|1|281|8.8|-0.0
-14|113||[Revolution Elite 2007](https://gamesheetstats.com/seasons/3664/teams/141066/schedule)|25|16|9|0|0|1|273|16.8|-0.0
-15|107||[RHC 16 Elite Black](https://gamesheetstats.com/seasons/3664/teams/141053/schedule)|19|13|6|0|1|1|98|13.8|-0.0
-16|90||[San Jose Jr Sharks](https://gamesheetstats.com/seasons/3664/teams/141080/schedule)|4|2|2|0|1|0|107|2.8|-0.0
-17|73||[Westchester Express 16U](https://gamesheetstats.com/seasons/3664/teams/141059/schedule)|16|8|8|0|1|1|374|8.8|-0.0
-18|71||[16U Premier Mercer Chiefs](https://gamesheetstats.com/seasons/3664/teams/141054/schedule)|27|13|13|1|0|1|312|14.3|-0.0
-19|54||[PAL Jr Islanders](https://gamesheetstats.com/seasons/3664/teams/141060/schedule)|20|9|10|1|2|1|173|10.3|-0.0
+13|135||[Rocky Mountain RoughRiders](https://gamesheetstats.com/seasons/3664/teams/141514/schedule)|14|6|4|2|1|1|281|8.8|-0.0
+14|113||[Revolution Elite 2007](https://gamesheetstats.com/seasons/3664/teams/141066/schedule)|25|16|8|0|0|1|273|16.8|-0.0
+15|107||[RHC 16 Elite Black](https://gamesheetstats.com/seasons/3664/teams/141053/schedule)|19|12|5|0|1|1|98|13.8|-0.0
+16|90||[San Jose Jr Sharks](https://gamesheetstats.com/seasons/3664/teams/141080/schedule)|4|1|2|0|1|0|107|2.8|-0.0
+17|73||[Westchester Express 16U](https://gamesheetstats.com/seasons/3664/teams/141059/schedule)|16|7|7|0|1|1|374|8.8|-0.0
+18|71||[16U Premier Mercer Chiefs](https://gamesheetstats.com/seasons/3664/teams/141054/schedule)|27|13|12|1|0|1|312|14.3|-0.0
+19|54||[PAL Jr Islanders](https://gamesheetstats.com/seasons/3664/teams/141060/schedule)|20|7|9|1|2|1|173|10.3|-0.0
 20|31||[Minnesota Lakers](https://gamesheetstats.com/seasons/3664/teams/141073/schedule)|4|2|2|0|0|0|68|2.8|-0.0
 21|24||[Wolfpack Hockey 2007 U16](https://gamesheetstats.com/seasons/3664/teams/141055/schedule)|16|11|5|0|0|0|23|11.9|0.0
-22|23||[Team North Dakota](https://gamesheetstats.com/seasons/3664/teams/141076/schedule)|4|2|2|0|0|1|66|2.8|-0.0
-23|21||[Arrows 16u AAA Major](https://gamesheetstats.com/seasons/3664/teams/141062/schedule)|25|17|7|1|0|1|20|18.4|0.0
+22|23||[Team North Dakota](https://gamesheetstats.com/seasons/3664/teams/141076/schedule)|4|2|1|0|0|1|66|2.8|-0.0
+23|21||[Arrows 16u AAA Major](https://gamesheetstats.com/seasons/3664/teams/141062/schedule)|25|17|6|1|0|1|20|18.4|0.0
 24|20||[Cyclones Academy](https://gamesheetstats.com/seasons/3664/teams/141040/schedule)|19|9|9|1|0|0|59|10.4|0.0
-25|18||[Tri-State Spartans 16U](https://gamesheetstats.com/seasons/3664/teams/144339/schedule)|10|6|4|0|1|0|39|6.9|0.0
+25|18||[Tri-State Spartans 16U](https://gamesheetstats.com/seasons/3664/teams/144339/schedule)|10|5|4|0|1|0|39|6.9|0.0
 26|17||[Boston Junior Bruins](https://gamesheetstats.com/seasons/3664/teams/141042/schedule)|8|2|6|0|0|0|87|2.9|0.0
 27|17||[Palmyra Black Knights](https://gamesheetstats.com/seasons/3664/teams/141068/schedule)|21|8|11|2|0|0|64|9.9|0.0
-28|15||[Biggby Coffee AAA](https://gamesheetstats.com/seasons/3664/teams/144336/schedule)|6|2|4|0|0|1|84|2.9|0.0
-29|15||[Team Maryland](https://gamesheetstats.com/seasons/3664/teams/141070/schedule)|11|1|9|1|0|2|885|2.3|-0.0
+28|15||[Biggby Coffee AAA](https://gamesheetstats.com/seasons/3664/teams/144336/schedule)|6|2|3|0|0|1|84|2.9|0.0
+29|15||[Team Maryland](https://gamesheetstats.com/seasons/3664/teams/141070/schedule)|11|1|7|1|0|2|885|2.3|-0.0
 30|14||[Atlantic Coast Academy](https://gamesheetstats.com/seasons/3664/teams/141045/schedule)|9|2|7|0|0|0|82|2.9|0.0
 31|13||[Pittsburgh Vengeance](https://gamesheetstats.com/seasons/3664/teams/160073/schedule)|4|3|1|0|0|0|5|3.9|0.0
 32|11||[CP Dynamo 2007](https://gamesheetstats.com/seasons/3664/teams/141061/schedule)|7|2|5|0|0|0|27|2.9|0.0
 33|10||[United Hockey Federation](https://gamesheetstats.com/seasons/3664/teams/141075/schedule)|4|2|2|0|0|0|37|2.9|0.0
-34|7||[Pittsburgh Predators](https://gamesheetstats.com/seasons/3664/teams/141067/schedule)|23|9|13|1|1|0|43|10.4|0.0
-35|7||[PHA Icemen](https://gamesheetstats.com/seasons/3664/teams/141069/schedule)|23|10|12|1|2|1|19|11.4|0.0
-36|6||[Flyers Elite U16 Prep](https://gamesheetstats.com/seasons/3664/teams/141057/schedule)|21|13|8|0|0|1|22|13.9|0.0
+34|7||[Pittsburgh Predators](https://gamesheetstats.com/seasons/3664/teams/141067/schedule)|23|8|13|1|1|0|43|10.4|0.0
+35|7||[PHA Icemen](https://gamesheetstats.com/seasons/3664/teams/141069/schedule)|23|8|11|1|2|1|19|11.4|0.0
+36|6||[Flyers Elite U16 Prep](https://gamesheetstats.com/seasons/3664/teams/141057/schedule)|21|13|7|0|0|1|22|13.9|0.0
 37|5||[Skipjacks Hockey Academy 16U](https://gamesheetstats.com/seasons/3664/teams/141064/schedule)|16|7|9|0|0|0|20|7.9|0.0
 38|4||[CT Chiefs 16U](https://gamesheetstats.com/seasons/3664/teams/141048/schedule)|10|3|6|1|0|0|34|4.4|0.0
 39|4||[Wasatch Renegades](https://gamesheetstats.com/seasons/3664/teams/144273/schedule)|10|4|6|0|0|0|25|4.9|0.0
-40|3||[RHC 16 Elite Red](https://gamesheetstats.com/seasons/3664/teams/141058/schedule)|21|10|11|0|1|0|27|10.9|0.0
+40|3||[RHC 16 Elite Red](https://gamesheetstats.com/seasons/3664/teams/141058/schedule)|21|9|11|0|1|0|27|10.9|0.0
 41|3||[Colorado Springs Tigers](https://gamesheetstats.com/seasons/3664/teams/141515/schedule)|6|2|4|0|0|0|52|2.9|0.0
 42|2||[NJ Titans 16U](https://gamesheetstats.com/seasons/3664/teams/163964/schedule)|3|1|1|1|0|0|2|2.4|0.0
 43|2||[CT Jr Rangers Premier U16](https://gamesheetstats.com/seasons/3664/teams/141047/schedule)|8|0|8|0|0|0|147|0.9|0.0
 44|2||[Tahoe Prep Hockey Academy Wolverines](https://gamesheetstats.com/seasons/3664/teams/144277/schedule)|7|2|4|1|0|0|116|3.4|0.0
-45|1||[Potomac Patriots](https://gamesheetstats.com/seasons/3664/teams/141071/schedule)|25|7|18|0|1|1|16|7.9|0.0
-46|1||[NYC Hockey Club](https://gamesheetstats.com/seasons/3664/teams/141063/schedule)|13|2|11|0|0|1|10|2.9|0.0
+45|1||[Potomac Patriots](https://gamesheetstats.com/seasons/3664/teams/141071/schedule)|25|6|17|0|1|1|16|7.9|0.0
+46|1||[NYC Hockey Club](https://gamesheetstats.com/seasons/3664/teams/141063/schedule)|13|2|10|0|0|1|10|2.9|0.0
 47|1||[CDA Hockey Academy](https://gamesheetstats.com/seasons/3664/teams/183316/schedule)|4|0|4|0|0|0|29|0.9|0.0
 48|0||[16U Prep Mercer Chiefs](https://gamesheetstats.com/seasons/3664/teams/141056/schedule)|23|1|19|3|0|0|13|3.4|0.0
-49|0||[CT Jr Rangers Elite U16](https://gamesheetstats.com/seasons/3664/teams/141049/schedule)|14|1|13|0|0|1|9|1.9|0.0
+49|0||[CT Jr Rangers Elite U16](https://gamesheetstats.com/seasons/3664/teams/141049/schedule)|14|1|12|0|0|1|9|1.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
@@ -121,8 +121,8 @@ Generated with command line:
 | End Date | 2023-12-23 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
-| Shootout Win Value | 1.00 |
-| Shootout Loss Value | 0.00 |
+| Overtime Win/Loss | 1.00 / 0.00 |
+| Shootout Win/Loss | 1.00 / 0.00 |
 | Tie Value | 0.50 |
 | Alpha Value | 0.85 |
 | Bonus Points | 0.00 |

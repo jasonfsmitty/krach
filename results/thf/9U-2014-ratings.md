@@ -1,25 +1,25 @@
 [<- back to the index](readme.md)
 # 9U 2014 KRACH Rankings
-Rankings generated on Thu Dec 28 07:15:47 2023.
+Rankings generated on Thu Dec 28 15:08:53 2023.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|3595|Super 6|[Westchester Express 14's - Black](https://gamesheetstats.com/seasons/3664/teams/140873/schedule)|18|16|2|0|2|0|616|16.8|-0.0
-2|3386|Super 6|[Wolfpack Hockey 2014](https://gamesheetstats.com/seasons/3664/teams/140871/schedule)|19|17|2|0|0|1|577|17.8|-0.0
-3|932|Super 6|[New Jersey Jets](https://gamesheetstats.com/seasons/3664/teams/140881/schedule)|26|20|6|0|3|0|654|20.8|-0.0
-4|603|Super 6|[RHC 9U Minor](https://gamesheetstats.com/seasons/3664/teams/140876/schedule)|20|14|6|0|1|0|696|14.8|-0.0
-5|294|Super 6|[Arrows 10u AAA Minor](https://gamesheetstats.com/seasons/3664/teams/140872/schedule)|25|11|12|2|0|2|906|12.9|0.0
-6|287|Super 6|[Revolution Elite 2014](https://gamesheetstats.com/seasons/3664/teams/140880/schedule)|25|15|9|1|2|1|342|16.4|0.0
-7|204|Frozen 4|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3664/teams/140875/schedule)|25|14|10|1|1|1|435|15.4|0.0
-8|117|Frozen 4|[Mid Fairfield (Independent) 14 AAA](https://gamesheetstats.com/seasons/3664/teams/140878/schedule)|24|11|13|0|1|0|625|11.9|0.0
-9|108|Frozen 4|[MCU Elite 2014](https://gamesheetstats.com/seasons/3664/teams/140874/schedule)|10|4|6|0|0|1|1345|4.9|0.0
-10|104|Frozen 4|[Jersey Mustangs Elite](https://gamesheetstats.com/seasons/3664/teams/140888/schedule)|28|15|12|1|1|3|183|16.4|0.0
-11|96||[Red Bank Generals](https://gamesheetstats.com/seasons/3664/teams/140883/schedule)|24|10|14|0|0|1|456|10.9|0.0
-12|86||[CP Dynamo 2014](https://gamesheetstats.com/seasons/3664/teams/140877/schedule)|20|6|14|0|0|1|805|6.9|0.0
+1|3595|Super 6|[Westchester Express 14's - Black](https://gamesheetstats.com/seasons/3664/teams/140873/schedule)|18|14|2|0|2|0|616|16.8|-0.0
+2|3386|Super 6|[Wolfpack Hockey 2014](https://gamesheetstats.com/seasons/3664/teams/140871/schedule)|19|17|1|0|0|1|577|17.8|-0.0
+3|932|Super 6|[New Jersey Jets](https://gamesheetstats.com/seasons/3664/teams/140881/schedule)|26|17|6|0|3|0|654|20.8|-0.0
+4|603|Super 6|[RHC 9U Minor](https://gamesheetstats.com/seasons/3664/teams/140876/schedule)|20|13|6|0|1|0|696|14.8|-0.0
+5|294|Super 6|[Arrows 10u AAA Minor](https://gamesheetstats.com/seasons/3664/teams/140872/schedule)|25|11|10|2|0|2|906|12.9|0.0
+6|287|Super 6|[Revolution Elite 2014](https://gamesheetstats.com/seasons/3664/teams/140880/schedule)|25|13|8|1|2|1|342|16.4|0.0
+7|204|Frozen 4|[Palmyra Black Knights](https://gamesheetstats.com/seasons/3664/teams/140875/schedule)|25|13|9|1|1|1|435|15.4|0.0
+8|117|Frozen 4|[Mid Fairfield (Independent) 14 AAA](https://gamesheetstats.com/seasons/3664/teams/140878/schedule)|24|10|13|0|1|0|625|11.9|0.0
+9|108|Frozen 4|[MCU Elite 2014](https://gamesheetstats.com/seasons/3664/teams/140874/schedule)|10|4|5|0|0|1|1345|4.9|0.0
+10|104|Frozen 4|[Jersey Mustangs Elite](https://gamesheetstats.com/seasons/3664/teams/140888/schedule)|28|14|9|1|1|3|183|16.4|0.0
+11|96||[Red Bank Generals](https://gamesheetstats.com/seasons/3664/teams/140883/schedule)|24|10|13|0|0|1|456|10.9|0.0
+12|86||[CP Dynamo 2014](https://gamesheetstats.com/seasons/3664/teams/140877/schedule)|20|6|13|0|0|1|805|6.9|0.0
 13|83||[Utica Jr. Comets](https://gamesheetstats.com/seasons/3664/teams/140884/schedule)|15|6|8|1|0|0|590|7.4|0.0
-14|31||[CT Chiefs 9U Black](https://gamesheetstats.com/seasons/3664/teams/140886/schedule)|12|6|6|0|1|0|122|6.9|0.0
-15|27||[Jersey Hitmen](https://gamesheetstats.com/seasons/3664/teams/140879/schedule)|23|5|18|0|1|0|595|5.9|0.0
-16|24||[Mercer Chiefs 2014](https://gamesheetstats.com/seasons/3664/teams/140885/schedule)|26|6|20|0|0|2|219|6.9|0.0
+14|31||[CT Chiefs 9U Black](https://gamesheetstats.com/seasons/3664/teams/140886/schedule)|12|5|6|0|1|0|122|6.9|0.0
+15|27||[Jersey Hitmen](https://gamesheetstats.com/seasons/3664/teams/140879/schedule)|23|4|18|0|1|0|595|5.9|0.0
+16|24||[Mercer Chiefs 2014](https://gamesheetstats.com/seasons/3664/teams/140885/schedule)|26|6|18|0|0|2|219|6.9|0.0
 17|8||[MCU Tier 2014](https://gamesheetstats.com/seasons/3664/teams/140882/schedule)|4|0|4|0|0|0|387|0.9|0.0
 18|5||[Westchester Express 14's - Red](https://gamesheetstats.com/seasons/3664/teams/140887/schedule)|16|1|15|0|0|0|146|1.9|0.0
 
@@ -59,8 +59,8 @@ Generated with command line:
 | End Date | 2023-12-23 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
-| Shootout Win Value | 1.00 |
-| Shootout Loss Value | 0.00 |
+| Overtime Win/Loss | 1.00 / 0.00 |
+| Shootout Win/Loss | 1.00 / 0.00 |
 | Tie Value | 0.50 |
 | Alpha Value | 0.85 |
 | Bonus Points | 0.00 |
