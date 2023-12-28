@@ -5,7 +5,7 @@ Click below to see KRACH ratings for each division
 | Division | Season Start | Latest Game |
 | :-- | :-- | :-- |
 | [9U 2014](9U-2014-ratings.md) | 2023-08-26 | 2023-12-23 |
-| [10U 2013](10U-2013-ratings.md) | 2023-08-26 | 2023-12-17 |
+| [10U 2013](10U-2013-ratings.md) | 2023-08-26 | 2023-12-27 |
 | [11U 2012](11U-2012-ratings.md) | 2023-08-26 | 2023-12-23 |
 | [12U 2011](12U-2011-ratings.md) | 2023-08-26 | 2023-12-23 |
 | [13U 2010](13U-2010-ratings.md) | 2023-08-26 | 2023-12-23 |
@@ -14,4 +14,4 @@ Click below to see KRACH ratings for each division
 | [16U](16U-ratings.md) | 2023-08-25 | 2023-12-23 |
 | [18U](18U-ratings.md) | 2023-08-25 | 2023-12-17 |
 
-Generated on 2023-12-27 07:15:49.734207.
+Generated on 2023-12-28 07:15:48.386247.
