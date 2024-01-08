@@ -1,38 +1,38 @@
 [<- back to the index](readme.md)
 # 9U AA KRACH Rankings
-Rankings generated on Sun Jan  7 07:15:18 2024.
+Rankings generated on Mon Jan  8 07:16:25 2024.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
-1|1048|Championship|[Ashburn Xtreme 2014](https://gamesheetstats.com/seasons/3659/teams/140217/schedule)|16|14|2|0|0|0|177|14.8|-0.0
-2|500|Championship|[Long Island Whalers Squirt 2014](https://gamesheetstats.com/seasons/3659/teams/140221/schedule)|19|14|4|0|1|0|219|15.8|-0.0
-3|377|Championship|[MYHA 9U AA](https://gamesheetstats.com/seasons/3659/teams/140222/schedule)|16|9|5|0|2|0|255|11.8|-0.0
-4|327|Championship|[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140218/schedule)|32|20|9|0|0|3|852|20.8|-0.0
-5|119|Gold|[Rebels Sq Minor](https://gamesheetstats.com/seasons/3659/teams/140223/schedule)|10|6|2|0|1|1|165|7.9|0.0
-6|34|Gold|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140226/schedule)|39|14|21|1|2|1|536|17.4|0.0
-7|33|Gold|[Royals 9U AA White](https://gamesheetstats.com/seasons/3659/teams/140225/schedule)|29|15|13|1|0|0|141|16.4|0.0
-8|18|Gold|[Hartford Jr. Wolf Pack 2014 AHF](https://gamesheetstats.com/seasons/3659/teams/140219/schedule)|12|6|6|0|0|0|124|6.9|0.0
-9|11||[Arrows 10u Silver](https://gamesheetstats.com/seasons/3659/teams/140216/schedule)|19|6|11|1|1|0|127|8.4|0.0
-10|9||[Wilkes-Barre / Scranton Jr Knights](https://gamesheetstats.com/seasons/3659/teams/140228/schedule)|29|5|22|1|0|1|604|6.4|0.0
-11|8||[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140220/schedule)|30|10|18|2|0|0|84|11.9|0.0
-12|1||[RHC Squirt Minor AA](https://gamesheetstats.com/seasons/3659/teams/140224/schedule)|31|0|30|0|0|1|100|0.9|0.0
+1|1050|Championship|[Ashburn Xtreme 2014](https://gamesheetstats.com/seasons/3659/teams/140217/schedule)|16|14|2|0|0|0|179|14.8|-0.0
+2|536|Championship|[Long Island Whalers Squirt 2014](https://gamesheetstats.com/seasons/3659/teams/140221/schedule)|20|15|4|0|1|0|214|16.8|-0.0
+3|383|Championship|[MYHA 9U AA](https://gamesheetstats.com/seasons/3659/teams/140222/schedule)|16|9|5|0|2|0|262|11.8|-0.0
+4|331|Championship|[Delaware Ducks](https://gamesheetstats.com/seasons/3659/teams/140218/schedule)|34|22|9|0|0|3|805|22.8|-0.0
+5|96|Gold|[Rebels Sq Minor](https://gamesheetstats.com/seasons/3659/teams/140223/schedule)|11|6|3|0|1|1|195|7.9|0.0
+6|34|Gold|[Royals 9U AA White](https://gamesheetstats.com/seasons/3659/teams/140225/schedule)|30|16|13|1|0|0|140|17.4|0.0
+7|29|Gold|[Team Philadelphia](https://gamesheetstats.com/seasons/3659/teams/140226/schedule)|41|14|23|1|2|1|517|17.4|0.0
+8|16|Gold|[Hartford Jr. Wolf Pack 2014 AHF](https://gamesheetstats.com/seasons/3659/teams/140219/schedule)|12|6|6|0|0|0|132|6.9|0.0
+9|10||[Arrows 10u Silver](https://gamesheetstats.com/seasons/3659/teams/140216/schedule)|19|6|11|1|1|0|130|8.4|0.0
+10|8||[Wilkes-Barre / Scranton Jr Knights](https://gamesheetstats.com/seasons/3659/teams/140228/schedule)|29|5|22|1|0|1|603|6.4|0.0
+11|7||[Hollydell Hurricanes](https://gamesheetstats.com/seasons/3659/teams/140220/schedule)|31|10|19|2|0|0|89|11.9|0.0
+12|0||[RHC Squirt Minor AA](https://gamesheetstats.com/seasons/3659/teams/140224/schedule)|32|0|31|0|0|1|100|0.9|0.0
 
 ## Predictions
 Uses KRACH ratings to predict winning percentage of each team (row) against each opponent (column).
-||Ashburn Xtreme 2014|Long Island Whalers Squirt 2014|MYHA 9U AA|Delaware Ducks|Rebels Sq Minor|Team Philadelphia|Royals 9U AA White|Hartford Jr. Wolf Pack 2014 AHF|Arrows 10u Silver|Wilkes-Barre / Scranton Jr Knights|Hollydell Hurricanes|RHC Squirt Minor AA
+||Ashburn Xtreme 2014|Long Island Whalers Squirt 2014|MYHA 9U AA|Delaware Ducks|Rebels Sq Minor|Royals 9U AA White|Team Philadelphia|Hartford Jr. Wolf Pack 2014 AHF|Arrows 10u Silver|Wilkes-Barre / Scranton Jr Knights|Hollydell Hurricanes|RHC Squirt Minor AA
 | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: 
-|Ashburn Xtreme 2014|--| 68%| 74%| 76%| 90%| 97%| 97%| 98%| 99%| 99%| 99%|100%
-|Long Island Whalers Squirt 2014| 32%|--| 57%| 60%| 81%| 94%| 94%| 97%| 98%| 98%| 98%|100%
-|MYHA 9U AA| 26%| 43%|--| 54%| 76%| 92%| 92%| 96%| 97%| 98%| 98%|100%
-|Delaware Ducks| 24%| 40%| 46%|--| 73%| 90%| 91%| 95%| 97%| 97%| 98%|100%
-|Rebels Sq Minor| 10%| 19%| 24%| 27%|--| 78%| 78%| 87%| 92%| 93%| 94%|100%
-|Team Philadelphia|  3%|  6%|  8%| 10%| 22%|--| 51%| 66%| 76%| 80%| 81%| 99%
-|Royals 9U AA White|  3%|  6%|  8%|  9%| 22%| 49%|--| 65%| 75%| 79%| 80%| 98%
-|Hartford Jr. Wolf Pack 2014 AHF|  2%|  3%|  4%|  5%| 13%| 34%| 35%|--| 62%| 67%| 69%| 97%
-|Arrows 10u Silver|  1%|  2%|  3%|  3%|  8%| 24%| 25%| 38%|--| 55%| 57%| 96%
-|Wilkes-Barre / Scranton Jr Knights|  1%|  2%|  2%|  3%|  7%| 20%| 21%| 33%| 45%|--| 52%| 95%
-|Hollydell Hurricanes|  1%|  2%|  2%|  2%|  6%| 19%| 20%| 31%| 43%| 48%|--| 94%
-|RHC Squirt Minor AA|  0%|  0%|  0%|  0%|  0%|  1%|  2%|  3%|  4%|  5%|  6%|--
+|Ashburn Xtreme 2014|--| 66%| 73%| 76%| 92%| 97%| 97%| 98%| 99%| 99%| 99%|100%
+|Long Island Whalers Squirt 2014| 34%|--| 58%| 62%| 85%| 94%| 95%| 97%| 98%| 99%| 99%|100%
+|MYHA 9U AA| 27%| 42%|--| 54%| 80%| 92%| 93%| 96%| 97%| 98%| 98%|100%
+|Delaware Ducks| 24%| 38%| 46%|--| 78%| 91%| 92%| 95%| 97%| 98%| 98%|100%
+|Rebels Sq Minor|  8%| 15%| 20%| 22%|--| 74%| 77%| 85%| 91%| 92%| 93%|100%
+|Royals 9U AA White|  3%|  6%|  8%|  9%| 26%|--| 54%| 68%| 78%| 81%| 82%| 99%
+|Team Philadelphia|  3%|  5%|  7%|  8%| 23%| 46%|--| 64%| 75%| 79%| 80%| 98%
+|Hartford Jr. Wolf Pack 2014 AHF|  2%|  3%|  4%|  5%| 15%| 32%| 36%|--| 62%| 68%| 69%| 97%
+|Arrows 10u Silver|  1%|  2%|  3%|  3%|  9%| 22%| 25%| 38%|--| 56%| 57%| 96%
+|Wilkes-Barre / Scranton Jr Knights|  1%|  1%|  2%|  2%|  8%| 19%| 21%| 32%| 44%|--| 52%| 94%
+|Hollydell Hurricanes|  1%|  1%|  2%|  2%|  7%| 18%| 20%| 31%| 43%| 48%|--| 94%
+|RHC Squirt Minor AA|  0%|  0%|  0%|  0%|  0%|  1%|  2%|  3%|  4%|  6%|  6%|--
 
 ## Generation Details
 
@@ -44,7 +44,7 @@ Generated with command line:
 | Option | Value |
 | :----- | ----: |
 | Start Date | 2023-09-02 |
-| End Date | 2024-01-06 |
+| End Date | 2024-01-07 |
 | Max Iterations | 200 |
 | Max Ratings Diff | 1e-05 |
 | Overtime Win/Loss | 1.00 / 0.00 |
