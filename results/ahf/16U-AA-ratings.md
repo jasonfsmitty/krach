@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 16U AA KRACH Rankings
-Rankings generated on Thu Jan 11 07:16:27 2024.
+Rankings generated on Fri Jan 12 07:16:13 2024.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
@@ -106,6 +106,6 @@ Generated with command line:
 | Bonus Points | 0.00 |
 | Fake Ties | 0 |
 | Alpha Games | 1 |
-| Ignore teams | Royals 15U AA Gold,Lehigh Valley Phantoms Youth U15AA,York Devils,VFC 15AA Scandone,Philadelphia Blazers,Chicago Bulldogs,Highland Park Falcons,Orland Park Vikings,__KRACH_FAKE_TEAM__ |
+| Ignore teams | Royals 15U AA Gold,Lehigh Valley Phantoms Youth U15AA,York Devils,VFC 15AA Scandone,Chicago Bulldogs,Highland Park Falcons,Orland Park Vikings,Philadelphia Blazers,__KRACH_FAKE_TEAM__ |
 | Min Games Played | 4 |
 
