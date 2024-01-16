@@ -1,6 +1,6 @@
 [<- back to the index](readme.md)
 # 9U 2014 KRACH Rankings
-Rankings generated on Mon Jan 15 07:17:30 2024.
+Rankings generated on Tue Jan 16 07:16:38 2024.
 
 Rank|KRACH|Subdivision|Team|GP|W|L|T|OTW|OTL|SoS|Exp Wins|Win Diff
 ---:|---:|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:
