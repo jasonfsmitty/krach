@@ -23,8 +23,8 @@ Click below to see KRACH ratings for each division
 | [15U AA](15U-AA-ratings.md) | 2023-08-19 | 2024-01-15 |
 | [16U AA](16U-AA-ratings.md) | 2023-08-27 | 2024-01-15 |
 | [16U Gretzky](16U-Gretzky-ratings.md) | 2023-08-26 | 2024-01-07 |
-| [16U Lemieux](16U-Lemieux-ratings.md) | 2023-08-19 | 2024-01-14 |
+| [16U Lemieux](16U-Lemieux-ratings.md) | 2023-08-19 | 2024-01-16 |
 | [18U A](18U-A-ratings.md) | 2023-08-20 | 2024-01-07 |
 | [18U AA](18U-AA-ratings.md) | 2023-08-25 | 2024-01-15 |
 
-Generated on 2024-01-16 07:16:19.685741.
+Generated on 2024-01-17 07:16:49.217715.
