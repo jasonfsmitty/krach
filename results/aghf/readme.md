@@ -4,13 +4,13 @@ Click below to see KRACH ratings for each division
 
 | Division | Season Start | Latest Game |
 | :-- | :-- | :-- |
-| [10U](10U-ratings.md) | 2023-09-09 | 2024-01-07 |
-| [12U](12U-ratings.md) | 2023-09-09 | 2024-01-07 |
-| [14U Diamond](14U-Diamond-ratings.md) | 2023-09-09 | 2024-01-14 |
-| [14U Platinum](14U-Platinum-ratings.md) | 2023-09-09 | 2024-01-14 |
-| [16U Diamond](16U-Diamond-ratings.md) | 2023-09-09 | 2024-01-07 |
+| [10U](10U-ratings.md) | 2023-09-09 | 2024-01-20 |
+| [12U](12U-ratings.md) | 2023-09-09 | 2024-01-20 |
+| [14U Diamond](14U-Diamond-ratings.md) | 2023-09-09 | 2024-01-20 |
+| [14U Platinum](14U-Platinum-ratings.md) | 2023-09-09 | 2024-01-20 |
+| [16U Diamond](16U-Diamond-ratings.md) | 2023-09-09 | 2024-01-20 |
 | [16U Platinum](16U-Platinum-ratings.md) | 2023-09-09 | 2024-01-06 |
-| [19U Diamond](19U-Diamond-ratings.md) | 2023-08-23 | 2024-01-15 |
-| [19U Platinum](19U-Platinum-ratings.md) | 2023-09-09 | 2024-01-14 |
+| [19U Diamond](19U-Diamond-ratings.md) | 2023-08-23 | 2024-01-20 |
+| [19U Platinum](19U-Platinum-ratings.md) | 2023-09-09 | 2024-01-20 |
 
-Generated on 2024-01-20 07:15:39.523059.
+Generated on 2024-01-21 07:15:36.592992.
